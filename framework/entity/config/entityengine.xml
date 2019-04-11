@@ -52,8 +52,8 @@ access. For a detailed description see the core/docs/entityconfig.html file.
     <debug-xa-resources value="false" />  <!-- see https://issues.apache.org/jira/browse/OFBIZ-4282 for more -->
     
     <delegator name="default" entity-model-reader="main" entity-group-reader="main" entity-eca-reader="main" distributed-cache-clear-enabled="false">
-        <group-map group-name="org.apache.ofbiz" datasource-name="localderby"/>
-        <group-map group-name="org.apache.ofbiz.olap" datasource-name="localderbyolap"/>
+        <group-map group-name="org.apache.ofbiz" datasource-name="localpostgres"/>
+        <group-map group-name="org.apache.ofbiz.olap" datasource-name="localpostgresolap"/>
         <group-map group-name="org.apache.ofbiz.tenant" datasource-name="localderbytenant"/>
     </delegator>
     <!-- May be used when you create a service that manages many data for massive imports, this for performance reason or to escape functional cases --> 
@@ -484,9 +484,9 @@ access. For a detailed description see the core/docs/entityconfig.html file.
         <read-data reader-name="ext-demo"/>
         <inline-jdbc
                 jdbc-driver="org.postgresql.Driver"
-                jdbc-uri="jdbc:postgresql://127.0.0.1/ofbiz"
-                jdbc-username="ofbiz"
-                jdbc-password="ofbiz"
+                jdbc-uri="jdbc:postgresql://127.0.0.1/patanjali2"
+                jdbc-username="patanjali"
+                jdbc-password="patanjali"
                 isolation-level="ReadCommitted"
                 pool-minsize="2"
                 pool-maxsize="250"
@@ -520,9 +520,9 @@ access. For a detailed description see the core/docs/entityconfig.html file.
         <read-data reader-name="ext-demo"/>
         <inline-jdbc
                 jdbc-driver="org.postgresql.Driver"
-                jdbc-uri="jdbc:postgresql://127.0.0.1/ofbizolap"
-                jdbc-username="ofbiz"
-                jdbc-password="ofbiz"
+                jdbc-uri="jdbc:postgresql://127.0.0.1/patanjaliolap"
+                jdbc-username="patanjali"
+                jdbc-password="patanjali"
                 isolation-level="ReadCommitted"
                 pool-minsize="2"
                 pool-maxsize="250"

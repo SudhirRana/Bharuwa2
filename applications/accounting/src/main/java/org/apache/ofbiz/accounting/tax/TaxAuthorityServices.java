@@ -72,7 +72,7 @@ public class TaxAuthorityServices {
         BigDecimal basePrice = (BigDecimal) context.get("basePrice");
         BigDecimal shippingPrice = (BigDecimal) context.get("shippingPrice");
         Locale locale = (Locale) context.get("locale");
-
+        //Debug.logInfo("::::::::::rateProductTaxCalcForDisplay:::productStoreId:"+productStoreId, module);
         if (quantity == null) {
             quantity = ONE_BASE;
         }
@@ -122,7 +122,7 @@ public class TaxAuthorityServices {
                 }
 
                 List<GenericValue> taxAdustmentList = getTaxAdjustments(delegator, product, productStore, null,
-                        billToPartyId, taxAuthoritySet, basePrice, quantity, amount, shippingPrice, ZERO_BASE);
+                        billToPartyId, taxAuthoritySet, basePrice, quantity, amount, shippingPrice, ZERO_BASE, null);
                 if (taxAdustmentList.size() == 0) {
                     // this is something that happens every so often for different products and
                     // such, so don't blow up on it...
@@ -216,6 +216,7 @@ public class TaxAuthorityServices {
                         .toMap("errorString", e.toString()), locale));
             }
         }
+        
         if (shippingAddress == null || (shippingAddress.get("countryGeoId") == null && shippingAddress.get(
                 "stateProvinceGeoId") == null && shippingAddress.get("postalCodeGeoId") == null)) {
             String errMsg = UtilProperties.getMessage(resource, "AccountingTaxNoAddressSpecified", locale);
@@ -229,7 +230,10 @@ public class TaxAuthorityServices {
             }
             return ServiceUtil.returnError(errMsg);
         }
-
+        String shipStateGeoId = (String) shippingAddress.get("stateProvinceGeoId");
+        Debug.logInfo("::payToPartyId::"+payToPartyId+"::billToPartyId::"+billToPartyId + 
+         		"::: shipStateGeoId:"+shipStateGeoId + "::: country ::"+shippingAddress.get("countryGeoId"), module);        
+        
         // without knowing the TaxAuthority parties, just find all TaxAuthories for the
         // set of IDs...
         Set<GenericValue> taxAuthoritySet = new HashSet<>();
@@ -258,7 +262,7 @@ public class TaxAuthorityServices {
             totalPrice = totalPrice.add(itemAmount);
             
             List<GenericValue> taxList = getTaxAdjustments(delegator, product, productStore, payToPartyId,
-                    billToPartyId, taxAuthoritySet, itemPrice, itemQuantity, itemAmount, shippingAmount, ZERO_BASE);
+                    billToPartyId, taxAuthoritySet, itemPrice, itemQuantity, itemAmount, shippingAmount, ZERO_BASE, shipStateGeoId);
 
             // this is an add and not an addAll because we want a List of Lists of
             // GenericValues, one List of Adjustments per item
@@ -281,13 +285,13 @@ public class TaxAuthorityServices {
         if (orderShippingAmount != null && orderShippingAmount.compareTo(BigDecimal.ZERO) > 0) {
            for (GenericValue prod : productWeight.keySet()) {
                List<GenericValue> taxList = getTaxAdjustments(delegator, prod, productStore, payToPartyId, billToPartyId,
-                       taxAuthoritySet, ZERO_BASE, ZERO_BASE, ZERO_BASE, orderShippingAmount, null, productWeight.get(prod));
+                       taxAuthoritySet, ZERO_BASE, ZERO_BASE, ZERO_BASE, orderShippingAmount, null, productWeight.get(prod),shipStateGeoId);
                orderAdjustments.addAll(taxList);
            }
         }
         if (orderPromotionsAmount != null && orderPromotionsAmount.compareTo(BigDecimal.ZERO) != 0) {
             List<GenericValue> taxList = getTaxAdjustments(delegator, null, productStore, payToPartyId, billToPartyId,
-                    taxAuthoritySet, ZERO_BASE, ZERO_BASE, ZERO_BASE, null, orderPromotionsAmount);
+                    taxAuthoritySet, ZERO_BASE, ZERO_BASE, ZERO_BASE, null, orderPromotionsAmount, shipStateGeoId);
             orderAdjustments.addAll(taxList);
         }
 
@@ -334,17 +338,19 @@ public class TaxAuthorityServices {
             GenericValue productStore,
             String payToPartyId, String billToPartyId, Set<GenericValue> taxAuthoritySet,
             BigDecimal itemPrice, BigDecimal itemQuantity, BigDecimal itemAmount,
-            BigDecimal shippingAmount, BigDecimal orderPromotionsAmount) {
+            BigDecimal shippingAmount, BigDecimal orderPromotionsAmount, String shipStateGeoId) {
             return getTaxAdjustments(delegator, product, productStore, payToPartyId, billToPartyId, 
                     taxAuthoritySet, itemPrice, itemQuantity, itemAmount, shippingAmount, 
-                    orderPromotionsAmount, null);
+                    orderPromotionsAmount, null, shipStateGeoId);
     }
 
     private static List<GenericValue> getTaxAdjustments(Delegator delegator, GenericValue product,
             GenericValue productStore,
             String payToPartyId, String billToPartyId, Set<GenericValue> taxAuthoritySet,
             BigDecimal itemPrice, BigDecimal itemQuantity, BigDecimal itemAmount,
-            BigDecimal shippingAmount, BigDecimal orderPromotionsAmount, BigDecimal weight) {
+            BigDecimal shippingAmount, BigDecimal orderPromotionsAmount, BigDecimal weight, String shipStateGeoId) {
+    	
+    	Debug.logInfo(":::::payToPartyId::"+ payToPartyId + ":::::billToPartyId::"+ billToPartyId + "::", module);
         Timestamp nowTimestamp = UtilDateTime.nowTimestamp();
         List<GenericValue> adjustments = new LinkedList<>();
         
@@ -435,6 +441,10 @@ public class TaxAuthorityServices {
 
             // find the right entry(s) based on purchase amount
             for (GenericValue taxAuthorityRateProduct : lookupList) {
+            	if(taxAuthorityRateProduct.get("taxAuthPartyId")=="_NA_") {
+            		continue;
+            	}
+            	Debug.logInfo(":::taxAuthorityRateProduct::taxAuthPartyId"+taxAuthorityRateProduct.get("taxAuthPartyId")+ " :::taxPercentage:: "+taxAuthorityRateProduct.get("taxPercentage"), billToPartyId);
                 BigDecimal taxRate = taxAuthorityRateProduct.get("taxPercentage") != null ? taxAuthorityRateProduct
                         .getBigDecimal("taxPercentage") : ZERO_BASE;
                 taxRate = taxRate.multiply(weight);
@@ -563,6 +573,8 @@ public class TaxAuthorityServices {
                     // see if partyId is a member of any groups, if so honor their tax exemptions
                     // look for PartyRelationship with partyRelationshipTypeId=GROUP_ROLLUP, the
                     // partyIdTo is the group member, so the partyIdFrom is the groupPartyId
+                	Debug.logInfo(":::::taxAuthGeoId::"+ taxAuthGeoId +":::::payToPartyId::"+ payToPartyId + ":::::billToPartyId::"+ billToPartyId + "::", module);
+                	
                     Set<String> billToPartyIdSet = new HashSet<>();
                     billToPartyIdSet.add(billToPartyId);
                     List<GenericValue> partyRelationshipList = EntityQuery.use(delegator).from("PartyRelationship")
@@ -572,19 +584,28 @@ public class TaxAuthorityServices {
                     for (GenericValue partyRelationship : partyRelationshipList) {
                         billToPartyIdSet.add(partyRelationship.getString("partyIdFrom"));
                     }
-                    handlePartyTaxExempt(taxAdjValue, billToPartyIdSet, taxAuthGeoId, taxAuthPartyId, taxAmount,
-                            nowTimestamp, delegator);
-                } else {
+                    handlePartyTaxExempt(taxAdjValue, billToPartyIdSet, taxAuthGeoId, taxAuthPartyId, taxAmount, nowTimestamp, delegator);
+                }else {
                     Debug.logInfo(
                             "NOTE: A tax calculation was done without a billToPartyId or taxAuthGeoId, so no tax exemptions or tax IDs considered; billToPartyId=["
                                     + billToPartyId + "] taxAuthGeoId=[" + taxAuthGeoId + "]", module);
                 }
+                
+                //  Recalculate SGST/IGST/CGST according the payto and billto address detail.
+                if (UtilValidate.isNotEmpty(billToPartyId) && UtilValidate.isNotEmpty(payToPartyId)  && UtilValidate.isNotEmpty(taxAuthGeoId)) {
+                   	Debug.logInfo(":::::payToPartyId::"+ payToPartyId + ":::::billToPartyId::"+ billToPartyId + "::", module);
+                	Set<String> billToPartyIdSet = new HashSet<>();
+                    billToPartyIdSet.add(billToPartyId);
+                    handleIndiaGstCalc(adjustments, taxAdjValue, billToPartyIdSet,payToPartyId,shipStateGeoId, taxAuthGeoId, taxAuthPartyId, taxAmount, nowTimestamp, delegator);
+                }                
+                
                 if (discountedSalesTax.compareTo(BigDecimal.ZERO) < 0) {
                     GenericValue taxAdjValueNegative = delegator.makeValue("OrderAdjustment");
                     taxAdjValueNegative.setFields(taxAdjValue);
                     taxAdjValueNegative.set("amountAlreadyIncluded", discountedSalesTax);
                     adjustments.add(taxAdjValueNegative);
                 }
+
                 adjustments.add(taxAdjValue);
 
                 if (productPrice != null && itemQuantity != null &&
@@ -646,7 +667,8 @@ public class TaxAuthorityServices {
                         if (taxAuthGeoId != null) {
                             correctionAdjValue.set("taxAuthGeoId", taxAuthGeoId);
                         }
-                        adjustments.add(correctionAdjValue);
+                        //Temporarilty disalbed for GST india calcualtions.
+                        //adjustments.add(correctionAdjValue);
                     }
                 }
             }
@@ -744,6 +766,7 @@ public class TaxAuthorityServices {
 
         // if no exceptions were found for the current; try the parent
         if (!foundExemption) {
+        	Debug.logInfo("Checking for tax exemption : " + taxAuthGeoId + " / " + taxAuthPartyId + " ::: foundExemption:"+foundExemption, module);
             // try the "parent" TaxAuthority
             GenericValue taxAuthorityAssoc = EntityQuery.use(delegator).from("TaxAuthorityAssoc")
                     .where("toTaxAuthGeoId", taxAuthGeoId, "toTaxAuthPartyId", taxAuthPartyId,
@@ -755,4 +778,94 @@ public class TaxAuthorityServices {
             }
         }
     }
+    
+    
+   private static void handleIndiaGstCalc(List <GenericValue> adjustments, GenericValue adjValue, Set<String> billToPartyId, String payToPartyId, String shipStateGeoId, String taxAuthGeoId,
+            String taxAuthPartyId, BigDecimal taxAmount, Timestamp nowTimestamp, Delegator delegator)
+            throws GenericEntityException {
+        Debug.logInfo("Checking for tax : " + taxAuthGeoId + " / " + taxAuthPartyId + " :::shipStateGeoId::"+shipStateGeoId, module);
+        String overrideGlAccountId  = adjValue.getString("overrideGlAccountId");
+        
+        String comments  = adjValue.getString("comments");
+        BigDecimal sourcePercentage = adjValue.getBigDecimal("sourcePercentage");
+        BigDecimal amountAlreadyIncluded = adjValue.getBigDecimal("amountAlreadyIncluded");
+        //BigDecimal taxAmount = adjValue.getBigDecimal("amountAlreadyIncluded");
+        boolean foundGst = false;
+        if(shipStateGeoId != null) {
+            List<Map<String, Object>> taxAuthGeoAddress = ContactMechWorker.getPartyContactMechValueMaps(delegator, payToPartyId, false, "POSTAL_ADDRESS");
+            String stateProvinceGeoId = "";
+            // loop through results
+            for (Map<String, Object> thisMap: taxAuthGeoAddress) {
+                GenericValue contactMech = (GenericValue) thisMap.get("contactMech");
+               /* GenericValue partyContactMech = (GenericValue) thisMap.get("partyContactMech");
+                List<GenericValue> partyContactMechPurposes = UtilGenerics.checkList(thisMap.get("partyContactMechPurposes"));*/
+                // get the contactMechId
+                String contactMechId = contactMech.getString("contactMechId");
+                GenericValue payToPartyAddress = EntityQuery.use(delegator).from("PostalAddress").where("contactMechId",contactMechId).queryOne();
+                stateProvinceGeoId = payToPartyAddress.getString("stateProvinceGeoId");
+                //Debug.logInfo(":###::contactMechId:: " + contactMechId +"::: stateProvinceGeoId:"+stateProvinceGeoId, module);
+            }
+            
+            
+            Debug.logInfo(":###::shipStateGeoId:: " + shipStateGeoId +"::: stateProvinceGeoId:"+stateProvinceGeoId + "::overrideGlAccountId::"+overrideGlAccountId, module);
+            List<GenericValue> gstGlAccounts = EntityQuery.use(delegator).from("GlAccount").where("glAccountTypeId", "CURRENT_LIABILITY", "parentGlAccountId",overrideGlAccountId).queryList();
+            for (GenericValue gstGlAccount:gstGlAccounts) {
+            	String taxAuthGlAccountId = gstGlAccount.getString("glAccountId");
+                String applicableGst= gstGlAccount.getString("externalId");
+                //Debug.logInfo(":::taxAuthGlAccountId::::"+taxAuthGlAccountId + ":::applicableGst:::"+applicableGst, module);
+                if(!UtilValidate.isEmpty(applicableGst)) {
+                	if(shipStateGeoId.equals(stateProvinceGeoId)) {
+                		Debug.logInfo("::same state so apply both SGST and CGST 50:50 % ", module);
+                		//update sgst value with half tax amount
+                		if("SGST".equals(applicableGst)){ //
+                			if(amountAlreadyIncluded != null) {
+                				adjValue.set("amountAlreadyIncluded", amountAlreadyIncluded.divide(new BigDecimal("2"), salestaxCalcDecimals,salestaxRounding ));
+                			}else {
+                				adjValue.set("amount", taxAmount.divide(new BigDecimal("2"), salestaxCalcDecimals,salestaxRounding ));
+                			}
+                			adjValue.set("sourcePercentage", sourcePercentage.divide(new BigDecimal("2"), salestaxCalcDecimals,salestaxRounding ));
+                			adjValue.set("customerReferenceId","SGST");
+                            adjValue.set("overrideGlAccountId", taxAuthGlAccountId);
+                            adjValue.set("comments", comments.replace("GST", "SGST"));
+                            //Debug.logError("::::sourcePercentage::"+sourcePercentage, module);
+                		}
+                		if("CGST".equals(applicableGst)) {
+                                GenericValue cgstAdjValue = delegator.makeValue("OrderAdjustment");
+                                cgstAdjValue.setFields(adjValue);
+                                if(amountAlreadyIncluded != null) {
+                    				adjValue.set("amountAlreadyIncluded", amountAlreadyIncluded.divide(new BigDecimal("2"), salestaxCalcDecimals,salestaxRounding ));
+                    			}else {
+                    				adjValue.set("amount", taxAmount.divide(new BigDecimal("2"), salestaxCalcDecimals,salestaxRounding ));
+                    			}
+	                			cgstAdjValue.set("sourcePercentage", sourcePercentage.divide(new BigDecimal("2"), salestaxCalcDecimals,salestaxRounding ));
+	                			cgstAdjValue.set("customerReferenceId","CGST");
+	                			cgstAdjValue.set("overrideGlAccountId", taxAuthGlAccountId);
+	                			cgstAdjValue.set("comments", comments.replace("GST", "CGST"));
+	                			adjustments.add(cgstAdjValue);
+                		}
+                	}else if(!shipStateGeoId.equals(stateProvinceGeoId) && ("IGST".equals(applicableGst))) {
+                		Debug.logInfo("::different state so only both IGST 100% ", module);
+                		adjValue.set("customerReferenceId","IGST");
+                        adjValue.set("overrideGlAccountId", taxAuthGlAccountId);
+                        adjValue.set("comments", comments.replace("GST", "IGST"));
+                	}
+                }
+            }         	
+        }
+        
+        // if no exceptions were found for the current; try the parent
+       /* if (!foundGST) {
+        	Debug.logInfo("Checking for tax exemption : " + taxAuthGeoId + " / " + taxAuthPartyId + " ::: foundExemption:"+foundExemption, module);
+            // try the "parent" TaxAuthority
+            GenericValue taxAuthorityAssoc = EntityQuery.use(delegator).from("TaxAuthorityAssoc")
+                    .where("toTaxAuthGeoId", taxAuthGeoId, "toTaxAuthPartyId", taxAuthPartyId,
+                            "taxAuthorityAssocTypeId", "EXEMPT_INHER")
+                    .orderBy("-fromDate").filterByDate().queryFirst();
+            if (taxAuthorityAssoc != null) {
+            	handleIndiaGstCalc(adjValue, billToPartyIdSet, taxAuthorityAssoc.getString("taxAuthGeoId"),
+                        taxAuthorityAssoc.getString("taxAuthPartyId"), taxAmount, nowTimestamp, delegator);
+            }
+        }*/
+    }   
+    
 }

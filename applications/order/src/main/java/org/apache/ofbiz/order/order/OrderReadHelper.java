@@ -2293,7 +2293,9 @@ public class OrderReadHelper {
         BigDecimal taxGrandTotal = (BigDecimal) orderTaxByTaxAuthGeoAndParty.get("taxGrandTotal");
         adjustments = EntityUtil.filterByAnd(adjustments, UtilMisc.toList(EntityCondition.makeCondition("orderAdjustmentTypeId", EntityOperator.NOT_EQUAL, "SALES_TAX")));
         BigDecimal total = getOrderItemsTotal(orderItems, adjustments);
+        Debug.logInfo(":::::total::"+total, module);
         BigDecimal adj = getOrderAdjustmentsTotal(orderItems, adjustments);
+        Debug.logInfo(":::::adj::"+adj, module);
         total = ((total.add(taxGrandTotal)).add(adj)).setScale(scale,rounding);
         return total;
     }
@@ -2397,6 +2399,7 @@ public class OrderReadHelper {
             BigDecimal amount = orderSubTotal.multiply(percent).multiply(percentage);
             adjustment = adjustment.add(amount);
         }
+        Debug.logError("############## orderAdjustmentTypeId::::"+orderAdjustment.get("orderAdjustmentTypeId"), module);
         if ("SALES_TAX".equals(orderAdjustment.get("orderAdjustmentTypeId"))) {
             return adjustment.setScale(taxCalcScale, taxRounding);
         }

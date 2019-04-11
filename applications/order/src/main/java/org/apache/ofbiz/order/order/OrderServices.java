@@ -1451,7 +1451,7 @@ public class OrderServices {
 
             // get the new grand total
             BigDecimal updatedTotal = orh.getOrderGrandTotal();
-
+            
             String productStoreId = orderHeader.getString("productStoreId");
             String showPricesWithVatTax = null;
             if (UtilValidate.isNotEmpty(productStoreId)) {
