@@ -18,9 +18,11 @@ under the License.
 -->
 <#assign countries = Static["org.apache.ofbiz.common.CommonWorkers"].getCountryList(delegator)>
 <#list countries as country>
-  <#if defaultCountryGeoId??>
-    <option value='${country.geoId}' ${(country.geoId==defaultCountryGeoId)?string("selected=\"selected\"","")}>${country.get("geoName",locale)?default(country.geoId)}</option>
-  <#else>
-    <option value='${country.geoId}'>${country.get("geoName",locale)?default(country.geoId)}</option>
-  </#if>
+	<#if country.geoId == "IND">
+  		<#if defaultCountryGeoId??>
+    		<option value='${country.geoId}' ${(country.geoId==defaultCountryGeoId)?string("selected=\"selected\"","")}>${country.get("geoName",locale)?default(country.geoId)}</option>
+  		<#else>
+    		<option value='${country.geoId}'>${country.get("geoName",locale)?default(country.geoId)}</option>
+  		</#if>
+	</#if>
 </#list>

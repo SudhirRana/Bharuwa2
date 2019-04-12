@@ -484,7 +484,7 @@ access. For a detailed description see the core/docs/entityconfig.html file.
         <read-data reader-name="ext-demo"/>
         <inline-jdbc
                 jdbc-driver="org.postgresql.Driver"
-                jdbc-uri="jdbc:postgresql://127.0.0.1/patanjali2"
+                jdbc-uri="jdbc:postgresql://127.0.0.1/patanjali"
                 jdbc-username="patanjali"
                 jdbc-password="patanjali"
                 isolation-level="ReadCommitted"
