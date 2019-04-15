@@ -28,7 +28,7 @@
                 <set field="titleProperty" value="SetupCreateNewOrganization"/>
                 <set field="target" value="createOrganization"/>
                 <set field="previousParams" from-field="_PREVIOUS_PARAMS_" from-scope="user"/>
-                <property-to-field field="defaultCountryGeoId" resource="general" property="country.geo.id.default" default="USA"/>
+                <property-to-field field="defaultCountryGeoId" resource="general" property="country.geo.id.default" default="IND"/>
                 <entity-condition entity-name="PartyRole" list="parties">
                     <condition-expr field-name="roleTypeId" operator="equals" value="INTERNAL_ORGANIZATIO"/>
                 </entity-condition>
@@ -126,7 +126,7 @@
                 
                 <set field="partyId" from-field="parameters.partyId"/>
                 <entity-one entity-name="PartyGroup" value-field="partyGroup"/>
-                <property-to-field field="defaultCurrencyUomId" resource="general" property="currency.uom.id.default" default="USD"/>
+                <property-to-field field="defaultCurrencyUomId" resource="general" property="currency.uom.id.default" default="INR"/>
                 <script location="component://commonext/groovyScripts/ofbizsetup/GetProductStoreAndWebSite.groovy"/>
                 <script location="component://commonext/groovyScripts/ofbizsetup/FindFacility.groovy"/>
             </actions>

@@ -355,7 +355,7 @@
     </form>
     <form name="CreateFeaturePrice" type="single" target="createFeaturePrice">
         <actions>
-            <property-to-field field="defaultCurrencyUomId" resource="general" property="currency.uom.id.default" default="USD"/>
+            <property-to-field field="defaultCurrencyUomId" resource="general" property="currency.uom.id.default" default="INR"/>
         </actions>
         <field name="productFeatureId"><hidden/></field>
         <field name="productPriceTypeId" title="${uiLabelMap.ProductPriceType}">

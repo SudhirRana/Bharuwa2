@@ -321,7 +321,7 @@ under the License.
                 <set field="titleProperty" value="AccountingFX"/>
                 <set field="labelTitleProperty" from-field="uiLabelMap.AccountingFX"/>
                 <set field="tabButtonItem" value="ViewFXConversions"/>
-                <property-to-field field="defaultCurrencyUomId" resource="general" property="currency.uom.id.default" default="USD"/>
+                <property-to-field field="defaultCurrencyUomId" resource="general" property="currency.uom.id.default" default="INR"/>
                 <!-- TODO: If UomConversionDated is ever used for another type of conversion besides currencies or if some currencies are
                     stored in UomConversion, we need to change the logic here -->
                 <entity-condition entity-name="UomConversionDated" list="conversions">

@@ -104,7 +104,7 @@ under the License.
                 <property-map resource="ProductUiLabels" map-name="uiLabelMap" global="true"/>
                 <set field="title" from-field="uiLabelMap.PageTitleLookupProductPrice"/>
                 <set field="queryString" from-field="result.queryString"/>
-                <property-to-field field="defaultCurrencyUomId" resource="general" property="currency.uom.id.default" default="USD"/>
+                <property-to-field field="defaultCurrencyUomId" resource="general" property="currency.uom.id.default" default="INR"/>
                 <set field="entityName" value="ProductAndPriceView"/>
                 <set field="searchFields" value="[productId, internalName]"/>
                 <set field="displayFields" value="[productId, internalName, price, currencyUomId]"/>

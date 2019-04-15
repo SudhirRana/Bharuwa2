@@ -68,7 +68,7 @@ under the License.
                 <set field="responseName" value="stateList"/>
                 <set field="dependentKeyName" value="geoId"/>
                 <set field="descName" value="geoName"/>
-                <set field="selectedDependentOption" from-field="country.geo.id.default" default-value="USA"/>
+                <set field="selectedDependentOption" from-field="country.geo.id.default" default-value="IND"/>
             </actions>
             <widgets>
                 <decorator-screen name="main-decorator" location="${parameters.mainDecoratorLocation}">

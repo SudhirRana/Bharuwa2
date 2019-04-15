@@ -231,7 +231,7 @@ under the License.
                 <set field="quoteId" from-field="parameters.quoteId"/>
                 <entity-one entity-name="Quote" value-field="quote"/>
 
-                <property-to-field field="defaultCurrencyUomId" resource="general" property="currency.uom.id.default" default="USD"/>
+                <property-to-field field="defaultCurrencyUomId" resource="general" property="currency.uom.id.default" default="INR"/>
             </actions>
             <widgets>
                 <decorator-screen name="CommonQuoteDecorator" location="${parameters.quoteDecoratorLocation}">

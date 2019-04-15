@@ -181,7 +181,7 @@ under the License.
                     <order-by field-name="fromDate"/>
                 </entity-and>
 
-                <property-to-field field="defaultCurrencyUomId" resource="general" property="currency.uom.id.default" default="USD"/>
+                <property-to-field field="defaultCurrencyUomId" resource="general" property="currency.uom.id.default" default="INR"/>
             </actions>
             <widgets>
                 <decorator-screen name="CommonProductDecorator" location="${parameters.productDecoratorLocation}">
@@ -470,7 +470,7 @@ under the License.
                 <set field="productCostComponentId" from-field="parameters.productCostComponentId"/>
 
                 <!-- default currency in framework/common/config/general.properties -->
-                <property-to-field field="defaultCurrencyUomId" resource="general" property="currency.uom.id.default" default="USD"/>
+                <property-to-field field="defaultCurrencyUomId" resource="general" property="currency.uom.id.default" default="INR"/>
 
                 <entity-one entity-name="CostComponent" value-field="costComponent" auto-field-map="false">
                     <field-map field-name="costComponentId" from-field="productCostComponentId"/>
@@ -878,7 +878,7 @@ under the License.
                 <set field="labelTitleProperty" value="ProductSuppliers"/>
 
                 <!-- default currency in framework/common/config/general.properties -->
-                <property-to-field field="defaultCurrencyUomId" resource="general" property="currency.uom.id.default" default="USD"/>
+                <property-to-field field="defaultCurrencyUomId" resource="general" property="currency.uom.id.default" default="INR"/>
                 <set field="orderBy" from-field="parameters.sortField" default-value="partyId"/>
                 <entity-and entity-name="SupplierProduct" list="productSuppliers">
                     <field-map field-name="productId" from-field="parameters.productId"/>
@@ -1393,7 +1393,7 @@ under the License.
                     <order-by field-name="fromDate"/>
                 </entity-and>
 
-                <property-to-field field="defaultCurrencyUomId" resource="general" property="currency.uom.id.default" default="USD"/>
+                <property-to-field field="defaultCurrencyUomId" resource="general" property="currency.uom.id.default" default="INR"/>
             </actions>
             <widgets>
                 <decorator-screen name="CommonProductDecorator" location="${parameters.productDecoratorLocation}">

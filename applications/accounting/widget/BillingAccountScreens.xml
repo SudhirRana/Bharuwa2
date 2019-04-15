@@ -121,7 +121,7 @@ under the License.
                 <set field="titleProperty" value="PageTitleEditBillingAccount"/>
                 <set field="headerItem" value="billingaccount"/>
                 <set field="tabButtonItem" value="EditBillingAccount"/>
-                <property-to-field field="defaultCurrencyUomId" resource="general" property="currency.uom.id.default" default="USD"/>
+                <property-to-field field="defaultCurrencyUomId" resource="general" property="currency.uom.id.default" default="INR"/>
                 <set field="billingAccountId" from-field="parameters.billingAccountId"/>
                 <entity-one entity-name="BillingAccount" value-field="billingAccount"/>
                 <entity-and entity-name="BillingAccountRole" list="billingAccountRolesCustomer" filter-by-date="true">

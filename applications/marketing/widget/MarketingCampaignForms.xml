@@ -23,7 +23,7 @@ under the License.
 
      <form name="EditMarketingCampaign" type="single" target="updateMarketingCampaign" title="" default-map-name="marketingCampaign">
         <actions>
-            <property-to-field field="defaultCurrencyUomId" resource="general" property="currency.uom.id.default" default="USD"/>
+            <property-to-field field="defaultCurrencyUomId" resource="general" property="currency.uom.id.default" default="INR"/>
         </actions>
         <alt-target use-when="marketingCampaign==null" target="createMarketingCampaign"/>
         <auto-fields-entity entity-name="MarketingCampaign"/>

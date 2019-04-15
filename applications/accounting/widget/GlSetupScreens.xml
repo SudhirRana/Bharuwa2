@@ -205,7 +205,7 @@ under the License.
                 <set field="titleProperty" value="AccountingPreference"/>
                 <set field="labelTitleProperty" from-field="uiLabelMap.AccountingPreference"/>
                 <set field="tabButtonItem" value="PartyAcctgPreference"/>
-                <property-to-field field="defaultCurrencyUomId" resource="general" property="currency.uom.id.default" default="USD"/>
+                <property-to-field field="defaultCurrencyUomId" resource="general" property="currency.uom.id.default" default="INR"/>
                 <set field="organizationPartyId" value="${groovy:if(parameters.organizationPartyId!=null) return parameters.organizationPartyId else return parameters.get('ApplicationDecorator|organizationPartyId')}"/>
                 <set field="partyId" from-field="organizationPartyId"/>
                 <entity-one entity-name="PartyAcctgPreference" value-field="partyAcctgPreference"/>
@@ -228,7 +228,7 @@ under the License.
                 <set field="titleProperty" value="AccountingPreference"/>
                 <set field="labelTitleProperty" from-field="uiLabelMap.AccountingPreference"/>
                 <set field="tabButtonItem" value="PartyPrefDocTypeTpl"/>
-                <property-to-field field="defaultCurrencyUomId" resource="general" property="currency.uom.id.default" default="USD"/>
+                <property-to-field field="defaultCurrencyUomId" resource="general" property="currency.uom.id.default" default="INR"/>
                 <set field="organizationPartyId" value="${groovy:if(parameters.organizationPartyId!=null) return parameters.organizationPartyId else return parameters.get('ApplicationDecorator|organizationPartyId')}"/>
                 <set field="partyId" from-field="organizationPartyId"/>
             </actions>

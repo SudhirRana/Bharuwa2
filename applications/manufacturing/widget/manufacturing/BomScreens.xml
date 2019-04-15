@@ -106,7 +106,7 @@ under the License.
                 <set field="amount" from-field="parameters.amount"/>
 
                 <set field="productFeatureApplTypeId" value="STANDARD_FEATURE"/>
-                <property-to-field field="defaultCurrencyUomId" resource="general" property="currency.uom.id.default" default="USD"/>
+                <property-to-field field="defaultCurrencyUomId" resource="general" property="currency.uom.id.default" default="INR"/>
 
                 <entity-and entity-name="ProductFeatureAndAppl" list="selectedFeatures">
                     <field-map field-name="productId" from-field="productId"/>

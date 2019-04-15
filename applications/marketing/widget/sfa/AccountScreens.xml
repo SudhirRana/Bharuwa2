@@ -81,7 +81,7 @@ under the License.
                 <set field="headerItem" value="Accounts"/>
                 <set field="titleProperty" value="PageTitleCreateAccount"/>
                 <set field="accountType" from-field="parameters.accountType"/>
-                <property-to-field field="defaultCountryGeoId" resource="general" property="country.geo.id.default" default="USA"/>
+                <property-to-field field="defaultCountryGeoId" resource="general" property="country.geo.id.default" default="IND"/>
                 
                 <set field="dependentForm" value="NewAccount"/>
                 <set field="paramKey" value="countryGeoId"/>

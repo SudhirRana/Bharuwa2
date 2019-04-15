@@ -789,7 +789,7 @@ under the License.
     <form name="AddWorkEffortRate" type="single" target="updateWorkEffortRate" title=""
         header-row-style="header-row" default-table-style="basic-table">
         <actions>
-            <property-to-field field="defaultCurrencyUomId" resource="general" property="currency.uom.id.default" default="USD"/>
+            <property-to-field field="defaultCurrencyUomId" resource="general" property="currency.uom.id.default" default="INR"/>
             <set field="periodTypeId" value="RATE_HOUR"/>
         </actions>
         <field name="workEffortId"><hidden/></field>

@@ -181,7 +181,7 @@ under the License.
                 <set field="buttonBarItem" value="EditAgreementItem"/>
                 <set field="agreementId" from-field="parameters.agreementId"/>
                 <entity-one entity-name="Agreement" value-field="agreement"/>
-                <property-to-field field="defaultCurrencyUomId" resource="general" property="currency.uom.id.default" default="USD"/>
+                <property-to-field field="defaultCurrencyUomId" resource="general" property="currency.uom.id.default" default="INR"/>
                 <set field="agreementItemSeqId" from-field="parameters.agreementItemSeqId"/>
                 <entity-one entity-name="AgreementItem" value-field="agreementItem"/>
             </actions>

@@ -446,7 +446,7 @@ under the License.
                 <set field="tabButtonItem" value="listInvoiceItems"/>
                 <set field="invoiceId" from-field="parameters.invoiceId"/>
                 <set field="invoiceItemSeqd" from-field="parameters.invoiceItemSeqId"/>
-                <property-to-field field="defaultCurrencyUomId" resource="general" property="currency.uom.id.default" default="USD"/>
+                <property-to-field field="defaultCurrencyUomId" resource="general" property="currency.uom.id.default" default="INR"/>
                 <entity-one entity-name="Invoice" value-field="invoice"/>
                 <entity-one entity-name="InvoiceItem" value-field="invoiceItem"/>
                 <entity-and entity-name="InvoiceItem" list="invoiceItems">

@@ -33,7 +33,7 @@ under the License.
     <screen name="countries">
         <section>
             <actions>
-                <property-to-field field="defaultCountryGeoId" resource="general" property="country.geo.id.default" default="USA"/>
+                <property-to-field field="defaultCountryGeoId" resource="general" property="country.geo.id.default" default="IND"/>
             </actions>
             <widgets>
                 <include-screen name="MinimalActions" />

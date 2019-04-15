@@ -116,7 +116,7 @@ under the License.
                 <set field="headerItem" value="payments"/>
                 <set field="tabButtonItem" value="editPayment"/>
                 <set field="paymentId" from-field="parameters.paymentId"/>
-                <property-to-field field="defaultCurrencyUomId" resource="general" property="currency.uom.id.default" default="USD"/>
+                <property-to-field field="defaultCurrencyUomId" resource="general" property="currency.uom.id.default" default="INR"/>
             </actions>
             <widgets>
                 <decorator-screen name="main-decorator" location="${parameters.mainDecoratorLocation}">

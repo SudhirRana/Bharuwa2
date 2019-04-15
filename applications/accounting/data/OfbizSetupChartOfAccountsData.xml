@@ -402,9 +402,13 @@ under the License.
     <CustomTimePeriod organizationPartyId="Company" customTimePeriodId="6019" periodTypeId="FISCAL_QUARTER" fromDate="2011-10-01 00:00:00.000" thruDate="2012-01-01 23:59:59.000" isClosed="N" periodNum="5" periodName="2011/Q4" parentPeriodId="6015"/>
 
     <!-- to convert demo invoice -->
-    <UomConversionDated uomId="USD" uomIdTo="EUR" fromDate="2001-01-01 00:00:00.0" conversionFactor="0.7"/>
-    <UomConversionDated uomId="EUR" uomIdTo="USD" fromDate="2001-01-01 00:00:00.0" conversionFactor="1.5"/>
+    <!-- <UomConversionDated uomId="USD" uomIdTo="EUR" fromDate="2001-01-01 00:00:00.0" conversionFactor="0.89"/>
+    <UomConversionDated uomId="EUR" uomIdTo="USD" fromDate="2001-01-01 00:00:00.0" conversionFactor="1.13"/>
     <UomConversionDated uomId="USD" uomIdTo="USD" fromDate="2001-01-01 00:00:00.0" conversionFactor="1"/>
+     -->
+    <UomConversionDated uomId="USD" uomIdTo="INR" fromDate="2019-04-12 00:00:00.0" conversionFactor="69.24"/>
+    <UomConversionDated uomId="INR" uomIdTo="USD" fromDate="2019-04-12 00:00:00.0" conversionFactor="0.014"/>
+    <UomConversionDated uomId="INR" uomIdTo="INR" fromDate="2019-04-12 00:00:00.0" conversionFactor="1"/>
 
     <!-- Gl Reconciliation -->
     <GlReconciliation glReconciliationId="9000" glReconciliationName="demoGlReconciliation" glAccountId="111100" statusId="GLREC_RECONCILED" organizationPartyId="Company" reconciledBalance="75000.00" reconciledDate="2009-08-08 20:03:14.000"/>

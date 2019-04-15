@@ -89,7 +89,7 @@ under the License.
                 <set field="headerItem" value="return"/>
                 <set field="tabButtonItem" value="OrderReturnHeader"/>
                 <set field="layoutSettings.javaScripts[+0]" value="/ordermgr-js/return.js" global="true"/>
-                <property-to-field field="defaultCurrencyUomId" resource="general" property="currency.uom.id.default" default="USD"/>
+                <property-to-field field="defaultCurrencyUomId" resource="general" property="currency.uom.id.default" default="INR"/>
                 <script location="component://order/groovyScripts/return/ReturnHeader.groovy"/>
             </actions>
             <widgets>

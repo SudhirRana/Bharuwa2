@@ -80,7 +80,7 @@ under the License.
             <actions>
                 <set field="titleProperty" value="PageTitleCreateLead"/>
                 <set field="headerItem" value="Leads"/>
-                <property-to-field field="defaultCountryGeoId" resource="general" property="country.geo.id.default" default="USA"/>
+                <property-to-field field="defaultCountryGeoId" resource="general" property="country.geo.id.default" default="IND"/>
             </actions>
             <widgets>
                 <decorator-screen name="CommonLeadDecorator" location="${parameters.mainDecoratorLocation}">

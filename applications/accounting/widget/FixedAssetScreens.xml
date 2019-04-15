@@ -203,7 +203,7 @@ under the License.
                 <set field="labelTitleProperty" value="PageTitleEditFixedAssetStdCosts"/>
                 <set field="fixedAssetId" from-field="parameters.fixedAssetId"/>
 
-                <property-to-field field="defaultCurrencyUomId" resource="general" property="currency.uom.id.default" default="USD"/>
+                <property-to-field field="defaultCurrencyUomId" resource="general" property="currency.uom.id.default" default="INR"/>
                 <entity-one entity-name="FixedAsset" value-field="fixedAsset" auto-field-map="true"/>
             </actions>
             <widgets>
