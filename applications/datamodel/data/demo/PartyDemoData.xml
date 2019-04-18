@@ -96,6 +96,13 @@ under the License.
     <PartyIdentificationType partyIdentificationTypeId="SIRET" description="French company identification number (SIRET)"/>
     <PartyIdentification partyId="DemoSupplier" partyIdentificationTypeId="SIRET" idValue="1234 5678 90123"/>
 
+	<ContactMech contactMechId="P9201" contactMechTypeId="TELECOM_NUMBER"/>
+	<PartyContactMech partyId="DemoSupplier" contactMechId="P9201" fromDate="2001-05-13 12:00:00.0"/>
+	<TelecomNumber contactMechId="P9201" countryCode="91" areaCode="801" contactNumber="555-5555"/>
+	<PartyContactMechPurpose partyId="DemoSupplier" contactMechId="P9201" contactMechPurposeTypeId="FAX_NUMBER" fromDate="2001-05-13 12:00:00.0"/>
+	<PartyContactMechPurpose partyId="DemoSupplier" contactMechId="P9201" contactMechPurposeTypeId="PRIMARY_PHONE" fromDate="2001-05-13 12:00:00.0"/>
+	<PartyContactMechPurpose partyId="DemoSupplier" contactMechId="P9201" contactMechPurposeTypeId="PHONE_MOBILE" fromDate="2001-05-13 12:00:00.0"/>
+	
     <Party partyId="AcctBigSupplier"/>
 
     <!-- email from an unknown party -->
