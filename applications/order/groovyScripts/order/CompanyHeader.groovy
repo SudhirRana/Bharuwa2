@@ -130,11 +130,18 @@ if (!partyId) {
 }
 
 // the logo
+def objectInfo = "";
 partyGroup = from("PartyGroup").where("partyId", partyId).queryOne()
 if (partyGroup) {
     partyContentWrapper = new PartyContentWrapper(dispatcher, partyGroup, locale, EntityUtilProperties.getPropertyValue("content", "defaultMimeType", "text/html; charset=utf-8", delegator))
     partyContent = partyContentWrapper.getFirstPartyContentByType(partyGroup.partyId , partyGroup, "LGOIMGURL", delegator)
     if (partyContent) {
+    	content = from("Content").where("contentId", partyContent.contentId).queryOne()
+    	dataResource = from("DataResource").where("dataResourceId", content.dataResourceId).queryOne();
+    	if(dataResource){
+    		objectInfo = dataResource.objectInfo.split("/webapp");
+    		objectInfo = objectInfo[1];
+		}
         logoImageUrl = "/content/control/stream?contentId=" + partyContent.contentId
     } else {
         if (partyGroup?.logoImageUrl) {
@@ -146,7 +153,7 @@ if (partyGroup) {
 if (logoImageUrl) {
     context.logoImageUrl = logoImageUrl
 }
-
+context.objectInfo = objectInfo;
 // the company name
 companyName = "Default Company"
 if (partyGroup?.groupName) {
@@ -172,6 +179,7 @@ if (address)    {
    stateProvince = address.getRelatedOne("StateProvinceGeo", true)
    if (stateProvince) {
        context.stateProvinceAbbr = stateProvince.abbreviation
+       context.stateProvinceName = stateProvince.get("geoName", locale)
    }
 }
 context.postalAddress = address
@@ -183,6 +191,15 @@ phones = from("PartyContactWithPurpose")
              .queryList()
 if (phones) {
     context.phone = from("TelecomNumber").where("contactMechId", phones[0].contactMechId).queryOne()
+}
+
+//mobiles
+mobiles = from("PartyContactWithPurpose")
+             .where("partyId", partyId, "contactMechPurposeTypeId", "PHONE_MOBILE")
+             .filterByDate("contactFromDate", "contactThruDate", "purposeFromDate", "purposeThruDate")
+             .queryList()
+if (mobiles) {
+    context.mobile = from("TelecomNumber").where("contactMechId", mobiles[0].contactMechId).queryOne()
 }
 
 // Fax
