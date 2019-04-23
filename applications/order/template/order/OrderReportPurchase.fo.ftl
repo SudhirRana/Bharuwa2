@@ -22,8 +22,8 @@ under the License.
 	    <fo:simple-page-master master-name="OrderStockPdf"
 	              page-width="8.27in" page-height="11.69in"
 	              margin-top="0" margin-bottom="0"
-	              margin-left="0.1in" margin-right="0">
-	            <fo:region-body margin-top="0" margin-bottom="0" background-image="http://localhost:8080/images/patanjaliWaterMark.png"/>
+	              margin-left="0.1in" margin-right="0.1in">
+	            <fo:region-body margin-top="0" margin-bottom="0" background-image="<@ofbizContentUrl>/images/patanjaliWaterMark.png</@ofbizContentUrl>"/>
 	            <fo:region-before extent="0.2in"/>
 	            <fo:region-after extent="2in" />
 	    </fo:simple-page-master>
