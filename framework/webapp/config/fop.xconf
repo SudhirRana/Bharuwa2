@@ -99,8 +99,9 @@ the location of this file.
           <auto-detect/>
           <directory>framework/resources/fonts/NotoSans</directory>
           <auto-embed/>
+          <directory>framework/resources/fonts/UbuntuFont</directory>
       </fonts>
-
+	
       <!-- This option lets you specify additional options on an XML handler -->
       <!--xml-handler namespace="http://www.w3.org/2000/svg">
         <stroke-text>false</stroke-text>

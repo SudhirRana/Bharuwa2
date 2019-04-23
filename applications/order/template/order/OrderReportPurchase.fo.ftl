@@ -17,7 +17,7 @@ specific language governing permissions and limitations
 under the License.
 -->
 <#escape x as x?xml>
-	<fo:root xmlns:fo="http://www.w3.org/1999/XSL/Format">
+	<fo:root xmlns:fo="http://www.w3.org/1999/XSL/Format" font-family="Verdana, Arial, sans-serif, Ubuntu">
 	  <fo:layout-master-set>
 	    <fo:simple-page-master master-name="OrderStockPdf"
 	              page-width="8.27in" page-height="11.69in"

@@ -51,7 +51,7 @@ under the License.
 													</fo:table-cell>
 													<fo:table-cell width="2.27cm">
 														<fo:block margin-top="1mm">
-															Quantity
+															${uiLabelMap.OrderQuantity}
 														</fo:block>
 													</fo:table-cell>
 													<fo:table-cell width="2.27cm">
@@ -77,76 +77,112 @@ under the License.
 												</fo:table-row>
 											</fo:table-body>
 										</fo:table>
-										<fo:table>
-											<fo:table-body>
-												<fo:table-row font-weight="normal">
-													<fo:table-cell width="2.27cm">
-														<fo:block margin-top="1mm">
-															10
-									                    </fo:block>
-													</fo:table-cell>
-													<fo:table-cell width="2.27cm">
-														<fo:block margin-top="1mm">
-															23869
-														</fo:block>
-													</fo:table-cell>
-													<fo:table-cell width="2.27cm">
-														<fo:block margin-top="1mm">
-															FAN WALL MOUNTED 16"
-														</fo:block>
-													</fo:table-cell>
-													<fo:table-cell width="2.27cm">
-														<fo:block margin-top="1mm">
-														</fo:block>
-													</fo:table-cell>
-													<fo:table-cell width="2.27cm">
-														<fo:block margin-top="1mm">
-															12.00
-														</fo:block>
-													</fo:table-cell>
-													<fo:table-cell width="2.27cm">
-														<fo:block margin-top="1mm">
-															PC
-														</fo:block>
-													</fo:table-cell>
-													<fo:table-cell width="2.27cm">
-														<fo:block margin-top="1mm">
-															1,500.00
-														</fo:block>
-													</fo:table-cell>
-													<fo:table-cell width="2.27cm">
-														<fo:block margin-top="1mm">
-														</fo:block>
-													</fo:table-cell>
-													<fo:table-cell width="2.27cm">
-														<fo:block margin-top="1mm">
-															18,000.00
-														</fo:block>
-													</fo:table-cell>
-												</fo:table-row>
-											</fo:table-body>
-										</fo:table>
 										
-										<fo:table>
-											<fo:table-body>
-												<fo:table-row>
-													<fo:table-cell width="20.5cm" font-weight="normal" margin-left="30mm" text-align="left">
-														<fo:block margin-top="2mm">
-															Taxes: CGST and SGST: 18% - Input
-									                    </fo:block>
-									                    <fo:block>
-															Delivery Date : 07.09.2018
-									                    </fo:block>
-									                    <fo:block>
-															Unloading Point: Patanjali Natural Biscuit Pvt Ltd Khasra No. 450,451,452, 247667
-									                    </fo:block>
-									                    <fo:block>
-															Lodhiwala,Bhagwanpur,RKE
-									                    </fo:block>
-													</fo:table-cell>
-												</fo:table-row>
-											</fo:table-body>
-										</fo:table>
+										<#if orderItems??>
+											<#list orderItemList as orderItem>
+												<#assign orderItemType = orderItem.getRelatedOne("OrderItemType", false)!>
+							                    <#assign productId = orderItem.productId!>
+							                    <#assign remainingQuantity = (orderItem.quantity?default(0) - orderItem.cancelQuantity?default(0))>
+							                    <#assign itemAdjustment = Static["org.apache.ofbiz.order.order.OrderReadHelper"].getOrderItemAdjustmentsTotal(orderItem, orderAdjustments, true, false, false)>
+							                    <#assign internalImageUrl = Static["org.apache.ofbiz.product.imagemanagement.ImageManagementHelper"].getInternalImageUrl(request, productId!)!>
+							                 	<fo:table>
+													<fo:table-body>
+														<fo:table-row font-weight="normal">
+															<fo:table-cell width="2.27cm">
+																<fo:block margin-top="1mm">
+																	${orderItem_index+1}
+											                    </fo:block>
+															</fo:table-cell>
+															<fo:table-cell width="2.27cm">
+																<fo:block margin-top="1mm">
+																	<#if orderItem.supplierProductId?has_content>
+									                                    ${orderItem.supplierProductId}
+									                                <#elseif productId??>
+									                                    ${orderItem.productId?default("N/A")}
+									                                <#elseif orderItemType??>
+									                                    ${orderItemType.get("description",locale)}
+									                                </#if><#-- 23869 -->
+																</fo:block>
+															</fo:table-cell>
+															<fo:table-cell width="2.27cm">
+																<fo:block margin-top="1mm">
+																	${orderItem.itemDescription!}
+																</fo:block>
+															</fo:table-cell>
+															<fo:table-cell width="2.27cm">
+																<fo:block margin-top="1mm">
+																</fo:block>
+															</fo:table-cell>
+															<fo:table-cell width="2.27cm">
+																<fo:block margin-top="1mm">
+																	${remainingQuantity}
+																</fo:block>
+															</fo:table-cell>
+															<fo:table-cell width="2.27cm">
+																<fo:block margin-top="1mm">
+																	PC
+																</fo:block>
+															</fo:table-cell>
+															<fo:table-cell width="2.27cm">
+																<fo:block margin-top="1mm">
+																	<@ofbizCurrency amount=orderItem.unitPrice isoCode=currencyUomId/>
+																</fo:block>
+															</fo:table-cell>
+															<fo:table-cell width="2.27cm">
+																<fo:block margin-top="1mm">
+																</fo:block>
+															</fo:table-cell>
+															<fo:table-cell width="2.27cm">
+																<fo:block margin-top="1mm">
+																	<#if orderItem.statusId != "ITEM_CANCELLED">
+									                                    <@ofbizCurrency amount=Static["org.apache.ofbiz.order.order.OrderReadHelper"].getOrderItemSubTotal(orderItem, orderAdjustments) isoCode=currencyUomId/>
+									                                <#else>
+									                                    <@ofbizCurrency amount=0.00 isoCode=currencyUomId/>
+									                                </#if>
+																</fo:block>
+															</fo:table-cell>
+														</fo:table-row>
+													</fo:table-body>
+												</fo:table>
+												<fo:table>
+													<fo:table-body>
+														<fo:table-row>
+															<fo:table-cell width="20.5cm" font-weight="normal" margin-left="30mm" text-align="left">
+																<fo:block margin-top="2mm">
+																	Taxes: CGST and SGST: 18% - Input
+											                    </fo:block>
+											                    <#if orderItem.estimatedShipDate??>
+								                             		<fo:block>
+								                                    	${uiLabelMap.OrderEstimatedShipDate} : ${Static["org.apache.ofbiz.base.util.UtilFormatOut"].formatDate(orderItem.estimatedShipDate, "dd.MM.yyyy", locale, timeZone)!}
+									                             	</fo:block>
+										                        </#if>
+										                        <#if orderItem.estimatedDeliveryDate??>
+									                            	<fo:block>
+									                                    ${uiLabelMap.OrderOrderQuoteEstimatedDeliveryDate} : ${Static["org.apache.ofbiz.base.util.UtilFormatOut"].formatDate(orderItem.estimatedDeliveryDate, "dd.MM.yyyy", locale, timeZone)!}
+									                               	</fo:block>
+										                        </#if>
+																<#assign orderItemShipGroupAssocs = orderItem.getRelated("OrderItemShipGroupAssoc", null, null, false)!>
+										                        <#if orderItemShipGroupAssocs?has_content>
+										                            <#list orderItemShipGroupAssocs as shipGroupAssoc>
+										                                <#assign shipGroup = shipGroupAssoc.getRelatedOne("OrderItemShipGroup", false)>
+										                                <#assign shipGroupAddress = shipGroup.getRelatedOne("PostalAddress", false)!>
+										                                <#assign stateGeo = EntityQuery.use(delegator).from("Geo").where("geoId", shipGroupAddress.stateProvinceGeoId).queryOne() />
+										                                <#assign countryGeo = EntityQuery.use(delegator).from("Geo").where("geoId", shipGroupAddress.countryGeoId).queryOne() />
+									                                	<fo:block> Unloading Point :
+								                                        	${shipGroupAddress.address1?default("${uiLabelMap.OrderNotShipped}")}
+									                                 	</fo:block>
+									                                 	<fo:block>
+																			<#if shipGroupAddress.address2?exists>${shipGroupAddress.address2},</#if>
+																			${shipGroupAddress.city!} (${stateGeo.geoName!}) - ${shipGroupAddress.postalCode!}(${countryGeo.geoName!})
+													                    </fo:block>
+										                            </#list>
+										                        </#if>
+															</fo:table-cell>
+														</fo:table-row>
+													</fo:table-body>
+												</fo:table>
+											</#list>
+										</#if>
 										
 										<fo:table>
 											<fo:table-body>
@@ -209,10 +245,10 @@ under the License.
 													</fo:table-cell>
 													<fo:table-cell width="4cm" font-weight="bold" text-align="right">
 														<fo:block margin-top="2mm">
-															18,000.00
+															<@ofbizCurrency amount=orderSubTotal isoCode=currencyUomId/>
 									                    </fo:block>
 									                    <fo:block >
-															0.00
+															<@ofbizCurrency amount=shippingAmount isoCode=currencyUomId/>
 									                    </fo:block>
 									                    <fo:block>
 															1620.00
@@ -230,7 +266,7 @@ under the License.
 															0.00
 									                    </fo:block>
 									                    <fo:block>
-															21,240.00
+															<@ofbizCurrency amount=grandTotal isoCode=currencyUomId/>
 									                    </fo:block>
 													</fo:table-cell>
 												</fo:table-row>
@@ -251,7 +287,7 @@ under the License.
 							Delivery Terms : UN FREIGHT EXTRA
 						</fo:block>
 						<fo:block font-weight="bold" text-align="right" margin-top="20mm" margin-right="5mm">
-							For Patanjali Natural Biscuits PVT LTD.
+							For ${companyName!}
 						</fo:block>
 						<fo:block font-weight="bold" text-align="right" margin-top="13mm" margin-right="5mm">
 							Shri Muniraj Singh Pundir
