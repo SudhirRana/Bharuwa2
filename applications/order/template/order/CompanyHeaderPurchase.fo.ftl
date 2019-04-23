@@ -17,7 +17,7 @@ specific language governing permissions and limitations
 under the License.
 -->
 <#escape x as x?xml>
-	<fo:block font-size="9pt">
+	<fo:block font-size="10pt">
 		<fo:table>
 			<fo:table-body>
 				<fo:table-row>
@@ -38,15 +38,15 @@ under the License.
 															</#if>
 									                    </fo:block>
 													</fo:table-cell>
-													<fo:table-cell width="15.5cm">
-														<fo:block font-weight="bold" font-size="17pt" margin-top="4mm" margin-left="5mm">
+													<fo:table-cell width="15.5cm" font-weight="bold">
+														<fo:block font-size="16pt" margin-top="4mm" margin-left="5mm">
 															${companyName!}
 														</fo:block>
-														<fo:block font-weight="bold" font-size="10pt" margin-top="1mm">
+														<fo:block margin-top="1mm" font-size="9pt">
 															${postalAddress.address1!}, <#if postalAddress.address2?exists>${postalAddress.address2},</#if>
 															<#-- Khasra No. 450,451,452, Vill Lodhiwala,pargana Bhagwanpur, Tehsil Roorkee,-->
 														</fo:block>
-														<fo:block font-weight="bold" font-size="10pt" margin-top="1mm">
+														<fo:block margin-top="1mm" font-size="9pt">
 															${postalAddress.city!} (${stateProvinceName!}) - ${postalAddress.postalCode!}(${countryName!})
 														</fo:block>
 													</fo:table-cell>
@@ -91,13 +91,13 @@ under the License.
 											<fo:table-body>
 												<fo:table-row>
 													<fo:table-cell width="10cm">
-														<fo:block margin-top="1mm" margin-left="2mm" font-weight="bold" font-size="11pt" text-align="left">
+														<fo:block margin-top="1mm" margin-left="2mm" font-weight="bold" text-align="left">
 															PO No. : 
 															<fo:inline>
 																${orderId}
 															</fo:inline>
 														</fo:block>
-														<fo:block margin-top="1mm" margin-left="2mm" font-weight="normal" font-size="11pt" text-align="left">
+														<fo:block margin-top="1mm" margin-left="2mm" font-weight="normal" text-align="left">
 															G.S.T. IN : 
 															<fo:inline>
 																<#--05AAICP7520K1Z9-->
@@ -106,7 +106,7 @@ under the License.
 														</fo:block>
 													</fo:table-cell>
 													<fo:table-cell width="10.5cm">
-														<fo:block margin-top="1mm" font-weight="bold" font-size="11pt" text-align="right">
+														<fo:block margin-top="1mm" font-weight="bold" text-align="right">
 															Release Date:
 															<fo:inline padding-right="2mm">
 																<#--11.09.2018-->
@@ -129,64 +129,87 @@ under the License.
 										<fo:table>
 											<fo:table-body>
 												<fo:table-row>
-													<fo:table-cell width="10cm" border-right="1pt solid black">
-														<fo:block margin-top="3mm" margin-left="2mm" font-weight="bold" font-size="11pt" text-align="left" background-color="silver">
+													<fo:table-cell width="10cm" border-right="1pt solid black" margin-left="2mm" font-weight="normal" text-align="left">
+														<fo:block margin-top="1mm" margin-bottom="1mm" font-weight="bold" background-color="silver">
 															Contact Details
 														</fo:block>
-														<fo:block margin-top="0.7mm" margin-left="2mm" font-weight="normal" font-size="11pt" text-align="left">
+														<fo:block>
 															Contact Person. ${postalAddress.toName!}
 														</fo:block>
 														<#if email??>
-															<fo:block margin-top="0.7mm" margin-left="2mm" font-weight="normal" font-size="11pt" text-align="left">
+															<fo:block>
 																Email id. <fo:inline>${email.infoString!}</fo:inline>
 															</fo:block>
 														</#if>
 														<#if phone??>
-															<fo:block margin-top="0.7mm" margin-left="2mm" font-weight="normal" font-size="11pt" text-align="left">
+															<fo:block>
 																Phone No/Extn. <fo:inline><#if phone.countryCode??>${phone.countryCode}-</#if><#if phone.areaCode??>${phone.areaCode}-</#if>${phone.contactNumber!}</fo:inline>
 															</fo:block>
 														</#if>
 														<#if mobile??>
-															<fo:block margin-top="0.7mm" margin-left="2mm" font-weight="normal" font-size="11pt" text-align="left">
+															<fo:block>
 																Mobile. 
 																<fo:inline><#if mobile.countryCode??>${mobile.countryCode}-</#if>${mobile.contactNumber!}</fo:inline>
 															</fo:block>
 														</#if>
 													</fo:table-cell>
-													<fo:table-cell width="10.5cm">
-														<fo:block margin-top="3mm" margin-left="1mm" font-weight="bold" font-size="11pt" text-align="left" background-color="silver">
+													<fo:table-cell width="10.4cm" margin-left="2mm" font-weight="normal" text-align="left">
+														<fo:block margin-top="1mm" margin-bottom="1mm" font-weight="bold" background-color="silver">
 															Vendor Information
 														</fo:block>
-														<fo:block margin-top="0.7mm" margin-left="1mm" font-weight="normal" font-size="11pt" text-align="left">
+														<fo:block>
 															Vendor No:
 															<fo:inline>
-																71159 G.S.T. IN : 05AKEPM9924B1ZB
+																${partyId!} 
 															</fo:inline>
 														</fo:block>
-														<fo:block margin-top="0.7mm" margin-left="1mm" font-weight="normal" font-size="11pt" text-align="left">
-															Vendor Address :
-														</fo:block>
-														<fo:block margin-top="0.7mm" margin-left="1mm" font-weight="normal" font-size="11pt" text-align="left">
-															Mittal Machinary Store
-														</fo:block>
-														<fo:block margin-top="0.7mm" margin-left="1mm" font-weight="normal" font-size="11pt" text-align="left">
-															Near Jagat Petrol Pump
-														</fo:block>
-														<fo:block margin-top="0.7mm" margin-left="1mm" font-weight="normal" font-size="11pt" text-align="left">
-															Jawalapur Road
-														</fo:block>
-														<fo:block margin-top="0.7mm" margin-left="1mm" font-weight="normal" font-size="11pt" text-align="left">
-															249407 Haridwar-Uttarakhand
-														</fo:block>
-														<fo:block margin-top="0.7mm" margin-left="1mm" font-weight="normal" font-size="11pt" text-align="left">
-															India
-														</fo:block>
-														<fo:block margin-top="0.7mm" margin-left="1mm" font-weight="normal" font-size="11pt" text-align="left">
-															Ph- Mob-
-														</fo:block>
-														<fo:block margin-top="0.7mm" margin-left="1mm" font-weight="normal" font-size="11pt" text-align="left">
-															State Code : 05
-														</fo:block>
+														<#if partyIdentificationList??>
+											                <#list partyIdentificationList as partyIdentification>
+											                	<fo:block>
+																	<#if partyIdentification.partyIdentificationTypeId == "GST">G.S.T. IN<#else>${partyIdentification.partyIdentificationTypeId!}</#if>
+																	<fo:inline>
+																	 : ${partyIdentification.idValue!} 
+																	</fo:inline>
+																</fo:block>
+											                </#list>
+														</#if>
+														<#if supplierGeneralContactMechValueMap??>
+															<fo:block>
+																Vendor Address :
+															</fo:block>
+														 	<#if postalAddress.toName?has_content><fo:block>${postalAddress.toName}</fo:block></#if>
+															<#if postalAddress.attnName?has_content><fo:block>${postalAddress.attnName!}</fo:block></#if>
+															<fo:block>${postalAddress.address1!}</fo:block>
+                											<#if postalAddress.address2?has_content><fo:block>${postalAddress.address2!}</fo:block></#if>
+															<fo:block>
+											                    <#assign stateGeo = (delegator.findOne("Geo", {"geoId", postalAddress.stateProvinceGeoId!}, false))! />
+											                    ${postalAddress.city}<#if stateGeo?has_content>, ${stateGeo.geoName!}</#if>, ${postalAddress.postalCode!}
+											                </fo:block>
+											                <fo:block>
+											                    <#assign countryGeo = (delegator.findOne("Geo", {"geoId", postalAddress.countryGeoId!}, false))! />
+											                    <#if countryGeo?has_content>${countryGeo.geoName!}</#if>
+											                </fo:block>
+											                <#if telecomContactMechList??>
+												                <#list telecomContactMechList as telecomContactMech>
+												                	<#assign telephone = (delegator.findOne("TelecomNumber", {"contactMechId", telecomContactMech.contactMechId!}, false))! />
+																	<fo:block>
+																		Ph- Mob- <fo:inline><#if telephone.countryCode??>${telephone.countryCode}-</#if><#if telephone.areaCode??>${telephone.areaCode}-</#if>${telephone.contactNumber!}</fo:inline>
+																	</fo:block>
+																</#list>
+															</#if>
+															<#if emailContactMechList??>
+												                <#list emailContactMechList as emailContactMech>
+																	<fo:block>
+																		Email- <fo:inline>${emailContactMech.infoString!}</fo:inline>
+																	</fo:block>
+																</#list>
+															</#if>
+														<#else>
+															<#assign vendorParty = orderReadHelper.getBillFromParty()>
+													        <fo:block>
+													            <fo:inline font-weight="bold">Vendor Name :</fo:inline> ${Static['org.apache.ofbiz.party.party.PartyHelper'].getPartyName(vendorParty)}
+													        </fo:block>
+														</#if>
 													</fo:table-cell>
 												</fo:table-row>
 											</fo:table-body>
@@ -195,7 +218,7 @@ under the License.
     							</fo:table-row>
     						</fo:table-body>
 						</fo:table>
-						<fo:block font-weight="bold" font-size="14pt" text-align="center" margin-top="1mm">
+						<fo:block font-weight="bold" text-align="center" margin-top="1mm">
 							Please Supply the following material as per the terms and Conditions mentioned below !!
 						</fo:block>
 					</fo:table-cell>

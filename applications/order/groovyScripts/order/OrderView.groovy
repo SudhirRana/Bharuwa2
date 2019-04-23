@@ -476,7 +476,11 @@ if (orderHeader) {
    // list to find all the EMAIL_ADDRESS for the party.
    emailContactMechList = ContactHelper.getContactMechByType(orderParty,"EMAIL_ADDRESS", false)
    context.emailContactMechList = emailContactMechList
+   
+   partyIdentificationList = from("PartyIdentification").where("partyId", partyId).queryList()
+   context.partyIdentificationList = partyIdentificationList
 }
+
 
 paramString = ""
 if (orderId) paramString += "orderId=" + orderId
