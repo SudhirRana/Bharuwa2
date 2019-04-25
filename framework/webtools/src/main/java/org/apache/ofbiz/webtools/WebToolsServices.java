@@ -517,10 +517,10 @@ public class WebToolsServices {
                                     do {
                                         value.writeXmlText(writer, "");
                                         numberWritten++;
-                                        if (numberWritten % 500 == 0) {
-                                            TransactionUtil.commit(beganTx);
-                                            beganTx = TransactionUtil.begin();
-                                        }
+//                                        if (numberWritten % 500 == 0) {
+//                                            TransactionUtil.commit(beganTx);
+//                                            beganTx = TransactionUtil.begin();
+//                                        }
                                     } while ((value = values.next()) != null);
                                     writer.println("</entity-engine-xml>");
                                 } catch (UnsupportedEncodingException | FileNotFoundException e) {
