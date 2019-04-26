@@ -441,9 +441,9 @@ public class TaxAuthorityServices {
 
             // find the right entry(s) based on purchase amount
             for (GenericValue taxAuthorityRateProduct : lookupList) {
-            	if(taxAuthorityRateProduct.get("taxAuthPartyId")=="_NA_") {
-            		continue;
-            	}
+				/*
+				 * if(taxAuthorityRateProduct.get("taxAuthPartyId")=="_NA_") { continue; }
+				 */
             	Debug.logInfo(":::taxAuthorityRateProduct::taxAuthPartyId"+taxAuthorityRateProduct.get("taxAuthPartyId")+ " :::taxPercentage:: "+taxAuthorityRateProduct.get("taxPercentage"), billToPartyId);
                 BigDecimal taxRate = taxAuthorityRateProduct.get("taxPercentage") != null ? taxAuthorityRateProduct
                         .getBigDecimal("taxPercentage") : ZERO_BASE;
@@ -784,13 +784,10 @@ public class TaxAuthorityServices {
             String taxAuthPartyId, BigDecimal taxAmount, Timestamp nowTimestamp, Delegator delegator)
             throws GenericEntityException {
         Debug.logInfo("Checking for tax : " + taxAuthGeoId + " / " + taxAuthPartyId + " :::shipStateGeoId::"+shipStateGeoId, module);
-        String overrideGlAccountId  = adjValue.getString("overrideGlAccountId");
-        
-        String comments  = adjValue.getString("comments");
+        //String comments  = adjValue.getString("comments");
         BigDecimal sourcePercentage = adjValue.getBigDecimal("sourcePercentage");
         BigDecimal amountAlreadyIncluded = adjValue.getBigDecimal("amountAlreadyIncluded");
         //BigDecimal taxAmount = adjValue.getBigDecimal("amountAlreadyIncluded");
-        boolean foundGst = false;
         if(shipStateGeoId != null) {
             List<Map<String, Object>> taxAuthGeoAddress = ContactMechWorker.getPartyContactMechValueMaps(delegator, payToPartyId, false, "POSTAL_ADDRESS");
             String stateProvinceGeoId = "";
@@ -806,66 +803,71 @@ public class TaxAuthorityServices {
                 //Debug.logInfo(":###::contactMechId:: " + contactMechId +"::: stateProvinceGeoId:"+stateProvinceGeoId, module);
             }
             
+            //Debug.logInfo(":###::shipStateGeoId:: " + shipStateGeoId +"::: stateProvinceGeoId:"+stateProvinceGeoId + "::overrideGlAccountId::"+overrideGlAccountId, module);
+            //List<GenericValue> gstGlAccounts = EntityQuery.use(delegator).from("GlAccount").where("glAccountTypeId", "CURRENT_LIABILITY", "parentGlAccountId",overrideGlAccountId).queryList();
             
-            Debug.logInfo(":###::shipStateGeoId:: " + shipStateGeoId +"::: stateProvinceGeoId:"+stateProvinceGeoId + "::overrideGlAccountId::"+overrideGlAccountId, module);
-            List<GenericValue> gstGlAccounts = EntityQuery.use(delegator).from("GlAccount").where("glAccountTypeId", "CURRENT_LIABILITY", "parentGlAccountId",overrideGlAccountId).queryList();
-            for (GenericValue gstGlAccount:gstGlAccounts) {
-            	String taxAuthGlAccountId = gstGlAccount.getString("glAccountId");
-                String applicableGst= gstGlAccount.getString("externalId");
-                //Debug.logInfo(":::taxAuthGlAccountId::::"+taxAuthGlAccountId + ":::applicableGst:::"+applicableGst, module);
-                if(!UtilValidate.isEmpty(applicableGst)) {
-                	if(shipStateGeoId.equals(stateProvinceGeoId)) {
-                		Debug.logInfo("::same state so apply both SGST and CGST 50:50 % ", module);
-                		//update sgst value with half tax amount
-                		if("SGST".equals(applicableGst)){ //
-                			if(amountAlreadyIncluded != null) {
-                				adjValue.set("amountAlreadyIncluded", amountAlreadyIncluded.divide(new BigDecimal("2"), salestaxCalcDecimals,salestaxRounding ));
-                			}else {
-                				adjValue.set("amount", taxAmount.divide(new BigDecimal("2"), salestaxCalcDecimals,salestaxRounding ));
-                			}
-                			adjValue.set("sourcePercentage", sourcePercentage.divide(new BigDecimal("2"), salestaxCalcDecimals,salestaxRounding ));
-                			adjValue.set("customerReferenceId","SGST");
-                            adjValue.set("overrideGlAccountId", taxAuthGlAccountId);
-                            adjValue.set("comments", comments.replace("GST", "SGST"));
-                            //Debug.logError("::::sourcePercentage::"+sourcePercentage, module);
-                		}
-                		if("CGST".equals(applicableGst)) {
-                                GenericValue cgstAdjValue = delegator.makeValue("OrderAdjustment");
-                                cgstAdjValue.setFields(adjValue);
-                                if(amountAlreadyIncluded != null) {
-                                	cgstAdjValue.set("amountAlreadyIncluded", amountAlreadyIncluded.divide(new BigDecimal("2"), salestaxCalcDecimals,salestaxRounding ));
+        	 // try the "child" GST TaxAuthorities
+        	List<GenericValue> taxAuthorityAssocList = EntityQuery.use(delegator).from("TaxAuthorityAssoc")
+                    .where("taxAuthGeoId", taxAuthGeoId, "taxAuthPartyId", taxAuthPartyId,"taxAuthorityAssocTypeId", "GST_INHER").queryList();
+        	//Debug.logInfo(taxAuthorityAssocList + "::taxAuthGeoId::::"+taxAuthGeoId + ":::taxAuthPartyId:::"+taxAuthPartyId , module);
+        	
+            for (GenericValue taxAuthorityAssoc:taxAuthorityAssocList) {
+            	//Debug.logInfo("::taxAuthorityAssoc:taxAuthGeoId::::"+taxAuthorityAssoc.getString("toTaxAuthGeoId") + ":::taxAuthPartyId:::"+taxAuthorityAssoc.getString("toTaxAuthPartyId"), module);
+            	GenericValue taxAuthorityGlAccount = EntityQuery.use(delegator).from("TaxAuthorityGlAccount")
+            			.where("taxAuthGeoId", taxAuthorityAssoc.getString("toTaxAuthGeoId"), "taxAuthPartyId",taxAuthorityAssoc.getString("toTaxAuthPartyId"), "organizationPartyId",payToPartyId).queryOne();
+            	GenericValue gstGlAccount = null;
+            	if(taxAuthorityGlAccount !=null && !UtilValidate.isEmpty(taxAuthorityGlAccount.getString("glAccountId"))) {
+            		gstGlAccount = EntityQuery.use(delegator).from("GlAccount").where("glAccountId",taxAuthorityGlAccount.getString("glAccountId")).queryOne();
+            	}
+            	if(!UtilValidate.isEmpty(gstGlAccount)) {
+            		String gstTaxAuthGlAccountId = gstGlAccount.getString("glAccountId");
+            		String gstTaxAuthPartyId = taxAuthorityAssoc.getString("toTaxAuthPartyId");
+                    String applicableGst= gstGlAccount.getString("externalId");
+                    //Debug.logInfo(":::gstTaxAuthGlAccountId::::"+gstTaxAuthGlAccountId + ":::gstTaxAuthPartyId::::"+gstTaxAuthPartyId + ":::applicableGst:::"+applicableGst, module);
+                    if(!UtilValidate.isEmpty(applicableGst)) {
+                    	if(shipStateGeoId.equals(stateProvinceGeoId)) {
+                    		//Debug.logInfo("::same state so apply both SGST and CGST 50:50 % ", module);
+                    		//update sgst value with half tax amount
+                    		if("SGST".equals(applicableGst)){ //
+                    			if(amountAlreadyIncluded != null) {
+                    				adjValue.set("amountAlreadyIncluded", amountAlreadyIncluded.divide(new BigDecimal("2"), salestaxCalcDecimals,salestaxRounding ));
                     			}else {
-                    				cgstAdjValue.set("amount", taxAmount.divide(new BigDecimal("2"), salestaxCalcDecimals,salestaxRounding ));
+                    				adjValue.set("amount", taxAmount.divide(new BigDecimal("2"), salestaxCalcDecimals,salestaxRounding ));
                     			}
-	                			cgstAdjValue.set("sourcePercentage", sourcePercentage.divide(new BigDecimal("2"), salestaxCalcDecimals,salestaxRounding ));
-	                			cgstAdjValue.set("customerReferenceId","CGST");
-	                			cgstAdjValue.set("overrideGlAccountId", taxAuthGlAccountId);
-	                			cgstAdjValue.set("comments", comments.replace("GST", "CGST"));
-	                			adjustments.add(cgstAdjValue);
-                		}
-                	}else if(!shipStateGeoId.equals(stateProvinceGeoId) && ("IGST".equals(applicableGst))) {
-                		Debug.logInfo("::different state so only both IGST 100% ", module);
-                		adjValue.set("customerReferenceId","IGST");
-                        adjValue.set("overrideGlAccountId", taxAuthGlAccountId);
-                        adjValue.set("comments", comments.replace("GST", "IGST"));
-                	}
-                }
+                    			adjValue.set("sourcePercentage", sourcePercentage.divide(new BigDecimal("2"), salestaxCalcDecimals,salestaxRounding ));
+                    			adjValue.set("customerReferenceId","SGST");
+                                adjValue.set("overrideGlAccountId", gstTaxAuthGlAccountId);
+                                adjValue.set("taxAuthPartyId", gstTaxAuthPartyId);
+                                adjValue.set("comments", "SGST["+sourcePercentage.divide(new BigDecimal("2"), salestaxCalcDecimals,salestaxRounding )+"%]");
+                               // Debug.logError("::::sourcePercentage::"+sourcePercentage, module);
+                    		}
+                    		if("CGST".equals(applicableGst)) {
+                                    GenericValue cgstAdjValue = delegator.makeValue("OrderAdjustment");
+                                    cgstAdjValue.setFields(adjValue);
+                                    if(amountAlreadyIncluded != null) {
+                                    	cgstAdjValue.set("amountAlreadyIncluded", amountAlreadyIncluded.divide(new BigDecimal("2"), salestaxCalcDecimals,salestaxRounding ));
+                        			}else {
+                        				cgstAdjValue.set("amount", taxAmount.divide(new BigDecimal("2"), salestaxCalcDecimals,salestaxRounding ));
+                        			}
+    	                			cgstAdjValue.set("sourcePercentage", sourcePercentage.divide(new BigDecimal("2"), salestaxCalcDecimals,salestaxRounding ));
+    	                			cgstAdjValue.set("customerReferenceId","CGST");
+    	                			cgstAdjValue.set("overrideGlAccountId", gstTaxAuthGlAccountId);
+    	                			cgstAdjValue.set("taxAuthPartyId", gstTaxAuthPartyId);
+    	                			cgstAdjValue.set("comments", "CGST["+sourcePercentage.divide(new BigDecimal("2"), salestaxCalcDecimals,salestaxRounding )+"%]");
+    	                			adjustments.add(cgstAdjValue);
+                    		}
+                    	}else if(!shipStateGeoId.equals(stateProvinceGeoId) && ("IGST".equals(applicableGst))) {
+                    		Debug.logInfo("::different state so IGST 100% ", module);
+                    		adjValue.set("customerReferenceId","IGST");
+                            adjValue.set("overrideGlAccountId", gstTaxAuthGlAccountId);
+                            adjValue.set("taxAuthPartyId", gstTaxAuthPartyId);
+                            adjValue.set("comments", "IGST["+sourcePercentage.intValue()+"%]");
+                    	}
+                    }            		
+            	}
+            	
             }         	
         }
-        
-        // if no exceptions were found for the current; try the parent
-       /* if (!foundGST) {
-        	Debug.logInfo("Checking for tax exemption : " + taxAuthGeoId + " / " + taxAuthPartyId + " ::: foundExemption:"+foundExemption, module);
-            // try the "parent" TaxAuthority
-            GenericValue taxAuthorityAssoc = EntityQuery.use(delegator).from("TaxAuthorityAssoc")
-                    .where("toTaxAuthGeoId", taxAuthGeoId, "toTaxAuthPartyId", taxAuthPartyId,
-                            "taxAuthorityAssocTypeId", "EXEMPT_INHER")
-                    .orderBy("-fromDate").filterByDate().queryFirst();
-            if (taxAuthorityAssoc != null) {
-            	handleIndiaGstCalc(adjValue, billToPartyIdSet, taxAuthorityAssoc.getString("taxAuthGeoId"),
-                        taxAuthorityAssoc.getString("taxAuthPartyId"), taxAmount, nowTimestamp, delegator);
-            }
-        }*/
     }   
     
 }
