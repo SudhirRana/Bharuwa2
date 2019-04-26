@@ -432,7 +432,9 @@ public class OrderServices {
         } else if (billFromVendorPartyId != null) {
             orgPartyId = billFromVendorPartyId;
         }
-
+        if("PURCHASE_ORDER".equals(orderTypeId)){
+        	orgPartyId = (String) context.get("billToCustomerPartyId");
+        }
         if (UtilValidate.isNotEmpty(orgPartyId)) {
             Map<String, Object> getNextOrderIdContext = new HashMap<>();
             getNextOrderIdContext.putAll(context);
@@ -460,7 +462,6 @@ public class OrderServices {
                 }
             }
         }
-
         if (UtilValidate.isEmpty(orderId)) {
             // for purchase orders or when other orderId generation fails, a product store id should not be required to make an order
             orderId = delegator.getNextSeqId("OrderHeader");

@@ -472,9 +472,23 @@ under the License.
         <if-not-empty field="parameters.productStoreId">
             <entity-one entity-name="ProductStore" value-field="productStore"/>
         </if-not-empty>
+        
+        <!-- use orderIdTemp along with the orderIdPrefix to create the real ID -->
+        <if-compare operator="equals" value="PURCHASE_ORDER" field="parameters.orderTypeId">
+        	<entity-and entity-name="CustomTimePeriod" list="customTimePeriodList" filter-by-date="true">
+	        	<field-map field-name="organizationPartyId" from-field="parameters.partyId"/>
+	            <field-map field-name="periodTypeId" value="FISCAL_YEAR"/>
+	            <field-map field-name="isClosed" value="N"/>
+	            <order-by field-name="-fromDate"/>
+			</entity-and>
+			<first-from-list list="customTimePeriodList" entry="customTimePeriod"/>
+        	<set field="orderId" value="${partyAcctgPreference.orderIdPrefix}/${customTimePeriod.periodName}/${str:toString(orderIdTemp)}"/>
+        <else>
+        	<set field="orderId" value="${productStore.orderNumberPrefix}${partyAcctgPreference.orderIdPrefix}${str:toString(orderIdTemp)}"/>
+        </else>
+        </if-compare>
 
         <!-- use orderIdTemp along with the orderIdPrefix to create the real ID -->
-        <set field="orderId" value="${productStore.orderNumberPrefix}${partyAcctgPreference.orderIdPrefix}${str:toString(orderIdTemp)}"/>
         <field-to-result field="orderId" result-name="orderId"/>
     </simple-method>
 

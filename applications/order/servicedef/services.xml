@@ -628,6 +628,7 @@ under the License.
         <description>Get the Next Order ID According to Settings on the PartyAcctgPreference Entity for the given Party</description>
         <implements service="storeOrder" optional="true"/>
         <attribute name="partyId" type="String" mode="IN" optional="false"/>
+        <attribute name="orderTypeId" type="String" mode="IN" optional="true"/>
         <attribute name="productStoreId" type="String" mode="IN" optional="true"/>
         <attribute name="orderId" type="String" mode="OUT" optional="false"/>
     </service>

@@ -52,6 +52,12 @@ def getNextInvoiceId() {
     } else {
         Debug.logWarning('Acctg preference not defined for partyId [${parameters.partyId}]', 'InvoiceServices.groovy')
     }
+	
+	String periodName = '';
+	GenericValue customTimePeriod = from('CustomTimePeriod').where("organizationPartyId", parameters.partyId,"periodTypeId", "FISCAL_YEAR","isClosed", "N").filterByDate().queryOne()
+	if(customTimePeriod) {
+		periodName = customTimePeriod.periodName;
+	}
 
     String invoiceIdTemp = ''
     if (customMethodName) {
@@ -73,9 +79,9 @@ def getNextInvoiceId() {
             }
         }
     }
-
+	//HRD/18-19/0001
     // use invoiceIdTemp along with the invoiceIdPrefix to create the real ID
-    String invoiceId = invoiceIdPrefix + invoiceIdTemp
+    String invoiceId = invoiceIdPrefix + "/" + periodName + "/" + invoiceIdTemp
     result.invoiceId = invoiceId
     return result
 }
