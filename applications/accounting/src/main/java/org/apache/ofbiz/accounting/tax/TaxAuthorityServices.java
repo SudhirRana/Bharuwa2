@@ -833,9 +833,9 @@ public class TaxAuthorityServices {
                                 GenericValue cgstAdjValue = delegator.makeValue("OrderAdjustment");
                                 cgstAdjValue.setFields(adjValue);
                                 if(amountAlreadyIncluded != null) {
-                    				adjValue.set("amountAlreadyIncluded", amountAlreadyIncluded.divide(new BigDecimal("2"), salestaxCalcDecimals,salestaxRounding ));
+                                	cgstAdjValue.set("amountAlreadyIncluded", amountAlreadyIncluded.divide(new BigDecimal("2"), salestaxCalcDecimals,salestaxRounding ));
                     			}else {
-                    				adjValue.set("amount", taxAmount.divide(new BigDecimal("2"), salestaxCalcDecimals,salestaxRounding ));
+                    				cgstAdjValue.set("amount", taxAmount.divide(new BigDecimal("2"), salestaxCalcDecimals,salestaxRounding ));
                     			}
 	                			cgstAdjValue.set("sourcePercentage", sourcePercentage.divide(new BigDecimal("2"), salestaxCalcDecimals,salestaxRounding ));
 	                			cgstAdjValue.set("customerReferenceId","CGST");
