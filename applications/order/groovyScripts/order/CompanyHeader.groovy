@@ -286,3 +286,6 @@ if (partyTaxAuthInfoList) {
     }
 }
 
+companyPartyIdentificationList = from("PartyIdentification").where("partyId", partyId).queryList()
+   context.companyPartyIdentificationList = companyPartyIdentificationList
+

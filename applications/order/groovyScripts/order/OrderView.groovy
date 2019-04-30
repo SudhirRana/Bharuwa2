@@ -130,9 +130,11 @@ if (orderHeader) {
     }
 
     shippingAddress = orderReadHelper.getShippingAddress()
+    print "---------shippingAddress-----------"+shippingAddress;
     context.shippingAddress = shippingAddress
 
     billingAddress = orderReadHelper.getBillingAddress()
+    print "---------billingAddress-----------"+billingAddress;
     context.billingAddress = billingAddress
 
     distributorId = orderReadHelper.getDistributorId()

@@ -64,6 +64,20 @@ under the License.
     
     <screen name="SalesOrderPDF">
         <section>
+        	<actions>
+        		<set field="CompanyHeaderSales" value="component://order/widget/ordermgr/OrderPrintScreens.xml#CompanyHeaderSales"/>
+        		<set field="OrderReportBodySales" value="component://order/widget/ordermgr/OrderPrintScreens.xml#OrderReportBodySales"/>
+        	</actions>
+            <widgets>
+                <platform-specific>
+                	<xsl-fo><html-template location="component://order/template/order/SalesOrderPdf.fo.ftl"/> </xsl-fo>
+           		</platform-specific>
+            </widgets>
+        </section>
+    </screen>
+    
+    <screen name="SalesOrderPDF-old">
+        <section>
         	<widgets>
            		<decorator-screen name="FoReportDecorator" location="component://common/widget/CommonScreens.xml">
                    <!-- at the top left of every page we put the logo and company information -->
@@ -132,6 +146,25 @@ under the License.
         <section>
             <widgets>
                 <platform-specific><xsl-fo><html-template location="component://order/template/order/OrderReportBodyPurchase.fo.ftl"/></xsl-fo></platform-specific>
+            </widgets>
+        </section>
+    </screen>
+    
+    <screen name="CompanyHeaderSales">
+        <section>
+            <actions>
+                <script location="component://order/groovyScripts/order/CompanyHeader.groovy"/>
+            </actions>
+            <widgets>
+                <platform-specific><xsl-fo><html-template location="component://order/template/order/CompanyHeaderSales.fo.ftl"/></xsl-fo></platform-specific>
+            </widgets>
+        </section>
+    </screen>
+    
+    <screen name="OrderReportBodySales">
+        <section>
+            <widgets>
+                <platform-specific><xsl-fo><html-template location="component://order/template/order/OrderReportBodySales.fo.ftl"/></xsl-fo></platform-specific>
             </widgets>
         </section>
     </screen>

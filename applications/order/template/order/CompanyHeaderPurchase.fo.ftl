@@ -34,7 +34,7 @@ under the License.
 															<#if objectInfo?has_content>
 																<fo:external-graphic src="<@ofbizContentUrl>${objectInfo}</@ofbizContentUrl>"  width="100%" content-height="scale-to-fit" content-width="scale-to-fit"/>
 															<#else>
-																<fo:external-graphic src="<@ofbizContentUrl>${logoImageUrl}</@ofbizContentUrl>"  width="100%" content-height="scale-to-fit" content-width="scale-to-fit"/>
+																<fo:external-graphic src="<@ofbizContentUrl>${logoImageUrl!}</@ofbizContentUrl>"  width="100%" content-height="scale-to-fit" content-width="scale-to-fit"/>
 															</#if>
 									                    </fo:block>
 													</fo:table-cell>
@@ -174,21 +174,24 @@ under the License.
 											                </#list>
 														</#if>
 														<#if supplierGeneralContactMechValueMap??>
-															<fo:block>
-																Vendor Address :
-															</fo:block>
-														 	<#if postalAddress.toName?has_content><fo:block>${postalAddress.toName}</fo:block></#if>
-															<#if postalAddress.attnName?has_content><fo:block>${postalAddress.attnName!}</fo:block></#if>
-															<fo:block>${postalAddress.address1!}</fo:block>
-                											<#if postalAddress.address2?has_content><fo:block>${postalAddress.address2!}</fo:block></#if>
-															<fo:block>
-											                    <#assign stateGeo = (delegator.findOne("Geo", {"geoId", postalAddress.stateProvinceGeoId!}, false))! />
-											                    ${postalAddress.city}<#if stateGeo?has_content>, ${stateGeo.geoName!}</#if>, ${postalAddress.postalCode!}
-											                </fo:block>
-											                <fo:block>
-											                    <#assign countryGeo = (delegator.findOne("Geo", {"geoId", postalAddress.countryGeoId!}, false))! />
-											                    <#if countryGeo?has_content>${countryGeo.geoName!}</#if>
-											                </fo:block>
+														 	<#assign supplierAddress = supplierGeneralContactMechValueMap.postalAddress>
+															<#if supplierAddress?has_content>
+																<fo:block>
+																	Vendor Address :
+																</fo:block>
+															 	<#if supplierAddress.toName?has_content><fo:block>${supplierAddress.toName}</fo:block></#if>
+																<#if supplierAddress.attnName?has_content><fo:block>${supplierAddress.attnName!}</fo:block></#if>
+																<fo:block>${supplierAddress.address1!}</fo:block>
+	                											<#if supplierAddress.address2?has_content><fo:block>${supplierAddress.address2!}</fo:block></#if>
+																<fo:block>
+												                    <#assign stateGeo = (delegator.findOne("Geo", {"geoId", supplierAddress.stateProvinceGeoId!}, false))! />
+												                    ${supplierAddress.city}<#if stateGeo?has_content>, ${stateGeo.geoName!}</#if>, ${supplierAddress.postalCode!}
+												                </fo:block>
+												                <fo:block>
+												                    <#assign countryGeo = (delegator.findOne("Geo", {"geoId", supplierAddress.countryGeoId!}, false))! />
+												                    <#if countryGeo?has_content>${countryGeo.geoName!}</#if>
+												                </fo:block>
+											                </#if>
 											                <#if telecomContactMechList??>
 												                <#list telecomContactMechList as telecomContactMech>
 												                	<#assign telephone = (delegator.findOne("TelecomNumber", {"contactMechId", telecomContactMech.contactMechId!}, false))! />
