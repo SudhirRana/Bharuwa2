@@ -17,6 +17,11 @@ specific language governing permissions and limitations
 under the License.
 -->
 <#escape x as x?xml>
+	<#assign state = "IN-UT" />
+	<#if shippingAddress?has_content>
+		<#assign shippingAddressStation = shippingAddress>
+		<#assign state = shippingAddressStation.stateProvinceGeoId?default("IN-UT") />
+	</#if>
 	<fo:block font-size="10pt">
 		<fo:table>
 			<fo:table-body>
@@ -24,8 +29,8 @@ under the License.
     				<fo:table-cell>
 						<fo:table>      
     						<fo:table-body>
-    							<fo:table-row color="black" font-weight="normal" border-bottom-color="black">
-    								<fo:table-cell border="1pt solid black" text-align="center" width="20.5cm" border-bottom-style="solid" border-start-style="solid" border-before-style="solid">
+    							<fo:table-row color="black" font-weight="normal">
+    								<fo:table-cell text-align="center" width="20.5cm" border-style="solid" border-width="0.5pt" border-start-style="solid" border-before-style="solid">
 										<fo:table>
 											<fo:table-body>
 												<fo:table-row font-weight="bold" border-bottom-style="solid" border-bottom-width="0.5pt" font-size="9pt">
@@ -34,7 +39,7 @@ under the License.
 															S.N.
 									                    </fo:block>
 													</fo:table-cell>
-													<fo:table-cell width="3cm" border-right-style="solid" border-right-width="0.5pt">
+													<fo:table-cell <#if state == "IN-UT">width="3cm"<#else>width="6cm"</#if> border-right-style="solid" border-right-width="0.5pt">
 														<fo:block margin-top="1mm">
 															Description of Goods
 														</fo:block>
@@ -59,26 +64,39 @@ under the License.
 															Price
 														</fo:block>
 													</fo:table-cell>
-													<fo:table-cell width="1.5cm" border-right-style="solid" border-right-width="0.5pt">
-														<fo:block margin-top="1mm">
-															CGST Rate
-														</fo:block>
-													</fo:table-cell>
-													<fo:table-cell width="2cm" border-right-style="solid" border-right-width="0.5pt">
-														<fo:block margin-top="1mm">
-															CGST Amount
-														</fo:block>
-													</fo:table-cell>
-													<fo:table-cell width="1.5cm" border-right-style="solid" border-right-width="0.5pt">
-														<fo:block margin-top="1mm">
-															SGST Rate
-														</fo:block>
-													</fo:table-cell>
-													<fo:table-cell width="2cm" border-right-style="solid" border-right-width="0.5pt">
-														<fo:block margin-top="1mm">
-															SGST Amount
-														</fo:block>
-													</fo:table-cell>
+													<#if state == "IN-UT">
+														<fo:table-cell width="1.5cm" border-right-style="solid" border-right-width="0.5pt">
+															<fo:block margin-top="1mm">
+																CGST Rate
+															</fo:block>
+														</fo:table-cell>
+														<fo:table-cell width="2cm" border-right-style="solid" border-right-width="0.5pt">
+															<fo:block margin-top="1mm">
+																CGST Amount
+															</fo:block>
+														</fo:table-cell>
+														<fo:table-cell width="1.5cm" border-right-style="solid" border-right-width="0.5pt">
+															<fo:block margin-top="1mm">
+																SGST Rate
+															</fo:block>
+														</fo:table-cell>
+														<fo:table-cell width="2cm" border-right-style="solid" border-right-width="0.5pt">
+															<fo:block margin-top="1mm">
+																SGST Amount
+															</fo:block>
+														</fo:table-cell>
+													<#else>
+														<fo:table-cell width="2cm" border-right-style="solid" border-right-width="0.5pt">
+															<fo:block margin-top="1mm">
+																IGST Rate
+															</fo:block>
+														</fo:table-cell>
+														<fo:table-cell width="2cm" border-right-style="solid" border-right-width="0.5pt">
+															<fo:block margin-top="1mm">
+																IGST Amount
+															</fo:block>
+														</fo:table-cell>
+													</#if>
 													<fo:table-cell width="2.5cm">
 														<fo:block margin-top="1mm" margin-right="4mm">
 															Net Amount(INR)
@@ -92,24 +110,29 @@ under the License.
 											<#list orderItemList as orderItem>
 												<#assign orderItemType = orderItem.getRelatedOne("OrderItemType", false)!>
 							                    <#assign productId = orderItem.productId!>
+							                    <#assign productDetail = orderItem.getRelatedOne("Product", false)!>
+							                    <#assign uomDetail = EntityQuery.use(delegator).from("Uom").where("uomId",productDetail.quantityUomId!).cache().queryOne()?if_exists />
+							                    <#assign productHsn = EntityQuery.use(delegator).from("GoodIdentification").where("goodIdentificationTypeId","HS_CODE","productId",productId).cache().queryFirst()?if_exists />
 							                    <#assign remainingQuantity = (orderItem.quantity?default(0) - orderItem.cancelQuantity?default(0))>
-							                    <#assign itemAdjustment = Static["org.apache.ofbiz.order.order.OrderReadHelper"].getOrderItemAdjustmentsTotal(orderItem, orderAdjustments, true, false, false)>
+							                    <#assign gstDetail = Static["org.apache.ofbiz.entity.util.EntityUtil"].getFirst(orderItem.getRelated("OrderAdjustment", null,null, false)!)!/>
+							                    <#assign itemTax = Static["org.apache.ofbiz.order.order.OrderReadHelper"].getOrderItemAdjustmentsTotal(orderItem, orderAdjustments, true, true, false)>
 							                    <#assign internalImageUrl = Static["org.apache.ofbiz.product.imagemanagement.ImageManagementHelper"].getInternalImageUrl(request, productId!)!>
 							                 	<fo:table border-bottom-style="solid" border-bottom-width="0.5pt">
 													<fo:table-body>
 														<fo:table-row font-weight="normal" >
 															<fo:table-cell width="1cm" border-right-style="solid" border-right-width="0.5pt">
 																<fo:block margin-top="1mm">
-																	${orderItem_index+1}
+																	${orderItem_index+1}.
 											                    </fo:block>
 															</fo:table-cell>
-															<fo:table-cell width="3cm" border-right-style="solid" border-right-width="0.5pt">
+															<fo:table-cell <#if state == "IN-UT">width="3cm"<#else>width="6cm"</#if> border-right-style="solid" border-right-width="0.5pt">
 																<fo:block margin-top="1mm">
 																	${orderItem.itemDescription!}
 																</fo:block>
 															</fo:table-cell>
 															<fo:table-cell width="2cm" border-right-style="solid" border-right-width="0.5pt">
 																<fo:block margin-top="1mm">
+																<#if productHsn??>${productHsn.idValue!}</#if>
 																</fo:block>
 															</fo:table-cell>
 															<fo:table-cell width="2cm" border-right-style="solid" border-right-width="0.5pt">
@@ -119,7 +142,7 @@ under the License.
 															</fo:table-cell>
 															<fo:table-cell width="1cm" border-right-style="solid" border-right-width="0.5pt">
 																<fo:block margin-top="1mm">
-																	PC
+																	${uomDetail.abbreviation!}
 																</fo:block>
 															</fo:table-cell>
 															<fo:table-cell width="2cm" border-right-style="solid" border-right-width="0.5pt">
@@ -127,26 +150,45 @@ under the License.
 																	<@ofbizCurrency amount=orderItem.unitPrice isoCode=currencyUomId/>
 																</fo:block>
 															</fo:table-cell>
-															<fo:table-cell width="1.5cm" border-right-style="solid" border-right-width="0.5pt">
-																<fo:block margin-top="1mm">
-																</fo:block>
-															</fo:table-cell>
-															<fo:table-cell width="2cm" border-right-style="solid" border-right-width="0.5pt">
-																<fo:block margin-top="1mm">
-																</fo:block>
-															</fo:table-cell>
-															<fo:table-cell width="1.5cm" border-right-style="solid" border-right-width="0.5pt">
-																<fo:block margin-top="1mm">
-																</fo:block>
-															</fo:table-cell>
-															<fo:table-cell width="2cm" border-right-style="solid" border-right-width="0.5pt">
-																<fo:block margin-top="1mm">
-																</fo:block>
-															</fo:table-cell>
+															<#if state == "IN-UT">
+																<fo:table-cell width="1.5cm" border-right-style="solid" border-right-width="0.5pt">
+																	<fo:block margin-top="1mm">
+																		<#if gstDetail??>${gstDetail.sourcePercentage!} %</#if>
+																	</fo:block>
+																</fo:table-cell>
+																<fo:table-cell width="2cm" border-right-style="solid" border-right-width="0.5pt">
+																	<fo:block margin-top="1mm">
+																		<#if gstDetail??><@ofbizCurrency amount=gstDetail.amount isoCode=currencyUomId/></#if>
+																	</fo:block>
+																</fo:table-cell>
+																<fo:table-cell width="1.5cm" border-right-style="solid" border-right-width="0.5pt">
+																	<fo:block margin-top="1mm">
+																		<#if gstDetail??>${gstDetail.sourcePercentage!}  %</#if>
+																	</fo:block>
+																</fo:table-cell>
+																<fo:table-cell width="2cm" border-right-style="solid" border-right-width="0.5pt">
+																	<fo:block margin-top="1mm">
+																		<#if gstDetail??><@ofbizCurrency amount=gstDetail.amount isoCode=currencyUomId/></#if>
+																	</fo:block>
+																</fo:table-cell>
+															<#else>
+																<fo:table-cell width="2cm" border-right-style="solid" border-right-width="0.5pt">
+																	<fo:block margin-top="1mm">
+																		<#if gstDetail??>${gstDetail.sourcePercentage!}  %</#if>
+																	</fo:block>
+																</fo:table-cell>
+																<fo:table-cell width="2cm" border-right-style="solid" border-right-width="0.5pt">
+																	<fo:block margin-top="1mm">
+																		<#if gstDetail??><@ofbizCurrency amount=gstDetail.amount isoCode=currencyUomId/></#if>
+																	</fo:block>
+																</fo:table-cell>
+															</#if>
 															<fo:table-cell width="2.5cm">
 																<fo:block margin-top="1mm">
 																	<#if orderItem.statusId != "ITEM_CANCELLED">
-									                                    <@ofbizCurrency amount=Static["org.apache.ofbiz.order.order.OrderReadHelper"].getOrderItemSubTotal(orderItem, orderAdjustments) isoCode=currencyUomId/>
+																		<#assign itemTotal = Static["org.apache.ofbiz.order.order.OrderReadHelper"].getOrderItemSubTotal(orderItem, orderAdjustments) />
+																		<#assign itemTotal = itemTotal + itemTax?default(0.00) />
+									                                    <@ofbizCurrency amount=itemTotal isoCode=currencyUomId/>
 									                                <#else>
 									                                    <@ofbizCurrency amount=0.00 isoCode=currencyUomId/>
 									                                </#if>
@@ -155,157 +197,247 @@ under the License.
 														</fo:table-row>
 													</fo:table-body>
 												</fo:table>
-												<fo:table>
-													<fo:table-body>
-														<fo:table-row>
-															<fo:table-cell width="20.5cm" font-weight="normal" margin-left="30mm" text-align="left">
-																<fo:block margin-top="2mm">
-																	Taxes: CGST and SGST: 18% - Input
-											                    </fo:block>
-											                    <#if orderItem.estimatedShipDate??>
-								                             		<fo:block>
-								                                    	${uiLabelMap.OrderEstimatedShipDate} : ${Static["org.apache.ofbiz.base.util.UtilFormatOut"].formatDate(orderItem.estimatedShipDate, "dd.MM.yyyy", locale, timeZone)!}
-									                             	</fo:block>
-										                        </#if>
-										                        <#if orderItem.estimatedDeliveryDate??>
-									                            	<fo:block>
-									                                    ${uiLabelMap.OrderOrderQuoteEstimatedDeliveryDate} : ${Static["org.apache.ofbiz.base.util.UtilFormatOut"].formatDate(orderItem.estimatedDeliveryDate, "dd.MM.yyyy", locale, timeZone)!}
-									                               	</fo:block>
-										                        </#if>
-																<#assign orderItemShipGroupAssocs = orderItem.getRelated("OrderItemShipGroupAssoc", null, null, false)!>
-										                        <#if orderItemShipGroupAssocs?has_content>
-										                            <#list orderItemShipGroupAssocs as shipGroupAssoc>
-										                                <#assign shipGroup = shipGroupAssoc.getRelatedOne("OrderItemShipGroup", false)>
-										                                <#assign shipGroupAddress = shipGroup.getRelatedOne("PostalAddress", false)!>
-										                                <#assign stateGeo = EntityQuery.use(delegator).from("Geo").where("geoId", shipGroupAddress.stateProvinceGeoId).queryOne() />
-										                                <#assign countryGeo = EntityQuery.use(delegator).from("Geo").where("geoId", shipGroupAddress.countryGeoId).queryOne() />
-									                                	<fo:block> Unloading Point :
-								                                        	${shipGroupAddress.address1?default("${uiLabelMap.OrderNotShipped}")}
-									                                 	</fo:block>
-									                                 	<fo:block>
-																			<#if shipGroupAddress.address2?exists>${shipGroupAddress.address2},</#if>
-																			${shipGroupAddress.city!} (${stateGeo.geoName!}) - ${shipGroupAddress.postalCode!}(${countryGeo.geoName!})
-													                    </fo:block>
-										                            </#list>
-										                        </#if>
-															</fo:table-cell>
-														</fo:table-row>
-													</fo:table-body>
-												</fo:table>
 											</#list>
 										</#if>
-										
 										<fo:table>
 											<fo:table-body>
-												<fo:table-row>
-													<fo:table-cell width="12cm">
-														<fo:block margin-top="2mm">
+												<fo:table-row border-bottom-style="solid" border-bottom-width="0.5pt" font-size="9pt">
+													<fo:table-cell width="18cm" padding="4mm" border-right-style="solid" border-right-width="0.5pt">
+														<fo:block>
+															Add : Rounded Off (+) 
+									                    </fo:block>
+													</fo:table-cell>
+													<fo:table-cell width="2.5cm" padding="4mm">
+														<fo:block margin-top="1mm">
+															<@ofbizCurrency amount=Static["org.apache.ofbiz.order.order.OrderReadHelper"].getOrderGrandTotal(orderItems, orderAdjustments) isoCode=currencyUomId/>
 														</fo:block>
-													</fo:table-cell>
-													<fo:table-cell width="3cm" font-weight="bold" text-align="left">
-														<fo:block margin-top="2mm">
-															Net Value
-									                    </fo:block>
-									                    <fo:block>
-															Freight
-									                    </fo:block>
-									                    <fo:block>
-															SGST/UTGST
-									                    </fo:block>
-									                    <fo:block>
-															CGST
-									                    </fo:block>
-									                    <fo:block>
-															IGST
-									                    </fo:block>
-									                    <fo:block>
-															Insurance %
-									                    </fo:block>
-									                    <fo:block>
-															Pack. and For.
-									                    </fo:block>
-									                    <fo:block>
-															Gross Value
-									                    </fo:block>
-													</fo:table-cell>
-													<fo:table-cell width="1cm" font-weight="bold" text-align="center">
-														<fo:block margin-top="2mm">
-															-
-									                    </fo:block>
-									                    <fo:block>
-															-
-									                    </fo:block>
-									                    <fo:block>
-															-
-									                    </fo:block>
-									                    <fo:block>
-															-
-									                    </fo:block>
-									                    <fo:block>
-															-
-									                    </fo:block>
-									                    <fo:block>
-															-
-									                    </fo:block>
-									                    <fo:block>
-															-
-									                    </fo:block>
-									                    <fo:block>
-															-
-									                    </fo:block>
-													</fo:table-cell>
-													<fo:table-cell width="4cm" font-weight="bold" text-align="right">
-														<fo:block margin-top="2mm">
-															<@ofbizCurrency amount=orderSubTotal isoCode=currencyUomId/>
-									                    </fo:block>
-									                    <fo:block >
-															<@ofbizCurrency amount=shippingAmount isoCode=currencyUomId/>
-									                    </fo:block>
-									                    <fo:block>
-															1620.00
-									                    </fo:block>
-									                    <fo:block>
-															1620.00
-									                    </fo:block>
-									                    <fo:block>
-															0.00
-									                    </fo:block>
-									                    <fo:block>
-															0.00
-									                    </fo:block>
-									                    <fo:block>
-															0.00
-									                    </fo:block>
-									                    <fo:block>
-															<@ofbizCurrency amount=grandTotal isoCode=currencyUomId/>
-									                    </fo:block>
 													</fo:table-cell>
 												</fo:table-row>
 											</fo:table-body>
 										</fo:table>
-										
+										<fo:table>
+											<fo:table-body>
+												<fo:table-row font-size="9pt">
+													<fo:table-cell width="18cm" padding="4mm"  border-right-style="solid" border-right-width="0.5pt">
+														<fo:block margin-top="1mm">
+															Grand Total
+									                    </fo:block>
+													</fo:table-cell>
+													<fo:table-cell width="2.5cm" padding="4mm" border-bottom-style="solid"  border-bottom-width="0.5pt">
+														<fo:block margin-top="1mm">
+															<@ofbizCurrency amount=Static["org.apache.ofbiz.order.order.OrderReadHelper"].getOrderGrandTotal(orderItems, orderAdjustments)?if_exists isoCode=currencyUomId/>
+														</fo:block>
+													</fo:table-cell>
+												</fo:table-row>
+											</fo:table-body>
+										</fo:table>
+										<#if orderItems??>
+											<fo:table font-size="7pt">
+												<fo:table-body>
+													<fo:table-row font-weight="normal" border-bottom-style="solid" border-bottom-width="0.5pt">
+														<fo:table-cell width="1cm">
+															<fo:block margin="1mm 0">
+																S.N.
+										                    </fo:block>
+														</fo:table-cell>
+														<fo:table-cell width="2cm">
+															<fo:block margin="1mm 0">
+															HSN/SAC
+															</fo:block>
+														</fo:table-cell>
+														<fo:table-cell width="1.5cm">
+															<fo:block margin="1mm 0">
+																Tax Rate
+															</fo:block>
+														</fo:table-cell>
+														<fo:table-cell width="2cm">
+															<fo:block margin="1mm 0">
+																Taxable Amt
+															</fo:block>
+														</fo:table-cell>
+														<#if state == "IN-UT">
+															<fo:table-cell width="1.5cm">
+																<fo:block margin="1mm 0">
+																	 CGST Amt.
+																</fo:block>
+															</fo:table-cell>
+															<fo:table-cell width="1.5cm">
+																<fo:block margin="1mm 0">
+																	 SGST Amt.
+																</fo:block>
+															</fo:table-cell>
+														<#else>
+															<fo:table-cell width="3cm">
+																<fo:block margin="1mm 0">
+																	 IGST Amt.
+																</fo:block>
+															</fo:table-cell>
+														</#if>
+														<fo:table-cell width="1.5cm">
+															<fo:block margin="1mm 0">
+																Total Tax
+															</fo:block>
+														</fo:table-cell>
+													</fo:table-row>
+													<#list orderItemList as orderItem>
+														<#assign orderItemType = orderItem.getRelatedOne("OrderItemType", false)!>
+									                    <#assign productId = orderItem.productId!>
+									                    <#assign productDetail = orderItem.getRelatedOne("Product", false)!>
+									                    <#assign uomDetail = EntityQuery.use(delegator).from("Uom").where("uomId",productDetail.quantityUomId!).cache().queryOne()?if_exists />
+									                    <#assign productHsn = EntityQuery.use(delegator).from("GoodIdentification").where("goodIdentificationTypeId","HS_CODE","productId",productId).cache().queryFirst()?if_exists />
+									                    <#assign remainingQuantity = (orderItem.quantity?default(0) - orderItem.cancelQuantity?default(0))>
+									                    <#assign gstDetail = Static["org.apache.ofbiz.entity.util.EntityUtil"].getFirst(orderItem.getRelated("OrderAdjustment", null,null, false)!)!/>
+									                    <#assign itemTax = Static["org.apache.ofbiz.order.order.OrderReadHelper"].getOrderItemAdjustmentsTotal(orderItem, orderAdjustments, true, true, false)>
+									                    <#assign internalImageUrl = Static["org.apache.ofbiz.product.imagemanagement.ImageManagementHelper"].getInternalImageUrl(request, productId!)!>
+							                 	
+														<fo:table-row font-weight="normal" font-size="8pt">
+															<fo:table-cell width="1cm">
+																<fo:block margin="1mm 0">
+																	${orderItem_index+1}.
+											                    </fo:block>
+															</fo:table-cell>
+															<fo:table-cell width="2cm">
+																<fo:block margin="1mm 0">
+																<#if productHsn??>${productHsn.idValue!}</#if>
+																</fo:block>
+															</fo:table-cell>
+															<#if state == "IN-UT">
+																<fo:table-cell width="1.5cm">
+																	<fo:block margin="1mm 0">
+																		<#if gstDetail??>${gstDetail.sourcePercentage*2}  %</#if>
+																	</fo:block>
+																</fo:table-cell>
+															<#else>
+																<fo:table-cell width="1.5cm">
+																	<fo:block margin="1mm 0">
+																		<#if gstDetail??>${gstDetail.sourcePercentage}  %</#if>
+																	</fo:block>
+																</fo:table-cell>
+															</#if>
+															<fo:table-cell width="2cm">
+																<fo:block margin="1mm 0">
+																	<#if orderItem.statusId != "ITEM_CANCELLED">
+									                                    <@ofbizCurrency amount=Static["org.apache.ofbiz.order.order.OrderReadHelper"].getOrderItemSubTotal(orderItem, orderAdjustments) isoCode=currencyUomId/>
+									                                <#else>
+									                                    <@ofbizCurrency amount=0.00 isoCode=currencyUomId/>
+									                                </#if>
+																</fo:block>
+															</fo:table-cell>
+															<#if state == "IN-UT">
+																<fo:table-cell width="1.5cm">
+																	<fo:block margin="1mm 0">
+																		<#if gstDetail??><@ofbizCurrency amount=gstDetail.amount isoCode=currencyUomId/></#if>
+																	</fo:block>
+																</fo:table-cell>
+																<fo:table-cell width="1.5cm">
+																	<fo:block margin="1mm 0">
+																		<#if gstDetail??><@ofbizCurrency amount=gstDetail.amount isoCode=currencyUomId/></#if>
+																	</fo:block>
+																</fo:table-cell>
+															<#else>
+																<fo:table-cell width="3cm">
+																	<fo:block margin="1mm 0">
+																		<#if gstDetail??><@ofbizCurrency amount=gstDetail.amount isoCode=currencyUomId/></#if>
+																	</fo:block>
+																</fo:table-cell>
+															</#if>
+															<fo:table-cell width="1.5cm">
+																<fo:block margin="1mm 0">
+																	<#if orderItem.statusId != "ITEM_CANCELLED">
+									                                    <@ofbizCurrency amount=itemTax?default(0.00) isoCode=currencyUomId/>
+									                                <#else>
+									                                    <@ofbizCurrency amount=0.00 isoCode=currencyUomId/>
+									                                </#if>
+																</fo:block>
+															</fo:table-cell>
+														</fo:table-row>
+													</#list>
+												</#if>
+											</fo:table-body>
+										</fo:table>
+										<fo:table>
+											<fo:table-body>
+												<fo:table-row>
+													<fo:table-cell width="20.5cm" text-align="left" padding="2mm">
+														<fo:block>
+															<#assign toatlAmount = Static["org.apache.ofbiz.order.order.OrderReadHelper"].getOrderGrandTotal(orderItems, orderAdjustments)?if_exists>
+															<#assign word =Static["com.patanjali.order.OrderServices"].convertNumberToWords(toatlAmount)?if_exists/>
+															${word!} Only
+														</fo:block>
+													</fo:table-cell>
+												</fo:table-row>
+											</fo:table-body>
+										</fo:table>
+										<fo:table>
+											<fo:table-body>
+												<fo:table-row>
+													<fo:table-cell width="20.5cm" text-align="left" padding="2mm" border-top-width="0.5pt" border-top-style="solid">
+														<fo:block>
+															Bank Details : ----------------------<#-- Bank Name: PNB, Ahmedpur A/C. No. 1496005900000026 IFSC: PUNB0149600 -->
+														</fo:block>
+													</fo:table-cell>
+												</fo:table-row>
+											</fo:table-body>
+										</fo:table>
+										<fo:table>
+											<fo:table-body>
+												<fo:table-row>
+													<fo:table-cell width="10cm" border-style="solid" border-width="0.5pt" font-weight="normal" font-size="9pt">
+														<fo:block margin-top="2mm"  margin-bottom="2mm" margin-left="1mm">
+															<fo:table>
+																<fo:table-body>
+																	<fo:table-row>
+																		<fo:table-cell text-align="left">
+																			<fo:block><fo:inline border-bottom-style="solid" border-bottom-width="0.5pt" font-size="7pt">Terms &amp; Conditions</fo:inline></fo:block>
+																		</fo:table-cell>
+																	</fo:table-row>
+																	<fo:table-row>
+																		<fo:table-cell text-align="left">
+																			<fo:block>E.&amp; O.E. </fo:block>
+																		</fo:table-cell>
+																	</fo:table-row>
+																	<fo:table-row>
+																		<fo:table-cell text-align="left">
+																			<fo:block>1. Goods once sold will not be taken back. </fo:block>
+																			<fo:block>2. Interest @ 18% p.a. will be charged if the payment is not made with in the stipulated time.</fo:block>
+																			<fo:block>3. Subject to 'HARIDWAR' Jurisdiction only. </fo:block>
+																			<fo:block>4. Please submit your Sales Tax Declaration witin 15 days. </fo:block>
+																		</fo:table-cell>
+																	</fo:table-row>
+																</fo:table-body>
+															</fo:table>
+														</fo:block>
+													</fo:table-cell>
+													<fo:table-cell width="10.5cm" border-style="solid" border-width="0.5pt">
+														<fo:block margin="2mm 0">
+															<fo:table>
+																<fo:table-body>
+																	<fo:table-row>
+																		<fo:table-cell text-align="left" border-bottom-style="solid" border-bottom-width="0.5pt" padding="1mm 1mm 5mm">
+																			<fo:block font-size="7pt">Receiver&apos;s Signature :</fo:block>
+																		</fo:table-cell>
+																	</fo:table-row>
+																	<fo:table-row>
+																		<fo:table-cell text-align="right" padding="2mm 1mm 6mm">
+																			<fo:block>For ${companyName!} </fo:block>
+																		</fo:table-cell>
+																	</fo:table-row>
+																	<fo:table-row>
+																		<fo:table-cell text-align="right" padding-right="2mm">
+																			<fo:block>Authorised Signatory</fo:block>
+																		</fo:table-cell>
+																	</fo:table-row>
+																</fo:table-body>
+															</fo:table>
+														</fo:block>
+													</fo:table-cell>
+												</fo:table-row>
+											</fo:table-body>
+										</fo:table>
     								</fo:table-cell>
     							</fo:table-row>
     						</fo:table-body>
 						</fo:table>
-						<fo:block font-weight="bold" text-align="left" margin-top="1mm">
-							Total Amount in words : Twenty one thousand two hundred forty rupees only
-						</fo:block>
-						<fo:block font-weight="bold" text-align="left" margin-top="1mm">
-							Payment Terms : 30 days from the date of invoice
-						</fo:block>
-						<fo:block font-weight="bold" text-align="left" margin-top="1mm">
-							Delivery Terms : UN FREIGHT EXTRA
-						</fo:block>
-						<fo:block font-weight="bold" text-align="right" margin-top="20mm" margin-right="5mm">
-							For ${companyName!}
-						</fo:block>
-						<fo:block font-weight="bold" text-align="right" margin-top="13mm" margin-right="5mm">
-							Shri Muniraj Singh Pundir
-						</fo:block>
-						<fo:block font-weight="bold" text-align="right" margin-top="1mm" margin-right="5mm">
-							Business Head-Biscuit Division
-						</fo:block>
 					</fo:table-cell>
 				</fo:table-row>
 			</fo:table-body>

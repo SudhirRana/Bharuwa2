@@ -24,13 +24,13 @@ under the License.
     				<fo:table-cell padding-top="1.5mm">
 						<fo:table>      
     						<fo:table-body>
-    							<fo:table-row color="black" font-weight="normal" border-bottom-color="black">
-    								<fo:table-cell border="1pt solid black" text-align="center" width="20.5cm" border-bottom-style="solid" border-start-style="solid" border-before-style="solid">
+    							<fo:table-row color="black" font-weight="normal">
+    								<fo:table-cell text-align="center" width="20.5cm" border-style="solid" border-width="0.5pt" border-start-style="solid" border-before-style="solid">
 										<fo:table>
 											<fo:table-body>
 												<fo:table-row>
 													
-													<fo:table-cell width="20.5cm">
+													<fo:table-cell width="20.5cm" padding="1mm">
 														<fo:block margin-top="4mm" text-decoration="underline" text-align="left" text-transform="uppercase">
 															<#if objectInfo?has_content>
 																<fo:external-graphic src="<@ofbizContentUrl>${objectInfo}</@ofbizContentUrl>"  width="100%" content-height="scale-to-fit" />
@@ -82,16 +82,7 @@ under the License.
 										<fo:table>
 											<fo:table-body>
 												<fo:table-row>
-													<fo:table-cell>
-														<fo:block border-bottom-width="0.5pt" border-bottom-style="solid" margin-top="2mm"></fo:block>
-													</fo:table-cell>
-												</fo:table-row>
-											</fo:table-body>
-										</fo:table>
-										<fo:table>
-											<fo:table-body>
-												<fo:table-row>
-													<fo:table-cell width="10cm" border-right="1pt solid black" font-weight="normal">
+													<fo:table-cell width="10cm" border-style="solid" border-width="0.5pt" font-weight="normal">
 														<fo:block margin-top="2mm"  margin-bottom="2mm" margin-left="1mm">
 															<fo:table>
 																<fo:table-body>
@@ -135,7 +126,7 @@ under the License.
 															</fo:table>
 														</fo:block>
 													</fo:table-cell>
-													<fo:table-cell width="10.4cm"  font-weight="normal">
+													<fo:table-cell width="10.5cm"  font-weight="normal" border-style="solid" border-width="0.5pt">
 														<fo:block margin-top="2mm" margin-bottom="2mm" margin-left="1mm">
 															<fo:table>
 																<fo:table-body>
@@ -189,16 +180,7 @@ under the License.
 										<fo:table>
 											<fo:table-body>
 												<fo:table-row>
-													<fo:table-cell>
-														<fo:block border-bottom-width="0.5pt" border-bottom-style="solid"></fo:block>
-													</fo:table-cell>
-												</fo:table-row>
-											</fo:table-body>
-										</fo:table>
-										<fo:table>
-											<fo:table-body>
-												<fo:table-row>
-													<fo:table-cell width="10cm"  font-weight="normal" border-right-width="0.5pt" border-right-style="solid">
+													<fo:table-cell width="10cm"  font-weight="normal" border-width="0.5pt" border-style="solid">
 														<fo:block margin-top="2mm" margin-bottom="2mm" margin-left="1mm" >
 															<fo:table>
 																<fo:table-body>
@@ -297,7 +279,7 @@ under the License.
 															</fo:table>
 														</fo:block>
 													</fo:table-cell>
-													<fo:table-cell width="10.4cm"  font-weight="normal">
+													<fo:table-cell width="10.5cm"  font-weight="normal" border-width="0.5pt" border-style="solid">
 														<fo:block margin-top="2mm" margin-bottom="2mm" margin-left="1mm">
 															<fo:table>
 																<fo:table-body>
