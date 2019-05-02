@@ -97,9 +97,9 @@ under the License.
 															</fo:block>
 														</fo:table-cell>
 													</#if>
-													<fo:table-cell width="2.5cm">
-														<fo:block margin-top="1mm" margin-right="4mm">
-															Net Amount(INR)
+													<fo:table-cell width="2.5cm" text-align="right">
+														<fo:block margin-top="1mm" margin-right="1mm">
+															Amount (INR)
 														</fo:block>
 													</fo:table-cell>
 												</fo:table-row>
@@ -183,8 +183,8 @@ under the License.
 																	</fo:block>
 																</fo:table-cell>
 															</#if>
-															<fo:table-cell width="2.5cm">
-																<fo:block margin-top="1mm">
+															<fo:table-cell width="2.5cm" padding="4mm 1mm">
+																<fo:block text-align="right">
 																	<#if orderItem.statusId != "ITEM_CANCELLED">
 																		<#assign itemTotal = Static["org.apache.ofbiz.order.order.OrderReadHelper"].getOrderItemSubTotal(orderItem, orderAdjustments) />
 																		<#assign itemTotal = itemTotal + itemTax?default(0.00) />
@@ -199,22 +199,29 @@ under the License.
 												</fo:table>
 											</#list>
 										</#if>
-										<fo:table>
-											<fo:table-body>
-												<fo:table-row border-bottom-style="solid" border-bottom-width="0.5pt" font-size="9pt">
-													<fo:table-cell width="18cm" padding="4mm" border-right-style="solid" border-right-width="0.5pt">
-														<fo:block>
-															Add : Rounded Off (+) 
-									                    </fo:block>
-													</fo:table-cell>
-													<fo:table-cell width="2.5cm" padding="4mm">
-														<fo:block margin-top="1mm">
-															<@ofbizCurrency amount=Static["org.apache.ofbiz.order.order.OrderReadHelper"].getOrderGrandTotal(orderItems, orderAdjustments) isoCode=currencyUomId/>
-														</fo:block>
-													</fo:table-cell>
-												</fo:table-row>
-											</fo:table-body>
-										</fo:table>
+										<#list orderHeaderAdjustments as orderHeaderAdjustment>
+						                    <#assign adjustmentType = orderHeaderAdjustment.getRelatedOne("OrderAdjustmentType", false)>
+						                    <#assign adjustmentAmount = Static["org.apache.ofbiz.order.order.OrderReadHelper"].calcOrderAdjustment(orderHeaderAdjustment, orderSubTotal)>
+						                    <#if adjustmentAmount != 0>
+						                        <fo:table>
+													<fo:table-body>
+														<fo:table-row border-bottom-style="solid" border-bottom-width="0.5pt" font-size="9pt">
+								                            <fo:table-cell width="18cm" border-right-style="solid" border-right-width="0.5pt" padding="4mm">
+								                                <fo:block>
+								                                    <#if orderHeaderAdjustment.get("description")?has_content>
+								                                        ${orderHeaderAdjustment.get("description")!}
+								                                    </#if>
+								                                </fo:block>
+								                            </fo:table-cell>
+								                            <fo:table-cell width="2.5cm" padding="4mm 1mm">
+								                            	<fo:block text-align="right"><@ofbizCurrency amount=orderSubTotal+taxAmount isoCode=currencyUomId/></fo:block>
+								                                <fo:block text-align="right"><@ofbizCurrency amount=adjustmentAmount isoCode=currencyUomId/></fo:block>
+								                            </fo:table-cell>
+						                        		</fo:table-row>
+					                        		</fo:table-body>
+												</fo:table>
+						                    </#if>
+						                </#list>
 										<fo:table>
 											<fo:table-body>
 												<fo:table-row font-size="9pt">
@@ -223,8 +230,8 @@ under the License.
 															Grand Total
 									                    </fo:block>
 													</fo:table-cell>
-													<fo:table-cell width="2.5cm" padding="4mm" border-bottom-style="solid"  border-bottom-width="0.5pt">
-														<fo:block margin-top="1mm">
+													<fo:table-cell width="2.5cm" padding="4mm 1mm" border-bottom-style="solid"  border-bottom-width="0.5pt">
+														<fo:block text-align="right">
 															<@ofbizCurrency amount=Static["org.apache.ofbiz.order.order.OrderReadHelper"].getOrderGrandTotal(orderItems, orderAdjustments)?if_exists isoCode=currencyUomId/>
 														</fo:block>
 													</fo:table-cell>
@@ -373,7 +380,8 @@ under the License.
 												<fo:table-row>
 													<fo:table-cell width="20.5cm" text-align="left" padding="2mm" border-top-width="0.5pt" border-top-style="solid">
 														<fo:block>
-															Bank Details : ----------------------<#-- Bank Name: PNB, Ahmedpur A/C. No. 1496005900000026 IFSC: PUNB0149600 -->
+															Bank Details : 
+															<#if eftAccount??>Bank Name: ${eftAccount.bankName!}, A/C. No. ${eftAccount.accountNumber!}, IFSC: ${eftAccount.routingNumber!}<#else>----------------------</#if>
 														</fo:block>
 													</fo:table-cell>
 												</fo:table-row>
