@@ -17,6 +17,74 @@ specific language governing permissions and limitations
 under the License.
 -->
 <#escape x as x?xml>
+	<#macro displayAddress address type>
+	    <fo:table-row>
+			<fo:table-cell width="4cm" text-align="left">
+	    		<fo:block font-weight="bold">
+						${type} to
+				</fo:block>
+			</fo:table-cell>
+			<fo:table-cell width="1cm" text-align="left"><fo:block>:</fo:block></fo:table-cell>
+			<fo:table-cell width="5cm" text-align="left"><fo:block><#if address.toName??>${address.toName!}</#if></fo:block></fo:table-cell>
+		</fo:table-row>
+		<fo:table-row>
+			<fo:table-cell text-align="left" width="10cm" padding-top="1mm">
+				<fo:block wrap-option="no-wrap">
+	                <fo:block>${address.address1!}</fo:block>
+	                <#if address.address2?has_content><fo:block>${address.address2!}</fo:block></#if>
+	                <#assign stateGeo = (delegator.findOne("Geo", {"geoId", address.stateProvinceGeoId!}, false))! />
+	                <fo:block>${address.city!}<#if stateGeo?has_content>, ${stateGeo.geoName!}</#if></fo:block>
+	                <fo:block>
+	                	${address.postalCode!}
+	                    <#assign countryGeo = (delegator.findOne("Geo", {"geoId", address.countryGeoId!}, false))! />
+	                    <#if countryGeo?has_content>${countryGeo.geoName!}</#if>
+	                </fo:block>
+				</fo:block>
+			</fo:table-cell>
+		</fo:table-row>
+	</#macro>
+	
+	<#macro displayEmailContactMech emailContactMechList>
+		<#list emailContactMechList as emailContactMech>
+			<fo:table-row margin-top="2mm">
+				<fo:table-cell width="4cm" text-align="left" padding-top="5mm">
+					<fo:block>Party Email Id</fo:block>
+				</fo:table-cell>
+				<fo:table-cell width="1cm" text-align="left" padding-top="5mm"><fo:block>:</fo:block></fo:table-cell>
+				<fo:table-cell width="5cm" text-align="left" padding-top="5mm">
+					<fo:block>${emailContactMech.infoString!}</fo:block>
+				</fo:table-cell>
+			</fo:table-row>
+		</#list>
+	</#macro>
+	<#macro displayTelecomContactMech telecomContactMechList>
+		<#list telecomContactMechList as telecomContactMech>
+			<#assign telephone = (delegator.findOne("TelecomNumber", {"contactMechId", telecomContactMech.contactMechId!}, false))! />
+			<fo:table-row margin-top="2mm">
+				<fo:table-cell width="4cm" text-align="left">
+					<fo:block>Party Tel. No.</fo:block>
+				</fo:table-cell>
+				<fo:table-cell width="1cm" text-align="left"><fo:block>:</fo:block></fo:table-cell>
+				<fo:table-cell width="5cm" text-align="left">
+					<fo:block><#if telephone.countryCode??>${telephone.countryCode}-</#if><#if telephone.areaCode??>${telephone.areaCode}-</#if>${telephone.contactNumber!}</fo:block>
+				</fo:table-cell>
+			</fo:table-row>
+		</#list>
+	</#macro>
+	
+	<#macro displayPartyIdentification partyIdentificationList>
+	    <#list partyIdentificationList as partyIdentification>
+	    	<fo:table-row margin-top="2mm">
+	    		<fo:table-cell width="4cm" text-align="left">
+					<fo:block><#if partyIdentification.partyIdentificationTypeId == "GST">G.S.T. IN<#else>${partyIdentification.partyIdentificationTypeId!}</#if></fo:block>
+				</fo:table-cell>
+				<fo:table-cell width="1cm" text-align="left"><fo:block>:</fo:block></fo:table-cell>
+				<fo:table-cell width="5cm" text-align="left">
+					<fo:block>${partyIdentification.idValue!}</fo:block>
+				</fo:table-cell>
+			</fo:table-row>
+	    </#list>
+	</#macro>
 	<fo:block font-size="10pt">
 		<fo:table>
 			<fo:table-body>
@@ -187,46 +255,18 @@ under the License.
 																    <#if billingAddress??>
 																        <#assign billAddress =  billingAddress>
 																        <#if billAddress?has_content>
-																	        <fo:table-row>
-																				<fo:table-cell width="4cm" text-align="left">
-																	        		<fo:block font-weight="bold">
-																						Billed to
-																					</fo:block>
-																        		</fo:table-cell>
-																				<fo:table-cell width="1cm" text-align="left"><fo:block>:</fo:block></fo:table-cell>
-																				<fo:table-cell width="5cm" text-align="left"><fo:block>${partyId!} <#if billAddress.toName??>${billAddress.toName!}</#if></fo:block></fo:table-cell>
-																			</fo:table-row>
-																			<fo:table-row margin-top="2mm">
-																				<fo:table-cell text-align="left" width="9cm" padding-top="1mm">
-																					<fo:block wrap-option="no-wrap">
-																		                <fo:block>${billAddress.address1!}</fo:block>
-																		                <#if billAddress.address2?has_content><fo:block>${billAddress.address2!}</fo:block></#if>
-																	                    <#assign stateGeo = (delegator.findOne("Geo", {"geoId", billAddress.stateProvinceGeoId!}, false))! />
-																	                    <fo:block>${billAddress.city!}<#if stateGeo?has_content>, ${stateGeo.geoName!}</#if></fo:block>
-																		                <fo:block>
-																		                	${billAddress.postalCode!}
-																		                    <#assign countryGeo = (delegator.findOne("Geo", {"geoId", billAddress.countryGeoId!}, false))! />
-																		                    <#if countryGeo?has_content>${countryGeo.geoName!}</#if>
-																		                </fo:block>
-																					</fo:block>
-																				</fo:table-cell>
-																				<fo:table-cell width="0.5cm" text-align="left"><fo:block></fo:block></fo:table-cell>
-																				<fo:table-cell width="0.5cm" text-align="left"><fo:block></fo:block></fo:table-cell>
-																			</fo:table-row>
+																        	<@displayAddress address=billAddress type="Billed"/>
 																		</#if>
+																	<#else>
+																		<#if shippingAddress??>
+																	        <#assign shipAddress = shippingAddress>
+																	        <#if shipAddress?has_content>
+																	        	<@displayAddress address=shipAddress type="Billed"/>
+																			</#if>
+																	    </#if>
 																    </#if>
 																	<#if emailContactMechList?has_content>
-												                		<#list emailContactMechList as emailContactMech>
-																			<fo:table-row margin-top="2mm">
-																				<fo:table-cell width="4cm" text-align="left" padding-top="5mm">
-																					<fo:block>Party Email Id</fo:block>
-																				</fo:table-cell>
-																				<fo:table-cell width="1cm" text-align="left" padding-top="5mm"><fo:block>:</fo:block></fo:table-cell>
-																				<fo:table-cell width="5cm" text-align="left" padding-top="5mm">
-																					<fo:block>${emailContactMech.infoString!}</fo:block>
-																				</fo:table-cell>
-																			</fo:table-row>
-																		</#list>
+																		<@displayEmailContactMech emailContactMechList=emailContactMechList/>
 																	<#else>
 																		<fo:table-row margin-top="2mm">
 																			<fo:table-cell width="4cm" text-align="left" padding-top="5mm">
@@ -239,18 +279,7 @@ under the License.
 																		</fo:table-row>
 																	</#if>
 																	<#if telecomContactMechList??>
-												                		<#list telecomContactMechList as telecomContactMech>
-												                			<#assign telephone = (delegator.findOne("TelecomNumber", {"contactMechId", telecomContactMech.contactMechId!}, false))! />
-																			<fo:table-row margin-top="2mm">
-																				<fo:table-cell width="4cm" text-align="left">
-																					<fo:block>Party Tel. No.</fo:block>
-																				</fo:table-cell>
-																				<fo:table-cell width="1cm" text-align="left"><fo:block>:</fo:block></fo:table-cell>
-																				<fo:table-cell width="5cm" text-align="left">
-																					<fo:block><#if telephone.countryCode??>${telephone.countryCode}-</#if><#if telephone.areaCode??>${telephone.areaCode}-</#if>${telephone.contactNumber!}</fo:block>
-																				</fo:table-cell>
-																			</fo:table-row>
-																		</#list>
+																		<@displayTelecomContactMech telecomContactMechList=telecomContactMechList/>
 																	<#else>
 																		<fo:table-row margin-top="2mm">
 																			<fo:table-cell width="4cm" text-align="left">
@@ -263,17 +292,7 @@ under the License.
 																		</fo:table-row>
 																	</#if>
 																	<#if partyIdentificationList??>
-														                <#list partyIdentificationList as partyIdentification>
-														                	<fo:table-row margin-top="2mm">
-														                		<fo:table-cell width="4cm" text-align="left">
-																					<fo:block><#if partyIdentification.partyIdentificationTypeId == "GST">G.S.T. IN<#else>${partyIdentification.partyIdentificationTypeId!}</#if></fo:block>
-																				</fo:table-cell>
-																				<fo:table-cell width="1cm" text-align="left"><fo:block>:</fo:block></fo:table-cell>
-																				<fo:table-cell width="5cm" text-align="left">
-																					<fo:block>${partyIdentification.idValue!}</fo:block>
-																				</fo:table-cell>
-																			</fo:table-row>
-														                </#list>
+																		<@displayPartyIdentification partyIdentificationList=partyIdentificationList/>
 																	</#if>
 																</fo:table-body>
 															</fo:table>
@@ -286,33 +305,38 @@ under the License.
 																    <#if shippingAddress??>
 																        <#assign shipAddress = shippingAddress>
 																        <#if shipAddress?has_content>
-																	        <fo:table-row>
-																				<fo:table-cell width="4cm" text-align="left">
-																	        		<fo:block font-weight="bold">
-																							Shipped to
-																					</fo:block>
-																        		</fo:table-cell>
-																				<fo:table-cell width="1cm" text-align="left"><fo:block>:</fo:block></fo:table-cell>
-																				<fo:table-cell width="5cm" text-align="left"><fo:block><#if shipAddress.toName??>${shipAddress.toName!}</#if></fo:block></fo:table-cell>
-																			</fo:table-row>
-																			<fo:table-row>
-																				<fo:table-cell text-align="left" width="10cm" padding-top="1mm">
-																					<fo:block wrap-option="no-wrap">
-																	        		
-																		                <fo:block>${shipAddress.address1!}</fo:block>
-																		                <#if shipAddress.address2?has_content><fo:block>${shipAddress.address2!}</fo:block></#if>
-																	                    <#assign stateGeo = (delegator.findOne("Geo", {"geoId", shipAddress.stateProvinceGeoId!}, false))! />
-																	                    <fo:block>${shipAddress.city!}<#if stateGeo?has_content>, ${stateGeo.geoName!}</#if></fo:block>
-																		                <fo:block>
-																		                	${shipAddress.postalCode!}
-																		                    <#assign countryGeo = (delegator.findOne("Geo", {"geoId", shipAddress.countryGeoId!}, false))! />
-																		                    <#if countryGeo?has_content>${countryGeo.geoName!}</#if>
-																		                </fo:block>
-																					</fo:block>
-																				</fo:table-cell>
-																			</fo:table-row>
+																        	<@displayAddress address=shipAddress type="Shipped"/>
 																		</#if>
 																    </#if>
+																	<#if emailContactMechList?has_content>
+												                		<@displayEmailContactMech emailContactMechList=emailContactMechList/>
+																	<#else>
+																		<fo:table-row margin-top="2mm">
+																			<fo:table-cell width="4cm" text-align="left" padding-top="5mm">
+																				<fo:block>Party Email Id</fo:block>
+																			</fo:table-cell>
+																			<fo:table-cell width="1cm" text-align="left" padding-top="5mm"><fo:block>:</fo:block></fo:table-cell>
+																			<fo:table-cell width="5cm" text-align="left" padding-top="5mm">
+																				<fo:block></fo:block>
+																			</fo:table-cell>
+																		</fo:table-row>
+																	</#if>
+																	<#if telecomContactMechList??>
+												                		<@displayTelecomContactMech telecomContactMechList=telecomContactMechList/>
+																	<#else>
+																		<fo:table-row margin-top="2mm">
+																			<fo:table-cell width="4cm" text-align="left">
+																				<fo:block>Party Mobile No.</fo:block>
+																			</fo:table-cell>
+																			<fo:table-cell width="1cm" text-align="left"><fo:block>:</fo:block></fo:table-cell>
+																			<fo:table-cell width="5cm" text-align="left">
+																				<fo:block></fo:block>
+																			</fo:table-cell>
+																		</fo:table-row>
+																	</#if>
+																	<#if partyIdentificationList??>
+														                <@displayPartyIdentification partyIdentificationList=partyIdentificationList/>
+																	</#if>
 																</fo:table-body>
 															</fo:table>
 														</fo:block>

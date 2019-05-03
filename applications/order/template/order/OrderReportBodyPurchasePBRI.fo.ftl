@@ -18,9 +18,12 @@ under the License.
 -->
 <#escape x as x?xml>
 	<#assign state = "IN-UT" />
-	<#if shippingAddress?has_content>
-		<#assign shippingAddressStation = shippingAddress>
-		<#assign state = shippingAddressStation.stateProvinceGeoId?default("IN-UT") />
+	<#if supplierGeneralContactMechValueMap??>
+	 	<#assign supplierAddress = supplierGeneralContactMechValueMap.postalAddress>
+		<#if supplierAddress?has_content>
+			<#assign supplierAddressStation = supplierAddress>
+			<#assign state = supplierAddressStation.stateProvinceGeoId?default("IN-UT") />
+		</#if>
 	</#if>
 	<fo:block font-size="10pt">
 		<fo:table>
@@ -49,8 +52,8 @@ under the License.
 															HSN/SAC Code
 														</fo:block>
 													</fo:table-cell>
-													<fo:table-cell width="2cm" border-right-style="solid" border-right-width="0.5pt">
-														<fo:block margin-top="1mm">
+													<fo:table-cell width="2cm" text-align="right" border-right-style="solid" border-right-width="0.5pt">
+														<fo:block margin-top="1mm" margin-right="1mm">
 															${uiLabelMap.OrderQuantity}
 														</fo:block>
 													</fo:table-cell>
@@ -115,7 +118,7 @@ under the License.
 							                    <#assign productHsn = EntityQuery.use(delegator).from("GoodIdentification").where("goodIdentificationTypeId","HS_CODE","productId",productId).cache().queryFirst()?if_exists />
 							                    <#assign remainingQuantity = (orderItem.quantity?default(0) - orderItem.cancelQuantity?default(0))>
 							                    <#assign totalQty = totalQty + remainingQuantity />
-							                    <#assign gstDetail = Static["org.apache.ofbiz.entity.util.EntityUtil"].getFirst(orderItem.getRelated("OrderAdjustment", null,null, false)!)!/>
+												<#assign gstDetail = Static["org.apache.ofbiz.entity.util.EntityUtil"].getFirst(orderItem.getRelated("OrderAdjustment", null,null, false)!)!/>
 							                    <#assign itemTax = Static["org.apache.ofbiz.order.order.OrderReadHelper"].getOrderItemAdjustmentsTotal(orderItem, orderAdjustments, true, true, false)>
 							                    <#assign internalImageUrl = Static["org.apache.ofbiz.product.imagemanagement.ImageManagementHelper"].getInternalImageUrl(request, productId!)!>
 							                 	<fo:table border-bottom-style="solid" border-bottom-width="0.5pt">
@@ -136,8 +139,8 @@ under the License.
 																<#if productHsn??>${productHsn.idValue!}</#if>
 																</fo:block>
 															</fo:table-cell>
-															<fo:table-cell width="2cm" border-right-style="solid" border-right-width="0.5pt">
-																<fo:block margin-top="1mm">
+															<fo:table-cell width="2cm" text-align="right" border-right-style="solid" border-right-width="0.5pt">
+																<fo:block margin-top="1mm" margin-right="1mm">
 																	${remainingQuantity}
 																</fo:block>
 															</fo:table-cell>
@@ -388,10 +391,12 @@ under the License.
 										<fo:table>
 											<fo:table-body>
 												<fo:table-row>
-													<fo:table-cell width="20.5cm" text-align="left" padding="2mm" border-top-width="0.5pt" border-top-style="solid">
-														<fo:block>
-															Bank Details : 
-															<#if eftAccount??>Bank Name: ${eftAccount.bankName!}, A/C. No. ${eftAccount.accountNumber!}, IFSC: ${eftAccount.routingNumber!}<#else>----------------------</#if>
+													<fo:table-cell width="20.5cm" text-align="center" padding="2mm" border-top-width="0.5pt" border-top-style="solid">
+														<fo:block font-weight="bold" text-decoration="underline">
+															Delivery Terms
+														</fo:block>
+														<fo:block> 
+															Supply of material is on time is essential part of PO. Delay in supply will attract a penalty@1% per week to max of 5% of PO value. In case of abnornal delay we may procure the matertial from alternate source at your risk or cancel the order. 
 														</fo:block>
 													</fo:table-cell>
 												</fo:table-row>
@@ -411,15 +416,11 @@ under the License.
 																	</fo:table-row>
 																	<fo:table-row>
 																		<fo:table-cell text-align="left">
-																			<fo:block>E.&amp; O.E. </fo:block>
-																		</fo:table-cell>
-																	</fo:table-row>
-																	<fo:table-row>
-																		<fo:table-cell text-align="left">
-																			<fo:block>1. Goods once sold will not be taken back. </fo:block>
-																			<fo:block>2. Interest @ 18% p.a. will be charged if the payment is not made with in the stipulated time.</fo:block>
-																			<fo:block>3. Subject to 'HARIDWAR' Jurisdiction only. </fo:block>
-																			<fo:block>4. Please submit your Sales Tax Declaration witin 15 days. </fo:block>
+																			<fo:block>1. Payment:100% within 30 days (OR after QC Report).</fo:block>
+																			<fo:block>2. Delivery period: Within a day from the date of PO.</fo:block>
+																			<fo:block>3. Delivery: FOR / Actual at PBRI, Haridwar.</fo:block>
+																			<fo:block>4. The Supplier will be responsible for any damages to any good/materials for want or lack of proper packing </fo:block>
+																			<fo:block>5. All dispute subject to Haridwar Jurisdiction.</fo:block>
 																		</fo:table-cell>
 																	</fo:table-row>
 																</fo:table-body>

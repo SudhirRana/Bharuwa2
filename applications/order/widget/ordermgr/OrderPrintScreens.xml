@@ -137,7 +137,8 @@ under the License.
                 <script location="component://order/groovyScripts/order/CompanyHeader.groovy"/>
             </actions>
             <widgets>
-                <platform-specific><xsl-fo><html-template location="component://order/template/order/CompanyHeaderPurchase.fo.ftl"/></xsl-fo></platform-specific>
+                <platform-specific><xsl-fo><html-template location="component://order/template/order/CompanyHeaderPurchasePBRI.fo.ftl"/></xsl-fo></platform-specific>
+<!--                 <platform-specific><xsl-fo><html-template location="component://order/template/order/CompanyHeaderPurchase.fo.ftl"/></xsl-fo></platform-specific> -->
             </widgets>
         </section>
     </screen>
@@ -145,7 +146,8 @@ under the License.
     <screen name="OrderReportBodyPurchase">
         <section>
             <widgets>
-                <platform-specific><xsl-fo><html-template location="component://order/template/order/OrderReportBodyPurchase.fo.ftl"/></xsl-fo></platform-specific>
+            	<platform-specific><xsl-fo><html-template location="component://order/template/order/OrderReportBodyPurchasePBRI.fo.ftl"/></xsl-fo></platform-specific>
+<!--                 <platform-specific><xsl-fo><html-template location="component://order/template/order/OrderReportBodyPurchase.fo.ftl"/></xsl-fo></platform-specific> -->
             </widgets>
         </section>
     </screen>

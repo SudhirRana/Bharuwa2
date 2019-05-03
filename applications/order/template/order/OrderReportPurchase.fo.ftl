@@ -23,7 +23,7 @@ under the License.
 	              page-width="8.27in" page-height="11.69in"
 	              margin-top="0" margin-bottom="0"
 	              margin-left="0.1in" margin-right="0.1in">
-	            <fo:region-body margin-top="0" margin-bottom="0" background-image="<@ofbizContentUrl>/images/patanjaliWaterMark.png</@ofbizContentUrl>"/>
+	            <fo:region-body margin-top="0" margin-bottom="0"/>
 	            <fo:region-before extent="0.2in"/>
 	            <fo:region-after extent="2in" />
 	    </fo:simple-page-master>
@@ -33,7 +33,7 @@ under the License.
 	        <fo:block font-size="10pt" >
 	          ${screens.render(CompanyHeaderPurchase)}
 	        </fo:block>
-    		<fo:block font-size="8pt" margin-top="5pt">
+    		<fo:block font-size="8pt">
 		 	 	${screens.render(OrderReportBodyPurchase)}
 			</fo:block> 
 	 		<fo:block id="theEnd"/>
