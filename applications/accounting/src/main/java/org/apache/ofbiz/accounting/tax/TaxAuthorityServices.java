@@ -816,8 +816,14 @@ public class TaxAuthorityServices {
             	GenericValue taxAuthorityGlAccount = EntityQuery.use(delegator).from("TaxAuthorityGlAccount")
             			.where("taxAuthGeoId", taxAuthorityAssoc.getString("toTaxAuthGeoId"), "taxAuthPartyId",taxAuthorityAssoc.getString("toTaxAuthPartyId"), "organizationPartyId",payToPartyId).queryOne();
             	GenericValue gstGlAccount = null;
+            	//Debug.logInfo("::taxAuthorityGlAccount::::"+taxAuthorityGlAccount , module); // this is null
+            	if(taxAuthorityGlAccount == null) {
+            		taxAuthorityGlAccount = EntityQuery.use(delegator).from("TaxAuthorityGlAccount")
+                			.where("taxAuthGeoId", taxAuthorityAssoc.getString("toTaxAuthGeoId"), "taxAuthPartyId",taxAuthorityAssoc.getString("toTaxAuthPartyId"), "organizationPartyId",billToPartyId).queryOne();
+            	}
             	if(taxAuthorityGlAccount !=null && !UtilValidate.isEmpty(taxAuthorityGlAccount.getString("glAccountId"))) {
             		gstGlAccount = EntityQuery.use(delegator).from("GlAccount").where("glAccountId",taxAuthorityGlAccount.getString("glAccountId")).queryOne();
+            		//Debug.logInfo(gstGlAccount+":::taxAuthGeoId::::"+taxAuthorityGlAccount.getString("glAccountId") + ":::taxAuthPartyId:::"+taxAuthorityAssoc.getString("toTaxAuthPartyId"), module);
             	}
             	if(!UtilValidate.isEmpty(gstGlAccount)) {
             		String gstTaxAuthGlAccountId = gstGlAccount.getString("glAccountId");
