@@ -29,7 +29,7 @@ def getNextInvoiceId() {
     result = success()
 
     // try to find PartyAcctgPreference for parameters.partyId, see if we need any special invoice number sequencing
-    GenericValue partyAcctgPreference = from('PartyAcctgPreference').where(parameters).queryOne()
+    GenericValue partyAcctgPreference = from('PartyAcctgPreference').where("partyId", "patanjali").queryOne()
     if (Debug.infoOn()) Debug.logInfo("In getNextInvoiceId partyId is [${parameters.partyId}], partyAcctgPreference: ${partyAcctgPreference}", 'InvoiceServices.groovy')
 
     String customMethodName = null;
@@ -54,7 +54,7 @@ def getNextInvoiceId() {
     }
 	
 	String periodName = '';
-	GenericValue customTimePeriod = from('CustomTimePeriod').where("organizationPartyId", parameters.partyId,"periodTypeId", "FISCAL_YEAR","isClosed", "N").filterByDate().queryOne()
+	GenericValue customTimePeriod = from('CustomTimePeriod').where("organizationPartyId", "patanjali","periodTypeId", "FISCAL_YEAR","isClosed", "N").filterByDate().queryOne()
 	if(customTimePeriod) {
 		periodName = customTimePeriod.periodName;
 	}
