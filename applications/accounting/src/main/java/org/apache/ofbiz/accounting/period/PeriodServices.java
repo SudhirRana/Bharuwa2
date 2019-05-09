@@ -23,6 +23,7 @@ import java.sql.Timestamp;
 import java.util.List;
 import java.util.Locale;
 import java.util.Map;
+import java.util.TimeZone;
 
 import org.apache.ofbiz.base.util.UtilDateTime;
 import org.apache.ofbiz.base.util.UtilMisc;
@@ -101,5 +102,11 @@ public class PeriodServices {
         } catch (GenericEntityException ex) {
             return (ServiceUtil.returnError(ex.getMessage()));
         }
+    }
+    
+    public static String currentFinancialYear() {
+        int year = UtilDateTime.getYear(UtilDateTime.nowTimestamp(), TimeZone.getDefault(), Locale.getDefault());
+    	int nextYear = year + 1;
+    	return String.valueOf(year).substring(2) + "-" + String.valueOf(nextYear).substring(2);
     }
 }
