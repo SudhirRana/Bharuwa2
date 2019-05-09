@@ -475,14 +475,8 @@ under the License.
         
         <!-- use orderIdTemp along with the orderIdPrefix to create the real ID -->
         <if-compare operator="equals" value="PURCHASE_ORDER" field="parameters.orderTypeId">
-        	<entity-and entity-name="CustomTimePeriod" list="customTimePeriodList" filter-by-date="true">
-	        	<field-map field-name="organizationPartyId" from-field="parameters.partyId"/>
-	            <field-map field-name="periodTypeId" value="FISCAL_YEAR"/>
-	            <field-map field-name="isClosed" value="N"/>
-	            <order-by field-name="-fromDate"/>
-			</entity-and>
-			<first-from-list list="customTimePeriodList" entry="customTimePeriod"/>
-        	<set field="orderId" value="${partyAcctgPreference.orderIdPrefix}/${customTimePeriod.periodName}/${str:toString(orderIdTemp)}"/>
+			<call-class-method class-name="org.apache.ofbiz.accounting.period.PeriodServices" method-name="currentFinancialYear" ret-field="fincancialYear"/>
+        	<set field="orderId" value="${partyAcctgPreference.orderIdPrefix}/${fincancialYear}/${str:toString(orderIdTemp)}"/>
         <else>
         	<set field="orderId" value="${productStore.orderNumberPrefix}${partyAcctgPreference.orderIdPrefix}${str:toString(orderIdTemp)}"/>
         </else>
