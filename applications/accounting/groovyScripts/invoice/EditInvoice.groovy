@@ -20,7 +20,7 @@
 
 import org.apache.ofbiz.accounting.invoice.InvoiceWorker
 import org.apache.ofbiz.base.util.UtilNumber
-
+import org.apache.ofbiz.party.contact.ContactHelper
 import java.text.DateFormat
 
 invoiceId = parameters.get("invoiceId")
@@ -157,4 +157,15 @@ if (invoice) {
     } else {
         context.invoiceDate = "N/A"
     }
+    
+    // list to find all the TELECOM_NUMBER for the party.
+   telecomContactMechList = ContactHelper.getContactMechByType(billToParty,"TELECOM_NUMBER", false)
+   context.telecomContactMechList = telecomContactMechList
+
+   // list to find all the EMAIL_ADDRESS for the party.
+   emailContactMechList = ContactHelper.getContactMechByType(billToParty,"EMAIL_ADDRESS", false)
+   context.emailContactMechList = emailContactMechList
+   
+   partyIdentificationList = from("PartyIdentification").where("partyId", billToParty.partyId).queryList()
+   context.partyIdentificationList = partyIdentificationList
 }
