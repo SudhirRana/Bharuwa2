@@ -159,13 +159,16 @@ if (invoice) {
     }
     
     // list to find all the TELECOM_NUMBER for the party.
-   telecomContactMechList = ContactHelper.getContactMechByType(billToParty,"TELECOM_NUMBER", false)
+    if ("PURCHASE_INVOICE".equals(invoice.invoiceTypeId)) {
+   		telecomContactMechList = ContactHelper.getContactMechByType(sendingParty,"TELECOM_NUMBER", false)
+   		emailContactMechList = ContactHelper.getContactMechByType(sendingParty,"EMAIL_ADDRESS", false)
+   		partyIdentificationList = from("PartyIdentification").where("partyId", sendingParty.partyId).queryList()
+	}else{
+		telecomContactMechList = ContactHelper.getContactMechByType(billToParty,"TELECOM_NUMBER", false)
+		emailContactMechList = ContactHelper.getContactMechByType(billToParty,"EMAIL_ADDRESS", false)
+		partyIdentificationList = from("PartyIdentification").where("partyId", billToParty.partyId).queryList()
+	}
    context.telecomContactMechList = telecomContactMechList
-
-   // list to find all the EMAIL_ADDRESS for the party.
-   emailContactMechList = ContactHelper.getContactMechByType(billToParty,"EMAIL_ADDRESS", false)
    context.emailContactMechList = emailContactMechList
-   
-   partyIdentificationList = from("PartyIdentification").where("partyId", billToParty.partyId).queryList()
    context.partyIdentificationList = partyIdentificationList
 }

@@ -188,7 +188,7 @@ under the License.
 																		</fo:table-cell>
 																		<fo:table-cell width="1cm" text-align="left"><fo:block>:</fo:block></fo:table-cell>
 																		<fo:table-cell width="5cm" text-align="left">
-																			<fo:block>${orderHeader.get("orderDate")?string("dd.MM.yyyy")}</fo:block>
+																			<fo:block>${orderHeader.get("orderDate")?string("dd-MM-yyyy")}</fo:block>
 																		</fo:table-cell>
 																	</fo:table-row>
 																	<fo:table-row>
