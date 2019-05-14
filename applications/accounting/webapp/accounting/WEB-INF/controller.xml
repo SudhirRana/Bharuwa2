@@ -2619,7 +2619,7 @@ under the License.
     <view-map name="findInvoices" type="screen" page="component://accounting/widget/InvoiceScreens.xml#FindInvoices"/>
     <view-map name="newInvoice" type="screen" page="component://accounting/widget/InvoiceScreens.xml#NewInvoice"/>
     <view-map name="editInvoice" type="screen" page="component://accounting/widget/InvoiceScreens.xml#EditInvoice"/>
-    <view-map name="listInvoiceItems" type="screen" page="component://accounting/widget/InvoiceScreens.xml#EditInvoiceItems"/>
+<!--     <view-map name="listInvoiceItems" type="screen" page="component://accounting/widget/InvoiceScreens.xml#EditInvoiceItems"/> -->
     <view-map name="editInvoiceTimeEntries" type="screen" page="component://accounting/widget/InvoiceScreens.xml#EditInvoiceTimeEntries"/>
     <view-map name="invoiceStatus" type="screen" page="component://accounting/widget/InvoiceScreens.xml#InvoiceStatus"/>
     <view-map name="editInvoiceApplications" type="screen" page="component://accounting/widget/InvoiceScreens.xml#EditInvoiceApplications"/>
@@ -2833,7 +2833,6 @@ under the License.
 
     <!-- PDFs  -->
 <!--     <view-map name="InvoicePDF" type="screenfop" page="component://accounting/widget/AccountingPrintScreens.xml#InvoicePDF" content-type="application/pdf" encoding="none"/> -->
-    <view-map name="InvoicePDF" type="screenfop" page="component://accounts/widget/AccountingPrintScreens.xml#InvoicePDF" content-type="application/pdf" encoding="none"/>
     <view-map name="PrintCheckPDF" type="screenfop" page="component://accounting/widget/AccountingPrintScreens.xml#PrintCheckPDF" content-type="application/pdf" encoding="none"/>
     <view-map name="PrintInvoices" type="screenfop" page="component://accounting/widget/AccountingPrintScreens.xml#PrintInvoices" content-type="application/pdf" encoding="none"/>
 
@@ -2900,5 +2899,10 @@ under the License.
     <view-map name="GlAccountBalanceByCostCenterPdf" type="screenfop" page="component://accounting/widget/ReportFinancialSummaryScreens.xml#GlAccountBalanceByCostCenterPdf" content-type="application/pdf" encoding="none"/>
 
     <!-- end of view mappings -->
+    
+    <!--  Mapping in local component by Paramjit  -->
+    <view-map name="InvoicePDF" type="screenfop" page="component://accounts/widget/AccountingPrintScreens.xml#InvoicePDF" content-type="application/pdf" encoding="none"/>
+    <view-map name="listInvoiceItems" type="screen" page="component://accounts/widget/InvoiceScreens.xml#EditInvoiceItems"/>
+    
 </site-conf>
 
