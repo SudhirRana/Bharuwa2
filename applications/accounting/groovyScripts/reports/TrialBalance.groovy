@@ -42,14 +42,14 @@ if (parameters.customTimePeriodId) {
     organizationGlAccounts.each { organizationGlAccount ->
         accountBalance = [:]
         accountBalance = runService('computeGlAccountBalanceForTimePeriod', [organizationPartyId: organizationGlAccount.organizationPartyId, customTimePeriodId: customTimePeriod.customTimePeriodId, glAccountId: organizationGlAccount.glAccountId])
-        if (accountBalance.postedDebits != 0 || accountBalance.postedCredits != 0) {
+        if (accountBalance.postedDebits != 0 || accountBalance.postedCredits != 0 || accountBalance.openingBalance != 0) {
             accountBalance.glAccountId = organizationGlAccount.glAccountId
             accountBalance.accountCode = organizationGlAccount.accountCode
             accountBalance.accountName = organizationGlAccount.accountName
             postedDebitsTotal = postedDebitsTotal + accountBalance.postedDebits
             postedCreditsTotal = postedCreditsTotal + accountBalance.postedCredits
             accountBalances.add(accountBalance)
-        }
+       }
     }
     context.postedDebitsTotal = postedDebitsTotal
     context.postedCreditsTotal = postedCreditsTotal
