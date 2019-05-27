@@ -782,6 +782,28 @@ public final class InvoiceWorker {
         }
        return getTaxTotalForInvoiceItems(invoiceTaxItems);
     }
+    
+    /**
+     * @param invoice GenericValue object representing the invoice
+     * @param taxAuthPartyId
+     * @param taxAuthGeoId
+     * @return The invoice tax total for a given tax authority and geo location
+     */
+    public static BigDecimal getInvoiceTaxTotalForTaxAuthRate(GenericValue invoice, String taxAuthRate) {
+        List<GenericValue> invoiceTaxItems = null;
+        try {
+            Delegator delegator = invoice.getDelegator();
+            invoiceTaxItems = EntityQuery.use(delegator).from("InvoiceItem")
+                    .where(EntityCondition.makeCondition("invoiceId", invoice.getString("invoiceId")),
+                            EntityCondition.makeCondition("invoiceItemTypeId", EntityOperator.IN, getTaxableInvoiceItemTypeIds(delegator)),
+                            EntityCondition.makeCondition("taxAuthorityRateSeqId", taxAuthRate)
+                    ).queryList();
+        } catch (GenericEntityException e) {
+            Debug.logError(e, "Trouble getting InvoiceItem list", module);
+            return null;
+        }
+       return getTaxTotalForInvoiceItems(invoiceTaxItems);
+    }    
 
     /** Returns the invoice tax total for unattributed tax items, that is items which have no taxAuthPartyId value
      * @param invoice GenericValue object representing the invoice
