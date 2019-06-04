@@ -849,4 +849,68 @@ public final class InvoiceWorker {
         }
         return taxTotal.setScale(decimals, rounding);
     }
+    
+    
+    /**
+     * @param invoice GenericValue object representing the invoice
+     * @param taxAuthRate
+     * @return The invoice taxable amount total for a given tax Rate
+     */
+    public static BigDecimal getInvoiceTaxableAmtForTaxAuthRate(GenericValue invoice, String taxAuthRate) {
+        List<GenericValue> invoiceTaxItems = null;
+        try {
+            Delegator delegator = invoice.getDelegator();
+            invoiceTaxItems = EntityQuery.use(delegator).from("InvoiceItem")
+                    .where(EntityCondition.makeCondition("invoiceId", invoice.getString("invoiceId")),
+                            EntityCondition.makeCondition("invoiceItemTypeId", EntityOperator.IN, getTaxableInvoiceItemTypeIds(delegator)),
+                            EntityCondition.makeCondition("taxAuthorityRateSeqId", taxAuthRate)
+                    ).queryList();
+        } catch (GenericEntityException e) {
+            Debug.logError(e, "Trouble getting InvoiceItem list", module);
+            return null;
+        }
+       return getTaxableAmtForInvoiceItems(invoice,invoiceTaxItems);
+    }      
+    
+    /** Returns the taxable Amount given list of tax typed InvoiceItem records
+     * @param taxInvoiceItems
+     * @return
+     */
+    private static BigDecimal getTaxableAmtForInvoiceItems(GenericValue invoice, List<GenericValue> taxInvoiceItems) {
+    	Delegator delegator = invoice.getDelegator();
+    	List<GenericValue> invoiceItemTaxableAmts = null;
+    	List<String> taxableItemTypeIds = new LinkedList<String>();
+    	taxableItemTypeIds.add("INV_PROD_ITEM"); // ToDo : Add more itemType which are taxable wherever needed.
+        if (taxInvoiceItems == null) {
+            return BigDecimal.ZERO;
+        }
+        BigDecimal taxableAmtTotal = BigDecimal.ZERO;
+        for (GenericValue taxInvoiceItem : taxInvoiceItems) {
+        	try {
+        		invoiceItemTaxableAmts= EntityQuery.use(delegator).from("InvoiceItem")
+                        .where(EntityCondition.makeCondition("invoiceId", invoice.getString("invoiceId")),
+                                EntityCondition.makeCondition("invoiceItemTypeId",EntityOperator.IN, taxableItemTypeIds),
+                                EntityCondition.makeCondition("productId", taxInvoiceItem.getString("productId"))
+                        ).queryList();
+            } catch (GenericEntityException e) {
+                Debug.logError(e, "Trouble getting InvoiceItem list", module);
+                return null;
+            }        	
+        	if (invoiceItemTaxableAmts != null) {
+        		 GenericValue taxableItemAmt = EntityUtil.getFirst(invoiceItemTaxableAmts);
+        		 BigDecimal amount = taxableItemAmt.getBigDecimal("amount");
+                 if (amount == null) {
+                     amount = BigDecimal.ZERO;
+                 }
+                 BigDecimal quantity = taxableItemAmt.getBigDecimal("quantity");
+                 if (quantity == null) {
+                     quantity = BigDecimal.ONE;
+                 }
+                 amount = amount.multiply(quantity);
+                 amount = amount.setScale(taxDecimals, taxRounding);
+                 taxableAmtTotal = taxableAmtTotal.add(amount);
+        	}
+        }
+        return taxableAmtTotal.setScale(decimals, rounding);
+    }    
 }

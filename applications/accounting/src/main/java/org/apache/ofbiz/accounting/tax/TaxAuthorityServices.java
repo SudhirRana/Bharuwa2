@@ -573,7 +573,7 @@ public class TaxAuthorityServices {
                     // see if partyId is a member of any groups, if so honor their tax exemptions
                     // look for PartyRelationship with partyRelationshipTypeId=GROUP_ROLLUP, the
                     // partyIdTo is the group member, so the partyIdFrom is the groupPartyId
-                	Debug.logInfo(":::::taxAuthGeoId::"+ taxAuthGeoId +":::::payToPartyId::"+ payToPartyId + ":::::billToPartyId::"+ billToPartyId + "::", module);
+                	//Debug.logInfo(":::::taxAuthGeoId::"+ taxAuthGeoId +":::::payToPartyId::"+ payToPartyId + ":::::billToPartyId::"+ billToPartyId + "::", module);
                 	
                     Set<String> billToPartyIdSet = new HashSet<>();
                     billToPartyIdSet.add(billToPartyId);
@@ -593,7 +593,7 @@ public class TaxAuthorityServices {
                 
                 //  Recalculate SGST/IGST/CGST according the payto and billto address detail.
                 if (UtilValidate.isNotEmpty(billToPartyId) && UtilValidate.isNotEmpty(payToPartyId)  && UtilValidate.isNotEmpty(taxAuthGeoId)) {
-                   	Debug.logInfo(":::::payToPartyId::"+ payToPartyId + ":::::billToPartyId::"+ billToPartyId + "::", module);
+                   	//Debug.logInfo(":::::payToPartyId::"+ payToPartyId + ":::::billToPartyId::"+ billToPartyId + "::", module);
                 	Set<String> billToPartyIdSet = new HashSet<>();
                     billToPartyIdSet.add(billToPartyId);
                     handleIndiaGstCalc(adjustments, taxAdjValue, billToPartyIdSet,payToPartyId,shipStateGeoId, taxAuthGeoId, taxAuthPartyId, taxAmount, nowTimestamp, delegator);
@@ -737,7 +737,7 @@ public class TaxAuthorityServices {
     private static void handlePartyTaxExempt(GenericValue adjValue, Set<String> billToPartyIdSet, String taxAuthGeoId,
             String taxAuthPartyId, BigDecimal taxAmount, Timestamp nowTimestamp, Delegator delegator)
             throws GenericEntityException {
-        Debug.logInfo("Checking for tax exemption : " + taxAuthGeoId + " / " + taxAuthPartyId, module);
+        //Debug.logInfo("Checking for tax exemption : " + taxAuthGeoId + " / " + taxAuthPartyId, module);
         List<EntityCondition> ptiConditionList = UtilMisc.<EntityCondition>toList(
                 EntityCondition.makeCondition("partyId", EntityOperator.IN, billToPartyIdSet),
                 EntityCondition.makeCondition("taxAuthGeoId", EntityOperator.EQUALS, taxAuthGeoId),
@@ -783,7 +783,7 @@ public class TaxAuthorityServices {
    private static void handleIndiaGstCalc(List <GenericValue> adjustments, GenericValue adjValue, Set<String> billToPartyId, String payToPartyId, String shipStateGeoId, String taxAuthGeoId,
             String taxAuthPartyId, BigDecimal taxAmount, Timestamp nowTimestamp, Delegator delegator)
             throws GenericEntityException {
-        Debug.logInfo("Checking for tax : " + taxAuthGeoId + " / " + taxAuthPartyId + " :::shipStateGeoId::"+shipStateGeoId, module);
+        //Debug.logInfo("Checking for tax : " + taxAuthGeoId + " / " + taxAuthPartyId + " :::shipStateGeoId::"+shipStateGeoId, module);
         //String comments  = adjValue.getString("comments");
         BigDecimal sourcePercentage = adjValue.getBigDecimal("sourcePercentage");
         BigDecimal amountAlreadyIncluded = adjValue.getBigDecimal("amountAlreadyIncluded");

@@ -29,6 +29,8 @@ if ("SALES_INVOICE".equals(invoice.invoiceTypeId)) {
     itemTypesCond = exprBldr.OR() {
         EQUALS(invoiceItemTypeId: "SINVOICE_ADJ")
         EQUALS(parentTypeId: "SINVOICE_ADJ")
+		EQUALS(invoiceItemTypeId: "STAX_COLLECT_SRC")
+		EQUALS(invoiceItemTypeId: "SROUNDED_OFF")
         EQUALS(invoiceItemTypeId: "SINVOICE_ITM_ADJ")
         EQUALS(parentTypeId: "SINVOICE_ITM_ADJ")
         EQUALS(invoiceItemTypeId: "INV_PROD_ITEM")
