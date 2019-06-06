@@ -886,6 +886,9 @@ public final class InvoiceWorker {
         }
         BigDecimal taxableAmtTotal = BigDecimal.ZERO;
         for (GenericValue taxInvoiceItem : taxInvoiceItems) {
+        	if("IND_SGST".equals(taxInvoiceItem.getString("taxAuthPartyId"))) {
+        		continue;
+        	}
         	try {
         		invoiceItemTaxableAmts= EntityQuery.use(delegator).from("InvoiceItem")
                         .where(EntityCondition.makeCondition("invoiceId", invoice.getString("invoiceId")),
@@ -912,5 +915,5 @@ public final class InvoiceWorker {
         	}
         }
         return taxableAmtTotal.setScale(decimals, rounding);
-    }    
+    } 
 }
