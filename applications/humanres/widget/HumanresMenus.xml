@@ -45,6 +45,15 @@
                 <parameter param-name="fromDate"/>
             </link>
         </menu-item>
+         <menu-item name="EditPartyRateAmount" title="${uiLabelMap.HumanResEditPartyRate}">
+            <link target="EditPartyRateAmount" >
+                <parameter param-name="roleTypeIdFrom"/>
+                <parameter param-name="roleTypeIdTo"/>
+                <parameter param-name="partyIdFrom"/>
+                <parameter param-name="partyIdTo"/>
+                <parameter param-name="fromDate"/>
+            </link>
+        </menu-item>
         <menu-item name="EditPartyBenefit" title="${uiLabelMap.HumanResEditPartyBenefit}">
             <link target="EditPartyBenefits" >
                 <parameter param-name="roleTypeIdFrom"/>

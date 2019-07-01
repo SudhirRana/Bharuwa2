@@ -3609,4 +3609,16 @@
         <value xml:lang="zh">查看个人培训</value>
         <value xml:lang="zh-TW">檢視個人教育訓練</value>
     </property>
+    
+    <property key="HumanResEditPartyRate">
+        <value xml:lang="en">Party Rates</value>
+        <value xml:lang="es">Tarifas de fiesta</value>
+        <value xml:lang="fr">Prix ​​des fêtes</value>
+        <value xml:lang="it">Tariffe di partito</value>
+        <value xml:lang="ja">パーティー料金</value>
+        <value xml:lang="pt-BR">Taxas de festa</value>
+        <value xml:lang="vi">Tỷ lệ đảng</value>
+        <value xml:lang="zh">会员价</value>
+        <value xml:lang="zh-TW">派對費率</value>
+    </property>
 </resource>
