@@ -592,8 +592,8 @@ public class TaxAuthorityServices {
                 }
                 
                 //  Recalculate SGST/IGST/CGST according the payto and billto address detail.
+                Debug.logInfo(":::::payToPartyId::"+ payToPartyId + ":::::billToPartyId::"+ billToPartyId + "::"+ " :::taxAuthGeoId::"+taxAuthGeoId, module);
                 if (UtilValidate.isNotEmpty(billToPartyId) && UtilValidate.isNotEmpty(payToPartyId)  && UtilValidate.isNotEmpty(taxAuthGeoId)) {
-                   	//Debug.logInfo(":::::payToPartyId::"+ payToPartyId + ":::::billToPartyId::"+ billToPartyId + "::", module);
                 	Set<String> billToPartyIdSet = new HashSet<>();
                     billToPartyIdSet.add(billToPartyId);
                     handleIndiaGstCalc(adjustments, taxAdjValue, billToPartyIdSet,payToPartyId,shipStateGeoId, taxAuthGeoId, taxAuthPartyId, taxAmount, nowTimestamp, delegator);
@@ -819,7 +819,7 @@ public class TaxAuthorityServices {
             	//Debug.logInfo("::taxAuthorityGlAccount::::"+taxAuthorityGlAccount , module); // this is null
             	if(taxAuthorityGlAccount == null) {
             		taxAuthorityGlAccount = EntityQuery.use(delegator).from("TaxAuthorityGlAccount")
-                			.where("taxAuthGeoId", taxAuthorityAssoc.getString("toTaxAuthGeoId"), "taxAuthPartyId",taxAuthorityAssoc.getString("toTaxAuthPartyId"), "organizationPartyId",billToPartyId).queryOne();
+                			.where("taxAuthGeoId", taxAuthorityAssoc.getString("toTaxAuthGeoId"), "taxAuthPartyId",taxAuthorityAssoc.getString("toTaxAuthPartyId"), "organizationPartyId","patanjali").queryOne();
             	}
             	if(taxAuthorityGlAccount !=null && !UtilValidate.isEmpty(taxAuthorityGlAccount.getString("glAccountId"))) {
             		gstGlAccount = EntityQuery.use(delegator).from("GlAccount").where("glAccountId",taxAuthorityGlAccount.getString("glAccountId")).queryOne();

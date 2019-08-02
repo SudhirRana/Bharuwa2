@@ -371,7 +371,18 @@ under the License.
             <link target="addtcs">
                 <parameter param-name="invoiceId" from-field="invoice.invoiceId"/>
             </link>
-        </menu-item>        
+        </menu-item>
+        <menu-item name="addroundoff" title="${uiLabelMap.AccountingAddRoundOff}">
+            <condition>
+                <and>
+                    <not><if-empty field="invoice.invoiceId"/></not>
+                    <if-compare field="invoice.statusId" operator="equals" value="INVOICE_IN_PROCESS"/>
+                </and>
+            </condition>
+            <link target="addroundoff">
+                <parameter param-name="invoiceId" from-field="invoice.invoiceId"/>
+            </link>
+        </menu-item>                 
         <menu-item name="acctgTransEntriesPdf" title="Acctg Trans Entries PDF">
             <condition>
                 <and>

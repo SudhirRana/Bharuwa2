@@ -612,7 +612,10 @@
     </property>
     <property key="AccountingAddTcs">
         <value xml:lang="en">Add TCS(1%)</value>
-    </property>    
+    </property>   
+    <property key="AccountingAddRoundOff">
+        <value xml:lang="en">Add Roundoff</value>
+    </property>     
     <property key="AccountingAddTaxAuthorityGlAccount">
         <value xml:lang="ar">إضافة مصلحة الضرائب الى حساب GL</value>
         <value xml:lang="de">Steuerkonto hinzufügen</value>

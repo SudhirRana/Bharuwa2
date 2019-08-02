@@ -339,6 +339,24 @@ public final class InvoiceWorker {
         }
         return postalAddress;
     }
+    
+    /**
+     * Method to check duplicate/invoice
+     * first resolve from InvoiceContactMech and if not found try from Shipment if present
+     * @param invoice GenericValue object of the Invoice
+     * @return Boolean object of duplicate invoice flag.
+     */
+   public static boolean isDuplicateInvoice(GenericValue invoice) {
+       //GenericValue postalAddress = getInvoiceAddressByType(invoice, "SHIPPING_LOCATION", false);
+	   if(!UtilValidate.isEmpty(invoice.getString("referenceNumber")) && invoice.getString("referenceNumber").contains("Invoice id:")) {
+		   String originalInvoiceId = invoice.getString("referenceNumber").substring(invoice.getString("referenceNumber").lastIndexOf(' ') + 1);
+		   if(invoice.getString("invoiceId").equals(originalInvoiceId)) {
+			   return true;
+		   }
+	   }
+       return false;
+   }    
+    
 
     /**
       * Method to obtain the billing address for an invoice
@@ -901,13 +919,13 @@ public final class InvoiceWorker {
             }        	
         	if (invoiceItemTaxableAmts != null) {
         		 GenericValue taxableItemAmt = EntityUtil.getFirst(invoiceItemTaxableAmts);
-        		 BigDecimal amount = taxableItemAmt.getBigDecimal("amount");
-                 if (amount == null) {
-                     amount = BigDecimal.ZERO;
+        		 BigDecimal amount = BigDecimal.ZERO;
+                 if (taxableItemAmt !=null && taxableItemAmt.getBigDecimal("amount") != null) {
+                	 amount = taxableItemAmt.getBigDecimal("amount");
                  }
-                 BigDecimal quantity = taxableItemAmt.getBigDecimal("quantity");
-                 if (quantity == null) {
-                     quantity = BigDecimal.ONE;
+                 BigDecimal quantity = BigDecimal.ONE;
+                 if (taxableItemAmt !=null && taxableItemAmt.getBigDecimal("quantity") != null) {
+                	 quantity = taxableItemAmt.getBigDecimal("quantity");
                  }
                  amount = amount.multiply(quantity);
                  amount = amount.setScale(taxDecimals, taxRounding);

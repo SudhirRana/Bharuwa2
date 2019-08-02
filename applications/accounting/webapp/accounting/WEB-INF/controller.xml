@@ -2523,6 +2523,14 @@ under the License.
         <response name="success" type="view" value="invoiceOverview"/>
         <response name="error" type="view" value="invoiceOverview"/>
     </request-map>
+    
+    <!--Add TCS (Tax collected at source 1%) -->
+    <request-map uri="addroundoff">
+        <security auth="true" https="true"/>
+        <event type="service" invoke="roundingOffInvoice"/>
+        <response name="success" type="view" value="invoiceOverview"/>
+        <response name="error" type="view" value="invoiceOverview"/>
+    </request-map>    
 
     <!--Add Tax Settings -->
     <request-map uri="addtax">
