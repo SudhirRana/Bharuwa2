@@ -182,9 +182,9 @@ if (unpostedTransactionTotals) {
             mainAndExprs.add(EntityCondition.makeCondition("glFiscalTypeId", EntityOperator.EQUALS, glFiscalTypeId))
             mainAndExprs.add(EntityCondition.makeCondition("acctgTransTypeId", EntityOperator.NOT_EQUAL, "PERIOD_CLOSING"))
             mainAndExprs.add(EntityCondition.makeCondition("transactionDate", EntityOperator.GREATER_THAN_EQUAL_TO, lastClosedDate))
-            mainAndExprs.add(EntityCondition.makeCondition("transactionDate", EntityOperator.LESS_THAN, fromDate))
+            mainAndExprs.add(EntityCondition.makeCondition("transactionDate", EntityOperator.LESS_THAN, thruDate))
             transactionTotals = select("glAccountId", "accountName", "accountCode", "debitCreditFlag", "amount").from("AcctgTransEntrySums").where(mainAndExprs).orderBy("glAccountId").queryList()
-            transactionTotals.each { transactionTotal ->
+			transactionTotals.each { transactionTotal ->
                 UtilMisc.addToBigDecimalInMap(accountMap, "opening" + transactionTotal.debitCreditFlag, transactionTotal.amount)
             }
         }
