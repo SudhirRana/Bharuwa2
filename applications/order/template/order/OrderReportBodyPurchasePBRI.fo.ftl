@@ -52,9 +52,9 @@ under the License.
 															HSN/SAC Code
 														</fo:block>
 													</fo:table-cell>
-													<fo:table-cell width="2cm" text-align="right" border-right-style="solid" border-right-width="0.5pt">
+													<fo:table-cell width="2cm" text-align="center" border-right-style="solid" border-right-width="0.5pt">
 														<fo:block margin-top="1mm" margin-right="1mm">
-															${uiLabelMap.OrderQuantity}
+															Qty
 														</fo:block>
 													</fo:table-cell>
 													<fo:table-cell width="1cm" border-right-style="solid" border-right-width="0.5pt">
@@ -139,7 +139,7 @@ under the License.
 																<#if productHsn??>${productHsn.idValue!}</#if>
 																</fo:block>
 															</fo:table-cell>
-															<fo:table-cell width="2cm" text-align="right" border-right-style="solid" border-right-width="0.5pt">
+															<fo:table-cell width="2cm" text-align="center" border-right-style="solid" border-right-width="0.5pt">
 																<fo:block margin-top="1mm" margin-right="1mm">
 																	${remainingQuantity}
 																</fo:block>
@@ -254,17 +254,7 @@ under the License.
 										<#if orderItems??>
 											<fo:table font-size="7pt" margin-top="2mm">
 												<fo:table-body>
-													<fo:table-row font-weight="normal" border-bottom-style="solid" border-bottom-width="0.5pt">
-														<fo:table-cell width="1cm">
-															<fo:block margin="1mm 0">
-																S.N.
-										                    </fo:block>
-														</fo:table-cell>
-														<fo:table-cell width="2cm">
-															<fo:block margin="1mm 0">
-															HSN/SAC
-															</fo:block>
-														</fo:table-cell>
+													<fo:table-row font-weight="bold" border-bottom-style="solid" border-bottom-width="0.5pt">
 														<fo:table-cell width="1.5cm">
 															<fo:block margin="1mm 0">
 																Tax Rate
@@ -311,20 +301,10 @@ under the License.
 									                    <#assign internalImageUrl = Static["org.apache.ofbiz.product.imagemanagement.ImageManagementHelper"].getInternalImageUrl(request, productId!)!>
 							                 	
 														<fo:table-row font-weight="normal" font-size="8pt">
-															<fo:table-cell width="1cm">
-																<fo:block margin="1mm 0">
-																	${orderItem_index+1}.
-											                    </fo:block>
-															</fo:table-cell>
-															<fo:table-cell width="2cm">
-																<fo:block margin="1mm 0">
-																<#if productHsn??>${productHsn.idValue!}</#if>
-																</fo:block>
-															</fo:table-cell>
 															<#if state == "IN-UT">
 																<fo:table-cell width="1.5cm">
 																	<fo:block margin="1mm 0">
-																		<#if gstDetail??>${gstDetail.sourcePercentage*2}  %</#if>
+																		<#-- if gstDetail??>${gstDetail.sourcePercentage*2}  %</#if-->
 																	</fo:block>
 																</fo:table-cell>
 															<#else>
@@ -383,20 +363,6 @@ under the License.
 															<#assign toatlAmount = Static["org.apache.ofbiz.order.order.OrderReadHelper"].getOrderGrandTotal(orderItems, orderAdjustments)?if_exists>
 															<#assign word =Static["com.patanjali.order.OrderServices"].convertNumberToWords(toatlAmount)?if_exists/>
 															${word!} Only
-														</fo:block>
-													</fo:table-cell>
-												</fo:table-row>
-											</fo:table-body>
-										</fo:table>
-										<fo:table>
-											<fo:table-body>
-												<fo:table-row>
-													<fo:table-cell width="20.5cm" text-align="center" padding="2mm" border-top-width="0.5pt" border-top-style="solid">
-														<fo:block font-weight="bold" text-decoration="underline">
-															Delivery Terms
-														</fo:block>
-														<fo:block> 
-															Supply of material is on time is essential part of PO. Delay in supply will attract a penalty@1% per week to max of 5% of PO value. In case of abnornal delay we may procure the matertial from alternate source at your risk or cancel the order. 
 														</fo:block>
 													</fo:table-cell>
 												</fo:table-row>
