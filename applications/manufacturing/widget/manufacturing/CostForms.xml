@@ -48,6 +48,7 @@ under the License.
         <alt-target use-when="costComponentCalc==null" target="createCostComponentCalc"/>
         <auto-fields-entity entity-name="CostComponentCalc" default-field-type="edit"/>
         <field name="costComponentCalcId"><display/></field>
+        <field name="costComponentCalcId3"><display/></field>
         <field name="costGlAccountTypeId"><hidden/></field>
         <field name="offsettingGlAccountTypeId"><hidden/></field>
         <field name="currencyUomId" title="${uiLabelMap.CommonCurrency}">

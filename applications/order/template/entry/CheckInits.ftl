@@ -54,6 +54,8 @@ under the License.
       <table width="100%" border="0" cellspacing="0" cellpadding="0">
         <tr>
           <td class="label"><label>${uiLabelMap.ProductProductStore}</label></td>
+           <td class="label"><label>------Hello-------</label></td>
+           <td class="label"><label>${uiLabelMap.ProductProductStore}</label></td>
           <td>
             <div class='tabletext'>
               <select name="productStoreId"<#if sessionAttributes.orderMode??> disabled</#if>>

@@ -52,6 +52,7 @@ under the License.
 															HSN/SAC Code
 														</fo:block>
 													</fo:table-cell>
+													
 													<fo:table-cell width="2cm" text-align="center" border-right-style="solid" border-right-width="0.5pt">
 														<fo:block margin-top="1mm" margin-right="1mm">
 															Qty
@@ -310,7 +311,7 @@ under the License.
 															<#else>
 																<fo:table-cell width="1.5cm">
 																	<fo:block margin="1mm 0">
-																		<#if gstDetail??>${gstDetail.sourcePercentage}  %</#if>
+																		<#if gstDetail??>${gstDetail.sourcePercentage!}  %</#if>
 																	</fo:block>
 																</fo:table-cell>
 															</#if>
@@ -382,8 +383,8 @@ under the License.
 																	</fo:table-row>
 																	<fo:table-row>
 																		<fo:table-cell text-align="left">
-																			<fo:block>1. Payment:100% within 30 days (OR after QC Report).</fo:block>
-																			<fo:block>2. Delivery period: Within a day from the date of PO.</fo:block>
+																			<fo:block>1. Payment:100% within 50 days (OR after QC Report).</fo:block>
+																			<fo:block>2. Delivery period2: Within a day from the date of PO.</fo:block>
 																			<fo:block>3. Delivery: FOR / Actual at PBRI, Haridwar.</fo:block>
 																			<fo:block>4. The Supplier will be responsible for any damages to any good/materials for want or lack of proper packing </fo:block>
 																			<fo:block>5. All dispute subject to Haridwar Jurisdiction.</fo:block>

@@ -199,9 +199,10 @@ under the License.
             </#if>
             <#assign productStore = orderHeader.getRelatedOne("ProductStore", true)! />
             <tr>
-              <td><#if orderHeader.orderDate?has_content>${Static["org.apache.ofbiz.base.util.UtilFormatOut"].formatDateTime(orderHeader.orderDate, "", locale, timeZone)!}</#if></td>
-              <td>
-                <a href="<@ofbizUrl>orderview?orderId=${orderHeader.orderId}</@ofbizUrl>" class="buttontext">${orderHeader.orderId}</a>
+            <td><#if orderHeader.orderDate?has_content>${Static["org.apache.ofbiz.base.util.UtilFormatOut"].formatDateTime(orderHeader.orderDate, "", locale, timeZone)!}</#if></td>
+            <td>
+              
+              <a href="<@ofbizUrl>orderview?orderId=${orderHeader.orderId}</@ofbizUrl>" class="buttontext">${orderHeader.orderId}</a>
               </td>
               <td>${orderHeader.orderName!}</td>
               <td>${orderHeader.getRelatedOne("OrderType", true).get("description",locale)}</td>
@@ -211,6 +212,7 @@ under the License.
               <td><@ofbizCurrency amount=orderHeader.grandTotal isoCode=orderHeader.currencyUom/></td>
               <td>
                 <#assign trackingCodes = orderHeader.getRelated("TrackingCodeOrder", null, null, false)>
+
                 <#list trackingCodes as trackingCode>
                     <#if trackingCode?has_content>
                         <a href="/marketing/control/FindTrackingCodeOrders?trackingCodeId=${trackingCode.trackingCodeId}&amp;externalLoginKey=${requestAttributes.externalLoginKey!}">${trackingCode.trackingCodeId}</a><br />

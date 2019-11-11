@@ -52,6 +52,11 @@ under the License.
         <security https="true" auth="true"/>
         <response name="success" type="view" value="orderstats"/>
     </request-map>
+    
+    <request-map uri="salesdata">
+        <security https="true" auth="true"/>
+        <response name="success" type="view" value="salesdata"/>
+    </request-map>
 
     <!-- Main Order Manager Screens -->
     <request-map uri="orderview">
@@ -1921,6 +1926,7 @@ under the License.
     <view-map name="main" type="screen" page="component://order/widget/ordermgr/OrderViewScreens.xml#Main"/>
 
     <view-map name="orderstats" type="screen" page="component://order/widget/ordermgr/OrderViewScreens.xml#OrderStats"/>
+    <view-map name="salesdata" type="screen" page="component://order/widget/ordermgr/OrderViewScreens.xml#NewSalesData"/>
     <view-map name="findorders" type="screen" page="component://order/widget/ordermgr/OrderViewScreens.xml#OrderFindOrder"/>
     <view-map name="OrderDeliveryScheduleInfo" type="screen" page="component://order/widget/ordermgr/OrderViewScreens.xml#OrderDeliveryScheduleInfo"/>
     <view-map name="orderview" type="screen" page="component://order/widget/ordermgr/OrderViewScreens.xml#OrderHeaderView"/>

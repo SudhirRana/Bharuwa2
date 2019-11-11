@@ -85,10 +85,12 @@ under the License.
             <widgets>
                 <container id="split50">
                     <container style="lefthalf">
-                        <include-screen name="orderinfo"/>
-                        <include-screen name="orderterms"/>
-                        <include-screen name="orderpaymentinfo"/>
-                        <include-screen name="projectAssoOrder"/>
+                      
+                      <include-screen name="orderinfo"/>                 
+                      <include-screen name="orderterms"/> 
+                       <include-screen name="orderpaymentinfo"/>
+                       <include-screen name="projectAssoOrder"/>     
+                       
                     </container>
                     <container style="righthalf">
                         <include-screen name="ordercontactinfo"/>
@@ -107,7 +109,7 @@ under the License.
         <section>
             <widgets>
                 <platform-specific>
-                    <html><html-template location="component://order/template/order/OrderInfo.ftl"/></html>
+                   <html><html-template location="component://order/template/order/OrderInfo.ftl"/></html>
                 </platform-specific>
             </widgets>
         </section>
@@ -360,7 +362,31 @@ under the License.
                 </decorator-screen>
             </widgets>
         </section>
+    </screen>    
+    <screen name="NewSalesData">
+        <section>
+            <actions>
+                <set field="titleProperty" value="OrderOrderStatisticsPage"/>
+                <set field="headerItem" value="stats"/>
+                <script location="component://order/groovyScripts/order/OrderStats.groovy"/>
+            </actions>
+            <widgets>
+                <decorator-screen name="CommonOrderViewDecorator">
+                    <decorator-section name="body">
+                     <include-form name="FindSalesData" location="component://order/widget/ordermgr/MySalesForms.xml"/>
+          <!--           
+                        <platform-specific>
+                            <html><html-template location="component://order/template/order/NewSalesData.ftl"/></html>
+                        </platform-specific>
+            -->                       
+                    </decorator-section>
+                </decorator-screen>
+            </widgets>
+        </section>
     </screen>
+    
+    
+    
     <screen name="OrderReceivePayment">
         <section>
             <actions>

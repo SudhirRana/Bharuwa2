@@ -8529,6 +8529,26 @@
         <value xml:lang="zh-CN">报价标识</value>
         <value xml:lang="zh-TW">報價識別</value>
     </property>
+    
+    <property key="OrderOrderQuoteId2">
+        <value xml:lang="ar">دليل عرض السعر</value>
+        <value xml:lang="de">Angebots-ID</value>
+        <value xml:lang="de-CH">Offert ID</value>
+        <value xml:lang="en">Quote ID</value>
+        <value xml:lang="es">Código de presupuesto</value>
+        <value xml:lang="fr">Réf. devis</value>
+        <value xml:lang="it">Numero Preventivo</value>
+        <value xml:lang="ja">見積ID</value>
+        <value xml:lang="nl">Offerte ID</value>
+        <value xml:lang="pt-BR">ID de cotação</value>
+        <value xml:lang="ro">Numar Oferta</value>
+        <value xml:lang="ru">Код предложения</value>
+        <value xml:lang="th">รหัสคำร้อง</value>
+        <value xml:lang="vi">Định danh</value>
+        <value xml:lang="zh">询价标识</value>
+        <value xml:lang="zh-CN">报价标识</value>
+        <value xml:lang="zh-TW">報價識別</value>
+    </property>
     <property key="OrderOrderQuoteIssueDate">
         <value xml:lang="ar">تاريخ اصدار عرض السعر</value>
         <value xml:lang="de">Datum des Angebots</value>

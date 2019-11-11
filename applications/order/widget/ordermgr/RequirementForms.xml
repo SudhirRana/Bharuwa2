@@ -24,11 +24,21 @@ under the License.
         header-row-style="header-row" default-table-style="basic-table">
         <field name="noConditionFind"><hidden value="Y"/><!-- if this isn't there then with all fields empty no query will be done --></field>
         <field name="requirementId"><text-find/></field>
+        <field name="requirementId2"><text-find/></field>
+        
         <field name="requirementTypeId">
             <drop-down allow-empty="true">
                 <entity-options entity-name="RequirementType"/>
             </drop-down>
         </field>
+        
+         
+        <field name="requirementTypeId2">
+            <drop-down allow-empty="true">
+                <entity-options entity-name="RequirementType2"/>
+            </drop-down>
+        </field>
+        
         <field name="statusId">
             <check all-checked="false">
                 <entity-options entity-name="StatusItem">
