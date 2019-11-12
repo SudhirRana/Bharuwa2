@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity-engine-xml>
+<PartyStatus partyId="CP0001" statusDate="2019-04-17 00:00:00.0" statusId="PARTY_ENABLED" />
+<PartyStatus partyId="CP0002" statusDate="2019-04-17 00:00:00.0" statusId="PARTY_ENABLED" />
+<PartyStatus partyId="CP0003" statusDate="2019-04-17 00:00:00.0" statusId="PARTY_ENABLED" />
+<PartyStatus partyId="CP0004" statusDate="2019-04-17 00:00:00.0" statusId="PARTY_ENABLED" />
+<PartyStatus partyId="CP0005" statusDate="2019-04-17 00:00:00.0" statusId="PARTY_ENABLED" />
+<PartyStatus partyId="CP0006" statusDate="2019-04-17 00:00:00.0" statusId="PARTY_ENABLED" />
+<PartyStatus partyId="CP0007" statusDate="2019-04-17 00:00:00.0" statusId="PARTY_ENABLED" />
+<PartyStatus partyId="CP0008" statusDate="2019-04-17 00:00:00.0" statusId="PARTY_ENABLED" />
+<PartyStatus partyId="CP0009" statusDate="2019-04-17 00:00:00.0" statusId="PARTY_ENABLED" />
+<PartyStatus partyId="CP0010" statusDate="2019-04-17 00:00:00.0" statusId="PARTY_ENABLED" />
+<PartyStatus partyId="CP0011" statusDate="2019-04-17 00:00:00.0" statusId="PARTY_ENABLED" />
+<PartyStatus partyId="CP0012" statusDate="2019-04-17 00:00:00.0" statusId="PARTY_ENABLED" />
+<PartyStatus partyId="CP0013" statusDate="2019-04-17 00:00:00.0" statusId="PARTY_ENABLED" />
+<PartyStatus partyId="CP0014" statusDate="2019-04-17 00:00:00.0" statusId="PARTY_ENABLED" />
+<PartyStatus partyId="CP0015" statusDate="2019-04-17 00:00:00.0" statusId="PARTY_ENABLED" />
+<PartyStatus partyId="CP0016" statusDate="2019-04-17 00:00:00.0" statusId="PARTY_ENABLED" />
+<PartyStatus partyId="CP0017" statusDate="2019-04-17 00:00:00.0" statusId="PARTY_ENABLED" />
+<PartyStatus partyId="CP0018" statusDate="2019-04-17 00:00:00.0" statusId="PARTY_ENABLED" />
+<PartyStatus partyId="CP0019" statusDate="2019-04-17 00:00:00.0" statusId="PARTY_ENABLED" />
+<PartyStatus partyId="CP0020" statusDate="2019-04-17 00:00:00.0" statusId="PARTY_ENABLED" />
+<PartyStatus partyId="CP0021" statusDate="2019-04-17 00:00:00.0" statusId="PARTY_ENABLED" />
+<PartyStatus partyId="CP0022" statusDate="2019-04-17 00:00:00.0" statusId="PARTY_ENABLED" />
+<PartyStatus partyId="CP0023" statusDate="2019-04-17 00:00:00.0" statusId="PARTY_ENABLED" />
+<PartyStatus partyId="CP0024" statusDate="2019-04-17 00:00:00.0" statusId="PARTY_ENABLED" />
+<PartyStatus partyId="CP0025" statusDate="2019-04-17 00:00:00.0" statusId="PARTY_ENABLED" />
+<PartyStatus partyId="CP0026" statusDate="2019-04-17 00:00:00.0" statusId="PARTY_ENABLED" />
+<PartyStatus partyId="CP0027" statusDate="2019-04-17 00:00:00.0" statusId="PARTY_ENABLED" />
+<!-- <PartyStatus partyId="CP0028" statusDate="2019-04-17 00:00:00.0" statusId="PARTY_ENABLED" /> -->
+<PartyStatus partyId="CP0029" statusDate="2019-04-17 00:00:00.0" statusId="PARTY_ENABLED" />
+<PartyStatus partyId="CP0030" statusDate="2019-04-17 00:00:00.0" statusId="PARTY_ENABLED" />
+<PartyStatus partyId="CP0031" statusDate="2019-04-17 00:00:00.0" statusId="PARTY_ENABLED" />
+<PartyStatus partyId="CP0032" statusDate="2019-04-17 00:00:00.0" statusId="PARTY_ENABLED" />
+<PartyStatus partyId="CP0033" statusDate="2019-04-17 00:00:00.0" statusId="PARTY_ENABLED" />
+<PartyStatus partyId="CP0034" statusDate="2019-04-17 00:00:00.0" statusId="PARTY_ENABLED" />
+<PartyStatus partyId="CP0035" statusDate="2019-04-17 00:00:00.0" statusId="PARTY_ENABLED" />
+<PartyStatus partyId="CP0036" statusDate="2019-04-17 00:00:00.0" statusId="PARTY_ENABLED" />
+<PartyStatus partyId="CP0037" statusDate="2019-04-17 00:00:00.0" statusId="PARTY_ENABLED" />
+<PartyStatus partyId="CP0038" statusDate="2019-04-17 00:00:00.0" statusId="PARTY_ENABLED" />
+<PartyStatus partyId="CP0039" statusDate="2019-04-17 00:00:00.0" statusId="PARTY_ENABLED" />
+<PartyStatus partyId="CP0040" statusDate="2019-04-17 00:00:00.0" statusId="PARTY_ENABLED" />
+<PartyStatus partyId="CP0041" statusDate="2019-04-17 00:00:00.0" statusId="PARTY_ENABLED" />
+<PartyStatus partyId="CP0042" statusDate="2019-04-17 00:00:00.0" statusId="PARTY_ENABLED" />
+<PartyStatus partyId="CP0043" statusDate="2019-04-17 00:00:00.0" statusId="PARTY_ENABLED" />
+<PartyStatus partyId="CP0044" statusDate="2019-04-17 00:00:00.0" statusId="PARTY_ENABLED" />
+<PartyStatus partyId="CP0045" statusDate="2019-04-17 00:00:00.0" statusId="PARTY_ENABLED" />
+<PartyStatus partyId="CP0046" statusDate="2019-04-17 00:00:00.0" statusId="PARTY_ENABLED" />
+<PartyStatus partyId="CP0047" statusDate="2019-04-17 00:00:00.0" statusId="PARTY_ENABLED" />
+<PartyStatus partyId="CP0048" statusDate="2019-04-17 00:00:00.0" statusId="PARTY_ENABLED" />
+<PartyStatus partyId="CP0049" statusDate="2019-04-17 00:00:00.0" statusId="PARTY_ENABLED" />
+<PartyStatus partyId="CP0050" statusDate="2019-04-17 00:00:00.0" statusId="PARTY_ENABLED" />
+<PartyStatus partyId="CP0051" statusDate="2019-04-17 00:00:00.0" statusId="PARTY_ENABLED" />
+<PartyStatus partyId="CP0052" statusDate="2019-04-17 00:00:00.0" statusId="PARTY_ENABLED" />
+</entity-engine-xml>

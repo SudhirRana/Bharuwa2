@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity-engine-xml>
+<PartyContactMech partyId="CP0005" contactMechId="CTC001" fromDate="2019-04-17 00:00:00.0" allowSolicitation="Y" />
+<PartyContactMech partyId="CP0006" contactMechId="CTC002" fromDate="2019-04-17 00:00:00.0" allowSolicitation="Y" />
+<PartyContactMech partyId="CP0008" contactMechId="CTC003" fromDate="2019-04-17 00:00:00.0" allowSolicitation="Y" />
+<PartyContactMech partyId="CP0010" contactMechId="CTC004" fromDate="2019-04-17 00:00:00.0" allowSolicitation="Y" />
+<PartyContactMech partyId="CP0013" contactMechId="CTC005" fromDate="2019-04-17 00:00:00.0" allowSolicitation="Y" />
+<PartyContactMech partyId="CP0016" contactMechId="CTC006" fromDate="2019-04-17 00:00:00.0" allowSolicitation="Y" />
+<PartyContactMech partyId="CP0017" contactMechId="CTC007" fromDate="2019-04-17 00:00:00.0" allowSolicitation="Y" />
+<PartyContactMech partyId="CP0018" contactMechId="CTC008" fromDate="2019-04-17 00:00:00.0" allowSolicitation="Y" />
+<PartyContactMech partyId="CP0019" contactMechId="CTC009" fromDate="2019-04-17 00:00:00.0" allowSolicitation="Y" />
+<PartyContactMech partyId="CP0022" contactMechId="CTC010" fromDate="2019-04-17 00:00:00.0" allowSolicitation="Y" />
+<PartyContactMech partyId="CP0023" contactMechId="CTC011" fromDate="2019-04-17 00:00:00.0" allowSolicitation="Y" />
+<PartyContactMech partyId="CP0024" contactMechId="CTC012" fromDate="2019-04-17 00:00:00.0" allowSolicitation="Y" />
+<PartyContactMech partyId="CP0026" contactMechId="CTC013" fromDate="2019-04-17 00:00:00.0" allowSolicitation="Y" />
+<PartyContactMech partyId="CP0027" contactMechId="CTC014" fromDate="2019-04-17 00:00:00.0" allowSolicitation="Y" />
+<!-- <PartyContactMech partyId="CP0028" contactMechId="CTC015" fromDate="2019-04-17 00:00:00.0" allowSolicitation="Y" /> -->
+<PartyContactMech partyId="CP0030" contactMechId="CTC016" fromDate="2019-04-17 00:00:00.0" allowSolicitation="Y" />
+<PartyContactMech partyId="CP0031" contactMechId="CTC017" fromDate="2019-04-17 00:00:00.0" allowSolicitation="Y" />
+<PartyContactMech partyId="CP0032" contactMechId="CTC018" fromDate="2019-04-17 00:00:00.0" allowSolicitation="Y" />
+<PartyContactMech partyId="CP0033" contactMechId="CTC019" fromDate="2019-04-17 00:00:00.0" allowSolicitation="Y" />
+<PartyContactMech partyId="CP0034" contactMechId="CTC020" fromDate="2019-04-17 00:00:00.0" allowSolicitation="Y" />
+<PartyContactMech partyId="CP0034" contactMechId="CTC021" fromDate="2019-04-17 00:00:00.0" allowSolicitation="Y" />
+<PartyContactMech partyId="CP0035" contactMechId="CTC022" fromDate="2019-04-17 00:00:00.0" allowSolicitation="Y" />
+<PartyContactMech partyId="CP0035" contactMechId="CTC023" fromDate="2019-04-17 00:00:00.0" allowSolicitation="Y" />
+<PartyContactMech partyId="CP0036" contactMechId="CTC024" fromDate="2019-04-17 00:00:00.0" allowSolicitation="Y" />
+<PartyContactMech partyId="CP0038" contactMechId="CTC025" fromDate="2019-04-17 00:00:00.0" allowSolicitation="Y" />
+<PartyContactMech partyId="CP0039" contactMechId="CTC026" fromDate="2019-04-17 00:00:00.0" allowSolicitation="Y" />
+<PartyContactMech partyId="CP0040" contactMechId="CTC027" fromDate="2019-04-17 00:00:00.0" allowSolicitation="Y" />
+<PartyContactMech partyId="CP0042" contactMechId="CTC028" fromDate="2019-04-17 00:00:00.0" allowSolicitation="Y" />
+<PartyContactMech partyId="CP0043" contactMechId="CTC029" fromDate="2019-04-17 00:00:00.0" allowSolicitation="Y" />
+<PartyContactMech partyId="CP0044" contactMechId="CTC030" fromDate="2019-04-17 00:00:00.0" allowSolicitation="Y" />
+<PartyContactMech partyId="CP0045" contactMechId="CTC031" fromDate="2019-04-17 00:00:00.0" allowSolicitation="Y" />
+<PartyContactMech partyId="CP0046" contactMechId="CTC032" fromDate="2019-04-17 00:00:00.0" allowSolicitation="Y" />
+<PartyContactMech partyId="CP0047" contactMechId="CTC033" fromDate="2019-04-17 00:00:00.0" allowSolicitation="Y" />
+<PartyContactMech partyId="CP0048" contactMechId="CTC034" fromDate="2019-04-17 00:00:00.0" allowSolicitation="Y" />
+<PartyContactMech partyId="CP0051" contactMechId="CTC035" fromDate="2019-04-17 00:00:00.0" allowSolicitation="Y" />
+</entity-engine-xml>

@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity-engine-xml>
+<PostalAddress contactMechId="CM0001" countryGeoId="IND" stateProvinceGeoId="IN-MP" address1="MSA-317, New Siyagang" address2="Poddar Plaza, Mall Godam Road" toName="" postalCode="452001" city="Indore" />
+<PostalAddress contactMechId="CM0002" countryGeoId="IND" stateProvinceGeoId="IN-MH" address1="Kmalkunj Apprment Flat No.8 Rajarampuri" address2="6th Lane. Near Canara Bank" toName="" postalCode="416008" city="KOLHAPUR" />
+<PostalAddress contactMechId="CM0003" countryGeoId="IND" stateProvinceGeoId="IN-RJ" address1="A-902A, RIICO Industrial Area" address2="Phase-III" toName="Mr. Rajesh Kumar" postalCode="301019" city="Bhiwadi" />
+<PostalAddress contactMechId="CM0004" countryGeoId="IND" stateProvinceGeoId="IN-GJ" address1="HH Rice Mill Bavla Ahmedabad Highway" address2="" toName="" postalCode="" city="" />
+<PostalAddress contactMechId="CM0005" countryGeoId="IND" stateProvinceGeoId="IN-UT" address1="B-8, Industrial Estate" address2="Bazpur Road" toName="Mr. Vivudh Rawal" postalCode="244713" city="Kashipur" />
+<PostalAddress contactMechId="CM0006" countryGeoId="IND" stateProvinceGeoId="IN-UT" address1="Uttarakhand" address2="" toName="" postalCode="" city="" />
+<PostalAddress contactMechId="CM0007" countryGeoId="IND" stateProvinceGeoId="IN-UT" address1="Uttarakhand" address2="" toName="" postalCode="" city="" />
+<PostalAddress contactMechId="CM0008" countryGeoId="IND" stateProvinceGeoId="IN-MH" address1="Maharashtra" address2="" toName="" postalCode="" city="" />
+<PostalAddress contactMechId="CM0009" countryGeoId="IND" stateProvinceGeoId="IN-UT" address1="Building Diwan Harnam Dass Trust" address2="Railway Road Haridwar" toName="" postalCode="" city="" />
+<PostalAddress contactMechId="CM0010" countryGeoId="IND" stateProvinceGeoId="IN-UT" address1="Vill. Sarail Near Bilala masjid jawalpur" address2="" toName="" postalCode="" city="" />
+<PostalAddress contactMechId="CM0011" countryGeoId="IND" stateProvinceGeoId="IN-UT" address1="61, Grubakash Vihar East, Near Daksh" address2="Balaji Hospital, dakash road Kankhal" toName="" postalCode="" city="Haridwar" />
+<PostalAddress contactMechId="CM0012" countryGeoId="IND" stateProvinceGeoId="IN-UT" address1="Plot No. 29,Sec-5 IIE Sidcul rainpur" address2="" toName="" postalCode="" city="Haridwar" />
+<PostalAddress contactMechId="CM0013" countryGeoId="IND" stateProvinceGeoId="IN-UP" address1="18-CA-2, Industrial Begrajpur" address2="Muzaffarnagar" toName="" postalCode="" city="" />
+<PostalAddress contactMechId="CM0014" countryGeoId="IND" stateProvinceGeoId="IN-RJ" address1="107, Anand Plaza" address2="" toName="" postalCode="313001" city="Udaipur" />
+<PostalAddress contactMechId="CM0015" countryGeoId="IND" stateProvinceGeoId="IN-UT" address1="Uttarakhand" address2="" toName="" postalCode="" city="" />
+<PostalAddress contactMechId="CM0016" countryGeoId="IND" stateProvinceGeoId="IN-HR" address1="Village Poharka, Tehsil Ellenabad" address2="Distt. Sirsa" toName="Mr. Lalit Goel" postalCode="" city="" />
+<PostalAddress contactMechId="CM0017" countryGeoId="IND" stateProvinceGeoId="IN-UT" address1="Patanjali Food &amp; Herbal ,park Vill Padar" address2="Laksar Road" toName="" postalCode="" city="" />
+<PostalAddress contactMechId="CM0018" countryGeoId="IND" stateProvinceGeoId="IN-UT" address1="Uttarakhand" address2="" toName="" postalCode="" city="" />
+<PostalAddress contactMechId="CM0019" countryGeoId="IND" stateProvinceGeoId="IN-UT" address1="Uttarakhand" address2="" toName="" postalCode="" city="" />
+<PostalAddress contactMechId="CM0020" countryGeoId="IND" stateProvinceGeoId="IN-UT" address1="Kathera Bazar, Jwalapur" address2="" toName="Mr. Ankit Modi" postalCode="249407" city="Haridwar" />
+<PostalAddress contactMechId="CM0021" countryGeoId="IND" stateProvinceGeoId="IN-MH" address1="205/206,shri Sainath Enclave, Near ST Bu" address2="Stand Opp. Renuka Hotel,ganesh Peth," toName="Shrikant Modani" postalCode="440018" city="Nagpur" />
+<PostalAddress contactMechId="CM0022" countryGeoId="IND" stateProvinceGeoId="IN-UT" address1="Rishikul Haridwar" address2="" toName="" postalCode="" city="" />
+<PostalAddress contactMechId="CM0023" countryGeoId="IND" stateProvinceGeoId="IN-MH" address1="SIDDHARTH ARCADE RLY.STATION" address2="ROAD, AURANGABAD" toName="" postalCode="" city="" />
+<PostalAddress contactMechId="CM0024" countryGeoId="IND" stateProvinceGeoId="IN-UT" address1="City Hospital Ranipur More Haridwar" address2="" toName="" postalCode="" city="" />
+<PostalAddress contactMechId="CM0025" countryGeoId="IND" stateProvinceGeoId="IN-RJ" address1="204, Vinayak Business Center" address2="Fatehpura, Pull Road" toName="" postalCode="313001" city="Udaipur" />
+<PostalAddress contactMechId="CM0026" countryGeoId="IND" stateProvinceGeoId="IN-UT" address1="G1-A, SURYA COMPLEX" address2="RANIPUR MORE" toName="" postalCode="249407" city="Haridwar" />
+<PostalAddress contactMechId="CM0027" countryGeoId="IND" stateProvinceGeoId="IN-UP" address1="Uttar Pradesh" address2="" toName="" postalCode="" city="" />
+<PostalAddress contactMechId="CM0028" countryGeoId="IND" stateProvinceGeoId="IN-UT" address1="379, B-9, Opp. Ahata Sher Ganj" address2="Near Div No.-3" toName="" postalCode="141008" city="Ludhiana" />
+<PostalAddress contactMechId="CM0029" countryGeoId="IND" stateProvinceGeoId="IN-UT" address1="Uttarakhand" address2="" toName="" postalCode="" city="" />
+<PostalAddress contactMechId="CM0030" countryGeoId="IND" stateProvinceGeoId="IN-UT" address1="Uttarakhand" address2="" toName="" postalCode="" city="" />
+<PostalAddress contactMechId="CM0031" countryGeoId="IND" stateProvinceGeoId="IN-UT" address1="Uttarakhand" address2="" toName="" postalCode="" city="" />
+<PostalAddress contactMechId="CM0032" countryGeoId="IND" stateProvinceGeoId="IN-UT" address1="Uttarakhand" address2="" toName="" postalCode="" city="" />
+<PostalAddress contactMechId="CM0033" countryGeoId="IND" stateProvinceGeoId="IN-RJ" address1="Rajasthan" address2="" toName="" postalCode="" city="Udaipur" />
+<PostalAddress contactMechId="CM0034" countryGeoId="IND" stateProvinceGeoId="IN-UT" address1="Uttarakhand" address2="" toName="" postalCode="" city="" />
+<PostalAddress contactMechId="CM0035" countryGeoId="IND" stateProvinceGeoId="IN-UT" address1="Near Jagat Petrol Pump, Jwalapur" address2="" toName="" postalCode="" city="Haridwar" />
+<PostalAddress contactMechId="CM0036" countryGeoId="IND" stateProvinceGeoId="IN-MP" address1="HO.36TS Navlakha" address2="New Loha Mandi" toName="" postalCode="" city="Indore" />
+<PostalAddress contactMechId="CM0037" countryGeoId="IND" stateProvinceGeoId="IN-UT" address1="Gurdwara Road Jawalapur" address2="" toName="" postalCode="" city="Haridwar" />
+<PostalAddress contactMechId="CM0038" countryGeoId="IND" stateProvinceGeoId="IN-HR" address1="Industrial Park Ltd. Building No. 3" address2="Vill Luhari Patudi" toName="" postalCode="" city="" />
+<PostalAddress contactMechId="CM0039" countryGeoId="IND" stateProvinceGeoId="IN-UP" address1="Patanjali Ayurved Limited" address2="Research Farm Najibabad" toName="" postalCode="" city="" />
+<PostalAddress contactMechId="CM0040" countryGeoId="IND" stateProvinceGeoId="IN-GJ" address1="Block No: 347-744, Sardar Industrial Co" address2="Village Chhapra, Kheda (Dist.)" toName="Dr. S. Mangalan" postalCode="387130" city="Mehemdabad" />
+<PostalAddress contactMechId="CM0041" countryGeoId="IND" stateProvinceGeoId="IN-MH" address1="A,86-89, MIDC, Industrial Estate," address2="Ajanta Road" toName="SUNIL CHAUDHRY" postalCode="425 003" city="JALGAON" />
+<PostalAddress contactMechId="CM0042" countryGeoId="IND" stateProvinceGeoId="IN-UT" address1="Subhash Nagar Jwalapur," address2="B.H.E.L., Sector-2, (Opp. Shankar Ashram)" toName="" postalCode="" city="Haridwar" />
+<PostalAddress contactMechId="CM0043" countryGeoId="IND" stateProvinceGeoId="IN-UT" address1="Uttarakhand" address2="" toName="" postalCode="" city="" />
+<PostalAddress contactMechId="CM0044" countryGeoId="IND" stateProvinceGeoId="IN-DL" address1="Ug 37, Vishal Tower,janakpuri" address2="" toName="" postalCode="" city="New Delhi" />
+<PostalAddress contactMechId="CM0045" countryGeoId="IND" stateProvinceGeoId="IN-UT" address1="Uttarakhand" address2="" toName="" postalCode="" city="" />
+<PostalAddress contactMechId="CM0046" countryGeoId="IND" stateProvinceGeoId="IN-MP" address1="Madhya Pradesh" address2="" toName="" postalCode="" city="" />
+<PostalAddress contactMechId="CM0047" countryGeoId="IND" stateProvinceGeoId="IN-UT" address1="Plot No 04 Gali No01, New Shivalik Nagar" address2="THDC BHEL" toName="" postalCode="" city="Haridwar" />
+<PostalAddress contactMechId="CM0048" countryGeoId="IND" stateProvinceGeoId="IN-HR" address1="Tohana" address2="" toName="" postalCode="" city="" />
+<PostalAddress contactMechId="CM0049" countryGeoId="IND" stateProvinceGeoId="IN-UT" address1="Devpura Chowk," address2="" toName="" postalCode="" city="Haridwar" />
+<PostalAddress contactMechId="CM0050" countryGeoId="IND" stateProvinceGeoId="IN-UT" address1="Uttarakhand" address2="" toName="" postalCode="" city="" />
+<PostalAddress contactMechId="CM0051" countryGeoId="IND" stateProvinceGeoId="IN-UP" address1="Uttar Pradesh" address2="" toName="" postalCode="" city="" />
+<PostalAddress contactMechId="CM0052" countryGeoId="IND" stateProvinceGeoId="IN-UP" address1="78, Kabari Bazar Simith Gang" address2="" toName="" postalCode="" city="Meerut City" />
+<PostalAddress contactMechId="CM0053" countryGeoId="IND" stateProvinceGeoId="IN-UT" address1="Haridwar" address2="" toName="Ram Prasad" postalCode="" city="" />
+<PostalAddress contactMechId="CM0054" countryGeoId="IND" stateProvinceGeoId="IN-UT" address1="GAS GODAM ROAD,UTTRANCHAL COLONY PHASE-1" address2="KUSUMKHERA,HALDWANI DISTT NAINITAL" toName="Mr. Pankaj Sharma" postalCode="" city="" />
+<PostalAddress contactMechId="CM0055" countryGeoId="IND" stateProvinceGeoId="IN-UT" address1="46 Jawalpur" address2="" toName="" postalCode="" city="Haridwar" />
+<PostalAddress contactMechId="CM0056" countryGeoId="IND" stateProvinceGeoId="IN-UP" address1="Muzaffarnagar" address2="" toName="Mr. Rahul" postalCode="" city="" />
+<PostalAddress contactMechId="CM0057" countryGeoId="IND" stateProvinceGeoId="IN-UT" address1="Haridwar" address2="" toName="" postalCode="" city="" />
+<PostalAddress contactMechId="CM0058" countryGeoId="IND" stateProvinceGeoId="IN-UT" address1="Dwarka Vihar, Near Raj Garden" address2="Jagjeetpur" toName="" postalCode="" city="Haridwar" />
+<PostalAddress contactMechId="CM0059" countryGeoId="IND" stateProvinceGeoId="IN-UT" address1="Avdhoot Mandal Ashram Tiraha" address2="Shankar Ashram" toName="" postalCode="" city="Haridwar" />
+<PostalAddress contactMechId="CM0060" countryGeoId="IND" stateProvinceGeoId="IN-UT" address1="Uttarakhand" address2="" toName="" postalCode="" city="" />
+<PostalAddress contactMechId="CM0061" countryGeoId="IND" stateProvinceGeoId="IN-UT" address1="Uttarakhand" address2="" toName="" postalCode="" city="" />
+<PostalAddress contactMechId="CM0062" countryGeoId="IND" stateProvinceGeoId="IN-UT" address1="AVG Print N Pack" address2="" toName="" postalCode="" city="" />
+<PostalAddress contactMechId="CM0063" countryGeoId="IND" stateProvinceGeoId="IN-UT" address1="Uttarakhand" address2="" toName="" postalCode="" city="" />
+<PostalAddress contactMechId="CM0064" countryGeoId="IND" stateProvinceGeoId="IN-UT" address1="Uttarakhand" address2="" toName="" postalCode="" city="" />
+<PostalAddress contactMechId="CM0065" countryGeoId="IND" stateProvinceGeoId="IN-UT" address1="Uttarakhand" address2="" toName="" postalCode="" city="" />
+<PostalAddress contactMechId="CM0066" countryGeoId="IND" stateProvinceGeoId="IN-UT" address1="Uttarakhand" address2="" toName="" postalCode="" city="" />
+<PostalAddress contactMechId="CM0067" countryGeoId="IND" stateProvinceGeoId="IN-UT" address1="Uttarakhand" address2="" toName="" postalCode="" city="" />
+<PostalAddress contactMechId="CM0068" countryGeoId="IND" stateProvinceGeoId="IN-UT" address1="Shop No. 12," address2="Ansari Market, Jwalapur" toName="" postalCode="" city="Haridwar" />
+<PostalAddress contactMechId="CM0069" countryGeoId="IND" stateProvinceGeoId="IN-UT" address1="Uttarakhand" address2="" toName="" postalCode="" city="" />
+<PostalAddress contactMechId="CM0070" countryGeoId="IND" stateProvinceGeoId="IN-UT" address1="Uttarakhand" address2="" toName="" postalCode="" city="" />
+<PostalAddress contactMechId="CM0071" countryGeoId="IND" stateProvinceGeoId="IN-UT" address1="Uttarakhand" address2="" toName="" postalCode="" city="" />
+<PostalAddress contactMechId="CM0072" countryGeoId="IND" stateProvinceGeoId="IN-UT" address1="Uttarakhand" address2="" toName="" postalCode="" city="" />
+<PostalAddress contactMechId="CM0073" countryGeoId="IND" stateProvinceGeoId="IN-UT" address1="Uttarakhand" address2="" toName="" postalCode="" city="" />
+<PostalAddress contactMechId="CM0074" countryGeoId="IND" stateProvinceGeoId="IN-UT" address1="Uttarakhand" address2="" toName="" postalCode="" city="" />
+<PostalAddress contactMechId="CM0075" countryGeoId="IND" stateProvinceGeoId="IN-UT" address1="Uttarakhand" address2="" toName="" postalCode="" city="" />
+<PostalAddress contactMechId="CM0076" countryGeoId="IND" stateProvinceGeoId="IN-UT" address1="Uttarakhand" address2="" toName="" postalCode="" city="" />
+<PostalAddress contactMechId="CM0077" countryGeoId="IND" stateProvinceGeoId="IN-UT" address1="Uttarakhand" address2="" toName="" postalCode="" city="" />
+<PostalAddress contactMechId="CM0078" countryGeoId="IND" stateProvinceGeoId="IN-UT" address1="Uttarakhand" address2="" toName="" postalCode="" city="" />
+<PostalAddress contactMechId="CM0079" countryGeoId="IND" stateProvinceGeoId="IN-GJ" address1="Gujarat" address2="" toName="" postalCode="" city="" />
+<PostalAddress contactMechId="CM0080" countryGeoId="IND" stateProvinceGeoId="IN-UT" address1="Old Haridwar Road, Mehwar Kalan," address2="Distt : Haridwar" toName="Brijesh Saini" postalCode="247667" city="Roorkee" />
+<PostalAddress contactMechId="CM0081" countryGeoId="IND" stateProvinceGeoId="IN-UT" address1="Uttarakhand" address2="" toName="" postalCode="" city="" />
+<PostalAddress contactMechId="CM0082" countryGeoId="IND" stateProvinceGeoId="IN-GJ" address1="Plot No. 227, GIDC" address2="Chitra" toName="Jigar Mehta" postalCode="364 004" city="Bhavnagar" />
+<PostalAddress contactMechId="CM0083" countryGeoId="IND" stateProvinceGeoId="IN-UT" address1="Laksar, District : Haridwar," address2="" toName="" postalCode="" city="" />
+<PostalAddress contactMechId="CM0084" countryGeoId="IND" stateProvinceGeoId="IN-UP" address1="Khad Factory, Near Macchi Talab," address2="Near UPJal Nigam STP, Kidwai Nagar, Khalapur" toName="" postalCode="251001" city="Muzaffarnagar" />
+<PostalAddress contactMechId="CM0085" countryGeoId="IND" stateProvinceGeoId="IN-UP" address1="103, Budh Vihar Colony," address2="Behind Indian Oil Petrol Pump, Suraj Kund Road" toName="Anand Tyagi" postalCode="" city="Meerut-City-2" />
+<PostalAddress contactMechId="CM0086" countryGeoId="IND" stateProvinceGeoId="IN-UT" address1="02, Sarsthi Complex, Ground Floor," address2="RANIPUR MORE" toName="" postalCode="" city="Haridwar" />
+<PostalAddress contactMechId="CM0087" countryGeoId="IND" stateProvinceGeoId="IN-UT" address1="Uttarakhand" address2="" toName="" postalCode="" city="" />
+<PostalAddress contactMechId="CM0088" countryGeoId="IND" stateProvinceGeoId="IN-MH" address1="Maharashtra" address2="" toName="" postalCode="" city="" />
+<PostalAddress contactMechId="CM0089" countryGeoId="IND" stateProvinceGeoId="IN-UT" address1="Patanjali Food &amp; Herbal Park Vill. Padar" address2="Laksar Road" toName="" postalCode="" city="Haridwar" />
+<PostalAddress contactMechId="CM0090" countryGeoId="IND" stateProvinceGeoId="IN-UT" address1="Ramaji Building," address2="Railway Road, Jwalapu" toName="" postalCode="" city="Haridwar" />
+<PostalAddress contactMechId="CM0091" countryGeoId="IND" stateProvinceGeoId="IN-UT" address1="KASHIPUR ROAD, JASPUR" address2="U.S.NAGAR" toName="" postalCode="244712" city="" />
+<PostalAddress contactMechId="CM0092" countryGeoId="IND" stateProvinceGeoId="IN-UP" address1="Raghavji Ki Kothi" address2="Kothi Gate" toName="" postalCode="245101" city="Hapur" />
+<PostalAddress contactMechId="CM0093" countryGeoId="IND" stateProvinceGeoId="IN-DL" address1="Ub-65 Ground Floor Back Side" address2="Jawahar Nagar" toName="" postalCode="" city="Delhi" />
+<PostalAddress contactMechId="CM0094" countryGeoId="IND" stateProvinceGeoId="IN-UT" address1="S-303, Shivalik Nagar, BHEL" address2="" toName="Sonia Khurana" postalCode="249403" city="Haridwar" />
+<PostalAddress contactMechId="CM0095" countryGeoId="IND" stateProvinceGeoId="IN-PB" address1="# 531, Industrial Area," address2="Phase-9" toName="Vineet Gupta" postalCode="160062" city="Mohali" />
+<PostalAddress contactMechId="CM0096" countryGeoId="IND" stateProvinceGeoId="IN-UT" address1="T-101, SHIVALIK NAGAR, BHEL," address2="RANIPUR" toName="" postalCode="" city="Haridwar" />
+<PostalAddress contactMechId="CM0097" countryGeoId="IND" stateProvinceGeoId="IN-UT" address1="167, KHANNA NAGAR," address2="" toName="" postalCode="" city="Haridwar" />
+<PostalAddress contactMechId="CM0098" countryGeoId="IND" stateProvinceGeoId="IN-HR" address1="Old Anaj Mandi Chowk" address2="District- Palwal" toName="" postalCode="121 006" city="Hodal" />
+<PostalAddress contactMechId="CM0099" countryGeoId="IND" stateProvinceGeoId="IN-UT" address1="Ved Mandir,opp. Ashoka Talkies" address2="Jwalapur" toName="" postalCode="" city="Haridwar" />
+<PostalAddress contactMechId="CM0100" countryGeoId="IND" stateProvinceGeoId="IN-UT" address1="Sant Bhawan, Near Honda Activa Showroom" address2="Arya Nagar, Jwalapur" toName="SUMANPREET" postalCode="" city="Haridwar" />
+<PostalAddress contactMechId="CM0101" countryGeoId="IND" stateProvinceGeoId="IN-UT" address1="GODOWN PLOT NO. E-8" address2="OLD INDUSTRIAL AREA," toName="" postalCode="249401" city="Haridwar" />
+<PostalAddress contactMechId="CM0102" countryGeoId="IND" stateProvinceGeoId="IN-UT" address1="Shakti Vihar, Phase-1" address2="Near Sidcul" toName="" postalCode="249204" city="Haridwar" />
+<PostalAddress contactMechId="CM0103" countryGeoId="IND" stateProvinceGeoId="IN-UT" address1="Barrier No-06,B.H.E.L Road," address2="Bahadrabad" toName="" postalCode="" city="Haridwar" />
+<PostalAddress contactMechId="CM0104" countryGeoId="IND" stateProvinceGeoId="IN-DL" address1="Z-41, Loha Mandi, Naraina" address2="" toName="Sarvesh Gupta" postalCode="110028" city="Delhi" />
+<PostalAddress contactMechId="CM0105" countryGeoId="IND" stateProvinceGeoId="IN-UP" address1="364, Loha Mandi," address2="B. S. Indl. Area" toName="" postalCode="" city="Ghaziabad" />
+<PostalAddress contactMechId="CM0106" countryGeoId="IND" stateProvinceGeoId="IN-UP" address1="Gali No.2,janakpuri" address2="" toName="9424554968" postalCode="251001" city="muzaffarnagar" />
+<PostalAddress contactMechId="CM0107" countryGeoId="IND" stateProvinceGeoId="IN-UT" address1="OPP. ARVIND YOGA MANDIR" address2="ARYA NAGAR, JWALAPUR" toName="" postalCode="" city="Haridwar" />
+<PostalAddress contactMechId="CM0108" countryGeoId="IND" stateProvinceGeoId="IN-UT" address1="Near Peer Mazar, Arvind yog Mandir" address2="Kankhal Road, Arya Nagar, Jwalapur" toName="" postalCode="" city="Haridwar" />
+<PostalAddress contactMechId="CM0109" countryGeoId="IND" stateProvinceGeoId="IN-UT" address1="Khasra No. 438/1, Plot No.-27, Gangotri Enclave" address2="Phase-II Gram Rawali Mehbood, Near Hotel Comfirt IN" toName="" postalCode="" city="Haridwar" />
+<PostalAddress contactMechId="CM0110" countryGeoId="IND" stateProvinceGeoId="IN-UT" address1="C-99/1, Shri Ram Nagar, Jwalapur" address2="" toName="" postalCode="249407" city="Haridwar" />
+<PostalAddress contactMechId="CM0111" countryGeoId="IND" stateProvinceGeoId="IN-HR" address1="Madhosinghana" address2="" toName="" postalCode="125055" city="Sirsa" />
+<PostalAddress contactMechId="CM0112" countryGeoId="IND" stateProvinceGeoId="IN-UT" address1="B-9, Shivalik Nagar, BHEL" address2="" toName="" postalCode="" city="Haridwar" />
+<PostalAddress contactMechId="CM0113" countryGeoId="IND" stateProvinceGeoId="IN-HR" address1="14/19, MAU PATODI ROAD, VPO MALPURA" address2="INDUSTRIAL AREA DARUHERA, DISTT – REWARI" toName="" postalCode="" city="" />
+<PostalAddress contactMechId="CM0114" countryGeoId="IND" stateProvinceGeoId="IN-UP" address1="1B/4400, Durgapuri Colony" address2="New Sharda Nagar, Nawada Road," toName="" postalCode="247001" city="Saharanpur" />
+<PostalAddress contactMechId="CM0115" countryGeoId="IND" stateProvinceGeoId="IN-UT" address1="Arya Nagar Chowk" address2="Jwalapur" toName="" postalCode="" city="Haridwar" />
+<PostalAddress contactMechId="CM0116" countryGeoId="IND" stateProvinceGeoId="IN-UP" address1="G-113, Phase-V," address2="Surajpur Industrial Area, Gautam Budh Nagar" toName="" postalCode="" city="Greater Noida" />
+<PostalAddress contactMechId="CM0117" countryGeoId="IND" stateProvinceGeoId="IN-DL" address1=": F106, SHIVAM PLAZA, POCKET-9," address2="SECTOR-21" toName="" postalCode="110086" city="Delhi" />
+<PostalAddress contactMechId="CM0118" countryGeoId="IND" stateProvinceGeoId="IN-UT" address1="Uttarakhand" address2="" toName="" postalCode="" city="" />
+<PostalAddress contactMechId="CM0119" countryGeoId="IND" stateProvinceGeoId="IN-UT" address1="G-54, New Ansari Market" address2="Jwalapur" toName="" postalCode="" city="Haridwar" />
+<PostalAddress contactMechId="CM0120" countryGeoId="IND" stateProvinceGeoId="IN-UT" address1="13, Co-operative Industrial Area" address2="Patel Nagar" toName="" postalCode="" city="Dehradun" />
+<PostalAddress contactMechId="CM0121" countryGeoId="IND" stateProvinceGeoId="IN-UP" address1="B-22/1/20" address2="B. S. Road Indl. Area" toName="Atul steel associates" postalCode="" city="Ghaziabad" />
+<PostalAddress contactMechId="CM0122" countryGeoId="IND" stateProvinceGeoId="IN-OT" address1="24 Shanahan Rd, Davenport WA" address2="Australia" toName="" postalCode="6230" city="" />
+<PostalAddress contactMechId="CM0123" countryGeoId="IND" stateProvinceGeoId="IN-UT" address1="PLOT-32,33,SECTOR-7, I.I.E." address2="SIDCUL Ind. Area" toName="" postalCode="" city="Haridwar" />
+<PostalAddress contactMechId="CM0124" countryGeoId="IND" stateProvinceGeoId="IN-UT" address1="Uttarakhand" address2="" toName="" postalCode="" city="" />
+<PostalAddress contactMechId="CM0125" countryGeoId="IND" stateProvinceGeoId="IN-UP" address1="Near Police Chowki, Mohalla Mahajanan" address2="Town Titron" toName="" postalCode="" city="Saharanpur" />
+<PostalAddress contactMechId="CM0126" countryGeoId="IND" stateProvinceGeoId="IN-GJ" address1="405,central Busines Spacenr. Parth Resda Hotel" address2="Opp.fortune Landmark Hotel Off Ash, Usmanpur" toName="" postalCode="" city="Ahmedabad" />
+<PostalAddress contactMechId="CM0127" countryGeoId="IND" stateProvinceGeoId="IN-UP" address1="Near Police Chowki Mohalla Mahajanana" address2="Titron" toName="" postalCode="" city="Saharanpur" />
+<PostalAddress contactMechId="CM0128" countryGeoId="IND" stateProvinceGeoId="IN-UT" address1="43/5, National Road," address2="Laxman Chowk, Near Premsukh Dha" toName="" postalCode="" city="Dehradun" />
+<PostalAddress contactMechId="CM0129" countryGeoId="IND" stateProvinceGeoId="IN-UT" address1="Uttarakhand" address2="" toName="" postalCode="" city="" />
+<PostalAddress contactMechId="CM0130" countryGeoId="IND" stateProvinceGeoId="IN-UP" address1="Santomalan Street" address2="Near Bhoomi Vikas Bank, Dist-Bijnor" toName="Vikash Kumar" postalCode="246763" city="Najibabad" />
+<PostalAddress contactMechId="CM0131" countryGeoId="IND" stateProvinceGeoId="IN-DL" address1="203, Ideal House, 69," address2="Nehru Place," toName="" postalCode="110019" city="New Delhi" />
+<PostalAddress contactMechId="CM0132" countryGeoId="IND" stateProvinceGeoId="IN-UT" address1="Plot No. 30 &amp; 31 , Sector-5," address2="I.I.E , SIDCUL ,RANIPUR" toName="" postalCode="249403" city="Haridwar" />
+<PostalAddress contactMechId="CM0133" countryGeoId="IND" stateProvinceGeoId="IN-HR" address1="D-2/399, SHIV DURGA VIHAR" address2="LAKARPUR" toName="" postalCode="121 009" city="Faridabad" />
+<PostalAddress contactMechId="CM0134" countryGeoId="IND" stateProvinceGeoId="IN-MH" address1="Mumbai  Pune Road, Sveanagar" address2="Dapodi" toName="" postalCode="411012" city="Pune" />
+<PostalAddress contactMechId="CM0135" countryGeoId="IND" stateProvinceGeoId="IN-OT" address1="Boomsesteenweg 957 B , 2610 Wilrijk" address2="Belgium" toName="" postalCode="" city="" />
+<PostalAddress contactMechId="CM0136" countryGeoId="IND" stateProvinceGeoId="IN-UT" address1="Uttarakhand" address2="" toName="" postalCode="" city="" />
+<PostalAddress contactMechId="CM0137" countryGeoId="IND" stateProvinceGeoId="IN-UT" address1="Near Patanjali Yogpeeth" address2="Roorkee - Haridwar Road, Bahadarabad" toName="" postalCode="248407" city="Haridwar" />
+<PostalAddress contactMechId="CM0138" countryGeoId="IND" stateProvinceGeoId="IN-UT" address1="Uttarakhand" address2="" toName="" postalCode="" city="" />
+<PostalAddress contactMechId="CM0139" countryGeoId="IND" stateProvinceGeoId="IN-DL" address1="Plot No: 100, Phase-2, Gate No.-5, BA" address2="KH No.: 40/7/2, Main Chowk Samaypur" toName="" postalCode="110042" city="New Delhi" />
+<PostalAddress contactMechId="CM0140" countryGeoId="IND" stateProvinceGeoId="IN-MH" address1="402 B, 4th Floor, Shanta Madahv Sankul," address2="Above SBI Bank, Near MICO Circle, Tidke" toName="" postalCode="422002" city="Nasik" />
+<PostalAddress contactMechId="CM0141" countryGeoId="IND" stateProvinceGeoId="IN-HR" address1="12/6, Plot No 17C, Gurukul Industrial Area" address2="VILLAGE SARAI KHAWAZA" toName="" postalCode="" city="FARIDABAD" />
+<PostalAddress contactMechId="CM0142" countryGeoId="IND" stateProvinceGeoId="IN-DL" address1="2418, S. N. Marg, Behind G. B. Road" address2="1st Floor" toName="" postalCode="" city="Delhi" />
+<PostalAddress contactMechId="CM0143" countryGeoId="IND" stateProvinceGeoId="IN-UT" address1="Uttarakhand" address2="" toName="" postalCode="" city="" />
+<PostalAddress contactMechId="CM0144" countryGeoId="IND" stateProvinceGeoId="IN-UP" address1="915/3, Rampuri Near Masjid Saifiyan," address2="Roorkee Road" toName="" postalCode="" city="Muzaffarnagar" />
+<PostalAddress contactMechId="CM0145" countryGeoId="IND" stateProvinceGeoId="IN-UT" address1="H. No. - 320, Behind Bikaner," address2="Holy Gangesh School Lane, Old Ranipur More" toName="" postalCode="249407" city="Haridwar" />
+<PostalAddress contactMechId="CM0146" countryGeoId="IND" stateProvinceGeoId="IN-UT" address1="Raja Road" address2="" toName="" postalCode="" city="Dehradun" />
+<PostalAddress contactMechId="CM0147" countryGeoId="IND" stateProvinceGeoId="IN-UT" address1="Plot No. - 20, Sector – 8B" address2="IIE SIDK" toName="" postalCode="249403" city="Haridwar" />
+<PostalAddress contactMechId="CM0148" countryGeoId="IND" stateProvinceGeoId="IN-DL" address1="C-9, Connaught Place" address2="" toName="" postalCode="110001" city="New Delhi" />
+<PostalAddress contactMechId="CM0149" countryGeoId="IND" stateProvinceGeoId="IN-UT" address1="Neelkanth Plywood, Gurudwara Road" address2="Near Police Chowky, Jwalapur" toName="" postalCode="" city="Haridwar" />
+<PostalAddress contactMechId="CM0150" countryGeoId="IND" stateProvinceGeoId="IN-UT" address1="Arya Nagar Chowk" address2="Jwalapur" toName="" postalCode="249407" city="Haridwar" />
+<PostalAddress contactMechId="CM0151" countryGeoId="IND" stateProvinceGeoId="IN-DL" address1="C-205/2, Mayapuri Phase - II," address2="" toName="" postalCode="110064" city="New Delhi" />
+<PostalAddress contactMechId="CM0152" countryGeoId="IND" stateProvinceGeoId="IN-UT" address1="R-238, SHIVALIK NAGAR" address2="BHEL" toName="" postalCode="" city="Haridwar" />
+<PostalAddress contactMechId="CM0153" countryGeoId="IND" stateProvinceGeoId="IN-UT" address1="50 Mohabewala Industrial Area," address2="Saharanpur Road" toName="" postalCode="" city="Dehradun" />
+<PostalAddress contactMechId="CM0154" countryGeoId="IND" stateProvinceGeoId="IN-UP" address1="C-34, Sector - 63" address2="Gautam Budh Nagar" toName="" postalCode="201307" city="NOIDA" />
+<PostalAddress contactMechId="CM0155" countryGeoId="IND" stateProvinceGeoId="IN-UT" address1="Shastri Nagar" address2="Near Rly. Crossing, Jwalapur" toName="" postalCode="" city="Haridwar" />
+<PostalAddress contactMechId="CM0156" countryGeoId="IND" stateProvinceGeoId="IN-UT" address1="C-3/34, Harilok Shopping Complex" address2="Jwalapur" toName="" postalCode="" city="Haridwar" />
+<PostalAddress contactMechId="CM0157" countryGeoId="IND" stateProvinceGeoId="IN-UT" address1="B-6, New Shopping Complex," address2="Shivalik Nagar" toName="" postalCode="" city="Haridwar" />
+<PostalAddress contactMechId="CM0158" countryGeoId="IND" stateProvinceGeoId="IN-UT" address1="F-2,3, Surya Complex, Ranipur More" address2="" toName="" postalCode="" city="Haridwar" />
+<PostalAddress contactMechId="CM0159" countryGeoId="IND" stateProvinceGeoId="IN-PB" address1="Near Amrit Press Tool, Azad Nagar" address2="Kanganwal" toName="" postalCode="141014" city="Ludhiana" />
+<PostalAddress contactMechId="CM0160" countryGeoId="IND" stateProvinceGeoId="IN-HP" address1="Vill Lodhwan, Tehsil- Nurpur," address2="Dist – Kangra" toName="" postalCode="176201" city="" />
+<PostalAddress contactMechId="CM0161" countryGeoId="IND" stateProvinceGeoId="IN-UT" address1="Ali Chowk, Sultanpur,adampur,laksar" address2="" toName="" postalCode="" city="Haridwar" />
+<PostalAddress contactMechId="CM0162" countryGeoId="IND" stateProvinceGeoId="IN-KA" address1="No. - 96, Electronic City Complex" address2="Hosur Electronic City" toName="" postalCode="560100" city="Bangaluru (Bangalore) Urban" />
+<PostalAddress contactMechId="CM0163" countryGeoId="IND" stateProvinceGeoId="IN-UT" address1="188/A, Vivek Vihar, Ranipur More" address2="" toName="" postalCode="" city="Haridwar" />
+<PostalAddress contactMechId="CM0164" countryGeoId="IND" stateProvinceGeoId="IN-DL" address1="16, Bhatti Market, Mandoli" address2="" toName="" postalCode="110094" city="New Delhi" />
+<PostalAddress contactMechId="CM0165" countryGeoId="IND" stateProvinceGeoId="IN-UP" address1="A-7, Industrial Estate" address2="" toName="" postalCode="" city="Muzaffarnagar" />
+<PostalAddress contactMechId="CM0166" countryGeoId="IND" stateProvinceGeoId="IN-UP" address1="Bazar Lohani Sarai" address2="" toName="" postalCode="" city="Saharanpur" />
+<PostalAddress contactMechId="CM0167" countryGeoId="IND" stateProvinceGeoId="IN-DL" address1="X-72, Loha Mandi, Narayana" address2="" toName="" postalCode="110028" city="New Delhi" />
+<PostalAddress contactMechId="CM0168" countryGeoId="IND" stateProvinceGeoId="IN-HR" address1="E-Khasra No. - 64, B-Block, Gali No.-1," address2="Harkesh Nagar, Tilpat" toName="" postalCode="" city="Faridabad" />
+<PostalAddress contactMechId="CM0169" countryGeoId="IND" stateProvinceGeoId="IN-UT" address1="H-212,Shivalik Nagar Bhel" address2="" toName="" postalCode="" city="Haridwar" />
+<PostalAddress contactMechId="CM0170" countryGeoId="IND" stateProvinceGeoId="IN-GJ" address1="Gujarat" address2="" toName="" postalCode="" city="" />
+<PostalAddress contactMechId="CM0171" countryGeoId="IND" stateProvinceGeoId="IN-PB" address1="Punjab" address2="" toName="" postalCode="" city="" />
+<PostalAddress contactMechId="CM0172" countryGeoId="IND" stateProvinceGeoId="IN-UT" address1="Krishna Nagar Laksar  Road,kankhal" address2="" toName="" postalCode="" city="Haridwar" />
+<PostalAddress contactMechId="CM0173" countryGeoId="IND" stateProvinceGeoId="IN-TN" address1="Plot No M-4, SIPCOT Industrial Park, Sriperumbudur Hi-Tech" address2="SEZ, Sirumangadu Village, Sriperumbudur Taluk" toName="" postalCode="602106" city="Kancheepura" />
+<PostalAddress contactMechId="CM0174" countryGeoId="IND" stateProvinceGeoId="IN-UT" address1="Gur Mandi Manglour" address2="" toName="" postalCode="" city="Haridwar" />
+<PostalAddress contactMechId="CM0175" countryGeoId="IND" stateProvinceGeoId="IN-GJ" address1="731 GIDC SAVLI, SAVLI MANJUSAR ROAD" address2="" toName="" postalCode="391770" city="Vadodara" />
+<PostalAddress contactMechId="CM0176" countryGeoId="IND" stateProvinceGeoId="IN-UT" address1="Village - Akkad, PO-Amboowala," address2="Thana- Pathari" toName="" postalCode="" city="Haridwar" />
+<PostalAddress contactMechId="CM0177" countryGeoId="IND" stateProvinceGeoId="IN-UT" address1="Village-Budpur Jat, Gurukul Narsan" address2="" toName="" postalCode="" city="Haridwar" />
+<PostalAddress contactMechId="CM0178" countryGeoId="IND" stateProvinceGeoId="IN-UT" address1="Vill. &amp; Post - Bhogpur," address2="Tehsil - Jwalapur" toName="" postalCode="247663" city="Haridwar" />
+<PostalAddress contactMechId="CM0179" countryGeoId="IND" stateProvinceGeoId="IN-UP" address1="Near jk Dharam Kanta" address2="" toName="" postalCode="" city="Muzaffarnagar" />
+<PostalAddress contactMechId="CM0180" countryGeoId="IND" stateProvinceGeoId="IN-HR" address1="#34, Hari Nagar, Behind B. D. Floor Mill" address2="" toName="" postalCode="133001" city="Ambala Cantt" />
+<PostalAddress contactMechId="CM0181" countryGeoId="IND" stateProvinceGeoId="IN-DL" address1="Mangol Puri Industrial Area" address2="" toName="" postalCode="" city="New Delhi" />
+<PostalAddress contactMechId="CM0182" countryGeoId="IND" stateProvinceGeoId="IN-UP" address1="D-6, Kavi Nagar, Industrial Area" address2="" toName="" postalCode="201001" city="Ghaziabad" />
+<PostalAddress contactMechId="CM0183" countryGeoId="IND" stateProvinceGeoId="IN-HR" address1="Plot No. - 133, Industrial Area Phase-2" address2="" toName="" postalCode="134109" city="Panchkula" />
+<PostalAddress contactMechId="CM0184" countryGeoId="IND" stateProvinceGeoId="IN-UT" address1="Roorkey" address2="" toName="" postalCode="" city="" />
+<PostalAddress contactMechId="CM0185" countryGeoId="IND" stateProvinceGeoId="IN-UT" address1="S-292, Shivalik Nagar" address2="" toName="" postalCode="249403" city="Haridwar" />
+<PostalAddress contactMechId="CM0186" countryGeoId="IND" stateProvinceGeoId="IN-DL" address1="B-25, IInd Floor, B-Block" address2="Community Centre, Janakpuri" toName="" postalCode="110058" city="New Delhi" />
+<PostalAddress contactMechId="CM0187" countryGeoId="IND" stateProvinceGeoId="IN-GJ" address1="Makarpura" address2="" toName="" postalCode="390014" city="Vadodara" />
+<PostalAddress contactMechId="CM0188" countryGeoId="IND" stateProvinceGeoId="IN-UT" address1="F-30, Bahadrabad Industrial Area" address2="Bahadrabad" toName="" postalCode="249402" city="Haridwar" />
+<PostalAddress contactMechId="CM0189" countryGeoId="IND" stateProvinceGeoId="IN-DL" address1="432,second Floor" address2="FI E Patparganj Ind.area" toName="" postalCode="110092" city="Delhi" />
+<PostalAddress contactMechId="CM0190" countryGeoId="IND" stateProvinceGeoId="IN-UT" address1="E-11B, INDUSTRIAL AREA" address2="" toName="" postalCode="" city="Haridwar" />
+<PostalAddress contactMechId="CM0191" countryGeoId="IND" stateProvinceGeoId="IN-DL" address1="273/2, Bansal House, Shahabad" address2="Mohammadpur" toName="" postalCode="110061" city="New Delhi" />
+<PostalAddress contactMechId="CM0192" countryGeoId="IND" stateProvinceGeoId="IN-UT" address1="An Unit ofPGN,Patanjali Yogpeeth" address2="Phase-1" toName="" postalCode="" city="Haridwar" />
+<PostalAddress contactMechId="CM0193" countryGeoId="IND" stateProvinceGeoId="IN-UT" address1="S-286, Shivalik Nagar, BHEL" address2="" toName="" postalCode="" city="Haridwar" />
+<PostalAddress contactMechId="CM0194" countryGeoId="IND" stateProvinceGeoId="IN-UT" address1="A-11, Ganga Nagari, Shivalik Nagar" address2="" toName="" postalCode="249401" city="Haridwar" />
+<PostalAddress contactMechId="CM0195" countryGeoId="IND" stateProvinceGeoId="IN-UT" address1="15, VAIDIK VIHAR, ARYA NAGAR" address2="JWALAPUR" toName="" postalCode="249407" city="Haridwar" />
+<PostalAddress contactMechId="CM0196" countryGeoId="IND" stateProvinceGeoId="IN-DL" address1="710, 7th Floor, Pearl Best Hight-2," address2="Netaji Subhash Palace, Pitampura" toName="" postalCode="110036" city="Delhi" />
+<PostalAddress contactMechId="CM0197" countryGeoId="IND" stateProvinceGeoId="IN-UT" address1="S/o Ramesh Singh, Vill.- Kewalpuri" address2="Niranjanpur" toName="" postalCode="" city="Haridwar" />
+<PostalAddress contactMechId="CM0198" countryGeoId="IND" stateProvinceGeoId="IN-UT" address1="Ikkad Khurd, Pathari Forest Range" address2="Ambuwala" toName="" postalCode="249404" city="Haridwar" />
+<PostalAddress contactMechId="CM0199" countryGeoId="IND" stateProvinceGeoId="IN-UP" address1="548/478, Surya Nagar, Manak Nagar" address2="" toName="" postalCode="226011" city="Lucknow" />
+<PostalAddress contactMechId="CM0200" countryGeoId="IND" stateProvinceGeoId="IN-MP" address1="Shop No. -1, 547, Khaliwala Tank," address2="Transport Nagar, Main Road" toName="" postalCode="" city="Indore" />
+<PostalAddress contactMechId="CM0201" countryGeoId="IND" stateProvinceGeoId="IN-DL" address1="156, Rangpuri Road, Mahipalpur" address2="" toName="" postalCode="110037" city="New Delhi" />
+<PostalAddress contactMechId="CM0202" countryGeoId="IND" stateProvinceGeoId="IN-HR" address1="5356/9, Cross Road 1," address2="" toName="" postalCode="133001" city="Ambala Cantt" />
+<PostalAddress contactMechId="CM0203" countryGeoId="IND" stateProvinceGeoId="IN-UT" address1="Plot No. - 116, Sector - 6A, SIIDCUL" address2="Industrial Area" toName="" postalCode="" city="Haridwar" />
+<PostalAddress contactMechId="CM0204" countryGeoId="IND" stateProvinceGeoId="IN-CH" address1="SCO-159, (First Floor ) Sector-24-D," address2="" toName="" postalCode="160023" city="IN-CH" />
+<PostalAddress contactMechId="CM0205" countryGeoId="IND" stateProvinceGeoId="IN-DL" address1="18, Najafgarh Road Industrial Area" address2="Near Zakhira Chowk" toName="" postalCode="110015" city="New Delhi" />
+<PostalAddress contactMechId="CM0206" countryGeoId="IND" stateProvinceGeoId="IN-UT" address1="Uttarakhand" address2="" toName="" postalCode="" city="" />
+<PostalAddress contactMechId="CM0207" countryGeoId="IND" stateProvinceGeoId="IN-UT" address1="Village – Ikkad" address2="" toName="" postalCode="" city="Haridwar" />
+<PostalAddress contactMechId="CM0208" countryGeoId="IND" stateProvinceGeoId="IN-UT" address1="159, Bharon Mandir Road" address2="Kankhal" toName="" postalCode="" city="Haridwar" />
+<PostalAddress contactMechId="CM0209" countryGeoId="IND" stateProvinceGeoId="IN-UT" address1="Village &amp; Post - Dabki Kalan" address2="Laksar" toName="" postalCode="247663" city="Haridwar" />
+<PostalAddress contactMechId="CM0210" countryGeoId="IND" stateProvinceGeoId="IN-UT" address1="Raja Garden, Jagjeetpur" address2="Kankhal" toName="" postalCode="" city="Haridwar" />
+<PostalAddress contactMechId="CM0211" countryGeoId="IND" stateProvinceGeoId="IN-UT" address1="Kh No. 796,badhedi Rajputan" address2="Roorke" toName="" postalCode="" city="Haridwar" />
+<PostalAddress contactMechId="CM0212" countryGeoId="IND" stateProvinceGeoId="IN-UT" address1="S/o Hanif, Ikkad Kurd" address2="Ambuwala" toName="" postalCode="" city="Haridwar" />
+<PostalAddress contactMechId="CM0213" countryGeoId="IND" stateProvinceGeoId="IN-DL" address1="B-83, Phase - I, Okhla Industrial Area" address2="" toName="" postalCode="110020" city="New Delhi" />
+<PostalAddress contactMechId="CM0214" countryGeoId="IND" stateProvinceGeoId="IN-UP" address1="Keshav Nagar" address2="" toName="" postalCode="" city="Saharanpur" />
+<PostalAddress contactMechId="CM0215" countryGeoId="IND" stateProvinceGeoId="IN-UP" address1="51, Kamdhenu Complex, Link Janta Road" address2="" toName="" postalCode="" city="Saharanpur" />
+<PostalAddress contactMechId="CM0216" countryGeoId="IND" stateProvinceGeoId="IN-HR" address1="1st Floor, SCO 81, HUDA Market" address2="Sector 17A" toName="" postalCode="" city="Gurgaon" />
+<PostalAddress contactMechId="CM0217" countryGeoId="IND" stateProvinceGeoId="IN-UT" address1="Gurukul Farmacy" address2="Near Bharat Gas Agency" toName="" postalCode="" city="Haridwar" />
+<PostalAddress contactMechId="CM0218" countryGeoId="IND" stateProvinceGeoId="IN-TG" address1="#1 to 4, Ground Floor, Chenoy Trade Centre" address2="Main Road, Park Lane" toName="" postalCode="" city="Secundarabad" />
+<PostalAddress contactMechId="CM0219" countryGeoId="IND" stateProvinceGeoId="IN-UT" address1="Rajiv Nagar, Govindpuri" address2="" toName="" postalCode="249401" city="Haridwar" />
+<PostalAddress contactMechId="CM0220" countryGeoId="IND" stateProvinceGeoId="IN-UT" address1="Near Arya Nagar Chowk" address2="Railway Crossing Road, Jwalapur" toName="" postalCode="249407" city="Haridwar" />
+<PostalAddress contactMechId="CM0221" countryGeoId="IND" stateProvinceGeoId="IN-UT" address1="H No.-194, Bhagwabnpur" address2="Roorkey" toName="" postalCode="" city="Haridwar" />
+<PostalAddress contactMechId="CM0222" countryGeoId="IND" stateProvinceGeoId="IN-MH" address1="Plot No. - B-85, Phase-II, Chakan Industrial Area" address2="Vill-Savardari Chakan, Taluka-Khed, Dist-Pune" toName="" postalCode="410501" city="" />
+<PostalAddress contactMechId="CM0223" countryGeoId="IND" stateProvinceGeoId="IN-PB" address1="Ludhiana" address2="" toName="" postalCode="" city="" />
+<PostalAddress contactMechId="CM0224" countryGeoId="IND" stateProvinceGeoId="IN-UP" address1="A 1, SECTOR 60" address2="Gautam Buddha Nagar" toName="" postalCode="201301" city="NOIDA" />
+<PostalAddress contactMechId="CM0225" countryGeoId="IND" stateProvinceGeoId="IN-TG" address1="110, Sarojini Devi Road" address2="Opp. State Bank of Mysure" toName="" postalCode="500003" city="Secundarabad" />
+<PostalAddress contactMechId="CM0226" countryGeoId="IND" stateProvinceGeoId="IN-HR" address1="Shop No. -3, Inder Colony" address2="Tikli Road, Badshahpur" toName="" postalCode="" city="Gurugram(East)" />
+<PostalAddress contactMechId="CM0227" countryGeoId="IND" stateProvinceGeoId="IN-UT" address1="30, Upper Kounwala, Haridwar Road" address2="" toName="" postalCode="248001" city="Dehradun" />
+<PostalAddress contactMechId="CM0228" countryGeoId="IND" stateProvinceGeoId="IN-UT" address1="Opp. Anurag Palace" address2="Near  Railway Crossing, Jwalapur" toName="" postalCode="" city="Haridwar" />
+<PostalAddress contactMechId="CM0229" countryGeoId="IND" stateProvinceGeoId="IN-UT" address1="Kalash Villa, Near Sant Mary&apos;s Junior School" address2="Railway Road, Jwalapur" toName="" postalCode="" city="Haridwar" />
+<PostalAddress contactMechId="CM0230" countryGeoId="IND" stateProvinceGeoId="IN-UT" address1="Flat No.-7, Kutumbdham" address2="Near Holi Chowk,Kankhal" toName="" postalCode="249408" city="Haridwar" />
+<PostalAddress contactMechId="CM0231" countryGeoId="IND" stateProvinceGeoId="IN-UT" address1="Uttarakhand" address2="" toName="" postalCode="" city="" />
+<PostalAddress contactMechId="CM0232" countryGeoId="IND" stateProvinceGeoId="IN-UT" address1="Khasra No. -28, Plot No. - 119," address2="Lakeshwari Industrial Area, Bhagwanpur" toName="" postalCode="247667" city="Haridwar" />
+<PostalAddress contactMechId="CM0233" countryGeoId="IND" stateProvinceGeoId="IN-UP" address1="A-105, Aastha Bhawan, Sector – 5" address2="" toName="" postalCode="201301" city="NOIDA" />
+<PostalAddress contactMechId="CM0234" countryGeoId="IND" stateProvinceGeoId="IN-HR" address1="ICAR" address2="" toName="" postalCode="132001" city="Karnal" />
+<PostalAddress contactMechId="CM0235" countryGeoId="IND" stateProvinceGeoId="IN-GJ" address1="Plot No. - 2009, Phase -IV, G.I.D.C." address2="Vatva" toName="" postalCode="382445" city="Ahmedabad" />
+<PostalAddress contactMechId="CM0236" countryGeoId="IND" stateProvinceGeoId="IN-UP" address1="Rainbow Road Industrial Area" address2="Meerut Road" toName="" postalCode="" city="Muzaffernagar" />
+<PostalAddress contactMechId="CM0237" countryGeoId="IND" stateProvinceGeoId="IN-UT" address1="Govindpuri, Near Chandracharya Chowk" address2="" toName="" postalCode="249407" city="Haridwar" />
+<PostalAddress contactMechId="CM0238" countryGeoId="IND" stateProvinceGeoId="IN-UP" address1="Railway Road" address2="Opp Kamal Cinema" toName="" postalCode="" city="Muzaffarnagar" />
+<PostalAddress contactMechId="CM0239" countryGeoId="IND" stateProvinceGeoId="IN-UT" address1="Uttarakhand" address2="" toName="" postalCode="" city="" />
+<PostalAddress contactMechId="CM0240" countryGeoId="IND" stateProvinceGeoId="IN-UP" address1="B-220, Phase – II" address2="Gautam Budh Nagar" toName="" postalCode="201305" city="NOIDA" />
+<PostalAddress contactMechId="CM0241" countryGeoId="IND" stateProvinceGeoId="IN-UT" address1="Bahadarpur Khadar, Po Laksar" address2="" toName="" postalCode="" city="Haridwar" />
+<PostalAddress contactMechId="CM0242" countryGeoId="IND" stateProvinceGeoId="IN-KA" address1="Rmz Ecoworld Plot C1" address2="" toName="" postalCode="" city="Bangalore" />
+<PostalAddress contactMechId="CM0243" countryGeoId="IND" stateProvinceGeoId="IN-UT" address1="Khasra No. 210,211,PFHP Padartha" address2="Laksar Road" toName="" postalCode="" city="Haridwar" />
+<PostalAddress contactMechId="CM0244" countryGeoId="IND" stateProvinceGeoId="IN-UT" address1="A-1 INDUSTRIAL AREA" address2="" toName="" postalCode="249401" city="Haridwar" />
+<PostalAddress contactMechId="CM0245" countryGeoId="IND" stateProvinceGeoId="IN-UT" address1="Plot No. - 4/58, Street No. - 8" address2="Tehari Colony Near Shivalik Nagar, BHEL" toName="" postalCode="" city="Haridwar" />
+<PostalAddress contactMechId="CM0246" countryGeoId="IND" stateProvinceGeoId="IN-UT" address1="13, Jagdish Nagar" address2="Jwalapur" toName="" postalCode="" city="Haridwar" />
+<PostalAddress contactMechId="CM0247" countryGeoId="IND" stateProvinceGeoId="IN-MP" address1="Works :- Shri Dayadaya Urja Evam Javik Khad Pvt .Ltd" address2="Village Dob Barkhadi Abdulla, Thasil Huju, Sukhisiwania Bhopal Vidisha Road" toName="" postalCode="" city="Bhopal" />
+<PostalAddress contactMechId="CM0248" countryGeoId="IND" stateProvinceGeoId="IN-UT" address1="Uttarakhand" address2="" toName="" postalCode="" city="" />
+<PostalAddress contactMechId="CM0249" countryGeoId="IND" stateProvinceGeoId="IN-UT" address1="108, Sector 6A, SIDCUL" address2="" toName="" postalCode="" city="Haridwar" />
+<PostalAddress contactMechId="CM0250" countryGeoId="IND" stateProvinceGeoId="IN-UT" address1="S-30, Shivalik Nagar, BHEL" address2="" toName="" postalCode="249403" city="Haridwar" />
+<PostalAddress contactMechId="CM0251" countryGeoId="IND" stateProvinceGeoId="IN-UT" address1="P-69, R. K. Puram Colony, Barrier No. -6" address2="Bahadarabad" toName="" postalCode="249402" city="Haridwar" />
+<PostalAddress contactMechId="CM0252" countryGeoId="IND" stateProvinceGeoId="IN-UT" address1="37, Ganesh Puram, Opp-Sati Kund, Laksar" address2="" toName="" postalCode="" city="Haridwar" />
+<PostalAddress contactMechId="CM0253" countryGeoId="IND" stateProvinceGeoId="IN-UT" address1="Uttarakhand" address2="" toName="" postalCode="" city="" />
+<PostalAddress contactMechId="CM0254" countryGeoId="IND" stateProvinceGeoId="IN-UT" address1="E-33, Old Industrial Area" address2="" toName="" postalCode="" city="Haridwar" />
+<PostalAddress contactMechId="CM0255" countryGeoId="IND" stateProvinceGeoId="IN-UT" address1="Shop No-2, Near Deshrakshak Aushdhalaya" address2="Krishna Nagar, Kankhal" toName="" postalCode="" city="Haridwar" />
+<PostalAddress contactMechId="CM0256" countryGeoId="IND" stateProvinceGeoId="IN-DL" address1="787/2, Main Road, Sant Bagar" address2="Next to Dena Bank, Sant Nagar, Burari Road," toName="" postalCode="110084" city="New Delhi" />
+<PostalAddress contactMechId="CM0257" countryGeoId="IND" stateProvinceGeoId="IN-UT" address1="Shivalik Nagar, BHEL" address2="" toName="" postalCode="" city="Haridwar" />
+<PostalAddress contactMechId="CM0258" countryGeoId="IND" stateProvinceGeoId="IN-UT" address1="Arya Nagar Chowk, Jwalapur" address2="" toName="" postalCode="" city="Haridwar" />
+<PostalAddress contactMechId="CM0259" countryGeoId="IND" stateProvinceGeoId="IN-UT" address1="Yogi Vihar, Delhi Road, Jwalapur" address2="" toName="" postalCode="249407" city="Haridwar" />
+<PostalAddress contactMechId="CM0260" countryGeoId="IND" stateProvinceGeoId="IN-UT" address1="1 New Market, Gurudwara Road" address2="Jwalapur" toName="" postalCode="249401" city="Haridwar" />
+<PostalAddress contactMechId="CM0261" countryGeoId="IND" stateProvinceGeoId="IN-UT" address1="Patanjali Yog Peeth,maharieshi Dayanand Gram" address2="NH Near Bahadrabad" toName="" postalCode="" city="" />
+<PostalAddress contactMechId="CM0262" countryGeoId="IND" stateProvinceGeoId="IN-UT" address1="Krishna Nagar" address2="" toName="" postalCode="" city="Haridwar" />
+<PostalAddress contactMechId="CM0263" countryGeoId="IND" stateProvinceGeoId="IN-UT" address1="Uttarakhand" address2="" toName="" postalCode="" city="" />
+<PostalAddress contactMechId="CM0264" countryGeoId="IND" stateProvinceGeoId="IN-PB" address1="231, Bharat Nagar Chowk, Opp. Dyal Hotel" address2="Bus Stand Road" toName="" postalCode="141001" city="Ludhiana" />
+<PostalAddress contactMechId="CM0265" countryGeoId="IND" stateProvinceGeoId="IN-PB" address1="Main Kochar Market, 1st Floor" address2="Above Acer Mall, Near Bank of India" toName="" postalCode="" city="Ludhiana" />
+<PostalAddress contactMechId="CM0266" countryGeoId="IND" stateProvinceGeoId="IN-DL" address1="A-5, DSIDC Complex, Jhilmil Industrial Area" address2="G.T. Road, Shahdra" toName="" postalCode="110095" city="New Delhi" />
+<PostalAddress contactMechId="CM0267" countryGeoId="IND" stateProvinceGeoId="IN-UT" address1="Dadu Bagh, Kankhal" address2="" toName="" postalCode="" city="Haridwar" />
+<PostalAddress contactMechId="CM0268" countryGeoId="IND" stateProvinceGeoId="IN-UT" address1="Patanjali Food and Herbal Park," address2="Laksar, Padartha" toName="" postalCode="249407" city="Haridwar" />
+<PostalAddress contactMechId="CM0269" countryGeoId="IND" stateProvinceGeoId="IN-UT" address1="HO-S-306, Shivalik Nagar" address2="OPP. Syndicate Bank" toName="" postalCode="249403" city="Haridwar" />
+<PostalAddress contactMechId="CM0270" countryGeoId="IND" stateProvinceGeoId="IN-UT" address1="Plot No.- 1st Floor, Ganeshpuram," address2="Laksar Road, Kankhal" toName="" postalCode="" city="Haridwar" />
+<PostalAddress contactMechId="CM0271" countryGeoId="IND" stateProvinceGeoId="IN-HR" address1="173, Prabhu Prem Puram" address2="Near Gargi Gas odown, East Block" toName="" postalCode="133001" city="Ambala Cantt" />
+<PostalAddress contactMechId="CM0272" countryGeoId="IND" stateProvinceGeoId="IN-UT" address1="Salempur Chowk, Sidcul Bypass Road" address2="Bahadrabad" toName="" postalCode="" city="Haridwar" />
+<PostalAddress contactMechId="CM0273" countryGeoId="IND" stateProvinceGeoId="IN-UT" address1="Purvawali, Kotwali Station Road" address2="Near LIC Office, Ganeshpur" toName="Ajay Teotia, Mohit Verma" postalCode="" city="Roorkee" />
+<PostalAddress contactMechId="CM0274" countryGeoId="IND" stateProvinceGeoId="IN-UT" address1="Near Singhdwar, Hare Ram Ashram," address2="Kankhal Road" toName="" postalCode="" city="Haridwar" />
+<PostalAddress contactMechId="CM0275" countryGeoId="IND" stateProvinceGeoId="IN-UT" address1="Gopaldham, Phase-2, Plot No.-18" address2="Opp.- DAV School, Near S. R. Medicity, Jagjeetpur" toName="" postalCode="249408" city="Haridwar" />
+</entity-engine-xml>

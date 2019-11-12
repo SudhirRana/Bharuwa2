@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity-engine-xml>
+<!-- these two product are duplicate <Product productId="PB1231" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="Test Tube Stand (12 Tube)" productName="Test Tube Stand (12 Tube)" brandName="" primaryProductCategoryId="consumable_items" quantityIncluded="1" quantityUomId="UQC_pcs" altQuantityIncluded="1" altQuantityUomId="UQC_pcs" conversionFactor="1" /> -->
+<!-- <Product productId="PB1232" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="Socket Modular Box" productName="Socket Modular Box" brandName="" primaryProductCategoryId="consumable_items" quantityIncluded="1" quantityUomId="UQC_set" altQuantityIncluded="1" altQuantityUomId="UQC_set" conversionFactor="1" /> -->
+<Product productId="PB1233" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="Printed Pen" productName="Printed Pen" brandName="" primaryProductCategoryId="publicity_material" quantityIncluded="1" quantityUomId="UQC_pcs" altQuantityIncluded="1" altQuantityUomId="UQC_pcs" conversionFactor="1" />
+<Product productId="PB1234" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="Printed Keyring" productName="Printed Keyring" brandName="" primaryProductCategoryId="publicity_material" quantityIncluded="1" quantityUomId="UQC_pcs" altQuantityIncluded="1" altQuantityUomId="UQC_pcs" conversionFactor="1" />
+<Product productId="PB1235" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="Box File" productName="Box File" brandName="" primaryProductCategoryId="consumable_items" quantityIncluded="1" quantityUomId="UQC_pcs" altQuantityIncluded="1" altQuantityUomId="UQC_pcs" conversionFactor="1" />
+<Product productId="PB1236" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="Cello Tape 1/2&quot;" productName="Cello Tape 1/2&quot;" brandName="" primaryProductCategoryId="consumable_items" quantityIncluded="1" quantityUomId="UQC_pcs" altQuantityIncluded="1" altQuantityUomId="UQC_pcs" conversionFactor="1" />
+<Product productId="PB1237" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="Tape Dispenser 1&quot; &amp; 1/2&quot;" productName="Tape Dispenser 1&quot; &amp; 1/2&quot;" brandName="" primaryProductCategoryId="consumable_items" quantityIncluded="1" quantityUomId="UQC_pcs" altQuantityIncluded="1" altQuantityUomId="UQC_pcs" conversionFactor="1" />
+<Product productId="PB1238" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="Paper A4 Size 75 GSM" productName="Paper A4 Size 75 GSM" brandName="" primaryProductCategoryId="consumable_items" quantityIncluded="1" quantityUomId="UQC_pac" altQuantityIncluded="1" altQuantityUomId="UQC_pac" conversionFactor="1" />
+<Product productId="PB1239" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="Spring File Cobra - 5000" productName="Spring File Cobra - 5000" brandName="" primaryProductCategoryId="consumable_items" quantityIncluded="1" quantityUomId="UQC_pcs" altQuantityIncluded="1" altQuantityUomId="UQC_pcs" conversionFactor="1" />
+<Product productId="PB1240" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="Sink Waste Pipe" productName="Sink Waste Pipe" brandName="" primaryProductCategoryId="consumable_items" quantityIncluded="1" quantityUomId="UQC_pcs" altQuantityIncluded="1" altQuantityUomId="UQC_pcs" conversionFactor="1" />
+<Product productId="PB1241" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="6&quot; Nipple 1/2&quot;" productName="6&quot; Nipple 1/2&quot;" brandName="" primaryProductCategoryId="consumable_items" quantityIncluded="1" quantityUomId="UQC_pcs" altQuantityIncluded="1" altQuantityUomId="UQC_pcs" conversionFactor="1" />
+<Product productId="PB1242" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="Elbow 1/2&quot;" productName="Elbow 1/2&quot;" brandName="" primaryProductCategoryId="consumable_items" quantityIncluded="1" quantityUomId="UQC_pcs" altQuantityIncluded="1" altQuantityUomId="UQC_pcs" conversionFactor="1" />
+<Product productId="PB1243" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="2 Way MCB Box" productName="2 Way MCB Box" brandName="" primaryProductCategoryId="consumable_items" quantityIncluded="1" quantityUomId="UQC_pcs" altQuantityIncluded="1" altQuantityUomId="UQC_pcs" conversionFactor="1" />
+<Product productId="PB1244" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="4 Way MCB Box" productName="4 Way MCB Box" brandName="" primaryProductCategoryId="consumable_items" quantityIncluded="1" quantityUomId="UQC_pcs" altQuantityIncluded="1" altQuantityUomId="UQC_pcs" conversionFactor="1" />
+<Product productId="PB1245" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="12 Way MCB Box" productName="12 Way MCB Box" brandName="" primaryProductCategoryId="consumable_items" quantityIncluded="1" quantityUomId="UQC_pcs" altQuantityIncluded="1" altQuantityUomId="UQC_pcs" conversionFactor="1" />
+<Product productId="PB1246" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="Socket 16 Amp Modular Box" productName="Socket 16 Amp Modular Box" brandName="" primaryProductCategoryId="consumable_items" quantityIncluded="1" quantityUomId="UQC_set" altQuantityIncluded="1" altQuantityUomId="UQC_set" conversionFactor="1" />
+<Product productId="PB1247" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="One Way Lab Water Tap" productName="One Way Lab Water Tap" brandName="" primaryProductCategoryId="consumable_items" quantityIncluded="1" quantityUomId="UQC_pcs" altQuantityIncluded="1" altQuantityUomId="UQC_pcs" conversionFactor="1" />
+<Product productId="PB1248" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="Two Way Lab Water Tap" productName="Two Way Lab Water Tap" brandName="" primaryProductCategoryId="consumable_items" quantityIncluded="1" quantityUomId="UQC_pcs" altQuantityIncluded="1" altQuantityUomId="UQC_pcs" conversionFactor="1" />
+<Product productId="PB1249" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="Penta Modular Board 4X6" productName="Penta Modular Board 4X6" brandName="" primaryProductCategoryId="consumable_items" quantityIncluded="1" quantityUomId="UQC_pcs" altQuantityIncluded="1" altQuantityUomId="UQC_pcs" conversionFactor="1" />
+<Product productId="PB1250" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="Penta Modular Board ( 12 Module)" productName="Penta Modular Board ( 12 Module)" brandName="" primaryProductCategoryId="consumable_items" quantityIncluded="1" quantityUomId="UQC_pcs" altQuantityIncluded="1" altQuantityUomId="UQC_pcs" conversionFactor="1" />
+<Product productId="PB1251" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="Rechargable Torch Big" productName="Rechargable Torch Big" brandName="" primaryProductCategoryId="consumable_items" quantityIncluded="1" quantityUomId="UQC_pcs" altQuantityIncluded="1" altQuantityUomId="UQC_pcs" conversionFactor="1" />
+<Product productId="PB1252" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="Matrix Simado GFX11" productName="Matrix Simado GFX11" brandName="" primaryProductCategoryId="consumable_items" quantityIncluded="1" quantityUomId="UQC_pcs" altQuantityIncluded="1" altQuantityUomId="UQC_pcs" conversionFactor="1" />
+<Product productId="PB1253" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="Cutter Big" productName="Cutter Big" brandName="" primaryProductCategoryId="consumable_items" quantityIncluded="1" quantityUomId="UQC_pcs" altQuantityIncluded="1" altQuantityUomId="UQC_pcs" conversionFactor="1" />
+<Product productId="PB1254" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="Cutter Small" productName="Cutter Small" brandName="" primaryProductCategoryId="consumable_items" quantityIncluded="1" quantityUomId="UQC_pcs" altQuantityIncluded="1" altQuantityUomId="UQC_pcs" conversionFactor="1" />
+<Product productId="PB1255" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="Scissor Big" productName="Scissor Big" brandName="" primaryProductCategoryId="consumable_items" quantityIncluded="1" quantityUomId="UQC_pcs" altQuantityIncluded="1" altQuantityUomId="UQC_pcs" conversionFactor="1" />
+<Product productId="PB1256" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="Scissor Small" productName="Scissor Small" brandName="" primaryProductCategoryId="consumable_items" quantityIncluded="1" quantityUomId="UQC_pcs" altQuantityIncluded="1" altQuantityUomId="UQC_pcs" conversionFactor="1" />
+<Product productId="PB1257" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="Room Freshner" productName="Room Freshner" brandName="" primaryProductCategoryId="consumable_items" quantityIncluded="1" quantityUomId="UQC_pcs" altQuantityIncluded="1" altQuantityUomId="UQC_pcs" conversionFactor="1" />
+<Product productId="PB1258" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="AA Cell 1.5V" productName="AA Cell 1.5V" brandName="" primaryProductCategoryId="consumable_items" quantityIncluded="1" quantityUomId="UQC_pcs" altQuantityIncluded="1" altQuantityUomId="UQC_pcs" conversionFactor="1" />
+<Product productId="PB1259" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="AAA Cell 1.5V" productName="AAA Cell 1.5V" brandName="" primaryProductCategoryId="consumable_items" quantityIncluded="1" quantityUomId="UQC_pcs" altQuantityIncluded="1" altQuantityUomId="UQC_pcs" conversionFactor="1" />
+<Product productId="PB1260" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="SS Sink Coupling" productName="SS Sink Coupling" brandName="" primaryProductCategoryId="consumable_items" quantityIncluded="1" quantityUomId="UQC_pcs" altQuantityIncluded="1" altQuantityUomId="UQC_pcs" conversionFactor="1" />
+<Product productId="PB1261" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="CAT DEO CI4 15W40" productName="CAT DEO CI4 15W40" brandName="" primaryProductCategoryId="consumable_items" quantityIncluded="1" quantityUomId="UQC_ltr" altQuantityIncluded="1" altQuantityUomId="UQC_ltr" conversionFactor="1" />
+<Product productId="PB1262" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="Aloevera Juice" productName="Aloevera Juice" brandName="" primaryProductCategoryId="raw_material" quantityIncluded="1" quantityUomId="UQC_oth" altQuantityIncluded="1" altQuantityUomId="UQC_oth" conversionFactor="1" />
+<Product productId="PB1263" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="Sharbat" productName="Sharbat" brandName="" primaryProductCategoryId="raw_material" quantityIncluded="1" quantityUomId="UQC_oth" altQuantityIncluded="1" altQuantityUomId="UQC_oth" conversionFactor="1" />
+<Product productId="PB1264" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="Beverage" productName="Beverage" brandName="" primaryProductCategoryId="raw_material" quantityIncluded="1" quantityUomId="UQC_oth" altQuantityIncluded="1" altQuantityUomId="UQC_oth" conversionFactor="1" />
+<Product productId="PB1265" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="Lemon Squash" productName="Lemon Squash" brandName="" primaryProductCategoryId="raw_material" quantityIncluded="1" quantityUomId="UQC_oth" altQuantityIncluded="1" altQuantityUomId="UQC_oth" conversionFactor="1" />
+<Product productId="PB1266" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="Measuring Cylinder 10 Ml" productName="Measuring Cylinder 10 Ml" brandName="" primaryProductCategoryId="soil_test_kit" quantityIncluded="1" quantityUomId="UQC_pcs" altQuantityIncluded="1" altQuantityUomId="UQC_pcs" conversionFactor="1" />
+<Product productId="PB1267" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="Filter Paper 9.5 Cm Routine Quality" productName="Filter Paper 9.5 Cm Routine Quality" brandName="" primaryProductCategoryId="soil_test_kit" quantityIncluded="1" quantityUomId="UQC_box" altQuantityIncluded="1" altQuantityUomId="UQC_box" conversionFactor="1" />
+<Product productId="PB1268" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="Reagant Tube (Pet 30 Ml)" productName="Reagant Tube (Pet 30 Ml)" brandName="" primaryProductCategoryId="soil_test_kit" quantityIncluded="1" quantityUomId="UQC_pcs" altQuantityIncluded="1" altQuantityUomId="UQC_pcs" conversionFactor="1" />
+<Product productId="PB1269" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="pH Bottle 30ml" productName="pH Bottle 30ml" brandName="" primaryProductCategoryId="soil_test_kit" quantityIncluded="1" quantityUomId="UQC_pcs" altQuantityIncluded="1" altQuantityUomId="UQC_pcs" conversionFactor="1" />
+<Product productId="PB1270" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="Pet Bottle 10ml" productName="Pet Bottle 10ml" brandName="" primaryProductCategoryId="soil_test_kit" quantityIncluded="1" quantityUomId="UQC_pcs" altQuantityIncluded="1" altQuantityUomId="UQC_pcs" conversionFactor="1" />
+<Product productId="PB1271" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="Reagant Bottle 200ml (T.G) With Cap" productName="Reagant Bottle 200ml (T.G) With Cap" brandName="" primaryProductCategoryId="soil_test_kit" quantityIncluded="1" quantityUomId="UQC_pcs" altQuantityIncluded="1" altQuantityUomId="UQC_pcs" conversionFactor="1" />
+<Product productId="PB1272" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="Reagant Bottle 500ml (T.G) With Cap" productName="Reagant Bottle 500ml (T.G) With Cap" brandName="" primaryProductCategoryId="soil_test_kit" quantityIncluded="1" quantityUomId="UQC_pcs" altQuantityIncluded="1" altQuantityUomId="UQC_pcs" conversionFactor="1" />
+<Product productId="PB1273" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="Soil Mixture Bottle" productName="Soil Mixture Bottle" brandName="" primaryProductCategoryId="soil_test_kit" quantityIncluded="1" quantityUomId="UQC_pcs" altQuantityIncluded="1" altQuantityUomId="UQC_pcs" conversionFactor="1" />
+<Product productId="PB1274" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="Reagant Bottle (Pet 10 gm)" productName="Reagant Bottle (Pet 10 gm)" brandName="" primaryProductCategoryId="soil_test_kit" quantityIncluded="1" quantityUomId="UQC_pcs" altQuantityIncluded="1" altQuantityUomId="UQC_pcs" conversionFactor="1" />
+<Product productId="PB1275" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="Door Mat Green" productName="Door Mat Green" brandName="" primaryProductCategoryId="consumable_items" quantityIncluded="1" quantityUomId="UQC_sqf" altQuantityIncluded="1" altQuantityUomId="UQC_sqf" conversionFactor="1" />
+<Product productId="PB1276" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="Sodium Di-Hydrogen Ortho-Phosphate Dihyd" productName="Sodium Di-Hydrogen Ortho-Phosphate Dihyd" brandName="" primaryProductCategoryId="raw_material" quantityIncluded="1" quantityUomId="UQC_kgs" altQuantityIncluded="1" altQuantityUomId="UQC_kgs" conversionFactor="1" />
+<Product productId="PB1277" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="Hose - 8N8093" productName="Hose - 8N8093" brandName="" primaryProductCategoryId="consumable_items" quantityIncluded="1" quantityUomId="UQC_pcs" altQuantityIncluded="1" altQuantityUomId="UQC_pcs" conversionFactor="1" />
+<Product productId="PB1278" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="Hose - 7L7160" productName="Hose - 7L7160" brandName="" primaryProductCategoryId="consumable_items" quantityIncluded="1" quantityUomId="UQC_pcs" altQuantityIncluded="1" altQuantityUomId="UQC_pcs" conversionFactor="1" />
+<Product productId="PB1279" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="Clamp Hose - 5P3860" productName="Clamp Hose - 5P3860" brandName="" primaryProductCategoryId="consumable_items" quantityIncluded="1" quantityUomId="UQC_pcs" altQuantityIncluded="1" altQuantityUomId="UQC_pcs" conversionFactor="1" />
+<Product productId="PB1280" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="Clamp - 4J8536" productName="Clamp - 4J8536" brandName="" primaryProductCategoryId="consumable_items" quantityIncluded="1" quantityUomId="UQC_pcs" altQuantityIncluded="1" altQuantityUomId="UQC_pcs" conversionFactor="1" />
+<Product productId="PB1281" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="Seal O Ring 5P7530" productName="Seal O Ring 5P7530" brandName="" primaryProductCategoryId="consumable_items" quantityIncluded="1" quantityUomId="UQC_pcs" altQuantityIncluded="1" altQuantityUomId="UQC_pcs" conversionFactor="1" />
+<Product productId="PB1282" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="Seal Integra - 1986068" productName="Seal Integra - 1986068" brandName="" primaryProductCategoryId="consumable_items" quantityIncluded="1" quantityUomId="UQC_pcs" altQuantityIncluded="1" altQuantityUomId="UQC_pcs" conversionFactor="1" />
+<Product productId="PB1283" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="Seal O Ring 1123540" productName="Seal O Ring 1123540" brandName="" primaryProductCategoryId="consumable_items" quantityIncluded="1" quantityUomId="UQC_pcs" altQuantityIncluded="1" altQuantityUomId="UQC_pcs" conversionFactor="1" />
+<Product productId="PB1284" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="Sealing Machine 12&quot;" productName="Sealing Machine 12&quot;" brandName="" primaryProductCategoryId="consumable_items" quantityIncluded="1" quantityUomId="UQC_pcs" altQuantityIncluded="1" altQuantityUomId="UQC_pcs" conversionFactor="1" />
+<Product productId="PB1285" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="Bag Closer Sewing Machine - Single Needl" productName="Bag Closer Sewing Machine - Single Needl" brandName="" primaryProductCategoryId="assets" quantityIncluded="1" quantityUomId="UQC_pcs" altQuantityIncluded="1" altQuantityUomId="UQC_pcs" conversionFactor="1" />
+<Product productId="PB1286" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="Motot of Bag Closer Machine" productName="Motot of Bag Closer Machine" brandName="" primaryProductCategoryId="consumable_items" quantityIncluded="1" quantityUomId="UQC_pcs" altQuantityIncluded="1" altQuantityUomId="UQC_pcs" conversionFactor="1" />
+
+<Product  productId="PB1287" productTypeId="FINDIG_GOOD" internalName="100 Watt Colt Bulb" productName="100 Watt Colt Bulb" brandName="" primaryProductCategoryId="consumable_items" quantityIncluded="1" quantityUomId="UQC_pcs" />
+<Product  productId="PB1288" productTypeId="FINDIG_GOOD" internalName="2.5 MM Pin TYPE COPPER Insulaction" productName="2.5 MM Pin TYPE COPPER Insulaction" brandName="" primaryProductCategoryId="consumable_items" quantityIncluded="1" quantityUomId="UQC_pcs" />
+<Product  productId="PB1289" productTypeId="FINDIG_GOOD" internalName="2.5 MM RING TYPE COPPER LUG" productName="2.5 MM RING TYPE COPPER LUG" brandName="" primaryProductCategoryId="consumable_items" quantityIncluded="1" quantityUomId="UQC_pcs" />
+<Product  productId="PB1290" productTypeId="FINDIG_GOOD" internalName="4 MM Pin TYPE COPPER LUG" productName="4 MM Pin TYPE COPPER LUG" brandName="" primaryProductCategoryId="consumable_items" quantityIncluded="1" quantityUomId="UQC_pcs" />
+<Product  productId="PB1291" productTypeId="FINDIG_GOOD" internalName="6 SQMM RING TYPE COPPER LUG" productName="6 SQMM RING TYPE COPPER LUG" brandName="" primaryProductCategoryId="consumable_items" quantityIncluded="1" quantityUomId="UQC_pcs" />
+<Product  productId="PB1292" productTypeId="FINDIG_GOOD" internalName="Acetone AR" productName="Acetone AR" brandName="" primaryProductCategoryId="lab_chemicals" quantityIncluded="1" quantityUomId="UQC_pcs" />
+<Product  productId="PB1293" productTypeId="FINDIG_GOOD" internalName="Ajbstos Hand Glous 14&quot;" productName="Ajbstos Hand Glous 14&quot;" brandName="" primaryProductCategoryId="consumable_items" quantityIncluded="1" quantityUomId="UQC_pcs" />
+<Product  productId="PB1294" productTypeId="FINDIG_GOOD" internalName="Ajetable Roop 10mm" productName="Ajetable Roop 10mm" brandName="" primaryProductCategoryId="consumable_items" quantityIncluded="1" quantityUomId="UQC_pcs" />
+<Product  productId="PB1295" productTypeId="FINDIG_GOOD" internalName="Ajetable Roop 8mm" productName="Ajetable Roop 8mm" brandName="" primaryProductCategoryId="consumable_items" quantityIncluded="1" quantityUomId="UQC_pcs" />
+<Product  productId="PB1296" productTypeId="FINDIG_GOOD" internalName="Anchor Fastner 10X100mm" productName="Anchor Fastner 10X100mm" brandName="" primaryProductCategoryId="consumable_items" quantityIncluded="1" quantityUomId="UQC_pcs" />
+<Product  productId="PB1297" productTypeId="FINDIG_GOOD" internalName="Ball valve 1&quot;" productName="Ball valve 1&quot;" brandName="" primaryProductCategoryId="consumable_items" quantityIncluded="1" quantityUomId="UQC_pcs" />
+<Product  productId="PB1298" productTypeId="FINDIG_GOOD" internalName="Ball valve 1/2&quot;" productName="Ball valve 1/2&quot;" brandName="" primaryProductCategoryId="consumable_items" quantityIncluded="1" quantityUomId="UQC_pcs" />
+<Product  productId="PB1299" productTypeId="FINDIG_GOOD" internalName="Binder Clip 32mm Oddy" productName="Binder Clip 32mm Oddy" brandName="" primaryProductCategoryId="consumable_items" quantityIncluded="1" quantityUomId="UQC_pcs" />
+<Product  productId="PB1300" productTypeId="FINDIG_GOOD" internalName="Bulb Holder" productName="Bulb Holder" brandName="" primaryProductCategoryId="consumable_items" quantityIncluded="1" quantityUomId="UQC_pcs" />
+<Product  productId="PB1301" productTypeId="FINDIG_GOOD" internalName="Drawer Channel Heavy 14&quot;" productName="Drawer Channel Heavy 14&quot;" brandName="" primaryProductCategoryId="consumable_items" quantityIncluded="1" quantityUomId="UQC_pcs" />
+<Product  productId="PB1302" productTypeId="FINDIG_GOOD" internalName="EC Probe for General Purpose" productName="EC Probe for General Purpose" brandName="" primaryProductCategoryId="consumable_items" quantityIncluded="1" quantityUomId="UQC_pcs" />
+<Product  productId="PB1303" productTypeId="FINDIG_GOOD" internalName="Empty CV Box for SITA KIT with Plate" productName="Empty CV Box for SITA KIT with Plate" brandName="" primaryProductCategoryId="packing_material" quantityIncluded="1" quantityUomId="UQC_pcs" />
+<Product  productId="PB1304" productTypeId="FINDIG_GOOD" internalName="Fly Catcher Machine" productName="Fly Catcher Machine" brandName="" primaryProductCategoryId="consumable_items" quantityIncluded="1" quantityUomId="UQC_pcs" />
+<Product  productId="PB1305" productTypeId="FINDIG_GOOD" internalName="G-4 Gooch Crucible vacuum valve" productName="G-4 Gooch Crucible vacuum valve" brandName="" primaryProductCategoryId="consumable_items" quantityIncluded="1" quantityUomId="UQC_pcs" />
+<Product  productId="PB1306" productTypeId="FINDIG_GOOD" internalName="Germitol" productName="Germitol" brandName="" primaryProductCategoryId="consumable_items" quantityIncluded="1" quantityUomId="UQC_pcs" />
+<Product  productId="PB1307" productTypeId="FINDIG_GOOD" internalName="Gland Rope 10mm" productName="Gland Rope 10mm" brandName="" primaryProductCategoryId="consumable_items" quantityIncluded="1" quantityUomId="UQC_pcs" />
+<Product  productId="PB1308" productTypeId="FINDIG_GOOD" internalName="Gland Rope 8mm" productName="Gland Rope 8mm" brandName="" primaryProductCategoryId="consumable_items" quantityIncluded="1" quantityUomId="UQC_pcs" />
+<Product  productId="PB1309" productTypeId="FINDIG_GOOD" internalName="HT Grease Black 1 Kg" productName="HT Grease Black 1 Kg" brandName="" primaryProductCategoryId="consumable_items" quantityIncluded="1" quantityUomId="UQC_pcs" />
+<Product  productId="PB1310" productTypeId="FINDIG_GOOD" internalName="ISA 35X35X5mm" productName="ISA 35X35X5mm" brandName="" primaryProductCategoryId="consumable_items" quantityIncluded="1" quantityUomId="UQC_pcs" />
+<Product  productId="PB1311" productTypeId="FINDIG_GOOD" internalName="Kwath Machine" productName="Kwath Machine" brandName="" primaryProductCategoryId="assets" quantityIncluded="1" quantityUomId="UQC_pcs" />
+<Product  productId="PB1312" productTypeId="FINDIG_GOOD" internalName="Lab Washing Brush ( All Size)" productName="Lab Washing Brush ( All Size)" brandName="" primaryProductCategoryId="consumable_items" quantityIncluded="1" quantityUomId="UQC_pcs" />
+<Product  productId="PB1313" productTypeId="FINDIG_GOOD" internalName="Labolin Neutral PH Detergent" productName="Labolin Neutral PH Detergent" brandName="" primaryProductCategoryId="lab_chemicals" quantityIncluded="1" quantityUomId="UQC_pcs" />
+<Product  productId="PB1314" productTypeId="FINDIG_GOOD" internalName="Matelic Gasket Sheet" productName="Matelic Gasket Sheet" brandName="" primaryProductCategoryId="consumable_items" quantityIncluded="1" quantityUomId="UQC_pcs" />
+<Product  productId="PB1315" productTypeId="FINDIG_GOOD" internalName="MI A2 6GB RAM, 128GB ROM" productName="MI A2 6GB RAM, 128GB ROM" brandName="" primaryProductCategoryId="assets" quantityIncluded="1" quantityUomId="UQC_pcs" />
+<Product  productId="PB1316" productTypeId="FINDIG_GOOD" internalName="Mica 8X4" productName="Mica 8X4" brandName="" primaryProductCategoryId="consumable_items" quantityIncluded="1" quantityUomId="UQC_pcs" />
+<Product  productId="PB1317" productTypeId="FINDIG_GOOD" internalName="Microscope Slide Box" productName="Microscope Slide Box" brandName="" primaryProductCategoryId="consumable_items" quantityIncluded="1" quantityUomId="UQC_pcs" />
+<Product  productId="PB1318" productTypeId="FINDIG_GOOD" internalName="MONOBLOCK PUMP 2HP 3PHASE MOD:KSMB220" productName="MONOBLOCK PUMP 2HP 3PHASE MOD:KSMB220" brandName="" primaryProductCategoryId="assets" quantityIncluded="1" quantityUomId="UQC_pcs" />
+<Product  productId="PB1319" productTypeId="FINDIG_GOOD" internalName="MS Boiler Brush 35mm" productName="MS Boiler Brush 35mm" brandName="" primaryProductCategoryId="consumable_items" quantityIncluded="1" quantityUomId="UQC_pcs" />
+<Product  productId="PB1320" productTypeId="FINDIG_GOOD" internalName="Multipurpose Rack" productName="Multipurpose Rack" brandName="" primaryProductCategoryId="consumable_items" quantityIncluded="1" quantityUomId="UQC_pcs" />
+<Product  productId="PB1321" productTypeId="FINDIG_GOOD" internalName="NIST Standerd PH Buffer Capsule (4.01)" productName="NIST Standerd PH Buffer Capsule (4.01)" brandName="" primaryProductCategoryId="consumable_items" quantityIncluded="1" quantityUomId="UQC_pcs" />
+<Product  productId="PB1322" productTypeId="FINDIG_GOOD" internalName="NIST Standerd PH Buffer Capsule (9.18)" productName="NIST Standerd PH Buffer Capsule (9.18)" brandName="" primaryProductCategoryId="consumable_items" quantityIncluded="1" quantityUomId="UQC_pcs" />
+<Product  productId="PB1323" productTypeId="FINDIG_GOOD" internalName="Numex Fast Drying Ink 100ml Black" productName="Numex Fast Drying Ink 100ml Black" brandName="" primaryProductCategoryId="consumable_items" quantityIncluded="1" quantityUomId="UQC_pcs" />
+<Product  productId="PB1324" productTypeId="FINDIG_GOOD" internalName="Nycrome Inoculation Loop" productName="Nycrome Inoculation Loop" brandName="" primaryProductCategoryId="lab_chemicals" quantityIncluded="1" quantityUomId="UQC_pcs" />
+<Product  productId="PB1325" productTypeId="FINDIG_GOOD" internalName="Nylon Breeded Hose Pipe 1&quot;" productName="Nylon Breeded Hose Pipe 1&quot;" brandName="" primaryProductCategoryId="consumable_items" quantityIncluded="1" quantityUomId="UQC_pcs" />
+<Product  productId="PB1326" productTypeId="FINDIG_GOOD" internalName="Odonil Dabur" productName="Odonil Dabur" brandName="" primaryProductCategoryId="consumable_items" quantityIncluded="1" quantityUomId="UQC_pcs" />
+<Product  productId="PB1327" productTypeId="FINDIG_GOOD" internalName="PH Probe for General Purpose" productName="PH Probe for General Purpose" brandName="" primaryProductCategoryId="consumable_items" quantityIncluded="1" quantityUomId="UQC_pcs" />
+<Product  productId="PB1328" productTypeId="FINDIG_GOOD" internalName="Printer Cartridge 12A Leser Printer" productName="Printer Cartridge 12A Leser Printer" brandName="" primaryProductCategoryId="consumable_items" quantityIncluded="1" quantityUomId="UQC_pcs" />
+<Product  productId="PB1329" productTypeId="FINDIG_GOOD" internalName="Printer Cartridge Canon 925 Printer" productName="Printer Cartridge Canon 925 Printer" brandName="" primaryProductCategoryId="consumable_items" quantityIncluded="1" quantityUomId="UQC_pcs" />
+<Product  productId="PB1330" productTypeId="FINDIG_GOOD" internalName="PVC Garden Hose Pipe 1&quot; Heavy" productName="PVC Garden Hose Pipe 1&quot; Heavy" brandName="" primaryProductCategoryId="consumable_items" quantityIncluded="1" quantityUomId="UQC_pcs" />
+<Product  productId="PB1331" productTypeId="FINDIG_GOOD" internalName="PVC Sutli Roll" productName="PVC Sutli Roll" brandName="" primaryProductCategoryId="consumable_items" quantityIncluded="1" quantityUomId="UQC_pcs" />
+<Product  productId="PB1332" productTypeId="FINDIG_GOOD" internalName="Red Oil Can" productName="Red Oil Can" brandName="" primaryProductCategoryId="consumable_items" quantityIncluded="1" quantityUomId="UQC_pcs" />
+<Product  productId="PB1333" productTypeId="FINDIG_GOOD" internalName="SS Hose Clamp 1&quot;" productName="SS Hose Clamp 1&quot;" brandName="" primaryProductCategoryId="consumable_items" quantityIncluded="1" quantityUomId="UQC_pcs" />
+<Product  productId="PB1334" productTypeId="FINDIG_GOOD" internalName="Steam ON/OFF Valve With Preumatic Actuat" productName="Steam ON/OFF Valve With Preumatic Actuat" brandName="" primaryProductCategoryId="consumable_items" quantityIncluded="1" quantityUomId="UQC_pcs" />
+<Product  productId="PB1335" productTypeId="FINDIG_GOOD" internalName="Tube Light Fitting 18 Watt SSK-SO18W" productName="Tube Light Fitting 18 Watt SSK-SO18W" brandName="" primaryProductCategoryId="consumable_items" quantityIncluded="1" quantityUomId="UQC_pcs" />
+<Product  productId="PB1336" productTypeId="FINDIG_GOOD" internalName="V-Belt B-72" productName="V-Belt B-72" brandName="" primaryProductCategoryId="consumable_items" quantityIncluded="1" quantityUomId="UQC_pcs" />
+<Product  productId="PB1337" productTypeId="FINDIG_GOOD" internalName="Patanjali Jaivik Prom 10 Kg." productName="Patanjali Jaivik Prom 10 Kg." brandName="" primaryProductCategoryId="bio_fertilizer" quantityIncluded="1" quantityUomId="UQC_pcs" />
+
+ <ProductCategoryMember  productId="PB1287"  productCategoryId="consumable_items"  fromDate="2019-04-29 17:50:41.305"/>
+<ProductCategoryMember  productId="PB1288"  productCategoryId="consumable_items"  fromDate="2019-04-29 17:50:41.305"/>
+<ProductCategoryMember  productId="PB1289" productCategoryId="consumable_items"  fromDate="2019-04-29 17:50:41.305"/>
+<ProductCategoryMember  productId="PB1290"  productCategoryId="consumable_items"  fromDate="2019-04-29 17:50:41.305"/>
+<ProductCategoryMember  productId="PB1291"  productCategoryId="consumable_items"  fromDate="2019-04-29 17:50:41.305"/>
+<ProductCategoryMember  productId="PB1292"  productCategoryId="lab_chemicals"  fromDate="2019-04-29 17:50:41.305"/>
+<ProductCategoryMember  productId="PB1293" productCategoryId="consumable_items"  fromDate="2019-04-29 17:50:41.305"/>
+<ProductCategoryMember  productId="PB1294"  productCategoryId="consumable_items"  fromDate="2019-04-29 17:50:41.305"/>
+<ProductCategoryMember  productId="PB1295"  productCategoryId="consumable_items"  fromDate="2019-04-29 17:50:41.305"/>
+<ProductCategoryMember  productId="PB1296"  productCategoryId="consumable_items"  fromDate="2019-04-29 17:50:41.305"/>
+<ProductCategoryMember  productId="PB1297"  productCategoryId="consumable_items"  fromDate="2019-04-29 17:50:41.305"/>
+<ProductCategoryMember  productId="PB1298"  productCategoryId="consumable_items"  fromDate="2019-04-29 17:50:41.305"/>
+<ProductCategoryMember  productId="PB1299" productCategoryId="consumable_items"  fromDate="2019-04-29 17:50:41.305"/>
+<ProductCategoryMember  productId="PB1300"  productCategoryId="consumable_items"  fromDate="2019-04-29 17:50:41.305"/>
+<ProductCategoryMember  productId="PB1301"  productCategoryId="consumable_items"  fromDate="2019-04-29 17:50:41.305"/>
+<ProductCategoryMember  productId="PB1302"  productCategoryId="consumable_items"  fromDate="2019-04-29 17:50:41.305"/>
+<ProductCategoryMember  productId="PB1303"  productCategoryId="packing_material"  fromDate="2019-04-29 17:50:41.305"/>
+<ProductCategoryMember  productId="PB1304"  productCategoryId="consumable_items"  fromDate="2019-04-29 17:50:41.305"/>
+<ProductCategoryMember  productId="PB1305"  productCategoryId="consumable_items"  fromDate="2019-04-29 17:50:41.305"/>
+<ProductCategoryMember  productId="PB1306"  productCategoryId="consumable_items"  fromDate="2019-04-29 17:50:41.305"/>
+<ProductCategoryMember  productId="PB1307"  productCategoryId="consumable_items"  fromDate="2019-04-29 17:50:41.305"/>
+<ProductCategoryMember  productId="PB1308"  productCategoryId="consumable_items"  fromDate="2019-04-29 17:50:41.305"/>
+<ProductCategoryMember  productId="PB1309"  productCategoryId="consumable_items"  fromDate="2019-04-29 17:50:41.305"/>
+<ProductCategoryMember  productId="PB1310"  productCategoryId="consumable_items"  fromDate="2019-04-29 17:50:41.305"/>
+<ProductCategoryMember  productId="PB1311"  productCategoryId="assets"  fromDate="2019-04-29 17:50:41.305"/>
+<ProductCategoryMember  productId="PB1312"  productCategoryId="consumable_items"  fromDate="2019-04-29 17:50:41.305"/>
+<ProductCategoryMember  productId="PB1313"  productCategoryId="lab_chemicals"  fromDate="2019-04-29 17:50:41.305"/>
+<ProductCategoryMember  productId="PB1314"  productCategoryId="consumable_items"  fromDate="2019-04-29 17:50:41.305"/>
+<ProductCategoryMember  productId="PB1315"  productCategoryId="assets"  fromDate="2019-04-29 17:50:41.305"/>
+<ProductCategoryMember  productId="PB1316" productCategoryId="consumable_items"  fromDate="2019-04-29 17:50:41.305"/>
+<ProductCategoryMember  productId="PB1317"  productCategoryId="consumable_items"  fromDate="2019-04-29 17:50:41.305"/>
+<ProductCategoryMember  productId="PB1318"  productCategoryId="assets"  fromDate="2019-04-29 17:50:41.305"/>
+<ProductCategoryMember  productId="PB1319"  productCategoryId="consumable_items"  fromDate="2019-04-29 17:50:41.305"/>
+<ProductCategoryMember  productId="PB1320"  productCategoryId="consumable_items"  fromDate="2019-04-29 17:50:41.305"/>
+<ProductCategoryMember  productId="PB1321"  productCategoryId="consumable_items"  fromDate="2019-04-29 17:50:41.305"/>
+<ProductCategoryMember  productId="PB1322" productCategoryId="consumable_items"  fromDate="2019-04-29 17:50:41.305"/>
+<ProductCategoryMember  productId="PB1323"  productCategoryId="consumable_items"  fromDate="2019-04-29 17:50:41.305"/>
+<ProductCategoryMember  productId="PB1324"  productCategoryId="lab_chemicals"  fromDate="2019-04-29 17:50:41.305"/>
+<ProductCategoryMember  productId="PB1325"  productCategoryId="consumable_items"  fromDate="2019-04-29 17:50:41.305"/>
+<ProductCategoryMember  productId="PB1326"  productCategoryId="consumable_items"  fromDate="2019-04-29 17:50:41.305"/>
+<ProductCategoryMember  productId="PB1327"  productCategoryId="consumable_items"  fromDate="2019-04-29 17:50:41.305"/>
+<ProductCategoryMember  productId="PB1328"  productCategoryId="consumable_items"  fromDate="2019-04-29 17:50:41.305"/>
+<ProductCategoryMember  productId="PB1329"  productCategoryId="consumable_items"  fromDate="2019-04-29 17:50:41.305"/>
+<ProductCategoryMember  productId="PB1330"  productCategoryId="consumable_items"  fromDate="2019-04-29 17:50:41.305"/>
+<ProductCategoryMember  productId="PB1331" productCategoryId="consumable_items"  fromDate="2019-04-29 17:50:41.305"/>
+<ProductCategoryMember  productId="PB1332"  productCategoryId="consumable_items"  fromDate="2019-04-29 17:50:41.305"/>
+<ProductCategoryMember  productId="PB1333"  productCategoryId="consumable_items"  fromDate="2019-04-29 17:50:41.305"/>
+<ProductCategoryMember  productId="PB1334"  productCategoryId="consumable_items"  fromDate="2019-04-29 17:50:41.305"/>
+<ProductCategoryMember  productId="PB1335"  productCategoryId="consumable_items"  fromDate="2019-04-29 17:50:41.305"/>
+<ProductCategoryMember  productId="PB1336"  productCategoryId="consumable_items"  fromDate="2019-04-29 17:50:41.305"/>
+<ProductCategoryMember  productId="PB1337"  productCategoryId="bio_fertilizer"  fromDate="2019-04-29 17:50:41.305"/>
+ 
+<ProductCategoryMember  productId="PB1287"  productCategoryId="TAX_SLAB_0"  fromDate="2019-04-29 17:50:41.305"/>
+<ProductCategoryMember  productId="PB1288"  productCategoryId="TAX_SLAB_0"  fromDate="2019-04-29 17:50:41.305"/>
+<ProductCategoryMember  productId="PB1289" productCategoryId="TAX_SLAB_0"  fromDate="2019-04-29 17:50:41.305"/>
+<ProductCategoryMember  productId="PB1290"  productCategoryId="TAX_SLAB_0"  fromDate="2019-04-29 17:50:41.305"/>
+<ProductCategoryMember  productId="PB1291"  productCategoryId="TAX_SLAB_0"  fromDate="2019-04-29 17:50:41.305"/>
+<ProductCategoryMember  productId="PB1292"  productCategoryId="TAX_SLAB_0"  fromDate="2019-04-29 17:50:41.305"/>
+<ProductCategoryMember  productId="PB1293" productCategoryId="TAX_SLAB_0"  fromDate="2019-04-29 17:50:41.305"/>
+<ProductCategoryMember  productId="PB1294"  productCategoryId="TAX_SLAB_0"  fromDate="2019-04-29 17:50:41.305"/>
+<ProductCategoryMember  productId="PB1295"  productCategoryId="TAX_SLAB_0"  fromDate="2019-04-29 17:50:41.305"/>
+<ProductCategoryMember  productId="PB1296"  productCategoryId="TAX_SLAB_0"  fromDate="2019-04-29 17:50:41.305"/>
+<ProductCategoryMember  productId="PB1297"  productCategoryId="TAX_SLAB_0"  fromDate="2019-04-29 17:50:41.305"/>
+<ProductCategoryMember  productId="PB1298"  productCategoryId="TAX_SLAB_0"  fromDate="2019-04-29 17:50:41.305"/>
+<ProductCategoryMember  productId="PB1299" productCategoryId="TAX_SLAB_0"  fromDate="2019-04-29 17:50:41.305"/>
+<ProductCategoryMember  productId="PB1300"  productCategoryId="TAX_SLAB_0"  fromDate="2019-04-29 17:50:41.305"/>
+<ProductCategoryMember  productId="PB1301"  productCategoryId="TAX_SLAB_0"  fromDate="2019-04-29 17:50:41.305"/>
+<ProductCategoryMember  productId="PB1302"  productCategoryId="TAX_SLAB_0"  fromDate="2019-04-29 17:50:41.305"/>
+<ProductCategoryMember  productId="PB1303"  productCategoryId="TAX_SLAB_0"  fromDate="2019-04-29 17:50:41.305"/>
+<ProductCategoryMember  productId="PB1304"  productCategoryId="TAX_SLAB_0"  fromDate="2019-04-29 17:50:41.305"/>
+<ProductCategoryMember  productId="PB1305"  productCategoryId="TAX_SLAB_0"  fromDate="2019-04-29 17:50:41.305"/>
+<ProductCategoryMember  productId="PB1306"  productCategoryId="TAX_SLAB_0"  fromDate="2019-04-29 17:50:41.305"/>
+<ProductCategoryMember  productId="PB1307"  productCategoryId="TAX_SLAB_0"  fromDate="2019-04-29 17:50:41.305"/>
+<ProductCategoryMember  productId="PB1308"  productCategoryId="TAX_SLAB_0"  fromDate="2019-04-29 17:50:41.305"/>
+<ProductCategoryMember  productId="PB1309"  productCategoryId="TAX_SLAB_0"  fromDate="2019-04-29 17:50:41.305"/>
+<ProductCategoryMember  productId="PB1310"  productCategoryId="TAX_SLAB_0"  fromDate="2019-04-29 17:50:41.305"/>
+<ProductCategoryMember  productId="PB1311"  productCategoryId="TAX_SLAB_0"  fromDate="2019-04-29 17:50:41.305"/>
+<ProductCategoryMember  productId="PB1312"  productCategoryId="TAX_SLAB_0"  fromDate="2019-04-29 17:50:41.305"/>
+<ProductCategoryMember  productId="PB1313"  productCategoryId="TAX_SLAB_0"  fromDate="2019-04-29 17:50:41.305"/>
+<ProductCategoryMember  productId="PB1314"  productCategoryId="TAX_SLAB_0"  fromDate="2019-04-29 17:50:41.305"/>
+<ProductCategoryMember  productId="PB1315"  productCategoryId="TAX_SLAB_0"  fromDate="2019-04-29 17:50:41.305"/>
+<ProductCategoryMember  productId="PB1316" productCategoryId="TAX_SLAB_0"  fromDate="2019-04-29 17:50:41.305"/>
+<ProductCategoryMember  productId="PB1317"  productCategoryId="TAX_SLAB_0"  fromDate="2019-04-29 17:50:41.305"/>
+<ProductCategoryMember  productId="PB1318"  productCategoryId="TAX_SLAB_0"  fromDate="2019-04-29 17:50:41.305"/>
+<ProductCategoryMember  productId="PB1319"  productCategoryId="TAX_SLAB_0"  fromDate="2019-04-29 17:50:41.305"/>
+<ProductCategoryMember  productId="PB1320"  productCategoryId="TAX_SLAB_0"  fromDate="2019-04-29 17:50:41.305"/>
+<ProductCategoryMember  productId="PB1321"  productCategoryId="TAX_SLAB_0"  fromDate="2019-04-29 17:50:41.305"/>
+<ProductCategoryMember  productId="PB1322" productCategoryId="TAX_SLAB_0"  fromDate="2019-04-29 17:50:41.305"/>
+<ProductCategoryMember  productId="PB1323"  productCategoryId="TAX_SLAB_0"  fromDate="2019-04-29 17:50:41.305"/>
+<ProductCategoryMember  productId="PB1324"  productCategoryId="TAX_SLAB_0"  fromDate="2019-04-29 17:50:41.305"/>
+<ProductCategoryMember  productId="PB1325"  productCategoryId="TAX_SLAB_0"  fromDate="2019-04-29 17:50:41.305"/>
+<ProductCategoryMember  productId="PB1326"  productCategoryId="TAX_SLAB_0"  fromDate="2019-04-29 17:50:41.305"/>
+<ProductCategoryMember  productId="PB1327"  productCategoryId="TAX_SLAB_0"  fromDate="2019-04-29 17:50:41.305"/>
+<ProductCategoryMember  productId="PB1328"  productCategoryId="TAX_SLAB_0"  fromDate="2019-04-29 17:50:41.305"/>
+<ProductCategoryMember  productId="PB1329"  productCategoryId="TAX_SLAB_0"  fromDate="2019-04-29 17:50:41.305"/>
+<ProductCategoryMember  productId="PB1330"  productCategoryId="TAX_SLAB_0"  fromDate="2019-04-29 17:50:41.305"/>
+<ProductCategoryMember  productId="PB1331" productCategoryId="TAX_SLAB_0"  fromDate="2019-04-29 17:50:41.305"/>
+<ProductCategoryMember  productId="PB1332"  productCategoryId="TAX_SLAB_0"  fromDate="2019-04-29 17:50:41.305"/>
+<ProductCategoryMember  productId="PB1333"  productCategoryId="TAX_SLAB_0"  fromDate="2019-04-29 17:50:41.305"/>
+<ProductCategoryMember  productId="PB1334"  productCategoryId="TAX_SLAB_0"  fromDate="2019-04-29 17:50:41.305"/>
+<ProductCategoryMember  productId="PB1335"  productCategoryId="TAX_SLAB_0"  fromDate="2019-04-29 17:50:41.305"/>
+<ProductCategoryMember  productId="PB1336"  productCategoryId="TAX_SLAB_0"  fromDate="2019-04-29 17:50:41.305"/>
+<ProductCategoryMember  productId="PB1337"  productCategoryId="TAX_SLAB_0"  fromDate="2019-04-29 17:50:41.305"/>
+
+<ProductCategoryMember  productId="PB1287"  productCategoryId="PTNJLI_ALL_PRODUCTS"  fromDate="2019-04-29 17:50:41.305"/>
+<ProductCategoryMember  productId="PB1288"  productCategoryId="PTNJLI_ALL_PRODUCTS"  fromDate="2019-04-29 17:50:41.305"/>
+<ProductCategoryMember  productId="PB1289" productCategoryId="PTNJLI_ALL_PRODUCTS"  fromDate="2019-04-29 17:50:41.305"/>
+<ProductCategoryMember  productId="PB1290"  productCategoryId="PTNJLI_ALL_PRODUCTS"  fromDate="2019-04-29 17:50:41.305"/>
+<ProductCategoryMember  productId="PB1291"  productCategoryId="PTNJLI_ALL_PRODUCTS"  fromDate="2019-04-29 17:50:41.305"/>
+<ProductCategoryMember  productId="PB1292"  productCategoryId="PTNJLI_ALL_PRODUCTS"  fromDate="2019-04-29 17:50:41.305"/>
+<ProductCategoryMember  productId="PB1293" productCategoryId="PTNJLI_ALL_PRODUCTS"  fromDate="2019-04-29 17:50:41.305"/>
+<ProductCategoryMember  productId="PB1294"  productCategoryId="PTNJLI_ALL_PRODUCTS"  fromDate="2019-04-29 17:50:41.305"/>
+<ProductCategoryMember  productId="PB1295"  productCategoryId="PTNJLI_ALL_PRODUCTS"  fromDate="2019-04-29 17:50:41.305"/>
+<ProductCategoryMember  productId="PB1296"  productCategoryId="PTNJLI_ALL_PRODUCTS"  fromDate="2019-04-29 17:50:41.305"/>
+<ProductCategoryMember  productId="PB1297"  productCategoryId="PTNJLI_ALL_PRODUCTS"  fromDate="2019-04-29 17:50:41.305"/>
+<ProductCategoryMember  productId="PB1298"  productCategoryId="PTNJLI_ALL_PRODUCTS"  fromDate="2019-04-29 17:50:41.305"/>
+<ProductCategoryMember  productId="PB1299" productCategoryId="PTNJLI_ALL_PRODUCTS"  fromDate="2019-04-29 17:50:41.305"/>
+<ProductCategoryMember  productId="PB1300"  productCategoryId="PTNJLI_ALL_PRODUCTS"  fromDate="2019-04-29 17:50:41.305"/>
+<ProductCategoryMember  productId="PB1301"  productCategoryId="PTNJLI_ALL_PRODUCTS"  fromDate="2019-04-29 17:50:41.305"/>
+<ProductCategoryMember  productId="PB1302"  productCategoryId="PTNJLI_ALL_PRODUCTS"  fromDate="2019-04-29 17:50:41.305"/>
+<ProductCategoryMember  productId="PB1303"  productCategoryId="PTNJLI_ALL_PRODUCTS"  fromDate="2019-04-29 17:50:41.305"/>
+<ProductCategoryMember  productId="PB1304"  productCategoryId="PTNJLI_ALL_PRODUCTS"  fromDate="2019-04-29 17:50:41.305"/>
+<ProductCategoryMember  productId="PB1305"  productCategoryId="PTNJLI_ALL_PRODUCTS"  fromDate="2019-04-29 17:50:41.305"/>
+<ProductCategoryMember  productId="PB1306"  productCategoryId="PTNJLI_ALL_PRODUCTS"  fromDate="2019-04-29 17:50:41.305"/>
+<ProductCategoryMember  productId="PB1307"  productCategoryId="PTNJLI_ALL_PRODUCTS"  fromDate="2019-04-29 17:50:41.305"/>
+<ProductCategoryMember  productId="PB1308"  productCategoryId="PTNJLI_ALL_PRODUCTS"  fromDate="2019-04-29 17:50:41.305"/>
+<ProductCategoryMember  productId="PB1309"  productCategoryId="PTNJLI_ALL_PRODUCTS"  fromDate="2019-04-29 17:50:41.305"/>
+<ProductCategoryMember  productId="PB1310"  productCategoryId="PTNJLI_ALL_PRODUCTS"  fromDate="2019-04-29 17:50:41.305"/>
+<ProductCategoryMember  productId="PB1311"  productCategoryId="PTNJLI_ALL_PRODUCTS"  fromDate="2019-04-29 17:50:41.305"/>
+<ProductCategoryMember  productId="PB1312"  productCategoryId="PTNJLI_ALL_PRODUCTS"  fromDate="2019-04-29 17:50:41.305"/>
+<ProductCategoryMember  productId="PB1313"  productCategoryId="PTNJLI_ALL_PRODUCTS"  fromDate="2019-04-29 17:50:41.305"/>
+<ProductCategoryMember  productId="PB1314"  productCategoryId="PTNJLI_ALL_PRODUCTS"  fromDate="2019-04-29 17:50:41.305"/>
+<ProductCategoryMember  productId="PB1315"  productCategoryId="PTNJLI_ALL_PRODUCTS"  fromDate="2019-04-29 17:50:41.305"/>
+<ProductCategoryMember  productId="PB1316" productCategoryId="PTNJLI_ALL_PRODUCTS"  fromDate="2019-04-29 17:50:41.305"/>
+<ProductCategoryMember  productId="PB1317"  productCategoryId="PTNJLI_ALL_PRODUCTS"  fromDate="2019-04-29 17:50:41.305"/>
+<ProductCategoryMember  productId="PB1318"  productCategoryId="PTNJLI_ALL_PRODUCTS"  fromDate="2019-04-29 17:50:41.305"/>
+<ProductCategoryMember  productId="PB1319"  productCategoryId="PTNJLI_ALL_PRODUCTS"  fromDate="2019-04-29 17:50:41.305"/>
+<ProductCategoryMember  productId="PB1320"  productCategoryId="PTNJLI_ALL_PRODUCTS"  fromDate="2019-04-29 17:50:41.305"/>
+<ProductCategoryMember  productId="PB1321"  productCategoryId="PTNJLI_ALL_PRODUCTS"  fromDate="2019-04-29 17:50:41.305"/>
+<ProductCategoryMember  productId="PB1322" productCategoryId="PTNJLI_ALL_PRODUCTS"  fromDate="2019-04-29 17:50:41.305"/>
+<ProductCategoryMember  productId="PB1323"  productCategoryId="PTNJLI_ALL_PRODUCTS"  fromDate="2019-04-29 17:50:41.305"/>
+<ProductCategoryMember  productId="PB1324"  productCategoryId="PTNJLI_ALL_PRODUCTS"  fromDate="2019-04-29 17:50:41.305"/>
+<ProductCategoryMember  productId="PB1325"  productCategoryId="PTNJLI_ALL_PRODUCTS"  fromDate="2019-04-29 17:50:41.305"/>
+<ProductCategoryMember  productId="PB1326"  productCategoryId="PTNJLI_ALL_PRODUCTS"  fromDate="2019-04-29 17:50:41.305"/>
+<ProductCategoryMember  productId="PB1327"  productCategoryId="PTNJLI_ALL_PRODUCTS"  fromDate="2019-04-29 17:50:41.305"/>
+<ProductCategoryMember  productId="PB1328"  productCategoryId="PTNJLI_ALL_PRODUCTS"  fromDate="2019-04-29 17:50:41.305"/>
+<ProductCategoryMember  productId="PB1329"  productCategoryId="PTNJLI_ALL_PRODUCTS"  fromDate="2019-04-29 17:50:41.305"/>
+<ProductCategoryMember  productId="PB1330"  productCategoryId="PTNJLI_ALL_PRODUCTS"  fromDate="2019-04-29 17:50:41.305"/>
+<ProductCategoryMember  productId="PB1331" productCategoryId="PTNJLI_ALL_PRODUCTS"  fromDate="2019-04-29 17:50:41.305"/>
+<ProductCategoryMember  productId="PB1332"  productCategoryId="PTNJLI_ALL_PRODUCTS"  fromDate="2019-04-29 17:50:41.305"/>
+<ProductCategoryMember  productId="PB1333"  productCategoryId="PTNJLI_ALL_PRODUCTS"  fromDate="2019-04-29 17:50:41.305"/>
+<ProductCategoryMember  productId="PB1334"  productCategoryId="PTNJLI_ALL_PRODUCTS"  fromDate="2019-04-29 17:50:41.305"/>
+<ProductCategoryMember  productId="PB1335"  productCategoryId="PTNJLI_ALL_PRODUCTS"  fromDate="2019-04-29 17:50:41.305"/>
+<ProductCategoryMember  productId="PB1336"  productCategoryId="PTNJLI_ALL_PRODUCTS"  fromDate="2019-04-29 17:50:41.305"/>
+<ProductCategoryMember  productId="PB1337"  productCategoryId="PTNJLI_ALL_PRODUCTS"  fromDate="2019-04-29 17:50:41.305"/>
+</entity-engine-xml>

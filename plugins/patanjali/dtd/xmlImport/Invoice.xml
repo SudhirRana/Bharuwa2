@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity-engine-xml>
+    <Invoice invoiceId="HRD/19-20/1" invoiceTypeId="SALES_INVOICE" partyIdFrom="patanjali" partyId="CP0021" statusId="INVOICE_IN_PROCESS" invoiceDate="2019-04-02 15:32:13.0" currencyUomId="INR"/>
+    <Invoice invoiceId="HRD/19-20/2" invoiceTypeId="SALES_INVOICE" partyIdFrom="patanjali" partyId="CP0053" statusId="INVOICE_IN_PROCESS" invoiceDate="2019-04-02 16:08:24.0" currencyUomId="INR"/>
+    <Invoice invoiceId="HRD/19-20/3" invoiceTypeId="SALES_INVOICE" partyIdFrom="patanjali" partyId="CP0054" statusId="INVOICE_IN_PROCESS" invoiceDate="2019-04-03 16:11:56.0" referenceNumber="23ASNPD1255H1Z1" currencyUomId="INR"/>
+    <Invoice invoiceId="HRD/19-20/4" invoiceTypeId="SALES_INVOICE" partyIdFrom="patanjali" partyId="CP0055" statusId="INVOICE_IN_PROCESS" invoiceDate="2019-04-06 16:15:11.0" currencyUomId="INR"/>
+    <Invoice invoiceId="HRD/19-20/5" invoiceTypeId="SALES_INVOICE" partyIdFrom="patanjali" partyId="CP0056" statusId="INVOICE_IN_PROCESS" invoiceDate="2019-04-08 16:16:35.0" currencyUomId="INR"/>
+    <Invoice invoiceId="HRD/19-20/6" invoiceTypeId="SALES_INVOICE" partyIdFrom="patanjali" partyId="CP0057" statusId="INVOICE_IN_PROCESS" invoiceDate="2019-04-10 16:19:37.0" currencyUomId="INR"/>
+    <Invoice invoiceId="HRD/19-20/7" invoiceTypeId="SALES_INVOICE" partyIdFrom="patanjali" partyId="CP0058" statusId="INVOICE_IN_PROCESS" invoiceDate="2019-04-10 16:22:36.0" referenceNumber="05ABJFA9859P1ZJ" currencyUomId="INR"/>
+    <Invoice invoiceId="HRD/19-20/8" invoiceTypeId="SALES_INVOICE" partyIdFrom="patanjali" partyId="CP0029" statusId="INVOICE_IN_PROCESS" invoiceDate="2019-04-13 16:24:59.0" currencyUomId="INR"/>
+    <Invoice invoiceId="HRD/19-20/9" invoiceTypeId="SALES_INVOICE" partyIdFrom="patanjali" partyId="CP0055" statusId="INVOICE_IN_PROCESS" invoiceDate="2019-04-13 16:26:53.0" currencyUomId="INR"/>
+    <Invoice invoiceId="HRD/19-20/10" invoiceTypeId="SALES_INVOICE" partyIdFrom="patanjali" partyId="CP0059" statusId="INVOICE_IN_PROCESS" invoiceDate="2019-04-13 16:30:12.0" currencyUomId="INR"/>
+    <Invoice invoiceId="HRD/19-20/11" invoiceTypeId="SALES_INVOICE" partyIdFrom="patanjali" partyId="CP0002" statusId="INVOICE_IN_PROCESS" invoiceDate="2019-04-18 16:31:41.0" referenceNumber="24AAFCP9461Q1ZO" currencyUomId="INR"/>
+     
+    <InvoiceItem invoiceId="HRD/19-20/1" invoiceItemSeqId="00001" invoiceItemTypeId="SINVOICE_ITM_ADJ" productId="PB0914" uomId="UQC_pcs" taxableFlag="Y" quantity="6.000000" amount="640.000"/>
+    <InvoiceItem invoiceId="HRD/19-20/1" invoiceItemSeqId="00002" invoiceItemTypeId="SINVOICE_ITM_ADJ" productId="PB0002" uomId="UQC_pcs" taxableFlag="Y" quantity="6.000000" amount="426.800"/>
+    <InvoiceItem invoiceId="HRD/19-20/1" invoiceItemSeqId="00003" invoiceItemTypeId="SINVOICE_ITM_ADJ" productId="PB0019" uomId="UQC_pcs" taxableFlag="Y" quantity="6.000000" amount="92.800"/>
+    <InvoiceItem invoiceId="HRD/19-20/1" invoiceItemSeqId="00004" invoiceItemTypeId="SINVOICE_ITM_ADJ" productId="PB0021" uomId="UQC_pcs" taxableFlag="Y" quantity="6.000000" amount="88.390"/>
+    <InvoiceItem invoiceId="HRD/19-20/1" invoiceItemSeqId="00005" invoiceItemTypeId="SINVOICE_ITM_ADJ" productId="PB0001" uomId="UQC_pcs" taxableFlag="Y" quantity="4.000000" amount="180.950"/>
+    <InvoiceItem invoiceId="HRD/19-20/1" invoiceItemSeqId="00006" invoiceItemTypeId="SINVOICE_ITM_ADJ" productId="PB0017" uomId="UQC_pcs" taxableFlag="Y" quantity="2.000000" amount="190.480"/>
+    <InvoiceItem invoiceId="HRD/19-20/1" invoiceItemSeqId="00007" invoiceItemTypeId="SINVOICE_ITM_ADJ" productId="PB0004" uomId="UQC_pcs" taxableFlag="Y" quantity="4.000000" amount="200.000"/>
+    <InvoiceItem invoiceId="HRD/19-20/1" invoiceItemSeqId="00008" invoiceItemTypeId="SINVOICE_ITM_ADJ" productId="PB0709" uomId="UQC_kgs" taxableFlag="Y" quantity="4.000000" amount="104.760"/>
+    <InvoiceItem invoiceId="HRD/19-20/2" invoiceItemSeqId="00001" invoiceItemTypeId="SINVOICE_ITM_ADJ" productId="PB0914" uomId="UQC_pcs" taxableFlag="Y" quantity="10.000000" amount="640.000"/>
+    <InvoiceItem invoiceId="HRD/19-20/2" invoiceItemSeqId="00002" invoiceItemTypeId="SINVOICE_ITM_ADJ" productId="PB0019" uomId="OTH_box" taxableFlag="Y" quantity="2.000000" amount="1113.600"/>
+    <InvoiceItem invoiceId="HRD/19-20/3" invoiceItemSeqId="00001" invoiceItemTypeId="SINVOICE_ITM_ADJ" productId="PB0085" uomId="UQC_kgs" taxableFlag="Y" quantity="19550.000000" amount="33.000"/>
+    <InvoiceItem invoiceId="HRD/19-20/4" invoiceItemSeqId="00001" invoiceItemTypeId="SINVOICE_ITM_ADJ" productId="PB0019" uomId="OTH_box" taxableFlag="Y" quantity="2.000000" amount="1113.600"/>
+    <InvoiceItem invoiceId="HRD/19-20/5" invoiceItemSeqId="00001" invoiceItemTypeId="SINVOICE_ITM_ADJ" productId="PB0730" uomId="UQC_pcs" taxableFlag="Y" quantity="2.000000" amount="1356.000"/>
+    <InvoiceItem invoiceId="HRD/19-20/5" invoiceItemSeqId="00002" invoiceItemTypeId="SINVOICE_ITM_ADJ" productId="PB0006" uomId="UQC_pcs" taxableFlag="Y" quantity="1.000000" amount="444.640"/>
+    <InvoiceItem invoiceId="HRD/19-20/5" invoiceItemSeqId="00003" invoiceItemTypeId="SINVOICE_ITM_ADJ" productId="PB0022" uomId="UQC_pcs" taxableFlag="Y" quantity="1.000000" amount="80.360"/>
+    <InvoiceItem invoiceId="HRD/19-20/6" invoiceItemSeqId="00001" invoiceItemTypeId="SINVOICE_ITM_ADJ" productId="PB0022" uomId="OTH_box" taxableFlag="Y" quantity="2.000000" amount="964.320"/>
+    <InvoiceItem invoiceId="HRD/19-20/6" invoiceItemSeqId="00002" invoiceItemTypeId="SINVOICE_ITM_ADJ" productId="PB0006" uomId="OTH_box" taxableFlag="Y" quantity="2.000000" amount="5335.680"/>
+    <InvoiceItem invoiceId="HRD/19-20/6" invoiceItemSeqId="00003" invoiceItemTypeId="SINVOICE_ITM_ADJ" productId="PB0709" uomId="UQC_kgs" taxableFlag="Y" quantity="2.000000" amount="104.760"/>
+    <InvoiceItem invoiceId="HRD/19-20/7" invoiceItemSeqId="00001" invoiceItemTypeId="SINVOICE_ITM_ADJ" productId="PB0704" uomId="UQC_kgs" taxableFlag="Y" quantity="9710.000000" amount="22.000"/>
+    <InvoiceItem invoiceId="HRD/19-20/8" invoiceItemSeqId="00001" invoiceItemTypeId="SINVOICE_ITM_ADJ" productId="PB0022" uomId="UQC_pcs" taxableFlag="Y" quantity="1.000000" amount="80.360"/>
+    <InvoiceItem invoiceId="HRD/19-20/8" invoiceItemSeqId="00002" invoiceItemTypeId="SINVOICE_ITM_ADJ" productId="PB0006" uomId="UQC_pcs" taxableFlag="Y" quantity="1.000000" amount="444.640"/>
+    <InvoiceItem invoiceId="HRD/19-20/9" invoiceItemSeqId="00001" invoiceItemTypeId="SINVOICE_ITM_ADJ" productId="PB0019" uomId="OTH_box" taxableFlag="Y" quantity="2.000000" amount="1113.600"/>
+    <InvoiceItem invoiceId="HRD/19-20/10" invoiceItemSeqId="00001" invoiceItemTypeId="SINVOICE_ITM_ADJ" productId="PB0914" uomId="UQC_pcs" taxableFlag="Y" quantity="148.000000" amount="640.000"/>
+    <InvoiceItem invoiceId="HRD/19-20/11" invoiceItemSeqId="00001" invoiceItemTypeId="SINVOICE_ITM_ADJ" productId="PB0004" uomId="UQC_kgs" taxableFlag="Y" quantity="4500.000000" amount="40.000"/>
+    <InvoiceItem invoiceId="HRD/19-20/11" invoiceItemSeqId="00002" invoiceItemTypeId="SINVOICE_ITM_ADJ" productId="PB0022" uomId="OTH_box" taxableFlag="Y" quantity="50.000000" amount="964.320"/>
+    <InvoiceItem invoiceId="HRD/19-20/11" invoiceItemSeqId="00003" invoiceItemTypeId="SINVOICE_ITM_ADJ" productId="PB0021" uomId="OTH_box" taxableFlag="Y" quantity="30.000000" amount="1060.680"/>
+    <InvoiceItem invoiceId="HRD/19-20/11" invoiceItemSeqId="00004" invoiceItemTypeId="SINVOICE_ITM_ADJ" productId="PB0104" uomId="OTH_box" taxableFlag="Y" quantity="30.000000" amount="1827.000"/>
+    <InvoiceItem invoiceId="HRD/19-20/11" invoiceItemSeqId="00005" invoiceItemTypeId="SINVOICE_ITM_ADJ" productId="PB0001" uomId="OTH_box" taxableFlag="Y" quantity="5.000000" amount="2171.400"/>
+    <InvoiceItem invoiceId="HRD/19-20/11" invoiceItemSeqId="00006" invoiceItemTypeId="SINVOICE_ITM_ADJ" productId="PB0017" uomId="OTH_box" taxableFlag="Y" quantity="5.000000" amount="2400.000"/>
+    
+    <InvoiceStatus statusId="INVOICE_IN_PROCESS" invoiceId="HRD/19-20/1" statusDate="2019-04-29 16:08:25.038"/>
+    <InvoiceStatus statusId="INVOICE_IN_PROCESS" invoiceId="HRD/19-20/2" statusDate="2019-04-29 16:08:25.038"/>
+    <InvoiceStatus statusId="INVOICE_IN_PROCESS" invoiceId="HRD/19-20/3" statusDate="2019-04-29 16:11:56.22"/>
+    <InvoiceStatus statusId="INVOICE_IN_PROCESS" invoiceId="HRD/19-20/4" statusDate="2019-04-29 16:15:11.462"/>
+    <InvoiceStatus statusId="INVOICE_IN_PROCESS" invoiceId="HRD/19-20/5" statusDate="2019-04-29 16:16:35.278"/>
+    <InvoiceStatus statusId="INVOICE_IN_PROCESS" invoiceId="HRD/19-20/6" statusDate="2019-04-29 16:19:37.428"/>
+    <InvoiceStatus statusId="INVOICE_IN_PROCESS" invoiceId="HRD/19-20/7" statusDate="2019-04-29 16:22:36.313"/>
+    <InvoiceStatus statusId="INVOICE_IN_PROCESS" invoiceId="HRD/19-20/8" statusDate="2019-04-29 16:24:59.595"/>
+    <InvoiceStatus statusId="INVOICE_IN_PROCESS" invoiceId="HRD/19-20/9" statusDate="2019-04-29 16:26:53.905"/>
+    <InvoiceStatus statusId="INVOICE_IN_PROCESS" invoiceId="HRD/19-20/10" statusDate="2019-04-29 16:30:12.636"/>
+    <InvoiceStatus statusId="INVOICE_IN_PROCESS" invoiceId="HRD/19-20/11" statusDate="2019-04-29 16:31:41.75"/>
+</entity-engine-xml>

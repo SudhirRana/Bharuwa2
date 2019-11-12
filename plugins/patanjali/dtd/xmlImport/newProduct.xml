@@ -1,0 +1,445 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity-engine-xml>
+<Product productId="PB1338" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="10 Gm Pouch Box Outer (100 Gms)" productName="10 Gm Pouch Box Outer (100 Gms)" primaryProductCategoryId="consumable_items" quantityIncluded="1" quantityUomId="UQC_pcs" />
+<Product productId="PB1339" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="100-50 Gm Pouch Outer Box (1 Kg)" productName="100-50 Gm Pouch Outer Box (1 Kg)" primaryProductCategoryId="consumable_items" quantityIncluded="1" quantityUomId="UQC_pcs" />
+<Product productId="PB1340" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="12 Way TPN Double Door (ABB)" productName="12 Way TPN Double Door (ABB)" primaryProductCategoryId="consumable_items" quantityIncluded="1" quantityUomId="UQC_pcs" />
+<Product productId="PB1341" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="16 AMP 3 Pin Top" productName="16 AMP 3 Pin Top" primaryProductCategoryId="consumable_items" quantityIncluded="1" quantityUomId="UQC_pcs" />
+<Product productId="PB1342" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="4 mm Ring Type Copper Lug" productName="4 mm Ring Type Copper Lug" primaryProductCategoryId="consumable_items" quantityIncluded="1" quantityUomId="UQC_pcs" />
+<Product productId="PB1343" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="Air Filter 1.5&quot; - 0.2 Micron" productName="Air Filter 1.5&quot; - 0.2 Micron" primaryProductCategoryId="consumable_items" quantityIncluded="1" quantityUomId="UQC_pcs" />
+<Product productId="PB1344" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="Air Filter 10&quot; - 0.2 Micron" productName="Air Filter 10&quot; - 0.2 Micron" primaryProductCategoryId="consumable_items" quantityIncluded="1" quantityUomId="UQC_pcs" />
+<Product productId="PB1345" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="Air Filter 2.5&quot; - 0.2 Micron" productName="Air Filter 2.5&quot; - 0.2 Micron" primaryProductCategoryId="consumable_items" quantityIncluded="1" quantityUomId="UQC_pcs" />
+<Product productId="PB1346" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="Air Filter 20&quot; - 0.2 Micron" productName="Air Filter 20&quot; - 0.2 Micron" primaryProductCategoryId="consumable_items" quantityIncluded="1" quantityUomId="UQC_pcs" />
+<Product productId="PB1347" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="Al Armoured Cable 70 sqmm x 3.5C" productName="Al Armoured Cable 70 sqmm x 3.5C" primaryProductCategoryId="consumable_items" quantityIncluded="1" quantityUomId="UQC_mtr" />
+<Product productId="PB1348" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="Aluminium Lugs 35 sqmm" productName="Aluminium Lugs 35 sqmm" primaryProductCategoryId="consumable_items" quantityIncluded="1" quantityUomId="UQC_pcs" />
+<Product productId="PB1349" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="Aluminium Lugs 70 sqmm" productName="Aluminium Lugs 70 sqmm" primaryProductCategoryId="consumable_items" quantityIncluded="1" quantityUomId="UQC_pcs" />
+<Product productId="PB1350" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="Antiscalant (for Boiler)" productName="Antiscalant (for Boiler)" primaryProductCategoryId="consumable_items" quantityIncluded="1" quantityUomId="UQC_kgs" />
+<Product productId="PB1351" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="Australian Sea Weed Powder" productName="Australian Sea Weed Powder" primaryProductCategoryId="raw_material" quantityIncluded="1" quantityUomId="UQC_kgs" />
+<Product productId="PB1352" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="Badges" productName="Badges" primaryProductCategoryId="publicity_material" quantityIncluded="1" quantityUomId="UQC_pcs" />
+<Product productId="PB1353" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="Battery 9 Volt" productName="Battery 9 Volt" primaryProductCategoryId="consumable_items" quantityIncluded="1" quantityUomId="UQC_pcs" />
+<Product productId="PB1354" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="Bearing 32211 (Tapered)" productName="Bearing 32211 (Tapered)" primaryProductCategoryId="consumable_items" quantityIncluded="1" quantityUomId="UQC_pcs" />
+<Product productId="PB1355" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="Bearing 32212 (Tapered)" productName="Bearing 32212 (Tapered)" primaryProductCategoryId="consumable_items" quantityIncluded="1" quantityUomId="UQC_pcs" />
+<Product productId="PB1356" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="Beverage 1" productName="Beverage 1" primaryProductCategoryId="raw_material" quantityIncluded="1" quantityUomId="UQC_oth" />
+<Product productId="PB1357" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="Bond Paper A4 (85 GSM)" productName="Bond Paper A4 (85 GSM)" primaryProductCategoryId="consumable_items" quantityIncluded="1" quantityUomId="UQC_pac" />
+<Product productId="PB1358" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="Booklet Assami (Dharti Ka Doctor)" productName="Booklet Assami (Dharti Ka Doctor)" primaryProductCategoryId="consumable_items" quantityIncluded="1" quantityUomId="UQC_pcs" />
+<Product productId="PB1359" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="Booklet Bangla (Dharti Ka Doctor)" productName="Booklet Bangla (Dharti Ka Doctor)" primaryProductCategoryId="consumable_items" quantityIncluded="1" quantityUomId="UQC_pcs" />
+<Product productId="PB1360" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="Booklet English (Dharti Ka Doctor)" productName="Booklet English (Dharti Ka Doctor)" primaryProductCategoryId="consumable_items" quantityIncluded="1" quantityUomId="UQC_pcs" />
+<Product productId="PB1361" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="Booklet English (Jaivik Krishi)" productName="Booklet English (Jaivik Krishi)" primaryProductCategoryId="consumable_items" quantityIncluded="1" quantityUomId="UQC_pcs" />
+<Product productId="PB1362" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="Booklet Gujrati (Dharti Ka Doctor)" productName="Booklet Gujrati (Dharti Ka Doctor)" primaryProductCategoryId="consumable_items" quantityIncluded="1" quantityUomId="UQC_pcs" />
+<Product productId="PB1363" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="Booklet Hindi (Dharti Ka Doctor)" productName="Booklet Hindi (Dharti Ka Doctor)" primaryProductCategoryId="consumable_items" quantityIncluded="1" quantityUomId="UQC_pcs" />
+<Product productId="PB1364" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="Booklet Hindi (Jaivik Krishi)" productName="Booklet Hindi (Jaivik Krishi)" primaryProductCategoryId="consumable_items" quantityIncluded="1" quantityUomId="UQC_pcs" />
+<Product productId="PB1365" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="Booklet Hindi (Jaivik Pustika)" productName="Booklet Hindi (Jaivik Pustika)" primaryProductCategoryId="consumable_items" quantityIncluded="1" quantityUomId="UQC_pcs" />
+<Product productId="PB1366" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="Booklet Kannad (Dharti Ka Doctor)" productName="Booklet Kannad (Dharti Ka Doctor)" primaryProductCategoryId="consumable_items" quantityIncluded="1" quantityUomId="UQC_pcs" />
+<Product productId="PB1367" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="Booklet Kannad (Jaivik Krishi)" productName="Booklet Kannad (Jaivik Krishi)" primaryProductCategoryId="consumable_items" quantityIncluded="1" quantityUomId="UQC_pcs" />
+<Product productId="PB1368" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="Booklet Malyalam (Dharti Ka Doctor)" productName="Booklet Malyalam (Dharti Ka Doctor)" primaryProductCategoryId="consumable_items" quantityIncluded="1" quantityUomId="UQC_pcs" />
+<Product productId="PB1369" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="Booklet Malyalam (Jaivik Krishi)" productName="Booklet Malyalam (Jaivik Krishi)" primaryProductCategoryId="consumable_items" quantityIncluded="1" quantityUomId="UQC_pcs" />
+<Product productId="PB1370" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="Booklet Marathi (Dharti Ka Doctor)" productName="Booklet Marathi (Dharti Ka Doctor)" primaryProductCategoryId="consumable_items" quantityIncluded="1" quantityUomId="UQC_pcs" />
+<Product productId="PB1371" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="Booklet Marathi (Jaivik Krishi)" productName="Booklet Marathi (Jaivik Krishi)" primaryProductCategoryId="consumable_items" quantityIncluded="1" quantityUomId="UQC_pcs" />
+<Product productId="PB1372" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="Booklet Nepali (Dharti Ka Doctor)" productName="Booklet Nepali (Dharti Ka Doctor)" primaryProductCategoryId="consumable_items" quantityIncluded="1" quantityUomId="UQC_pcs" />
+<Product productId="PB1373" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="Booklet Oriya (Dharti Ka Doctor)" productName="Booklet Oriya (Dharti Ka Doctor)" primaryProductCategoryId="consumable_items" quantityIncluded="1" quantityUomId="UQC_pcs" />
+<Product productId="PB1374" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="Booklet Punjabi (Dharti Ka Doctor)" productName="Booklet Punjabi (Dharti Ka Doctor)" primaryProductCategoryId="consumable_items" quantityIncluded="1" quantityUomId="UQC_pcs" />
+<Product productId="PB1375" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="Booklet Tamil (Dharti Ka Doctor)" productName="Booklet Tamil (Dharti Ka Doctor)" primaryProductCategoryId="consumable_items" quantityIncluded="1" quantityUomId="UQC_pcs" />
+<Product productId="PB1376" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="Booklet Tamil (Jaivik Krishi)" productName="Booklet Tamil (Jaivik Krishi)" primaryProductCategoryId="consumable_items" quantityIncluded="1" quantityUomId="UQC_pcs" />
+<Product productId="PB1377" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="Booklet Telugu (Dharti Ka Doctor)" productName="Booklet Telugu (Dharti Ka Doctor)" primaryProductCategoryId="consumable_items" quantityIncluded="1" quantityUomId="UQC_pcs" />
+<Product productId="PB1378" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="Booklet Urdu (Dharti Ka Doctor)" productName="Booklet Urdu (Dharti Ka Doctor)" primaryProductCategoryId="consumable_items" quantityIncluded="1" quantityUomId="UQC_pcs" />
+<Product productId="PB1379" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="Bucket Tooth (Loadall)" productName="Bucket Tooth (Loadall)" primaryProductCategoryId="service_charge" quantityIncluded="1" quantityUomId="UQC_kit" />
+<Product productId="PB1380" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="C Channel for MCCB (1 Mtr)" productName="C Channel for MCCB (1 Mtr)" primaryProductCategoryId="consumable_items" quantityIncluded="1" quantityUomId="UQC_pcs" />
+<Product productId="PB1381" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="Capacitor 1.5 MFD" productName="Capacitor 1.5 MFD" primaryProductCategoryId="consumable_items" quantityIncluded="1" quantityUomId="UQC_pcs" />
+<Product productId="PB1382" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="Capacitor 3.15 MFD" productName="Capacitor 3.15 MFD" primaryProductCategoryId="consumable_items" quantityIncluded="1" quantityUomId="UQC_pcs" />
+<Product productId="PB1383" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="Capacitor 4 MFD" productName="Capacitor 4 MFD" primaryProductCategoryId="consumable_items" quantityIncluded="1" quantityUomId="UQC_pcs" />
+<Product productId="PB1384" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="Capacitor 45 MFD" productName="Capacitor 45 MFD" primaryProductCategoryId="consumable_items" quantityIncluded="1" quantityUomId="UQC_pcs" />
+<Product productId="PB1385" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="Capacitor 50 MFD" productName="Capacitor 50 MFD" primaryProductCategoryId="consumable_items" quantityIncluded="1" quantityUomId="UQC_pcs" />
+<Product productId="PB1386" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="Caps" productName="Caps" primaryProductCategoryId="publicity_material" quantityIncluded="1" quantityUomId="UQC_pcs" />
+<Product productId="PB1387" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="Casing Capping Nail" productName="Casing Capping Nail" primaryProductCategoryId="consumable_items" quantityIncluded="1" quantityUomId="UQC_pkt" />
+<Product productId="PB1388" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="CD Permanent Marker" productName="CD Permanent Marker" primaryProductCategoryId="consumable_items" quantityIncluded="1" quantityUomId="UQC_pcs" />
+<Product productId="PB1389" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="CI Welding Rod" productName="CI Welding Rod" primaryProductCategoryId="consumable_items" quantityIncluded="1" quantityUomId="UQC_box" />
+<Product productId="PB1390" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="Copper Lugs 25 Sqmm" productName="Copper Lugs 25 Sqmm" primaryProductCategoryId="consumable_items" quantityIncluded="1" quantityUomId="UQC_pcs" />
+<Product productId="PB1391" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="CPVC FTA Brass 1&quot;" productName="CPVC FTA Brass 1&quot;" primaryProductCategoryId="consumable_items" quantityIncluded="1" quantityUomId="UQC_pcs" />
+<Product productId="PB1392" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="CPVC Tee 1&quot;" productName="CPVC Tee 1&quot;" primaryProductCategoryId="consumable_items" quantityIncluded="1" quantityUomId="UQC_pcs" />
+<Product productId="PB1393" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="CRC Spray" productName="CRC Spray" primaryProductCategoryId="consumable_items" quantityIncluded="1" quantityUomId="UQC_pcs" />
+<Product productId="PB1394" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="Cu Cable Flexible 2.5sqmm X 4 C" productName="Cu Cable Flexible 2.5sqmm X 4 C" primaryProductCategoryId="consumable_items" quantityIncluded="1" quantityUomId="UQC_mtr" />
+<Product productId="PB1395" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="Cutter Mini" productName="Cutter Mini" primaryProductCategoryId="consumable_items" quantityIncluded="1" quantityUomId="UQC_pcs" />
+<Product productId="PB1396" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="D.G.Set Engine" productName="D.G.Set Engine" primaryProductCategoryId="assets" quantityIncluded="1" quantityUomId="UQC_set" />
+<Product productId="PB1397" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="DC Gland 38mm" productName="DC Gland 38mm" primaryProductCategoryId="consumable_items" quantityIncluded="1" quantityUomId="UQC_pcs" />
+<Product productId="PB1398" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="Dealer Application Form" productName="Dealer Application Form" primaryProductCategoryId="consumable_items" quantityIncluded="1" quantityUomId="UQC_pcs" />
+<Product productId="PB1399" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="Delivery Charges" productName="Delivery Charges" primaryProductCategoryId="service_charge" quantityIncluded="1" quantityUomId="UQC_pcs" />
+<Product productId="PB1400" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="Desktop V530 Tower I3-8th/4GB DDR" productName="Desktop V530 Tower I3-8th/4GB DDR" primaryProductCategoryId="assets" quantityIncluded="1" quantityUomId="UQC_unt" />
+<Product productId="PB1401" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="Dharti Ka Chawkidar SF" productName="Dharti Ka Chawkidar SF" primaryProductCategoryId="semi_finish_product" quantityIncluded="1" quantityUomId="UQC_kgs" />
+<Product productId="PB1402" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="Dharti Ka Doctor (50 Set) Bengali" productName="Dharti Ka Doctor (50 Set) Bengali" primaryProductCategoryId="soil_test_kit" quantityIncluded="1" quantityUomId="UQC_pcs" />
+<Product productId="PB1403" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="Dharti Ka Doctor (50 Set) Gujarati" productName="Dharti Ka Doctor (50 Set) Gujarati" primaryProductCategoryId="soil_test_kit" quantityIncluded="1" quantityUomId="UQC_pcs" />
+<Product productId="PB1404" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="Dharti Ka Doctor (50 Set) Kannad" productName="Dharti Ka Doctor (50 Set) Kannad" primaryProductCategoryId="soil_test_kit" quantityIncluded="1" quantityUomId="UQC_pcs" />
+<Product productId="PB1405" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="Dharti Ka Doctor (50 Set) Malyalam" productName="Dharti Ka Doctor (50 Set) Malyalam" primaryProductCategoryId="soil_test_kit" quantityIncluded="1" quantityUomId="UQC_pcs" />
+<Product productId="PB1406" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="Dharti Ka Doctor (50 Set) Marathi" productName="Dharti Ka Doctor (50 Set) Marathi" primaryProductCategoryId="soil_test_kit" quantityIncluded="1" quantityUomId="UQC_pcs" />
+<Product productId="PB1407" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="Dharti Ka Doctor (50 Set) Nepali" productName="Dharti Ka Doctor (50 Set) Nepali" primaryProductCategoryId="soil_test_kit" quantityIncluded="1" quantityUomId="UQC_pcs" />
+<Product productId="PB1408" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="Dharti Ka Doctor (50 Set) Odisha" productName="Dharti Ka Doctor (50 Set) Odisha" primaryProductCategoryId="soil_test_kit" quantityIncluded="1" quantityUomId="UQC_pcs" />
+<Product productId="PB1409" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="Dharti Ka Doctor (50 Set) Punjab" productName="Dharti Ka Doctor (50 Set) Punjab" primaryProductCategoryId="soil_test_kit" quantityIncluded="1" quantityUomId="UQC_pcs" />
+<Product productId="PB1410" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="Dharti Ka Doctor (50 Set) Tamil" productName="Dharti Ka Doctor (50 Set) Tamil" primaryProductCategoryId="soil_test_kit" quantityIncluded="1" quantityUomId="UQC_pcs" />
+<Product productId="PB1411" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="Dharti Ka Doctor (50 Set) Telgu" productName="Dharti Ka Doctor (50 Set) Telgu" primaryProductCategoryId="soil_test_kit" quantityIncluded="1" quantityUomId="UQC_pcs" />
+<Product productId="PB1412" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="EEC of Patanjali Dharti Ka Chowkidar 1kg" productName="EEC of Patanjali Dharti Ka Chowkidar 1kg" primaryProductCategoryId="assets" quantityIncluded="1" quantityUomId="UQC_pcs" />
+<Product productId="PB1413" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="EEC of Patanjali Dharti Ka Chowkidar 500" productName="EEC of Patanjali Dharti Ka Chowkidar 500" primaryProductCategoryId="assets" quantityIncluded="1" quantityUomId="UQC_pcs" />
+<Product productId="PB1414" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="EEC of Patanjali Dharti Ka Chowkidar 80g" productName="EEC of Patanjali Dharti Ka Chowkidar 80g" primaryProductCategoryId="assets" quantityIncluded="1" quantityUomId="UQC_pcs" />
+<Product productId="PB1415" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="EEC of Patanjali Jaivik Kranti 8 ml" productName="EEC of Patanjali Jaivik Kranti 8 ml" primaryProductCategoryId="assets" quantityIncluded="1" quantityUomId="UQC_pcs" />
+<Product productId="PB1416" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="Electrical Mat 11KVA (3mm)" productName="Electrical Mat 11KVA (3mm)" primaryProductCategoryId="consumable_items" quantityIncluded="1" quantityUomId="UQC_sqm" />
+<Product productId="PB1417" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="Element (Autoclave)" productName="Element (Autoclave)" primaryProductCategoryId="consumable_items" quantityIncluded="1" quantityUomId="UQC_pcs" />
+<Product productId="PB1418" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="Emery Paper 220 No." productName="Emery Paper 220 No." primaryProductCategoryId="consumable_items" quantityIncluded="1" quantityUomId="UQC_pcs" />
+<Product productId="PB1419" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="Empty Bag for Dharti ka chawkidar 1 Kg" productName="Empty Bag for Dharti ka chawkidar 1 Kg" primaryProductCategoryId="packing_material" quantityIncluded="1" quantityUomId="UQC_pcs" />
+<Product productId="PB1420" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="Empty Bottle 500 ml with Cap" productName="Empty Bottle 500 ml with Cap" primaryProductCategoryId="packing_material" quantityIncluded="1" quantityUomId="UQC_pcs" />
+<Product productId="PB1421" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="Exhaust Fan 24&quot;" productName="Exhaust Fan 24&quot;" primaryProductCategoryId="consumable_items" quantityIncluded="1" quantityUomId="UQC_pcs" />
+<Product productId="PB1422" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="Fiber Glass Wire 1.5 mm" productName="Fiber Glass Wire 1.5 mm" primaryProductCategoryId="consumable_items" quantityIncluded="1" quantityUomId="UQC_mtr" />
+<Product productId="PB1423" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="Fiber Glass Wire 2.5 mm" productName="Fiber Glass Wire 2.5 mm" primaryProductCategoryId="consumable_items" quantityIncluded="1" quantityUomId="UQC_mtr" />
+<Product productId="PB1424" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="Filter Paper 11 cm Routine Quality" productName="Filter Paper 11 cm Routine Quality" primaryProductCategoryId="soil_test_kit" quantityIncluded="1" quantityUomId="UQC_pkt" />
+<Product productId="PB1425" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="Float Water Level Switch" productName="Float Water Level Switch" primaryProductCategoryId="consumable_items" quantityIncluded="1" quantityUomId="UQC_pcs" />
+<Product productId="PB1426" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="Form &quot;O&quot; Book" productName="Form &quot;O&quot; Book" primaryProductCategoryId="consumable_items" quantityIncluded="1" quantityUomId="UQC_pcs" />
+<Product productId="PB1427" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="Forming Assy" productName="Forming Assy" primaryProductCategoryId="assets" quantityIncluded="1" quantityUomId="UQC_pcs" />
+<Product productId="PB1428" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="freight &amp; forwerding Charges 18%" productName="freight &amp; forwerding Charges 18%" primaryProductCategoryId="general" quantityIncluded="1" quantityUomId="UQC_oth" />
+<Product productId="PB1429" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="GI Nut Bolt" productName="GI Nut Bolt" primaryProductCategoryId="consumable_items" quantityIncluded="1" quantityUomId="UQC_kgs" />
+<Product productId="PB1430" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="Glass Relay" productName="Glass Relay" primaryProductCategoryId="consumable_items" quantityIncluded="1" quantityUomId="UQC_pcs" />
+<Product productId="PB1431" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="Guava Beverage" productName="Guava Beverage" primaryProductCategoryId="raw_material" quantityIncluded="1" quantityUomId="UQC_box" />
+<Product productId="PB1432" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="HDPE Bottle 1000ml (Jaivik Kranti)" productName="HDPE Bottle 1000ml (Jaivik Kranti)" primaryProductCategoryId="packing_material" quantityIncluded="1" quantityUomId="UQC_pcs" />
+<Product productId="PB1433" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="HDPE Bottle 500ml (Jaivik Kranti)" productName="HDPE Bottle 500ml (Jaivik Kranti)" primaryProductCategoryId="packing_material" quantityIncluded="1" quantityUomId="UQC_pcs" />
+<Product productId="PB1434" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="HRC FUSE 250A" productName="HRC FUSE 250A" primaryProductCategoryId="consumable_items" quantityIncluded="1" quantityUomId="UQC_pcs" />
+<Product productId="PB1435" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="Jaivik Premix Powder F2 for Poshak" productName="Jaivik Premix Powder F2 for Poshak" primaryProductCategoryId="semi_finish_product" quantityIncluded="1" quantityUomId="UQC_kgs" />
+<Product productId="PB1436" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="Juice" productName="Juice" primaryProductCategoryId="raw_material" quantityIncluded="1" quantityUomId="UQC_box" />
+<Product productId="PB1437" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="Knitted Gloves (Woolen)" productName="Knitted Gloves (Woolen)" primaryProductCategoryId="consumable_items" quantityIncluded="1" quantityUomId="UQC_pcs" />
+<Product productId="PB1438" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="Label for Patanjali Bio  Zinc 0.5 Ltr" productName="Label for Patanjali Bio  Zinc 0.5 Ltr" primaryProductCategoryId="packing_material" quantityIncluded="1" quantityUomId="UQC_pcs" />
+<Product productId="PB1439" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="Laminate Dharti Ka Chowkidar 1 Kg" productName="Laminate Dharti Ka Chowkidar 1 Kg" primaryProductCategoryId="packing_material" quantityIncluded="1" quantityUomId="UQC_kgs" />
+<Product productId="PB1440" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="Laminate Dharti Ka Chowkidar 500 gm" productName="Laminate Dharti Ka Chowkidar 500 gm" primaryProductCategoryId="packing_material" quantityIncluded="1" quantityUomId="UQC_kgs" />
+<Product productId="PB1441" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="Laminate Dharti Ka Chowkidar 80 gm" productName="Laminate Dharti Ka Chowkidar 80 gm" primaryProductCategoryId="packing_material" quantityIncluded="1" quantityUomId="UQC_kgs" />
+<Product productId="PB1442" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="Laminate Patanjali Jaivik Kranti 8 ml" productName="Laminate Patanjali Jaivik Kranti 8 ml" primaryProductCategoryId="packing_material" quantityIncluded="1" quantityUomId="UQC_kgs" />
+<Product productId="PB1443" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="Laptop I5 - 8250U" productName="Laptop I5 - 8250U" primaryProductCategoryId="assets" quantityIncluded="1" quantityUomId="UQC_unt" />
+<Product productId="PB1444" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="Leaflet A-4 Size" productName="Leaflet A-4 Size" primaryProductCategoryId="publicity_material" quantityIncluded="1" quantityUomId="UQC_nos" />
+<Product productId="PB1445" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="Leaflet for Cotton" productName="Leaflet for Cotton" primaryProductCategoryId="publicity_material" quantityIncluded="1" quantityUomId="UQC_pcs" />
+<Product productId="PB1446" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="Leaflet for Paddy" productName="Leaflet for Paddy" primaryProductCategoryId="packing_material" quantityIncluded="1" quantityUomId="UQC_pcs" />
+<Product productId="PB1447" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="Lebel DW" productName="Lebel DW" primaryProductCategoryId="packing_material" quantityIncluded="1" quantityUomId="UQC_pcs" />
+<Product productId="PB1448" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="Lebel nitro 1" productName="Lebel nitro 1" primaryProductCategoryId="packing_material" quantityIncluded="1" quantityUomId="UQC_pcs" />
+<Product productId="PB1449" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="Lebel nitro 2" productName="Lebel nitro 2" primaryProductCategoryId="packing_material" quantityIncluded="1" quantityUomId="UQC_pcs" />
+<Product productId="PB1450" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="Lebel organic A" productName="Lebel organic A" primaryProductCategoryId="packing_material" quantityIncluded="1" quantityUomId="UQC_pcs" />
+<Product productId="PB1451" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="Lebel organic B" productName="Lebel organic B" primaryProductCategoryId="packing_material" quantityIncluded="1" quantityUomId="UQC_pcs" />
+<Product productId="PB1452" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="Lebel pH" productName="Lebel pH" primaryProductCategoryId="packing_material" quantityIncluded="1" quantityUomId="UQC_pcs" />
+<Product productId="PB1453" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="Lebel phos 1" productName="Lebel phos 1" primaryProductCategoryId="packing_material" quantityIncluded="1" quantityUomId="UQC_pcs" />
+<Product productId="PB1454" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="Lebel phos 2" productName="Lebel phos 2" primaryProductCategoryId="packing_material" quantityIncluded="1" quantityUomId="UQC_pcs" />
+<Product productId="PB1455" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="Lebel phos 3" productName="Lebel phos 3" primaryProductCategoryId="packing_material" quantityIncluded="1" quantityUomId="UQC_pcs" />
+<Product productId="PB1456" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="Lebel potash 1" productName="Lebel potash 1" primaryProductCategoryId="packing_material" quantityIncluded="1" quantityUomId="UQC_pcs" />
+<Product productId="PB1457" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="Lebel potash 2" productName="Lebel potash 2" primaryProductCategoryId="packing_material" quantityIncluded="1" quantityUomId="UQC_pcs" />
+<Product productId="PB1458" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="LED Illuminated Push Button (Green)" productName="LED Illuminated Push Button (Green)" primaryProductCategoryId="consumable_items" quantityIncluded="1" quantityUomId="UQC_pcs" />
+<Product productId="PB1459" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="LED Illuminated Push Button( Red)" productName="LED Illuminated Push Button( Red)" primaryProductCategoryId="consumable_items" quantityIncluded="1" quantityUomId="UQC_pcs" />
+<Product productId="PB1460" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="Lemon Drink" productName="Lemon Drink" primaryProductCategoryId="raw_material" quantityIncluded="1" quantityUomId="UQC_box" />
+<Product productId="PB1461" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="Lemon Squash 1" productName="Lemon Squash 1" primaryProductCategoryId="raw_material" quantityIncluded="1" quantityUomId="UQC_oth" />
+<Product productId="PB1462" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="Letter Head" productName="Letter Head" primaryProductCategoryId="consumable_items" quantityIncluded="1" quantityUomId="UQC_pcs" />
+<Product productId="PB1463" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="Long Body Cock Heavy 1&quot;" productName="Long Body Cock Heavy 1&quot;" primaryProductCategoryId="consumable_items" quantityIncluded="1" quantityUomId="UQC_pcs" />
+<Product productId="PB1464" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="Mango Beverage" productName="Mango Beverage" primaryProductCategoryId="raw_material" quantityIncluded="1" quantityUomId="UQC_box" />
+<Product productId="PB1465" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="Mango Drink" productName="Mango Drink" primaryProductCategoryId="raw_material" quantityIncluded="1" quantityUomId="UQC_box" />
+<Product productId="PB1466" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="MCB 25A 3POLE" productName="MCB 25A 3POLE" primaryProductCategoryId="consumable_items" quantityIncluded="1" quantityUomId="UQC_pcs" />
+<Product productId="PB1467" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="MCB Patti (1 Mtr)" productName="MCB Patti (1 Mtr)" primaryProductCategoryId="consumable_items" quantityIncluded="1" quantityUomId="UQC_pcs" />
+<Product productId="PB1468" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="MCCB 3 Pole 250 Amp" productName="MCCB 3 Pole 250 Amp" primaryProductCategoryId="consumable_items" quantityIncluded="1" quantityUomId="UQC_pcs" />
+<Product productId="PB1469" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="Molasses" productName="Molasses" primaryProductCategoryId="raw_material" quantityIncluded="1" quantityUomId="UQC_qtl" />
+<Product productId="PB1470" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="MPCB MOG (2.5-4)A" productName="MPCB MOG (2.5-4)A" primaryProductCategoryId="consumable_items" quantityIncluded="1" quantityUomId="UQC_pcs" />
+<Product productId="PB1471" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="MPCB MOG (9-13)A" productName="MPCB MOG (9-13)A" primaryProductCategoryId="consumable_items" quantityIncluded="1" quantityUomId="UQC_pcs" />
+<Product productId="PB1472" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="MS Hex Nipple (1/2&quot;)" productName="MS Hex Nipple (1/2&quot;)" primaryProductCategoryId="consumable_items" quantityIncluded="1" quantityUomId="UQC_pcs" />
+<Product productId="PB1473" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="MS Tee (1/2&quot;)" productName="MS Tee (1/2&quot;)" primaryProductCategoryId="consumable_items" quantityIncluded="1" quantityUomId="UQC_pcs" />
+<Product productId="PB1474" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="MS Tee 2&quot;" productName="MS Tee 2&quot;" primaryProductCategoryId="consumable_items" quantityIncluded="1" quantityUomId="UQC_pcs" />
+<Product productId="PB1475" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="NC Contact Block" productName="NC Contact Block" primaryProductCategoryId="consumable_items" quantityIncluded="1" quantityUomId="UQC_pcs" />
+<Product productId="PB1476" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="Neem Technical Liquid 3000 PPM" productName="Neem Technical Liquid 3000 PPM" primaryProductCategoryId="raw_material" quantityIncluded="1" quantityUomId="UQC_ltr" />
+<Product productId="PB1477" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="Nipple 1/2&quot; - 4&quot;" productName="Nipple 1/2&quot; - 4&quot;" primaryProductCategoryId="consumable_items" quantityIncluded="1" quantityUomId="UQC_pcs" />
+<Product productId="PB1478" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="Nitrile Hand Gloves" productName="Nitrile Hand Gloves" primaryProductCategoryId="consumable_items" quantityIncluded="1" quantityUomId="UQC_pcs" />
+<Product productId="PB1479" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="NO Contact Block" productName="NO Contact Block" primaryProductCategoryId="consumable_items" quantityIncluded="1" quantityUomId="UQC_pcs" />
+<Product productId="PB1480" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="Operation &amp; Maintenance Charges" productName="Operation &amp; Maintenance Charges" primaryProductCategoryId="service_charge" quantityIncluded="1" quantityUomId="UQC_oth" />
+<Product productId="PB1481" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="Oxygen Scavenger (for Boiler)" productName="Oxygen Scavenger (for Boiler)" primaryProductCategoryId="consumable_items" quantityIncluded="1" quantityUomId="UQC_kgs" />
+<Product productId="PB1482" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="Panchagavya Liquid" productName="Panchagavya Liquid" primaryProductCategoryId="raw_material" quantityIncluded="1" quantityUomId="UQC_kgs" />
+<Product productId="PB1483" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="Panel Cooling Fan" productName="Panel Cooling Fan" primaryProductCategoryId="consumable_items" quantityIncluded="1" quantityUomId="UQC_pcs" />
+<Product productId="PB1484" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="Patanjali Bio Zinc 1 Ltr" productName="Patanjali Bio Zinc 1 Ltr" primaryProductCategoryId="bio_fertilizer" quantityIncluded="1" quantityUomId="UQC_box" />
+<Product productId="PB1485" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="Patanjali Dharti ka chawkidar 1 Kg" productName="Patanjali Dharti ka chawkidar 1 Kg" primaryProductCategoryId="organic_manure" quantityIncluded="1" quantityUomId="UQC_bag" />
+<Product productId="PB1486" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="Patanjali Jaivik Poshak 01 Kg" productName="Patanjali Jaivik Poshak 01 Kg" primaryProductCategoryId="bio_fertilizer" quantityIncluded="1" quantityUomId="UQC_pcs" />
+<Product productId="PB1487" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="PH Booster (for Boiler)" productName="PH Booster (for Boiler)" primaryProductCategoryId="consumable_items" quantityIncluded="1" quantityUomId="UQC_kgs" />
+<Product productId="PB1488" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="ph Indicator Paper" productName="ph Indicator Paper" primaryProductCategoryId="consumable_items" quantityIncluded="1" quantityUomId="UQC_pkt" />
+<Product productId="PB1489" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="Plain Pouch 50/100 Gms" productName="Plain Pouch 50/100 Gms" primaryProductCategoryId="consumable_items" quantityIncluded="1" quantityUomId="UQC_pcs" />
+<Product productId="PB1490" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="Plain Pouch 500 Gms Dhania" productName="Plain Pouch 500 Gms Dhania" primaryProductCategoryId="consumable_items" quantityIncluded="1" quantityUomId="UQC_pcs" />
+<Product productId="PB1491" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="Polypouch 10 Gms" productName="Polypouch 10 Gms" primaryProductCategoryId="consumable_items" quantityIncluded="1" quantityUomId="UQC_pcs" />
+<Product productId="PB1492" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="Polypouch 12/100 1 Kg" productName="Polypouch 12/100 1 Kg" primaryProductCategoryId="consumable_items" quantityIncluded="1" quantityUomId="UQC_pcs" />
+<Product productId="PB1493" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="Polypouch 12/100 10 Gms" productName="Polypouch 12/100 10 Gms" primaryProductCategoryId="consumable_items" quantityIncluded="1" quantityUomId="UQC_pcs" />
+<Product productId="PB1494" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="Polypouch 12/100 50 Gms" productName="Polypouch 12/100 50 Gms" primaryProductCategoryId="consumable_items" quantityIncluded="1" quantityUomId="UQC_pcs" />
+<Product productId="PB1495" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="Polypouch Bhindi 100 Gms" productName="Polypouch Bhindi 100 Gms" primaryProductCategoryId="consumable_items" quantityIncluded="1" quantityUomId="UQC_pcs" />
+<Product productId="PB1496" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="Potentiometer" productName="Potentiometer" primaryProductCategoryId="consumable_items" quantityIncluded="1" quantityUomId="UQC_pcs" />
+<Product productId="PB1497" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="Pressure Gauge 2/12" productName="Pressure Gauge 2/12" primaryProductCategoryId="consumable_items" quantityIncluded="1" quantityUomId="UQC_pcs" />
+<Product productId="PB1498" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="Pressure Switch" productName="Pressure Switch" primaryProductCategoryId="consumable_items" quantityIncluded="1" quantityUomId="UQC_pcs" />
+<Product productId="PB1499" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="PU Connector (1/2 * 10mm)" productName="PU Connector (1/2 * 10mm)" primaryProductCategoryId="consumable_items" quantityIncluded="1" quantityUomId="UQC_pcs" />
+<Product productId="PB1500" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="Pu Connector (1/4 * 8mm)" productName="Pu Connector (1/4 * 8mm)" primaryProductCategoryId="consumable_items" quantityIncluded="1" quantityUomId="UQC_pcs" />
+<Product productId="PB1501" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="Pu Connector (3/8 * 8mm)" productName="Pu Connector (3/8 * 8mm)" primaryProductCategoryId="consumable_items" quantityIncluded="1" quantityUomId="UQC_pcs" />
+<Product productId="PB1502" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="PU Pipe (10 Mm)" productName="PU Pipe (10 Mm)" primaryProductCategoryId="consumable_items" quantityIncluded="1" quantityUomId="UQC_mtr" />
+<Product productId="PB1503" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="PU Pipe (8 Mm)" productName="PU Pipe (8 Mm)" primaryProductCategoryId="consumable_items" quantityIncluded="1" quantityUomId="UQC_mtr" />
+<Product productId="PB1504" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="Pully C Group 10&quot; 3 Belt" productName="Pully C Group 10&quot; 3 Belt" primaryProductCategoryId="consumable_items" quantityIncluded="1" quantityUomId="UQC_pcs" />
+<Product productId="PB1505" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="Pully C Group 8&quot; 3 Belt" productName="Pully C Group 8&quot; 3 Belt" primaryProductCategoryId="consumable_items" quantityIncluded="1" quantityUomId="UQC_pcs" />
+<Product productId="PB1506" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="PVC Saddle 25mm" productName="PVC Saddle 25mm" primaryProductCategoryId="consumable_items" quantityIncluded="1" quantityUomId="UQC_pkt" />
+<Product productId="PB1507" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="Raw Cotton" productName="Raw Cotton" primaryProductCategoryId="consumable_items" quantityIncluded="1" quantityUomId="UQC_kgs" />
+<Product productId="PB1508" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="Register Printing" productName="Register Printing" primaryProductCategoryId="consumable_items" quantityIncluded="1" quantityUomId="UQC_pcs" />
+<Product productId="PB1509" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="Relay (1.4-2.3)A" productName="Relay (1.4-2.3)A" primaryProductCategoryId="consumable_items" quantityIncluded="1" quantityUomId="UQC_pcs" />
+<Product productId="PB1510" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="Relay (15-25)A" productName="Relay (15-25)A" primaryProductCategoryId="consumable_items" quantityIncluded="1" quantityUomId="UQC_pcs" />
+<Product productId="PB1511" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="Relay (3-5)A" productName="Relay (3-5)A" primaryProductCategoryId="consumable_items" quantityIncluded="1" quantityUomId="UQC_pcs" />
+<Product productId="PB1512" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="Relay (36-60)A" productName="Relay (36-60)A" primaryProductCategoryId="consumable_items" quantityIncluded="1" quantityUomId="UQC_pcs" />
+<Product productId="PB1513" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="Relay MN2 (2.5-4)A" productName="Relay MN2 (2.5-4)A" primaryProductCategoryId="consumable_items" quantityIncluded="1" quantityUomId="UQC_pcs" />
+<Product productId="PB1514" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="Relay MN2 (6-10)A" productName="Relay MN2 (6-10)A" primaryProductCategoryId="consumable_items" quantityIncluded="1" quantityUomId="UQC_pcs" />
+<Product productId="PB1515" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="Relay MnX R3 (14-23)A" productName="Relay MnX R3 (14-23)A" primaryProductCategoryId="consumable_items" quantityIncluded="1" quantityUomId="UQC_pcs" />
+<Product productId="PB1516" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="Restick Notes Size 3&quot;x4&quot;" productName="Restick Notes Size 3&quot;x4&quot;" primaryProductCategoryId="consumable_items" quantityIncluded="1" quantityUomId="UQC_pcs" />
+<Product productId="PB1517" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="RO Valve" productName="RO Valve" primaryProductCategoryId="consumable_items" quantityIncluded="1" quantityUomId="UQC_nos" />
+<Product productId="PB1518" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="RTD PT-100" productName="RTD PT-100" primaryProductCategoryId="consumable_items" quantityIncluded="1" quantityUomId="UQC_pcs" />
+<Product productId="PB1519" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="Rustlick" productName="Rustlick" primaryProductCategoryId="consumable_items" quantityIncluded="1" quantityUomId="UQC_pcs" />
+<Product productId="PB1520" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="Rustlick Spray" productName="Rustlick Spray" primaryProductCategoryId="consumable_items" quantityIncluded="1" quantityUomId="UQC_pcs" />
+<Product productId="PB1521" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="Safety Valve 3/8&quot;" productName="Safety Valve 3/8&quot;" primaryProductCategoryId="consumable_items" quantityIncluded="1" quantityUomId="UQC_pcs" />
+<Product productId="PB1522" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="Seal O Ring 45-65-8" productName="Seal O Ring 45-65-8" primaryProductCategoryId="consumable_items" quantityIncluded="1" quantityUomId="UQC_pcs" />
+<Product productId="PB1523" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="Seal O Ring 65-90-10" productName="Seal O Ring 65-90-10" primaryProductCategoryId="consumable_items" quantityIncluded="1" quantityUomId="UQC_pcs" />
+<Product productId="PB1524" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="Sharbat 1" productName="Sharbat 1" primaryProductCategoryId="raw_material" quantityIncluded="1" quantityUomId="UQC_oth" />
+<Product productId="PB1525" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="Socket Set (Goti Set) CS 23 HXL" productName="Socket Set (Goti Set) CS 23 HXL" primaryProductCategoryId="consumable_items" quantityIncluded="1" quantityUomId="UQC_pcs" />
+<Product productId="PB1526" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="Spray Paint (Siemens Grey)" productName="Spray Paint (Siemens Grey)" primaryProductCategoryId="consumable_items" quantityIncluded="1" quantityUomId="UQC_pcs" />
+<Product productId="PB1527" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="Spring File Cobra - 3000" productName="Spring File Cobra - 3000" primaryProductCategoryId="consumable_items" quantityIncluded="1" quantityUomId="UQC_pcs" />
+<Product productId="PB1528" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="SS Globe Valve 1/2&quot;" productName="SS Globe Valve 1/2&quot;" primaryProductCategoryId="consumable_items" quantityIncluded="1" quantityUomId="UQC_pcs" />
+<Product productId="PB1529" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="SS Hex Nut Bolt 16*50mm" productName="SS Hex Nut Bolt 16*50mm" primaryProductCategoryId="consumable_items" quantityIncluded="1" quantityUomId="UQC_pcs" />
+<Product productId="PB1530" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="Stabilizer 1 Kw" productName="Stabilizer 1 Kw" primaryProductCategoryId="assets" quantityIncluded="1" quantityUomId="UQC_pcs" />
+<Product productId="PB1531" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="Stapler Pin Remover" productName="Stapler Pin Remover" primaryProductCategoryId="consumable_items" quantityIncluded="1" quantityUomId="UQC_pcs" />
+<Product productId="PB1532" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="Stickers (for Dharti Ka Doctor)" productName="Stickers (for Dharti Ka Doctor)" primaryProductCategoryId="packing_material" quantityIncluded="1" quantityUomId="UQC_pcs" />
+<Product productId="PB1533" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="Stickers (Seeds) 10 Gms" productName="Stickers (Seeds) 10 Gms" primaryProductCategoryId="packing_material" quantityIncluded="1" quantityUomId="UQC_pcs" />
+<Product productId="PB1534" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="Stickers (Seeds) 50 Gms" productName="Stickers (Seeds) 50 Gms" primaryProductCategoryId="packing_material" quantityIncluded="1" quantityUomId="UQC_pcs" />
+<Product productId="PB1535" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="Streptomycin" productName="Streptomycin" primaryProductCategoryId="lab_chemicals" quantityIncluded="1" quantityUomId="UQC_gms" />
+<Product productId="PB1536" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="Tape Cello 2&quot;" productName="Tape Cello 2&quot;" primaryProductCategoryId="consumable_items" quantityIncluded="1" quantityUomId="UQC_pcs" />
+<Product productId="PB1537" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="Technical Beneficial Microbes" productName="Technical Beneficial Microbes" primaryProductCategoryId="raw_material" quantityIncluded="1" quantityUomId="UQC_kgs" />
+<Product productId="PB1538" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="Teflon Belt" productName="Teflon Belt" primaryProductCategoryId="consumable_items" quantityIncluded="1" quantityUomId="UQC_pcs" />
+<Product productId="PB1539" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="Temperature Controller (ON/OFF)" productName="Temperature Controller (ON/OFF)" primaryProductCategoryId="consumable_items" quantityIncluded="1" quantityUomId="UQC_pcs" />
+<Product productId="PB1540" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="Terminal Block 35L" productName="Terminal Block 35L" primaryProductCategoryId="consumable_items" quantityIncluded="1" quantityUomId="UQC_pcs" />
+<Product productId="PB1541" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="T-Shirts" productName="T-Shirts" primaryProductCategoryId="publicity_material" quantityIncluded="1" quantityUomId="UQC_pcs" />
+<Product productId="PB1542" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="Turmeric extract" productName="Turmeric extract" primaryProductCategoryId="raw_material" quantityIncluded="1" quantityUomId="UQC_kgs" />
+<Product productId="PB1543" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="Urad Seeds" productName="Urad Seeds" primaryProductCategoryId="consumable_items" quantityIncluded="1" quantityUomId="UQC_kgs" />
+<Product productId="PB1544" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="VFD 3 HP 2.2kW Heavy Duty" productName="VFD 3 HP 2.2kW Heavy Duty" primaryProductCategoryId="consumable_items" quantityIncluded="1" quantityUomId="UQC_nos" />
+<Product productId="PB1545" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="VFD 5 HP 4 kW Heavy Duty" productName="VFD 5 HP 4 kW Heavy Duty" primaryProductCategoryId="consumable_items" quantityIncluded="1" quantityUomId="UQC_nos" />
+<Product productId="PB1546" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="VFD 7.5 HP 5.5kW Heavy Duty" productName="VFD 7.5 HP 5.5kW Heavy Duty" primaryProductCategoryId="consumable_items" quantityIncluded="1" quantityUomId="UQC_nos" />
+<Product productId="PB1547" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="Wall Mounting Fan 24&quot;" productName="Wall Mounting Fan 24&quot;" primaryProductCategoryId="consumable_items" quantityIncluded="1" quantityUomId="UQC_pcs" />
+<Product productId="PB1548" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="Water Bottle 1 Ltr" productName="Water Bottle 1 Ltr" primaryProductCategoryId="consumable_items" quantityIncluded="1" quantityUomId="UQC_pcs" />
+<Product productId="PB1549" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="Water Cooler 80 Ltr" productName="Water Cooler 80 Ltr" primaryProductCategoryId="assets" quantityIncluded="1" quantityUomId="UQC_pcs" />
+<Product productId="PB1550" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="Water Purifier (for Water Cooler)" productName="Water Purifier (for Water Cooler)" primaryProductCategoryId="assets" quantityIncluded="1" quantityUomId="UQC_pcs" />
+<Product productId="PB1551" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="Weighing Machine 100 Kg(500*500mm)" productName="Weighing Machine 100 Kg(500*500mm)" primaryProductCategoryId="assets" quantityIncluded="1" quantityUomId="UQC_pcs" />
+<Product productId="PB1552" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="Weighing Scale 300 gms" productName="Weighing Scale 300 gms" primaryProductCategoryId="assets" quantityIncluded="1" quantityUomId="UQC_pcs" />
+<Product productId="PB1553" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="Weighing Scale 50 Kg (Hanging)" productName="Weighing Scale 50 Kg (Hanging)" primaryProductCategoryId="assets" quantityIncluded="1" quantityUomId="UQC_pcs" />
+<Product productId="PB1554" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="Weight SS (1/2 kg)" productName="Weight SS (1/2 kg)" primaryProductCategoryId="assets" quantityIncluded="1" quantityUomId="UQC_pcs" />
+<Product productId="PB1555" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="Weight SS (1kg)" productName="Weight SS (1kg)" primaryProductCategoryId="assets" quantityIncluded="1" quantityUomId="UQC_pcs" />
+<Product productId="PB1556" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="Welding Lead 70 sq mm" productName="Welding Lead 70 sq mm" primaryProductCategoryId="consumable_items" quantityIncluded="1" quantityUomId="UQC_mtr" />
+<Product productId="PB1557" productTypeId="FINDIG_GOOD" isVirtual="N" isVariant="N" internalName="White Board Marker" productName="White Board Marker" primaryProductCategoryId="consumable_items" quantityIncluded="1" quantityUomId="UQC_pcs" />
+
+<Product productId="PB1338" productCategoryId="consumable_items" fromDate="2019-08-05 12:15:38.449" />
+<Product productId="PB1339" productCategoryId="consumable_items" fromDate="2019-08-05 12:15:38.449" />
+<Product productId="PB1340" productCategoryId="consumable_items" fromDate="2019-08-05 12:15:38.449" />
+<Product productId="PB1341" productCategoryId="consumable_items" fromDate="2019-08-05 12:15:38.449" />
+<Product productId="PB1342" productCategoryId="consumable_items" fromDate="2019-08-05 12:15:38.449" />
+<Product productId="PB1343" productCategoryId="consumable_items" fromDate="2019-08-05 12:15:38.449" />
+<Product productId="PB1344" productCategoryId="consumable_items" fromDate="2019-08-05 12:15:38.449" />
+<Product productId="PB1345" productCategoryId="consumable_items" fromDate="2019-08-05 12:15:38.449" />
+<Product productId="PB1346" productCategoryId="consumable_items" fromDate="2019-08-05 12:15:38.449" />
+<Product productId="PB1347" productCategoryId="consumable_items" fromDate="2019-08-05 12:15:38.449" />
+<Product productId="PB1348" productCategoryId="consumable_items" fromDate="2019-08-05 12:15:38.449" />
+<Product productId="PB1349" productCategoryId="consumable_items" fromDate="2019-08-05 12:15:38.449" />
+<Product productId="PB1350" productCategoryId="consumable_items" fromDate="2019-08-05 12:15:38.449" />
+<Product productId="PB1351" productCategoryId="raw_material" fromDate="2019-08-05 12:15:38.449" />
+<Product productId="PB1352" productCategoryId="publicity_material" fromDate="2019-08-05 12:15:38.449" />
+<Product productId="PB1353" productCategoryId="consumable_items" fromDate="2019-08-05 12:15:38.449" />
+<Product productId="PB1354" productCategoryId="consumable_items" fromDate="2019-08-05 12:15:38.449" />
+<Product productId="PB1355" productCategoryId="consumable_items" fromDate="2019-08-05 12:15:38.449" />
+<Product productId="PB1356" productCategoryId="raw_material" fromDate="2019-08-05 12:15:38.449" />
+<Product productId="PB1357" productCategoryId="consumable_items" fromDate="2019-08-05 12:15:38.449" />
+<Product productId="PB1358" productCategoryId="consumable_items" fromDate="2019-08-05 12:15:38.449" />
+<Product productId="PB1359" productCategoryId="consumable_items" fromDate="2019-08-05 12:15:38.449" />
+<Product productId="PB1360" productCategoryId="consumable_items" fromDate="2019-08-05 12:15:38.449" />
+<Product productId="PB1361" productCategoryId="consumable_items" fromDate="2019-08-05 12:15:38.449" />
+<Product productId="PB1362" productCategoryId="consumable_items" fromDate="2019-08-05 12:15:38.449" />
+<Product productId="PB1363" productCategoryId="consumable_items" fromDate="2019-08-05 12:15:38.449" />
+<Product productId="PB1364" productCategoryId="consumable_items" fromDate="2019-08-05 12:15:38.449" />
+<Product productId="PB1365" productCategoryId="consumable_items" fromDate="2019-08-05 12:15:38.449" />
+<Product productId="PB1366" productCategoryId="consumable_items" fromDate="2019-08-05 12:15:38.449" />
+<Product productId="PB1367" productCategoryId="consumable_items" fromDate="2019-08-05 12:15:38.449" />
+<Product productId="PB1368" productCategoryId="consumable_items" fromDate="2019-08-05 12:15:38.449" />
+<Product productId="PB1369" productCategoryId="consumable_items" fromDate="2019-08-05 12:15:38.449" />
+<Product productId="PB1370" productCategoryId="consumable_items" fromDate="2019-08-05 12:15:38.449" />
+<Product productId="PB1371" productCategoryId="consumable_items" fromDate="2019-08-05 12:15:38.449" />
+<Product productId="PB1372" productCategoryId="consumable_items" fromDate="2019-08-05 12:15:38.449" />
+<Product productId="PB1373" productCategoryId="consumable_items" fromDate="2019-08-05 12:15:38.449" />
+<Product productId="PB1374" productCategoryId="consumable_items" fromDate="2019-08-05 12:15:38.449" />
+<Product productId="PB1375" productCategoryId="consumable_items" fromDate="2019-08-05 12:15:38.449" />
+<Product productId="PB1376" productCategoryId="consumable_items" fromDate="2019-08-05 12:15:38.449" />
+<Product productId="PB1377" productCategoryId="consumable_items" fromDate="2019-08-05 12:15:38.449" />
+<Product productId="PB1378" productCategoryId="consumable_items" fromDate="2019-08-05 12:15:38.449" />
+<Product productId="PB1379" productCategoryId="service_charge" fromDate="2019-08-05 12:15:38.449" />
+<Product productId="PB1380" productCategoryId="consumable_items" fromDate="2019-08-05 12:15:38.449" />
+<Product productId="PB1381" productCategoryId="consumable_items" fromDate="2019-08-05 12:15:38.449" />
+<Product productId="PB1382" productCategoryId="consumable_items" fromDate="2019-08-05 12:15:38.449" />
+<Product productId="PB1383" productCategoryId="consumable_items" fromDate="2019-08-05 12:15:38.449" />
+<Product productId="PB1384" productCategoryId="consumable_items" fromDate="2019-08-05 12:15:38.449" />
+<Product productId="PB1385" productCategoryId="consumable_items" fromDate="2019-08-05 12:15:38.449" />
+<Product productId="PB1386" productCategoryId="publicity_material" fromDate="2019-08-05 12:15:38.449" />
+<Product productId="PB1387" productCategoryId="consumable_items" fromDate="2019-08-05 12:15:38.449" />
+<Product productId="PB1388" productCategoryId="consumable_items" fromDate="2019-08-05 12:15:38.449" />
+<Product productId="PB1389" productCategoryId="consumable_items" fromDate="2019-08-05 12:15:38.449" />
+<Product productId="PB1390" productCategoryId="consumable_items" fromDate="2019-08-05 12:15:38.449" />
+<Product productId="PB1391" productCategoryId="consumable_items" fromDate="2019-08-05 12:15:38.449" />
+<Product productId="PB1392" productCategoryId="consumable_items" fromDate="2019-08-05 12:15:38.449" />
+<Product productId="PB1393" productCategoryId="consumable_items" fromDate="2019-08-05 12:15:38.449" />
+<Product productId="PB1394" productCategoryId="consumable_items" fromDate="2019-08-05 12:15:38.449" />
+<Product productId="PB1395" productCategoryId="consumable_items" fromDate="2019-08-05 12:15:38.449" />
+<Product productId="PB1396" productCategoryId="assets" fromDate="2019-08-05 12:15:38.449" />
+<Product productId="PB1397" productCategoryId="consumable_items" fromDate="2019-08-05 12:15:38.449" />
+<Product productId="PB1398" productCategoryId="consumable_items" fromDate="2019-08-05 12:15:38.449" />
+<Product productId="PB1399" productCategoryId="service_charge" fromDate="2019-08-05 12:15:38.449" />
+<Product productId="PB1400" productCategoryId="assets" fromDate="2019-08-05 12:15:38.449" />
+<Product productId="PB1401" productCategoryId="semi_finish_product" fromDate="2019-08-05 12:15:38.449" />
+<Product productId="PB1402" productCategoryId="soil_test_kit" fromDate="2019-08-05 12:15:38.449" />
+<Product productId="PB1403" productCategoryId="soil_test_kit" fromDate="2019-08-05 12:15:38.449" />
+<Product productId="PB1404" productCategoryId="soil_test_kit" fromDate="2019-08-05 12:15:38.449" />
+<Product productId="PB1405" productCategoryId="soil_test_kit" fromDate="2019-08-05 12:15:38.449" />
+<Product productId="PB1406" productCategoryId="soil_test_kit" fromDate="2019-08-05 12:15:38.449" />
+<Product productId="PB1407" productCategoryId="soil_test_kit" fromDate="2019-08-05 12:15:38.449" />
+<Product productId="PB1408" productCategoryId="soil_test_kit" fromDate="2019-08-05 12:15:38.449" />
+<Product productId="PB1409" productCategoryId="soil_test_kit" fromDate="2019-08-05 12:15:38.449" />
+<Product productId="PB1410" productCategoryId="soil_test_kit" fromDate="2019-08-05 12:15:38.449" />
+<Product productId="PB1411" productCategoryId="soil_test_kit" fromDate="2019-08-05 12:15:38.449" />
+<Product productId="PB1412" productCategoryId="assets" fromDate="2019-08-05 12:15:38.449" />
+<Product productId="PB1413" productCategoryId="assets" fromDate="2019-08-05 12:15:38.449" />
+<Product productId="PB1414" productCategoryId="assets" fromDate="2019-08-05 12:15:38.449" />
+<Product productId="PB1415" productCategoryId="assets" fromDate="2019-08-05 12:15:38.449" />
+<Product productId="PB1416" productCategoryId="consumable_items" fromDate="2019-08-05 12:15:38.449" />
+<Product productId="PB1417" productCategoryId="consumable_items" fromDate="2019-08-05 12:15:38.449" />
+<Product productId="PB1418" productCategoryId="consumable_items" fromDate="2019-08-05 12:15:38.449" />
+<Product productId="PB1419" productCategoryId="packing_material" fromDate="2019-08-05 12:15:38.449" />
+<Product productId="PB1420" productCategoryId="packing_material" fromDate="2019-08-05 12:15:38.449" />
+<Product productId="PB1421" productCategoryId="consumable_items" fromDate="2019-08-05 12:15:38.449" />
+<Product productId="PB1422" productCategoryId="consumable_items" fromDate="2019-08-05 12:15:38.449" />
+<Product productId="PB1423" productCategoryId="consumable_items" fromDate="2019-08-05 12:15:38.449" />
+<Product productId="PB1424" productCategoryId="soil_test_kit" fromDate="2019-08-05 12:15:38.449" />
+<Product productId="PB1425" productCategoryId="consumable_items" fromDate="2019-08-05 12:15:38.449" />
+<Product productId="PB1426" productCategoryId="consumable_items" fromDate="2019-08-05 12:15:38.449" />
+<Product productId="PB1427" productCategoryId="assets" fromDate="2019-08-05 12:15:38.449" />
+<Product productId="PB1428" productCategoryId="general" fromDate="2019-08-05 12:15:38.449" />
+<Product productId="PB1429" productCategoryId="consumable_items" fromDate="2019-08-05 12:15:38.449" />
+<Product productId="PB1430" productCategoryId="consumable_items" fromDate="2019-08-05 12:15:38.449" />
+<Product productId="PB1431" productCategoryId="raw_material" fromDate="2019-08-05 12:15:38.449" />
+<Product productId="PB1432" productCategoryId="packing_material" fromDate="2019-08-05 12:15:38.449" />
+<Product productId="PB1433" productCategoryId="packing_material" fromDate="2019-08-05 12:15:38.449" />
+<Product productId="PB1434" productCategoryId="consumable_items" fromDate="2019-08-05 12:15:38.449" />
+<Product productId="PB1435" productCategoryId="semi_finish_product" fromDate="2019-08-05 12:15:38.449" />
+<Product productId="PB1436" productCategoryId="raw_material" fromDate="2019-08-05 12:15:38.449" />
+<Product productId="PB1437" productCategoryId="consumable_items" fromDate="2019-08-05 12:15:38.449" />
+<Product productId="PB1438" productCategoryId="packing_material" fromDate="2019-08-05 12:15:38.449" />
+<Product productId="PB1439" productCategoryId="packing_material" fromDate="2019-08-05 12:15:38.449" />
+<Product productId="PB1440" productCategoryId="packing_material" fromDate="2019-08-05 12:15:38.449" />
+<Product productId="PB1441" productCategoryId="packing_material" fromDate="2019-08-05 12:15:38.449" />
+<Product productId="PB1442" productCategoryId="packing_material" fromDate="2019-08-05 12:15:38.449" />
+<Product productId="PB1443" productCategoryId="assets" fromDate="2019-08-05 12:15:38.449" />
+<Product productId="PB1444" productCategoryId="publicity_material" fromDate="2019-08-05 12:15:38.449" />
+<Product productId="PB1445" productCategoryId="publicity_material" fromDate="2019-08-05 12:15:38.449" />
+<Product productId="PB1446" productCategoryId="packing_material" fromDate="2019-08-05 12:15:38.449" />
+<Product productId="PB1447" productCategoryId="packing_material" fromDate="2019-08-05 12:15:38.449" />
+<Product productId="PB1448" productCategoryId="packing_material" fromDate="2019-08-05 12:15:38.449" />
+<Product productId="PB1449" productCategoryId="packing_material" fromDate="2019-08-05 12:15:38.449" />
+<Product productId="PB1450" productCategoryId="packing_material" fromDate="2019-08-05 12:15:38.449" />
+<Product productId="PB1451" productCategoryId="packing_material" fromDate="2019-08-05 12:15:38.449" />
+<Product productId="PB1452" productCategoryId="packing_material" fromDate="2019-08-05 12:15:38.449" />
+<Product productId="PB1453" productCategoryId="packing_material" fromDate="2019-08-05 12:15:38.449" />
+<Product productId="PB1454" productCategoryId="packing_material" fromDate="2019-08-05 12:15:38.449" />
+<Product productId="PB1455" productCategoryId="packing_material" fromDate="2019-08-05 12:15:38.449" />
+<Product productId="PB1456" productCategoryId="packing_material" fromDate="2019-08-05 12:15:38.449" />
+<Product productId="PB1457" productCategoryId="packing_material" fromDate="2019-08-05 12:15:38.449" />
+<Product productId="PB1458" productCategoryId="consumable_items" fromDate="2019-08-05 12:15:38.449" />
+<Product productId="PB1459" productCategoryId="consumable_items" fromDate="2019-08-05 12:15:38.449" />
+<Product productId="PB1460" productCategoryId="raw_material" fromDate="2019-08-05 12:15:38.449" />
+<Product productId="PB1461" productCategoryId="raw_material" fromDate="2019-08-05 12:15:38.449" />
+<Product productId="PB1462" productCategoryId="consumable_items" fromDate="2019-08-05 12:15:38.449" />
+<Product productId="PB1463" productCategoryId="consumable_items" fromDate="2019-08-05 12:15:38.449" />
+<Product productId="PB1464" productCategoryId="raw_material" fromDate="2019-08-05 12:15:38.449" />
+<Product productId="PB1465" productCategoryId="raw_material" fromDate="2019-08-05 12:15:38.449" />
+<Product productId="PB1466" productCategoryId="consumable_items" fromDate="2019-08-05 12:15:38.449" />
+<Product productId="PB1467" productCategoryId="consumable_items" fromDate="2019-08-05 12:15:38.449" />
+<Product productId="PB1468" productCategoryId="consumable_items" fromDate="2019-08-05 12:15:38.449" />
+<Product productId="PB1469" productCategoryId="raw_material" fromDate="2019-08-05 12:15:38.449" />
+<Product productId="PB1470" productCategoryId="consumable_items" fromDate="2019-08-05 12:15:38.449" />
+<Product productId="PB1471" productCategoryId="consumable_items" fromDate="2019-08-05 12:15:38.449" />
+<Product productId="PB1472" productCategoryId="consumable_items" fromDate="2019-08-05 12:15:38.449" />
+<Product productId="PB1473" productCategoryId="consumable_items" fromDate="2019-08-05 12:15:38.449" />
+<Product productId="PB1474" productCategoryId="consumable_items" fromDate="2019-08-05 12:15:38.449" />
+<Product productId="PB1475" productCategoryId="consumable_items" fromDate="2019-08-05 12:15:38.449" />
+<Product productId="PB1476" productCategoryId="raw_material" fromDate="2019-08-05 12:15:38.449" />
+<Product productId="PB1477" productCategoryId="consumable_items" fromDate="2019-08-05 12:15:38.449" />
+<Product productId="PB1478" productCategoryId="consumable_items" fromDate="2019-08-05 12:15:38.449" />
+<Product productId="PB1479" productCategoryId="consumable_items" fromDate="2019-08-05 12:15:38.449" />
+<Product productId="PB1480" productCategoryId="service_charge" fromDate="2019-08-05 12:15:38.449" />
+<Product productId="PB1481" productCategoryId="consumable_items" fromDate="2019-08-05 12:15:38.449" />
+<Product productId="PB1482" productCategoryId="raw_material" fromDate="2019-08-05 12:15:38.449" />
+<Product productId="PB1483" productCategoryId="consumable_items" fromDate="2019-08-05 12:15:38.449" />
+<Product productId="PB1484" productCategoryId="bio_fertilizer" fromDate="2019-08-05 12:15:38.449" />
+<Product productId="PB1485" productCategoryId="organic_manure" fromDate="2019-08-05 12:15:38.449" />
+<Product productId="PB1486" productCategoryId="bio_fertilizer" fromDate="2019-08-05 12:15:38.449" />
+<Product productId="PB1487" productCategoryId="consumable_items" fromDate="2019-08-05 12:15:38.449" />
+<Product productId="PB1488" productCategoryId="consumable_items" fromDate="2019-08-05 12:15:38.449" />
+<Product productId="PB1489" productCategoryId="consumable_items" fromDate="2019-08-05 12:15:38.449" />
+<Product productId="PB1490" productCategoryId="consumable_items" fromDate="2019-08-05 12:15:38.449" />
+<Product productId="PB1491" productCategoryId="consumable_items" fromDate="2019-08-05 12:15:38.449" />
+<Product productId="PB1492" productCategoryId="consumable_items" fromDate="2019-08-05 12:15:38.449" />
+<Product productId="PB1493" productCategoryId="consumable_items" fromDate="2019-08-05 12:15:38.449" />
+<Product productId="PB1494" productCategoryId="consumable_items" fromDate="2019-08-05 12:15:38.449" />
+<Product productId="PB1495" productCategoryId="consumable_items" fromDate="2019-08-05 12:15:38.449" />
+<Product productId="PB1496" productCategoryId="consumable_items" fromDate="2019-08-05 12:15:38.449" />
+<Product productId="PB1497" productCategoryId="consumable_items" fromDate="2019-08-05 12:15:38.449" />
+<Product productId="PB1498" productCategoryId="consumable_items" fromDate="2019-08-05 12:15:38.449" />
+<Product productId="PB1499" productCategoryId="consumable_items" fromDate="2019-08-05 12:15:38.449" />
+<Product productId="PB1500" productCategoryId="consumable_items" fromDate="2019-08-05 12:15:38.449" />
+<Product productId="PB1501" productCategoryId="consumable_items" fromDate="2019-08-05 12:15:38.449" />
+<Product productId="PB1502" productCategoryId="consumable_items" fromDate="2019-08-05 12:15:38.449" />
+<Product productId="PB1503" productCategoryId="consumable_items" fromDate="2019-08-05 12:15:38.449" />
+<Product productId="PB1504" productCategoryId="consumable_items" fromDate="2019-08-05 12:15:38.449" />
+<Product productId="PB1505" productCategoryId="consumable_items" fromDate="2019-08-05 12:15:38.449" />
+<Product productId="PB1506" productCategoryId="consumable_items" fromDate="2019-08-05 12:15:38.449" />
+<Product productId="PB1507" productCategoryId="consumable_items" fromDate="2019-08-05 12:15:38.449" />
+<Product productId="PB1508" productCategoryId="consumable_items" fromDate="2019-08-05 12:15:38.449" />
+<Product productId="PB1509" productCategoryId="consumable_items" fromDate="2019-08-05 12:15:38.449" />
+<Product productId="PB1510" productCategoryId="consumable_items" fromDate="2019-08-05 12:15:38.449" />
+<Product productId="PB1511" productCategoryId="consumable_items" fromDate="2019-08-05 12:15:38.449" />
+<Product productId="PB1512" productCategoryId="consumable_items" fromDate="2019-08-05 12:15:38.449" />
+<Product productId="PB1513" productCategoryId="consumable_items" fromDate="2019-08-05 12:15:38.449" />
+<Product productId="PB1514" productCategoryId="consumable_items" fromDate="2019-08-05 12:15:38.449" />
+<Product productId="PB1515" productCategoryId="consumable_items" fromDate="2019-08-05 12:15:38.449" />
+<Product productId="PB1516" productCategoryId="consumable_items" fromDate="2019-08-05 12:15:38.449" />
+<Product productId="PB1517" productCategoryId="consumable_items" fromDate="2019-08-05 12:15:38.449" />
+<Product productId="PB1518" productCategoryId="consumable_items" fromDate="2019-08-05 12:15:38.449" />
+<Product productId="PB1519" productCategoryId="consumable_items" fromDate="2019-08-05 12:15:38.449" />
+<Product productId="PB1520" productCategoryId="consumable_items" fromDate="2019-08-05 12:15:38.449" />
+<Product productId="PB1521" productCategoryId="consumable_items" fromDate="2019-08-05 12:15:38.449" />
+<Product productId="PB1522" productCategoryId="consumable_items" fromDate="2019-08-05 12:15:38.449" />
+<Product productId="PB1523" productCategoryId="consumable_items" fromDate="2019-08-05 12:15:38.449" />
+<Product productId="PB1524" productCategoryId="raw_material" fromDate="2019-08-05 12:15:38.449" />
+<Product productId="PB1525" productCategoryId="consumable_items" fromDate="2019-08-05 12:15:38.449" />
+<Product productId="PB1526" productCategoryId="consumable_items" fromDate="2019-08-05 12:15:38.449" />
+<Product productId="PB1527" productCategoryId="consumable_items" fromDate="2019-08-05 12:15:38.449" />
+<Product productId="PB1528" productCategoryId="consumable_items" fromDate="2019-08-05 12:15:38.449" />
+<Product productId="PB1529" productCategoryId="consumable_items" fromDate="2019-08-05 12:15:38.449" />
+<Product productId="PB1530" productCategoryId="assets" fromDate="2019-08-05 12:15:38.449" />
+<Product productId="PB1531" productCategoryId="consumable_items" fromDate="2019-08-05 12:15:38.449" />
+<Product productId="PB1532" productCategoryId="packing_material" fromDate="2019-08-05 12:15:38.449" />
+<Product productId="PB1533" productCategoryId="packing_material" fromDate="2019-08-05 12:15:38.449" />
+<Product productId="PB1534" productCategoryId="packing_material" fromDate="2019-08-05 12:15:38.449" />
+<Product productId="PB1535" productCategoryId="lab_chemicals" fromDate="2019-08-05 12:15:38.449" />
+<Product productId="PB1536" productCategoryId="consumable_items" fromDate="2019-08-05 12:15:38.449" />
+<Product productId="PB1537" productCategoryId="raw_material" fromDate="2019-08-05 12:15:38.449" />
+<Product productId="PB1538" productCategoryId="consumable_items" fromDate="2019-08-05 12:15:38.449" />
+<Product productId="PB1539" productCategoryId="consumable_items" fromDate="2019-08-05 12:15:38.449" />
+<Product productId="PB1540" productCategoryId="consumable_items" fromDate="2019-08-05 12:15:38.449" />
+<Product productId="PB1541" productCategoryId="publicity_material" fromDate="2019-08-05 12:15:38.449" />
+<Product productId="PB1542" productCategoryId="raw_material" fromDate="2019-08-05 12:15:38.449" />
+<Product productId="PB1543" productCategoryId="consumable_items" fromDate="2019-08-05 12:15:38.449" />
+<Product productId="PB1544" productCategoryId="consumable_items" fromDate="2019-08-05 12:15:38.449" />
+<Product productId="PB1545" productCategoryId="consumable_items" fromDate="2019-08-05 12:15:38.449" />
+<Product productId="PB1546" productCategoryId="consumable_items" fromDate="2019-08-05 12:15:38.449" />
+<Product productId="PB1547" productCategoryId="consumable_items" fromDate="2019-08-05 12:15:38.449" />
+<Product productId="PB1548" productCategoryId="consumable_items" fromDate="2019-08-05 12:15:38.449" />
+<Product productId="PB1549" productCategoryId="assets" fromDate="2019-08-05 12:15:38.449" />
+<Product productId="PB1550" productCategoryId="assets" fromDate="2019-08-05 12:15:38.449" />
+<Product productId="PB1551" productCategoryId="assets" fromDate="2019-08-05 12:15:38.449" />
+<Product productId="PB1552" productCategoryId="assets" fromDate="2019-08-05 12:15:38.449" />
+<Product productId="PB1553" productCategoryId="assets" fromDate="2019-08-05 12:15:38.449" />
+<Product productId="PB1554" productCategoryId="assets" fromDate="2019-08-05 12:15:38.449" />
+<Product productId="PB1555" productCategoryId="assets" fromDate="2019-08-05 12:15:38.449" />
+<Product productId="PB1556" productCategoryId="consumable_items" fromDate="2019-08-05 12:15:38.449" />
+<Product productId="PB1557" productCategoryId="consumable_items" fromDate="2019-08-05 12:15:38.449" />
+
+</entity-engine-xml>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity-engine-xml>
+	<ContactMech contactMechId="CEM001" infoString="ramabharti2013@gmail.com" contactMechTypeId="EMAIL_ADDRESS" />
+	<PartyContactMech partyId="CP0008" contactMechId="CEM001" fromDate="2019-04-17 00:00:00.0" allowSolicitation="Y" />
+	<PartyContactMechPurpose partyId="CP0008" contactMechId="CEM001" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="PRIMARY_EMAIL" />
+</entity-engine-xml>

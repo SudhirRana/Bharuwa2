@@ -1,0 +1,1231 @@
+productId|productTypeId|isVirtual|isVariant|internalName|productName|brandName|productGroup(category)|quantityIncluded|MainUnit(quantityUomId)|altQuantityIncluded|AltUnit(altQuantityUomId)|ConversionFactor
+PB0001|FINDIG_GOOD|N|N|Patanjali PSB 1 LTR|Patanjali PSB 1 LTR|PSB 1L|bio_fertilizer|1|UQC_box|1|UQC_pcs|12
+PB0002|FINDIG_GOOD|N|N|Patanjali Jaivik Khad 40 Kg|Patanjali Jaivik Khad 40 Kg|PJK|organic_manure|1|UQC_pcs|1|UQC_kgs|40
+PB0003|FINDIG_GOOD|N|N|Patanjali PROM 50 Kg|Patanjali PROM 50 Kg|PROM|organic_manure|1|UQC_pcs|1|UQC_kgs|50
+PB0004|FINDIG_GOOD|N|N|Patanjali Poshak 05 Kg|Patanjali Poshak 05 Kg|PP|bio_fertilizer|1|UQC_pcs|1|UQC_kgs|5
+PB0005|FINDIG_GOOD|N|N|Patanjali Neem Gold 5Ltr|Patanjali Neem Gold 5Ltr|PNG 5L|bio_pesticide|1|UQC_box|1|UQC_pcs|2
+PB0006|FINDIG_GOOD|N|N|Patanjali Neem Gold 1Ltr|Patanjali Neem Gold 1Ltr|PNG 1L|bio_pesticide|1|UQC_box|1|UQC_pcs|12
+PB0007|FINDIG_GOOD|N|N|Patanjali Neem Gold 0.5Ltr|Patanjali Neem Gold 0.5Ltr|PNG 0.5L|bio_pesticide|1|UQC_box|1|UQC_pcs|20
+PB0008|FINDIG_GOOD|N|N|Patanjali Neem Gold 0.25Ltr|Patanjali Neem Gold 0.25Ltr|PNG 0.25L|bio_pesticide|1|UQC_box|1|UQC_pcs|40
+PB0009|FINDIG_GOOD|N|N|Patanjali PSB 0.5 LTR|Patanjali PSB 0.5 LTR|PSB 0.51L|bio_fertilizer|1|UQC_box|1|UQC_pcs|20
+PB0010|FINDIG_GOOD|N|N|Patanjali PSB 0.25 LTR|Patanjali PSB 0.25 LTR|PSB 0.25L|bio_fertilizer|1|UQC_box|1|UQC_pcs|40
+PB0011|FINDIG_GOOD|N|N|Patanjali Azoto 1 LTR|Patanjali Azoto 1 LTR|AZT 1L|bio_fertilizer|1|UQC_box|1|UQC_pcs|12
+PB0012|FINDIG_GOOD|N|N|Patanjali Azoto 0.5 LTR|Patanjali Azoto 0.5 LTR|AZT 0.51L|bio_fertilizer|1|UQC_box|1|UQC_pcs|20
+PB0013|FINDIG_GOOD|N|N|Patanjali Azoto 0.25 LTR|Patanjali Azoto 0.25 LTR|AZT 0.25L|bio_fertilizer|1|UQC_box|1|UQC_pcs|40
+PB0014|FINDIG_GOOD|N|N|Patanjali Rhizo 1 LTR|Patanjali Rhizo 1 LTR|RHZ 1L|bio_fertilizer|1|UQC_box|1|UQC_pcs|12
+PB0015|FINDIG_GOOD|N|N|Patanjali Rhizo 0.5 LTR|Patanjali Rhizo 0.5 LTR|RHZ 0.51L|bio_fertilizer|1|UQC_box|1|UQC_pcs|20
+PB0016|FINDIG_GOOD|N|N|Patanjali Rhizo 0.25 LTR|Patanjali Rhizo 0.25 LTR|RHZ 0.25L|bio_fertilizer|1|UQC_box|1|UQC_pcs|40
+PB0017|FINDIG_GOOD|N|N|Patanjali Bio Potash 1 LTR|Patanjali Bio Potash 1 LTR|BP 1L|bio_fertilizer|1|UQC_box|1|UQC_pcs|12
+PB0018|FINDIG_GOOD|N|N|Patanjali Bio Potash 0.5 LTR|Patanjali Bio Potash 0.5 LTR|BP 0.51L|bio_fertilizer|1|UQC_box|1|UQC_pcs|20
+PB0019|FINDIG_GOOD|N|N|Patanjali Tricho 1 Kg|Patanjali Tricho 1 Kg|PT 1Kg|bio_pesticide|1|UQC_box|1|UQC_pcs|12
+PB0020|FINDIG_GOOD|N|N|Patanjali Suraksha 1 Kg|Patanjali Suraksha 1 Kg|PS 1Kg|bio_pesticide|1|UQC_box|1|UQC_pcs|12
+PB0021|FINDIG_GOOD|N|N|Patanjali Fluorescens 1 Kg|Patanjali Fluorescens 1 Kg|PF 1Kg|bio_pesticide|1|UQC_box|1|UQC_pcs|12
+PB0022|FINDIG_GOOD|N|N|Patanjali Nemakill 1 Kg|Patanjali Nemakill 1 Kg|PN 1Kg|bio_pesticide|1|UQC_box|1|UQC_pcs|12
+PB0023|FINDIG_GOOD|N|N|Poultry Manure|Poultry Manure|PM|raw_material|1|UQC_kgs|||
+PB0024|FINDIG_GOOD|N|N|Press Mud|Press Mud||raw_material|1|UQC_kgs|||
+PB0025|FINDIG_GOOD|N|N|Rock Phosphate 30%|Rock Phosphate 30%|RP 30%|raw_material|1|UQC_kgs|||
+PB0026|FINDIG_GOOD|N|N|Bentonite Clay Powder|Bentonite Clay Powder||raw_material|1|UQC_kgs|||
+PB0027|FINDIG_GOOD|N|N|Gypsum Powder|Gypsum Powder||raw_material|1|UQC_kgs|1|UQC_bag|1
+PB0028|FINDIG_GOOD|N|N|Lignite Powder|Lignite Powder||raw_material|1|UQC_kgs|1|UQC_bag|40
+PB0029|FINDIG_GOOD|N|N|Neem Cake|Neem Cake|NC|raw_material|1|UQC_kgs|||
+PB0030|FINDIG_GOOD|N|N|Silicon Powder|Silicon Powder|SP|raw_material|1|UQC_kgs|||
+PB0031|FINDIG_GOOD|N|N|Bentonite Clay Granule|Bentonite Clay Granule||raw_material|1|UQC_kgs|||
+PB0032|FINDIG_GOOD|N|N|Dolamite Powder|Dolamite Powder||raw_material|1|UQC_kgs|||
+PB0033|FINDIG_GOOD|N|N|Ferrous Sulphate 19%|Ferrous Sulphate 19%||raw_material|1|UQC_kgs|||
+PB0034|FINDIG_GOOD|N|N|Manganese Sulphate 30.50%|Manganese Sulphate 30.50%||raw_material|1|UQC_kgs|||
+PB0035|FINDIG_GOOD|N|N|Maganisium Sulphate 9.60%|Maganisium Sulphate 9.60%||raw_material|1|UQC_kgs|||
+PB0036|FINDIG_GOOD|N|N|Zinc Sulphate 33%|Zinc Sulphate 33%||raw_material|1|UQC_kgs|||
+PB0037|FINDIG_GOOD|N|N|Borax Penta 15%|Borax Penta 15%||raw_material|1|UQC_kgs|||
+PB0038|FINDIG_GOOD|N|N|Copper Sulphate|Copper Sulphate||raw_material|1|UQC_kgs|||
+PB0039|FINDIG_GOOD|N|N|Fulvic Powder|Fulvic Powder||raw_material|1|UQC_kgs|||
+PB0040|FINDIG_GOOD|N|N|Super Pottasium Humate|Super Pottasium Humate||raw_material|1|UQC_kgs|||
+PB0041|FINDIG_GOOD|N|N|Sea Weed Powder|Sea Weed Powder||raw_material|1|UQC_kgs|||
+PB0042|FINDIG_GOOD|N|N|Sulphur Powder 90%|Sulphur Powder 90%||raw_material|1|UQC_kgs|||
+PB0043|FINDIG_GOOD|N|N|Talcum Powder|Talcum Powder||raw_material|1|UQC_kgs|||
+PB0044|FINDIG_GOOD|N|N|Sodium Benzote|Sodium Benzote||raw_material|1|UQC_kgs|||
+PB0045|FINDIG_GOOD|N|N|Potassium Hydroxide|Potassium Hydroxide||raw_material|1|UQC_kgs|||
+PB0046|FINDIG_GOOD|N|N|Calcium Carbonate|Calcium Carbonate||raw_material|1|UQC_kgs|||
+PB0047|FINDIG_GOOD|N|N|Empty Bag for Patanjali Jaivik Khad 40Kg|Empty Bag for Patanjali Jaivik Khad 40Kg||packing_material|1|UQC_pcs|||
+PB0048|FINDIG_GOOD|N|N|Empty Bag for Patanjali PROM 50Kg|Empty Bag for Patanjali PROM 50Kg||packing_material|1|UQC_pcs|||
+PB0049|FINDIG_GOOD|N|N|Empty Bag for Patanjali Poshak 5Kg|Empty Bag for Patanjali Poshak 5Kg||packing_material|1|UQC_pcs|||
+PB0050|FINDIG_GOOD|N|N|Empty Bottle 1 Liter|Empty Bottle 1 Liter||packing_material|1|UQC_pcs|||
+PB0051|FINDIG_GOOD|N|N|Empty Bottle 5 Liter|Empty Bottle 5 Liter||packing_material|1|UQC_pcs|||
+PB0052|FINDIG_GOOD|N|N|Empty Bottle 0.5 Liter|Empty Bottle 0.5 Liter||packing_material|1|UQC_pcs|||
+PB0053|FINDIG_GOOD|N|N|Empty Bottle 0.25 Liter|Empty Bottle 0.25 Liter||packing_material|1|UQC_pcs|||
+PB0054|FINDIG_GOOD|N|N|Empty Bottle 0.1 Liter|Empty Bottle 0.1 Liter||packing_material|1|UQC_pcs|||
+PB0055|FINDIG_GOOD|N|N|Empty CV Box 1 Liter|Empty CV Box 1 Liter||packing_material|1|UQC_pcs|||
+PB0056|FINDIG_GOOD|N|N|Empty CV Box 5 Liter|Empty CV Box 5 Liter||packing_material|1|UQC_pcs|||
+PB0057|FINDIG_GOOD|N|N|Empty CV Box 0.5 Liter|Empty CV Box 0.5 Liter||packing_material|1|UQC_pcs|||
+PB0058|FINDIG_GOOD|N|N|Empty CV Box 0.250 Liter|Empty CV Box 0.250 Liter||packing_material|1|UQC_pcs|||
+PB0059|FINDIG_GOOD|N|N|Empty CV Box 0.100 Liter|Empty CV Box 0.100 Liter||packing_material|1|UQC_pcs|||
+PB0060|FINDIG_GOOD|N|N|Empty CV Box 1 Kg|Empty CV Box 1 Kg||packing_material|1|UQC_pcs|||
+PB0061|FINDIG_GOOD|N|N|Index for 1.00,0.500,0.250 Liter|Index for 1.00,0.500,0.250 Liter||packing_material|1|UQC_pcs|||
+PB0062|FINDIG_GOOD|N|N|Index for 0.100 Liter|Index for 0.100 Liter||packing_material|1|UQC_pcs|||
+PB0063|FINDIG_GOOD|N|N|Label for Patanjali Neem Gold 05 Ltr|Label for Patanjali Neem Gold 05 Ltr||packing_material|1|UQC_pcs|||
+PB0064|FINDIG_GOOD|N|N|Label for Patanjali Neem Gold 01 Ltr|Label for Patanjali Neem Gold 01 Ltr||packing_material|1|UQC_pcs|||
+PB0065|FINDIG_GOOD|N|N|Label for Patanjali Neem Gold 0.500 Ltr|Label for Patanjali Neem Gold 0.500 Ltr||packing_material|1|UQC_pcs|||
+PB0066|FINDIG_GOOD|N|N|Label for Patanjali Neem Gold 0.250 Ltr|Label for Patanjali Neem Gold 0.250 Ltr||packing_material|1|UQC_pcs|||
+PB0067|FINDIG_GOOD|N|N|Label for Patanjali Bio Potash  1 Ltr|Label for Patanjali Bio Potash  1 Ltr||packing_material|1|UQC_pcs|||
+PB0068|FINDIG_GOOD|N|N|Label for Patanjali Bio Potash  0.5 Ltr|Label for Patanjali Bio Potash  0.5 Ltr||packing_material|1|UQC_pcs|||
+PB0069|FINDIG_GOOD|N|N|Label for Patanjali Bio Potash  0.25 Ltr|Label for Patanjali Bio Potash  0.25 Ltr||packing_material|1|UQC_pcs|||
+PB0070|FINDIG_GOOD|N|N|Label for Patanjali PSB 1 Ltr|Label for Patanjali PSB 1 Ltr||packing_material|1|UQC_pcs|||
+PB0071|FINDIG_GOOD|N|N|Label for Patanjali PSB 0.5 Ltr|Label for Patanjali PSB 0.5 Ltr||packing_material|1|UQC_pcs|||
+PB0072|FINDIG_GOOD|N|N|Label for Patanjali PSB .25 Ltr|Label for Patanjali PSB .25 Ltr||packing_material|1|UQC_pcs|||
+PB0073|FINDIG_GOOD|N|N|Label for Patanjali Azoto 1 Ltr|Label for Patanjali Azoto 1 Ltr||packing_material|1|UQC_pcs|||
+PB0074|FINDIG_GOOD|N|N|Label for Patanjali Azoto  0.5 Ltr|Label for Patanjali Azoto  0.5 Ltr||packing_material|1|UQC_pcs|||
+PB0075|FINDIG_GOOD|N|N|Label for Patanjali Azoto 0.25 Ltr|Label for Patanjali Azoto 0.25 Ltr||packing_material|1|UQC_pcs|||
+PB0076|FINDIG_GOOD|N|N|Label for Patanjali Rhizobium 1  Ltr|Label for Patanjali Rhizobium 1  Ltr||packing_material|1|UQC_pcs|||
+PB0077|FINDIG_GOOD|N|N|Label for Patanjali Rhizobium  0.5 Ltr|Label for Patanjali Rhizobium  0.5 Ltr||packing_material|1|UQC_pcs|||
+PB0078|FINDIG_GOOD|N|N|Label for Patanjali Rhizobium 0.25 Ltr|Label for Patanjali Rhizobium 0.25 Ltr||packing_material|1|UQC_pcs|||
+PB0079|FINDIG_GOOD|N|N|Mono Carton for Patanjali Trico 1 kg|Mono Carton for Patanjali Trico 1 kg||packing_material|1|UQC_pcs|||
+PB0080|FINDIG_GOOD|N|N|Mono Carton for Patanjali Suraksha  1 kg|Mono Carton for Patanjali Suraksha  1 kg||packing_material|1|UQC_pcs|||
+PB0081|FINDIG_GOOD|N|N|Mono Carton for Patanjali Fluoresce 1 kg|Mono Carton for Patanjali Fluoresce 1 kg||packing_material|1|UQC_pcs|||
+PB0082|FINDIG_GOOD|N|N|Mono Carton for Patanjali Nemakil 1 kg|Mono Carton for Patanjali Nemakil 1 kg||packing_material|1|UQC_pcs|||
+PB0083|FINDIG_GOOD|N|N|Poly bag for bio Pesticide 1 kg|Poly bag for bio Pesticide 1 kg||packing_material|1|UQC_kgs|||
+PB0084|FINDIG_GOOD|N|N|Poly bag for bio Pesticide 0.25 kg|Poly bag for bio Pesticide 0.25 kg||packing_material|1|UQC_pcs|||
+PB0085|FINDIG_GOOD|N|N|Premix Nutrient Powder|Premix Nutrient Powder||semi_finish_product|1|UQC_kgs|||
+PB0086|FINDIG_GOOD|N|N|Food Park Compost|Food Park Compost||raw_material|1|UQC_kgs|||
+PB0087|FINDIG_GOOD|N|N|Cow Urine Ark Distillate|Cow Urine Ark Distillate||raw_material|1|UQC_klr|||
+PB0088|FINDIG_GOOD|N|N|Premix Nutrient Liquid|Premix Nutrient Liquid||semi_finish_product|1|UQC_klr|||
+PB0089|FINDIG_GOOD|N|N|Moisture Maintained by Water|Moisture Maintained by Water||raw_material|1|UQC_klr|||
+PB0090|FINDIG_GOOD|N|N|PROM Granule|PROM Granule||semi_finish_product|1|UQC_kgs|||
+PB0091|FINDIG_GOOD|N|N|BOPP Bag 50kg|BOPP Bag 50kg||packing_material|1|UQC_pcs|||
+PB0092|FINDIG_GOOD|N|N|PSB Culture broth|PSB Culture broth||semi_finish_product|1|UQC_klr|||
+PB0093|FINDIG_GOOD|N|N|Dilution Media Broth|Dilution Media Broth||semi_finish_product|1|UQC_klr|||
+PB0094|FINDIG_GOOD|N|N|Parafin Liquid|Parafin Liquid||raw_material|1|UQC_klr|||
+PB0095|FINDIG_GOOD|N|N|Tape Roll PBRI Printed|Tape Roll PBRI Printed||packing_material|1|UQC_pcs|||
+PB0096|FINDIG_GOOD|N|N|Tape Cello|Tape Cello||packing_material|1|UQC_pcs|||
+PB0097|FINDIG_GOOD|N|N|Azoto Culture Broth|Azoto Culture Broth||semi_finish_product|1|UQC_klr|||
+PB0098|FINDIG_GOOD|N|N|Rhizobium Culture Broth|Rhizobium Culture Broth||semi_finish_product|1|UQC_klr|||
+PB0099|FINDIG_GOOD|N|N|Neem Technical Liquid 1500 PPM|Neem Technical Liquid 1500 PPM||raw_material|1|UQC_klr|||
+PB0100|FINDIG_GOOD|N|N|Dose Cap for Neem Gold 0.25, 0.5, 1 Ltr|Dose Cap for Neem Gold 0.25, 0.5, 1 Ltr||packing_material|1|UQC_pcs|||
+PB0101|FINDIG_GOOD|N|N|Thread Roll for PROM, JAIVIK &amp; POSHAK|Thread Roll for PROM, JAIVIK &amp; POSHAK||packing_material|1|UQC_pcs|||
+PB0102|FINDIG_GOOD|N|N|CARBOXY METHYL CELLULOSE (CMC)|CARBOXY METHYL CELLULOSE (CMC)||raw_material|1|UQC_kgs|||
+PB0103|FINDIG_GOOD|N|N|Ribbion for TSC Printer|Ribbion for TSC Printer||general|1|UQC_pcs|||
+PB0104|FINDIG_GOOD|N|N|Patanjali Bio NPK 1 LTR|Patanjali Bio NPK 1 LTR||bio_fertilizer|1|UQC_box|1|UQC_pcs|12
+PB0105|FINDIG_GOOD|N|N|IT Services (Web Hosting &amp; Domain) 1yr|IT Services (Web Hosting &amp; Domain) 1yr||it_services|1|UQC_oth|||
+PB0106|FINDIG_GOOD|N|N|KMB Culture Broth|KMB Culture Broth||semi_finish_product|1|UQC_klr|||
+PB0107|FINDIG_GOOD|N|N|Pseudo Culture Broth|Pseudo Culture Broth||semi_finish_product|1|UQC_klr|||
+PB0108|FINDIG_GOOD|N|N|Label for Patanjali Bio NPK 1 Ltr|Label for Patanjali Bio NPK 1 Ltr||packing_material|1|UQC_pcs|||
+PB0109|FINDIG_GOOD|N|N|Premix Nutrient Liquid CHT|Premix Nutrient Liquid CHT||semi_finish_product|1|UQC_klr|||
+PB0110|FINDIG_GOOD|N|N|Verticillium Culture Broth|Verticillium Culture Broth||semi_finish_product|1|UQC_klr|||
+PB0111|FINDIG_GOOD|N|N|Verticillium Culture Powder|Verticillium Culture Powder||semi_finish_product|1|UQC_pcs|||
+PB0112|FINDIG_GOOD|N|N|Trichoderma Culture Broth|Trichoderma Culture Broth||semi_finish_product|1|UQC_klr|||
+PB0113|FINDIG_GOOD|N|N|Trichoderma Culture Powder|Trichoderma Culture Powder||semi_finish_product|1|UQC_pcs|||
+PB0114|FINDIG_GOOD|N|N|Root Technical for Poshak|Root Technical for Poshak||raw_material|1|UQC_kgs|||
+PB0115|FINDIG_GOOD|N|N|Soil Technical for Poshak|Soil Technical for Poshak||raw_material|1|UQC_kgs|||
+PB0116|FINDIG_GOOD|N|N|Empty OuterBag for Patanjali Poshak 50Kg|Empty OuterBag for Patanjali Poshak 50Kg||packing_material|1|UQC_pcs|||
+PB0117|FINDIG_GOOD|N|N|HD Plastic 1st|HD Plastic 1st||rtn_dmgd_material|1|UQC_kgs|||
+PB0118|FINDIG_GOOD|N|N|PVC BLUE+WHAIT CANE|PVC BLUE+WHAIT CANE||rtn_dmgd_material|1|UQC_kgs|||
+PB0119|FINDIG_GOOD|N|N|10 Hp 2800 Rpm Motor|10 Hp 2800 Rpm Motor||assets|1|UQC_pcs|||
+PB0120|FINDIG_GOOD|N|N|Iron Drums|Iron Drums||rtn_dmgd_material|1|UQC_pcs|||
+PB0121|FINDIG_GOOD|N|N|Poshak SF|Poshak SF||semi_finish_product|1|UQC_kgs|||
+PB0122|FINDIG_GOOD|N|N|Prom Sf|Prom Sf||semi_finish_product|1|UQC_kgs|||
+PB0123|FINDIG_GOOD|N|N|Water Purifier Livpure/wh24874|Water Purifier Livpure/wh24874||assets|1|UQC_pcs|||
+PB0124|FINDIG_GOOD|N|N|VAM Spore Technical (1Lac IP/gm)|VAM Spore Technical (1Lac IP/gm)||raw_material|1|UQC_kgs|1|UQC_gms|1000
+PB0125|FINDIG_GOOD|N|N|Biogas Sludge Fine Powder|Biogas Sludge Fine Powder||raw_material|1|UQC_kgs|1|UQC_ton|1
+PB0126|FINDIG_GOOD|N|N|Poly Vinyl Pyrrolidone (PVP)|Poly Vinyl Pyrrolidone (PVP)||raw_material|1|UQC_kgs|||
+PB0127|FINDIG_GOOD|N|N|Gum Acacia Powder|Gum Acacia Powder||raw_material|1|UQC_kgs|||
+PB0128|FINDIG_GOOD|N|N|Sodium Lauryl Sulfate (SLS)|Sodium Lauryl Sulfate (SLS)||raw_material|1|UQC_kgs|||
+PB0129|FINDIG_GOOD|N|N|Glycerol|Glycerol||raw_material|1|UQC_klr|||
+PB0130|FINDIG_GOOD|N|N|Water|Water||raw_material|1|UQC_klr|||
+PB0131|FINDIG_GOOD|N|N|D-Manitol|D-Manitol||raw_material|1|UQC_kgs|||
+PB0132|FINDIG_GOOD|N|N|Sodium Cloride (Nacl)|Sodium Cloride (Nacl)||raw_material|1|UQC_kgs|||
+PB0133|FINDIG_GOOD|N|N|Di-Potassium Hydrogen Ortho-Phosphate|Di-Potassium Hydrogen Ortho-Phosphate||raw_material|1|UQC_kgs|||
+PB0134|FINDIG_GOOD|N|N|Yeast Extract Powder-R|Yeast Extract Powder-R||raw_material|1|UQC_kgs|||
+PB0135|FINDIG_GOOD|N|N|Dextrose (Mono)|Dextrose (Mono)||raw_material|1|UQC_kgs|||
+PB0136|FINDIG_GOOD|N|N|Tri-Calcium Phosphate|Tri-Calcium Phosphate||raw_material|1|UQC_kgs|||
+PB0137|FINDIG_GOOD|N|N|Starter|Starter||assets|1|UQC_pcs|||
+PB0138|FINDIG_GOOD|N|N|Ammonium Sulfate|Ammonium Sulfate||raw_material|1|UQC_kgs|||
+PB0139|FINDIG_GOOD|N|N|Pepton R|Pepton R||raw_material|1|UQC_kgs|||
+PB0140|FINDIG_GOOD|N|N|Veg-Be-extract Powder|Veg-Be-extract Powder||raw_material|1|UQC_kgs|||
+PB0141|FINDIG_GOOD|N|N|Rose Bengal Culture Broth|Rose Bengal Culture Broth||semi_finish_product|1|UQC_klr|||
+PB0142|FINDIG_GOOD|N|N|Azospirillum Culture Broth|Azospirillum Culture Broth||semi_finish_product|1|UQC_klr|||
+PB0143|FINDIG_GOOD|N|N|D-Malic Acid|D-Malic Acid||raw_material|1|UQC_kgs|||
+PB0144|FINDIG_GOOD|N|N|Calcium Cloride|Calcium Cloride||raw_material|1|UQC_kgs|||
+PB0145|FINDIG_GOOD|N|N|Sodium Molybdate|Sodium Molybdate||raw_material|1|UQC_kgs|||
+PB0146|FINDIG_GOOD|N|N|Active Silicon fine (500 Mesh)|Active Silicon fine (500 Mesh)||raw_material|1|UQC_kgs|||
+PB0147|FINDIG_GOOD|N|N|Active Silicon Coarser (150 Mesh)|Active Silicon Coarser (150 Mesh)||raw_material|1|UQC_kgs|||
+PB0148|FINDIG_GOOD|N|N|Safety shoes|Safety shoes||consumable_items|1|UQC_pcs|||
+PB0149|FINDIG_GOOD|N|N|Di-Calcium Phosphate|Di-Calcium Phosphate||raw_material|1|UQC_kgs|||
+PB0150|FINDIG_GOOD|N|N|Polyethylene Glycd|Polyethylene Glycd||raw_material|1|UQC_kgs|||
+PB0151|FINDIG_GOOD|N|N|Cytokin|Cytokin||raw_material|1|UQC_kgs|||
+PB0152|FINDIG_GOOD|N|N|Tetrasodium Pyrophosphate|Tetrasodium Pyrophosphate||raw_material|1|UQC_kgs|||
+PB0153|FINDIG_GOOD|N|N|Sucrose|Sucrose||raw_material|1|UQC_kgs|||
+PB0154|FINDIG_GOOD|N|N|Bromopol|Bromopol||raw_material|1|UQC_kgs|||
+PB0155|FINDIG_GOOD|N|N|PBRI Product Booklet/Brochure|PBRI Product Booklet/Brochure||publicity_material|1|UQC_pcs|||
+PB0156|FINDIG_GOOD|N|N|PBRI Banner/Poster|PBRI Banner/Poster||publicity_material|1|UQC_pcs|||
+PB0157|FINDIG_GOOD|N|N|Bussy Software|Bussy Software||assets|1|UQC_oth|||
+PB0158|FINDIG_GOOD|N|N|Sulpher 50KG|Sulpher 50KG||general|1|UQC_kgs|||
+PB0159|FINDIG_GOOD|N|N|Nitric Acid (69-72%) LR|Nitric Acid (69-72%) LR||lab_chemicals|1|UQC_klr|||
+PB0160|FINDIG_GOOD|N|N|Formaldehyde Sol (37-41% w/v) LR|Formaldehyde Sol (37-41% w/v) LR||lab_chemicals|1|UQC_klr|||
+PB0161|FINDIG_GOOD|N|N|Methyl red Indicater Sol|Methyl red Indicater Sol||lab_chemicals|1|UQC_klr|||
+PB0162|FINDIG_GOOD|N|N|Potassium Sulphate LR|Potassium Sulphate LR||lab_chemicals|1|UQC_kgs|||
+PB0163|FINDIG_GOOD|N|N|Citric Acid Anhydrous LR|Citric Acid Anhydrous LR||lab_chemicals|1|UQC_kgs|||
+PB0164|FINDIG_GOOD|N|N|Sodium Molybdate LR|Sodium Molybdate LR||lab_chemicals|1|UQC_gms|||
+PB0165|FINDIG_GOOD|N|N|Tri-Calcium Phosphate LR|Tri-Calcium Phosphate LR||lab_chemicals|1|UQC_kgs|||
+PB0166|FINDIG_GOOD|N|N|Copper Flexible Cable 4.0 Mm 3core KEI|Copper Flexible Cable 4.0 Mm 3core KEI||consumable_items|1|UQC_mtr|||
+PB0167|FINDIG_GOOD|N|N|Neem Oil|Neem Oil||raw_material|1|UQC_klr|||
+PB0168|FINDIG_GOOD|N|N|Exide Battery (12 V, 130 Ah) XP 1300|Exide Battery (12 V, 130 Ah) XP 1300||consumable_items|1|UQC_pcs|||
+PB0169|FINDIG_GOOD|N|N|Consumabile Item|Consumabile Item||consumable_items|1|UQC_oth|||
+PB0170|FINDIG_GOOD|N|N|Ferrous Sulphate LR|Ferrous Sulphate LR||raw_material|1|UQC_kgs|||
+PB0171|FINDIG_GOOD|N|N|freight &amp; forwerding Charges 5%|freight &amp; forwerding Charges 5%||general|1|UQC_oth|||
+PB0172|FINDIG_GOOD|N|N|MCB 4 Core 63 Amp|MCB 4 Core 63 Amp||consumable_items|1|UQC_pcs|||
+PB0173|FINDIG_GOOD|N|N|Electric Tester (Tapri)|Electric Tester (Tapri)||consumable_items|1|UQC_pcs|||
+PB0174|FINDIG_GOOD|N|N|Electric Tape|Electric Tape||consumable_items|1|UQC_pcs|||
+PB0175|FINDIG_GOOD|N|N|Manganese Sulphate LR|Manganese Sulphate LR||raw_material|1|UQC_gms|1|UQC_kgs|1
+PB0176|FINDIG_GOOD|N|N|Maganisium Sulphate LR|Maganisium Sulphate LR||raw_material|1|UQC_kgs|||
+PB0177|FINDIG_GOOD|N|N|Calcium Carbonate LR|Calcium Carbonate LR||raw_material|1|UQC_kgs|||
+PB0178|FINDIG_GOOD|N|N|Bucket Plastic 10 Kg|Bucket Plastic 10 Kg||packing_material|1|UQC_pcs|||
+PB0179|FINDIG_GOOD|N|N|Repair &amp; Maintanance (other)|Repair &amp; Maintanance (other)||consumable_items|1|UQC_oth|||
+PB0180|FINDIG_GOOD|N|N|Face Mask II Ply Green Elastic|Face Mask II Ply Green Elastic||consumable_items|1|UQC_pcs|||
+PB0181|FINDIG_GOOD|N|N|Surgical Hand Gloves|Surgical Hand Gloves||consumable_items|1|UQC_box|||
+PB0182|FINDIG_GOOD|N|N|Surgical Head Caps|Surgical Head Caps||consumable_items|1|UQC_pcs|||
+PB0183|FINDIG_GOOD|N|N|Mop Cloth|Mop Cloth||consumable_items|1|UQC_pcs|||
+PB0184|FINDIG_GOOD|N|N|Soft Broom|Soft Broom||consumable_items|1|UQC_pcs|||
+PB0185|FINDIG_GOOD|N|N|Cow Urine Ark N source|Cow Urine Ark N source||raw_material|1|UQC_kgs|||
+PB0186|FINDIG_GOOD|N|N|Patanjali Jaivik Khad Returned|Patanjali Jaivik Khad Returned||rtn_dmgd_material|1|UQC_pcs|1|UQC_kgs|40
+PB0187|FINDIG_GOOD|N|N|Bio Gas Unit (Complete Unit)|Bio Gas Unit (Complete Unit)||assets|1|UQC_oth|||
+PB0188|FINDIG_GOOD|N|N|Mix Kachra|Mix Kachra||rtn_dmgd_material|1|UQC_kgs|||
+PB0189|FINDIG_GOOD|N|N|Mix Iron|Mix Iron||rtn_dmgd_material|1|UQC_kgs|||
+PB0190|FINDIG_GOOD|N|N|Research Mushroom|Research Mushroom||general|1|UQC_kgs|||
+PB0191|FINDIG_GOOD|N|N|Thread Roll|Thread Roll||consumable_items|1|UQC_pcs|||
+PB0192|FINDIG_GOOD|N|N|HD Plastic 2nd|HD Plastic 2nd||rtn_dmgd_material|1|UQC_kgs|||
+PB0193|FINDIG_GOOD|N|N|Gatta|Gatta||rtn_dmgd_material|1|UQC_kgs|||
+PB0194|FINDIG_GOOD|N|N|Fixed Volume Pipette 0.1 ml (Thermo)|Fixed Volume Pipette 0.1 ml (Thermo)||consumable_items|1|UQC_pcs|||
+PB0195|FINDIG_GOOD|N|N|Fixed Volume Pipette 01 ml (Thermo)|Fixed Volume Pipette 01 ml (Thermo)||consumable_items|1|UQC_pcs|||
+PB0196|FINDIG_GOOD|N|N|Variable Volume Pipette 01 ml (Thermo)|Variable Volume Pipette 01 ml (Thermo)||consumable_items|1|UQC_pcs|||
+PB0197|FINDIG_GOOD|N|N|Variable Volume Pipette 0.5-5ml (Thermo)|Variable Volume Pipette 0.5-5ml (Thermo)||consumable_items|1|UQC_pcs|||
+PB0198|FINDIG_GOOD|N|N|Micro Tips 0.1ml (Thermo)|Micro Tips 0.1ml (Thermo)||consumable_items|1|UQC_box|1|UQC_pcs|1000
+PB0199|FINDIG_GOOD|N|N|Micro Tips 01ml (Thermo)|Micro Tips 01ml (Thermo)||consumable_items|1|UQC_box|1|UQC_pcs|500
+PB0200|FINDIG_GOOD|N|N|Micro Tips 05 ml (Thermo)|Micro Tips 05 ml (Thermo)||consumable_items|1|UQC_box|1|UQC_pcs|500
+PB0201|FINDIG_GOOD|N|N|Gas Burner (Lab Use)|Gas Burner (Lab Use)||consumable_items|1|UQC_pcs|||
+PB0202|FINDIG_GOOD|N|N|Nitrile Gloves (Lab Use)|Nitrile Gloves (Lab Use)||consumable_items|1|UQC_box|1|UQC_pcs|100
+PB0203|FINDIG_GOOD|N|N|Safety Goggles (Lab use)|Safety Goggles (Lab use)||consumable_items|1|UQC_pcs|||
+PB0204|FINDIG_GOOD|N|N|Kjeldahl Distil. Flask 500ml (Borosil)|Kjeldahl Distil. Flask 500ml (Borosil)||consumable_items|1|UQC_pcs|||
+PB0205|FINDIG_GOOD|N|N|Vacuum Desiccator 300mm (Plastic) Abdos|Vacuum Desiccator 300mm (Plastic) Abdos||consumable_items|1|UQC_pcs|||
+PB0206|FINDIG_GOOD|N|N|Drying Rack 30 peg Tarson|Drying Rack 30 peg Tarson||consumable_items|1|UQC_pcs|||
+PB0207|FINDIG_GOOD|N|N|City Compost|City Compost||raw_material|1|UQC_kgs|||
+PB0208|FINDIG_GOOD|N|N|Formaldehyde Commercial|Formaldehyde Commercial||consumable_items|1|UQC_klr|1|UQC_kgs|1
+PB0209|FINDIG_GOOD|N|N|Miconazole nitrate (HiMedia)|Miconazole nitrate (HiMedia)||lab_chemicals|1|UQC_gms|||
+PB0210|FINDIG_GOOD|N|N|Rubber Conveyor Belt (18290X450X8mm)|Rubber Conveyor Belt (18290X450X8mm)||consumable_items|1|UQC_sqf|||
+PB0211|FINDIG_GOOD|N|N|HP 348 Commercial Laptop( Intel Core I3)|HP 348 Commercial Laptop( Intel Core I3)|Intel Core I3 Th Gen Processor|consumable_items|1|UQC_unt|||
+PB0212|FINDIG_GOOD|N|N|Plastic-Cap|Plastic-Cap||rtn_dmgd_material|1|UQC_kgs|||
+PB0213|FINDIG_GOOD|N|N|Samsung Mobile Model J7 Pro|Samsung Mobile Model J7 Pro||assets|1|UQC_unt|||
+PB0214|FINDIG_GOOD|N|N|Amino Powder 50%|Amino Powder 50%||raw_material|1|UQC_kgs|||
+PB0215|FINDIG_GOOD|N|N|HCl Commercial|HCl Commercial||consumable_items|1|UQC_klr|1|UQC_kgs|1
+PB0216|FINDIG_GOOD|N|N|SS-304 Table|SS-304 Table||assets|1|UQC_pcs|||
+PB0217|FINDIG_GOOD|N|N|SS-304/MS Blender|SS-304/MS Blender||assets|1|UQC_pcs|||
+PB0218|FINDIG_GOOD|N|N|SS-304 Stand|SS-304 Stand||assets|1|UQC_pcs|||
+PB0219|FINDIG_GOOD|N|N|MS Tray|MS Tray||assets|1|UQC_pcs|||
+PB0220|FINDIG_GOOD|N|N|Laptop Bag (Flylite)|Laptop Bag (Flylite)||consumable_items|1|UQC_unt|||
+PB0221|FINDIG_GOOD|N|N|Bearing 6307-2Z (Make SKF)|Bearing 6307-2Z (Make SKF)||consumable_items|1|UQC_pcs|||
+PB0222|FINDIG_GOOD|N|N|Bearing 6208-2Z (Make SKF)|Bearing 6208-2Z (Make SKF)||consumable_items|1|UQC_pcs|||
+PB0223|FINDIG_GOOD|N|N|BioFMX 100L Fully Automatic Fermenter|BioFMX 100L Fully Automatic Fermenter||assets|1|UQC_pcs|||
+PB0224|FINDIG_GOOD|N|N|BioFMX 5000L Fully Automatic Fermenter|BioFMX 5000L Fully Automatic Fermenter||assets|1|UQC_pcs|||
+PB0225|FINDIG_GOOD|N|N|Complete Automation of 2500L Fermenter|Complete Automation of 2500L Fermenter||consumable_items|1|UQC_pcs|||
+PB0226|FINDIG_GOOD|N|N|HRC FUSE LINK 160A HN ,SZ00, L &amp; T Make|HRC FUSE LINK 160A HN ,SZ00, L &amp; T Make||consumable_items|1|UQC_pcs|||
+PB0227|FINDIG_GOOD|N|N|Waste Cloth|Waste Cloth||consumable_items|1|UQC_kgs|||
+PB0228|FINDIG_GOOD|N|N|Fabric Gramige BAG SIZE : 24inch X 36inch|Fabric Gramige BAG SIZE : 24inch X 36inch||consumable_items|1|UQC_kgs|||
+PB0229|FINDIG_GOOD|N|N|1.5 Ton Voltas Split All Weather AC|1.5 Ton Voltas Split All Weather AC||assets|1|UQC_pcs|||
+PB0230|FINDIG_GOOD|N|N|HAND PALLET TRUCK BF115055085YEL|HAND PALLET TRUCK BF115055085YEL||assets|1|UQC_pcs|||
+PB0231|FINDIG_GOOD|N|N|UPVC Pipe  1inch PLUMBING SCH-40|UPVC Pipe  1inch PLUMBING SCH-40||consumable_items|1|UQC_mtr|||
+PB0232|FINDIG_GOOD|N|N|Elbow 1inch  SCH-40|Elbow 1inch  SCH-40||consumable_items|1|UQC_pcs|||
+PB0233|FINDIG_GOOD|N|N|Socket 1inch SCH-40|Socket 1inch SCH-40||consumable_items|1|UQC_pcs|||
+PB0234|FINDIG_GOOD|N|N|Union 1inch SCH-40|Union 1inch SCH-40||consumable_items|1|UQC_pcs|||
+PB0235|FINDIG_GOOD|N|N|Valve 1inch SCH-40|Valve 1inch SCH-40||consumable_items|1|UQC_pcs|||
+PB0236|FINDIG_GOOD|N|N|MTA 1inch SCH-40 THREADED|MTA 1inch SCH-40 THREADED||consumable_items|1|UQC_pcs|||
+PB0237|FINDIG_GOOD|N|N|FTA  1inch SCH-40 THREADED|FTA  1inch SCH-40 THREADED||consumable_items|1|UQC_pcs|||
+PB0238|FINDIG_GOOD|N|N|SUMBERSIBLE PUMP 1HP SINGLE PHASE CROMPT|SUMBERSIBLE PUMP 1HP SINGLE PHASE CROMPT||consumable_items|1|UQC_pcs|||
+PB0239|FINDIG_GOOD|N|N|STARTER 1HP SINGLE PHASE CROMPTON MAKE|STARTER 1HP SINGLE PHASE CROMPTON MAKE||consumable_items|1|UQC_pcs|||
+PB0240|FINDIG_GOOD|N|N|SUMBERSIBLE FLAT CABLE 1.5 SQ MM 3 CORE|SUMBERSIBLE FLAT CABLE 1.5 SQ MM 3 CORE||consumable_items|1|UQC_mtr|1|UQC_pcs|1
+PB0241|FINDIG_GOOD|N|N|12mm Thick MS Plate Size-1500 X 6300 Mm|12mm Thick MS Plate Size-1500 X 6300 Mm||consumable_items|1|UQC_ton|||
+PB0242|FINDIG_GOOD|N|N|6mm Thick MS Plate Size-1500 X 6300mm|6mm Thick MS Plate Size-1500 X 6300mm||consumable_items|1|UQC_ton|||
+PB0243|FINDIG_GOOD|N|N|5mm Thick MS Plate Size-1500 X 6300mm|5mm Thick MS Plate Size-1500 X 6300mm||consumable_items|1|UQC_ton|||
+PB0244|FINDIG_GOOD|N|N|4mm Thick MS Sheet Size-1500 X 6300mm|4mm Thick MS Sheet Size-1500 X 6300mm||consumable_items|1|UQC_ton|||
+PB0245|FINDIG_GOOD|N|N|ISA 50X50X6mm|ISA 50X50X6mm||consumable_items|1|UQC_ton|||
+PB0246|FINDIG_GOOD|N|N|MS Flat 50X6mm|MS Flat 50X6mm||consumable_items|1|UQC_ton|||
+PB0247|FINDIG_GOOD|N|N|REVOLVING CHAIR WITH HIGH BACK|REVOLVING CHAIR WITH HIGH BACK||assets|1|UQC_pcs|||
+PB0248|FINDIG_GOOD|N|N|OXYGEN Cylinder|OXYGEN Cylinder||consumable_items|1|UQC_pcs|||
+PB0249|FINDIG_GOOD|N|N|Battery 12V7AH For UPS|Battery 12V7AH For UPS||consumable_items|1|UQC_pcs|||
+PB0250|FINDIG_GOOD|N|N|3.15 MS Welding Rod Manglam|3.15 MS Welding Rod Manglam||consumable_items|1|UQC_box|||
+PB0251|FINDIG_GOOD|N|N|4mm MS Welding Rod Manglam|4mm MS Welding Rod Manglam||consumable_items|1|UQC_box|||
+PB0252|FINDIG_GOOD|N|N|3.15mm MS Welding Rod Ador|3.15mm MS Welding Rod Ador||consumable_items|1|UQC_box|||
+PB0253|FINDIG_GOOD|N|N|4mm MS Welding Rod Ador|4mm MS Welding Rod Ador||consumable_items|1|UQC_box|||
+PB0254|FINDIG_GOOD|N|N|NC Thinner|NC Thinner||consumable_items|1|UQC_klr|||
+PB0255|FINDIG_GOOD|N|N|Bouffants Cap (Blue)|Bouffants Cap (Blue)||consumable_items|1|UQC_pcs|||
+PB0256|FINDIG_GOOD|N|N|Rubber Hand Gloves 18inch Chemical|Rubber Hand Gloves 18inch Chemical||consumable_items|1|UQC_pcs|||
+PB0257|FINDIG_GOOD|N|N|Plastic Shoe Cover Blue|Plastic Shoe Cover Blue||consumable_items|1|UQC_pcs|||
+PB0258|FINDIG_GOOD|N|N|Dust Control Moup 24inch|Dust Control Moup 24inch||consumable_items|1|UQC_pcs|||
+PB0259|FINDIG_GOOD|N|N|PGPR- Bulk|PGPR- Bulk||general|1|UQC_pcs|||
+PB0260|FINDIG_GOOD|N|N|HAMMER S.S. Size : 240X50X50 Mm (New Pur|HAMMER S.S. Size : 240X50X50 Mm (New Pur||consumable_items|1|UQC_pcs|||
+PB0261|FINDIG_GOOD|N|N|Almirah 36X18X78|Almirah 36X18X78||assets|1|UQC_pcs|||
+PB0262|FINDIG_GOOD|N|N|Whey Storage Tank Model : ZA08R3 Cap. 50|Whey Storage Tank Model : ZA08R3 Cap. 50||assets|1|UQC_pcs|||
+PB0263|FINDIG_GOOD|N|N|Cost of Erection &amp; Commi. Includ Labour|Cost of Erection &amp; Commi. Includ Labour||consumable_items|1|UQC_pcs|||
+PB0264|FINDIG_GOOD|N|N|Cost of MS Support Structure ForAgitator|Cost of MS Support Structure ForAgitator||consumable_items|1|UQC_pcs|||
+PB0265|FINDIG_GOOD|N|N|SEPCOM 065|SEPCOM 065||assets|1|UQC_pcs|||
+PB0266|FINDIG_GOOD|N|N|SEPCOM 015|SEPCOM 015||assets|1|UQC_pcs|||
+PB0267|FINDIG_GOOD|N|N|Foot Mounted Electric Motor, HP-30, RPM|Foot Mounted Electric Motor, HP-30, RPM||assets|1|UQC_pcs|||
+PB0268|FINDIG_GOOD|N|N|Foot Mounted Electric Motor, HP-25, RPM|Foot Mounted Electric Motor, HP-25, RPM||assets|1|UQC_pcs|||
+PB0269|FINDIG_GOOD|N|N|Foot Mounted Electric Motor, HP-20, RPM|Foot Mounted Electric Motor, HP-20, RPM||assets|1|UQC_pcs|||
+PB0270|FINDIG_GOOD|N|N|Foot Mounted Electric Motor, HP-10, RPM|Foot Mounted Electric Motor, HP-10, RPM||assets|1|UQC_pcs|||
+PB0271|FINDIG_GOOD|N|N|Foot Mounted Electric Motor, HP-7.5, RPM|Foot Mounted Electric Motor, HP-7.5, RPM||assets|1|UQC_pcs|||
+PB0272|FINDIG_GOOD|N|N|Foot Mounted Electric Motor, HP-5, RPM|Foot Mounted Electric Motor, HP-5, RPM||assets|1|UQC_pcs|||
+PB0273|FINDIG_GOOD|N|N|Foot Mounted Electric Motor, HP-3, RPM|Foot Mounted Electric Motor, HP-3, RPM||assets|1|UQC_pcs|||
+PB0274|FINDIG_GOOD|N|N|Foot Mounted Electric Motor| HP-15||assets|1|UQC_pcs|||
+PB0275|FINDIG_GOOD|N|N|HP 15-BS146 TU Laptop|HP 15-BS146 TU Laptop||assets|1|UQC_pcs|||
+PB0276|FINDIG_GOOD|N|N|New Entry Back Pack Bag|New Entry Back Pack Bag||consumable_items|1|UQC_pcs|||
+PB0277|FINDIG_GOOD|N|N|Warm Reduction Gear Box Ratio 1:15,U1000|Warm Reduction Gear Box Ratio 1:15,U1000||consumable_items|1|UQC_pcs|||
+PB0278|FINDIG_GOOD|N|N|Warm Reduction Gear Box Ratio 1:15, U800|Warm Reduction Gear Box Ratio 1:15, U800||consumable_items|1|UQC_pcs|||
+PB0279|FINDIG_GOOD|N|N|Warm Reduction Gear Box Ratio 1:15, U600|Warm Reduction Gear Box Ratio 1:15, U600||consumable_items|1|UQC_pcs|||
+PB0280|FINDIG_GOOD|N|N|Warm Reduction Gear Box Ratio 1:60, U600|Warm Reduction Gear Box Ratio 1:60, U600||consumable_items|1|UQC_pcs|||
+PB0281|FINDIG_GOOD|N|N|Warm Reduction Gear Box Ratio 1:30, U600|Warm Reduction Gear Box Ratio 1:30, U600||consumable_items|1|UQC_pcs|||
+PB0282|FINDIG_GOOD|N|N|Warm Reduction Gear Box Ratio 1:30, U500|Warm Reduction Gear Box Ratio 1:30, U500||consumable_items|1|UQC_pcs|||
+PB0283|FINDIG_GOOD|N|N|Warm Reduction Gear Box Ratio 1:30, U400|Warm Reduction Gear Box Ratio 1:30, U400||consumable_items|1|UQC_pcs|||
+PB0284|FINDIG_GOOD|N|N|Warm Reduction Gear Box Ratio 1:30, U300|Warm Reduction Gear Box Ratio 1:30, U300||consumable_items|1|UQC_pcs|||
+PB0285|FINDIG_GOOD|N|N|ISMC 200X75mm|ISMC 200X75mm||consumable_items|1|UQC_ton|||
+PB0286|FINDIG_GOOD|N|N|ISMC 100x50mm|ISMC 100x50mm||consumable_items|1|UQC_ton|1|UQC_pcs|1
+PB0287|FINDIG_GOOD|N|N|ISMB 200X100 Mm|ISMB 200X100 Mm||consumable_items|1|UQC_ton|||
+PB0288|FINDIG_GOOD|N|N|ISMB 150X75 mm|ISMB 150X75 mm||consumable_items|1|UQC_ton|||
+PB0289|FINDIG_GOOD|N|N|ISA 75X75X8mm|ISA 75X75X8mm||consumable_items|1|UQC_ton|||
+PB0290|FINDIG_GOOD|N|N|ISA 65X65X6mm|ISA 65X65X6mm||consumable_items|1|UQC_ton|||
+PB0291|FINDIG_GOOD|N|N|25mm Thick MS Plate Size-1500X5000 mm|25mm Thick MS Plate Size-1500X5000 mm||consumable_items|1|UQC_ton|||
+PB0292|FINDIG_GOOD|N|N|MS Flat 65X12mm|MS Flat 65X12mm||consumable_items|1|UQC_ton|||
+PB0293|FINDIG_GOOD|N|N|MS Flat 125X20mm|MS Flat 125X20mm||consumable_items|1|UQC_ton|||
+PB0294|FINDIG_GOOD|N|N|MS Flat 150X12mm|MS Flat 150X12mm||consumable_items|1|UQC_ton|||
+PB0295|FINDIG_GOOD|N|N|MS Flat 65X35mm|MS Flat 65X35mm||consumable_items|1|UQC_ton|||
+PB0296|FINDIG_GOOD|N|N|MS Pipe Dia 300mm, 8 Mm Thick|MS Pipe Dia 300mm, 8 Mm Thick||consumable_items|1|UQC_ton|||
+PB0297|FINDIG_GOOD|N|N|MS Pipe Dia 200mm, 8 Mm Thick|MS Pipe Dia 200mm, 8 Mm Thick||consumable_items|1|UQC_ton|||
+PB0298|FINDIG_GOOD|N|N|Round Bar Dia 100mm X 125 Mm Long (60 No|Round Bar Dia 100mm X 125 Mm Long (60 No||consumable_items|1|UQC_ton|||
+PB0299|FINDIG_GOOD|N|N|10mm Thick MS Plate Size-1500X5000 mm|10mm Thick MS Plate Size-1500X5000 mm||consumable_items|1|UQC_ton|||
+PB0300|FINDIG_GOOD|N|N|Leaflet for Patanjali Neem Gold 1500ppm|Leaflet for Patanjali Neem Gold 1500ppm||packing_material|1|UQC_pcs|||
+PB0301|FINDIG_GOOD|N|N|Iso-Propyle Alcohal|Iso-Propyle Alcohal||consumable_items|1|UQC_klr|||
+PB0302|FINDIG_GOOD|N|N|Glacial Acetic Acid|Glacial Acetic Acid||lab_chemicals|1|UQC_klr|||
+PB0303|FINDIG_GOOD|N|N|Dextrose Anh.|Dextrose Anh.||lab_chemicals|1|UQC_kgs|||
+PB0304|FINDIG_GOOD|N|N|Potassium Permanganate|Potassium Permanganate||lab_chemicals|1|UQC_kgs|||
+PB0305|FINDIG_GOOD|N|N|Potato Dextrose Agar Media, MH096|Potato Dextrose Agar Media, MH096||lab_chemicals|1|UQC_kgs|||
+PB0306|FINDIG_GOOD|N|N|Ammonium Hydroxide AR|Ammonium Hydroxide AR||lab_chemicals|1|UQC_kgs|||
+PB0307|FINDIG_GOOD|N|N|Ammonium Chloride AR|Ammonium Chloride AR||lab_chemicals|1|UQC_gms|||
+PB0308|FINDIG_GOOD|N|N|Sodium Cyanide AR|Sodium Cyanide AR||lab_chemicals|1|UQC_gms|||
+PB0309|FINDIG_GOOD|N|N|Hydroxylamine Hydrochloride AR Solid Sal|Hydroxylamine Hydrochloride AR Solid Sal||lab_chemicals|1|UQC_gms|||
+PB0310|FINDIG_GOOD|N|N|Eriochrome Black (T) Indicator|Eriochrome Black (T) Indicator||lab_chemicals|1|UQC_gms|||
+PB0311|FINDIG_GOOD|N|N|Nutrient Agar Media, M001|Nutrient Agar Media, M001||lab_chemicals|1|UQC_gms|||
+PB0312|FINDIG_GOOD|N|N|Pseudomonas Agar Media, M120|Pseudomonas Agar Media, M120||lab_chemicals|1|UQC_gms|||
+PB0313|FINDIG_GOOD|N|N|Azotobacter (Manitol) M372|Azotobacter (Manitol) M372||lab_chemicals|1|UQC_gms|||
+PB0314|FINDIG_GOOD|N|N|Pikovaskya's Agar MediaM520|Pikovaskya's Agar MediaM520||lab_chemicals|1|UQC_gms|||
+PB0315|FINDIG_GOOD|N|N|Yeast Extract|Yeast Extract||consumable_items|1|UQC_gms|||
+PB0316|FINDIG_GOOD|N|N|Peptone Water (m028)|Peptone Water (m028)||lab_chemicals|1|UQC_gms|||
+PB0317|FINDIG_GOOD|N|N|Agar for tissue culture|Agar for tissue culture||lab_chemicals|1|UQC_kgs|||
+PB0318|FINDIG_GOOD|N|N|Gooch Crucible G 4, Capacity: 30 Ml|Gooch Crucible G 4, Capacity: 30 Ml||consumable_items|1|UQC_pcs|||
+PB0319|FINDIG_GOOD|N|N|1 Litre Glass Beaker|1 Litre Glass Beaker||consumable_items|1|UQC_pcs|||
+PB0320|FINDIG_GOOD|N|N|Glass Petri Dish, 100 Mm|Glass Petri Dish, 100 Mm||consumable_items|1|UQC_pcs|||
+PB0321|FINDIG_GOOD|N|N|Test Tube for Tissue Culture, Size: 25x1|Test Tube for Tissue Culture, Size: 25x1||consumable_items|1|UQC_pcs|||
+PB0322|FINDIG_GOOD|N|N|U Connector (Kjeldal Distillation)|U Connector (Kjeldal Distillation)||consumable_items|1|UQC_pcs|||
+PB0323|FINDIG_GOOD|N|N|Kjeldahl Trap Adapter Joint|Kjeldahl Trap Adapter Joint||consumable_items|1|UQC_pcs|||
+PB0324|FINDIG_GOOD|N|N|Condencer Connector Funnel|Condencer Connector Funnel||consumable_items|1|UQC_pcs|||
+PB0325|FINDIG_GOOD|N|N|Distillation Funnel|Distillation Funnel||consumable_items|1|UQC_pcs|||
+PB0326|FINDIG_GOOD|N|N|Distillation Cooling Pipe|Distillation Cooling Pipe||consumable_items|1|UQC_mtr|||
+PB0327|FINDIG_GOOD|N|N|Tissue Paper|Tissue Paper||consumable_items|1|UQC_pcs|||
+PB0328|FINDIG_GOOD|N|N|12 V 18 AH Battery Make : Rocket|12 V 18 AH Battery Make : Rocket||consumable_items|1|UQC_pcs|||
+PB0329|FINDIG_GOOD|N|N|MS Sheet (1250X6000X10mm)|MS Sheet (1250X6000X10mm)||consumable_items|1|UQC_ton|||
+PB0330|FINDIG_GOOD|N|N|MS Sheet (1250X6000X5mm)|MS Sheet (1250X6000X5mm)||consumable_items|1|UQC_ton|||
+PB0331|FINDIG_GOOD|N|N|MS Flat (70X10mm)|MS Flat (70X10mm)||consumable_items|1|UQC_ton|||
+PB0332|FINDIG_GOOD|N|N|MS T (75X5mm)|MS T (75X5mm)||consumable_items|1|UQC_pcs|||
+PB0333|FINDIG_GOOD|N|N|MS Angle (50x5mm)|MS Angle (50x5mm)||consumable_items|1|UQC_ton|||
+PB0334|FINDIG_GOOD|N|N|MS Channel (100X50X5mm)|MS Channel (100X50X5mm)||consumable_items|1|UQC_ton|||
+PB0335|FINDIG_GOOD|N|N|MS Sheet (1250X2500X3mm)|MS Sheet (1250X2500X3mm)||consumable_items|1|UQC_ton|||
+PB0336|FINDIG_GOOD|N|N|ISMC 400X10mm|ISMC 400X10mm||consumable_items|1|UQC_ton|||
+PB0337|FINDIG_GOOD|N|N|ISMB 500X180 Mm|ISMB 500X180 Mm||consumable_items|1|UQC_ton|||
+PB0338|FINDIG_GOOD|N|N|ISMB 450X150 mm|ISMB 450X150 mm||consumable_items|1|UQC_ton|||
+PB0339|FINDIG_GOOD|N|N|ISA 40X40X5mm|ISA 40X40X5mm||consumable_items|1|UQC_ton|||
+PB0340|FINDIG_GOOD|N|N|20mm Thick MS Plate Size-1500X1000 mm|20mm Thick MS Plate Size-1500X1000 mm||consumable_items|1|UQC_ton|||
+PB0341|FINDIG_GOOD|N|N|12mm Thick MS Plate Size-1250X2500mm|12mm Thick MS Plate Size-1250X2500mm||consumable_items|1|UQC_ton|||
+PB0342|FINDIG_GOOD|N|N|5mm Thick MS Chequred Size-1500X6300mm|5mm Thick MS Chequred Size-1500X6300mm||consumable_items|1|UQC_ton|||
+PB0343|FINDIG_GOOD|N|N|MS Box 200X100X6mm Thick|MS Box 200X100X6mm Thick||consumable_items|1|UQC_ton|||
+PB0344|FINDIG_GOOD|N|N|Plastic Cap for Hdpe Bottle 1 Ltr.|Plastic Cap for Hdpe Bottle 1 Ltr.||packing_material|1|UQC_pcs|||
+PB0345|FINDIG_GOOD|N|N|Fire Wood|Fire Wood||consumable_items|1|UQC_kgs|||
+PB0346|FINDIG_GOOD|N|N|CARBOXY METHYL CELLULOSE (CMC) comercial|CARBOXY METHYL CELLULOSE (CMC) comercial||raw_material|1|UQC_kgs|||
+PB0347|FINDIG_GOOD|N|N|DANFOSS AC DRIVE FOR 15KW /20HP ,I/P 440|DANFOSS AC DRIVE FOR 15KW /20HP ,I/P 440||consumable_items|1|UQC_pcs|||
+PB0348|FINDIG_GOOD|N|N|MS Square Pipe 75X75X3 Mm|MS Square Pipe 75X75X3 Mm||consumable_items|1|UQC_ton|||
+PB0349|FINDIG_GOOD|N|N|Ridge GI 1M X 1M|Ridge GI 1M X 1M||consumable_items|1|UQC_mtr|||
+PB0350|FINDIG_GOOD|N|N|GI Colour Coated Sheet 20' X 1 Mtr Thick|GI Colour Coated Sheet 20' X 1 Mtr Thick||consumable_items|1|UQC_pcs|||
+PB0351|FINDIG_GOOD|N|N|GI Colour Coated Sheet 16' X 1 Mtr Thick|GI Colour Coated Sheet 16' X 1 Mtr Thick||consumable_items|1|UQC_pcs|||
+PB0352|FINDIG_GOOD|N|N|Self Drilling Screw 12mmX55mm Hex Head|Self Drilling Screw 12mmX55mm Hex Head||consumable_items|1|UQC_pcs|||
+PB0353|FINDIG_GOOD|N|N|Self Drilling Screw 12mmX25mm Hex Head|Self Drilling Screw 12mmX25mm Hex Head||consumable_items|1|UQC_pcs|||
+PB0354|FINDIG_GOOD|N|N|ISMC 150X75X5mm|ISMC 150X75X5mm||consumable_items|1|UQC_ton|||
+PB0355|FINDIG_GOOD|N|N|ISMC 200X75X8mm|ISMC 200X75X8mm||consumable_items|1|UQC_ton|||
+PB0356|FINDIG_GOOD|N|N|Dell Latitude 3480 Laptop / Intel Core|Dell Latitude 3480 Laptop / Intel Core||assets|1|UQC_pcs|||
+PB0357|FINDIG_GOOD|N|N|URS for MCC Panel ( Granulator Plant )|URS for MCC Panel ( Granulator Plant )||assets|1|UQC_pcs|||
+PB0358|FINDIG_GOOD|N|N|URS for Remote Panel-1|URS for Remote Panel-1||assets|1|UQC_pcs|||
+PB0359|FINDIG_GOOD|N|N|URS for Remote Panel-2|URS for Remote Panel-2||assets|1|UQC_pcs|||
+PB0360|FINDIG_GOOD|N|N|FRP SQUARE TYPE COOLING TOWER OF 250 TR|FRP SQUARE TYPE COOLING TOWER OF 250 TR||assets|1|UQC_pcs|||
+PB0361|FINDIG_GOOD|N|N|Two stage Oil free screw air compressor|Two stage Oil free screw air compressor||assets|1|UQC_pcs|||
+PB0362|FINDIG_GOOD|N|N|Refrigerant Type Air Dryer, Model: Fx 17|Refrigerant Type Air Dryer, Model: Fx 17||assets|1|UQC_pcs|||
+PB0363|FINDIG_GOOD|N|N|Line Filters for purification upto 0.01|Line Filters for purification upto 0.01||assets|1|UQC_pcs|||
+PB0364|FINDIG_GOOD|N|N|Vertical Air Receiver of 5m3  10 Bar.g|Vertical Air Receiver of 5m3  10 Bar.g||assets|1|UQC_pcs|||
+PB0365|FINDIG_GOOD|N|N|Bolero P+ ZLX|Bolero P+ ZLX||assets|1|UQC_pcs|||
+PB0366|FINDIG_GOOD|N|N|Safety Shoes Size: 6 No.|Safety Shoes Size: 6 No.||consumable_items|1|UQC_pcs|||
+PB0367|FINDIG_GOOD|N|N|Safety Shoes Size: 7 No.|Safety Shoes Size: 7 No.||consumable_items|1|UQC_pcs|||
+PB0368|FINDIG_GOOD|N|N|Safety Shoes Size: 8 No.|Safety Shoes Size: 8 No.||consumable_items|1|UQC_pcs|||
+PB0369|FINDIG_GOOD|N|N|Safety Shoes Size: 9 No.|Safety Shoes Size: 9 No.||consumable_items|1|UQC_pcs|||
+PB0370|FINDIG_GOOD|N|N|Safety Shoes Size: 10 No.|Safety Shoes Size: 10 No.||consumable_items|1|UQC_pcs|||
+PB0371|FINDIG_GOOD|N|N|Whey Storage Tank 50KL With EC &Agitator|Whey Storage Tank 50KL With EC &Agitator||assets|1|UQC_pcs|||
+PB0372|FINDIG_GOOD|N|N|Padestel Bracket SN 518|Padestel Bracket SN 518||consumable_items|1|UQC_pcs|||
+PB0373|FINDIG_GOOD|N|N|Padestel Bracket SN 517|Padestel Bracket SN 517||consumable_items|1|UQC_pcs|||
+PB0374|FINDIG_GOOD|N|N|Padestel Bracket SN 515|Padestel Bracket SN 515||consumable_items|1|UQC_pcs|||
+PB0375|FINDIG_GOOD|N|N|MS Sleev H318|MS Sleev H318||consumable_items|1|UQC_pcs|||
+PB0376|FINDIG_GOOD|N|N|MS Sleev H317|MS Sleev H317||consumable_items|1|UQC_pcs|||
+PB0377|FINDIG_GOOD|N|N|MS Sleev H315|MS Sleev H315||consumable_items|1|UQC_pcs|||
+PB0378|FINDIG_GOOD|N|N|Bearing 22218 K|Bearing 22218 K||consumable_items|1|UQC_pcs|||
+PB0379|FINDIG_GOOD|N|N|Bearing 22217 K|Bearing 22217 K||consumable_items|1|UQC_pcs|||
+PB0380|FINDIG_GOOD|N|N|Bearing 22215 K|Bearing 22215 K||consumable_items|1|UQC_pcs|||
+PB0381|FINDIG_GOOD|N|N|Plumber Block UCP 212|Plumber Block UCP 212||consumable_items|1|UQC_pcs|||
+PB0382|FINDIG_GOOD|N|N|Plumber Block UCP 210|Plumber Block UCP 210||consumable_items|1|UQC_pcs|||
+PB0383|FINDIG_GOOD|N|N|Plumber Block UCP 208|Plumber Block UCP 208||consumable_items|1|UQC_pcs|||
+PB0384|FINDIG_GOOD|N|N|Tyre Coupling TC-017|Tyre Coupling TC-017||consumable_items|1|UQC_pcs|||
+PB0385|FINDIG_GOOD|N|N|Tyre Coupling TC-015|Tyre Coupling TC-015||consumable_items|1|UQC_pcs|||
+PB0386|FINDIG_GOOD|N|N|Tyre Coupling TC-012|Tyre Coupling TC-012||consumable_items|1|UQC_pcs|||
+PB0387|FINDIG_GOOD|N|N|Drum Spoter Roll 150X200X90X275 Bearing|Drum Spoter Roll 150X200X90X275 Bearing||consumable_items|1|UQC_pcs|||
+PB0388|FINDIG_GOOD|N|N|Drum Spoter Roll 350X250X190X58 Bearing|Drum Spoter Roll 350X250X190X58 Bearing||consumable_items|1|UQC_pcs|||
+PB0389|FINDIG_GOOD|N|N|Vibrater , Hojing shaft with Bearing 180|Vibrater , Hojing shaft with Bearing 180||consumable_items|1|UQC_pcs|||
+PB0390|FINDIG_GOOD|N|N|Drum Tayar ring 1980X150X2130|Drum Tayar ring 1980X150X2130||consumable_items|1|UQC_pcs|||
+PB0391|FINDIG_GOOD|N|N|Drum Tayar Ring 1350X100X40X14|Drum Tayar Ring 1350X100X40X14||consumable_items|1|UQC_pcs|||
+PB0392|FINDIG_GOOD|N|N|Shaft Chakori 1940X75|Shaft Chakori 1940X75||consumable_items|1|UQC_pcs|||
+PB0393|FINDIG_GOOD|N|N|Wheel Weight 350X40|Wheel Weight 350X40||consumable_items|1|UQC_pcs|||
+PB0394|FINDIG_GOOD|N|N|Chain Mill Rooter circle OD 350X12 Shaft|Chain Mill Rooter circle OD 350X12 Shaft||consumable_items|1|UQC_pcs|||
+PB0395|FINDIG_GOOD|N|N|Stoper 70X250X90 Bearing 6215|Stoper 70X250X90 Bearing 6215||consumable_items|1|UQC_pcs|||
+PB0396|FINDIG_GOOD|N|N|Stoper 60X150X80 Bearing 6214|Stoper 60X150X80 Bearing 6214||consumable_items|1|UQC_pcs|||
+PB0397|FINDIG_GOOD|N|N|Ruly 230X89X20|Ruly 230X89X20||consumable_items|1|UQC_pcs|||
+PB0398|FINDIG_GOOD|N|N|Ruly 630X89X20|Ruly 630X89X20||consumable_items|1|UQC_pcs|||
+PB0399|FINDIG_GOOD|N|N|Ruly 840X89X20|Ruly 840X89X20||consumable_items|1|UQC_pcs|||
+PB0400|FINDIG_GOOD|N|N|Blor Shaft Coupling 830X75 Coupling 6215|Blor Shaft Coupling 830X75 Coupling 6215||consumable_items|1|UQC_pcs|||
+PB0401|FINDIG_GOOD|N|N|MS Belt Conveyor|MS Belt Conveyor||assets|1|UQC_pcs|1|UQC_unt|1
+PB0402|FINDIG_GOOD|N|N|MS Screw Conveery|MS Screw Conveery||assets|1|UQC_pcs|1|UQC_unt|1
+PB0403|FINDIG_GOOD|N|N|MS Dryer Conveyor|MS Dryer Conveyor||assets|1|UQC_pcs|||
+PB0404|FINDIG_GOOD|N|N|MS Big Granulater|MS Big Granulater||assets|1|UQC_pcs|||
+PB0405|FINDIG_GOOD|N|N|MS Small Granulater|MS Small Granulater||assets|1|UQC_pcs|||
+PB0406|FINDIG_GOOD|N|N|MS Jharna With Motor|MS Jharna With Motor||assets|1|UQC_pcs|||
+PB0407|FINDIG_GOOD|N|N|SS 304 Steam Jacket With Gear Box|SS 304 Steam Jacket With Gear Box||assets|1|UQC_pcs|||
+PB0408|FINDIG_GOOD|N|N|MS Fan Stand|MS Fan Stand||assets|1|UQC_pcs|||
+PB0409|FINDIG_GOOD|N|N|MS Jjharna|MS Jjharna||assets|1|UQC_pcs|||
+PB0410|FINDIG_GOOD|N|N|Clean Agent 2 Kg|Clean Agent 2 Kg||consumable_items|1|UQC_pcs|||
+PB0411|FINDIG_GOOD|N|N|Map 90 Fire Extinguisher 06 Kg Cap Trole|Map 90 Fire Extinguisher 06 Kg Cap Trole||consumable_items|1|UQC_pcs|||
+PB0412|FINDIG_GOOD|N|N|CO2 Type Fire Extunguisher 4.5 Kg Cap|CO2 Type Fire Extunguisher 4.5 Kg Cap||consumable_items|1|UQC_pcs|||
+PB0413|FINDIG_GOOD|N|N|Map 90 Fire Extingusher 25 Kg Cap Troley|Map 90 Fire Extingusher 25 Kg Cap Troley||consumable_items|1|UQC_pcs|||
+PB0414|FINDIG_GOOD|N|N|HiAssorted Biochemical Test Kit HI Media|HiAssorted Biochemical Test Kit HI Media||consumable_items|1|UQC_pcs|||
+PB0415|FINDIG_GOOD|N|N|HiBacillus Identification Kit - Hi Media|HiBacillus Identification Kit - Hi Media||consumable_items|1|UQC_pcs|||
+PB0416|FINDIG_GOOD|N|N|Alu. Cable 150 Mm 3 Core Armoured 11 KV|Alu. Cable 150 Mm 3 Core Armoured 11 KV||consumable_items|1|UQC_mtr|||
+PB0417|FINDIG_GOOD|N|N|1.0 Ton Voltas Split All Weather AC|1.0 Ton Voltas Split All Weather AC||assets|1|UQC_pcs|||
+PB0418|FINDIG_GOOD|N|N|Panel Board Electrical (MCCB Panel)|Panel Board Electrical (MCCB Panel)||assets|1|UQC_pcs|||
+PB0419|FINDIG_GOOD|N|N|ISMB 300X140 mm|ISMB 300X140 mm||consumable_items|1|UQC_ton|||
+PB0420|FINDIG_GOOD|N|N|ISMB 125X70 mm|ISMB 125X70 mm||consumable_items|1|UQC_ton|||
+PB0421|FINDIG_GOOD|N|N|ISMC 300x900mm|ISMC 300x900mm||consumable_items|1|UQC_ton|1|UQC_pcs|1
+PB0422|FINDIG_GOOD|N|N|ISMC 120x65mm|ISMC 120x65mm||consumable_items|1|UQC_ton|1|UQC_pcs|1
+PB0423|FINDIG_GOOD|N|N|5mm Thick MS Chequred Size-1250X6300mm|5mm Thick MS Chequred Size-1250X6300mm||consumable_items|1|UQC_ton|||
+PB0424|FINDIG_GOOD|N|N|ISA 50X50X5mm|ISA 50X50X5mm||consumable_items|1|UQC_ton|||
+PB0425|FINDIG_GOOD|N|N|MS Round Pipe (1.5)inch (Thk-2mm)|MS Round Pipe (1.5)inch (Thk-2mm)||consumable_items|1|UQC_ton|||
+PB0426|FINDIG_GOOD|N|N|16mm Thick MS Plate Size-1250X6000mm|16mm Thick MS Plate Size-1250X6000mm||consumable_items|1|UQC_ton|||
+PB0427|FINDIG_GOOD|N|N|Bio Culture|Bio Culture||bio_fertilizer|1|UQC_klr|||
+PB0428|FINDIG_GOOD|N|N|The Fertiliser (Control) Order, Latest|The Fertiliser (Control) Order, Latest||consumable_items|1|UQC_pcs|||
+PB0429|FINDIG_GOOD|N|N|The Insecticides Act 1968 with Rules1971|The Insecticides Act 1968 with Rules1971||consumable_items|1|UQC_pcs|||
+PB0430|FINDIG_GOOD|N|N|Asian Oil Paint Apcolite Enamel White|Asian Oil Paint Apcolite Enamel White||consumable_items|1|UQC_klr|||
+PB0431|FINDIG_GOOD|N|N|Golden Yellow Enamel Paint Asian Apcolit|Golden Yellow Enamel Paint Asian Apcolit||consumable_items|1|UQC_klr|||
+PB0432|FINDIG_GOOD|N|N|Mineral Oil / Tarpin Oil|Mineral Oil / Tarpin Oil||consumable_items|1|UQC_klr|||
+PB0433|FINDIG_GOOD|N|N|Paint Brush 4inch|Paint Brush 4inch||consumable_items|1|UQC_pcs|||
+PB0434|FINDIG_GOOD|N|N|Paint Brush 5inch|Paint Brush 5inch||consumable_items|1|UQC_pcs|||
+PB0435|FINDIG_GOOD|N|N|I Cards Both Side Print Holder &amp; Dori Pr|I Cards Both Side Print Holder &amp; Dori Pr||consumable_items|1|UQC_pcs|||
+PB0436|FINDIG_GOOD|N|N|Office Table ( 4' X 2.5')|Office Table ( 4' X 2.5')||assets|1|UQC_pcs|||
+PB0437|FINDIG_GOOD|N|N|Side Table (30X30X16)|Side Table (30X30X16)||assets|1|UQC_pcs|||
+PB0438|FINDIG_GOOD|N|N|Garari Penion 6.5 ID|Garari Penion 6.5 ID||consumable_items|1|UQC_pcs|||
+PB0439|FINDIG_GOOD|N|N|Garari Penion 4.5 ID|Garari Penion 4.5 ID||consumable_items|1|UQC_pcs|||
+PB0440|FINDIG_GOOD|N|N|Starter 7.5 HP MK 1 Dol|Starter 7.5 HP MK 1 Dol||assets|1|UQC_pcs|||
+PB0441|FINDIG_GOOD|N|N|LED Tube Light Fitting 20 Watt 4FT|LED Tube Light Fitting 20 Watt 4FT||consumable_items|1|UQC_pcs|||
+PB0442|FINDIG_GOOD|N|N|COPPER FLEXIBLE WIRE 1.0 SQ MM SINGLE CO|COPPER FLEXIBLE WIRE 1.0 SQ MM SINGLE CO||consumable_items|1|UQC_mtr|||
+PB0443|FINDIG_GOOD|N|N|MCCB DN1-250C 125A 3POLE 25KA CAT NO-CM9|MCCB DN1-250C 125A 3POLE 25KA CAT NO-CM9||consumable_items|1|UQC_pcs|||
+PB0444|FINDIG_GOOD|N|N|DB SPN 4WAY DOUBLE DOOR|DB SPN 4WAY DOUBLE DOOR||consumable_items|1|UQC_pcs|||
+PB0445|FINDIG_GOOD|N|N|MCB 32A 3POLE|MCB 32A 3POLE||consumable_items|1|UQC_pcs|||
+PB0446|FINDIG_GOOD|N|N|ENCLOSURE SIZE-II CAT NO-CM91003OOOO|ENCLOSURE SIZE-II CAT NO-CM91003OOOO||consumable_items|1|UQC_pcs|||
+PB0447|FINDIG_GOOD|N|N|COPPER FLEXIBLE CABLE 6 SQ MM X 3 CORE|COPPER FLEXIBLE CABLE 6 SQ MM X 3 CORE||consumable_items|1|UQC_mtr|1|UQC_pcs|1
+PB0448|FINDIG_GOOD|N|N|XLPE 1100V LT ALUMINIUM ARMOURED CABLE 5|XLPE 1100V LT ALUMINIUM ARMOURED CABLE 5||consumable_items|1|UQC_mtr|||
+PB0449|FINDIG_GOOD|N|N|SAP Software|SAP Software||assets|1|UQC_oth|||
+PB0450|FINDIG_GOOD|N|N|Supply of Water Cooled Scroll Chiller|Supply of Water Cooled Scroll Chiller||assets|1|UQC_pcs|||
+PB0451|FINDIG_GOOD|N|N|Plumber Block UCP 216|Plumber Block UCP 216||consumable_items|1|UQC_pcs|||
+PB0452|FINDIG_GOOD|N|N|EPBEX NS300 for Panasonic System|EPBEX NS300 for Panasonic System||assets|1|UQC_pcs|||
+PB0453|FINDIG_GOOD|N|N|DSP Card for Panasonic System|DSP Card for Panasonic System||assets|1|UQC_pcs|||
+PB0454|FINDIG_GOOD|N|N|License IP Activation Key|License IP Activation Key||assets|1|UQC_pcs|||
+PB0455|FINDIG_GOOD|N|N|License trunk Activation|License trunk Activation||assets|1|UQC_pcs|||
+PB0456|FINDIG_GOOD|N|N|50 PAIR MDF|50 PAIR MDF||assets|1|UQC_pcs|||
+PB0457|FINDIG_GOOD|N|N|MS Nut Bolt With Washer|MS Nut Bolt With Washer||consumable_items|1|UQC_kgs|||
+PB0458|FINDIG_GOOD|N|N|Battery 12V, 150 AH Model : Exide Gold|Battery 12V, 150 AH Model : Exide Gold||consumable_items|1|UQC_pcs|||
+PB0459|FINDIG_GOOD|N|N|Roller Chain 1inch Simplex each 3 Mtr|Roller Chain 1inch Simplex each 3 Mtr||consumable_items|1|UQC_box|||
+PB0460|FINDIG_GOOD|N|N|Roller Chain 1.5inch Simplex each 3 Mtr|Roller Chain 1.5inch Simplex each 3 Mtr||consumable_items|1|UQC_box|||
+PB0461|FINDIG_GOOD|N|N|Roller Chain 1.5inch Duplex each 3 Mtr|Roller Chain 1.5inch Duplex each 3 Mtr||consumable_items|1|UQC_box|||
+PB0462|FINDIG_GOOD|N|N|Half Lock 1inch Simplex|Half Lock 1inch Simplex||consumable_items|1|UQC_pcs|||
+PB0463|FINDIG_GOOD|N|N|Full Lock 1inch Simplex|Full Lock 1inch Simplex||consumable_items|1|UQC_pcs|||
+PB0464|FINDIG_GOOD|N|N|Half Lock 1.5inch Simplex|Half Lock 1.5inch Simplex||consumable_items|1|UQC_pcs|||
+PB0465|FINDIG_GOOD|N|N|Full Lock 1.5inch Simplex|Full Lock 1.5inch Simplex||consumable_items|1|UQC_pcs|||
+PB0466|FINDIG_GOOD|N|N|Half Lock 1.5inch Duplex|Half Lock 1.5inch Duplex||consumable_items|1|UQC_pcs|||
+PB0467|FINDIG_GOOD|N|N|Full Lock 1.5inch Duplex|Full Lock 1.5inch Duplex||consumable_items|1|UQC_pcs|||
+PB0468|FINDIG_GOOD|N|N|USB Keybord|USB Keybord||consumable_items|1|UQC_pcs|||
+PB0469|FINDIG_GOOD|N|N|TVSE Keybord|TVSE Keybord||consumable_items|1|UQC_pcs|||
+PB0470|FINDIG_GOOD|N|N|USB Mouse|USB Mouse||consumable_items|1|UQC_pcs|||
+PB0471|FINDIG_GOOD|N|N|Wireless Mouse|Wireless Mouse||consumable_items|1|UQC_pcs|||
+PB0472|FINDIG_GOOD|N|N|UPS 1 KVA|UPS 1 KVA||consumable_items|1|UQC_pcs|||
+PB0473|FINDIG_GOOD|N|N|UPS 600 VA|UPS 600 VA||consumable_items|1|UQC_pcs|||
+PB0474|FINDIG_GOOD|N|N|Externel Hard Disc|Externel Hard Disc||assets|1|UQC_pcs|||
+PB0475|FINDIG_GOOD|N|N|Pen Drive 32 GB|Pen Drive 32 GB||consumable_items|1|UQC_pcs|||
+PB0476|FINDIG_GOOD|N|N|Transformer 11/433 KV, Cap. 800 KVA|Transformer 11/433 KV, Cap. 800 KVA||assets|1|UQC_pcs|||
+PB0477|FINDIG_GOOD|N|N|Bar Code Lable|Bar Code Lable||consumable_items|1|UQC_pcs|||
+PB0478|FINDIG_GOOD|N|N|Chip Ink|Chip Ink||consumable_items|1|UQC_pcs|||
+PB0479|FINDIG_GOOD|N|N|Electromagnetic Flowmeter|Electromagnetic Flowmeter||assets|1|UQC_pcs|||
+PB0480|FINDIG_GOOD|N|N|Complete Construction of 11 KV Line|Complete Construction of 11 KV Line||assets|1|UQC_unt|||
+PB0481|FINDIG_GOOD|N|N|Complete Supply of Cabling &amp; Fixing|Complete Supply of Cabling &amp; Fixing||assets|1|UQC_unt|||
+PB0482|FINDIG_GOOD|N|N|Complete Supply of Light &amp; Fans Fittings|Complete Supply of Light &amp; Fans Fittings||assets|1|UQC_unt|||
+PB0483|FINDIG_GOOD|N|N|MS Angle (75X75X8mm)|MS Angle (75X75X8mm)||consumable_items|1|UQC_kgs|||
+PB0484|FINDIG_GOOD|N|N|MS Square Pipe 60X60X2 Mm|MS Square Pipe 60X60X2 Mm||consumable_items|1|UQC_mtr|||
+PB0485|FINDIG_GOOD|N|N|MS Wiremesh 25X25X3 Mm|MS Wiremesh 25X25X3 Mm||consumable_items|1|UQC_kgs|||
+PB0486|FINDIG_GOOD|N|N|DE002-1PK Dodeca G-I-Plus - Hi Media (C)|DE002-1PK Dodeca G-I-Plus - Hi Media (C)||consumable_items|1|UQC_pcs|||
+PB0487|FINDIG_GOOD|N|N|DE009-1PK Dodeca G-II-Plus -Hi Media (C)|DE009-1PK Dodeca G-II-Plus -Hi Media (C)||consumable_items|1|UQC_pcs|||
+PB0488|FINDIG_GOOD|N|N|DE023-1PK Dodeca G-IV-Plus -Hi Media (C)|DE023-1PK Dodeca G-IV-Plus -Hi Media (C)||consumable_items|1|UQC_pcs|||
+PB0489|FINDIG_GOOD|N|N|DE003-1PK Dodeca G-I-Minus - Hi Media (C)|DE003-1PK Dodeca G-I-Minus - Hi Media (C)||consumable_items|1|UQC_pcs|||
+PB0490|FINDIG_GOOD|N|N|DE010-1PK Dodeca G-II-Minus - Hi Media (C)|DE010-1PK Dodeca G-II-Minus - Hi Media (C)||consumable_items|1|UQC_pcs|||
+PB0491|FINDIG_GOOD|N|N|DE031-1PK Dodeca G-VI-Minus - Hi Media (C)|DE031-1PK Dodeca G-VI-Minus - Hi Media (C)||consumable_items|1|UQC_pcs|||
+PB0492|FINDIG_GOOD|N|N|Patanjali Tricho 500 Gm|Patanjali Tricho 500 Gm||bio_pesticide|1|UQC_pcs|||
+PB0493|FINDIG_GOOD|N|N|Patanjali Fluorescens 500 Gm|Patanjali Fluorescens 500 Gm||bio_pesticide|1|UQC_pcs|||
+PB0494|FINDIG_GOOD|N|N|Supply of Furnace Mfr. Mat. &amp; Installati|Supply of Furnace Mfr. Mat. &amp; Installati||assets|1|UQC_unt|||
+PB0495|FINDIG_GOOD|N|N|Visualplay Client Node|Visualplay Client Node||consumable_items|1|UQC_pcs|||
+PB0496|FINDIG_GOOD|N|N|Smoke Grey Oil Paint|Smoke Grey Oil Paint||consumable_items|1|UQC_klr|||
+PB0497|FINDIG_GOOD|N|N|Redoxide Primer|Redoxide Primer||consumable_items|1|UQC_klr|||
+PB0498|FINDIG_GOOD|N|N|80 No. Emery Paper|80 No. Emery Paper||consumable_items|1|UQC_mtr|||
+PB0499|FINDIG_GOOD|N|N|Tarpin Oil|Tarpin Oil||consumable_items|1|UQC_klr|||
+PB0500|FINDIG_GOOD|N|N|Allu. Paint High Temper 200|Allu. Paint High Temper 200||consumable_items|1|UQC_klr|||
+PB0501|FINDIG_GOOD|N|N|IP Camera 2 MP|IP Camera 2 MP||assets|1|UQC_pcs|||
+PB0502|FINDIG_GOOD|N|N|NVR 32 Channel|NVR 32 Channel||assets|1|UQC_pcs|||
+PB0503|FINDIG_GOOD|N|N|24 Port D-Link Switch GIGABIT (DGS1210-2|24 Port D-Link Switch GIGABIT (DGS1210-2||assets|1|UQC_unt|||
+PB0504|FINDIG_GOOD|N|N|6 TB HDD|6 TB HDD||assets|1|UQC_pcs|||
+PB0505|FINDIG_GOOD|N|N|Cable Cat|Cable Cat||assets|1|UQC_pcs|||
+PB0506|FINDIG_GOOD|N|N|Panasonic Telephone Model : KX60|Panasonic Telephone Model : KX60||assets|1|UQC_pcs|||
+PB0507|FINDIG_GOOD|N|N|SPRING 400X90X16|SPRING 400X90X16||consumable_items|1|UQC_pcs|||
+PB0508|FINDIG_GOOD|N|N|SPRING LOCK|SPRING LOCK||consumable_items|1|UQC_pcs|||
+PB0509|FINDIG_GOOD|N|N|GI Wiremesh 1250X15000mm Size 4X5|GI Wiremesh 1250X15000mm Size 4X5||consumable_items|1|UQC_unt|||
+PB0510|FINDIG_GOOD|N|N|GI Wiremesh 1250X15000mm Size 6X7|GI Wiremesh 1250X15000mm Size 6X7||consumable_items|1|UQC_unt|||
+PB0511|FINDIG_GOOD|N|N|MS Wiremesh 1250X15000mm Size 1X1|MS Wiremesh 1250X15000mm Size 1X1||consumable_items|1|UQC_unt|||
+PB0512|FINDIG_GOOD|N|N|Steel Wire Rope 10mmX6X19 Steel Core|Steel Wire Rope 10mmX6X19 Steel Core||consumable_items|1|UQC_mtr|||
+PB0513|FINDIG_GOOD|N|N|Wire Rope U-Clamp - 10 Mm|Wire Rope U-Clamp - 10 Mm||consumable_items|1|UQC_pcs|||
+PB0514|FINDIG_GOOD|N|N|Rubber Belt, Grade-M24, Width 750mm, 3 P|Rubber Belt, Grade-M24, Width 750mm, 3 P||consumable_items|1|UQC_mtr|||
+PB0515|FINDIG_GOOD|N|N|Rubber Belt, Grade-M24, Width 600mm, 3 P|Rubber Belt, Grade-M24, Width 600mm, 3 P||consumable_items|1|UQC_mtr|||
+PB0516|FINDIG_GOOD|N|N|Complete Uniform - White|Complete Uniform - White||consumable_items|1|UQC_unt|||
+PB0517|FINDIG_GOOD|N|N|Complete Uniform - Brown|Complete Uniform - Brown||consumable_items|1|UQC_unt|||
+PB0518|FINDIG_GOOD|N|N|Organic Manur &amp; Bio Fertilizers|Organic Manur &amp; Bio Fertilizers||bio_fertilizer|1|UQC_kgs|||
+PB0519|FINDIG_GOOD|N|N|Sonalika Tractor Model:DI-60 Rx-16.9 Tyr|Sonalika Tractor Model:DI-60 Rx-16.9 Tyr||assets|1|UQC_unt|||
+PB0520|FINDIG_GOOD|N|N|Patanjali Subhumi|Patanjali Subhumi||organic_manure|1|UQC_kgs|||
+PB0521|FINDIG_GOOD|N|N|Patanjali Bavaria|Patanjali Bavaria||bio_fertilizer|1|UQC_kgs|||
+PB0522|FINDIG_GOOD|N|N|Patanjali ZSB 1 LTR|Patanjali ZSB 1 LTR||bio_fertilizer|1|UQC_box|1|UQC_pcs|12
+PB0523|FINDIG_GOOD|N|N|ZSB Culture broth|ZSB Culture broth||semi_finish_product|1|UQC_klr|||
+PB0524|FINDIG_GOOD|N|N|Label for Patanjali ZSB 0.25 Ltr|Label for Patanjali ZSB 0.25 Ltr||packing_material|1|UQC_pcs|||
+PB0525|FINDIG_GOOD|N|N|Potassium Chloride (KCL)|Potassium Chloride (KCL)||consumable_items|1|UQC_kgs|||
+PB0526|FINDIG_GOOD|N|N|Zinc Oxide LR Grade|Zinc Oxide LR Grade||consumable_items|1|UQC_kgs|||
+PB0527|FINDIG_GOOD|N|N|Silicone Anti-Foaming Agent|Silicone Anti-Foaming Agent||consumable_items|1|UQC_klr|||
+PB0528|FINDIG_GOOD|N|N|Desktop I3|Desktop I3||assets|1|UQC_unt|||
+PB0529|FINDIG_GOOD|N|N|Laptop I3|Laptop I3||assets|1|UQC_unt|||
+PB0530|FINDIG_GOOD|N|N|Laptop Bag|Laptop Bag||consumable_items|1|UQC_pcs|||
+PB0531|FINDIG_GOOD|N|N|CHW PUMP IE3 Model : 1532 1-1/2 AC|CHW PUMP IE3 Model : 1532 1-1/2 AC||assets|1|UQC_unt|||
+PB0532|FINDIG_GOOD|N|N|Cooling Tower Water IE3 -1532 2-1/2AB|Cooling Tower Water IE3 -1532 2-1/2AB||assets|1|UQC_unt|||
+PB0533|FINDIG_GOOD|N|N|Cow Dung|Cow Dung||raw_material|1|UQC_ton|||
+PB0534|FINDIG_GOOD|N|N|Metarhizium Culture Broth|Metarhizium Culture Broth||semi_finish_product|1|UQC_klr|||
+PB0535|FINDIG_GOOD|N|N|Beauveria Culture Broth|Beauveria Culture Broth||semi_finish_product|1|UQC_klr|||
+PB0536|FINDIG_GOOD|N|N|MS Flat 50X16mm|MS Flat 50X16mm||consumable_items|1|UQC_ton|||
+PB0537|FINDIG_GOOD|N|N|Gate Valve 1inch|Gate Valve 1inch||consumable_items|1|UQC_pcs|||
+PB0538|FINDIG_GOOD|N|N|Lock 50 Mm|Lock 50 Mm||consumable_items|1|UQC_pcs|||
+PB0539|FINDIG_GOOD|N|N|PVC Tape|PVC Tape||consumable_items|1|UQC_pcs|||
+PB0540|FINDIG_GOOD|N|N|Teflon Tape|Teflon Tape||consumable_items|1|UQC_pcs|||
+PB0541|FINDIG_GOOD|N|N|SS Ball Valve 3/4inch|SS Ball Valve 3/4inch||consumable_items|1|UQC_pcs|||
+PB0542|FINDIG_GOOD|N|N|Cutting Wheel 4inch|Cutting Wheel 4inch||consumable_items|1|UQC_pcs|||
+PB0543|FINDIG_GOOD|N|N|Flap Disc 4inch|Flap Disc 4inch||consumable_items|1|UQC_pcs|||
+PB0544|FINDIG_GOOD|N|N|M Seal|M Seal||consumable_items|1|UQC_kgs|||
+PB0545|FINDIG_GOOD|N|N|PLC Tube 36 Watt 4 Pin|PLC Tube 36 Watt 4 Pin||consumable_items|1|UQC_pcs|||
+PB0546|FINDIG_GOOD|N|N|Tourch Nano|Tourch Nano||consumable_items|1|UQC_pcs|||
+PB0547|FINDIG_GOOD|N|N|V-Belt B-92|V-Belt B-92||consumable_items|1|UQC_pcs|||
+PB0548|FINDIG_GOOD|N|N|IT Services (Web Hosting &amp; Domain) 3yr|IT Services (Web Hosting &amp; Domain) 3yr||it_services|1|UQC_oth|||
+PB0549|FINDIG_GOOD|N|N|Patanjali Jaivic Kranti|Patanjali Jaivic Kranti||bio_fertilizer|1|UQC_box|1|UQC_klr|12
+PB0550|FINDIG_GOOD|N|N|Bearing 7310 B|Bearing 7310 B||consumable_items|1|UQC_pcs|||
+PB0551|FINDIG_GOOD|N|N|Wooden Screw 50X10|Wooden Screw 50X10||consumable_items|1|UQC_box|||
+PB0552|FINDIG_GOOD|N|N|Araldite 1800gm|Araldite 1800gm||consumable_items|1|UQC_box|||
+PB0553|FINDIG_GOOD|N|N|Anchor Fastner Bolt 16X150mm|Anchor Fastner Bolt 16X150mm||consumable_items|1|UQC_pcs|||
+PB0554|FINDIG_GOOD|N|N|Anchor Fastner 12X100mm|Anchor Fastner 12X100mm||consumable_items|1|UQC_pcs|||
+PB0555|FINDIG_GOOD|N|N|Copper Cable 2.5X3Core|Copper Cable 2.5X3Core||consumable_items|1|UQC_mtr|||
+PB0556|FINDIG_GOOD|N|N|4 Pole MCB Box|4 Pole MCB Box||consumable_items|1|UQC_pcs|||
+PB0557|FINDIG_GOOD|N|N|PVC Gitti 40mm|PVC Gitti 40mm||consumable_items|1|UQC_box|||
+PB0558|FINDIG_GOOD|N|N|Wooden Screw 35X8|Wooden Screw 35X8||consumable_items|1|UQC_box|||
+PB0559|FINDIG_GOOD|N|N|MCB 10A X 1 Pole|MCB 10A X 1 Pole||consumable_items|1|UQC_pcs|||
+PB0560|FINDIG_GOOD|N|N|MCB 16A X 1 Pole|MCB 16A X 1 Pole||consumable_items|1|UQC_pcs|||
+PB0561|FINDIG_GOOD|N|N|Wall Mounting Fan 400mm|Wall Mounting Fan 400mm||consumable_items|1|UQC_pcs|||
+PB0562|FINDIG_GOOD|N|N|MS Tool Box With Tools &amp; Kit|MS Tool Box With Tools &amp; Kit||assets|1|UQC_box|||
+PB0563|FINDIG_GOOD|N|N|MCB 2A X 1 Pole|MCB 2A X 1 Pole||consumable_items|1|UQC_pcs|||
+PB0564|FINDIG_GOOD|N|N|Add On Block|Add On Block||consumable_items|1|UQC_pcs|||
+PB0565|FINDIG_GOOD|N|N|MCB 63A 3POLE|MCB 63A 3POLE||consumable_items|1|UQC_pcs|||
+PB0566|FINDIG_GOOD|N|N|Overload Relay 9-13|Overload Relay 9-13||consumable_items|1|UQC_pcs|||
+PB0567|FINDIG_GOOD|N|N|Contacter 220 Volt MNX 18|Contacter 220 Volt MNX 18||consumable_items|1|UQC_pcs|||
+PB0568|FINDIG_GOOD|N|N|Contacter 220 Volt MNX 25|Contacter 220 Volt MNX 25||consumable_items|1|UQC_pcs|||
+PB0569|FINDIG_GOOD|N|N|Copper Lugs U Type 1.5 Mm|Copper Lugs U Type 1.5 Mm||consumable_items|1|UQC_pcs|||
+PB0570|FINDIG_GOOD|N|N|Copper Lugs U Type 4 mm|Copper Lugs U Type 4 mm||consumable_items|1|UQC_pcs|||
+PB0571|FINDIG_GOOD|N|N|Copper Lugs Pin Type 4 mm|Copper Lugs Pin Type 4 mm||consumable_items|1|UQC_pcs|||
+PB0572|FINDIG_GOOD|N|N|1mm Single Core Copper Wire|1mm Single Core Copper Wire||consumable_items|1|UQC_box|||
+PB0573|FINDIG_GOOD|N|N|4mm Single Core Copper Wire|4mm Single Core Copper Wire||consumable_items|1|UQC_box|||
+PB0574|FINDIG_GOOD|N|N|4mm 4 Core Copper  Flexible Cable|4mm 4 Core Copper  Flexible Cable||consumable_items|1|UQC_mtr|||
+PB0575|FINDIG_GOOD|N|N|Cable Tie 200 Mm|Cable Tie 200 Mm||consumable_items|1|UQC_box|||
+PB0576|FINDIG_GOOD|N|N|Digital Insulation Tester (Magger)|Digital Insulation Tester (Magger)||consumable_items|1|UQC_pcs|||
+PB0577|FINDIG_GOOD|N|N|Chlorophyll Meter SPAD 502 Plus|Chlorophyll Meter SPAD 502 Plus||assets|1|UQC_pcs|||
+PB0578|FINDIG_GOOD|N|N|11 KV HT VCB I/C+OG Make Crompton Greave|11 KV HT VCB I/C+OG Make Crompton Greave||assets|1|UQC_pcs|||
+PB0579|FINDIG_GOOD|N|N|Maxi-foliar Plus|Maxi-foliar Plus||bio_fertilizer|1|UQC_klr|||
+PB0580|FINDIG_GOOD|N|N|Microprocessor Flame Photometer - S-935|Microprocessor Flame Photometer - S-935||assets|1|UQC_pcs|||
+PB0581|FINDIG_GOOD|N|N|Calcium Filter Cost|Calcium Filter Cost||consumable_items|1|UQC_pcs|||
+PB0582|FINDIG_GOOD|N|N|43 Grade OPC Cement Make : Ultratech|43 Grade OPC Cement Make : Ultratech||consumable_items|1|UQC_bag|||
+PB0583|FINDIG_GOOD|N|N|TMT BAR 8 MM|TMT BAR 8 MM||consumable_items|1|UQC_ton|||
+PB0584|FINDIG_GOOD|N|N|TMT BAR 12 MM|TMT BAR 12 MM||consumable_items|1|UQC_ton|||
+PB0585|FINDIG_GOOD|N|N|TMT BAR 16 MM|TMT BAR 16 MM||consumable_items|1|UQC_ton|||
+PB0586|FINDIG_GOOD|N|N|Valve Set|Valve Set||consumable_items|1|UQC_bag|||
+PB0587|FINDIG_GOOD|N|N|Piston Ring Set|Piston Ring Set||consumable_items|1|UQC_pcs|||
+PB0588|FINDIG_GOOD|N|N|Filter Housing|Filter Housing||consumable_items|1|UQC_pcs|||
+PB0589|FINDIG_GOOD|N|N|Comp LUB - 2H|Comp LUB - 2H||consumable_items|1|UQC_klr|||
+PB0590|FINDIG_GOOD|N|N|Repair &amp; Maintinance|Repair &amp; Maintinance||service_charge|1|UQC_unt|||
+PB0591|FINDIG_GOOD|N|N|MS Pole SP 72|MS Pole SP 72||assets|1|UQC_pcs|||
+PB0592|FINDIG_GOOD|N|N|Cable End Termination Box 150 Mm Sq 3 Co|Cable End Termination Box 150 Mm Sq 3 Co||assets|1|UQC_pcs|||
+PB0593|FINDIG_GOOD|N|N|G.O. Switch 800 Amp 11 KV . 45 KL, Polym|G.O. Switch 800 Amp 11 KV . 45 KL, Polym||assets|1|UQC_pcs|||
+PB0594|FINDIG_GOOD|N|N|Electrode GI Dia 50, Length 3000 Mm With|Electrode GI Dia 50, Length 3000 Mm With||assets|1|UQC_pcs|||
+PB0595|FINDIG_GOOD|N|N|1 X 1 Feet PCC Chamber / Chequred Plate|1 X 1 Feet PCC Chamber / Chequred Plate||assets|1|UQC_pcs|||
+PB0596|FINDIG_GOOD|N|N|MS Nut Bolt|MS Nut Bolt||assets|1|UQC_kgs|||
+PB0597|FINDIG_GOOD|N|N|Earthing Strip GI 25 X 06 Mm|Earthing Strip GI 25 X 06 Mm||assets|1|UQC_kgs|||
+PB0598|FINDIG_GOOD|N|N|11 KV Pin Insulator With Pin|11 KV Pin Insulator With Pin||assets|1|UQC_pcs|||
+PB0599|FINDIG_GOOD|N|N|MS Round Pipe (150X5mm)|MS Round Pipe (150X5mm)||consumable_items|1|UQC_kgs|||
+PB0600|FINDIG_GOOD|N|N|MS Square Pipe 65X65X3 Mm|MS Square Pipe 65X65X3 Mm||consumable_items|1|UQC_kgs|||
+PB0601|FINDIG_GOOD|N|N|16mm Thick MS Plate|16mm Thick MS Plate||consumable_items|1|UQC_kgs|||
+PB0602|FINDIG_GOOD|N|N|GI Colour Coated Sheet 0.5X1000x20 Feet|GI Colour Coated Sheet 0.5X1000x20 Feet||consumable_items|1|UQC_kgs|||
+PB0603|FINDIG_GOOD|N|N|GI Colour Coated Sheet 0.5X1000x12 Feet|GI Colour Coated Sheet 0.5X1000x12 Feet||consumable_items|1|UQC_kgs|||
+PB0604|FINDIG_GOOD|N|N|GI Self Drill Screw 12X55|GI Self Drill Screw 12X55||consumable_items|1|UQC_pcs|||
+PB0605|FINDIG_GOOD|N|N|GI Self Drill Screw 12X25|GI Self Drill Screw 12X25||consumable_items|1|UQC_pcs|||
+PB0606|FINDIG_GOOD|N|N|Argon Gas|Argon Gas||consumable_items|1|UQC_pcs|||
+PB0607|FINDIG_GOOD|N|N|Dell Latitude 3490 Laptop / Intel Core|Dell Latitude 3490 Laptop / Intel Core||assets|1|UQC_pcs|||
+PB0608|FINDIG_GOOD|N|N|Dell Optiplex 3050 Desktop / Intel Core|Dell Optiplex 3050 Desktop / Intel Core||assets|1|UQC_pcs|||
+PB0609|FINDIG_GOOD|N|N|Pinions|Pinions||consumable_items|1|UQC_pcs|||
+PB0610|FINDIG_GOOD|N|N|Main LT Panel With APFC Panel|Main LT Panel With APFC Panel||assets|1|UQC_pcs|||
+PB0611|FINDIG_GOOD|N|N|Conveyer Belt Jointing|Conveyer Belt Jointing||assets|1|UQC_pcs|||
+PB0612|FINDIG_GOOD|N|N|Conveyer Belt Jointing at Site Width 750|Conveyer Belt Jointing at Site Width 750||assets|1|UQC_pcs|||
+PB0613|FINDIG_GOOD|N|N|Conveyer Belt Jointing at Site Width 600|Conveyer Belt Jointing at Site Width 600||assets|1|UQC_pcs|||
+PB0614|FINDIG_GOOD|N|N|UPVC Pipe  50mm SCH-40 Lead Free|UPVC Pipe  50mm SCH-40 Lead Free||consumable_items|1|UQC_mtr|||
+PB0615|FINDIG_GOOD|N|N|Socket 50mm SCH-40|Socket 50mm SCH-40||consumable_items|1|UQC_pcs|||
+PB0616|FINDIG_GOOD|N|N|Elbow 50mm  SCH-40|Elbow 50mm  SCH-40||consumable_items|1|UQC_pcs|||
+PB0617|FINDIG_GOOD|N|N|UPVC Tee 50mm SCH-40|UPVC Tee 50mm SCH-40||consumable_items|1|UQC_pcs|||
+PB0618|FINDIG_GOOD|N|N|FTA  50mm SCH-40 THREADED|FTA  50mm SCH-40 THREADED||consumable_items|1|UQC_pcs|||
+PB0619|FINDIG_GOOD|N|N|MTA 50mm SCH-40 THREADED|MTA 50mm SCH-40 THREADED||consumable_items|1|UQC_pcs|||
+PB0620|FINDIG_GOOD|N|N|Tank Adapter 50mm SCH-40|Tank Adapter 50mm SCH-40||consumable_items|1|UQC_pcs|||
+PB0621|FINDIG_GOOD|N|N|Ballvalve 50mm|Ballvalve 50mm||consumable_items|1|UQC_pcs|||
+PB0622|FINDIG_GOOD|N|N|UPVC Solvent|UPVC Solvent||consumable_items|1|UQC_klr|||
+PB0623|FINDIG_GOOD|N|N|UPVC Flange 50mm|UPVC Flange 50mm||consumable_items|1|UQC_pcs|||
+PB0624|FINDIG_GOOD|N|N|Gear Oil Grade 320|Gear Oil Grade 320||consumable_items|1|UQC_klr|||
+PB0625|FINDIG_GOOD|N|N|Almirah 50inchX30inchX16inch without Locker|Almirah 50inchX30inchX16inch without Locker||assets|1|UQC_pcs|||
+PB0626|FINDIG_GOOD|N|N|ISMC 75x40mm|ISMC 75x40mm||consumable_items|1|UQC_ton|1|UQC_pcs|1
+PB0627|FINDIG_GOOD|N|N|08mm Thick MS Plate|08mm Thick MS Plate||consumable_items|1|UQC_kgs|||
+PB0628|FINDIG_GOOD|N|N|MS Anchor Fastner 100X12mm|MS Anchor Fastner 100X12mm||consumable_items|1|UQC_pcs|||
+PB0629|FINDIG_GOOD|N|N|MS Anchor Fastner 100X16mm|MS Anchor Fastner 100X16mm||consumable_items|1|UQC_pcs|||
+PB0630|FINDIG_GOOD|N|N|MS Rolling Mill|MS Rolling Mill||assets|1|UQC_pcs|||
+PB0631|FINDIG_GOOD|N|N|Conveyor Machine|Conveyor Machine||assets|1|UQC_pcs|||
+PB0632|FINDIG_GOOD|N|N|Safety Stud Anchor HST3 M16x145 45/25|Safety Stud Anchor HST3 M16x145 45/25||consumable_items|1|UQC_box|||
+PB0633|FINDIG_GOOD|N|N|Silage Maize-75 Kg|Silage Maize-75 Kg||organic_manure|1|UQC_kgs|||
+PB0634|FINDIG_GOOD|N|N|Silage Sweet Sorgum-400kg|Silage Sweet Sorgum-400kg||organic_manure|1|UQC_kgs|||
+PB0635|FINDIG_GOOD|N|N|Oats Silage|Oats Silage||organic_manure|1|UQC_kgs|||
+PB0636|FINDIG_GOOD|N|N|Sodium Bicarbonate LR Grade|Sodium Bicarbonate LR Grade||lab_chemicals|1|UQC_kgs|||
+PB0637|FINDIG_GOOD|N|N|Ammonium Acetate|Ammonium Acetate||lab_chemicals|1|UQC_kgs|||
+PB0638|FINDIG_GOOD|N|N|Sodium Cobal Nitrite|Sodium Cobal Nitrite||lab_chemicals|1|UQC_kgs|||
+PB0639|FINDIG_GOOD|N|N|Ammonium Fluoride NH4F|Ammonium Fluoride NH4F||lab_chemicals|1|UQC_kgs|||
+PB0640|FINDIG_GOOD|N|N|Ammonium Molybdate|Ammonium Molybdate||lab_chemicals|1|UQC_kgs|||
+PB0641|FINDIG_GOOD|N|N|Potassium An Mony Tartarate|Potassium An Mony Tartarate||lab_chemicals|1|UQC_kgs|||
+PB0642|FINDIG_GOOD|N|N|Sulphuric Acid|Sulphuric Acid||lab_chemicals|1|UQC_klr|||
+PB0643|FINDIG_GOOD|N|N|Ascorbic Acid LR Grade|Ascorbic Acid LR Grade||lab_chemicals|1|UQC_kgs|||
+PB0644|FINDIG_GOOD|N|N|Stannour Chloride|Stannour Chloride||lab_chemicals|1|UQC_gms|||
+PB0645|FINDIG_GOOD|N|N|Thymol Blue|Thymol Blue||lab_chemicals|1|UQC_gms|||
+PB0646|FINDIG_GOOD|N|N|Methyl Red|Methyl Red||lab_chemicals|1|UQC_gms|||
+PB0647|FINDIG_GOOD|N|N|Phenolpthalin Ind.|Phenolpthalin Ind.||lab_chemicals|1|UQC_klr|||
+PB0648|FINDIG_GOOD|N|N|Boromothymol Blue AR|Boromothymol Blue AR||lab_chemicals|1|UQC_gms|||
+PB0649|FINDIG_GOOD|N|N|Ethanol|Ethanol||lab_chemicals|1|UQC_klr|||
+PB0650|FINDIG_GOOD|N|N|Barium Chloride|Barium Chloride||lab_chemicals|1|UQC_kgs|||
+PB0651|FINDIG_GOOD|N|N|Nessler Reagant|Nessler Reagant||lab_chemicals|1|UQC_klr|||
+PB0652|FINDIG_GOOD|N|N|Sodium Hydroxide NaOH|Sodium Hydroxide NaOH||lab_chemicals|1|UQC_kgs|||
+PB0653|FINDIG_GOOD|N|N|GI Pipe - Class C, ERW 80mm|GI Pipe - Class C, ERW 80mm||consumable_items|1|UQC_mtr|||
+PB0654|FINDIG_GOOD|N|N|GI Pipe - Class C, ERW 50mm|GI Pipe - Class C, ERW 50mm||consumable_items|1|UQC_mtr|||
+PB0655|FINDIG_GOOD|N|N|GI Pipe - Class C, ERW 40mm|GI Pipe - Class C, ERW 40mm||consumable_items|1|UQC_mtr|||
+PB0656|FINDIG_GOOD|N|N|1.5D Elbow,GI  - Class C, ERW 80mm|1.5D Elbow,GI  - Class C, ERW 80mm||consumable_items|1|UQC_pcs|||
+PB0657|FINDIG_GOOD|N|N|1.5D Elbow,GI  - Class C, ERW 50mm|1.5D Elbow,GI  - Class C, ERW 50mm||consumable_items|1|UQC_pcs|||
+PB0658|FINDIG_GOOD|N|N|1.5D Elbow,GI  - Class C, ERW 40mm|1.5D Elbow,GI  - Class C, ERW 40mm||consumable_items|1|UQC_pcs|||
+PB0659|FINDIG_GOOD|N|N|Flange - GI, ANSI #150 80mm|Flange - GI, ANSI #150 80mm||consumable_items|1|UQC_pcs|||
+PB0660|FINDIG_GOOD|N|N|Flange - GI, ANSI #150 50mm|Flange - GI, ANSI #150 50mm||consumable_items|1|UQC_pcs|||
+PB0661|FINDIG_GOOD|N|N|Flange - GI, ANSI #150 40mm|Flange - GI, ANSI #150 40mm||consumable_items|1|UQC_pcs|||
+PB0662|FINDIG_GOOD|N|N|Cast Iron Butterfly Valve,#150 Flange 80|Cast Iron Butterfly Valve,#150 Flange 80||consumable_items|1|UQC_pcs|||
+PB0663|FINDIG_GOOD|N|N|Cast Iron Butterfly Valve,#150 Flange 50|Cast Iron Butterfly Valve,#150 Flange 50||consumable_items|1|UQC_pcs|||
+PB0664|FINDIG_GOOD|N|N|Cast Iron Butterfly Valve,#150 Flange 40|Cast Iron Butterfly Valve,#150 Flange 40||consumable_items|1|UQC_pcs|||
+PB0665|FINDIG_GOOD|N|N|MS Nut Bolts With Double Washers 5/8x80m|MS Nut Bolts With Double Washers 5/8x80m||consumable_items|1|UQC_kgs|||
+PB0666|FINDIG_GOOD|N|N|MS Nut Bolts With Double Washers 1/2x80m|MS Nut Bolts With Double Washers 1/2x80m||consumable_items|1|UQC_kgs|||
+PB0667|FINDIG_GOOD|N|N|Grease MP3 Servo|Grease MP3 Servo||consumable_items|1|UQC_kgs|||
+PB0668|FINDIG_GOOD|N|N|MS Angle (75X75X6mm)|MS Angle (75X75X6mm)||consumable_items|1|UQC_kgs|||
+PB0669|FINDIG_GOOD|N|N|MS Pipe 40mm A Class for Railling|MS Pipe 40mm A Class for Railling||consumable_items|1|UQC_mtr|||
+PB0670|FINDIG_GOOD|N|N|Battery 12V, 180 xp1800 AH Model : Exide|Battery 12V, 180 xp1800 AH Model : Exide||consumable_items|1|UQC_pcs|||
+PB0671|FINDIG_GOOD|N|N|CF4 15W40 Servo Pre.|CF4 15W40 Servo Pre.||consumable_items|1|UQC_klr|||
+PB0672|FINDIG_GOOD|N|N|Filter AS-LU 1R1808|Filter AS-LU 1R1808||consumable_items|1|UQC_pcs|||
+PB0673|FINDIG_GOOD|N|N|Filter AS-LU 1R0749|Filter AS-LU 1R0749||consumable_items|1|UQC_pcs|||
+PB0674|FINDIG_GOOD|N|N|PRI FUEL FILTER 81551064|PRI FUEL FILTER 81551064||consumable_items|1|UQC_pcs|||
+PB0675|FINDIG_GOOD|N|N|ELEMENT PANEL 81536080|ELEMENT PANEL 81536080||consumable_items|1|UQC_pcs|||
+PB0676|FINDIG_GOOD|N|N|COOLENT ELI Premix|COOLENT ELI Premix||consumable_items|1|UQC_klr|||
+PB0677|FINDIG_GOOD|N|N|SELF MONOBLOCK PUMP 3HP 3PHASE Mod:SP2HM|SELF MONOBLOCK PUMP 3HP 3PHASE Mod:SP2HM||assets|1|UQC_pcs|||
+PB0678|FINDIG_GOOD|N|N|MONOBLOCK PUMP 1HP 3PHASE MOD:KSMB116|MONOBLOCK PUMP 1HP 3PHASE MOD:KSMB116||assets|1|UQC_pcs|||
+PB0679|FINDIG_GOOD|N|N|Complete Supply of Elec. item with Fitti|Complete Supply of Elec. item with Fitti||assets|1|UQC_unt|||
+PB0680|FINDIG_GOOD|N|N|Hdpe Bottle 250ml (T.G) With Cap|Hdpe Bottle 250ml (T.G) With Cap||packing_material|1|UQC_pcs|||
+PB0681|FINDIG_GOOD|N|N|Hdpe Round Bottle 200ml|Hdpe Round Bottle 200ml||packing_material|1|UQC_pcs|||
+PB0682|FINDIG_GOOD|N|N|Pet Bottle 25ml With Cap|Pet Bottle 25ml With Cap||packing_material|1|UQC_pcs|||
+PB0683|FINDIG_GOOD|N|N|Pet Balm Jar 10gm With Cap|Pet Balm Jar 10gm With Cap||packing_material|1|UQC_pcs|||
+PB0684|FINDIG_GOOD|N|N|Glove Latex Exramination|Glove Latex Exramination||consumable_items|1|UQC_prs|||
+PB0685|FINDIG_GOOD|N|N|Funnels Plastic|Funnels Plastic||consumable_items|1|UQC_pcs|||
+PB0686|FINDIG_GOOD|N|N|Dropper 3 Ml|Dropper 3 Ml||consumable_items|1|UQC_pcs|||
+PB0687|FINDIG_GOOD|N|N|Measuring Cylinder 25 Ml|Measuring Cylinder 25 Ml||consumable_items|1|UQC_pcs|||
+PB0688|FINDIG_GOOD|N|N|Spatula|Spatula||consumable_items|1|UQC_pcs|||
+PB0689|FINDIG_GOOD|N|N|Test Tube 7 Ml|Test Tube 7 Ml||consumable_items|1|UQC_pcs|||
+PB0690|FINDIG_GOOD|N|N|Sieve|Sieve||consumable_items|1|UQC_pcs|||
+PB0691|FINDIG_GOOD|N|N|26 GM Preform|26 GM Preform||consumable_items|1|UQC_kgs|||
+PB0692|FINDIG_GOOD|N|N|Roppcap 28 mm|Roppcap 28 mm||consumable_items|1|UQC_pcs|||
+PB0693|FINDIG_GOOD|N|N|Test Tube Stand (12 Tube)|Test Tube Stand (12 Tube)||consumable_items|1|UQC_pcs|||
+PB0694|FINDIG_GOOD|N|N|30 Ml Eye Drop Bottle Complete Set|30 Ml Eye Drop Bottle Complete Set||consumable_items|1|UQC_pcs|||
+PB0695|FINDIG_GOOD|N|N|Filter Paper 12.5 Cm Routine Quality|Filter Paper 12.5 Cm Routine Quality||consumable_items|1|UQC_box|||
+PB0696|FINDIG_GOOD|N|N|10 Sqmm X 3 Core Copper Flexible Cable|10 Sqmm X 3 Core Copper Flexible Cable||consumable_items|1|UQC_mtr|||
+PB0697|FINDIG_GOOD|N|N|Cable Gland PG - 12|Cable Gland PG - 12||consumable_items|1|UQC_pcs|||
+PB0698|FINDIG_GOOD|N|N|Copper Lugs 1.5 Sqmm Pin Type|Copper Lugs 1.5 Sqmm Pin Type||consumable_items|1|UQC_pcs|||
+PB0699|FINDIG_GOOD|N|N|Bearing 6310 C3 Make SKF|Bearing 6310 C3 Make SKF||consumable_items|1|UQC_pcs|||
+PB0700|FINDIG_GOOD|N|N|Canon ImageCLASS 232 Printer|Canon ImageCLASS 232 Printer||assets|1|UQC_pcs|||
+PB0701|FINDIG_GOOD|N|N|Measuring Spooon 2 Gm|Measuring Spooon 2 Gm||consumable_items|1|UQC_pcs|||
+PB0702|FINDIG_GOOD|N|N|2 Coat Paint With Wall Putty With Materi|2 Coat Paint With Wall Putty With Materi||consumable_items|1|UQC_sqm|||
+PB0703|FINDIG_GOOD|N|N|Bag for Soil Test Kit (with print)|Bag for Soil Test Kit (with print)||consumable_items|1|UQC_pcs|||
+PB0704|FINDIG_GOOD|N|N|PLASTIC-PET|PLASTIC-PET||rtn_dmgd_material|1|UQC_kgs|||
+PB0705|FINDIG_GOOD|N|N|Water Treatment Plant|Water Treatment Plant||assets|1|UQC_pcs|||
+PB0706|FINDIG_GOOD|N|N|Hand Bag|Hand Bag||consumable_items|1|UQC_pcs|||
+PB0707|FINDIG_GOOD|N|N|Laptop I3 - 7020U|Laptop I3 - 7020U||assets|1|UQC_unt|||
+PB0708|FINDIG_GOOD|N|N|Desktop I3 M710 SFF 7th Gen|Desktop I3 M710 SFF 7th Gen||assets|1|UQC_unt|||
+PB0709|FINDIG_GOOD|N|N|Bio Culture ( P )|Bio Culture ( P )||bio_fertilizer|1|UQC_kgs|||
+PB0710|FINDIG_GOOD|N|N|MS Sheet (1500X6300X6mm)|MS Sheet (1500X6300X6mm)||consumable_items|1|UQC_ton|||
+PB0711|FINDIG_GOOD|N|N|MS Sheet (1500X6300X8mm)|MS Sheet (1500X6300X8mm)||consumable_items|1|UQC_ton|||
+PB0712|FINDIG_GOOD|N|N|MS Sheet (1500X6300X10mm)|MS Sheet (1500X6300X10mm)||consumable_items|1|UQC_ton|||
+PB0713|FINDIG_GOOD|N|N|MS Sheet (1250X2500X20mm)|MS Sheet (1250X2500X20mm)||consumable_items|1|UQC_ton|||
+PB0714|FINDIG_GOOD|N|N|MS Sheet (1250X2500X30mm)|MS Sheet (1250X2500X30mm)||consumable_items|1|UQC_ton|||
+PB0715|FINDIG_GOOD|N|N|MS Flat 50X5mm|MS Flat 50X5mm||consumable_items|1|UQC_ton|||
+PB0716|FINDIG_GOOD|N|N|MS Chequred Plate 5 mm|MS Chequred Plate 5 mm||consumable_items|1|UQC_ton|||
+PB0717|FINDIG_GOOD|N|N|MS Round Pipe (B-class) 25mm Dia|MS Round Pipe (B-class) 25mm Dia||consumable_items|1|UQC_kgs|||
+PB0718|FINDIG_GOOD|N|N|LED Full Glow 2X2 Panel Light|LED Full Glow 2X2 Panel Light||consumable_items|1|UQC_pcs|||
+PB0719|FINDIG_GOOD|N|N|MS Round Bar 40mm Dia|MS Round Bar 40mm Dia||consumable_items|1|UQC_ton|||
+PB0720|FINDIG_GOOD|N|N|MS Sheet (1250X2500X18mm)|MS Sheet (1250X2500X18mm)||consumable_items|1|UQC_ton|||
+PB0721|FINDIG_GOOD|N|N|Controller (LCD Version) (L10000309)|Controller (LCD Version) (L10000309)||consumable_items|1|UQC_pcs|||
+PB0722|FINDIG_GOOD|N|N|Display PCB (LCD Version) (L10000725)|Display PCB (LCD Version) (L10000725)||consumable_items|1|UQC_pcs|||
+PB0723|FINDIG_GOOD|N|N|SMPS ( L10000787 )|SMPS ( L10000787 )||consumable_items|1|UQC_pcs|||
+PB0724|FINDIG_GOOD|N|N|Communication Cable (L10000811)|Communication Cable (L10000811)||consumable_items|1|UQC_pcs|||
+PB0725|FINDIG_GOOD|N|N|Atlas Goldline Super Dx Cycle 22inch With C|Atlas Goldline Super Dx Cycle 22inch With C||assets|1|UQC_pcs|||
+PB0726|FINDIG_GOOD|N|N|NR1|NR1||semi_finish_product|1|UQC_klr|1|UQC_pcs|6.666
+PB0727|FINDIG_GOOD|N|N|NR2|NR2||semi_finish_product|1|UQC_klr|1|UQC_pcs|40
+PB0728|FINDIG_GOOD|N|N|PR1|PR1||semi_finish_product|1|UQC_klr|1|UQC_pcs|6.6666666667
+PB0729|FINDIG_GOOD|N|N|P2A|P2A||semi_finish_product|1|UQC_klr|1|UQC_pcs|10
+PB0730|FINDIG_GOOD|N|N|Sita Kit (25 Set of Soil Test Kit)|Sita Kit (25 Set of Soil Test Kit)||soil_test_kit|1|UQC_pcs|||
+PB0731|FINDIG_GOOD|N|N|P2B|P2B||semi_finish_product|1|UQC_pcs|1|UQC_gms|3
+PB0732|FINDIG_GOOD|N|N|KR1|KR1||semi_finish_product|1|UQC_klr|1|UQC_pcs|6.667
+PB0733|FINDIG_GOOD|N|N|KR3|KR3||semi_finish_product|1|UQC_pcs|1|UQC_gms|3
+PB0734|FINDIG_GOOD|N|N|Distill Water (Filled Bottle)|Distill Water (Filled Bottle)||raw_material|1|UQC_klr|||
+PB0735|FINDIG_GOOD|N|N|O Solution|O Solution||semi_finish_product|1|UQC_pcs|1|UQC_klr|0.25
+PB0736|FINDIG_GOOD|N|N|M Solution|M Solution||semi_finish_product|1|UQC_pcs|1|UQC_klr|0.25
+PB0737|FINDIG_GOOD|N|N|Ethylene Diamine Tetraacetic Acid (EDTA)|Ethylene Diamine Tetraacetic Acid (EDTA)||raw_material|1|UQC_gms|||
+PB0738|FINDIG_GOOD|N|N|Pet Preform|Pet Preform||packing_material|1|UQC_kgs|1|UQC_pcs|38.46
+PB0739|FINDIG_GOOD|N|N|Sita Kit Booklet/Brochure|Sita Kit Booklet/Brochure||publicity_material|1|UQC_pcs|||
+PB0740|FINDIG_GOOD|N|N|Coriander Seeds|Coriander Seeds||consumable_items|1|UQC_kgs|||
+PB0741|FINDIG_GOOD|N|N|Methi Seeds|Methi Seeds||consumable_items|1|UQC_kgs|||
+PB0742|FINDIG_GOOD|N|N|Cauli Flower Seeds|Cauli Flower Seeds||consumable_items|1|UQC_kgs|||
+PB0743|FINDIG_GOOD|N|N|Turnip Seeds|Turnip Seeds||consumable_items|1|UQC_kgs|||
+PB0744|FINDIG_GOOD|N|N|Raddish Seeds|Raddish Seeds||consumable_items|1|UQC_kgs|||
+PB0745|FINDIG_GOOD|N|N|Cabbage Seeds|Cabbage Seeds||consumable_items|1|UQC_kgs|||
+PB0746|FINDIG_GOOD|N|N|Capsicum Seeds|Capsicum Seeds||consumable_items|1|UQC_kgs|||
+PB0747|FINDIG_GOOD|N|N|Mustard Seeds|Mustard Seeds||consumable_items|1|UQC_kgs|||
+PB0748|FINDIG_GOOD|N|N|Borocoli Seeds|Borocoli Seeds||consumable_items|1|UQC_kgs|||
+PB0749|FINDIG_GOOD|N|N|Spinach Seeds|Spinach Seeds||consumable_items|1|UQC_kgs|||
+PB0750|FINDIG_GOOD|N|N|Peas Seeds|Peas Seeds||consumable_items|1|UQC_kgs|||
+PB0751|FINDIG_GOOD|N|N|Canon G-3010 Printer|Canon G-3010 Printer||assets|1|UQC_pcs|||
+PB0752|FINDIG_GOOD|N|N|Super SPL 125 CC Self|Super SPL 125 CC Self||assets|1|UQC_pcs|||
+PB0753|FINDIG_GOOD|N|N|Induction Chulha|Induction Chulha||assets|1|UQC_pcs|||
+PB0754|FINDIG_GOOD|N|N|500 RPM - Barf Gear Pump Model : HGN 300|500 RPM - Barf Gear Pump Model : HGN 300||assets|1|UQC_pcs|||
+PB0755|FINDIG_GOOD|N|N|MS Base Frame|MS Base Frame||assets|1|UQC_pcs|||
+PB0756|FINDIG_GOOD|N|N|Coupling of Above Pump|Coupling of Above Pump||assets|1|UQC_pcs|||
+PB0757|FINDIG_GOOD|N|N|Induction Motor 5HP 1440 Rpm Three Phase|Induction Motor 5HP 1440 Rpm Three Phase||assets|1|UQC_pcs|||
+PB0758|FINDIG_GOOD|N|N|Copper Flexible Cable 2.5sqmmX3Core|Copper Flexible Cable 2.5sqmmX3Core||consumable_items|1|UQC_mtr|||
+PB0759|FINDIG_GOOD|N|N|Copper Flexible Cable 1.5sqmmX4Core|Copper Flexible Cable 1.5sqmmX4Core||consumable_items|1|UQC_mtr|||
+PB0760|FINDIG_GOOD|N|N|35 SQMM X3.5C Aluminium Armoured Cable|35 SQMM X3.5C Aluminium Armoured Cable||consumable_items|1|UQC_mtr|||
+PB0761|FINDIG_GOOD|N|N|GI Cable Tray 100 Mm|GI Cable Tray 100 Mm||assets|1|UQC_pcs|||
+PB0762|FINDIG_GOOD|N|N|Cable Tie 300 MM|Cable Tie 300 MM||consumable_items|1|UQC_box|||
+PB0763|FINDIG_GOOD|N|N|Cable Gland PG - 16|Cable Gland PG - 16||consumable_items|1|UQC_pcs|||
+PB0764|FINDIG_GOOD|N|N|Tin|Tin||rtn_dmgd_material|1|UQC_kgs|||
+PB0765|FINDIG_GOOD|N|N|Fermenter Boiler Steam PRS &amp; Accessories|Fermenter Boiler Steam PRS &amp; Accessories||assets|1|UQC_pcs|||
+PB0766|FINDIG_GOOD|N|N|Gram Seed (PBG7)(CS/TL)|Gram Seed (PBG7)(CS/TL)||consumable_items|1|UQC_kgs|||
+PB0767|FINDIG_GOOD|N|N|40 Kg (22inchX32inch) Front &amp; Back Cylinder (8|40 Kg (22inchX32inch) Front &amp; Back Cylinder (8||assets|1|UQC_pcs|||
+PB0768|FINDIG_GOOD|N|N|10 Kg (15inchX20inch) Front &amp; Back Cylinder (5|10 Kg (15inchX20inch) Front &amp; Back Cylinder (5||assets|1|UQC_pcs|||
+PB0769|FINDIG_GOOD|N|N|40 Kg (24inchX34inch) Front &amp; Back Cylinder (8|40 Kg (24inchX34inch) Front &amp; Back Cylinder (8||assets|1|UQC_pcs|||
+PB0770|FINDIG_GOOD|N|N|10 Kg (16inchX21.5inch) Front &amp; Back Cylinder|10 Kg (16inchX21.5inch) Front &amp; Back Cylinder||assets|1|UQC_pcs|||
+PB0771|FINDIG_GOOD|N|N|5 Kg (12inchX16inch) Front &amp; Back Cylinder (40|5 Kg (12inchX16inch) Front &amp; Back Cylinder (40||assets|1|UQC_pcs|||
+PB0772|FINDIG_GOOD|N|N|1 Kg (8inchX11inch) Front &amp; Back Cylinder (560|1 Kg (8inchX11inch) Front &amp; Back Cylinder (560||assets|1|UQC_pcs|||
+PB0773|FINDIG_GOOD|N|N|5 Kg (12inch X 16inch) Front &amp; Back Cylinder|5 Kg (12inch X 16inch) Front &amp; Back Cylinder||assets|1|UQC_pcs|||
+PB0774|FINDIG_GOOD|N|N|1 Kg (7.5inchX11inch) Front &amp; Back Cylinder (5|1 Kg (7.5inchX11inch) Front &amp; Back Cylinder (5||assets|1|UQC_pcs|||
+PB0775|FINDIG_GOOD|N|N|5 Kg (12inchX 16inch) Front &amp; Back Cylinder|5 Kg (12inchX 16inch) Front &amp; Back Cylinder||assets|1|UQC_pcs|||
+PB0776|FINDIG_GOOD|N|N|1 Kg (7.5inchX 11inch) Front &amp; Back Cylinder|1 Kg (7.5inchX 11inch) Front &amp; Back Cylinder||assets|1|UQC_pcs|||
+PB0777|FINDIG_GOOD|N|N|2 Way MS Push Button Box|2 Way MS Push Button Box||consumable_items|1|UQC_pcs|||
+PB0778|FINDIG_GOOD|N|N|Cylinder Base Shell Cir(400-650 mm)|Cylinder Base Shell Cir(400-650 mm)||assets|1|UQC_cms|||
+PB0779|FINDIG_GOOD|N|N|Cylinder Base Shell Cir(650-900 mm)|Cylinder Base Shell Cir(650-900 mm)||assets|1|UQC_cms|||
+PB0780|FINDIG_GOOD|N|N|Office Chair|Office Chair||assets|1|UQC_pcs|||
+PB0781|FINDIG_GOOD|N|N|Executive Chair|Executive Chair||assets|1|UQC_pcs|||
+PB0782|FINDIG_GOOD|N|N|Piping of Water Treat, Chilled &amp; Cooling|Piping of Water Treat, Chilled &amp; Cooling||assets|1|UQC_pac|||
+PB0783|FINDIG_GOOD|N|N|Loadall 7 MTR (A530BAABADABBAAA)|Loadall 7 MTR (A530BAABADABBAAA)||assets|1|UQC_pcs|||
+PB0784|FINDIG_GOOD|N|N|Starter Panel|Starter Panel||assets|1|UQC_pcs|||
+PB0785|FINDIG_GOOD|N|N|Plastic Bag Waste|Plastic Bag Waste||rtn_dmgd_material|1|UQC_kgs|||
+PB0786|FINDIG_GOOD|N|N|Copper Flexible Cable 1.5sqmmX3Core|Copper Flexible Cable 1.5sqmmX3Core||consumable_items|1|UQC_mtr|||
+PB0787|FINDIG_GOOD|N|N|6 Model Plate With Pvc Box|6 Model Plate With Pvc Box||consumable_items|1|UQC_pcs|||
+PB0788|FINDIG_GOOD|N|N|8 Model Plate With Pvc Box|8 Model Plate With Pvc Box||consumable_items|1|UQC_pcs|||
+PB0789|FINDIG_GOOD|N|N|12 Model Plate With Pvc Box|12 Model Plate With Pvc Box||consumable_items|1|UQC_pcs|||
+PB0790|FINDIG_GOOD|N|N|16 AMP Combined Box|16 AMP Combined Box||consumable_items|1|UQC_pcs|||
+PB0791|FINDIG_GOOD|N|N|16 AMP Switch|16 AMP Switch||consumable_items|1|UQC_pcs|||
+PB0792|FINDIG_GOOD|N|N|16 AMP Socket|16 AMP Socket||consumable_items|1|UQC_pcs|||
+PB0793|FINDIG_GOOD|N|N|10 AMP Switch|10 AMP Switch||consumable_items|1|UQC_pcs|||
+PB0794|FINDIG_GOOD|N|N|10 AMP Socket|10 AMP Socket||consumable_items|1|UQC_pcs|||
+PB0795|FINDIG_GOOD|N|N|MCB 32A 1POLE|MCB 32A 1POLE||consumable_items|1|UQC_pcs|||
+PB0796|FINDIG_GOOD|N|N|6 AMP 3 Pin Top|6 AMP 3 Pin Top||consumable_items|1|UQC_pcs|||
+PB0797|FINDIG_GOOD|N|N|6 Way MCB Box|6 Way MCB Box||consumable_items|1|UQC_pcs|||
+PB0798|FINDIG_GOOD|N|N|Wear Plate SP4L NDE|Wear Plate SP4L NDE||consumable_items|1|UQC_pcs|||
+PB0799|FINDIG_GOOD|N|N|Impeller KDS SP4L|Impeller KDS SP4L||consumable_items|1|UQC_pcs|||
+PB0800|FINDIG_GOOD|N|N|Bolt, Washers &amp; Locking Nut for Disc Bla|Bolt, Washers &amp; Locking Nut for Disc Bla||consumable_items|1|UQC_pcs|||
+PB0801|FINDIG_GOOD|N|N|Polybag Size 12X12inch HM Plain|Polybag Size 12X12inch HM Plain||consumable_items|1|UQC_kgs|||
+PB0802|FINDIG_GOOD|N|N|Battery Charger Cum Inverter 24v|Battery Charger Cum Inverter 24v||assets|1|UQC_pcs|||
+PB0803|FINDIG_GOOD|N|N|Plastic Chair|Plastic Chair||assets|1|UQC_pcs|||
+PB0804|FINDIG_GOOD|N|N|SS Hex Bolt 12X40mm With Nut Double Wash|SS Hex Bolt 12X40mm With Nut Double Wash||consumable_items|1|UQC_pcs|||
+PB0805|FINDIG_GOOD|N|N|SS Hex Bolt 16X25mm With Nut Double Wash|SS Hex Bolt 16X25mm With Nut Double Wash||consumable_items|1|UQC_pcs|||
+PB0806|FINDIG_GOOD|N|N|HT HexBolt 12X100mm With Nut Double Wash|HT HexBolt 12X100mm With Nut Double Wash||consumable_items|1|UQC_pcs|||
+PB0807|FINDIG_GOOD|N|N|HT Hex Bolt 14X100mm With Nut Washer|HT Hex Bolt 14X100mm With Nut Washer||consumable_items|1|UQC_pcs|||
+PB0808|FINDIG_GOOD|N|N|HT Hex Bolt 14X150mm|HT Hex Bolt 14X150mm||consumable_items|1|UQC_pcs|||
+PB0809|FINDIG_GOOD|N|N|Door Closer|Door Closer||consumable_items|1|UQC_pcs|||
+PB0810|FINDIG_GOOD|N|N|Long Body Cock Heavy 1/2inch|Long Body Cock Heavy 1/2inch||consumable_items|1|UQC_pcs|||
+PB0811|FINDIG_GOOD|N|N|Bearing 6218 (Make SKF)|Bearing 6218 (Make SKF)||consumable_items|1|UQC_pcs|||
+PB0812|FINDIG_GOOD|N|N|Conical Flask 5 ltr (Borosil)|Conical Flask 5 ltr (Borosil)||consumable_items|1|UQC_pcs|||
+PB0813|FINDIG_GOOD|N|N|Back Pack|Back Pack||consumable_items|1|UQC_pcs|||
+PB0814|FINDIG_GOOD|N|N|Gas Bladder|Gas Bladder||consumable_items|1|UQC_pcs|||
+PB0815|FINDIG_GOOD|N|N|PVC Gitti 35mm|PVC Gitti 35mm||consumable_items|1|UQC_pac|||
+PB0816|FINDIG_GOOD|N|N|PVC Bend 1inch|PVC Bend 1inch||consumable_items|1|UQC_pcs|||
+PB0817|FINDIG_GOOD|N|N|GI Saddle With Base 1:|GI Saddle With Base 1:||consumable_items|1|UQC_pac|||
+PB0818|FINDIG_GOOD|N|N|Lock 65 Mm|Lock 65 Mm||consumable_items|1|UQC_pcs|||
+PB0819|FINDIG_GOOD|N|N|Ear Plug|Ear Plug||consumable_items|1|UQC_pcs|||
+PB0820|FINDIG_GOOD|N|N|Seed Barsheem|Seed Barsheem||consumable_items|1|UQC_kgs|||
+PB0821|FINDIG_GOOD|N|N|Wheat Seed|Wheat Seed||consumable_items|1|UQC_kgs|||
+PB0822|FINDIG_GOOD|N|N|Hammer Mill|Hammer Mill||assets|1|UQC_pcs|||
+PB0823|FINDIG_GOOD|N|N|Compensation Cess@|Compensation Cess@||consumable_items|1|UQC_oth|||
+PB0824|FINDIG_GOOD|N|N|GI Pipe - Class C, ERW 150mm|GI Pipe - Class C, ERW 150mm||consumable_items|1|UQC_mtr|||
+PB0825|FINDIG_GOOD|N|N|1.5D Elbow,GI  - Class C, ERW 150mm|1.5D Elbow,GI  - Class C, ERW 150mm||consumable_items|1|UQC_pcs|||
+PB0826|FINDIG_GOOD|N|N|Flange - GI, ANSI #150 150mm|Flange - GI, ANSI #150 150mm||consumable_items|1|UQC_pcs|||
+PB0827|FINDIG_GOOD|N|N|Cast Iron Butterfly Valve|#150 Flange150||consumable_items|1|UQC_pcs|||
+PB0828|FINDIG_GOOD|N|N|Pressure Gauge 4inch Socket (0-7Barg) 15 NB|Pressure Gauge 4inch Socket (0-7Barg) 15 NB||consumable_items|1|UQC_pcs|||
+PB0829|FINDIG_GOOD|N|N|MS Nut Bolt With Double Washers - Half T|MS Nut Bolt With Double Washers - Half T||assets|1|UQC_pcs|||
+PB0830|FINDIG_GOOD|N|N|Fevicol SR 505 (Adhesive Charges)|Fevicol SR 505 (Adhesive Charges)||consumable_items|1|UQC_sqm|||
+PB0831|FINDIG_GOOD|N|N|Labor Charges (for PVC Flooring)|Labor Charges (for PVC Flooring)||service_charge|1|UQC_sqm|||
+PB0832|FINDIG_GOOD|N|N|PVC Floor Mat (0.65mm thickness)|PVC Floor Mat (0.65mm thickness)||consumable_items|1|UQC_sqm|||
+PB0833|FINDIG_GOOD|N|N|Bearing 6218 (Make URB)|Bearing 6218 (Make URB)||consumable_items|1|UQC_pcs|||
+PB0834|FINDIG_GOOD|N|N|Bearing 22217 J|Bearing 22217 J||consumable_items|1|UQC_pcs|||
+PB0835|FINDIG_GOOD|N|N|Bearing 6218|Bearing 6218||consumable_items|1|UQC_pcs|||
+PB0836|FINDIG_GOOD|N|N|Gas Cutter|Gas Cutter||consumable_items|1|UQC_set|||
+PB0837|FINDIG_GOOD|N|N|Scale 1 Mtr|Scale 1 Mtr||consumable_items|1|UQC_pcs|||
+PB0838|FINDIG_GOOD|N|N|Chain 2inch 3 Mtr|Chain 2inch 3 Mtr||consumable_items|1|UQC_pac|||
+PB0839|FINDIG_GOOD|N|N|Chain Block 1 Ton|Chain Block 1 Ton||consumable_items|1|UQC_set|||
+PB0840|FINDIG_GOOD|N|N|Chain Block 2 Ton|Chain Block 2 Ton||consumable_items|1|UQC_set|||
+PB0841|FINDIG_GOOD|N|N|Jack Hydrolic|Jack Hydrolic||consumable_items|1|UQC_set|||
+PB0842|FINDIG_GOOD|N|N|Pully 10.2 B GP|Pully 10.2 B GP||consumable_items|1|UQC_set|||
+PB0843|FINDIG_GOOD|N|N|Rectangle 6inch|Rectangle 6inch||assets|1|UQC_pcs|||
+PB0844|FINDIG_GOOD|N|N|Rectangle 12inch|Rectangle 12inch||assets|1|UQC_pcs|||
+PB0845|FINDIG_GOOD|N|N|Tools &amp; Kit|Tools &amp; Kit||assets|1|UQC_set|||
+PB0846|FINDIG_GOOD|N|N|Digital Vernier - 12inch|Digital Vernier - 12inch||consumable_items|1|UQC_set|||
+PB0847|FINDIG_GOOD|N|N|Spanner - 1inch  7/8X1 D|Spanner - 1inch  7/8X1 D||consumable_items|1|UQC_set|||
+PB0848|FINDIG_GOOD|N|N|Spanner - 1inch  7/8X1 R|Spanner - 1inch  7/8X1 R||consumable_items|1|UQC_set|||
+PB0849|FINDIG_GOOD|N|N|Spanner - 1inch  1/8-1/4 D|Spanner - 1inch  1/8-1/4 D||consumable_items|1|UQC_set|||
+PB0850|FINDIG_GOOD|N|N|Spanner - 1inch  1/8-1/4 R|Spanner - 1inch  1/8-1/4 R||consumable_items|1|UQC_set|||
+PB0851|FINDIG_GOOD|N|N|Grinding Machine 7inch|Grinding Machine 7inch||consumable_items|1|UQC_set|||
+PB0852|FINDIG_GOOD|N|N|Grinding Machine 4inch|Grinding Machine 4inch||consumable_items|1|UQC_set|||
+PB0853|FINDIG_GOOD|N|N|Hand Blower|Hand Blower||consumable_items|1|UQC_pcs|||
+PB0854|FINDIG_GOOD|N|N|1inch Chain Lock Full|1inch Chain Lock Full||consumable_items|1|UQC_pcs|||
+PB0855|FINDIG_GOOD|N|N|1inch Chain Lock Half|1inch Chain Lock Half||consumable_items|1|UQC_pcs|||
+PB0856|FINDIG_GOOD|N|N|1.5inch Chain Lock Full|1.5inch Chain Lock Full||consumable_items|1|UQC_pcs|||
+PB0857|FINDIG_GOOD|N|N|1.5inch Chain Lock Half|1.5inch Chain Lock Half||consumable_items|1|UQC_pcs|||
+PB0858|FINDIG_GOOD|N|N|1inch Chain 3 Mtr|1inch Chain 3 Mtr||consumable_items|1|UQC_pac|||
+PB0859|FINDIG_GOOD|N|N|1.5inch Chain 3 Mtr|1.5inch Chain 3 Mtr||consumable_items|1|UQC_pac|||
+PB0860|FINDIG_GOOD|N|N|2inch Chain Lock Full|2inch Chain Lock Full||consumable_items|1|UQC_pcs|||
+PB0861|FINDIG_GOOD|N|N|Patanjali Folder English 4P|Patanjali Folder English 4P||consumable_items|1|UQC_pcs|||
+PB0862|FINDIG_GOOD|N|N|Patanjali Bio Brochure|Patanjali Bio Brochure||consumable_items|1|UQC_pcs|||
+PB0863|FINDIG_GOOD|N|N|Patanjali Folder Hindi 8P|Patanjali Folder Hindi 8P||consumable_items|1|UQC_pcs|||
+PB0864|FINDIG_GOOD|N|N|Patanjali Folder Hindi 4P|Patanjali Folder Hindi 4P||consumable_items|1|UQC_pcs|||
+PB0865|FINDIG_GOOD|N|N|PATANJALI JAVIK KHAD 40KG (FRONT) (89X73|PATANJALI JAVIK KHAD 40KG (FRONT) (89X73||assets|1|UQC_pcs|||
+PB0866|FINDIG_GOOD|N|N|PATANJALI JAVIK KHAD 40KG (BACK) (89X73)|PATANJALI JAVIK KHAD 40KG (BACK) (89X73)||assets|1|UQC_pcs|||
+PB0867|FINDIG_GOOD|N|N|PATANJALI JAVIK PROM 40KG (84X128.5)|PATANJALI JAVIK PROM 40KG (84X128.5)||assets|1|UQC_pcs|||
+PB0868|FINDIG_GOOD|N|N|PATANJALI JAVIK PROM 10KG (56X95)|PATANJALI JAVIK PROM 10KG (56X95)||assets|1|UQC_pcs|||
+PB0869|FINDIG_GOOD|N|N|PATANJALI JAVIK KHAD 10KG (67X95)|PATANJALI JAVIK KHAD 10KG (67X95)||assets|1|UQC_pcs|||
+PB0870|FINDIG_GOOD|N|N|PATANJALI SHUBHOOMI 5KG (46X79)|PATANJALI SHUBHOOMI 5KG (46X79)||assets|1|UQC_pcs|||
+PB0871|FINDIG_GOOD|N|N|PATANJALI SHUBHOOMI 1KG (56X93)|PATANJALI SHUBHOOMI 1KG (56X93)||assets|1|UQC_pcs|||
+PB0872|FINDIG_GOOD|N|N|PATANJALI JAVIK POSHAK 5KG (46X79)|PATANJALI JAVIK POSHAK 5KG (46X79)||assets|1|UQC_pcs|||
+PB0873|FINDIG_GOOD|N|N|PATANJALI JAVIK POSHAK 1KG (56X93)|PATANJALI JAVIK POSHAK 1KG (56X93)||assets|1|UQC_pcs|||
+PB0874|FINDIG_GOOD|N|N|PATANJALI JAVIK KHAD 40KG (FRONT) (90X69|PATANJALI JAVIK KHAD 40KG (FRONT) (90X69||assets|1|UQC_pcs|||
+PB0875|FINDIG_GOOD|N|N|PATANJALI JAVIK KHAD 40KG (BACK) (90X69|PATANJALI JAVIK KHAD 40KG (BACK) (90X69||assets|1|UQC_pcs|||
+PB0876|FINDIG_GOOD|N|N|PATANJALI JAVIK KHAD 40KG (BACK) (90X69)|PATANJALI JAVIK KHAD 40KG (BACK) (90X69)||assets|1|UQC_pcs|||
+PB0877|FINDIG_GOOD|N|N|PATANJALI JAVIK PROM 40KG (FRONT)(85X69)|PATANJALI JAVIK PROM 40KG (FRONT)(85X69)||assets|1|UQC_pcs|||
+PB0878|FINDIG_GOOD|N|N|PATANJALI JAVIK PROM 40KG (Back) (85X69)|PATANJALI JAVIK PROM 40KG (Back) (85X69)||assets|1|UQC_pcs|||
+PB0879|FINDIG_GOOD|N|N|Jaivik Premix Powder F2|Jaivik Premix Powder F2||semi_finish_product|1|UQC_kgs|||
+PB0880|FINDIG_GOOD|N|N|Subhumi Premix Powder F1|Subhumi Premix Powder F1||semi_finish_product|1|UQC_kgs|||
+PB0881|FINDIG_GOOD|N|N|Empty Bag for Patanjali Jaivik PROM 40Kg|Empty Bag for Patanjali Jaivik PROM 40Kg||packing_material|1|UQC_pcs|||
+PB0882|FINDIG_GOOD|N|N|Empty Bag for Patanjali Jaivik PROM 10Kg|Empty Bag for Patanjali Jaivik PROM 10Kg||packing_material|1|UQC_pcs|||
+PB0883|FINDIG_GOOD|N|N|Empty Bag for Patanjali Poshak 1 Kg|Empty Bag for Patanjali Poshak 1 Kg||packing_material|1|UQC_pcs|||
+PB0884|FINDIG_GOOD|N|N|Make Up (706-D)|Make Up (706-D)||general|1|UQC_pcs|||
+PB0885|FINDIG_GOOD|N|N|Ink Black (411-D)|Ink Black (411-D)||general|1|UQC_pcs|||
+PB0886|FINDIG_GOOD|N|N|SS Ball Valve 3/8inch|SS Ball Valve 3/8inch||consumable_items|1|UQC_pcs|||
+PB0887|FINDIG_GOOD|N|N|Hammer 800Gm|Hammer 800Gm||consumable_items|1|UQC_pcs|||
+PB0888|FINDIG_GOOD|N|N|Slide Wrench 10inch|Slide Wrench 10inch||consumable_items|1|UQC_pcs|||
+PB0889|FINDIG_GOOD|N|N|Slide Wrench 6inch|Slide Wrench 6inch||consumable_items|1|UQC_pcs|||
+PB0890|FINDIG_GOOD|N|N|M/Tape Freemens 3 Mtr|M/Tape Freemens 3 Mtr||consumable_items|1|UQC_pcs|||
+PB0891|FINDIG_GOOD|N|N|5 Mtr  M/Tape 10mm|5 Mtr  M/Tape 10mm||consumable_items|1|UQC_pcs|||
+PB0892|FINDIG_GOOD|N|N|Pipe Wrench 14inch|Pipe Wrench 14inch||consumable_items|1|UQC_pcs|||
+PB0893|FINDIG_GOOD|N|N|Right Abgle 6inch|Right Abgle 6inch||consumable_items|1|UQC_pcs|||
+PB0894|FINDIG_GOOD|N|N|Right Abgle 12inch|Right Abgle 12inch||consumable_items|1|UQC_pcs|||
+PB0895|FINDIG_GOOD|N|N|Hard Broom Long|Hard Broom Long||consumable_items|1|UQC_pcs|||
+PB0896|FINDIG_GOOD|N|N|Spring File Cobra - 1200|Spring File Cobra - 1200||consumable_items|1|UQC_pcs|||
+PB0897|FINDIG_GOOD|N|N|Carbon Paper Kores Multicopy|Carbon Paper Kores Multicopy||consumable_items|1|UQC_pac|||
+PB0898|FINDIG_GOOD|N|N|SAP Maintenance|SAP Maintenance||assets|1|UQC_oth|||
+PB0899|FINDIG_GOOD|N|N|Weighing Machine SSP BL 5 Kg Acc. - 0.5|Weighing Machine SSP BL 5 Kg Acc. - 0.5||assets|1|UQC_pcs|||
+PB0900|FINDIG_GOOD|N|N|Cleaning Solution 901-Q|Cleaning Solution 901-Q||consumable_items|1|UQC_pcs|||
+PB0901|FINDIG_GOOD|N|N|Fire Bricks Std.|Fire Bricks Std.||assets|1|UQC_pcs|||
+PB0902|FINDIG_GOOD|N|N|Insulation Bricks|Insulation Bricks||assets|1|UQC_pcs|||
+PB0903|FINDIG_GOOD|N|N|Self Priming Pump SP6L With 25HP 3 Phase|Self Priming Pump SP6L With 25HP 3 Phase||assets|1|UQC_pcs|||
+PB0904|FINDIG_GOOD|N|N|Batten 25mm, 1 inch|Batten 25mm, 1 inch||consumable_items|1|UQC_mtr|||
+PB0905|FINDIG_GOOD|N|N|Self Screw  ½inch|Self Screw  ½inch||consumable_items|1|UQC_pcs|||
+PB0906|FINDIG_GOOD|N|N|Exhaust Fan (Plastic) 300mm|Exhaust Fan (Plastic) 300mm||consumable_items|1|UQC_pcs|||
+PB0907|FINDIG_GOOD|N|N|Socket &amp;  Switch 10 Amp┬á Modular Box|Socket &amp;  Switch 10 Amp┬á Modular Box||consumable_items|1|UQC_set|||
+PB0908|FINDIG_GOOD|N|N|Modular AC Box 25A|Modular AC Box 25A||consumable_items|1|UQC_pcs|||
+PB0909|FINDIG_GOOD|N|N|MCB 6 AMP Single Pole|MCB 6 AMP Single Pole||consumable_items|1|UQC_pcs|||
+PB0910|FINDIG_GOOD|N|N|Modular Box|Modular Box||consumable_items|1|UQC_pcs|||
+PB0911|FINDIG_GOOD|N|N|Modular Box  12 X 6|Modular Box  12 X 6||consumable_items|1|UQC_pcs|||
+PB0912|FINDIG_GOOD|N|N|M-Seal|M-Seal||consumable_items|1|UQC_pac|||
+PB0913|FINDIG_GOOD|N|N|LED HIGHBAY LIGHTS|LED HIGHBAY LIGHTS||assets|1|UQC_pcs|||
+PB0914|FINDIG_GOOD|N|N|Patanjali Jaivik PROM 40 Kg|Patanjali Jaivik PROM 40 Kg||organic_manure|1|UQC_pcs|1|UQC_kgs|40
+PB0915|FINDIG_GOOD|N|N|Bearing 6306-2Z (Make SKF)|Bearing 6306-2Z (Make SKF)||consumable_items|1|UQC_pcs|||
+PB0916|FINDIG_GOOD|N|N|Bearing 6206-2Z (Make SKF)|Bearing 6206-2Z (Make SKF)||consumable_items|1|UQC_pcs|||
+PB0917|FINDIG_GOOD|N|N|V-Belt B-132|V-Belt B-132||consumable_items|1|UQC_pcs|||
+PB0918|FINDIG_GOOD|N|N|PVC Condute Pipe 1inch Heavy|PVC Condute Pipe 1inch Heavy||consumable_items|1|UQC_pac|||
+PB0919|FINDIG_GOOD|N|N|Cotton Appron Blue|Cotton Appron Blue||consumable_items|1|UQC_pcs|||
+PB0920|FINDIG_GOOD|N|N|Rubber Hand Gloves House Hold|Rubber Hand Gloves House Hold||consumable_items|1|UQC_pcs|||
+PB0921|FINDIG_GOOD|N|N|Gumboot|Gumboot||consumable_items|1|UQC_pcs|||
+PB0922|FINDIG_GOOD|N|N|1222 Perm Marker LXR|1222 Perm Marker LXR||consumable_items|1|UQC_pcs|||
+PB0923|FINDIG_GOOD|N|N|Slip Pad|Slip Pad||consumable_items|1|UQC_pcs|||
+PB0924|FINDIG_GOOD|N|N|Calculater|Calculater||consumable_items|1|UQC_pcs|||
+PB0925|FINDIG_GOOD|N|N|Spiral Notebook|Spiral Notebook||consumable_items|1|UQC_pcs|||
+PB0926|FINDIG_GOOD|N|N|White Gagle Zoom Heavy|White Gagle Zoom Heavy||consumable_items|1|UQC_pcs|||
+PB0927|FINDIG_GOOD|N|N|Black Glass H|Black Glass H||consumable_items|1|UQC_pcs|||
+PB0928|FINDIG_GOOD|N|N|White Glass We|White Glass We||consumable_items|1|UQC_pcs|||
+PB0929|FINDIG_GOOD|N|N|Black Gogle Zoom|Black Gogle Zoom||consumable_items|1|UQC_pcs|||
+PB0930|FINDIG_GOOD|N|N|Roma Plate Code No-30250 6 Modular|Roma Plate Code No-30250 6 Modular||consumable_items|1|UQC_pcs|||
+PB0931|FINDIG_GOOD|N|N|Roma Plate Code No-30271 12 Modular|Roma Plate Code No-30271 12 Modular||consumable_items|1|UQC_pcs|||
+PB0932|FINDIG_GOOD|N|N|Disposable Cap Blue|Disposable Cap Blue||consumable_items|1|UQC_pcs|||
+PB0933|FINDIG_GOOD|N|N|Disposable Nose Mask Green|Disposable Nose Mask Green||consumable_items|1|UQC_pcs|||
+PB0934|FINDIG_GOOD|N|N|23AE 12V Battery|23AE 12V Battery||consumable_items|1|UQC_pcs|||
+PB0935|FINDIG_GOOD|N|N|Shaft Sleeve|Shaft Sleeve||consumable_items|1|UQC_pcs|||
+PB0936|FINDIG_GOOD|N|N|ID Cards Print|ID Cards Print||consumable_items|1|UQC_pcs|||
+PB0937|FINDIG_GOOD|N|N|Fire Bricks E/A 3X2 3/4inch|Fire Bricks E/A 3X2 3/4inch||assets|1|UQC_pcs|||
+PB0938|FINDIG_GOOD|N|N|Accaset - 50|Accaset - 50||assets|1|UQC_bag|||
+PB0939|FINDIG_GOOD|N|N|Castable Super|Castable Super||assets|1|UQC_bag|||
+PB0940|FINDIG_GOOD|N|N|Skrew 9X9X4 1/2|Skrew 9X9X4 1/2||assets|1|UQC_pcs|||
+PB0941|FINDIG_GOOD|N|N|Printer Cartridge Canon 232 Printer|Printer Cartridge Canon 232 Printer||consumable_items|1|UQC_pcs|||
+PB0942|FINDIG_GOOD|N|N|Doms DF Pen Blue Use &amp; Through - 3.00|Doms DF Pen Blue Use &amp; Through - 3.00||consumable_items|1|UQC_pcs|||
+PB0943|FINDIG_GOOD|N|N|Button Folder|Button Folder||consumable_items|1|UQC_pcs|||
+PB0944|FINDIG_GOOD|N|N|Cable Tie 400 Mm|Cable Tie 400 Mm||consumable_items|1|UQC_box|||
+PB0945|FINDIG_GOOD|N|N|Cable Tie 250 Mm|Cable Tie 250 Mm||consumable_items|1|UQC_box|||
+PB0946|FINDIG_GOOD|N|N|16mm PIN TYPE COPPER LUG|16mm PIN TYPE COPPER LUG||consumable_items|1|UQC_pcs|||
+PB0947|FINDIG_GOOD|N|N|10mm PIN TYPE COPPER LUG|10mm PIN TYPE COPPER LUG||consumable_items|1|UQC_pcs|||
+PB0948|FINDIG_GOOD|N|N|16mm RING TYPE COPPER LUG|16mm RING TYPE COPPER LUG||consumable_items|1|UQC_pcs|||
+PB0949|FINDIG_GOOD|N|N|10mm RING TYPE COPPER LUG|10mm RING TYPE COPPER LUG||consumable_items|1|UQC_pcs|||
+PB0950|FINDIG_GOOD|N|N|PVC Gland PG - 21|PVC Gland PG - 21||consumable_items|1|UQC_pcs|||
+PB0951|FINDIG_GOOD|N|N|PVC Gland PG - 25mm|PVC Gland PG - 25mm||consumable_items|1|UQC_pcs|||
+PB0952|FINDIG_GOOD|N|N|19mm DC Gland|19mm DC Gland||consumable_items|1|UQC_pcs|||
+PB0953|FINDIG_GOOD|N|N|PG-19mm PVC Gland|PG-19mm PVC Gland||consumable_items|1|UQC_pcs|||
+PB0954|FINDIG_GOOD|N|N|45mm DC Gland|45mm DC Gland||consumable_items|1|UQC_pcs|||
+PB0955|FINDIG_GOOD|N|N|50mm DC Gland|50mm DC Gland||consumable_items|1|UQC_pcs|||
+PB0956|FINDIG_GOOD|N|N|UPVC Ball Valve 2inch|UPVC Ball Valve 2inch||consumable_items|1|UQC_pcs|||
+PB0957|FINDIG_GOOD|N|N|UPVC Ball Valve 1inch|UPVC Ball Valve 1inch||consumable_items|1|UQC_pcs|||
+PB0958|FINDIG_GOOD|N|N|UPVC Bushing 2inchX1inch|UPVC Bushing 2inchX1inch||consumable_items|1|UQC_pcs|||
+PB0959|FINDIG_GOOD|N|N|UPVC Solvant 705|UPVC Solvant 705||consumable_items|1|UQC_pcs|||
+PB0960|FINDIG_GOOD|N|N|UPVC PIPE Heavy 2inch|UPVC PIPE Heavy 2inch||consumable_items|1|UQC_mtr|||
+PB0961|FINDIG_GOOD|N|N|UPVC Tee 1inch SCH-40|UPVC Tee 1inch SCH-40||consumable_items|1|UQC_pcs|||
+PB0962|FINDIG_GOOD|N|N|UPVC Tank Nipple 2inch|UPVC Tank Nipple 2inch||consumable_items|1|UQC_pcs|||
+PB0963|FINDIG_GOOD|N|N|Union 2inch SCH-40|Union 2inch SCH-40||consumable_items|1|UQC_pcs|||
+PB0964|FINDIG_GOOD|N|N|Brass Ball Cock Heavy 1inch Set|Brass Ball Cock Heavy 1inch Set||consumable_items|1|UQC_pcs|||
+PB0965|FINDIG_GOOD|N|N|GI Wiremesh 5X5 Size 4'X50'|GI Wiremesh 5X5 Size 4'X50'||consumable_items|1|UQC_unt|||
+PB0966|FINDIG_GOOD|N|N|GI Wiremesh 6X6 Size 4'X50'|GI Wiremesh 6X6 Size 4'X50'||consumable_items|1|UQC_unt|||
+PB0967|FINDIG_GOOD|N|N|GI Wiremesh 6X7 Size 4'X50'|GI Wiremesh 6X7 Size 4'X50'||consumable_items|1|UQC_unt|||
+PB0968|FINDIG_GOOD|N|N|2.5mm Copper Wire Single Core|2.5mm Copper Wire Single Core||consumable_items|1|UQC_pac|||
+PB0969|FINDIG_GOOD|N|N|Scissor SAYA SY SC-06|Scissor SAYA SY SC-06||consumable_items|1|UQC_pcs|||
+PB0970|FINDIG_GOOD|N|N|Scissor SAYA SY SC-07|Scissor SAYA SY SC-07||consumable_items|1|UQC_pcs|||
+PB0971|FINDIG_GOOD|N|N|Cello Tape 1inch|Cello Tape 1inch||consumable_items|1|UQC_pcs|||
+PB0972|FINDIG_GOOD|N|N|Float Switch|Float Switch||consumable_items|1|UQC_pcs|||
+PB0973|FINDIG_GOOD|N|N|Bus Green Oil Paints|Bus Green Oil Paints||consumable_items|1|UQC_klr|||
+PB0974|FINDIG_GOOD|N|N|Nozzle L 1/16|Nozzle L 1/16||consumable_items|1|UQC_pcs|||
+PB0975|FINDIG_GOOD|N|N|HT Hex Bolt 16X125mm|HT Hex Bolt 16X125mm||consumable_items|1|UQC_pcs|||
+PB0976|FINDIG_GOOD|N|N|HT NUT 16mm|HT NUT 16mm||consumable_items|1|UQC_pcs|||
+PB0977|FINDIG_GOOD|N|N|Washer 16mm|Washer 16mm||consumable_items|1|UQC_pcs|||
+PB0978|FINDIG_GOOD|N|N|Label for Patanjali Bio Zink Plus  1 Ltr|Label for Patanjali Bio Zink Plus  1 Ltr||packing_material|1|UQC_pcs|||
+PB0979|FINDIG_GOOD|N|N|Label for Patanjali Azopsi Plus  1 Ltr|Label for Patanjali Azopsi Plus  1 Ltr||packing_material|1|UQC_pcs|||
+PB0980|FINDIG_GOOD|N|N|Label for Patanjali Aceto Plus  1 Ltr|Label for Patanjali Aceto Plus  1 Ltr||packing_material|1|UQC_pcs|||
+PB0981|FINDIG_GOOD|N|N|Hdpe Bottle 1.0 Ltr With Cap|Hdpe Bottle 1.0 Ltr With Cap||packing_material|1|UQC_pcs|||
+PB0982|FINDIG_GOOD|N|N|JCB Engine Oil (4001/3200-15)|JCB Engine Oil (4001/3200-15)||consumable_items|1|UQC_klr|||
+PB0983|FINDIG_GOOD|N|N|JCB Rear Axle OIL ( 4000/4600-20)|JCB Rear Axle OIL ( 4000/4600-20)||consumable_items|1|UQC_klr|||
+PB0984|FINDIG_GOOD|N|N|JCB Transmission Oil Plus (4000/2500-20)|JCB Transmission Oil Plus (4000/2500-20)||consumable_items|1|UQC_klr|||
+PB0985|FINDIG_GOOD|N|N|JCB Gear Oil (4000/2500-20)|JCB Gear Oil (4000/2500-20)||consumable_items|1|UQC_klr|||
+PB0986|FINDIG_GOOD|N|N|Empty Bag for Patanjali Jaivik Khad 10Kg|Empty Bag for Patanjali Jaivik Khad 10Kg||packing_material|1|UQC_pcs|||
+PB0987|FINDIG_GOOD|N|N|First Aid Box|First Aid Box||consumable_items|1|UQC_pcs|||
+PB0988|FINDIG_GOOD|N|N|30 Mtr Measuring Tape|30 Mtr Measuring Tape||consumable_items|1|UQC_pcs|||
+PB0989|FINDIG_GOOD|N|N|50mm Single Core Green Colour Wire|50mm Single Core Green Colour Wire||consumable_items|1|UQC_mtr|||
+PB0990|FINDIG_GOOD|N|N|SMPS 24V DC 5 AMP|SMPS 24V DC 5 AMP||consumable_items|1|UQC_pcs|||
+PB0991|FINDIG_GOOD|N|N|Copper Lugs 50 Sqmm|Copper Lugs 50 Sqmm||consumable_items|1|UQC_pcs|||
+PB0992|FINDIG_GOOD|N|N|Digital Volt Meter DM2310|Digital Volt Meter DM2310||consumable_items|1|UQC_pcs|||
+PB0993|FINDIG_GOOD|N|N|HRC FUSE 16A|HRC FUSE 16A||consumable_items|1|UQC_pcs|||
+PB0994|FINDIG_GOOD|N|N|Rotatry Handle Switch ON/OFF|Rotatry Handle Switch ON/OFF||consumable_items|1|UQC_pcs|||
+PB0995|FINDIG_GOOD|N|N|MCCB 4 Pole 250 Amp|MCCB 4 Pole 250 Amp||consumable_items|1|UQC_pcs|||
+PB0996|FINDIG_GOOD|N|N|Chalk Box|Chalk Box||consumable_items|1|UQC_box|||
+PB0997|FINDIG_GOOD|N|N|Pen Blue Use &amp; Throw|Pen Blue Use &amp; Throw||consumable_items|1|UQC_pcs|||
+PB0998|FINDIG_GOOD|N|N|Black Board|Black Board||consumable_items|1|UQC_pcs|||
+PB0999|FINDIG_GOOD|N|N|Marking Tags|Marking Tags||consumable_items|1|UQC_pcs|||
+PB1000|FINDIG_GOOD|N|N|Gum Matel Floot Valve 2inch|Gum Matel Floot Valve 2inch||consumable_items|1|UQC_set|||
+PB1001|FINDIG_GOOD|N|N|Cable Gland 35mm Double|Cable Gland 35mm Double||consumable_items|1|UQC_pcs|||
+PB1002|FINDIG_GOOD|N|N|Table Pad|Table Pad||consumable_items|1|UQC_pcs|||
+PB1003|FINDIG_GOOD|N|N|Lock 40 Mm|Lock 40 Mm||consumable_items|1|UQC_pcs|||
+PB1004|FINDIG_GOOD|N|N|Paper Cutter Premier|Paper Cutter Premier||consumable_items|1|UQC_pcs|||
+PB1005|FINDIG_GOOD|N|N|Hammer Drill Machine|Hammer Drill Machine||consumable_items|1|UQC_pcs|||
+PB1006|FINDIG_GOOD|N|N|Air Blower GBL 800E|Air Blower GBL 800E||consumable_items|1|UQC_pcs|||
+PB1007|FINDIG_GOOD|N|N|Niagra Urinal Ultra White|Niagra Urinal Ultra White||assets|1|UQC_pcs|||
+PB1008|FINDIG_GOOD|N|N|Wash Basin Sutlej 22x16 : White|Wash Basin Sutlej 22x16 : White||assets|1|UQC_pcs|||
+PB1009|FINDIG_GOOD|N|N|PVC Long Bend|PVC Long Bend||assets|1|UQC_pcs|||
+PB1010|FINDIG_GOOD|N|N|Brass Spreader (H)|Brass Spreader (H)||assets|1|UQC_pcs|||
+PB1011|FINDIG_GOOD|N|N|Doomed Waste Coupling (T9954A1)|Doomed Waste Coupling (T9954A1)||assets|1|UQC_pcs|||
+PB1012|FINDIG_GOOD|N|N|C.P.Jali 5inch ( Plain/Cut)|C.P.Jali 5inch ( Plain/Cut)||assets|1|UQC_pcs|||
+PB1013|FINDIG_GOOD|N|N|White Cement 1 Kg|White Cement 1 Kg||assets|1|UQC_pcs|||
+PB1014|FINDIG_GOOD|N|N|Angle Cock ( Parryware ) : Jade Parry|Angle Cock ( Parryware ) : Jade Parry||assets|1|UQC_pcs|||
+PB1015|FINDIG_GOOD|N|N|Bib Cock Short Body ; Jade Parry|Bib Cock Short Body ; Jade Parry||assets|1|UQC_pcs|||
+PB1016|FINDIG_GOOD|N|N|Pvc Cisten Slimline Std. White; Parrywar|Pvc Cisten Slimline Std. White; Parrywar||assets|1|UQC_pcs|||
+PB1017|FINDIG_GOOD|N|N|C.P Pillar Cock : Jade : Parry|C.P Pillar Cock : Jade : Parry||assets|1|UQC_pcs|||
+PB1018|FINDIG_GOOD|N|N|Waste Pipe 1.1/4inch (Flexible)|Waste Pipe 1.1/4inch (Flexible)||assets|1|UQC_pac|||
+PB1019|FINDIG_GOOD|N|N|PVC Connection 24inch;Heavy ; Lion|PVC Connection 24inch;Heavy ; Lion||assets|1|UQC_pcs|||
+PB1020|FINDIG_GOOD|N|N|Partition for Magnum Urinal Parryware Wh|Partition for Magnum Urinal Parryware Wh||assets|1|UQC_pcs|||
+PB1021|FINDIG_GOOD|N|N|Taflan Tap Big|Taflan Tap Big||assets|1|UQC_pcs|||
+PB1022|FINDIG_GOOD|N|N|Chapla Bracket|Chapla Bracket||assets|1|UQC_pcs|||
+PB1023|FINDIG_GOOD|N|N|Butterfly Valve 10inch|Butterfly Valve 10inch||consumable_items|1|UQC_pcs|||
+PB1024|FINDIG_GOOD|N|N|MS Short Bend 10inch|MS Short Bend 10inch||consumable_items|1|UQC_pcs|||
+PB1025|FINDIG_GOOD|N|N|MS Flange 10inch|MS Flange 10inch||consumable_items|1|UQC_pcs|||
+PB1026|FINDIG_GOOD|N|N|Reagent Indicator Powder Mixture|Reagent Indicator Powder Mixture||semi_finish_product|1|UQC_gms|||
+PB1027|FINDIG_GOOD|N|N|PH Reagent for Soil Test Kit|PH Reagent for Soil Test Kit||semi_finish_product|1|UQC_klr|||
+PB1028|FINDIG_GOOD|N|N|120 LUG Ring all|120 LUG Ring all||consumable_items|1|UQC_pcs|||
+PB1029|FINDIG_GOOD|N|N|240 LUG Ring type|240 LUG Ring type||consumable_items|1|UQC_pcs|||
+PB1030|FINDIG_GOOD|N|N|COPPER FLEXIBLE CABLE 6 SQ MM X 4 CORE|COPPER FLEXIBLE CABLE 6 SQ MM X 4 CORE||consumable_items|1|UQC_mtr|1|UQC_pcs|1
+PB1031|FINDIG_GOOD|N|N|DVR 4 Channel|DVR 4 Channel||assets|1|UQC_pcs|||
+PB1032|FINDIG_GOOD|N|N|Switch 8 Port POE|Switch 8 Port POE||assets|1|UQC_unt|||
+PB1033|FINDIG_GOOD|N|N|Wiper Supper Big|Wiper Supper Big||consumable_items|1|UQC_pcs|||
+PB1034|FINDIG_GOOD|N|N|Stock Register|Stock Register||consumable_items|1|UQC_pcs|||
+PB1035|FINDIG_GOOD|N|N|Sticker Sheet|Sticker Sheet||consumable_items|1|UQC_pcs|||
+PB1036|FINDIG_GOOD|N|N|White Tag|White Tag||consumable_items|1|UQC_pac|||
+PB1037|FINDIG_GOOD|N|N|Bamboo Stock for Broom|Bamboo Stock for Broom||consumable_items|1|UQC_pcs|||
+PB1038|FINDIG_GOOD|N|N|Attendance Register|Attendance Register||consumable_items|1|UQC_pcs|||
+PB1039|FINDIG_GOOD|N|N|Silver Paint|Silver Paint||consumable_items|1|UQC_klr|||
+PB1040|FINDIG_GOOD|N|N|SKY Blue Paint|SKY Blue Paint||consumable_items|1|UQC_klr|||
+PB1041|FINDIG_GOOD|N|N|Paint Brush 3inch|Paint Brush 3inch||consumable_items|1|UQC_pcs|||
+PB1042|FINDIG_GOOD|N|N|Green Paint|Green Paint||consumable_items|1|UQC_klr|||
+PB1043|FINDIG_GOOD|N|N|Registration Form|Registration Form||consumable_items|1|UQC_unt|||
+PB1044|FINDIG_GOOD|N|N|10 Ml Syring|10 Ml Syring||consumable_items|1|UQC_pcs|||
+PB1045|FINDIG_GOOD|N|N|Fuse Holder|Fuse Holder||consumable_items|1|UQC_pcs|||
+PB1046|FINDIG_GOOD|N|N|Lube Oil Filter 06.436.010|Lube Oil Filter 06.436.010||consumable_items|1|UQC_pcs|||
+PB1047|FINDIG_GOOD|N|N|Fuel Filter Kit 4899920|Fuel Filter Kit 4899920||consumable_items|1|UQC_pcs|||
+PB1048|FINDIG_GOOD|N|N|Microwave Oven 20 Ltr ONIDA|Microwave Oven 20 Ltr ONIDA||assets|1|UQC_pcs|||
+PB1049|FINDIG_GOOD|N|N|Aluminium Foil 1 Kg Pack|Aluminium Foil 1 Kg Pack||consumable_items|1|UQC_pcs|||
+PB1050|FINDIG_GOOD|N|N|UPVC Bush 1-1/4inchx1inch|UPVC Bush 1-1/4inchx1inch||consumable_items|1|UQC_pcs|||
+PB1051|FINDIG_GOOD|N|N|UPVC Bush 1-1/2inchx1-1/4inch|UPVC Bush 1-1/2inchx1-1/4inch||consumable_items|1|UQC_pcs|||
+PB1052|FINDIG_GOOD|N|N|UPVC MTA 1-1/4inch|UPVC MTA 1-1/4inch||consumable_items|1|UQC_pcs|||
+PB1053|FINDIG_GOOD|N|N|UPVC MTA 1inch|UPVC MTA 1inch||consumable_items|1|UQC_pcs|||
+PB1054|FINDIG_GOOD|N|N|Rubber Sheet 3mm Elec. Matt 1200mmX10000|Rubber Sheet 3mm Elec. Matt 1200mmX10000||consumable_items|1|UQC_pcs|||
+PB1055|FINDIG_GOOD|N|N|Dustbine|Dustbine||consumable_items|1|UQC_pcs|||
+PB1056|FINDIG_GOOD|N|N|Lable|Lable||consumable_items|1|UQC_pcs|||
+PB1057|FINDIG_GOOD|N|N|Intalon 100 Ml|Intalon 100 Ml||consumable_items|1|UQC_pac|||
+PB1058|FINDIG_GOOD|N|N|Crape Bandage|Crape Bandage||consumable_items|1|UQC_pcs|||
+PB1059|FINDIG_GOOD|N|N|Cotton Roll|Cotton Roll||consumable_items|1|UQC_pac|||
+PB1060|FINDIG_GOOD|N|N|Doctor Tape|Doctor Tape||consumable_items|1|UQC_pcs|||
+PB1061|FINDIG_GOOD|N|N|Betnevate N|Betnevate N||consumable_items|1|UQC_pcs|||
+PB1062|FINDIG_GOOD|N|N|Bandage 2 Inch|Bandage 2 Inch||consumable_items|1|UQC_pcs|||
+PB1063|FINDIG_GOOD|N|N|Plastic Box|Plastic Box||consumable_items|1|UQC_pcs|||
+PB1064|FINDIG_GOOD|N|N|Baid Aid (P)|Baid Aid (P)||consumable_items|1|UQC_pac|||
+PB1065|FINDIG_GOOD|N|N|SS Hex Nut Bolt 12x50mm|SS Hex Nut Bolt 12x50mm||consumable_items|1|UQC_pcs|||
+PB1066|FINDIG_GOOD|N|N|Hemmring Bit 6mm|Hemmring Bit 6mm||consumable_items|1|UQC_pcs|||
+PB1067|FINDIG_GOOD|N|N|Plastic Oil Can 500ml|Plastic Oil Can 500ml||consumable_items|1|UQC_pcs|||
+PB1068|FINDIG_GOOD|N|N|Liquid Soap Dispenser SS Zupdi 500ml|Liquid Soap Dispenser SS Zupdi 500ml||consumable_items|1|UQC_pcs|||
+PB1069|FINDIG_GOOD|N|N|Office Table|Office Table||assets|1|UQC_pcs|||
+PB1070|FINDIG_GOOD|N|N|Rubber Sheet 8 Mm|Rubber Sheet 8 Mm||consumable_items|1|UQC_kgs|||
+PB1071|FINDIG_GOOD|N|N|Hammer Bit 12x310mm|Hammer Bit 12x310mm||consumable_items|1|UQC_pcs|||
+PB1072|FINDIG_GOOD|N|N|Sea Green Paint|Sea Green Paint||consumable_items|1|UQC_klr|||
+PB1073|FINDIG_GOOD|N|N|White Paint|White Paint||consumable_items|1|UQC_klr|||
+PB1074|FINDIG_GOOD|N|N|Yellow Paint|Yellow Paint||consumable_items|1|UQC_klr|||
+PB1075|FINDIG_GOOD|N|N|Black Paint|Black Paint||consumable_items|1|UQC_klr|||
+PB1076|FINDIG_GOOD|N|N|Training Brochure Printing|Training Brochure Printing||consumable_items|1|UQC_pcs|||
+PB1077|FINDIG_GOOD|N|N|PRODUCT KIT|PRODUCT KIT||FG|1|UQC_pcs|||
+PB1078|FINDIG_GOOD|N|N|Cutting Wheel  4inch|Cutting Wheel  4inch||consumable_items|1|UQC_pac|||
+PB1079|FINDIG_GOOD|N|N|Grinding Wheel 4inch|Grinding Wheel 4inch||consumable_items|1|UQC_pcs|||
+PB1080|FINDIG_GOOD|N|N|Grinding Wheel 7inch|Grinding Wheel 7inch||consumable_items|1|UQC_pcs|||
+PB1081|FINDIG_GOOD|N|N|Joint Nipple for Gas Cutter|Joint Nipple for Gas Cutter||consumable_items|1|UQC_pcs|||
+PB1082|FINDIG_GOOD|N|N|Joint Clamp for Gas Cutter|Joint Clamp for Gas Cutter||consumable_items|1|UQC_pcs|||
+PB1083|FINDIG_GOOD|N|N|Cutting Nozzle Size 1/32|Cutting Nozzle Size 1/32||consumable_items|1|UQC_pcs|||
+PB1084|FINDIG_GOOD|N|N|50 Mtr Measuring Tape|50 Mtr Measuring Tape||consumable_items|1|UQC_pcs|||
+PB1085|FINDIG_GOOD|N|N|Gas Cutter Lead (LPG+Oxygen)|Gas Cutter Lead (LPG+Oxygen)||consumable_items|1|UQC_mtr|||
+PB1086|FINDIG_GOOD|N|N|Oxigen Regulator|Oxigen Regulator||consumable_items|1|UQC_pcs|||
+PB1087|FINDIG_GOOD|N|N|COPPER Wire 6 SQ MM X 1 CORE Green|COPPER Wire 6 SQ MM X 1 CORE Green||consumable_items|1|UQC_mtr|||
+PB1088|FINDIG_GOOD|N|N|UPVC Socket 50mm SCH-80|UPVC Socket 50mm SCH-80||consumable_items|1|UQC_pcs|||
+PB1089|FINDIG_GOOD|N|N|UPVC Elbow 50mm  SCH-80|UPVC Elbow 50mm  SCH-80||consumable_items|1|UQC_pcs|||
+PB1090|FINDIG_GOOD|N|N|UPVC Tee 50mm SCH-80|UPVC Tee 50mm SCH-80||consumable_items|1|UQC_pcs|||
+PB1091|FINDIG_GOOD|N|N|UPVC FTA 1inch|UPVC FTA 1inch||consumable_items|1|UQC_pcs|||
+PB1092|FINDIG_GOOD|N|N|4inch UPVC Tee|4inch UPVC Tee||consumable_items|1|UQC_pcs|||
+PB1093|FINDIG_GOOD|N|N|UPVC Bushing 4inchX2inch|UPVC Bushing 4inchX2inch||consumable_items|1|UQC_pcs|||
+PB1094|FINDIG_GOOD|N|N|Bearing 22213 K|Bearing 22213 K||consumable_items|1|UQC_pcs|||
+PB1095|FINDIG_GOOD|N|N|MS Sleev H313|MS Sleev H313||consumable_items|1|UQC_pcs|||
+PB1096|FINDIG_GOOD|N|N|Padestel Bracket SN 513|Padestel Bracket SN 513||consumable_items|1|UQC_pcs|||
+PB1097|FINDIG_GOOD|N|N|Butter Flay Valve 3inch|Butter Flay Valve 3inch||consumable_items|1|UQC_pcs|||
+PB1098|FINDIG_GOOD|N|N|V-Belt B-52|V-Belt B-52||consumable_items|1|UQC_pcs|||
+PB1099|FINDIG_GOOD|N|N|Allen Csk 12x50mm With Nut|Allen Csk 12x50mm With Nut||consumable_items|1|UQC_pcs|||
+PB1100|FINDIG_GOOD|N|N|Soil Test Kit (50 Set )-Dharti Ka Doctor|Soil Test Kit (50 Set )-Dharti Ka Doctor||soil_test_kit|1|UQC_pcs|||
+PB1101|FINDIG_GOOD|N|N|Floor Duster Pocha|Floor Duster Pocha||consumable_items|1|UQC_pcs|||
+PB1102|FINDIG_GOOD|N|N|Khira Najiya|Khira Najiya||consumable_items|1|UQC_gms|||
+PB1103|FINDIG_GOOD|N|N|Khira Sapra|Khira Sapra||consumable_items|1|UQC_gms|||
+PB1104|FINDIG_GOOD|N|N|Tarbooj Madhubala|Tarbooj Madhubala||consumable_items|1|UQC_gms|||
+PB1105|FINDIG_GOOD|N|N|Tarbooj Aastha|Tarbooj Aastha||consumable_items|1|UQC_gms|||
+PB1106|FINDIG_GOOD|N|N|Karela 6214|Karela 6214||consumable_items|1|UQC_gms|||
+PB1107|FINDIG_GOOD|N|N|Karela F1 Pali|Karela F1 Pali||consumable_items|1|UQC_gms|||
+PB1108|FINDIG_GOOD|N|N|Bhindi F1 Soumya|Bhindi F1 Soumya||consumable_items|1|UQC_gms|||
+PB1109|FINDIG_GOOD|N|N|Bhindi F1 SV8999|Bhindi F1 SV8999||consumable_items|1|UQC_gms|||
+PB1110|FINDIG_GOOD|N|N|Tori Aloka|Tori Aloka||consumable_items|1|UQC_gms|||
+PB1111|FINDIG_GOOD|N|N|Tori Doli|Tori Doli||consumable_items|1|UQC_gms|||
+PB1112|FINDIG_GOOD|N|N|Kharbooja Madhuraja|Kharbooja Madhuraja||consumable_items|1|UQC_gms|||
+PB1113|FINDIG_GOOD|N|N|Kharbooja Madhurama|Kharbooja Madhurama||consumable_items|1|UQC_gms|||
+PB1114|FINDIG_GOOD|N|N|Glove Valve Steam 1inch F/E CJ-3680|Glove Valve Steam 1inch F/E CJ-3680||consumable_items|1|UQC_pcs|||
+PB1115|FINDIG_GOOD|N|N|Loki Sumya|Loki Sumya||consumable_items|1|UQC_gms|||
+PB1116|FINDIG_GOOD|N|N|Loki Anokhi|Loki Anokhi||consumable_items|1|UQC_gms|||
+PB1117|FINDIG_GOOD|N|N|Sheet Protector (SOV FOLDER)|Sheet Protector (SOV FOLDER)||consumable_items|1|UQC_pcs|||
+PB1118|FINDIG_GOOD|N|N|Welding Rubber Hose Pipe|Welding Rubber Hose Pipe||consumable_items|1|UQC_mtr|||
+PB1119|FINDIG_GOOD|N|N|ARC Welding Holder|ARC Welding Holder||consumable_items|1|UQC_pcs|||
+PB1120|FINDIG_GOOD|N|N|Clip 4inch|Clip 4inch||consumable_items|1|UQC_pcs|||
+PB1121|FINDIG_GOOD|N|N|Flang Type Gate Valve 3inch|Flang Type Gate Valve 3inch||consumable_items|1|UQC_pcs|||
+PB1122|FINDIG_GOOD|N|N|Mrida Pareekshan Report Book (PBRI)|Mrida Pareekshan Report Book (PBRI)||publicity_material|1|UQC_pcs|||
+PB1123|FINDIG_GOOD|N|N|Pamphlate Printing|Pamphlate Printing||publicity_material|1|UQC_pcs|||
+PB1124|FINDIG_GOOD|N|N|Visiting Card Printing|Visiting Card Printing||publicity_material|1|UQC_pcs|||
+PB1125|FINDIG_GOOD|N|N|Material Purchase Indent|Material Purchase Indent||consumable_items|1|UQC_pcs|||
+PB1126|FINDIG_GOOD|N|N|Material Receipt Note Book|Material Receipt Note Book||consumable_items|1|UQC_pcs|||
+PB1127|FINDIG_GOOD|N|N|Non Returnable / Returnable Gate Pass Bo|Non Returnable / Returnable Gate Pass Bo||consumable_items|1|UQC_pcs|||
+PB1128|FINDIG_GOOD|N|N|Principal Certificate Book|Principal Certificate Book||consumable_items|1|UQC_pcs|||
+PB1129|FINDIG_GOOD|N|N|Scrap Cement Bag|Scrap Cement Bag||rtn_dmgd_material|1|UQC_kgs|||
+PB1130|FINDIG_GOOD|N|N|Empty CV Box for SITA KIT|Empty CV Box for SITA KIT||packing_material|1|UQC_pcs|||
+PB1131|FINDIG_GOOD|N|N|Keep|Keep||consumable_items|1|UQC_pcs|||
+PB1132|FINDIG_GOOD|N|N|SS ALLEN BOLT 8x50MM|SS ALLEN BOLT 8x50MM||consumable_items|1|UQC_pcs|||
+PB1133|FINDIG_GOOD|N|N|SS Allen Csk 8x30mm|SS Allen Csk 8x30mm||consumable_items|1|UQC_pcs|||
+PB1134|FINDIG_GOOD|N|N|SS Hex Nut 8mm|SS Hex Nut 8mm||consumable_items|1|UQC_pcs|||
+PB1135|FINDIG_GOOD|N|N|MS Washer 14mm|MS Washer 14mm||consumable_items|1|UQC_pcs|||
+PB1136|FINDIG_GOOD|N|N|Bearing 22208|Bearing 22208||consumable_items|1|UQC_pcs|||
+PB1137|FINDIG_GOOD|N|N|Thermo Couple Wire|Thermo Couple Wire||consumable_items|1|UQC_mtr|||
+PB1138|FINDIG_GOOD|N|N|Temprature Controller|Temprature Controller||consumable_items|1|UQC_pcs|||
+PB1139|FINDIG_GOOD|N|N|Thermo Couple Sensor (PT100 Sensor)|Thermo Couple Sensor (PT100 Sensor)||consumable_items|1|UQC_pcs|||
+PB1140|FINDIG_GOOD|N|N|Decomposer|Decomposer||semi_finish_product|1|UQC_klr|||
+PB1141|FINDIG_GOOD|N|N|Phenolpthalin Ind. (Powder)|Phenolpthalin Ind. (Powder)||lab_chemicals|1|UQC_gms|||
+PB1142|FINDIG_GOOD|N|N|Fix Chair|Fix Chair||assets|1|UQC_pcs|||
+PB1143|FINDIG_GOOD|N|N|Flow Switch Mouting 1inch|Flow Switch Mouting 1inch||consumable_items|1|UQC_pcs|||
+PB1144|FINDIG_GOOD|N|N|Lub Oil 15W40 API CF4 Turbo|Lub Oil 15W40 API CF4 Turbo||consumable_items|1|UQC_klr|||
+PB1145|FINDIG_GOOD|N|N|COOLENT (CC 2654)|COOLENT (CC 2654)||consumable_items|1|UQC_klr|||
+PB1146|FINDIG_GOOD|N|N|LDPE Black Poly Bag 5.5inchx6inch|LDPE Black Poly Bag 5.5inchx6inch||consumable_items|1|UQC_kgs|||
+PB1147|FINDIG_GOOD|N|N|LXR Notebook|LXR Notebook||consumable_items|1|UQC_pcs|||
+PB1148|FINDIG_GOOD|N|N|Butter Flay Valve 6inch|Butter Flay Valve 6inch||consumable_items|1|UQC_pcs|||
+PB1149|FINDIG_GOOD|N|N|25 HP Star Delta Starter|25 HP Star Delta Starter||consumable_items|1|UQC_pcs|||
+PB1150|FINDIG_GOOD|N|N|MS Sheet (1250X2500X2mm)|MS Sheet (1250X2500X2mm)||consumable_items|1|UQC_kgs|||
+PB1151|FINDIG_GOOD|N|N|MS Sheet (3X1250X2500mm)|MS Sheet (3X1250X2500mm)||consumable_items|1|UQC_kgs|||
+PB1152|FINDIG_GOOD|N|N|MS Sheet (4X1250X2500mm)|MS Sheet (4X1250X2500mm)||consumable_items|1|UQC_kgs|||
+PB1153|FINDIG_GOOD|N|N|MS Sheet (5X1250X6300mm)|MS Sheet (5X1250X6300mm)||consumable_items|1|UQC_kgs|||
+PB1154|FINDIG_GOOD|N|N|MS Sheet (6X1250X2500mm)|MS Sheet (6X1250X2500mm)||consumable_items|1|UQC_kgs|||
+PB1155|FINDIG_GOOD|N|N|MS Round Pipe (50x50x5)mm|MS Round Pipe (50x50x5)mm||consumable_items|1|UQC_kgs|||
+PB1156|FINDIG_GOOD|N|N|Round Bar 80mm|Round Bar 80mm||consumable_items|1|UQC_kgs|||
+PB1157|FINDIG_GOOD|N|N|Butterfly Valve 6inch|Butterfly Valve 6inch||consumable_items|1|UQC_pcs|||
+PB1158|FINDIG_GOOD|N|N|FTA  50mm SCH-80 THREADED|FTA  50mm SCH-80 THREADED||consumable_items|1|UQC_pcs|||
+PB1159|FINDIG_GOOD|N|N|Ruly 230X260X90|Ruly 230X260X90||consumable_items|1|UQC_pcs|||
+PB1160|FINDIG_GOOD|N|N|Spirit Leval|Spirit Leval||consumable_items|1|UQC_pcs|||
+PB1161|FINDIG_GOOD|N|N|Cello Tape 2inch|Cello Tape 2inch||consumable_items|1|UQC_pcs|||
+PB1162|FINDIG_GOOD|N|N|Tape Double Side|Tape Double Side||consumable_items|1|UQC_pcs|||
+PB1163|FINDIG_GOOD|N|N|Restick Notes Size 2inchx3inch|Restick Notes Size 2inchx3inch||consumable_items|1|UQC_pcs|||
+PB1164|FINDIG_GOOD|N|N|Calculater MJ120|Calculater MJ120||consumable_items|1|UQC_pcs|||
+PB1165|FINDIG_GOOD|N|N|Packing Niddle (Sua)|Packing Niddle (Sua)||consumable_items|1|UQC_pcs|||
+PB1166|FINDIG_GOOD|N|N|Steel Wire Rope 12 mm|Steel Wire Rope 12 mm||consumable_items|1|UQC_pcs|||
+PB1167|FINDIG_GOOD|N|N|Wire Rope U-Clamp - 12 Mm|Wire Rope U-Clamp - 12 Mm||consumable_items|1|UQC_pcs|||
+PB1168|FINDIG_GOOD|N|N|D-Shackle 17 Ton|D-Shackle 17 Ton||consumable_items|1|UQC_pcs|||
+PB1169|FINDIG_GOOD|N|N|G.I. Socket 1inch|G.I. Socket 1inch||consumable_items|1|UQC_pcs|||
+PB1170|FINDIG_GOOD|N|N|G.I. Socket 2inch|G.I. Socket 2inch||consumable_items|1|UQC_pcs|||
+PB1171|FINDIG_GOOD|N|N|Luxury Roll-up Standee|Luxury Roll-up Standee||publicity_material|1|UQC_pcs|||
+PB1172|FINDIG_GOOD|N|N|Alluminium Silicate|Alluminium Silicate||raw_material|1|UQC_kgs|||
+PB1173|FINDIG_GOOD|N|N|Premium Quality Flex 20X20 Feet|Premium Quality Flex 20X20 Feet||publicity_material|1|UQC_pcs|||
+PB1174|FINDIG_GOOD|N|N|Spocket of Conveyor 16 Teeth 1inch|Spocket of Conveyor 16 Teeth 1inch||consumable_items|1|UQC_pcs|||
+PB1175|FINDIG_GOOD|N|N|Spocket of Conveyor 30 Teeth 1inch|Spocket of Conveyor 30 Teeth 1inch||consumable_items|1|UQC_pcs|||
+PB1176|FINDIG_GOOD|N|N|V-Belt B 80|V-Belt B 80||consumable_items|1|UQC_pcs|||
+PB1177|FINDIG_GOOD|N|N|Blead Glorey (Cutter Blades)|Blead Glorey (Cutter Blades)||consumable_items|1|UQC_pcs|||
+PB1178|FINDIG_GOOD|N|N|HSS Haxo Blase (Hexa Blade)|HSS Haxo Blase (Hexa Blade)||consumable_items|1|UQC_pcs|||
+PB1179|FINDIG_GOOD|N|N|Plastic Drum 100 Ltr (BIG Dustbin)|Plastic Drum 100 Ltr (BIG Dustbin)||consumable_items|1|UQC_pcs|||
+PB1180|FINDIG_GOOD|N|N|Plastic L Folder|Plastic L Folder||consumable_items|1|UQC_pcs|||
+PB1181|FINDIG_GOOD|N|N|ST-1 A4100 Sticker Oddy|ST-1 A4100 Sticker Oddy||consumable_items|1|UQC_pac|||
+PB1182|FINDIG_GOOD|N|N|30ampX3 Pole Matel Plug With Socket MCB+|30ampX3 Pole Matel Plug With Socket MCB+||consumable_items|1|UQC_pcs|||
+PB1183|FINDIG_GOOD|N|N|Paper Envelops 9x4 TAJ OFF|Paper Envelops 9x4 TAJ OFF||consumable_items|1|UQC_pcs|||
+PB1184|FINDIG_GOOD|N|N|Paper Envelops A4 Size|Paper Envelops A4 Size||consumable_items|1|UQC_pcs|||
+PB1185|FINDIG_GOOD|N|N|Pencil|Pencil||consumable_items|1|UQC_pcs|||
+PB1186|FINDIG_GOOD|N|N|Eraser Non Dust (J) 20 PCS per Dabbi|Eraser Non Dust (J) 20 PCS per Dabbi||consumable_items|1|UQC_pcs|||
+PB1187|FINDIG_GOOD|N|N|Sharpner|Sharpner||consumable_items|1|UQC_pcs|||
+PB1188|FINDIG_GOOD|N|N|BM 52A Highlighter|BM 52A Highlighter||consumable_items|1|UQC_pcs|||
+PB1189|FINDIG_GOOD|N|N|Stapler No. 10|Stapler No. 10||consumable_items|1|UQC_pcs|||
+PB1190|FINDIG_GOOD|N|N|Oddy RS 2X3 Selfstick Removeable Lable|Oddy RS 2X3 Selfstick Removeable Lable||consumable_items|1|UQC_pcs|||
+PB1191|FINDIG_GOOD|N|N|Stapler Pin No. 10|Stapler Pin No. 10||consumable_items|1|UQC_pcs|||
+PB1192|FINDIG_GOOD|N|N|Tape Adh Commn 2inch (72 Pcs)|Tape Adh Commn 2inch (72 Pcs)||consumable_items|1|UQC_pcs|||
+PB1193|FINDIG_GOOD|N|N|Waxoil Black 5 Ltr Part No. 4004/0502|Waxoil Black 5 Ltr Part No. 4004/0502||consumable_items|1|UQC_pcs|||
+PB1194|FINDIG_GOOD|N|N|Chisel 12inch|Chisel 12inch||consumable_items|1|UQC_pcs|||
+PB1195|FINDIG_GOOD|N|N|Chisel 6inch|Chisel 6inch||consumable_items|1|UQC_pcs|||
+PB1196|FINDIG_GOOD|N|N|Allen Key Set|Allen Key Set||consumable_items|1|UQC_pcs|||
+PB1197|FINDIG_GOOD|N|N|Circlip Plier Inner|Circlip Plier Inner||consumable_items|1|UQC_pcs|||
+PB1198|FINDIG_GOOD|N|N|Circlip Plier Outer|Circlip Plier Outer||consumable_items|1|UQC_pcs|||
+PB1199|FINDIG_GOOD|N|N|Flat Screw Driver L-280|Flat Screw Driver L-280||consumable_items|1|UQC_pcs|||
+PB1200|FINDIG_GOOD|N|N|Hammer 710 gm with Handle|Hammer 710 gm with Handle||consumable_items|1|UQC_pcs|||
+PB1201|FINDIG_GOOD|N|N|Tefon Hammer|Tefon Hammer||consumable_items|1|UQC_pcs|||
+PB1202|FINDIG_GOOD|N|N|Cutter|Cutter||consumable_items|1|UQC_pcs|||
+PB1203|FINDIG_GOOD|N|N|Hole Punch 12mm|Hole Punch 12mm||consumable_items|1|UQC_pcs|||
+PB1204|FINDIG_GOOD|N|N|Measuring Scale 24inch|Measuring Scale 24inch||consumable_items|1|UQC_pcs|||
+PB1205|FINDIG_GOOD|N|N|Ring Spanner Size 14inch (From 6-7 to 36-41|Ring Spanner Size 14inch (From 6-7 to 36-41||consumable_items|1|UQC_pcs|||
+PB1206|FINDIG_GOOD|N|N|Open  EndedSpanner 14inch(From 6-7 to 36-41|Open  EndedSpanner 14inch(From 6-7 to 36-41||consumable_items|1|UQC_pcs|||
+PB1207|FINDIG_GOOD|N|N|Adjustable Spanner L-305mm|Adjustable Spanner L-305mm||consumable_items|1|UQC_pcs|||
+PB1208|FINDIG_GOOD|N|N|Adjustable Spanner L-205mm|Adjustable Spanner L-205mm||consumable_items|1|UQC_pcs|||
+PB1209|FINDIG_GOOD|N|N|Combination Plier|Combination Plier||consumable_items|1|UQC_pcs|||
+PB1210|FINDIG_GOOD|N|N|Pipe Wrench 450 Mm|Pipe Wrench 450 Mm||consumable_items|1|UQC_pcs|||
+PB1211|FINDIG_GOOD|N|N|Pipe Wrench 300 Mm|Pipe Wrench 300 Mm||consumable_items|1|UQC_pcs|||
+PB1212|FINDIG_GOOD|N|N|Flat Screw Driver L-150|Flat Screw Driver L-150||consumable_items|1|UQC_pcs|||
+PB1213|FINDIG_GOOD|N|N|Inch Tape 5 Mtr|Inch Tape 5 Mtr||consumable_items|1|UQC_pcs|||
+PB1214|FINDIG_GOOD|N|N|File Flat|File Flat||consumable_items|1|UQC_pcs|||
+PB1215|FINDIG_GOOD|N|N|Screw Driver Set SDK-900|Screw Driver Set SDK-900||consumable_items|1|UQC_pcs|||
+PB1216|FINDIG_GOOD|N|N|Socket Set (Goti Set) S 11 HXL|Socket Set (Goti Set) S 11 HXL||consumable_items|1|UQC_pcs|||
+PB1217|FINDIG_GOOD|N|N|Tool Box|Tool Box||consumable_items|1|UQC_pcs|||
+PB1218|FINDIG_GOOD|N|N|Pully 9inch-C4|Pully 9inch-C4||consumable_items|1|UQC_set|||
+PB1219|FINDIG_GOOD|N|N|Moong Seeds|Moong Seeds||consumable_items|1|UQC_kgs|||
+PB1220|FINDIG_GOOD|N|N|8 Port D-Link Switch GIGABIT|8 Port D-Link Switch GIGABIT||assets|1|UQC_unt|||
+PB1221|FINDIG_GOOD|N|N|MS Angle|MS Angle||consumable_items|1|UQC_pcs|||
+PB1222|FINDIG_GOOD|N|N|Switch 10 Amp┬á Modular Box|Switch 10 Amp┬á Modular Box||consumable_items|1|UQC_set|||
+PB1223|FINDIG_GOOD|N|N|Socket Modular Box|Socket Modular Box||consumable_items|1|UQC_set|||
+PB1224|FINDIG_GOOD|N|N|Flex Banner|Flex Banner||consumable_items|1|UQC_pcs|||
+PB1225|FINDIG_GOOD|N|N|Ciling Fan 48inch|Ciling Fan 48inch||consumable_items|1|UQC_pcs|||
+PB1226|FINDIG_GOOD|N|N|V-Belt C-124|V-Belt C-124||consumable_items|1|UQC_pcs|||
+PB1227|FINDIG_GOOD|N|N|HT Bolt Nut With Washer 12X50mm|HT Bolt Nut With Washer 12X50mm||consumable_items|1|UQC_pcs|||
+PB1228|FINDIG_GOOD|N|N|Brass Showar With Hose Nipple|Brass Showar With Hose Nipple||consumable_items|1|UQC_pcs|||
+PB1229|FINDIG_GOOD|N|N|Stock Register 6 No.|Stock Register 6 No.||consumable_items|1|UQC_pcs|||
+PB1230|FINDIG_GOOD|N|N|Stock Register 4 No.|Stock Register 4 No.||consumable_items|1|UQC_pcs|||

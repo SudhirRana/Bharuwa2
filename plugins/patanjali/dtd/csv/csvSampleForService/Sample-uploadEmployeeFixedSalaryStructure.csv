@@ -1,0 +1,3 @@
+OfbizPartyCode,FromDate,BasicSalary,DA_percentage,HRA_percentage,CCA_percentage,CA_flat_amount,MA_flat_amount,SA_flat_amount,BONUS_flat_amount,PF_flat_amount,PF_percentage,MESS_flat_amount,ESI_flat_amount,ESI_percentage,ADV_DED_flat_amount,TDS_flat_amount,OvertimeRatePerHour
+E10000,2019-06-01 00:00:01,25001,,35,10,1500,1250,500,100,1800,,900,205,,,4000,110
+E10001,2019-06-01 00:00:01,26002,5,30,10,1700,1250,,1000,,10,750,,10,400,4500,100

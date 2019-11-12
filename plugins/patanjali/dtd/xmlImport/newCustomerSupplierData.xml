@@ -1,0 +1,1714 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity-engine-xml>
+<!-- Customer data -->
+<Party partyId="CP0053" partyTypeId="PARTY_GROUP" statusId="PARTY_ENABLED"/>
+<PartyGroup partyId="CP0053" groupName="Patanjali Yogpeeth, Teliwala" groupNameLocal="Sundry Debtors" />
+<ContactMech contactMechId="CCM053" contactMechTypeId="POSTAL_ADDRESS" />
+<PartyContactMech partyId="CP0053" contactMechId="CCM053" fromDate="2019-04-17 00:00:00.0" allowSolicitation="Y" />
+<PartyContactMechPurpose partyId="CP0053" contactMechId="CCM053" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="BILLING_LOCATION" />
+<PartyContactMechPurpose partyId="CP0053" contactMechId="CCM053" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="SHIPPING_LOCATION" />
+<PartyContactMechPurpose partyId="CP0053" contactMechId="CCM053" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="GENERAL_LOCATION" />
+<PostalAddress contactMechId="CCM053" countryGeoId="IND" stateProvinceGeoId="IN-UT" address1="Teliwala" address2="" toName="" postalCode="" city="Haridwar" />
+<PartyRole partyId="CP0053" roleTypeId="CUSTOMER" />
+<PartyRole partyId="CP0053" roleTypeId="BILL_TO_CUSTOMER" />
+<PartyRole partyId="CP0053" roleTypeId="CONTACT" />
+<PartyRole partyId="CP0053" roleTypeId="END_USER_CUSTOMER" />
+<PartyRole partyId="CP0053" roleTypeId="SHIP_TO_CUSTOMER" />
+<PartyRole partyId="CP0053" roleTypeId="PLACING_CUSTOMER" />
+<PartyStatus partyId="CP0053" statusDate="2019-04-17 00:00:00.0" statusId="PARTY_ENABLED" />
+
+
+<Party partyId="CP0054" partyTypeId="PARTY_GROUP" statusId="PARTY_ENABLED"/>
+<PartyGroup partyId="CP0054" groupName="Organic Crop Care" groupNameLocal="Sundry Debtors" />
+<ContactMech contactMechId="CCM054" contactMechTypeId="POSTAL_ADDRESS" />
+<PartyContactMech partyId="CP0054" contactMechId="CCM054" fromDate="2019-04-17 00:00:00.0" allowSolicitation="Y" />
+<PartyContactMechPurpose partyId="CP0054" contactMechId="CCM054" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="BILLING_LOCATION" />
+<PartyContactMechPurpose partyId="CP0054" contactMechId="CCM054" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="SHIPPING_LOCATION" />
+<PartyContactMechPurpose partyId="CP0054" contactMechId="CCM054" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="GENERAL_LOCATION" />
+<PostalAddress contactMechId="CCM054" countryGeoId="IND" stateProvinceGeoId="IN-UT" address1="Organic Crop Care" address2="" toName="" postalCode="" city="" />
+<PartyRole partyId="CP0054" roleTypeId="CUSTOMER" />
+<PartyRole partyId="CP0054" roleTypeId="BILL_TO_CUSTOMER" />
+<PartyRole partyId="CP0054" roleTypeId="CONTACT" />
+<PartyRole partyId="CP0054" roleTypeId="END_USER_CUSTOMER" />
+<PartyRole partyId="CP0054" roleTypeId="SHIP_TO_CUSTOMER" />
+<PartyRole partyId="CP0054" roleTypeId="PLACING_CUSTOMER" />
+<PartyStatus partyId="CP0054" statusDate="2019-04-17 00:00:00.0" statusId="PARTY_ENABLED" />
+
+<Party partyId="CP0055" partyTypeId="PARTY_GROUP" statusId="PARTY_ENABLED" />
+<PartyGroup partyId="CP0055" groupName="Cash" groupNameLocal="Sundry Debtors" />
+<ContactMech contactMechId="CCM055" contactMechTypeId="POSTAL_ADDRESS" />
+<PartyContactMech partyId="CP0055" contactMechId="CCM055" fromDate="2019-04-17 00:00:00.0" allowSolicitation="Y" />
+<PartyContactMechPurpose partyId="CP0055" contactMechId="CCM055" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="BILLING_LOCATION" />
+<PartyContactMechPurpose partyId="CP0055" contactMechId="CCM055" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="SHIPPING_LOCATION" />
+<PartyContactMechPurpose partyId="CP0055" contactMechId="CCM055" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="GENERAL_LOCATION" />
+<PostalAddress contactMechId="CCM055" countryGeoId="IND" stateProvinceGeoId="IN-UT" address1="Cash" address2="" toName="" postalCode="" city="" />
+<PartyRole partyId="CP0055" roleTypeId="CUSTOMER" />
+<PartyRole partyId="CP0055" roleTypeId="BILL_TO_CUSTOMER" />
+<PartyRole partyId="CP0055" roleTypeId="CONTACT" />
+<PartyRole partyId="CP0055" roleTypeId="END_USER_CUSTOMER" />
+<PartyRole partyId="CP0055" roleTypeId="SHIP_TO_CUSTOMER" />
+<PartyRole partyId="CP0055" roleTypeId="PLACING_CUSTOMER" />
+<PartyStatus partyId="CP0055" statusDate="2019-04-17 00:00:00.0" statusId="PARTY_ENABLED" />
+
+<Party partyId="CP0056" partyTypeId="PARTY_GROUP" statusId="PARTY_ENABLED"/>
+<PartyGroup partyId="CP0056" groupName="Sanjeev Tomar" groupNameLocal="Sundry Debtors" />
+<ContactMech contactMechId="CCM056" contactMechTypeId="POSTAL_ADDRESS" />
+<PartyContactMech partyId="CP0056" contactMechId="CCM056" fromDate="2019-04-17 00:00:00.0" allowSolicitation="Y" />
+<PartyContactMechPurpose partyId="CP0056" contactMechId="CCM056" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="BILLING_LOCATION" />
+<PartyContactMechPurpose partyId="CP0056" contactMechId="CCM056" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="SHIPPING_LOCATION" />
+<PartyContactMechPurpose partyId="CP0056" contactMechId="CCM056" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="GENERAL_LOCATION" />
+<PostalAddress contactMechId="CCM056" countryGeoId="IND" stateProvinceGeoId="IN-UT" address1="Mr. Sanjeev Tomar" address2="" toName="" postalCode="" city="" />
+<PartyRole partyId="CP0056" roleTypeId="CUSTOMER" />
+<PartyRole partyId="CP0056" roleTypeId="BILL_TO_CUSTOMER" />
+<PartyRole partyId="CP0056" roleTypeId="CONTACT" />
+<PartyRole partyId="CP0056" roleTypeId="END_USER_CUSTOMER" />
+<PartyRole partyId="CP0056" roleTypeId="SHIP_TO_CUSTOMER" />
+<PartyRole partyId="CP0056" roleTypeId="PLACING_CUSTOMER" />
+<PartyStatus partyId="CP0056" statusDate="2019-04-17 00:00:00.0" statusId="PARTY_ENABLED" />
+
+<Party partyId="CP0057" partyTypeId="PARTY_GROUP" statusId="PARTY_ENABLED"/>
+<PartyGroup partyId="CP0057" groupName="Patanjali Ayurved Limited Research Farm" groupNameLocal="Sundry Debtors" />
+<ContactMech contactMechId="CCM057" contactMechTypeId="POSTAL_ADDRESS" />
+<PartyContactMech partyId="CP0057" contactMechId="CCM057" fromDate="2019-04-17 00:00:00.0" allowSolicitation="Y" />
+<PartyContactMechPurpose partyId="CP0057" contactMechId="CCM057" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="BILLING_LOCATION" />
+<PartyContactMechPurpose partyId="CP0057" contactMechId="CCM057" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="SHIPPING_LOCATION" />
+<PartyContactMechPurpose partyId="CP0057" contactMechId="CCM057" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="GENERAL_LOCATION" />
+<PostalAddress contactMechId="CCM057" countryGeoId="IND" stateProvinceGeoId="IN-UT" address1="Patanjali Ayurved Limited Research Farm" address2="" toName="" postalCode="" city="Haridwar" />
+<PartyRole partyId="CP0057" roleTypeId="CUSTOMER" />
+<PartyRole partyId="CP0057" roleTypeId="BILL_TO_CUSTOMER" />
+<PartyRole partyId="CP0057" roleTypeId="CONTACT" />
+<PartyRole partyId="CP0057" roleTypeId="END_USER_CUSTOMER" />
+<PartyRole partyId="CP0057" roleTypeId="SHIP_TO_CUSTOMER" />
+<PartyRole partyId="CP0057" roleTypeId="PLACING_CUSTOMER" />
+<PartyStatus partyId="CP0057" statusDate="2019-04-17 00:00:00.0" statusId="PARTY_ENABLED" />
+
+<Party partyId="CP0058" partyTypeId="PARTY_GROUP" statusId="PARTY_ENABLED"/>
+<PartyGroup partyId="CP0058" groupName="Aastha Enterprises" groupNameLocal="Sundry Debtors" />
+<ContactMech contactMechId="CCM058" contactMechTypeId="POSTAL_ADDRESS" />
+<PartyContactMech partyId="CP0058" contactMechId="CCM058" fromDate="2019-04-17 00:00:00.0" allowSolicitation="Y" />
+<PartyContactMechPurpose partyId="CP0058" contactMechId="CCM058" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="BILLING_LOCATION" />
+<PartyContactMechPurpose partyId="CP0058" contactMechId="CCM058" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="SHIPPING_LOCATION" />
+<PartyContactMechPurpose partyId="CP0058" contactMechId="CCM058" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="GENERAL_LOCATION" />
+<PostalAddress contactMechId="CCM058" countryGeoId="IND" stateProvinceGeoId="IN-UT" address1="Aastha Enterprises" address2="" toName="" postalCode="" city="Roorke" />
+<PartyRole partyId="CP0058" roleTypeId="CUSTOMER" />
+<PartyRole partyId="CP0058" roleTypeId="BILL_TO_CUSTOMER" />
+<PartyRole partyId="CP0058" roleTypeId="CONTACT" />
+<PartyRole partyId="CP0058" roleTypeId="END_USER_CUSTOMER" />
+<PartyRole partyId="CP0058" roleTypeId="SHIP_TO_CUSTOMER" />
+<PartyRole partyId="CP0058" roleTypeId="PLACING_CUSTOMER" />
+<PartyStatus partyId="CP0058" statusDate="2019-04-17 00:00:00.0" statusId="PARTY_ENABLED" />
+
+<Party partyId="CP0059" partyTypeId="PARTY_GROUP" statusId="PARTY_ENABLED"/>
+<PartyGroup partyId="CP0059" groupName="Rocky Agro Needs" groupNameLocal="Sundry Debtors" />
+<ContactMech contactMechId="CCM059" contactMechTypeId="POSTAL_ADDRESS" />
+<PartyContactMech partyId="CP0059" contactMechId="CCM059" fromDate="2019-04-17 00:00:00.0" allowSolicitation="Y" />
+<PartyContactMechPurpose partyId="CP0059" contactMechId="CCM059" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="BILLING_LOCATION" />
+<PartyContactMechPurpose partyId="CP0059" contactMechId="CCM059" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="SHIPPING_LOCATION" />
+<PartyContactMechPurpose partyId="CP0059" contactMechId="CCM059" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="GENERAL_LOCATION" />
+<PostalAddress contactMechId="CCM059" countryGeoId="IND" stateProvinceGeoId="IN-HR" address1="Rocky Agro Needs" address2="" toName="" postalCode="" city="Fatehabad" />
+<PartyRole partyId="CP0059" roleTypeId="CUSTOMER" />
+<PartyRole partyId="CP0059" roleTypeId="BILL_TO_CUSTOMER" />
+<PartyRole partyId="CP0059" roleTypeId="CONTACT" />
+<PartyRole partyId="CP0059" roleTypeId="END_USER_CUSTOMER" />
+<PartyRole partyId="CP0059" roleTypeId="SHIP_TO_CUSTOMER" />
+<PartyRole partyId="CP0059" roleTypeId="PLACING_CUSTOMER" />
+<PartyStatus partyId="CP0059" statusDate="2019-04-17 00:00:00.0" statusId="PARTY_ENABLED" />
+
+<Party partyId="CP0060" partyTypeId="PARTY_GROUP" statusId="PARTY_ENABLED"/>
+<PartyGroup partyId="CP0060" groupName="Patanjali Yogpeeth Trust( Haridwar )" groupNameLocal="Sundry Debtors" />
+<ContactMech contactMechId="CCM060" contactMechTypeId="POSTAL_ADDRESS" />
+<PartyContactMech partyId="CP0060" contactMechId="CCM060" fromDate="2019-04-17 00:00:00.0" allowSolicitation="Y" />
+<PartyContactMechPurpose partyId="CP0060" contactMechId="CCM060" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="BILLING_LOCATION" />
+<PartyContactMechPurpose partyId="CP0060" contactMechId="CCM060" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="SHIPPING_LOCATION" />
+<PartyContactMechPurpose partyId="CP0060" contactMechId="CCM060" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="GENERAL_LOCATION" />
+<PostalAddress contactMechId="CCM060" countryGeoId="IND" stateProvinceGeoId="IN-UT" address1="Patanjali Yogpeeth Trust( Haridwar )" address2="" toName="" postalCode="" city="Haridwar" />
+<PartyRole partyId="CP0060" roleTypeId="CUSTOMER" />
+<PartyRole partyId="CP0060" roleTypeId="BILL_TO_CUSTOMER" />
+<PartyRole partyId="CP0060" roleTypeId="CONTACT" />
+<PartyRole partyId="CP0060" roleTypeId="END_USER_CUSTOMER" />
+<PartyRole partyId="CP0060" roleTypeId="SHIP_TO_CUSTOMER" />
+<PartyRole partyId="CP0060" roleTypeId="PLACING_CUSTOMER" />
+<PartyStatus partyId="CP0060" statusDate="2019-04-17 00:00:00.0" statusId="PARTY_ENABLED" />
+
+<Party partyId="CP0061" partyTypeId="PARTY_GROUP" statusId="PARTY_ENABLED"/>
+<PartyGroup partyId="CP0061" groupName="PBRI Pvt. Ltd. Punjab Branch" groupNameLocal="Sundry Debtors" />
+<ContactMech contactMechId="CCM061" contactMechTypeId="POSTAL_ADDRESS" />
+<PartyContactMech partyId="CP0061" contactMechId="CCM061" fromDate="2019-04-17 00:00:00.0" allowSolicitation="Y" />
+<PartyContactMechPurpose partyId="CP0061" contactMechId="CCM061" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="BILLING_LOCATION" />
+<PartyContactMechPurpose partyId="CP0061" contactMechId="CCM061" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="SHIPPING_LOCATION" />
+<PartyContactMechPurpose partyId="CP0061" contactMechId="CCM061" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="GENERAL_LOCATION" />
+<PostalAddress contactMechId="CCM061" countryGeoId="IND" stateProvinceGeoId="IN-PB" address1="PBRI Pvt. Ltd. Punjab Branch" address2="" toName="" postalCode="" city="Punjab" />
+<PartyRole partyId="CP0061" roleTypeId="CUSTOMER" />
+<PartyRole partyId="CP0061" roleTypeId="BILL_TO_CUSTOMER" />
+<PartyRole partyId="CP0061" roleTypeId="CONTACT" />
+<PartyRole partyId="CP0061" roleTypeId="END_USER_CUSTOMER" />
+<PartyRole partyId="CP0061" roleTypeId="SHIP_TO_CUSTOMER" />
+<PartyRole partyId="CP0061" roleTypeId="PLACING_CUSTOMER" />
+<PartyStatus partyId="CP0061" statusDate="2019-04-17 00:00:00.0" statusId="PARTY_ENABLED" />
+
+<Party partyId="CP0062" partyTypeId="PARTY_GROUP" statusId="PARTY_ENABLED"/>
+<PartyGroup partyId="CP0062" groupName="ROCKY AGRO NEEDS,FATEHABAD,HARYANA" groupNameLocal="Sundry Debtors" />
+<ContactMech contactMechId="CCM062" contactMechTypeId="POSTAL_ADDRESS" />
+<PartyContactMech partyId="CP0062" contactMechId="CCM062" fromDate="2019-04-17 00:00:00.0" allowSolicitation="Y" />
+<PartyContactMechPurpose partyId="CP0062" contactMechId="CCM062" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="BILLING_LOCATION" />
+<PartyContactMechPurpose partyId="CP0062" contactMechId="CCM062" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="SHIPPING_LOCATION" />
+<PartyContactMechPurpose partyId="CP0062" contactMechId="CCM062" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="GENERAL_LOCATION" />
+<PostalAddress contactMechId="CCM062" countryGeoId="IND" stateProvinceGeoId="IN-HR" address1="ROCKY AGRO NEEDS,FATEHABAD,HARYANA" address2="" toName="" postalCode="" city="Haryana" />
+<PartyRole partyId="CP0062" roleTypeId="CUSTOMER" />
+<PartyRole partyId="CP0062" roleTypeId="BILL_TO_CUSTOMER" />
+<PartyRole partyId="CP0062" roleTypeId="CONTACT" />
+<PartyRole partyId="CP0062" roleTypeId="END_USER_CUSTOMER" />
+<PartyRole partyId="CP0062" roleTypeId="SHIP_TO_CUSTOMER" />
+<PartyRole partyId="CP0062" roleTypeId="PLACING_CUSTOMER" />
+<PartyStatus partyId="CP0062" statusDate="2019-04-17 00:00:00.0" statusId="PARTY_ENABLED" />
+
+<Party partyId="CP0063" partyTypeId="PARTY_GROUP" statusId="PARTY_ENABLED"/>
+<PartyGroup partyId="CP0063" groupName="PKSK S/D Nigohi Shahjahpur UP" groupNameLocal="Sundry Debtors" />
+<ContactMech contactMechId="CCM063" contactMechTypeId="POSTAL_ADDRESS" />
+<PartyContactMech partyId="CP0063" contactMechId="CCM063" fromDate="2019-04-17 00:00:00.0" allowSolicitation="Y" />
+<PartyContactMechPurpose partyId="CP0063" contactMechId="CCM063" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="BILLING_LOCATION" />
+<PartyContactMechPurpose partyId="CP0063" contactMechId="CCM063" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="SHIPPING_LOCATION" />
+<PartyContactMechPurpose partyId="CP0063" contactMechId="CCM063" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="GENERAL_LOCATION" />
+<PostalAddress contactMechId="CCM063" countryGeoId="IND" stateProvinceGeoId="IN-UP" address1="PKSK S/D Nigohi Shahjahpur UP" address2="" toName="" postalCode="" city="Uttarpradesh" />
+<PartyRole partyId="CP0063" roleTypeId="CUSTOMER" />
+<PartyRole partyId="CP0063" roleTypeId="BILL_TO_CUSTOMER" />
+<PartyRole partyId="CP0063" roleTypeId="CONTACT" />
+<PartyRole partyId="CP0063" roleTypeId="END_USER_CUSTOMER" />
+<PartyRole partyId="CP0063" roleTypeId="SHIP_TO_CUSTOMER" />
+<PartyRole partyId="CP0063" roleTypeId="PLACING_CUSTOMER" />
+<PartyStatus partyId="CP0063" statusDate="2019-04-17 00:00:00.0" statusId="PARTY_ENABLED" />
+
+<Party partyId="CP0064" partyTypeId="PARTY_GROUP" statusId="PARTY_ENABLED"/>
+<PartyGroup partyId="CP0064" groupName="Patanjali Kisan Sewa Kendra, Bijnore UP" groupNameLocal="Sundry Debtors" />
+<ContactMech contactMechId="CCM064" contactMechTypeId="POSTAL_ADDRESS" />
+<PartyContactMech partyId="CP0064" contactMechId="CCM064" fromDate="2019-04-17 00:00:00.0" allowSolicitation="Y" />
+<PartyContactMechPurpose partyId="CP0064" contactMechId="CCM064" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="BILLING_LOCATION" />
+<PartyContactMechPurpose partyId="CP0064" contactMechId="CCM064" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="SHIPPING_LOCATION" />
+<PartyContactMechPurpose partyId="CP0064" contactMechId="CCM064" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="GENERAL_LOCATION" />
+<PostalAddress contactMechId="CCM064" countryGeoId="IND" stateProvinceGeoId="IN-UP" address1="Patanjali Kisan Sewa Kendra, Bijnore UP" address2="" toName="" postalCode="" city="Uttarpradesh" />
+<PartyRole partyId="CP0064" roleTypeId="CUSTOMER" />
+<PartyRole partyId="CP0064" roleTypeId="BILL_TO_CUSTOMER" />
+<PartyRole partyId="CP0064" roleTypeId="CONTACT" />
+<PartyRole partyId="CP0064" roleTypeId="END_USER_CUSTOMER" />
+<PartyRole partyId="CP0064" roleTypeId="SHIP_TO_CUSTOMER" />
+<PartyRole partyId="CP0064" roleTypeId="PLACING_CUSTOMER" />
+<PartyStatus partyId="CP0064" statusDate="2019-04-17 00:00:00.0" statusId="PARTY_ENABLED" />
+
+<Party partyId="CP0065" partyTypeId="PARTY_GROUP" statusId="PARTY_ENABLED"/>
+<PartyGroup partyId="CP0065" groupName="Dinesh Yadav" groupNameLocal="Sundry Debtors" />
+<ContactMech contactMechId="CCM065" contactMechTypeId="POSTAL_ADDRESS" />
+<PartyContactMech partyId="CP0065" contactMechId="CCM065" fromDate="2019-04-17 00:00:00.0" allowSolicitation="Y" />
+<PartyContactMechPurpose partyId="CP0065" contactMechId="CCM065" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="BILLING_LOCATION" />
+<PartyContactMechPurpose partyId="CP0065" contactMechId="CCM065" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="SHIPPING_LOCATION" />
+<PartyContactMechPurpose partyId="CP0065" contactMechId="CCM065" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="GENERAL_LOCATION" />
+<PostalAddress contactMechId="CCM065" countryGeoId="IND" stateProvinceGeoId="IN-UP" address1="Dinesh Yadav" address2="" toName="" postalCode="" city="Uttarpradesh" />
+<PartyRole partyId="CP0065" roleTypeId="CUSTOMER" />
+<PartyRole partyId="CP0065" roleTypeId="BILL_TO_CUSTOMER" />
+<PartyRole partyId="CP0065" roleTypeId="CONTACT" />
+<PartyRole partyId="CP0065" roleTypeId="END_USER_CUSTOMER" />
+<PartyRole partyId="CP0065" roleTypeId="SHIP_TO_CUSTOMER" />
+<PartyRole partyId="CP0065" roleTypeId="PLACING_CUSTOMER" />
+<PartyStatus partyId="CP0065" statusDate="2019-04-17 00:00:00.0" statusId="PARTY_ENABLED" />
+
+<!-- Supplier data -->
+
+<Party partyId="PRT0276" partyTypeId="PARTY_GROUP"  statusId="PARTY_ENABLED"/>
+<PartyGroup partyId="PRT0276" groupName="Central Drug House (P) Ltd" groupNameLocal="Sundry Creditors" />
+<ContactMech contactMechId="CM0276" contactMechTypeId="POSTAL_ADDRESS" />
+<PartyContactMech partyId="PRT0276" contactMechId="CM0276" fromDate="2019-04-17 00:00:00.0" allowSolicitation="Y" />
+<PartyContactMechPurpose partyId="PRT0276" contactMechId="CM0276" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="BILLING_LOCATION" />
+<PartyContactMechPurpose partyId="PRT0276" contactMechId="CM0276" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="GENERAL_LOCATION" />
+<PostalAddress contactMechId="CM0276" countryGeoId="IND" stateProvinceGeoId="IN-DL" address1="7/28, Vardaan House,Ansari Road" address2="Daryaganj" toName="" postalCode="110002" city="New Delhi" />
+<ContactMech contactMechId="EM0101" infoString="sales@cdhfinechemical.com" contactMechTypeId="EMAIL_ADDRESS" />
+<PartyContactMech partyId="PRT0276" contactMechId="EM0101" fromDate="2019-04-17 00:00:00.0" allowSolicitation="Y" />
+<PartyContactMechPurpose partyId="PRT0276" contactMechId="EM0101" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="PRIMARY_EMAIL" />
+<ContactMech contactMechId="PN0205" contactMechTypeId="TELECOM_NUMBER" />
+<PartyContactMech partyId="PRT0276" contactMechId="PN0205" fromDate="2019-04-17 00:00:00.0" allowSolicitation="Y" />
+<TelecomNumber contactMechId="PN0205" contactNumber="49404040" countryCode="91" areaCode="11" />
+<PartyContactMechPurpose partyId="PRT0276" contactMechId="PN0205" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="PRIMARY_PHONE" />
+<PartyIdentification partyId="PRT0276" partyIdentificationTypeId="PAN" idValue="AAACC2523P" />
+<PartyIdentification partyId="PRT0276" partyIdentificationTypeId="GST" idValue="07AAACC2523P1ZN" />
+<PartyStatus partyId="PRT0276"  statusDate="2001-01-01 12:00:00.0"  statusId="PARTY_ENABLED"/>
+<PartyRole partyId="PRT0276" roleTypeId="SUPPLIER" />
+<PartyRole partyId="PRT0276" roleTypeId="BILL_FROM_VENDOR" />
+<PartyRole partyId="PRT0276" roleTypeId="BILL_TO_CUSTOMER" />
+<PartyRole partyId="PRT0276" roleTypeId="SHIP_FROM_VENDOR" />
+<PartyRole partyId="PRT0276" roleTypeId="SUPPLIER_AGENT" />
+<PartyRole partyId="PRT0276" roleTypeId="REGISTERED" />
+
+<Party partyId="PRT0277" partyTypeId="PARTY_GROUP"  statusId="PARTY_ENABLED"/>
+<PartyGroup partyId="PRT0277" groupName="Nandan Silai Machine Works" groupNameLocal="Sundry Creditors" />
+<ContactMech contactMechId="CM0277" contactMechTypeId="POSTAL_ADDRESS" />
+<PartyContactMech partyId="PRT0277" contactMechId="CM0277" fromDate="2019-04-17 00:00:00.0" allowSolicitation="Y" />
+<PartyContactMechPurpose partyId="PRT0277" contactMechId="CM0277" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="BILLING_LOCATION" />
+<PartyContactMechPurpose partyId="PRT0277" contactMechId="CM0277" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="GENERAL_LOCATION" />
+<PostalAddress contactMechId="CM0277" countryGeoId="IND" stateProvinceGeoId="IN-UT" address1="Mohalla Kadacha, Jwalapur" address2="" toName="" postalCode="" city="Haridwar" />
+<ContactMech contactMechId="PN0206" contactMechTypeId="TELECOM_NUMBER" />
+<PartyContactMech partyId="PRT0277" contactMechId="PN0206" fromDate="2019-04-17 00:00:00.0" allowSolicitation="Y" />
+<TelecomNumber contactMechId="PN0206" contactNumber="9720844566" countryCode="" areaCode="" />
+<PartyContactMechPurpose partyId="PRT0277" contactMechId="PN0206" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="PHONE_MOBILE" />
+<PartyContactMechPurpose partyId="PRT0277" contactMechId="PN0206" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="PRIMARY_PHONE" />
+
+<PartyStatus partyId="PRT0277"  statusDate="2001-01-01 12:00:00.0"  statusId="PARTY_ENABLED"/>
+<PartyRole partyId="PRT0277" roleTypeId="SUPPLIER" />
+<PartyRole partyId="PRT0277" roleTypeId="BILL_FROM_VENDOR" />
+<PartyRole partyId="PRT0277" roleTypeId="BILL_TO_CUSTOMER" />
+<PartyRole partyId="PRT0277" roleTypeId="SHIP_FROM_VENDOR" />
+<PartyRole partyId="PRT0277" roleTypeId="SUPPLIER_AGENT" />
+<PartyRole partyId="PRT0277" roleTypeId="UNREGISTERED" />
+
+<Party partyId="PRT0278" partyTypeId="PARTY_GROUP"  statusId="PARTY_ENABLED"/>
+<PartyGroup partyId="PRT0278" groupName="Shri Ganesh Engineering Materials" groupNameLocal="Sundry Creditors" />
+<ContactMech contactMechId="CM0278" contactMechTypeId="POSTAL_ADDRESS" />
+<PartyContactMech partyId="PRT0278" contactMechId="CM0278" fromDate="2019-04-17 00:00:00.0" allowSolicitation="Y" />
+<PartyContactMechPurpose partyId="PRT0278" contactMechId="CM0278" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="BILLING_LOCATION" />
+<PartyContactMechPurpose partyId="PRT0278" contactMechId="CM0278" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="GENERAL_LOCATION" />
+<PostalAddress contactMechId="CM0278" countryGeoId="IND" stateProvinceGeoId="IN-UT" address1="G-6, Ground Floor, Purushottam Vihar" address2="Kahkhal" toName="" postalCode="249408" city="Haridwar" />
+<ContactMech contactMechId="EM0102" infoString="info@shriganesheng.com" contactMechTypeId="EMAIL_ADDRESS" />
+<PartyContactMech partyId="PRT0278" contactMechId="EM0102" fromDate="2019-04-17 00:00:00.0" allowSolicitation="Y" />
+<PartyContactMechPurpose partyId="PRT0278" contactMechId="EM0102" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="PRIMARY_EMAIL" />
+<ContactMech contactMechId="PN0207" contactMechTypeId="TELECOM_NUMBER" />
+<PartyContactMech partyId="PRT0278" contactMechId="PN0207" fromDate="2019-04-17 00:00:00.0" allowSolicitation="Y" />
+<TelecomNumber contactMechId="PN0207" contactNumber="7500277446" countryCode="" areaCode="" />
+<PartyContactMechPurpose partyId="PRT0278" contactMechId="PN0207" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="PRIMARY_PHONE" />
+<PartyContactMechPurpose partyId="PRT0278" contactMechId="PN0207" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="PHONE_MOBILE" />
+<PartyIdentification partyId="PRT0278" partyIdentificationTypeId="PAN" idValue="ADGFS3421C" />
+<PartyIdentification partyId="PRT0278" partyIdentificationTypeId="GST" idValue="05ADGFS3421C1ZL" />
+<PartyStatus partyId="PRT0278"  statusDate="2001-01-01 12:00:00.0"  statusId="PARTY_ENABLED"/>
+<PartyRole partyId="PRT0278" roleTypeId="SUPPLIER" />
+<PartyRole partyId="PRT0278" roleTypeId="BILL_FROM_VENDOR" />
+<PartyRole partyId="PRT0278" roleTypeId="BILL_TO_CUSTOMER" />
+<PartyRole partyId="PRT0278" roleTypeId="SHIP_FROM_VENDOR" />
+<PartyRole partyId="PRT0278" roleTypeId="SUPPLIER_AGENT" />
+<PartyRole partyId="PRT0278" roleTypeId="REGISTERED" />
+
+
+<Party partyId="PRT0279" partyTypeId="PARTY_GROUP"  statusId="PARTY_ENABLED"/>
+<PartyGroup partyId="PRT0279" groupName="Shri Raj &amp; Co." groupNameLocal="Sundry Creditors" />
+<ContactMech contactMechId="CM0279" contactMechTypeId="POSTAL_ADDRESS" />
+<PartyContactMech partyId="PRT0279" contactMechId="CM0279" fromDate="2019-04-17 00:00:00.0" allowSolicitation="Y" />
+<PartyContactMechPurpose partyId="PRT0279" contactMechId="CM0279" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="BILLING_LOCATION" />
+<PartyContactMechPurpose partyId="PRT0279" contactMechId="CM0279" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="GENERAL_LOCATION" />
+<PostalAddress contactMechId="CM0279" countryGeoId="IND" stateProvinceGeoId="IN-DL" address1="170-A, Azad Market" address2="" toName="" postalCode="110006" city="New Delhi" />
+<ContactMech contactMechId="PN0208" contactMechTypeId="TELECOM_NUMBER" />
+<PartyContactMech partyId="PRT0279" contactMechId="PN0208" fromDate="2019-04-17 00:00:00.0" allowSolicitation="Y" />
+<TelecomNumber contactMechId="PN0208" contactNumber="9810968900" countryCode="" areaCode="" />
+<PartyContactMechPurpose partyId="PRT0279" contactMechId="PN0208" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="PRIMARY_PHONE" />
+<PartyContactMechPurpose partyId="PRT0278" contactMechId="PN0207" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="PHONE_MOBILE" />
+<PartyIdentification partyId="PRT0279" partyIdentificationTypeId="PAN" idValue="AAIPK1298G" />
+<PartyIdentification partyId="PRT0279" partyIdentificationTypeId="GST" idValue="07AAIPK1298G1ZL" />
+<PartyStatus partyId="PRT0279"  statusDate="2001-01-01 12:00:00.0"  statusId="PARTY_ENABLED"/>
+<PartyRole partyId="PRT0279" roleTypeId="SUPPLIER" />
+<PartyRole partyId="PRT0279" roleTypeId="BILL_FROM_VENDOR" />
+<PartyRole partyId="PRT0279" roleTypeId="BILL_TO_CUSTOMER" />
+<PartyRole partyId="PRT0279" roleTypeId="SHIP_FROM_VENDOR" />
+<PartyRole partyId="PRT0279" roleTypeId="SUPPLIER_AGENT" />
+<PartyRole partyId="PRT0279" roleTypeId="REGISTERED" />
+
+<Party partyId="PRT0280" partyTypeId="PARTY_GROUP"  statusId="PARTY_ENABLED"/>
+<PartyGroup partyId="PRT0280" groupName="Starco Biotech Pvt. Limited" groupNameLocal="Sundry Creditors" />
+<ContactMech contactMechId="CM0280" contactMechTypeId="POSTAL_ADDRESS" />
+<PartyContactMech partyId="PRT0280" contactMechId="CM0280" fromDate="2019-04-17 00:00:00.0" allowSolicitation="Y" />
+<PartyContactMechPurpose partyId="PRT0280" contactMechId="CM0280" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="BILLING_LOCATION" />
+<PartyContactMechPurpose partyId="PRT0280" contactMechId="CM0280" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="GENERAL_LOCATION" />
+<PostalAddress contactMechId="CM0280" countryGeoId="IND" stateProvinceGeoId="IN-HR" address1="G-10, Vishanu Palace, Sector-20/B" address2="Ajrouda Chowk" toName="Mr. D. P. Gupta" postalCode="" city="Faridabad" />
+<ContactMech contactMechId="EM0103" infoString="d.pgupta@yahoo.com" contactMechTypeId="EMAIL_ADDRESS" />
+<PartyContactMech partyId="PRT0280" contactMechId="EM0103" fromDate="2019-04-17 00:00:00.0" allowSolicitation="Y" />
+<PartyContactMechPurpose partyId="PRT0280" contactMechId="EM0103" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="PRIMARY_EMAIL" />
+<ContactMech contactMechId="PN0209" contactMechTypeId="TELECOM_NUMBER" />
+<PartyContactMech partyId="PRT0280" contactMechId="PN0209" fromDate="2019-04-17 00:00:00.0" allowSolicitation="Y" />
+<TelecomNumber contactMechId="PN0209" contactNumber="9310134982" countryCode="" areaCode="" />
+<PartyContactMechPurpose partyId="PRT0280" contactMechId="PN0209" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="PRIMARY_PHONE" />
+<PartyContactMechPurpose partyId="PRT0278" contactMechId="PN0207" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="PHONE_MOBILE" />
+<PartyIdentification partyId="PRT0280" partyIdentificationTypeId="PAN" idValue="AAJCS1497F" />
+<PartyIdentification partyId="PRT0280" partyIdentificationTypeId="GST" idValue="06AAJCS1497F2Z5" />
+<PartyStatus partyId="PRT0280"  statusDate="2001-01-01 12:00:00.0"  statusId="PARTY_ENABLED"/>
+<PartyRole partyId="PRT0280" roleTypeId="SUPPLIER" />
+<PartyRole partyId="PRT0280" roleTypeId="BILL_FROM_VENDOR" />
+<PartyRole partyId="PRT0280" roleTypeId="BILL_TO_CUSTOMER" />
+<PartyRole partyId="PRT0280" roleTypeId="SHIP_FROM_VENDOR" />
+<PartyRole partyId="PRT0280" roleTypeId="SUPPLIER_AGENT" />
+<PartyRole partyId="PRT0280" roleTypeId="REGISTERED" />
+
+<Party partyId="PRT0281" partyTypeId="PARTY_GROUP"  statusId="PARTY_ENABLED"/>
+<PartyGroup partyId="PRT0281" groupName="Marudhara Polypack Industries" groupNameLocal="Sundry Creditors" />
+<ContactMech contactMechId="CM0281" contactMechTypeId="POSTAL_ADDRESS" />
+<PartyContactMech partyId="PRT0281" contactMechId="CM0281" fromDate="2019-04-17 00:00:00.0" allowSolicitation="Y" />
+<PartyContactMechPurpose partyId="PRT0281" contactMechId="CM0281" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="BILLING_LOCATION" />
+<PartyContactMechPurpose partyId="PRT0281" contactMechId="CM0281" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="GENERAL_LOCATION" />
+<PostalAddress contactMechId="CM0281" countryGeoId="IND" stateProvinceGeoId="IN-UP" address1="F-458,SEC.-63" address2="Gautam Budh Nagar 2" toName="" postalCode="201301" city="Noida" />
+<ContactMech contactMechId="PN0210" contactMechTypeId="TELECOM_NUMBER" />
+<PartyContactMech partyId="PRT0281" contactMechId="PN0210" fromDate="2019-04-17 00:00:00.0" allowSolicitation="Y" />
+<TelecomNumber contactMechId="PN0210" contactNumber="4543276" countryCode="" areaCode="120" />
+<PartyContactMechPurpose partyId="PRT0281" contactMechId="PN0210" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="PRIMARY_PHONE" />
+
+<PartyIdentification partyId="PRT0281" partyIdentificationTypeId="GST" idValue="09AAOPP8364J1ZU" />
+<PartyStatus partyId="PRT0281"  statusDate="2001-01-01 12:00:00.0"  statusId="PARTY_ENABLED"/>
+<PartyRole partyId="PRT0281" roleTypeId="SUPPLIER" />
+<PartyRole partyId="PRT0281" roleTypeId="BILL_FROM_VENDOR" />
+<PartyRole partyId="PRT0281" roleTypeId="BILL_TO_CUSTOMER" />
+<PartyRole partyId="PRT0281" roleTypeId="SHIP_FROM_VENDOR" />
+<PartyRole partyId="PRT0281" roleTypeId="SUPPLIER_AGENT" />
+<PartyRole partyId="PRT0281" roleTypeId="REGISTERED" />
+
+<Party partyId="PRT0282" partyTypeId="PARTY_GROUP"  statusId="PARTY_ENABLED"/>
+<PartyGroup partyId="PRT0282" groupName="Krishna Trading Company" groupNameLocal="Sundry Creditors" />
+<ContactMech contactMechId="CM0282" contactMechTypeId="POSTAL_ADDRESS" />
+<PartyContactMech partyId="PRT0282" contactMechId="CM0282" fromDate="2019-04-17 00:00:00.0" allowSolicitation="Y" />
+<PartyContactMechPurpose partyId="PRT0282" contactMechId="CM0282" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="BILLING_LOCATION" />
+<PartyContactMechPurpose partyId="PRT0282" contactMechId="CM0282" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="GENERAL_LOCATION" />
+<PostalAddress contactMechId="CM0282" countryGeoId="IND" stateProvinceGeoId="IN-UT" address1="Daksh Mandir Road" address2="Pahari Bazaar, Kankhal" toName="" postalCode="" city="Haridwar" />
+<ContactMech contactMechId="PN0211" contactMechTypeId="TELECOM_NUMBER" />
+<PartyContactMech partyId="PRT0282" contactMechId="PN0211" fromDate="2019-04-17 00:00:00.0" allowSolicitation="Y" />
+<TelecomNumber contactMechId="PN0211" contactNumber="9319771289" countryCode="" areaCode="120" />
+<PartyContactMechPurpose partyId="PRT0282" contactMechId="PN0211" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="PRIMARY_PHONE" />
+
+<ContactMech contactMechId="PN0212" contactMechTypeId="TELECOM_NUMBER" />
+<PartyContactMech partyId="PRT0282" contactMechId="PN0212" fromDate="2019-04-17 00:00:00.0" allowSolicitation="Y" />
+<TelecomNumber contactMechId="PN0212" contactNumber="8126459060" countryCode="" areaCode="120" />
+<PartyContactMechPurpose partyId="PRT0282" contactMechId="PN0212" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="PHONE_MOBILE" />
+
+<PartyIdentification partyId="PRT0282" partyIdentificationTypeId="GST" idValue="05AAIFK5212C1ZW" />
+<PartyStatus partyId="PRT0282"  statusDate="2001-01-01 12:00:00.0"  statusId="PARTY_ENABLED"/>
+<PartyRole partyId="PRT0282" roleTypeId="SUPPLIER" />
+<PartyRole partyId="PRT0282" roleTypeId="BILL_FROM_VENDOR" />
+<PartyRole partyId="PRT0282" roleTypeId="BILL_TO_CUSTOMER" />
+<PartyRole partyId="PRT0282" roleTypeId="SHIP_FROM_VENDOR" />
+<PartyRole partyId="PRT0282" roleTypeId="SUPPLIER_AGENT" />
+<PartyRole partyId="PRT0282" roleTypeId="REGISTERED" />
+
+
+
+<Party partyId="PRT0283" partyTypeId="PARTY_GROUP"  statusId="PARTY_ENABLED"/>
+<PartyGroup partyId="PRT0283" groupName="A. R. Enterprises" groupNameLocal="Sundry Creditors" />
+<ContactMech contactMechId="CM0283" contactMechTypeId="POSTAL_ADDRESS" />
+<PartyContactMech partyId="PRT0283" contactMechId="CM0283" fromDate="2019-04-17 00:00:00.0" allowSolicitation="Y" />
+<PartyContactMechPurpose partyId="PRT0283" contactMechId="CM0283" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="BILLING_LOCATION" />
+<PartyContactMechPurpose partyId="PRT0283" contactMechId="CM0283" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="GENERAL_LOCATION" />
+<PostalAddress contactMechId="CM0283" countryGeoId="IND" stateProvinceGeoId="IN-UT" address1="India" address2="" toName="" postalCode="" city="" />
+<PartyStatus partyId="PRT0283"  statusDate="2001-01-01 12:00:00.0"  statusId="PARTY_ENABLED"/>
+<PartyRole partyId="PRT0283" roleTypeId="SUPPLIER" />
+<PartyRole partyId="PRT0283" roleTypeId="BILL_FROM_VENDOR" />
+<PartyRole partyId="PRT0283" roleTypeId="BILL_TO_CUSTOMER" />
+<PartyRole partyId="PRT0283" roleTypeId="SHIP_FROM_VENDOR" />
+<PartyRole partyId="PRT0283" roleTypeId="SUPPLIER_AGENT" />
+<PartyRole partyId="PRT0283" roleTypeId="REGISTERED" />
+
+<Party partyId="PRT0284" partyTypeId="PARTY_GROUP"  statusId="PARTY_ENABLED"/>
+<PartyGroup partyId="PRT0284" groupName="Chandwani Furnitures" groupNameLocal="Sundry Creditors" />
+<ContactMech contactMechId="CM0284" contactMechTypeId="POSTAL_ADDRESS" />
+<PartyContactMech partyId="PRT0284" contactMechId="CM0284" fromDate="2019-04-17 00:00:00.0" allowSolicitation="Y" />
+<PartyContactMechPurpose partyId="PRT0284" contactMechId="CM0284" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="BILLING_LOCATION" />
+<PartyContactMechPurpose partyId="PRT0284" contactMechId="CM0284" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="GENERAL_LOCATION" />
+<PostalAddress contactMechId="CM0284" countryGeoId="IND" stateProvinceGeoId="IN-UT" address1="Jwalapur" address2="" toName="" postalCode="" city="Haridwar" />
+<PartyStatus partyId="PRT0284"  statusDate="2001-01-01 12:00:00.0"  statusId="PARTY_ENABLED"/>
+<PartyRole partyId="PRT0284" roleTypeId="SUPPLIER" />
+<PartyRole partyId="PRT0284" roleTypeId="BILL_FROM_VENDOR" />
+<PartyRole partyId="PRT0284" roleTypeId="BILL_TO_CUSTOMER" />
+<PartyRole partyId="PRT0284" roleTypeId="SHIP_FROM_VENDOR" />
+<PartyRole partyId="PRT0284" roleTypeId="SUPPLIER_AGENT" />
+<PartyRole partyId="PRT0284" roleTypeId="REGISTERED" />
+
+<Party partyId="PRT0285" partyTypeId="PARTY_GROUP"  statusId="PARTY_ENABLED"/>
+<PartyGroup partyId="PRT0285" groupName="Gen.Tech Engineers" groupNameLocal="Sundry Creditors" />
+<ContactMech contactMechId="CM0285" contactMechTypeId="POSTAL_ADDRESS" />
+<PartyContactMech partyId="PRT0285" contactMechId="CM0285" fromDate="2019-04-17 00:00:00.0" allowSolicitation="Y" />
+<PartyContactMechPurpose partyId="PRT0285" contactMechId="CM0285" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="BILLING_LOCATION" />
+<PartyContactMechPurpose partyId="PRT0285" contactMechId="CM0285" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="GENERAL_LOCATION" />
+<PostalAddress contactMechId="CM0285" countryGeoId="IND" stateProvinceGeoId="IN-UT" address1="India" address2="" toName="" postalCode="" city="" />
+<PartyStatus partyId="PRT0285"  statusDate="2001-01-01 12:00:00.0"  statusId="PARTY_ENABLED"/>
+<PartyRole partyId="PRT0285" roleTypeId="SUPPLIER" />
+<PartyRole partyId="PRT0285" roleTypeId="BILL_FROM_VENDOR" />
+<PartyRole partyId="PRT0285" roleTypeId="BILL_TO_CUSTOMER" />
+<PartyRole partyId="PRT0285" roleTypeId="SHIP_FROM_VENDOR" />
+<PartyRole partyId="PRT0285" roleTypeId="SUPPLIER_AGENT" />
+<PartyRole partyId="PRT0285" roleTypeId="REGISTERED" />
+
+<Party partyId="PRT0286" partyTypeId="PARTY_GROUP"  statusId="PARTY_ENABLED"/>
+<PartyGroup partyId="PRT0286" groupName="H.V.Technologies" groupNameLocal="Sundry Creditors" />
+<ContactMech contactMechId="CM0286" contactMechTypeId="POSTAL_ADDRESS" />
+<PartyContactMech partyId="PRT0286" contactMechId="CM0286" fromDate="2019-04-17 00:00:00.0" allowSolicitation="Y" />
+<PartyContactMechPurpose partyId="PRT0286" contactMechId="CM0286" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="BILLING_LOCATION" />
+<PartyContactMechPurpose partyId="PRT0286" contactMechId="CM0286" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="GENERAL_LOCATION" />
+<PostalAddress contactMechId="CM0286" countryGeoId="IND" stateProvinceGeoId="IN-UT" address1="B-7, Phase II, Transport Nagar" address2="Chandrabani, Shewala Khurd" toName="" postalCode="" city="Dehradun" />
+<PartyStatus partyId="PRT0286"  statusDate="2001-01-01 12:00:00.0"  statusId="PARTY_ENABLED"/>
+<PartyRole partyId="PRT0286" roleTypeId="SUPPLIER" />
+<PartyRole partyId="PRT0286" roleTypeId="BILL_FROM_VENDOR" />
+<PartyRole partyId="PRT0286" roleTypeId="BILL_TO_CUSTOMER" />
+<PartyRole partyId="PRT0286" roleTypeId="SHIP_FROM_VENDOR" />
+<PartyRole partyId="PRT0286" roleTypeId="SUPPLIER_AGENT" />
+<PartyRole partyId="PRT0286" roleTypeId="REGISTERED" />
+
+<Party partyId="PRT0287" partyTypeId="PARTY_GROUP"  statusId="PARTY_ENABLED"/>
+<PartyGroup partyId="PRT0287" groupName="Mahashayji Traders" groupNameLocal="Sundry Creditors" />
+<ContactMech contactMechId="CM0287" contactMechTypeId="POSTAL_ADDRESS" />
+<PartyContactMech partyId="PRT0287" contactMechId="CM0287" fromDate="2019-04-17 00:00:00.0" allowSolicitation="Y" />
+<PartyContactMechPurpose partyId="PRT0287" contactMechId="CM0287" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="BILLING_LOCATION" />
+<PartyContactMechPurpose partyId="PRT0287" contactMechId="CM0287" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="GENERAL_LOCATION" />
+<PostalAddress contactMechId="CM0287" countryGeoId="IND" stateProvinceGeoId="IN-UP" address1="India" address2="" toName="" postalCode="" city="" />
+<PartyStatus partyId="PRT0287"  statusDate="2001-01-01 12:00:00.0"  statusId="PARTY_ENABLED"/>
+<PartyRole partyId="PRT0287" roleTypeId="SUPPLIER" />
+<PartyRole partyId="PRT0287" roleTypeId="BILL_FROM_VENDOR" />
+<PartyRole partyId="PRT0287" roleTypeId="BILL_TO_CUSTOMER" />
+<PartyRole partyId="PRT0287" roleTypeId="SHIP_FROM_VENDOR" />
+<PartyRole partyId="PRT0287" roleTypeId="SUPPLIER_AGENT" />
+<PartyRole partyId="PRT0287" roleTypeId="REGISTERED" />
+
+<Party partyId="PRT0288" partyTypeId="PARTY_GROUP"  statusId="PARTY_ENABLED"/>
+<PartyGroup partyId="PRT0288" groupName="Pushpak Traders" groupNameLocal="Sundry Creditors" />
+<ContactMech contactMechId="CM0288" contactMechTypeId="POSTAL_ADDRESS" />
+<PartyContactMech partyId="PRT0288" contactMechId="CM0288" fromDate="2019-04-17 00:00:00.0" allowSolicitation="Y" />
+<PartyContactMechPurpose partyId="PRT0288" contactMechId="CM0288" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="BILLING_LOCATION" />
+<PartyContactMechPurpose partyId="PRT0288" contactMechId="CM0288" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="GENERAL_LOCATION" />
+<PostalAddress contactMechId="CM0288" countryGeoId="IND" stateProvinceGeoId="IN-UT" address1="India" address2="" toName="" postalCode="" city="" />
+<PartyStatus partyId="PRT0288"  statusDate="2001-01-01 12:00:00.0"  statusId="PARTY_ENABLED"/>
+<PartyRole partyId="PRT0288" roleTypeId="SUPPLIER" />
+<PartyRole partyId="PRT0288" roleTypeId="BILL_FROM_VENDOR" />
+<PartyRole partyId="PRT0288" roleTypeId="BILL_TO_CUSTOMER" />
+<PartyRole partyId="PRT0288" roleTypeId="SHIP_FROM_VENDOR" />
+<PartyRole partyId="PRT0288" roleTypeId="SUPPLIER_AGENT" />
+<PartyRole partyId="PRT0288" roleTypeId="REGISTERED" />
+
+<Party partyId="PRT0289" partyTypeId="PARTY_GROUP"  statusId="PARTY_ENABLED"/>
+<PartyGroup partyId="PRT0289" groupName="R. P. Traders" groupNameLocal="Sundry Creditors" />
+<ContactMech contactMechId="CM0289" contactMechTypeId="POSTAL_ADDRESS" />
+<PartyContactMech partyId="PRT0289" contactMechId="CM0289" fromDate="2019-04-17 00:00:00.0" allowSolicitation="Y" />
+<PartyContactMechPurpose partyId="PRT0289" contactMechId="CM0289" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="BILLING_LOCATION" />
+<PartyContactMechPurpose partyId="PRT0289" contactMechId="CM0289" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="GENERAL_LOCATION" />
+<PostalAddress contactMechId="CM0289" countryGeoId="IND" stateProvinceGeoId="IN-UT" address1="India" address2="" toName="" postalCode="" city="" />
+<PartyStatus partyId="PRT0289"  statusDate="2001-01-01 12:00:00.0"  statusId="PARTY_ENABLED"/>
+<PartyRole partyId="PRT0289" roleTypeId="SUPPLIER" />
+<PartyRole partyId="PRT0289" roleTypeId="BILL_FROM_VENDOR" />
+<PartyRole partyId="PRT0289" roleTypeId="BILL_TO_CUSTOMER" />
+<PartyRole partyId="PRT0289" roleTypeId="SHIP_FROM_VENDOR" />
+<PartyRole partyId="PRT0289" roleTypeId="SUPPLIER_AGENT" />
+<PartyRole partyId="PRT0289" roleTypeId="REGISTERED" />
+
+<Party partyId="PRT0290" partyTypeId="PARTY_GROUP"  statusId="PARTY_ENABLED"/>
+<PartyGroup partyId="PRT0290" groupName="Rahul Beej Bhandar" groupNameLocal="Sundry Creditors" />
+<ContactMech contactMechId="CM0290" contactMechTypeId="POSTAL_ADDRESS" />
+<PartyContactMech partyId="PRT0290" contactMechId="CM0290" fromDate="2019-04-17 00:00:00.0" allowSolicitation="Y" />
+<PartyContactMechPurpose partyId="PRT0290" contactMechId="CM0290" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="BILLING_LOCATION" />
+<PartyContactMechPurpose partyId="PRT0290" contactMechId="CM0290" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="GENERAL_LOCATION" />
+<PostalAddress contactMechId="CM0290" countryGeoId="IND" stateProvinceGeoId="IN-UT" address1="India" address2="" toName="" postalCode="" city="" />
+<PartyStatus partyId="PRT0290"  statusDate="2001-01-01 12:00:00.0"  statusId="PARTY_ENABLED"/>
+<PartyRole partyId="PRT0290" roleTypeId="SUPPLIER" />
+<PartyRole partyId="PRT0290" roleTypeId="BILL_FROM_VENDOR" />
+<PartyRole partyId="PRT0290" roleTypeId="BILL_TO_CUSTOMER" />
+<PartyRole partyId="PRT0290" roleTypeId="SHIP_FROM_VENDOR" />
+<PartyRole partyId="PRT0290" roleTypeId="SUPPLIER_AGENT" />
+<PartyRole partyId="PRT0290" roleTypeId="REGISTERED" />
+
+<Party partyId="PRT0291" partyTypeId="PARTY_GROUP"  statusId="PARTY_ENABLED"/>
+<PartyGroup partyId="PRT0291" groupName="Rashi Images &amp; Technology Zone" groupNameLocal="Sundry Creditors" />
+<ContactMech contactMechId="CM0291" contactMechTypeId="POSTAL_ADDRESS" />
+<PartyContactMech partyId="PRT0291" contactMechId="CM0291" fromDate="2019-04-17 00:00:00.0" allowSolicitation="Y" />
+<PartyContactMechPurpose partyId="PRT0291" contactMechId="CM0291" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="BILLING_LOCATION" />
+<PartyContactMechPurpose partyId="PRT0291" contactMechId="CM0291" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="GENERAL_LOCATION" />
+<PostalAddress contactMechId="CM0291" countryGeoId="IND" stateProvinceGeoId="IN-UT" address1="India" address2="" toName="" postalCode="" city="" />
+<PartyStatus partyId="PRT0291"  statusDate="2001-01-01 12:00:00.0"  statusId="PARTY_ENABLED"/>
+<PartyRole partyId="PRT0291" roleTypeId="SUPPLIER" />
+<PartyRole partyId="PRT0291" roleTypeId="BILL_FROM_VENDOR" />
+<PartyRole partyId="PRT0291" roleTypeId="BILL_TO_CUSTOMER" />
+<PartyRole partyId="PRT0291" roleTypeId="SHIP_FROM_VENDOR" />
+<PartyRole partyId="PRT0291" roleTypeId="SUPPLIER_AGENT" />
+<PartyRole partyId="PRT0291" roleTypeId="REGISTERED" />
+
+<Party partyId="PRT0292" partyTypeId="PARTY_GROUP"  statusId="PARTY_ENABLED"/>
+<PartyGroup partyId="PRT0292" groupName="S. KUMAR &amp; COMPANY" groupNameLocal="Sundry Creditors" />
+<ContactMech contactMechId="CM0292" contactMechTypeId="POSTAL_ADDRESS" />
+<PartyContactMech partyId="PRT0292" contactMechId="CM0292" fromDate="2019-04-17 00:00:00.0" allowSolicitation="Y" />
+<PartyContactMechPurpose partyId="PRT0292" contactMechId="CM0292" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="BILLING_LOCATION" />
+<PartyContactMechPurpose partyId="PRT0292" contactMechId="CM0292" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="GENERAL_LOCATION" />
+<PostalAddress contactMechId="CM0292" countryGeoId="IND" stateProvinceGeoId="IN-UT" address1="India" address2="" toName="" postalCode="" city="" />
+<PartyStatus partyId="PRT0292"  statusDate="2001-01-01 12:00:00.0"  statusId="PARTY_ENABLED"/>
+<PartyRole partyId="PRT0292" roleTypeId="SUPPLIER" />
+<PartyRole partyId="PRT0292" roleTypeId="BILL_FROM_VENDOR" />
+<PartyRole partyId="PRT0292" roleTypeId="BILL_TO_CUSTOMER" />
+<PartyRole partyId="PRT0292" roleTypeId="SHIP_FROM_VENDOR" />
+<PartyRole partyId="PRT0292" roleTypeId="SUPPLIER_AGENT" />
+<PartyRole partyId="PRT0292" roleTypeId="REGISTERED" />
+
+<Party partyId="PRT0293" partyTypeId="PARTY_GROUP"  statusId="PARTY_ENABLED"/>
+<PartyGroup partyId="PRT0293" groupName="S.V.Scientific Co." groupNameLocal="Sundry Creditors" />
+<ContactMech contactMechId="CM0293" contactMechTypeId="POSTAL_ADDRESS" />
+<PartyContactMech partyId="PRT0293" contactMechId="CM0293" fromDate="2019-04-17 00:00:00.0" allowSolicitation="Y" />
+<PartyContactMechPurpose partyId="PRT0293" contactMechId="CM0293" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="BILLING_LOCATION" />
+<PartyContactMechPurpose partyId="PRT0293" contactMechId="CM0293" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="GENERAL_LOCATION" />
+<PostalAddress contactMechId="CM0293" countryGeoId="IND" stateProvinceGeoId="IN-UT" address1="India" address2="" toName="" postalCode="" city="" />
+<PartyStatus partyId="PRT0293"  statusDate="2001-01-01 12:00:00.0"  statusId="PARTY_ENABLED"/>
+<PartyRole partyId="PRT0293" roleTypeId="SUPPLIER" />
+<PartyRole partyId="PRT0293" roleTypeId="BILL_FROM_VENDOR" />
+<PartyRole partyId="PRT0293" roleTypeId="BILL_TO_CUSTOMER" />
+<PartyRole partyId="PRT0293" roleTypeId="SHIP_FROM_VENDOR" />
+<PartyRole partyId="PRT0293" roleTypeId="SUPPLIER_AGENT" />
+<PartyRole partyId="PRT0293" roleTypeId="REGISTERED" />
+
+
+<Party partyId="PRT0294" partyTypeId="PARTY_GROUP"  statusId="PARTY_ENABLED"/>
+<PartyGroup partyId="PRT0294" groupName="Shri Vijay Electricals" groupNameLocal="Sundry Creditors" />
+<ContactMech contactMechId="CM0294" contactMechTypeId="POSTAL_ADDRESS" />
+<PartyContactMech partyId="PRT0294" contactMechId="CM0294" fromDate="2019-04-17 00:00:00.0" allowSolicitation="Y" />
+<PartyContactMechPurpose partyId="PRT0294" contactMechId="CM0294" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="BILLING_LOCATION" />
+<PartyContactMechPurpose partyId="PRT0294" contactMechId="CM0294" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="GENERAL_LOCATION" />
+<PostalAddress contactMechId="CM0294" countryGeoId="IND" stateProvinceGeoId="IN-UT" address1="India" address2="" toName="" postalCode="" city="" />
+<PartyStatus partyId="PRT0294"  statusDate="2001-01-01 12:00:00.0"  statusId="PARTY_ENABLED"/>
+<PartyRole partyId="PRT0294" roleTypeId="SUPPLIER" />
+<PartyRole partyId="PRT0294" roleTypeId="BILL_FROM_VENDOR" />
+<PartyRole partyId="PRT0294" roleTypeId="BILL_TO_CUSTOMER" />
+<PartyRole partyId="PRT0294" roleTypeId="SHIP_FROM_VENDOR" />
+<PartyRole partyId="PRT0294" roleTypeId="SUPPLIER_AGENT" />
+<PartyRole partyId="PRT0294" roleTypeId="REGISTERED" />
+
+<Party partyId="PRT0295" partyTypeId="PARTY_GROUP"  statusId="PARTY_ENABLED"/>
+<PartyGroup partyId="PRT0295" groupName="U. P. Automobiles" groupNameLocal="Sundry Creditors" />
+<ContactMech contactMechId="CM0295" contactMechTypeId="POSTAL_ADDRESS" />
+<PartyContactMech partyId="PRT0295" contactMechId="CM0295" fromDate="2019-04-17 00:00:00.0" allowSolicitation="Y" />
+<PartyContactMechPurpose partyId="PRT0295" contactMechId="CM0295" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="BILLING_LOCATION" />
+<PartyContactMechPurpose partyId="PRT0295" contactMechId="CM0295" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="GENERAL_LOCATION" />
+<PostalAddress contactMechId="CM0295" countryGeoId="IND" stateProvinceGeoId="IN-UT" address1="India" address2="" toName="" postalCode="" city="" />
+<PartyStatus partyId="PRT0295"  statusDate="2001-01-01 12:00:00.0"  statusId="PARTY_ENABLED"/>
+<PartyRole partyId="PRT0295" roleTypeId="SUPPLIER" />
+<PartyRole partyId="PRT0295" roleTypeId="BILL_FROM_VENDOR" />
+<PartyRole partyId="PRT0295" roleTypeId="BILL_TO_CUSTOMER" />
+<PartyRole partyId="PRT0295" roleTypeId="SHIP_FROM_VENDOR" />
+<PartyRole partyId="PRT0295" roleTypeId="SUPPLIER_AGENT" />
+<PartyRole partyId="PRT0295" roleTypeId="REGISTERED" />
+
+<Party partyId="PRT0296" partyTypeId="PARTY_GROUP"  statusId="PARTY_ENABLED"/>
+<PartyGroup partyId="PRT0296" groupName="Viithiisys Technologies" groupNameLocal="Sundry Creditors" />
+<ContactMech contactMechId="CM0296" contactMechTypeId="POSTAL_ADDRESS" />
+<PartyContactMech partyId="PRT0296" contactMechId="CM0296" fromDate="2019-04-17 00:00:00.0" allowSolicitation="Y" />
+<PartyContactMechPurpose partyId="PRT0296" contactMechId="CM0296" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="BILLING_LOCATION" />
+<PartyContactMechPurpose partyId="PRT0296" contactMechId="CM0296" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="GENERAL_LOCATION" />
+<PostalAddress contactMechId="CM0296" countryGeoId="IND" stateProvinceGeoId="IN-PB" address1="PLOT-No. 694, 1st Floor" address2="Sector 82, JLPL" toName="Ganesh" postalCode="160082" city="Mohali" />
+
+<ContactMech contactMechId="EM0104" infoString="accounts@viithiisys.com" contactMechTypeId="EMAIL_ADDRESS" />
+<PartyContactMech partyId="PRT0296" contactMechId="EM0104" fromDate="2019-04-17 00:00:00.0" allowSolicitation="Y" />
+<PartyContactMechPurpose partyId="PRT0296" contactMechId="EM0104" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="PRIMARY_EMAIL" />
+
+<ContactMech contactMechId="PN0213" contactMechTypeId="TELECOM_NUMBER" />
+<PartyContactMech partyId="PRT0296" contactMechId="PN0213" fromDate="2019-04-17 00:00:00.0" allowSolicitation="Y" />
+<TelecomNumber contactMechId="PN0213" contactNumber="3810001" countryCode="91" areaCode="0172" />
+<PartyContactMechPurpose partyId="PRT0296" contactMechId="PN0213" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="PRIMARY_PHONE" />
+
+
+<PartyStatus partyId="PRT0296"  statusDate="2001-01-01 12:00:00.0"  statusId="PARTY_ENABLED"/>
+<PartyRole partyId="PRT0296" roleTypeId="SUPPLIER" />
+<PartyRole partyId="PRT0296" roleTypeId="BILL_FROM_VENDOR" />
+<PartyRole partyId="PRT0296" roleTypeId="BILL_TO_CUSTOMER" />
+<PartyRole partyId="PRT0296" roleTypeId="SHIP_FROM_VENDOR" />
+<PartyRole partyId="PRT0296" roleTypeId="SUPPLIER_AGENT" />
+<PartyRole partyId="PRT0296" roleTypeId="REGISTERED" />
+<PartyIdentification partyId="PRT0296" partyIdentificationTypeId="GST" idValue="03AABCI6860J1ZK" />
+
+<PartyGlAccount partyId="PRT0295" glAccountId="C925506" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+<PartyGlAccount partyId="PRT0293" glAccountId="C927504" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+<PartyGlAccount partyId="PRT0292" glAccountId="C927521" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+<PartyGlAccount partyId="PRT0291" glAccountId="C927529" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+<PartyGlAccount partyId="PRT0290" glAccountId="C927507" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+<PartyGlAccount partyId="PRT0286" glAccountId="C927518" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+<PartyGlAccount partyId="PRT0285" glAccountId="C927526" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+<PartyGlAccount partyId="PRT0283" glAccountId="C927520" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0288" glAccountId="C927533" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0296" glAccountId="C928985" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0294" glAccountId="C928984" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0289" glAccountId="C928983" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0287" glAccountId="C928982" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0284" glAccountId="C928981" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ 
+ <!-- new vender created on date Aug-07-2019 -->
+ <Party partyId="PRT0297" partyTypeId="PARTY_GROUP"  statusId="PARTY_ENABLED"/>
+<Party partyId="PRT0298" partyTypeId="PARTY_GROUP"  statusId="PARTY_ENABLED"/>
+<Party partyId="PRT0299" partyTypeId="PARTY_GROUP"  statusId="PARTY_ENABLED"/>
+<Party partyId="PRT0300" partyTypeId="PARTY_GROUP"  statusId="PARTY_ENABLED"/>
+<Party partyId="PRT0301" partyTypeId="PARTY_GROUP"  statusId="PARTY_ENABLED"/>
+<Party partyId="PRT0302" partyTypeId="PARTY_GROUP"  statusId="PARTY_ENABLED"/>
+<Party partyId="PRT0303" partyTypeId="PARTY_GROUP"  statusId="PARTY_ENABLED"/>
+<Party partyId="PRT0304" partyTypeId="PARTY_GROUP"  statusId="PARTY_ENABLED"/>
+<Party partyId="PRT0305" partyTypeId="PARTY_GROUP"  statusId="PARTY_ENABLED"/>
+<Party partyId="PRT0306" partyTypeId="PARTY_GROUP"  statusId="PARTY_ENABLED"/>
+<Party partyId="PRT0307" partyTypeId="PARTY_GROUP"  statusId="PARTY_ENABLED"/>
+<Party partyId="PRT0308" partyTypeId="PARTY_GROUP"  statusId="PARTY_ENABLED"/>
+<Party partyId="PRT0309" partyTypeId="PARTY_GROUP"  statusId="PARTY_ENABLED"/>
+<Party partyId="PRT0310" partyTypeId="PARTY_GROUP"  statusId="PARTY_ENABLED"/>
+<Party partyId="PRT0311" partyTypeId="PARTY_GROUP"  statusId="PARTY_ENABLED"/>
+<Party partyId="PRT0312" partyTypeId="PARTY_GROUP"  statusId="PARTY_ENABLED"/>
+<Party partyId="PRT0313" partyTypeId="PARTY_GROUP"  statusId="PARTY_ENABLED"/>
+<Party partyId="PRT0314" partyTypeId="PARTY_GROUP"  statusId="PARTY_ENABLED"/>
+<Party partyId="PRT0315" partyTypeId="PARTY_GROUP"  statusId="PARTY_ENABLED"/>
+<Party partyId="PRT0316" partyTypeId="PARTY_GROUP"  statusId="PARTY_ENABLED"/>
+<Party partyId="PRT0317" partyTypeId="PARTY_GROUP"  statusId="PARTY_ENABLED"/>
+<Party partyId="PRT0318" partyTypeId="PARTY_GROUP"  statusId="PARTY_ENABLED"/>
+<Party partyId="PRT0319" partyTypeId="PARTY_GROUP"  statusId="PARTY_ENABLED"/>
+<Party partyId="PRT0320" partyTypeId="PARTY_GROUP"  statusId="PARTY_ENABLED"/>
+<Party partyId="PRT0321" partyTypeId="PARTY_GROUP"  statusId="PARTY_ENABLED"/>
+<Party partyId="PRT0322" partyTypeId="PARTY_GROUP"  statusId="PARTY_ENABLED"/>
+<PartyGroup partyId="PRT0297" groupName="BELLSTONE HI-TECH INTERNATIONAL" groupNameLocal="Sundry Creditors" />
+<PartyGroup partyId="PRT0298" groupName="Bihar Agro Industries" groupNameLocal="Sundry Creditors" />
+<PartyGroup partyId="PRT0299" groupName="Birla Aircon" groupNameLocal="Sundry Creditors" />
+<PartyGroup partyId="PRT0300" groupName="Classic Stickers &amp; Printers Pvt Ltd" groupNameLocal="Sundry Creditors" />
+<PartyGroup partyId="PRT0301" groupName="Divya Packmaf Pvt Ltd" groupNameLocal="Sundry Creditors" />
+<PartyGroup partyId="PRT0302" groupName="Eknaam Printers &amp; Packers" groupNameLocal="Sundry Creditors" />
+<PartyGroup partyId="PRT0303" groupName="Excel Pack Pvt Ltd (Unit 1)" groupNameLocal="Sundry Creditors" />
+<PartyGroup partyId="PRT0304" groupName="Excelsior Engineers Pvt Ltd" groupNameLocal="Sundry Creditors" />
+<PartyGroup partyId="PRT0305" groupName="H. B. Khanduja" groupNameLocal="Sundry Creditors" />
+<PartyGroup partyId="PRT0306" groupName="Hindu Electric Press" groupNameLocal="Sundry Creditors" />
+<PartyGroup partyId="PRT0307" groupName="Komal Elektro Sales" groupNameLocal="Sundry Creditors" />
+<PartyGroup partyId="PRT0308" groupName="Monica Trading And General Suppliers" groupNameLocal="Sundry Creditors" />
+<PartyGroup partyId="PRT0309" groupName="Mr. Jasprit Singh C/O Chauhan Graphics" groupNameLocal="Sundry Creditors" />
+<PartyGroup partyId="PRT0310" groupName="Orchid Corporate Services India Pvt Ltd" groupNameLocal="Sundry Creditors" />
+<PartyGroup partyId="PRT0311" groupName="P.K.Hand Made Paper Industry" groupNameLocal="Sundry Creditors" />
+<PartyGroup partyId="PRT0312" groupName="Pokharna Phosphates &amp; Nitrates" groupNameLocal="Sundry Creditors" />
+<PartyGroup partyId="PRT0313" groupName="Prakriti Eco Products &amp; Services" groupNameLocal="Sundry Creditors" />
+<PartyGroup partyId="PRT0314" groupName="Pratham Graphics Media" groupNameLocal="Sundry Creditors" />
+<PartyGroup partyId="PRT0315" groupName="Reckers Automation India Pvt Ltd" groupNameLocal="Sundry Creditors" />
+<PartyGroup partyId="PRT0316" groupName="Sabri Wood Supplier" groupNameLocal="Sundry Creditors" />
+<PartyGroup partyId="PRT0317" groupName="Saga Agrochem Pvt. Ltd." groupNameLocal="Sundry Creditors" />
+<PartyGroup partyId="PRT0318" groupName="Sar Agrochemicals &amp; Fertilizers Pvt. Ltd" groupNameLocal="Sundry Creditors" />
+<PartyGroup partyId="PRT0319" groupName="Team Solution India" groupNameLocal="Sundry Creditors" />
+<PartyGroup partyId="PRT0320" groupName="Thermkare Engineers" groupNameLocal="Sundry Creditors" />
+<PartyGroup partyId="PRT0321" groupName="Uniteck Scientific &amp; Electronic Industry" groupNameLocal="Sundry Creditors" />
+<PartyGroup partyId="PRT0322" groupName="Uttam Electric Store" groupNameLocal="Sundry Creditors" />
+<PartyStatus partyId="PRT0297"  statusDate="2001-01-01 12:00:00.0"  statusId="PARTY_ENABLED"/>
+<PartyStatus partyId="PRT0298"  statusDate="2001-01-01 12:00:00.0"  statusId="PARTY_ENABLED"/>
+<PartyStatus partyId="PRT0299"  statusDate="2001-01-01 12:00:00.0"  statusId="PARTY_ENABLED"/>
+<PartyStatus partyId="PRT0300"  statusDate="2001-01-01 12:00:00.0"  statusId="PARTY_ENABLED"/>
+<PartyStatus partyId="PRT0301"  statusDate="2001-01-01 12:00:00.0"  statusId="PARTY_ENABLED"/>
+<PartyStatus partyId="PRT0302"  statusDate="2001-01-01 12:00:00.0"  statusId="PARTY_ENABLED"/>
+<PartyStatus partyId="PRT0303"  statusDate="2001-01-01 12:00:00.0"  statusId="PARTY_ENABLED"/>
+<PartyStatus partyId="PRT0304"  statusDate="2001-01-01 12:00:00.0"  statusId="PARTY_ENABLED"/>
+<PartyStatus partyId="PRT0305"  statusDate="2001-01-01 12:00:00.0"  statusId="PARTY_ENABLED"/>
+<PartyStatus partyId="PRT0306"  statusDate="2001-01-01 12:00:00.0"  statusId="PARTY_ENABLED"/>
+<PartyStatus partyId="PRT0307"  statusDate="2001-01-01 12:00:00.0"  statusId="PARTY_ENABLED"/>
+<PartyStatus partyId="PRT0308"  statusDate="2001-01-01 12:00:00.0"  statusId="PARTY_ENABLED"/>
+<PartyStatus partyId="PRT0309"  statusDate="2001-01-01 12:00:00.0"  statusId="PARTY_ENABLED"/>
+<PartyStatus partyId="PRT0310"  statusDate="2001-01-01 12:00:00.0"  statusId="PARTY_ENABLED"/>
+<PartyStatus partyId="PRT0311"  statusDate="2001-01-01 12:00:00.0"  statusId="PARTY_ENABLED"/>
+<PartyStatus partyId="PRT0312"  statusDate="2001-01-01 12:00:00.0"  statusId="PARTY_ENABLED"/>
+<PartyStatus partyId="PRT0313"  statusDate="2001-01-01 12:00:00.0"  statusId="PARTY_ENABLED"/>
+<PartyStatus partyId="PRT0314"  statusDate="2001-01-01 12:00:00.0"  statusId="PARTY_ENABLED"/>
+<PartyStatus partyId="PRT0315"  statusDate="2001-01-01 12:00:00.0"  statusId="PARTY_ENABLED"/>
+<PartyStatus partyId="PRT0316"  statusDate="2001-01-01 12:00:00.0"  statusId="PARTY_ENABLED"/>
+<PartyStatus partyId="PRT0317"  statusDate="2001-01-01 12:00:00.0"  statusId="PARTY_ENABLED"/>
+<PartyStatus partyId="PRT0318"  statusDate="2001-01-01 12:00:00.0"  statusId="PARTY_ENABLED"/>
+<PartyStatus partyId="PRT0319"  statusDate="2001-01-01 12:00:00.0"  statusId="PARTY_ENABLED"/>
+<PartyStatus partyId="PRT0320"  statusDate="2001-01-01 12:00:00.0"  statusId="PARTY_ENABLED"/>
+<PartyStatus partyId="PRT0321"  statusDate="2001-01-01 12:00:00.0"  statusId="PARTY_ENABLED"/>
+<PartyStatus partyId="PRT0322"  statusDate="2001-01-01 12:00:00.0"  statusId="PARTY_ENABLED"/>
+<PartyRole partyId="PRT0297" roleTypeId="SUPPLIER" />
+<PartyRole partyId="PRT0298" roleTypeId="SUPPLIER" />
+<PartyRole partyId="PRT0299" roleTypeId="SUPPLIER" />
+<PartyRole partyId="PRT0300" roleTypeId="SUPPLIER" />
+<PartyRole partyId="PRT0301" roleTypeId="SUPPLIER" />
+<PartyRole partyId="PRT0302" roleTypeId="SUPPLIER" />
+<PartyRole partyId="PRT0303" roleTypeId="SUPPLIER" />
+<PartyRole partyId="PRT0304" roleTypeId="SUPPLIER" />
+<PartyRole partyId="PRT0305" roleTypeId="SUPPLIER" />
+<PartyRole partyId="PRT0306" roleTypeId="SUPPLIER" />
+<PartyRole partyId="PRT0307" roleTypeId="SUPPLIER" />
+<PartyRole partyId="PRT0308" roleTypeId="SUPPLIER" />
+<PartyRole partyId="PRT0309" roleTypeId="SUPPLIER" />
+<PartyRole partyId="PRT0310" roleTypeId="SUPPLIER" />
+<PartyRole partyId="PRT0311" roleTypeId="SUPPLIER" />
+<PartyRole partyId="PRT0312" roleTypeId="SUPPLIER" />
+<PartyRole partyId="PRT0313" roleTypeId="SUPPLIER" />
+<PartyRole partyId="PRT0314" roleTypeId="SUPPLIER" />
+<PartyRole partyId="PRT0315" roleTypeId="SUPPLIER" />
+<PartyRole partyId="PRT0316" roleTypeId="SUPPLIER" />
+<PartyRole partyId="PRT0317" roleTypeId="SUPPLIER" />
+<PartyRole partyId="PRT0318" roleTypeId="SUPPLIER" />
+<PartyRole partyId="PRT0319" roleTypeId="SUPPLIER" />
+<PartyRole partyId="PRT0320" roleTypeId="SUPPLIER" />
+<PartyRole partyId="PRT0321" roleTypeId="SUPPLIER" />
+<PartyRole partyId="PRT0322" roleTypeId="SUPPLIER" />
+<PartyRole partyId="PRT0297" roleTypeId="BILL_FROM_VENDOR" />
+<PartyRole partyId="PRT0298" roleTypeId="BILL_FROM_VENDOR" />
+<PartyRole partyId="PRT0299" roleTypeId="BILL_FROM_VENDOR" />
+<PartyRole partyId="PRT0300" roleTypeId="BILL_FROM_VENDOR" />
+<PartyRole partyId="PRT0301" roleTypeId="BILL_FROM_VENDOR" />
+<PartyRole partyId="PRT0302" roleTypeId="BILL_FROM_VENDOR" />
+<PartyRole partyId="PRT0303" roleTypeId="BILL_FROM_VENDOR" />
+<PartyRole partyId="PRT0304" roleTypeId="BILL_FROM_VENDOR" />
+<PartyRole partyId="PRT0305" roleTypeId="BILL_FROM_VENDOR" />
+<PartyRole partyId="PRT0306" roleTypeId="BILL_FROM_VENDOR" />
+<PartyRole partyId="PRT0307" roleTypeId="BILL_FROM_VENDOR" />
+<PartyRole partyId="PRT0308" roleTypeId="BILL_FROM_VENDOR" />
+<PartyRole partyId="PRT0309" roleTypeId="BILL_FROM_VENDOR" />
+<PartyRole partyId="PRT0310" roleTypeId="BILL_FROM_VENDOR" />
+<PartyRole partyId="PRT0311" roleTypeId="BILL_FROM_VENDOR" />
+<PartyRole partyId="PRT0312" roleTypeId="BILL_FROM_VENDOR" />
+<PartyRole partyId="PRT0313" roleTypeId="BILL_FROM_VENDOR" />
+<PartyRole partyId="PRT0314" roleTypeId="BILL_FROM_VENDOR" />
+<PartyRole partyId="PRT0315" roleTypeId="BILL_FROM_VENDOR" />
+<PartyRole partyId="PRT0316" roleTypeId="BILL_FROM_VENDOR" />
+<PartyRole partyId="PRT0317" roleTypeId="BILL_FROM_VENDOR" />
+<PartyRole partyId="PRT0318" roleTypeId="BILL_FROM_VENDOR" />
+<PartyRole partyId="PRT0319" roleTypeId="BILL_FROM_VENDOR" />
+<PartyRole partyId="PRT0320" roleTypeId="BILL_FROM_VENDOR" />
+<PartyRole partyId="PRT0321" roleTypeId="BILL_FROM_VENDOR" />
+<PartyRole partyId="PRT0322" roleTypeId="BILL_FROM_VENDOR" />
+<PartyRole partyId="PRT0297" roleTypeId="BILL_TO_CUSTOMER" />
+<PartyRole partyId="PRT0298" roleTypeId="BILL_TO_CUSTOMER" />
+<PartyRole partyId="PRT0299" roleTypeId="BILL_TO_CUSTOMER" />
+<PartyRole partyId="PRT0300" roleTypeId="BILL_TO_CUSTOMER" />
+<PartyRole partyId="PRT0301" roleTypeId="BILL_TO_CUSTOMER" />
+<PartyRole partyId="PRT0302" roleTypeId="BILL_TO_CUSTOMER" />
+<PartyRole partyId="PRT0303" roleTypeId="BILL_TO_CUSTOMER" />
+<PartyRole partyId="PRT0304" roleTypeId="BILL_TO_CUSTOMER" />
+<PartyRole partyId="PRT0305" roleTypeId="BILL_TO_CUSTOMER" />
+<PartyRole partyId="PRT0306" roleTypeId="BILL_TO_CUSTOMER" />
+<PartyRole partyId="PRT0307" roleTypeId="BILL_TO_CUSTOMER" />
+<PartyRole partyId="PRT0308" roleTypeId="BILL_TO_CUSTOMER" />
+<PartyRole partyId="PRT0309" roleTypeId="BILL_TO_CUSTOMER" />
+<PartyRole partyId="PRT0310" roleTypeId="BILL_TO_CUSTOMER" />
+<PartyRole partyId="PRT0311" roleTypeId="BILL_TO_CUSTOMER" />
+<PartyRole partyId="PRT0312" roleTypeId="BILL_TO_CUSTOMER" />
+<PartyRole partyId="PRT0313" roleTypeId="BILL_TO_CUSTOMER" />
+<PartyRole partyId="PRT0314" roleTypeId="BILL_TO_CUSTOMER" />
+<PartyRole partyId="PRT0315" roleTypeId="BILL_TO_CUSTOMER" />
+<PartyRole partyId="PRT0316" roleTypeId="BILL_TO_CUSTOMER" />
+<PartyRole partyId="PRT0317" roleTypeId="BILL_TO_CUSTOMER" />
+<PartyRole partyId="PRT0318" roleTypeId="BILL_TO_CUSTOMER" />
+<PartyRole partyId="PRT0319" roleTypeId="BILL_TO_CUSTOMER" />
+<PartyRole partyId="PRT0320" roleTypeId="BILL_TO_CUSTOMER" />
+<PartyRole partyId="PRT0321" roleTypeId="BILL_TO_CUSTOMER" />
+<PartyRole partyId="PRT0322" roleTypeId="BILL_TO_CUSTOMER" />
+<PartyRole partyId="PRT0297" roleTypeId="SHIP_FROM_VENDOR" />
+<PartyRole partyId="PRT0298" roleTypeId="SHIP_FROM_VENDOR" />
+<PartyRole partyId="PRT0299" roleTypeId="SHIP_FROM_VENDOR" />
+<PartyRole partyId="PRT0300" roleTypeId="SHIP_FROM_VENDOR" />
+<PartyRole partyId="PRT0301" roleTypeId="SHIP_FROM_VENDOR" />
+<PartyRole partyId="PRT0302" roleTypeId="SHIP_FROM_VENDOR" />
+<PartyRole partyId="PRT0303" roleTypeId="SHIP_FROM_VENDOR" />
+<PartyRole partyId="PRT0304" roleTypeId="SHIP_FROM_VENDOR" />
+<PartyRole partyId="PRT0305" roleTypeId="SHIP_FROM_VENDOR" />
+<PartyRole partyId="PRT0306" roleTypeId="SHIP_FROM_VENDOR" />
+<PartyRole partyId="PRT0307" roleTypeId="SHIP_FROM_VENDOR" />
+<PartyRole partyId="PRT0308" roleTypeId="SHIP_FROM_VENDOR" />
+<PartyRole partyId="PRT0309" roleTypeId="SHIP_FROM_VENDOR" />
+<PartyRole partyId="PRT0310" roleTypeId="SHIP_FROM_VENDOR" />
+<PartyRole partyId="PRT0311" roleTypeId="SHIP_FROM_VENDOR" />
+<PartyRole partyId="PRT0312" roleTypeId="SHIP_FROM_VENDOR" />
+<PartyRole partyId="PRT0313" roleTypeId="SHIP_FROM_VENDOR" />
+<PartyRole partyId="PRT0314" roleTypeId="SHIP_FROM_VENDOR" />
+<PartyRole partyId="PRT0315" roleTypeId="SHIP_FROM_VENDOR" />
+<PartyRole partyId="PRT0316" roleTypeId="SHIP_FROM_VENDOR" />
+<PartyRole partyId="PRT0317" roleTypeId="SHIP_FROM_VENDOR" />
+<PartyRole partyId="PRT0318" roleTypeId="SHIP_FROM_VENDOR" />
+<PartyRole partyId="PRT0319" roleTypeId="SHIP_FROM_VENDOR" />
+<PartyRole partyId="PRT0320" roleTypeId="SHIP_FROM_VENDOR" />
+<PartyRole partyId="PRT0321" roleTypeId="SHIP_FROM_VENDOR" />
+<PartyRole partyId="PRT0322" roleTypeId="SHIP_FROM_VENDOR" />
+<PartyRole partyId="PRT0297" roleTypeId="SUPPLIER_AGENT" />
+<PartyRole partyId="PRT0298" roleTypeId="SUPPLIER_AGENT" />
+<PartyRole partyId="PRT0299" roleTypeId="SUPPLIER_AGENT" />
+<PartyRole partyId="PRT0300" roleTypeId="SUPPLIER_AGENT" />
+<PartyRole partyId="PRT0301" roleTypeId="SUPPLIER_AGENT" />
+<PartyRole partyId="PRT0302" roleTypeId="SUPPLIER_AGENT" />
+<PartyRole partyId="PRT0303" roleTypeId="SUPPLIER_AGENT" />
+<PartyRole partyId="PRT0304" roleTypeId="SUPPLIER_AGENT" />
+<PartyRole partyId="PRT0305" roleTypeId="SUPPLIER_AGENT" />
+<PartyRole partyId="PRT0306" roleTypeId="SUPPLIER_AGENT" />
+<PartyRole partyId="PRT0307" roleTypeId="SUPPLIER_AGENT" />
+<PartyRole partyId="PRT0308" roleTypeId="SUPPLIER_AGENT" />
+<PartyRole partyId="PRT0309" roleTypeId="SUPPLIER_AGENT" />
+<PartyRole partyId="PRT0310" roleTypeId="SUPPLIER_AGENT" />
+<PartyRole partyId="PRT0311" roleTypeId="SUPPLIER_AGENT" />
+<PartyRole partyId="PRT0312" roleTypeId="SUPPLIER_AGENT" />
+<PartyRole partyId="PRT0313" roleTypeId="SUPPLIER_AGENT" />
+<PartyRole partyId="PRT0314" roleTypeId="SUPPLIER_AGENT" />
+<PartyRole partyId="PRT0315" roleTypeId="SUPPLIER_AGENT" />
+<PartyRole partyId="PRT0316" roleTypeId="SUPPLIER_AGENT" />
+<PartyRole partyId="PRT0317" roleTypeId="SUPPLIER_AGENT" />
+<PartyRole partyId="PRT0318" roleTypeId="SUPPLIER_AGENT" />
+<PartyRole partyId="PRT0319" roleTypeId="SUPPLIER_AGENT" />
+<PartyRole partyId="PRT0320" roleTypeId="SUPPLIER_AGENT" />
+<PartyRole partyId="PRT0321" roleTypeId="SUPPLIER_AGENT" />
+<PartyRole partyId="PRT0322" roleTypeId="SUPPLIER_AGENT" />
+<PartyRole partyId="PRT0297" roleTypeId="REGISTERED" />
+<PartyRole partyId="PRT0298" roleTypeId="REGISTERED" />
+<PartyRole partyId="PRT0299" roleTypeId="REGISTERED" />
+<PartyRole partyId="PRT0300" roleTypeId="REGISTERED" />
+<PartyRole partyId="PRT0301" roleTypeId="REGISTERED" />
+<PartyRole partyId="PRT0302" roleTypeId="REGISTERED" />
+<PartyRole partyId="PRT0303" roleTypeId="REGISTERED" />
+<PartyRole partyId="PRT0304" roleTypeId="REGISTERED" />
+<PartyRole partyId="PRT0305" roleTypeId="REGISTERED" />
+<PartyRole partyId="PRT0306" roleTypeId="REGISTERED" />
+<PartyRole partyId="PRT0307" roleTypeId="REGISTERED" />
+<PartyRole partyId="PRT0308" roleTypeId="REGISTERED" />
+<PartyRole partyId="PRT0309" roleTypeId="REGISTERED" />
+<PartyRole partyId="PRT0310" roleTypeId="REGISTERED" />
+<PartyRole partyId="PRT0311" roleTypeId="REGISTERED" />
+<PartyRole partyId="PRT0312" roleTypeId="REGISTERED" />
+<PartyRole partyId="PRT0313" roleTypeId="REGISTERED" />
+<PartyRole partyId="PRT0314" roleTypeId="REGISTERED" />
+<PartyRole partyId="PRT0315" roleTypeId="REGISTERED" />
+<PartyRole partyId="PRT0316" roleTypeId="REGISTERED" />
+<PartyRole partyId="PRT0317" roleTypeId="REGISTERED" />
+<PartyRole partyId="PRT0318" roleTypeId="REGISTERED" />
+<PartyRole partyId="PRT0319" roleTypeId="REGISTERED" />
+<PartyRole partyId="PRT0320" roleTypeId="REGISTERED" />
+<PartyRole partyId="PRT0321" roleTypeId="REGISTERED" />
+<PartyRole partyId="PRT0322" roleTypeId="REGISTERED" />
+
+<!-- new vender created on date Aug-08-2019 -->
+
+<Party partyId="CP0066" partyTypeId= "PARTY_GROUP" statusId="PARTY_ENABLED"/>
+<ContactMech contactMechId="CCM066" contactMechTypeId="POSTAL_ADDRESS" />
+<PartyContactMech partyId="CP0066" contactMechId="CCM066" fromDate="2019-04-17 00:00:00.0" allowSolicitation="Y" />
+<PartyContactMechPurpose partyId="CP0066" contactMechId="CCM066" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="BILLING_LOCATION" />
+<PartyContactMechPurpose partyId="CP0066" contactMechId="CCM066" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="SHIPPING_LOCATION" />
+<PartyContactMechPurpose partyId="CP0066" contactMechId="CCM066" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="GENERAL_LOCATION" />
+<PostalAddress contactMechId="CCM066" countryGeoId="IND" stateProvinceGeoId="IN-MP" address1="" address2="" toName="" postalCode="" city="" />
+
+<Party partyId="CP0067" partyTypeId= "PARTY_GROUP" statusId="PARTY_ENABLED"/>
+<ContactMech contactMechId="CCM067" contactMechTypeId="POSTAL_ADDRESS" />
+<PartyContactMech partyId="CP0067" contactMechId="CCM067" fromDate="2019-04-17 00:00:00.0" allowSolicitation="Y" />
+<PartyContactMechPurpose partyId="CP0067" contactMechId="CCM067" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="BILLING_LOCATION" />
+<PartyContactMechPurpose partyId="CP0067" contactMechId="CCM067" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="SHIPPING_LOCATION" />
+<PartyContactMechPurpose partyId="CP0067" contactMechId="CCM067" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="GENERAL_LOCATION" />
+<PostalAddress contactMechId="CCM067" countryGeoId="IND" stateProvinceGeoId="IN-UT" address1="" address2="" toName="" postalCode="" city="" />
+
+<Party partyId="CP0068" partyTypeId= "PARTY_GROUP" statusId="PARTY_ENABLED"/>
+<ContactMech contactMechId="CCM068" contactMechTypeId="POSTAL_ADDRESS" />
+<PartyContactMech partyId="CP0068" contactMechId="CCM068" fromDate="2019-04-17 00:00:00.0" allowSolicitation="Y" />
+<PartyContactMechPurpose partyId="CP0068" contactMechId="CCM068" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="BILLING_LOCATION" />
+<PartyContactMechPurpose partyId="CP0068" contactMechId="CCM068" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="SHIPPING_LOCATION" />
+<PartyContactMechPurpose partyId="CP0068" contactMechId="CCM068" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="GENERAL_LOCATION" />
+<PostalAddress contactMechId="CCM068" countryGeoId="IND" stateProvinceGeoId="IN-MP" address1="" address2="" toName="" postalCode="" city="" />
+
+<Party partyId="CP0069" partyTypeId= "PARTY_GROUP" statusId="PARTY_ENABLED"/>
+<ContactMech contactMechId="CCM069" contactMechTypeId="POSTAL_ADDRESS" />
+<PartyContactMech partyId="CP0069" contactMechId="CCM069" fromDate="2019-04-17 00:00:00.0" allowSolicitation="Y" />
+<PartyContactMechPurpose partyId="CP0069" contactMechId="CCM069" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="BILLING_LOCATION" />
+<PartyContactMechPurpose partyId="CP0069" contactMechId="CCM069" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="SHIPPING_LOCATION" />
+<PartyContactMechPurpose partyId="CP0069" contactMechId="CCM069" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="GENERAL_LOCATION" />
+<PostalAddress contactMechId="CCM069" countryGeoId="IND" stateProvinceGeoId="IN-RJ" address1="" address2="" toName="" postalCode="" city="" />
+
+<Party partyId="CP0070" partyTypeId= "PARTY_GROUP" statusId="PARTY_ENABLED"/>
+<ContactMech contactMechId="CCM070" contactMechTypeId="POSTAL_ADDRESS" />
+<PartyContactMech partyId="CP0070" contactMechId="CCM070" fromDate="2019-04-17 00:00:00.0" allowSolicitation="Y" />
+<PartyContactMechPurpose partyId="CP0070" contactMechId="CCM070" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="BILLING_LOCATION" />
+<PartyContactMechPurpose partyId="CP0070" contactMechId="CCM070" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="SHIPPING_LOCATION" />
+<PartyContactMechPurpose partyId="CP0070" contactMechId="CCM070" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="GENERAL_LOCATION" />
+<PostalAddress contactMechId="CCM070" countryGeoId="IND" stateProvinceGeoId="IN-PB" address1="" address2="" toName="" postalCode="" city="" />
+
+<Party partyId="CP0071" partyTypeId= "PARTY_GROUP" statusId="PARTY_ENABLED"/>
+<ContactMech contactMechId="CCM071" contactMechTypeId="POSTAL_ADDRESS" />
+<PartyContactMech partyId="CP0071" contactMechId="CCM071" fromDate="2019-04-17 00:00:00.0" allowSolicitation="Y" />
+<PartyContactMechPurpose partyId="CP0071" contactMechId="CCM071" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="BILLING_LOCATION" />
+<PartyContactMechPurpose partyId="CP0071" contactMechId="CCM071" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="SHIPPING_LOCATION" />
+<PartyContactMechPurpose partyId="CP0071" contactMechId="CCM071" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="GENERAL_LOCATION" />
+<PostalAddress contactMechId="CCM071" countryGeoId="IND" stateProvinceGeoId="IN-PB" address1="" address2="" toName="" postalCode="" city="" />
+
+<Party partyId="CP0072" partyTypeId= "PARTY_GROUP" statusId="PARTY_ENABLED"/>
+<ContactMech contactMechId="CCM072" contactMechTypeId="POSTAL_ADDRESS" />
+<PartyContactMech partyId="CP0072" contactMechId="CCM072" fromDate="2019-04-17 00:00:00.0" allowSolicitation="Y" />
+<PartyContactMechPurpose partyId="CP0072" contactMechId="CCM072" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="BILLING_LOCATION" />
+<PartyContactMechPurpose partyId="CP0072" contactMechId="CCM072" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="SHIPPING_LOCATION" />
+<PartyContactMechPurpose partyId="CP0072" contactMechId="CCM072" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="GENERAL_LOCATION" />
+<PostalAddress contactMechId="CCM072" countryGeoId="IND" stateProvinceGeoId="IN-UP" address1="" address2="" toName="" postalCode="" city="" />
+
+<Party partyId="CP0073" partyTypeId= "PARTY_GROUP" statusId="PARTY_ENABLED"/>
+<ContactMech contactMechId="CCM073" contactMechTypeId="POSTAL_ADDRESS" />
+<PartyContactMech partyId="CP0073" contactMechId="CCM073" fromDate="2019-04-17 00:00:00.0" allowSolicitation="Y" />
+<PartyContactMechPurpose partyId="CP0073" contactMechId="CCM073" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="BILLING_LOCATION" />
+<PartyContactMechPurpose partyId="CP0073" contactMechId="CCM073" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="SHIPPING_LOCATION" />
+<PartyContactMechPurpose partyId="CP0073" contactMechId="CCM073" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="GENERAL_LOCATION" />
+<PostalAddress contactMechId="CCM073" countryGeoId="IND" stateProvinceGeoId="IN-PB" address1="" address2="" toName="" postalCode="" city="" />
+
+<Party partyId="CP0074" partyTypeId= "PARTY_GROUP" statusId="PARTY_ENABLED"/>
+<ContactMech contactMechId="CCM074" contactMechTypeId="POSTAL_ADDRESS" />
+<PartyContactMech partyId="CP0074" contactMechId="CCM074" fromDate="2019-04-17 00:00:00.0" allowSolicitation="Y" />
+<PartyContactMechPurpose partyId="CP0074" contactMechId="CCM074" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="BILLING_LOCATION" />
+<PartyContactMechPurpose partyId="CP0074" contactMechId="CCM074" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="SHIPPING_LOCATION" />
+<PartyContactMechPurpose partyId="CP0074" contactMechId="CCM074" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="GENERAL_LOCATION" />
+<PostalAddress contactMechId="CCM074" countryGeoId="IND" stateProvinceGeoId="IN-RJ" address1="" address2="" toName="" postalCode="" city="" />
+
+<Party partyId="CP0075" partyTypeId= "PARTY_GROUP" statusId="PARTY_ENABLED"/>
+<ContactMech contactMechId="CCM075" contactMechTypeId="POSTAL_ADDRESS" />
+<PartyContactMech partyId="CP0075" contactMechId="CCM075" fromDate="2019-04-17 00:00:00.0" allowSolicitation="Y" />
+<PartyContactMechPurpose partyId="CP0075" contactMechId="CCM075" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="BILLING_LOCATION" />
+<PartyContactMechPurpose partyId="CP0075" contactMechId="CCM075" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="SHIPPING_LOCATION" />
+<PartyContactMechPurpose partyId="CP0075" contactMechId="CCM075" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="GENERAL_LOCATION" />
+<PostalAddress contactMechId="CCM075" countryGeoId="IND" stateProvinceGeoId="IN-HR" address1="" address2="" toName="" postalCode="" city="" />
+
+<Party partyId="CP0076" partyTypeId= "PARTY_GROUP" statusId="PARTY_ENABLED"/>
+<ContactMech contactMechId="CCM076" contactMechTypeId="POSTAL_ADDRESS" />
+<PartyContactMech partyId="CP0076" contactMechId="CCM076" fromDate="2019-04-17 00:00:00.0" allowSolicitation="Y" />
+<PartyContactMechPurpose partyId="CP0076" contactMechId="CCM076" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="BILLING_LOCATION" />
+<PartyContactMechPurpose partyId="CP0076" contactMechId="CCM076" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="SHIPPING_LOCATION" />
+<PartyContactMechPurpose partyId="CP0076" contactMechId="CCM076" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="GENERAL_LOCATION" />
+<PostalAddress contactMechId="CCM076" countryGeoId="IND" stateProvinceGeoId="IN-PB" address1="" address2="" toName="" postalCode="" city="" />
+
+<Party partyId="CP0077" partyTypeId= "PARTY_GROUP" statusId="PARTY_ENABLED"/>
+<ContactMech contactMechId="CCM077" contactMechTypeId="POSTAL_ADDRESS" />
+<PartyContactMech partyId="CP0077" contactMechId="CCM077" fromDate="2019-04-17 00:00:00.0" allowSolicitation="Y" />
+<PartyContactMechPurpose partyId="CP0077" contactMechId="CCM077" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="BILLING_LOCATION" />
+<PartyContactMechPurpose partyId="CP0077" contactMechId="CCM077" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="SHIPPING_LOCATION" />
+<PartyContactMechPurpose partyId="CP0077" contactMechId="CCM077" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="GENERAL_LOCATION" />
+<PostalAddress contactMechId="CCM077" countryGeoId="IND" stateProvinceGeoId="IN-HR" address1="" address2="" toName="" postalCode="" city="" />
+
+<Party partyId="CP0078" partyTypeId= "PARTY_GROUP" statusId="PARTY_ENABLED"/>
+<ContactMech contactMechId="CCM078" contactMechTypeId="POSTAL_ADDRESS" />
+<PartyContactMech partyId="CP0078" contactMechId="CCM078" fromDate="2019-04-17 00:00:00.0" allowSolicitation="Y" />
+<PartyContactMechPurpose partyId="CP0078" contactMechId="CCM078" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="BILLING_LOCATION" />
+<PartyContactMechPurpose partyId="CP0078" contactMechId="CCM078" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="SHIPPING_LOCATION" />
+<PartyContactMechPurpose partyId="CP0078" contactMechId="CCM078" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="GENERAL_LOCATION" />
+<PostalAddress contactMechId="CCM078" countryGeoId="IND" stateProvinceGeoId="IN-PB" address1="" address2="" toName="" postalCode="" city="" />
+
+<Party partyId="CP0079" partyTypeId= "PARTY_GROUP" statusId="PARTY_ENABLED"/>
+<ContactMech contactMechId="CCM079" contactMechTypeId="POSTAL_ADDRESS" />
+<PartyContactMech partyId="CP0079" contactMechId="CCM079" fromDate="2019-04-17 00:00:00.0" allowSolicitation="Y" />
+<PartyContactMechPurpose partyId="CP0079" contactMechId="CCM079" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="BILLING_LOCATION" />
+<PartyContactMechPurpose partyId="CP0079" contactMechId="CCM079" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="SHIPPING_LOCATION" />
+<PartyContactMechPurpose partyId="CP0079" contactMechId="CCM079" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="GENERAL_LOCATION" />
+<PostalAddress contactMechId="CCM079" countryGeoId="IND" stateProvinceGeoId="IN-DL" address1="" address2="" toName="" postalCode="" city="" />
+
+<Party partyId="CP0080" partyTypeId= "PARTY_GROUP" statusId="PARTY_ENABLED"/>
+<ContactMech contactMechId="CCM080" contactMechTypeId="POSTAL_ADDRESS" />
+<PartyContactMech partyId="CP0080" contactMechId="CCM080" fromDate="2019-04-17 00:00:00.0" allowSolicitation="Y" />
+<PartyContactMechPurpose partyId="CP0080" contactMechId="CCM080" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="BILLING_LOCATION" />
+<PartyContactMechPurpose partyId="CP0080" contactMechId="CCM080" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="SHIPPING_LOCATION" />
+<PartyContactMechPurpose partyId="CP0080" contactMechId="CCM080" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="GENERAL_LOCATION" />
+<PostalAddress contactMechId="CCM080" countryGeoId="IND" stateProvinceGeoId="IN-PB" address1="" address2="" toName="" postalCode="" city="" />
+
+<Party partyId="CP0081" partyTypeId= "PARTY_GROUP" statusId="PARTY_ENABLED"/>
+<ContactMech contactMechId="CCM081" contactMechTypeId="POSTAL_ADDRESS" />
+<PartyContactMech partyId="CP0081" contactMechId="CCM081" fromDate="2019-04-17 00:00:00.0" allowSolicitation="Y" />
+<PartyContactMechPurpose partyId="CP0081" contactMechId="CCM081" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="BILLING_LOCATION" />
+<PartyContactMechPurpose partyId="CP0081" contactMechId="CCM081" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="SHIPPING_LOCATION" />
+<PartyContactMechPurpose partyId="CP0081" contactMechId="CCM081" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="GENERAL_LOCATION" />
+<PostalAddress contactMechId="CCM081" countryGeoId="IND" stateProvinceGeoId="IN-HR" address1="" address2="" toName="" postalCode="" city="" />
+
+<Party partyId="CP0082" partyTypeId= "PARTY_GROUP" statusId="PARTY_ENABLED"/>
+<ContactMech contactMechId="CCM082" contactMechTypeId="POSTAL_ADDRESS" />
+<PartyContactMech partyId="CP0082" contactMechId="CCM082" fromDate="2019-04-17 00:00:00.0" allowSolicitation="Y" />
+<PartyContactMechPurpose partyId="CP0082" contactMechId="CCM082" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="BILLING_LOCATION" />
+<PartyContactMechPurpose partyId="CP0082" contactMechId="CCM082" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="SHIPPING_LOCATION" />
+<PartyContactMechPurpose partyId="CP0082" contactMechId="CCM082" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="GENERAL_LOCATION" />
+<PostalAddress contactMechId="CCM082" countryGeoId="IND" stateProvinceGeoId="IN-UT" address1="" address2="" toName="" postalCode="" city="" />
+
+<Party partyId="CP0083" partyTypeId= "PARTY_GROUP" statusId="PARTY_ENABLED"/>
+<ContactMech contactMechId="CCM083" contactMechTypeId="POSTAL_ADDRESS" />
+<PartyContactMech partyId="CP0083" contactMechId="CCM083" fromDate="2019-04-17 00:00:00.0" allowSolicitation="Y" />
+<PartyContactMechPurpose partyId="CP0083" contactMechId="CCM083" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="BILLING_LOCATION" />
+<PartyContactMechPurpose partyId="CP0083" contactMechId="CCM083" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="SHIPPING_LOCATION" />
+<PartyContactMechPurpose partyId="CP0083" contactMechId="CCM083" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="GENERAL_LOCATION" />
+<PostalAddress contactMechId="CCM083" countryGeoId="IND" stateProvinceGeoId="IN-PB" address1="" address2="" toName="" postalCode="" city="" />
+
+<Party partyId="CP0084" partyTypeId= "PARTY_GROUP" statusId="PARTY_ENABLED"/>
+<ContactMech contactMechId="CCM084" contactMechTypeId="POSTAL_ADDRESS" />
+<PartyContactMech partyId="CP0084" contactMechId="CCM084" fromDate="2019-04-17 00:00:00.0" allowSolicitation="Y" />
+<PartyContactMechPurpose partyId="CP0084" contactMechId="CCM084" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="BILLING_LOCATION" />
+<PartyContactMechPurpose partyId="CP0084" contactMechId="CCM084" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="SHIPPING_LOCATION" />
+<PartyContactMechPurpose partyId="CP0084" contactMechId="CCM084" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="GENERAL_LOCATION" />
+<PostalAddress contactMechId="CCM084" countryGeoId="IND" stateProvinceGeoId="IN-PB" address1="" address2="" toName="" postalCode="" city="" />
+
+<Party partyId="CP0085" partyTypeId= "PARTY_GROUP" statusId="PARTY_ENABLED"/>
+<ContactMech contactMechId="CCM085" contactMechTypeId="POSTAL_ADDRESS" />
+<PartyContactMech partyId="CP0085" contactMechId="CCM085" fromDate="2019-04-17 00:00:00.0" allowSolicitation="Y" />
+<PartyContactMechPurpose partyId="CP0085" contactMechId="CCM085" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="BILLING_LOCATION" />
+<PartyContactMechPurpose partyId="CP0085" contactMechId="CCM085" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="SHIPPING_LOCATION" />
+<PartyContactMechPurpose partyId="CP0085" contactMechId="CCM085" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="GENERAL_LOCATION" />
+<PostalAddress contactMechId="CCM085" countryGeoId="IND" stateProvinceGeoId="IN-HR" address1="" address2="" toName="" postalCode="" city="" />
+
+<Party partyId="CP0086" partyTypeId= "PARTY_GROUP" statusId="PARTY_ENABLED"/>
+<ContactMech contactMechId="CCM086" contactMechTypeId="POSTAL_ADDRESS" />
+<PartyContactMech partyId="CP0086" contactMechId="CCM086" fromDate="2019-04-17 00:00:00.0" allowSolicitation="Y" />
+<PartyContactMechPurpose partyId="CP0086" contactMechId="CCM086" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="BILLING_LOCATION" />
+<PartyContactMechPurpose partyId="CP0086" contactMechId="CCM086" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="SHIPPING_LOCATION" />
+<PartyContactMechPurpose partyId="CP0086" contactMechId="CCM086" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="GENERAL_LOCATION" />
+<PostalAddress contactMechId="CCM086" countryGeoId="IND" stateProvinceGeoId="IN-UP" address1="" address2="" toName="" postalCode="" city="" />
+
+<Party partyId="CP0087" partyTypeId= "PARTY_GROUP" statusId="PARTY_ENABLED"/>
+<ContactMech contactMechId="CCM087" contactMechTypeId="POSTAL_ADDRESS" />
+<PartyContactMech partyId="CP0087" contactMechId="CCM087" fromDate="2019-04-17 00:00:00.0" allowSolicitation="Y" />
+<PartyContactMechPurpose partyId="CP0087" contactMechId="CCM087" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="BILLING_LOCATION" />
+<PartyContactMechPurpose partyId="CP0087" contactMechId="CCM087" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="SHIPPING_LOCATION" />
+<PartyContactMechPurpose partyId="CP0087" contactMechId="CCM087" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="GENERAL_LOCATION" />
+<PostalAddress contactMechId="CCM087" countryGeoId="IND" stateProvinceGeoId="IN-UP" address1="" address2="" toName="" postalCode="" city="" />
+
+<Party partyId="CP0088" partyTypeId= "PARTY_GROUP" statusId="PARTY_ENABLED"/>
+<ContactMech contactMechId="CCM088" contactMechTypeId="POSTAL_ADDRESS" />
+<PartyContactMech partyId="CP0088" contactMechId="CCM088" fromDate="2019-04-17 00:00:00.0" allowSolicitation="Y" />
+<PartyContactMechPurpose partyId="CP0088" contactMechId="CCM088" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="BILLING_LOCATION" />
+<PartyContactMechPurpose partyId="CP0088" contactMechId="CCM088" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="SHIPPING_LOCATION" />
+<PartyContactMechPurpose partyId="CP0088" contactMechId="CCM088" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="GENERAL_LOCATION" />
+<PostalAddress contactMechId="CCM088" countryGeoId="IND" stateProvinceGeoId="IN-PB" address1="" address2="" toName="" postalCode="" city="" />
+
+<Party partyId="CP0089" partyTypeId= "PARTY_GROUP" statusId="PARTY_ENABLED"/>
+<ContactMech contactMechId="CCM089" contactMechTypeId="POSTAL_ADDRESS" />
+<PartyContactMech partyId="CP0089" contactMechId="CCM089" fromDate="2019-04-17 00:00:00.0" allowSolicitation="Y" />
+<PartyContactMechPurpose partyId="CP0089" contactMechId="CCM089" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="BILLING_LOCATION" />
+<PartyContactMechPurpose partyId="CP0089" contactMechId="CCM089" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="SHIPPING_LOCATION" />
+<PartyContactMechPurpose partyId="CP0089" contactMechId="CCM089" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="GENERAL_LOCATION" />
+<PostalAddress contactMechId="CCM089" countryGeoId="IND" stateProvinceGeoId="IN-MP" address1="" address2="" toName="" postalCode="" city="" />
+
+<Party partyId="CP0090" partyTypeId= "PARTY_GROUP" statusId="PARTY_ENABLED"/>
+<ContactMech contactMechId="CCM090" contactMechTypeId="POSTAL_ADDRESS" />
+<PartyContactMech partyId="CP0090" contactMechId="CCM090" fromDate="2019-04-17 00:00:00.0" allowSolicitation="Y" />
+<PartyContactMechPurpose partyId="CP0090" contactMechId="CCM090" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="BILLING_LOCATION" />
+<PartyContactMechPurpose partyId="CP0090" contactMechId="CCM090" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="SHIPPING_LOCATION" />
+<PartyContactMechPurpose partyId="CP0090" contactMechId="CCM090" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="GENERAL_LOCATION" />
+<PostalAddress contactMechId="CCM090" countryGeoId="IND" stateProvinceGeoId="IN-HP" address1="" address2="" toName="" postalCode="" city="" />
+<Party partyId="CP0091" partyTypeId= "PARTY_GROUP" statusId="PARTY_ENABLED"/>
+<ContactMech contactMechId="CCM091" contactMechTypeId="POSTAL_ADDRESS" />
+<PartyContactMech partyId="CP0091" contactMechId="CCM091" fromDate="2019-04-17 00:00:00.0" allowSolicitation="Y" />
+<PartyContactMechPurpose partyId="CP0091" contactMechId="CCM091" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="BILLING_LOCATION" />
+<PartyContactMechPurpose partyId="CP0091" contactMechId="CCM091" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="SHIPPING_LOCATION" />
+<PartyContactMechPurpose partyId="CP0091" contactMechId="CCM091" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="GENERAL_LOCATION" />
+<PostalAddress contactMechId="CCM091" countryGeoId="IND" stateProvinceGeoId="IN-PB" address1="" address2="" toName="" postalCode="" city="" />
+
+<Party partyId="CP0092" partyTypeId= "PARTY_GROUP" statusId="PARTY_ENABLED"/>
+<ContactMech contactMechId="CCM092" contactMechTypeId="POSTAL_ADDRESS" />
+<PartyContactMech partyId="CP0092" contactMechId="CCM092" fromDate="2019-04-17 00:00:00.0" allowSolicitation="Y" />
+<PartyContactMechPurpose partyId="CP0092" contactMechId="CCM092" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="BILLING_LOCATION" />
+<PartyContactMechPurpose partyId="CP0092" contactMechId="CCM092" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="SHIPPING_LOCATION" />
+<PartyContactMechPurpose partyId="CP0092" contactMechId="CCM092" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="GENERAL_LOCATION" />
+<PostalAddress contactMechId="CCM092" countryGeoId="IND" stateProvinceGeoId="IN-PB" address1="" address2="" toName="" postalCode="" city="" />
+
+<Party partyId="CP0093" partyTypeId= "PARTY_GROUP" statusId="PARTY_ENABLED"/>
+<ContactMech contactMechId="CCM093" contactMechTypeId="POSTAL_ADDRESS" />
+<PartyContactMech partyId="CP0093" contactMechId="CCM093" fromDate="2019-04-17 00:00:00.0" allowSolicitation="Y" />
+<PartyContactMechPurpose partyId="CP0093" contactMechId="CCM093" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="BILLING_LOCATION" />
+<PartyContactMechPurpose partyId="CP0093" contactMechId="CCM093" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="SHIPPING_LOCATION" />
+<PartyContactMechPurpose partyId="CP0093" contactMechId="CCM093" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="GENERAL_LOCATION" />
+<PostalAddress contactMechId="CCM093" countryGeoId="IND" stateProvinceGeoId="IN-PB" address1="" address2="" toName="" postalCode="" city="" />
+
+<Party partyId="CP0094" partyTypeId= "PARTY_GROUP" statusId="PARTY_ENABLED"/>
+<ContactMech contactMechId="CCM094" contactMechTypeId="POSTAL_ADDRESS" />
+<PartyContactMech partyId="CP0094" contactMechId="CCM094" fromDate="2019-04-17 00:00:00.0" allowSolicitation="Y" />
+<PartyContactMechPurpose partyId="CP0094" contactMechId="CCM094" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="BILLING_LOCATION" />
+<PartyContactMechPurpose partyId="CP0094" contactMechId="CCM094" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="SHIPPING_LOCATION" />
+<PartyContactMechPurpose partyId="CP0094" contactMechId="CCM094" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="GENERAL_LOCATION" />
+<PostalAddress contactMechId="CCM094" countryGeoId="IND" stateProvinceGeoId="IN-HP" address1="" address2="" toName="" postalCode="" city="" />
+
+<Party partyId="CP0095" partyTypeId= "PARTY_GROUP" statusId="PARTY_ENABLED"/>
+<ContactMech contactMechId="CCM095" contactMechTypeId="POSTAL_ADDRESS" />
+<PartyContactMech partyId="CP0095" contactMechId="CCM095" fromDate="2019-04-17 00:00:00.0" allowSolicitation="Y" />
+<PartyContactMechPurpose partyId="CP0095" contactMechId="CCM095" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="BILLING_LOCATION" />
+<PartyContactMechPurpose partyId="CP0095" contactMechId="CCM095" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="SHIPPING_LOCATION" />
+<PartyContactMechPurpose partyId="CP0095" contactMechId="CCM095" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="GENERAL_LOCATION" />
+<PostalAddress contactMechId="CCM095" countryGeoId="IND" stateProvinceGeoId="IN-UT" address1="" address2="" toName="" postalCode="" city="" />
+
+<Party partyId="CP0096" partyTypeId= "PARTY_GROUP" statusId="PARTY_ENABLED"/>
+<ContactMech contactMechId="CCM096" contactMechTypeId="POSTAL_ADDRESS" />
+<PartyContactMech partyId="CP0096" contactMechId="CCM096" fromDate="2019-04-17 00:00:00.0" allowSolicitation="Y" />
+<PartyContactMechPurpose partyId="CP0096" contactMechId="CCM096" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="BILLING_LOCATION" />
+<PartyContactMechPurpose partyId="CP0096" contactMechId="CCM096" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="SHIPPING_LOCATION" />
+<PartyContactMechPurpose partyId="CP0096" contactMechId="CCM096" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="GENERAL_LOCATION" />
+<PostalAddress contactMechId="CCM096" countryGeoId="IND" stateProvinceGeoId="IN-HR" address1="" address2="" toName="" postalCode="" city="" />
+
+<Party partyId="CP0097" partyTypeId= "PARTY_GROUP" statusId="PARTY_ENABLED"/>
+<ContactMech contactMechId="CCM097" contactMechTypeId="POSTAL_ADDRESS" />
+<PartyContactMech partyId="CP0097" contactMechId="CCM097" fromDate="2019-04-17 00:00:00.0" allowSolicitation="Y" />
+<PartyContactMechPurpose partyId="CP0097" contactMechId="CCM097" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="BILLING_LOCATION" />
+<PartyContactMechPurpose partyId="CP0097" contactMechId="CCM097" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="SHIPPING_LOCATION" />
+<PartyContactMechPurpose partyId="CP0097" contactMechId="CCM097" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="GENERAL_LOCATION" />
+<PostalAddress contactMechId="CCM097" countryGeoId="IND" stateProvinceGeoId="IN-PB" address1="" address2="" toName="" postalCode="" city="" />
+
+<Party partyId="CP0098" partyTypeId= "PARTY_GROUP" statusId="PARTY_ENABLED"/>
+<ContactMech contactMechId="CCM098" contactMechTypeId="POSTAL_ADDRESS" />
+<PartyContactMech partyId="CP0098" contactMechId="CCM098" fromDate="2019-04-17 00:00:00.0" allowSolicitation="Y" />
+<PartyContactMechPurpose partyId="CP0098" contactMechId="CCM098" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="BILLING_LOCATION" />
+<PartyContactMechPurpose partyId="CP0098" contactMechId="CCM098" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="SHIPPING_LOCATION" />
+<PartyContactMechPurpose partyId="CP0098" contactMechId="CCM098" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="GENERAL_LOCATION" />
+<PostalAddress contactMechId="CCM098" countryGeoId="IND" stateProvinceGeoId="IN-HR" address1="" address2="" toName="" postalCode="" city="" />
+
+<Party partyId="CP0099" partyTypeId= "PARTY_GROUP" statusId="PARTY_ENABLED"/>
+<ContactMech contactMechId="CCM099" contactMechTypeId="POSTAL_ADDRESS" />
+<PartyContactMech partyId="CP0099" contactMechId="CCM099" fromDate="2019-04-17 00:00:00.0" allowSolicitation="Y" />
+<PartyContactMechPurpose partyId="CP0099" contactMechId="CCM099" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="BILLING_LOCATION" />
+<PartyContactMechPurpose partyId="CP0099" contactMechId="CCM099" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="SHIPPING_LOCATION" />
+<PartyContactMechPurpose partyId="CP0099" contactMechId="CCM099" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="GENERAL_LOCATION" />
+<PostalAddress contactMechId="CCM099" countryGeoId="IND" stateProvinceGeoId="IN-UP" address1="" address2="" toName="" postalCode="" city="" />
+
+<Party partyId="CP0100" partyTypeId= "PARTY_GROUP" statusId="PARTY_ENABLED"/>
+<ContactMech contactMechId="CCM100" contactMechTypeId="POSTAL_ADDRESS" />
+<PartyContactMech partyId="CP0100" contactMechId="CCM100" fromDate="2019-04-17 00:00:00.0" allowSolicitation="Y" />
+<PartyContactMechPurpose partyId="CP0100" contactMechId="CCM100" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="BILLING_LOCATION" />
+<PartyContactMechPurpose partyId="CP0100" contactMechId="CCM100" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="SHIPPING_LOCATION" />
+<PartyContactMechPurpose partyId="CP0100" contactMechId="CCM100" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="GENERAL_LOCATION" />
+<PostalAddress contactMechId="CCM100" countryGeoId="IND" stateProvinceGeoId="IN-HR" address1="" address2="" toName="" postalCode="" city="" />
+
+<Party partyId="CP0101" partyTypeId= "PARTY_GROUP" statusId="PARTY_ENABLED"/>
+<ContactMech contactMechId="CCM101" contactMechTypeId="POSTAL_ADDRESS" />
+<PartyContactMech partyId="CP0101" contactMechId="CCM101" fromDate="2019-04-17 00:00:00.0" allowSolicitation="Y" />
+<PartyContactMechPurpose partyId="CP0101" contactMechId="CCM101" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="BILLING_LOCATION" />
+<PartyContactMechPurpose partyId="CP0101" contactMechId="CCM101" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="SHIPPING_LOCATION" />
+<PartyContactMechPurpose partyId="CP0101" contactMechId="CCM101" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="GENERAL_LOCATION" />
+<PostalAddress contactMechId="CCM101" countryGeoId="IND" stateProvinceGeoId="IN-HR" address1="" address2="" toName="" postalCode="" city="" />
+
+<Party partyId="CP0102" partyTypeId= "PARTY_GROUP" statusId="PARTY_ENABLED"/>
+<ContactMech contactMechId="CCM102" contactMechTypeId="POSTAL_ADDRESS" />
+<PartyContactMech partyId="CP0102" contactMechId="CCM102" fromDate="2019-04-17 00:00:00.0" allowSolicitation="Y" />
+<PartyContactMechPurpose partyId="CP0102" contactMechId="CCM102" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="BILLING_LOCATION" />
+<PartyContactMechPurpose partyId="CP0102" contactMechId="CCM102" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="SHIPPING_LOCATION" />
+<PartyContactMechPurpose partyId="CP0102" contactMechId="CCM102" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="GENERAL_LOCATION" />
+<PostalAddress contactMechId="CCM102" countryGeoId="IND" stateProvinceGeoId="IN-UP" address1="" address2="" toName="" postalCode="" city="" />
+
+<Party partyId="CP0103" partyTypeId= "PARTY_GROUP" statusId="PARTY_ENABLED"/>
+<ContactMech contactMechId="CCM103" contactMechTypeId="POSTAL_ADDRESS" />
+<PartyContactMech partyId="CP0103" contactMechId="CCM103" fromDate="2019-04-17 00:00:00.0" allowSolicitation="Y" />
+<PartyContactMechPurpose partyId="CP0103" contactMechId="CCM103" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="BILLING_LOCATION" />
+<PartyContactMechPurpose partyId="CP0103" contactMechId="CCM103" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="SHIPPING_LOCATION" />
+<PartyContactMechPurpose partyId="CP0103" contactMechId="CCM103" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="GENERAL_LOCATION" />
+<PostalAddress contactMechId="CCM103" countryGeoId="IND" stateProvinceGeoId="IN-UP" address1="" address2="" toName="" postalCode="" city="" />
+
+<Party partyId="CP0104" partyTypeId= "PARTY_GROUP" statusId="PARTY_ENABLED"/>
+<ContactMech contactMechId="CCM104" contactMechTypeId="POSTAL_ADDRESS" />
+<PartyContactMech partyId="CP0104" contactMechId="CCM104" fromDate="2019-04-17 00:00:00.0" allowSolicitation="Y" />
+<PartyContactMechPurpose partyId="CP0104" contactMechId="CCM104" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="BILLING_LOCATION" />
+<PartyContactMechPurpose partyId="CP0104" contactMechId="CCM104" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="SHIPPING_LOCATION" />
+<PartyContactMechPurpose partyId="CP0104" contactMechId="CCM104" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="GENERAL_LOCATION" />
+<PostalAddress contactMechId="CCM104" countryGeoId="IND" stateProvinceGeoId="IN-PB" address1="" address2="" toName="" postalCode="" city="" />
+
+<Party partyId="CP0105" partyTypeId= "PARTY_GROUP" statusId="PARTY_ENABLED"/>
+<ContactMech contactMechId="CCM105" contactMechTypeId="POSTAL_ADDRESS" />
+<PartyContactMech partyId="CP0105" contactMechId="CCM105" fromDate="2019-04-17 00:00:00.0" allowSolicitation="Y" />
+<PartyContactMechPurpose partyId="CP0105" contactMechId="CCM105" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="BILLING_LOCATION" />
+<PartyContactMechPurpose partyId="CP0105" contactMechId="CCM105" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="SHIPPING_LOCATION" />
+<PartyContactMechPurpose partyId="CP0105" contactMechId="CCM105" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="GENERAL_LOCATION" />
+<PostalAddress contactMechId="CCM105" countryGeoId="IND" stateProvinceGeoId="IN-MH" address1="" address2="" toName="" postalCode="" city="" />
+
+<Party partyId="CP0106" partyTypeId= "PARTY_GROUP" statusId="PARTY_ENABLED"/>
+<ContactMech contactMechId="CCM106" contactMechTypeId="POSTAL_ADDRESS" />
+<PartyContactMech partyId="CP0106" contactMechId="CCM106" fromDate="2019-04-17 00:00:00.0" allowSolicitation="Y" />
+<PartyContactMechPurpose partyId="CP0106" contactMechId="CCM106" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="BILLING_LOCATION" />
+<PartyContactMechPurpose partyId="CP0106" contactMechId="CCM106" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="SHIPPING_LOCATION" />
+<PartyContactMechPurpose partyId="CP0106" contactMechId="CCM106" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="GENERAL_LOCATION" />
+<PostalAddress contactMechId="CCM106" countryGeoId="IND" stateProvinceGeoId="IN-UP" address1="" address2="" toName="" postalCode="" city="" />
+
+<Party partyId="CP0107" partyTypeId= "PARTY_GROUP" statusId="PARTY_ENABLED"/>
+<ContactMech contactMechId="CCM107" contactMechTypeId="POSTAL_ADDRESS" />
+<PartyContactMech partyId="CP0107" contactMechId="CCM107" fromDate="2019-04-17 00:00:00.0" allowSolicitation="Y" />
+<PartyContactMechPurpose partyId="CP0107" contactMechId="CCM107" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="BILLING_LOCATION" />
+<PartyContactMechPurpose partyId="CP0107" contactMechId="CCM107" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="SHIPPING_LOCATION" />
+<PartyContactMechPurpose partyId="CP0107" contactMechId="CCM107" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="GENERAL_LOCATION" />
+<PostalAddress contactMechId="CCM107" countryGeoId="IND" stateProvinceGeoId="IN-PB" address1="" address2="" toName="" postalCode="" city="" />
+
+<Party partyId="CP0108" partyTypeId= "PARTY_GROUP" statusId="PARTY_ENABLED"/>
+<ContactMech contactMechId="CCM108" contactMechTypeId="POSTAL_ADDRESS" />
+<PartyContactMech partyId="CP0108" contactMechId="CCM108" fromDate="2019-04-17 00:00:00.0" allowSolicitation="Y" />
+<PartyContactMechPurpose partyId="CP0108" contactMechId="CCM108" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="BILLING_LOCATION" />
+<PartyContactMechPurpose partyId="CP0108" contactMechId="CCM108" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="SHIPPING_LOCATION" />
+<PartyContactMechPurpose partyId="CP0108" contactMechId="CCM108" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="GENERAL_LOCATION" />
+<PostalAddress contactMechId="CCM108" countryGeoId="IND" stateProvinceGeoId="IN-HR" address1="" address2="" toName="" postalCode="" city="" />
+
+<Party partyId="CP0109" partyTypeId= "PARTY_GROUP" statusId="PARTY_ENABLED"/>
+<ContactMech contactMechId="CCM109" contactMechTypeId="POSTAL_ADDRESS" />
+<PartyContactMech partyId="CP0109" contactMechId="CCM109" fromDate="2019-04-17 00:00:00.0" allowSolicitation="Y" />
+<PartyContactMechPurpose partyId="CP0109" contactMechId="CCM109" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="BILLING_LOCATION" />
+<PartyContactMechPurpose partyId="CP0109" contactMechId="CCM109" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="SHIPPING_LOCATION" />
+<PartyContactMechPurpose partyId="CP0109" contactMechId="CCM109" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="GENERAL_LOCATION" />
+<PostalAddress contactMechId="CCM109" countryGeoId="IND" stateProvinceGeoId="IN-UT" address1="" address2="" toName="" postalCode="" city="" />
+
+<Party partyId="CP0110" partyTypeId= "PARTY_GROUP" statusId="PARTY_ENABLED"/>
+<ContactMech contactMechId="CCM110" contactMechTypeId="POSTAL_ADDRESS" />
+<PartyContactMech partyId="CP0110" contactMechId="CCM110" fromDate="2019-04-17 00:00:00.0" allowSolicitation="Y" />
+<PartyContactMechPurpose partyId="CP0110" contactMechId="CCM110" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="BILLING_LOCATION" />
+<PartyContactMechPurpose partyId="CP0110" contactMechId="CCM110" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="SHIPPING_LOCATION" />
+<PartyContactMechPurpose partyId="CP0110" contactMechId="CCM110" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="GENERAL_LOCATION" />
+<PostalAddress contactMechId="CCM110" countryGeoId="IND" stateProvinceGeoId="IN-PB" address1="" address2="" toName="" postalCode="" city="" />
+
+<Party partyId="CP0111" partyTypeId= "PARTY_GROUP" statusId="PARTY_ENABLED"/>
+<ContactMech contactMechId="CCM111" contactMechTypeId="POSTAL_ADDRESS" />
+<PartyContactMech partyId="CP0111" contactMechId="CCM111" fromDate="2019-04-17 00:00:00.0" allowSolicitation="Y" />
+<PartyContactMechPurpose partyId="CP0111" contactMechId="CCM111" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="BILLING_LOCATION" />
+<PartyContactMechPurpose partyId="CP0111" contactMechId="CCM111" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="SHIPPING_LOCATION" />
+<PartyContactMechPurpose partyId="CP0111" contactMechId="CCM111" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="GENERAL_LOCATION" />
+<PostalAddress contactMechId="CCM111" countryGeoId="IND" stateProvinceGeoId="IN-HR" address1="" address2="" toName="" postalCode="" city="" />
+
+<Party partyId="CP0112" partyTypeId= "PARTY_GROUP" statusId="PARTY_ENABLED"/>
+<ContactMech contactMechId="CCM112" contactMechTypeId="POSTAL_ADDRESS" />
+<PartyContactMech partyId="CP0112" contactMechId="CCM112" fromDate="2019-04-17 00:00:00.0" allowSolicitation="Y" />
+<PartyContactMechPurpose partyId="CP0112" contactMechId="CCM112" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="BILLING_LOCATION" />
+<PartyContactMechPurpose partyId="CP0112" contactMechId="CCM112" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="SHIPPING_LOCATION" />
+<PartyContactMechPurpose partyId="CP0112" contactMechId="CCM112" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="GENERAL_LOCATION" />
+<PostalAddress contactMechId="CCM112" countryGeoId="IND" stateProvinceGeoId="IN-PB" address1="" address2="" toName="" postalCode="" city="" />
+
+<Party partyId="CP0113" partyTypeId= "PARTY_GROUP" statusId="PARTY_ENABLED"/>
+<ContactMech contactMechId="CCM113" contactMechTypeId="POSTAL_ADDRESS" />
+<PartyContactMech partyId="CP0113" contactMechId="CCM113" fromDate="2019-04-17 00:00:00.0" allowSolicitation="Y" />
+<PartyContactMechPurpose partyId="CP0113" contactMechId="CCM113" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="BILLING_LOCATION" />
+<PartyContactMechPurpose partyId="CP0113" contactMechId="CCM113" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="SHIPPING_LOCATION" />
+<PartyContactMechPurpose partyId="CP0113" contactMechId="CCM113" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="GENERAL_LOCATION" />
+<PostalAddress contactMechId="CCM113" countryGeoId="IND" stateProvinceGeoId="IN-RJ" address1="" address2="" toName="" postalCode="" city="" />
+
+<Party partyId="CP0114" partyTypeId= "PARTY_GROUP" statusId="PARTY_ENABLED"/>
+<ContactMech contactMechId="CCM114" contactMechTypeId="POSTAL_ADDRESS" />
+<PartyContactMech partyId="CP0114" contactMechId="CCM114" fromDate="2019-04-17 00:00:00.0" allowSolicitation="Y" />
+<PartyContactMechPurpose partyId="CP0114" contactMechId="CCM114" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="BILLING_LOCATION" />
+<PartyContactMechPurpose partyId="CP0114" contactMechId="CCM114" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="SHIPPING_LOCATION" />
+<PartyContactMechPurpose partyId="CP0114" contactMechId="CCM114" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="GENERAL_LOCATION" />
+<PostalAddress contactMechId="CCM114" countryGeoId="IND" stateProvinceGeoId="IN-WB" address1="" address2="" toName="" postalCode="" city="" />
+
+<Party partyId="CP0115" partyTypeId= "PARTY_GROUP" statusId="PARTY_ENABLED"/>
+<ContactMech contactMechId="CCM115" contactMechTypeId="POSTAL_ADDRESS" />
+<PartyContactMech partyId="CP0115" contactMechId="CCM115" fromDate="2019-04-17 00:00:00.0" allowSolicitation="Y" />
+<PartyContactMechPurpose partyId="CP0115" contactMechId="CCM115" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="BILLING_LOCATION" />
+<PartyContactMechPurpose partyId="CP0115" contactMechId="CCM115" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="SHIPPING_LOCATION" />
+<PartyContactMechPurpose partyId="CP0115" contactMechId="CCM115" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="GENERAL_LOCATION" />
+<PostalAddress contactMechId="CCM115" countryGeoId="IND" stateProvinceGeoId="IN-UP" address1="" address2="" toName="" postalCode="" city="" />
+
+<Party partyId="CP0116" partyTypeId= "PARTY_GROUP" statusId="PARTY_ENABLED"/>
+<ContactMech contactMechId="CCM116" contactMechTypeId="POSTAL_ADDRESS" />
+<PartyContactMech partyId="CP0116" contactMechId="CCM116" fromDate="2019-04-17 00:00:00.0" allowSolicitation="Y" />
+<PartyContactMechPurpose partyId="CP0116" contactMechId="CCM116" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="BILLING_LOCATION" />
+<PartyContactMechPurpose partyId="CP0116" contactMechId="CCM116" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="SHIPPING_LOCATION" />
+<PartyContactMechPurpose partyId="CP0116" contactMechId="CCM116" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="GENERAL_LOCATION" />
+<PostalAddress contactMechId="CCM116" countryGeoId="IND" stateProvinceGeoId="IN-UT" address1="" address2="" toName="" postalCode="" city="" />
+
+<Party partyId="CP0117" partyTypeId= "PARTY_GROUP" statusId="PARTY_ENABLED"/>
+<ContactMech contactMechId="CCM117" contactMechTypeId="POSTAL_ADDRESS" />
+<PartyContactMech partyId="CP0117" contactMechId="CCM117" fromDate="2019-04-17 00:00:00.0" allowSolicitation="Y" />
+<PartyContactMechPurpose partyId="CP0117" contactMechId="CCM117" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="BILLING_LOCATION" />
+<PartyContactMechPurpose partyId="CP0117" contactMechId="CCM117" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="SHIPPING_LOCATION" />
+<PartyContactMechPurpose partyId="CP0117" contactMechId="CCM117" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="GENERAL_LOCATION" />
+<PostalAddress contactMechId="CCM117" countryGeoId="IND" stateProvinceGeoId="IN-UT" address1="" address2="" toName="" postalCode="" city="" />
+
+<Party partyId="CP0118" partyTypeId= "PARTY_GROUP" statusId="PARTY_ENABLED"/>
+<ContactMech contactMechId="CCM118" contactMechTypeId="POSTAL_ADDRESS" />
+<PartyContactMech partyId="CP0118" contactMechId="CCM118" fromDate="2019-04-17 00:00:00.0" allowSolicitation="Y" />
+<PartyContactMechPurpose partyId="CP0118" contactMechId="CCM118" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="BILLING_LOCATION" />
+<PartyContactMechPurpose partyId="CP0118" contactMechId="CCM118" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="SHIPPING_LOCATION" />
+<PartyContactMechPurpose partyId="CP0118" contactMechId="CCM118" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="GENERAL_LOCATION" />
+<PostalAddress contactMechId="CCM118" countryGeoId="IND" stateProvinceGeoId="IN-CT" address1="" address2="" toName="" postalCode="" city="" />
+
+<Party partyId="CP0119" partyTypeId= "PARTY_GROUP" statusId="PARTY_ENABLED"/>
+<ContactMech contactMechId="CCM119" contactMechTypeId="POSTAL_ADDRESS" />
+<PartyContactMech partyId="CP0119" contactMechId="CCM119" fromDate="2019-04-17 00:00:00.0" allowSolicitation="Y" />
+<PartyContactMechPurpose partyId="CP0119" contactMechId="CCM119" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="BILLING_LOCATION" />
+<PartyContactMechPurpose partyId="CP0119" contactMechId="CCM119" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="SHIPPING_LOCATION" />
+<PartyContactMechPurpose partyId="CP0119" contactMechId="CCM119" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="GENERAL_LOCATION" />
+<PostalAddress contactMechId="CCM119" countryGeoId="IND" stateProvinceGeoId="IN-HR" address1="" address2="" toName="" postalCode="" city="" />
+
+<Party partyId="CP0120" partyTypeId= "PARTY_GROUP" statusId="PARTY_ENABLED"/>
+<ContactMech contactMechId="CCM120" contactMechTypeId="POSTAL_ADDRESS" />
+<PartyContactMech partyId="CP0120" contactMechId="CCM120" fromDate="2019-04-17 00:00:00.0" allowSolicitation="Y" />
+<PartyContactMechPurpose partyId="CP0120" contactMechId="CCM120" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="BILLING_LOCATION" />
+<PartyContactMechPurpose partyId="CP0120" contactMechId="CCM120" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="SHIPPING_LOCATION" />
+<PartyContactMechPurpose partyId="CP0120" contactMechId="CCM120" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="GENERAL_LOCATION" />
+<PostalAddress contactMechId="CCM120" countryGeoId="IND" stateProvinceGeoId="IN-KL" address1="" address2="" toName="" postalCode="" city="" />
+
+<Party partyId="CP0121" partyTypeId= "PARTY_GROUP" statusId="PARTY_ENABLED"/>
+<ContactMech contactMechId="CCM121" contactMechTypeId="POSTAL_ADDRESS" />
+<PartyContactMech partyId="CP0121" contactMechId="CCM121" fromDate="2019-04-17 00:00:00.0" allowSolicitation="Y" />
+<PartyContactMechPurpose partyId="CP0121" contactMechId="CCM121" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="BILLING_LOCATION" />
+<PartyContactMechPurpose partyId="CP0121" contactMechId="CCM121" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="SHIPPING_LOCATION" />
+<PartyContactMechPurpose partyId="CP0121" contactMechId="CCM121" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="GENERAL_LOCATION" />
+<PostalAddress contactMechId="CCM121" countryGeoId="IND" stateProvinceGeoId="IN-BR" address1="" address2="" toName="" postalCode="" city="" />
+
+<Party partyId="CP0122" partyTypeId= "PARTY_GROUP" statusId="PARTY_ENABLED"/>
+<ContactMech contactMechId="CCM122" contactMechTypeId="POSTAL_ADDRESS" />
+<PartyContactMech partyId="CP0122" contactMechId="CCM122" fromDate="2019-04-17 00:00:00.0" allowSolicitation="Y" />
+<PartyContactMechPurpose partyId="CP0122" contactMechId="CCM122" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="BILLING_LOCATION" />
+<PartyContactMechPurpose partyId="CP0122" contactMechId="CCM122" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="SHIPPING_LOCATION" />
+<PartyContactMechPurpose partyId="CP0122" contactMechId="CCM122" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="GENERAL_LOCATION" />
+<PostalAddress contactMechId="CCM122" countryGeoId="IND" stateProvinceGeoId="IN-MP" address1="" address2="" toName="" postalCode="" city="" />
+
+<Party partyId="CP0123" partyTypeId= "PARTY_GROUP" statusId="PARTY_ENABLED"/>
+<ContactMech contactMechId="CCM123" contactMechTypeId="POSTAL_ADDRESS" />
+<PartyContactMech partyId="CP0123" contactMechId="CCM123" fromDate="2019-04-17 00:00:00.0" allowSolicitation="Y" />
+<PartyContactMechPurpose partyId="CP0123" contactMechId="CCM123" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="BILLING_LOCATION" />
+<PartyContactMechPurpose partyId="CP0123" contactMechId="CCM123" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="SHIPPING_LOCATION" />
+<PartyContactMechPurpose partyId="CP0123" contactMechId="CCM123" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="GENERAL_LOCATION" />
+<PostalAddress contactMechId="CCM123" countryGeoId="IND" stateProvinceGeoId="IN-OR" address1="" address2="" toName="" postalCode="" city="" />
+
+<Party partyId="CP0124" partyTypeId= "PARTY_GROUP" statusId="PARTY_ENABLED"/>
+<ContactMech contactMechId="CCM124" contactMechTypeId="POSTAL_ADDRESS" />
+<PartyContactMech partyId="CP0124" contactMechId="CCM124" fromDate="2019-04-17 00:00:00.0" allowSolicitation="Y" />
+<PartyContactMechPurpose partyId="CP0124" contactMechId="CCM124" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="BILLING_LOCATION" />
+<PartyContactMechPurpose partyId="CP0124" contactMechId="CCM124" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="SHIPPING_LOCATION" />
+<PartyContactMechPurpose partyId="CP0124" contactMechId="CCM124" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="GENERAL_LOCATION" />
+<PostalAddress contactMechId="CCM124" countryGeoId="IND" stateProvinceGeoId="IN-UP" address1="" address2="" toName="" postalCode="" city="" />
+
+<Party partyId="CP0125" partyTypeId= "PARTY_GROUP" statusId="PARTY_ENABLED"/>
+<ContactMech contactMechId="CCM125" contactMechTypeId="POSTAL_ADDRESS" />
+<PartyContactMech partyId="CP0125" contactMechId="CCM125" fromDate="2019-04-17 00:00:00.0" allowSolicitation="Y" />
+<PartyContactMechPurpose partyId="CP0125" contactMechId="CCM125" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="BILLING_LOCATION" />
+<PartyContactMechPurpose partyId="CP0125" contactMechId="CCM125" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="SHIPPING_LOCATION" />
+<PartyContactMechPurpose partyId="CP0125" contactMechId="CCM125" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="GENERAL_LOCATION" />
+<PostalAddress contactMechId="CCM125" countryGeoId="IND" stateProvinceGeoId="IN-BR" address1="" address2="" toName="" postalCode="" city="" />
+
+<Party partyId="CP0126" partyTypeId= "PARTY_GROUP" statusId="PARTY_ENABLED"/>
+<ContactMech contactMechId="CCM126" contactMechTypeId="POSTAL_ADDRESS" />
+<PartyContactMech partyId="CP0126" contactMechId="CCM126" fromDate="2019-04-17 00:00:00.0" allowSolicitation="Y" />
+<PartyContactMechPurpose partyId="CP0126" contactMechId="CCM126" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="BILLING_LOCATION" />
+<PartyContactMechPurpose partyId="CP0126" contactMechId="CCM126" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="SHIPPING_LOCATION" />
+<PartyContactMechPurpose partyId="CP0126" contactMechId="CCM126" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="GENERAL_LOCATION" />
+<PostalAddress contactMechId="CCM126" countryGeoId="IND" stateProvinceGeoId="IN-RJ" address1="" address2="" toName="" postalCode="" city="" />
+
+<Party partyId="CP0127" partyTypeId= "PARTY_GROUP" statusId="PARTY_ENABLED"/>
+<ContactMech contactMechId="CCM127" contactMechTypeId="POSTAL_ADDRESS" />
+<PartyContactMech partyId="CP0127" contactMechId="CCM127" fromDate="2019-04-17 00:00:00.0" allowSolicitation="Y" />
+<PartyContactMechPurpose partyId="CP0127" contactMechId="CCM127" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="BILLING_LOCATION" />
+<PartyContactMechPurpose partyId="CP0127" contactMechId="CCM127" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="SHIPPING_LOCATION" />
+<PartyContactMechPurpose partyId="CP0127" contactMechId="CCM127" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="GENERAL_LOCATION" />
+<PostalAddress contactMechId="CCM127" countryGeoId="IND" stateProvinceGeoId="IN-UT" address1="" address2="" toName="" postalCode="" city="" />
+
+<Party partyId="CP0128" partyTypeId= "PARTY_GROUP" statusId="PARTY_ENABLED"/>
+<ContactMech contactMechId="CCM128" contactMechTypeId="POSTAL_ADDRESS" />
+<PartyContactMech partyId="CP0128" contactMechId="CCM128" fromDate="2019-04-17 00:00:00.0" allowSolicitation="Y" />
+<PartyContactMechPurpose partyId="CP0128" contactMechId="CCM128" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="BILLING_LOCATION" />
+<PartyContactMechPurpose partyId="CP0128" contactMechId="CCM128" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="SHIPPING_LOCATION" />
+<PartyContactMechPurpose partyId="CP0128" contactMechId="CCM128" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="GENERAL_LOCATION" />
+<PostalAddress contactMechId="CCM128" countryGeoId="IND" stateProvinceGeoId="IN-TN" address1="" address2="" toName="" postalCode="" city="" />
+
+<Party partyId="CP0129" partyTypeId= "PARTY_GROUP" statusId="PARTY_ENABLED"/>
+<ContactMech contactMechId="CCM129" contactMechTypeId="POSTAL_ADDRESS" />
+<PartyContactMech partyId="CP0129" contactMechId="CCM129" fromDate="2019-04-17 00:00:00.0" allowSolicitation="Y" />
+<PartyContactMechPurpose partyId="CP0129" contactMechId="CCM129" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="BILLING_LOCATION" />
+<PartyContactMechPurpose partyId="CP0129" contactMechId="CCM129" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="SHIPPING_LOCATION" />
+<PartyContactMechPurpose partyId="CP0129" contactMechId="CCM129" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="GENERAL_LOCATION" />
+<PostalAddress contactMechId="CCM129" countryGeoId="IND" stateProvinceGeoId="IN-UT" address1="" address2="" toName="" postalCode="" city="" />
+
+
+<Party partyId="CP0160" partyTypeId= "PARTY_GROUP" statusId="PARTY_ENABLED"/>
+<ContactMech contactMechId="CCM060"  contactMechTypeId="POSTAL_ADDRESS" />
+<PartyContactMech partyId="CP0160" contactMechId="CCM060" fromDate="2019-04-17 00:00:00.0" allowSolicitation="Y" />
+<PartyContactMechPurpose partyId="CP0160" contactMechId="CCM060" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="BILLING_LOCATION" />
+<PartyContactMechPurpose partyId="CP0160" contactMechId="CCM060" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="SHIPPING_LOCATION" />
+<PartyContactMechPurpose partyId="CP0160" contactMechId="CCM060" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="GENERAL_LOCATION" />
+<PostalAddress contactMechId="CCM060" countryGeoId="IND" stateProvinceGeoId="IN-PB"  address1="" address2="" toName="" postalCode="" city="" />
+
+<Party partyId="CP0159" partyTypeId= "PARTY_GROUP" statusId="PARTY_ENABLED"/>
+<ContactMech contactMechId="CCM059"  contactMechTypeId="POSTAL_ADDRESS" />
+<PartyContactMech partyId="CP0159" contactMechId="CCM059" fromDate="2019-04-17 00:00:00.0" allowSolicitation="Y" />
+<PartyContactMechPurpose partyId="CP0159" contactMechId="CCM059" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="BILLING_LOCATION" />
+<PartyContactMechPurpose partyId="CP0159" contactMechId="CCM059" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="SHIPPING_LOCATION" />
+<PartyContactMechPurpose partyId="CP0159" contactMechId="CCM059" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="GENERAL_LOCATION" />
+<PostalAddress contactMechId="CCM059" countryGeoId="IND" stateProvinceGeoId="IN-PB"  address1="" address2="" toName="" postalCode="" city="" />
+
+<Party partyId="CP0158"  partyTypeId= "PARTY_GROUP" statusId="PARTY_ENABLED"/>
+<ContactMech contactMechId="CCM058"  contactMechTypeId="POSTAL_ADDRESS" />
+<PartyContactMech partyId="CP0158" contactMechId="CCM058" fromDate="2019-04-17 00:00:00.0" allowSolicitation="Y" />
+<PartyContactMechPurpose partyId="CP0158" contactMechId="CCM058" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="BILLING_LOCATION" />
+<PartyContactMechPurpose partyId="CP0158" contactMechId="CCM058" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="SHIPPING_LOCATION" />
+<PartyContactMechPurpose partyId="CP0158" contactMechId="CCM058" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="GENERAL_LOCATION" />
+<PostalAddress contactMechId="CCM058" countryGeoId="IND" stateProvinceGeoId="IN-UT"  address1="" address2="" toName="" postalCode="" city="" />
+
+<Party partyId="CP0157"  partyTypeId= "PARTY_GROUP" statusId="PARTY_ENABLED"/>
+<ContactMech contactMechId="CCM057"  contactMechTypeId="POSTAL_ADDRESS" />
+<PartyContactMech partyId="CP0157" contactMechId="CCM057" fromDate="2019-04-17 00:00:00.0" allowSolicitation="Y" />
+<PartyContactMechPurpose partyId="CP0157" contactMechId="CCM057" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="BILLING_LOCATION" />
+<PartyContactMechPurpose partyId="CP0157" contactMechId="CCM057" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="SHIPPING_LOCATION" />
+<PartyContactMechPurpose partyId="CP0157" contactMechId="CCM057" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="GENERAL_LOCATION" />
+<PostalAddress contactMechId="CCM057" countryGeoId="IND" stateProvinceGeoId="IN-RJ"  address1="" address2="" toName="" postalCode="" city="" />
+
+<Party partyId="CP0156"  partyTypeId= "PARTY_GROUP" statusId="PARTY_ENABLED"/>
+<ContactMech contactMechId="CCM056"  contactMechTypeId="POSTAL_ADDRESS" />
+<PartyContactMech partyId="CP0156" contactMechId="CCM056" fromDate="2019-04-17 00:00:00.0" allowSolicitation="Y" />
+<PartyContactMechPurpose partyId="CP0156" contactMechId="CCM056" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="BILLING_LOCATION" />
+<PartyContactMechPurpose partyId="CP0156" contactMechId="CCM056" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="SHIPPING_LOCATION" />
+<PartyContactMechPurpose partyId="CP0156" contactMechId="CCM056" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="GENERAL_LOCATION" />
+<PostalAddress contactMechId="CCM056" countryGeoId="IND" stateProvinceGeoId="IN-PB"  address1="" address2="" toName="" postalCode="" city="" />
+
+<Party partyId="CP0155"  partyTypeId= "PARTY_GROUP" statusId="PARTY_ENABLED"/>
+<ContactMech contactMechId="CCM055"  contactMechTypeId="POSTAL_ADDRESS" />
+<PartyContactMech partyId="CP0155" contactMechId="CCM055" fromDate="2019-04-17 00:00:00.0" allowSolicitation="Y" />
+<PartyContactMechPurpose partyId="CP0155" contactMechId="CCM055" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="BILLING_LOCATION" />
+<PartyContactMechPurpose partyId="CP0155" contactMechId="CCM055" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="SHIPPING_LOCATION" />
+<PartyContactMechPurpose partyId="CP0155" contactMechId="CCM055" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="GENERAL_LOCATION" />
+<PostalAddress contactMechId="CCM055" countryGeoId="IND" stateProvinceGeoId="IN-HR"  address1="" address2="" toName="" postalCode="" city="" />
+
+<Party partyId="CP0154"  partyTypeId= "PARTY_GROUP" statusId="PARTY_ENABLED"/>
+<ContactMech contactMechId="CCM054"  contactMechTypeId="POSTAL_ADDRESS" />
+<PartyContactMech partyId="CP0154" contactMechId="CCM054" fromDate="2019-04-17 00:00:00.0" allowSolicitation="Y" />
+<PartyContactMechPurpose partyId="CP0154" contactMechId="CCM054" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="BILLING_LOCATION" />
+<PartyContactMechPurpose partyId="CP0154" contactMechId="CCM054" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="SHIPPING_LOCATION" />
+<PartyContactMechPurpose partyId="CP0154" contactMechId="CCM054" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="GENERAL_LOCATION" />
+<PostalAddress contactMechId="CCM054" countryGeoId="IND" stateProvinceGeoId="IN-HP" address1="" address2="" toName="" postalCode="" city="" />
+
+<Party partyId="CP0153"  partyTypeId= "PARTY_GROUP" statusId="PARTY_ENABLED"/>
+<ContactMech contactMechId="CCM053"  contactMechTypeId="POSTAL_ADDRESS" />
+<PartyContactMech partyId="CP0153" contactMechId="CCM053" fromDate="2019-04-17 00:00:00.0" allowSolicitation="Y" />
+<PartyContactMechPurpose partyId="CP0153" contactMechId="CCM053" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="BILLING_LOCATION" />
+<PartyContactMechPurpose partyId="CP0153" contactMechId="CCM053" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="SHIPPING_LOCATION" />
+<PartyContactMechPurpose partyId="CP0153" contactMechId="CCM053" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="GENERAL_LOCATION" />
+<PostalAddress contactMechId="CCM053" countryGeoId="IND" stateProvinceGeoId="IN-PB"  address1="" address2="" toName="" postalCode="" city="" />
+
+<Party partyId="CP0152"  partyTypeId= "PARTY_GROUP" statusId="PARTY_ENABLED"/>
+<ContactMech contactMechId="CCM052"  contactMechTypeId="POSTAL_ADDRESS" />
+<PartyContactMech partyId="CP0152" contactMechId="CCM052" fromDate="2019-04-17 00:00:00.0" allowSolicitation="Y" />
+<PartyContactMechPurpose partyId="CP0152" contactMechId="CCM052" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="BILLING_LOCATION" />
+<PartyContactMechPurpose partyId="CP0152" contactMechId="CCM052" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="SHIPPING_LOCATION" />
+<PartyContactMechPurpose partyId="CP0152" contactMechId="CCM052" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="GENERAL_LOCATION" />
+<PostalAddress contactMechId="CCM052" countryGeoId="IND" stateProvinceGeoId="IN-UP" address1="" address2="" toName="" postalCode="" city="" />
+
+<Party partyId="CP0151"  partyTypeId= "PARTY_GROUP" statusId="PARTY_ENABLED"/>
+<ContactMech contactMechId="CCM051"  contactMechTypeId="POSTAL_ADDRESS" />
+<PartyContactMech partyId="CP0151" contactMechId="CCM051" fromDate="2019-04-17 00:00:00.0" allowSolicitation="Y" />
+<PartyContactMechPurpose partyId="CP0151" contactMechId="CCM051" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="BILLING_LOCATION" />
+<PartyContactMechPurpose partyId="CP0151" contactMechId="CCM051" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="SHIPPING_LOCATION" />
+<PartyContactMechPurpose partyId="CP0151" contactMechId="CCM051" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="GENERAL_LOCATION" />
+<PostalAddress contactMechId="CCM051" countryGeoId="IND" stateProvinceGeoId="IN-HR"  address1="" address2="" toName="" postalCode="" city="" />
+
+<Party partyId="CP0150"  partyTypeId= "PARTY_GROUP" statusId="PARTY_ENABLED"/>
+<ContactMech contactMechId="CCM050"  contactMechTypeId="POSTAL_ADDRESS" />
+<PartyContactMech partyId="CP0150" contactMechId="CCM050" fromDate="2019-04-17 00:00:00.0" allowSolicitation="Y" />
+<PartyContactMechPurpose partyId="CP0150" contactMechId="CCM050" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="BILLING_LOCATION" />
+<PartyContactMechPurpose partyId="CP0150" contactMechId="CCM050" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="SHIPPING_LOCATION" />
+<PartyContactMechPurpose partyId="CP0150" contactMechId="CCM050" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="GENERAL_LOCATION" />
+<PostalAddress contactMechId="CCM050" countryGeoId="IND" stateProvinceGeoId="IN-PB"  address1="" address2="" toName="" postalCode="" city="" />
+
+<Party partyId="CP0149"  partyTypeId= "PARTY_GROUP" statusId="PARTY_ENABLED"/>
+<ContactMech contactMechId="CCM049"  contactMechTypeId="POSTAL_ADDRESS" />
+<PartyContactMech partyId="CP0149" contactMechId="CCM049" fromDate="2019-04-17 00:00:00.0" allowSolicitation="Y" />
+<PartyContactMechPurpose partyId="CP0149" contactMechId="CCM049" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="BILLING_LOCATION" />
+<PartyContactMechPurpose partyId="CP0149" contactMechId="CCM049" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="SHIPPING_LOCATION" />
+<PartyContactMechPurpose partyId="CP0149" contactMechId="CCM049" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="GENERAL_LOCATION" />
+<PostalAddress contactMechId="CCM049" countryGeoId="IND" stateProvinceGeoId="IN-RJ"  address1="" address2="" toName="" postalCode="" city="" />
+
+<Party partyId="CP0148"  partyTypeId= "PARTY_GROUP" statusId="PARTY_ENABLED"/>
+<ContactMech contactMechId="CCM048"  contactMechTypeId="POSTAL_ADDRESS" />
+<PartyContactMech partyId="CP0148" contactMechId="CCM048" fromDate="2019-04-17 00:00:00.0" allowSolicitation="Y" />
+<PartyContactMechPurpose partyId="CP0148" contactMechId="CCM048" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="BILLING_LOCATION" />
+<PartyContactMechPurpose partyId="CP0148" contactMechId="CCM048" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="SHIPPING_LOCATION" />
+<PartyContactMechPurpose partyId="CP0148" contactMechId="CCM048" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="GENERAL_LOCATION" />
+<PostalAddress contactMechId="CCM048" countryGeoId="IND" stateProvinceGeoId="IN-UP" address1="" address2="" toName="" postalCode="" city="" />
+
+<Party partyId="CP0147"  partyTypeId= "PARTY_GROUP" statusId="PARTY_ENABLED"/>
+<ContactMech contactMechId="CCM047"  contactMechTypeId="POSTAL_ADDRESS" />
+<PartyContactMech partyId="CP0147" contactMechId="CCM047" fromDate="2019-04-17 00:00:00.0" allowSolicitation="Y" />
+<PartyContactMechPurpose partyId="CP0147" contactMechId="CCM047" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="BILLING_LOCATION" />
+<PartyContactMechPurpose partyId="CP0147" contactMechId="CCM047" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="SHIPPING_LOCATION" />
+<PartyContactMechPurpose partyId="CP0147" contactMechId="CCM047" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="GENERAL_LOCATION" />
+<PostalAddress contactMechId="CCM047" countryGeoId="IND" stateProvinceGeoId="IN-PB"  address1="" address2="" toName="" postalCode="" city="" />
+
+<Party partyId="CP0146"  partyTypeId= "PARTY_GROUP" statusId="PARTY_ENABLED"/>
+<ContactMech contactMechId="CCM046"  contactMechTypeId="POSTAL_ADDRESS" />
+<PartyContactMech partyId="CP0146" contactMechId="CCM046" fromDate="2019-04-17 00:00:00.0" allowSolicitation="Y" />
+<PartyContactMechPurpose partyId="CP0146" contactMechId="CCM046" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="BILLING_LOCATION" />
+<PartyContactMechPurpose partyId="CP0146" contactMechId="CCM046" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="SHIPPING_LOCATION" />
+<PartyContactMechPurpose partyId="CP0146" contactMechId="CCM046" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="GENERAL_LOCATION" />
+<PostalAddress contactMechId="CCM046" countryGeoId="IND" stateProvinceGeoId="IN-HR"  address1="" address2="" toName="" postalCode="" city="" />
+
+<Party partyId="CP0145"  partyTypeId= "PARTY_GROUP" statusId="PARTY_ENABLED"/>
+<ContactMech contactMechId="CCM045"  contactMechTypeId="POSTAL_ADDRESS" />
+<PartyContactMech partyId="CP0145" contactMechId="CCM045" fromDate="2019-04-17 00:00:00.0" allowSolicitation="Y" />
+<PartyContactMechPurpose partyId="CP0145" contactMechId="CCM045" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="BILLING_LOCATION" />
+<PartyContactMechPurpose partyId="CP0145" contactMechId="CCM045" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="SHIPPING_LOCATION" />
+<PartyContactMechPurpose partyId="CP0145" contactMechId="CCM045" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="GENERAL_LOCATION" />
+<PostalAddress contactMechId="CCM045" countryGeoId="IND" stateProvinceGeoId="IN-HR"  address1="" address2="" toName="" postalCode="" city="" />
+
+<Party partyId="CP0144"  partyTypeId= "PARTY_GROUP" statusId="PARTY_ENABLED"/>
+<ContactMech contactMechId="CCM044"  contactMechTypeId="POSTAL_ADDRESS" />
+<PartyContactMech partyId="CP0144" contactMechId="CCM044" fromDate="2019-04-17 00:00:00.0" allowSolicitation="Y" />
+<PartyContactMechPurpose partyId="CP0144" contactMechId="CCM044" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="BILLING_LOCATION" />
+<PartyContactMechPurpose partyId="CP0144" contactMechId="CCM044" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="SHIPPING_LOCATION" />
+<PartyContactMechPurpose partyId="CP0144" contactMechId="CCM044" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="GENERAL_LOCATION" />
+<PostalAddress contactMechId="CCM044" countryGeoId="IND" stateProvinceGeoId="IN-UT"  address1="" address2="" toName="" postalCode="" city="" />
+
+<Party partyId="CP0143"  partyTypeId= "PARTY_GROUP" statusId="PARTY_ENABLED"/>
+<ContactMech contactMechId="CCM043"  contactMechTypeId="POSTAL_ADDRESS" />
+<PartyContactMech partyId="CP0143" contactMechId="CCM043" fromDate="2019-04-17 00:00:00.0" allowSolicitation="Y" />
+<PartyContactMechPurpose partyId="CP0143" contactMechId="CCM043" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="BILLING_LOCATION" />
+<PartyContactMechPurpose partyId="CP0143" contactMechId="CCM043" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="SHIPPING_LOCATION" />
+<PartyContactMechPurpose partyId="CP0143" contactMechId="CCM043" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="GENERAL_LOCATION" />
+<PostalAddress contactMechId="CCM043" countryGeoId="IND" stateProvinceGeoId="IN-PB"  address1="" address2="" toName="" postalCode="" city="" />
+
+<Party partyId="CP0142"  partyTypeId= "PARTY_GROUP" statusId="PARTY_ENABLED"/>
+<ContactMech contactMechId="CCM042"  contactMechTypeId="POSTAL_ADDRESS" />
+<PartyContactMech partyId="CP0142" contactMechId="CCM042" fromDate="2019-04-17 00:00:00.0" allowSolicitation="Y" />
+<PartyContactMechPurpose partyId="CP0142" contactMechId="CCM042" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="BILLING_LOCATION" />
+<PartyContactMechPurpose partyId="CP0142" contactMechId="CCM042" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="SHIPPING_LOCATION" />
+<PartyContactMechPurpose partyId="CP0142" contactMechId="CCM042" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="GENERAL_LOCATION" />
+<PostalAddress contactMechId="CCM042" countryGeoId="IND" stateProvinceGeoId="IN-PB"  address1="" address2="" toName="" postalCode="" city="" />
+
+<Party partyId="CP0141"  partyTypeId= "PARTY_GROUP" statusId="PARTY_ENABLED"/>
+<ContactMech contactMechId="CCM041"  contactMechTypeId="POSTAL_ADDRESS" />
+<PartyContactMech partyId="CP0141" contactMechId="CCM041" fromDate="2019-04-17 00:00:00.0" allowSolicitation="Y" />
+<PartyContactMechPurpose partyId="CP0141" contactMechId="CCM041" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="BILLING_LOCATION" />
+<PartyContactMechPurpose partyId="CP0141" contactMechId="CCM041" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="SHIPPING_LOCATION" />
+<PartyContactMechPurpose partyId="CP0141" contactMechId="CCM041" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="GENERAL_LOCATION" />
+<PostalAddress contactMechId="CCM041" countryGeoId="IND" stateProvinceGeoId="IN-UP" address1="" address2="" toName="" postalCode="" city="" />
+
+<Party partyId="CP0140"  partyTypeId= "PARTY_GROUP" statusId="PARTY_ENABLED"/>
+<ContactMech contactMechId="CCM040"  contactMechTypeId="POSTAL_ADDRESS" />
+<PartyContactMech partyId="CP0140" contactMechId="CCM040" fromDate="2019-04-17 00:00:00.0" allowSolicitation="Y" />
+<PartyContactMechPurpose partyId="CP0140" contactMechId="CCM040" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="BILLING_LOCATION" />
+<PartyContactMechPurpose partyId="CP0140" contactMechId="CCM040" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="SHIPPING_LOCATION" />
+<PartyContactMechPurpose partyId="CP0140" contactMechId="CCM040" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="GENERAL_LOCATION" />
+<PostalAddress contactMechId="CCM040" countryGeoId="IND" stateProvinceGeoId="IN-HR"  address1="" address2="" toName="" postalCode="" city="" />
+
+<Party partyId="CP0139"  partyTypeId= "PARTY_GROUP" statusId="PARTY_ENABLED"/>
+<ContactMech contactMechId="CCM039"  contactMechTypeId="POSTAL_ADDRESS" />
+<PartyContactMech partyId="CP0139" contactMechId="CCM039" fromDate="2019-04-17 00:00:00.0" allowSolicitation="Y" />
+<PartyContactMechPurpose partyId="CP0139" contactMechId="CCM039" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="BILLING_LOCATION" />
+<PartyContactMechPurpose partyId="CP0139" contactMechId="CCM039" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="SHIPPING_LOCATION" />
+<PartyContactMechPurpose partyId="CP0139" contactMechId="CCM039" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="GENERAL_LOCATION" />
+<PostalAddress contactMechId="CCM039" countryGeoId="IND" stateProvinceGeoId="IN-PB"  address1="" address2="" toName="" postalCode="" city="" />
+
+<Party partyId="CP0138"  partyTypeId= "PARTY_GROUP" statusId="PARTY_ENABLED"/>
+<ContactMech contactMechId="CCM038"  contactMechTypeId="POSTAL_ADDRESS" />
+<PartyContactMech partyId="CP0138" contactMechId="CCM038" fromDate="2019-04-17 00:00:00.0" allowSolicitation="Y" />
+<PartyContactMechPurpose partyId="CP0138" contactMechId="CCM038" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="BILLING_LOCATION" />
+<PartyContactMechPurpose partyId="CP0138" contactMechId="CCM038" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="SHIPPING_LOCATION" />
+<PartyContactMechPurpose partyId="CP0138" contactMechId="CCM038" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="GENERAL_LOCATION" />
+<PostalAddress contactMechId="CCM038" countryGeoId="IND" stateProvinceGeoId="IN-PB"  address1="" address2="" toName="" postalCode="" city="" />
+
+<Party partyId="CP0137"  partyTypeId= "PARTY_GROUP" statusId="PARTY_ENABLED"/>
+<ContactMech contactMechId="CCM037"  contactMechTypeId="POSTAL_ADDRESS" />
+<PartyContactMech partyId="CP0137" contactMechId="CCM037" fromDate="2019-04-17 00:00:00.0" allowSolicitation="Y" />
+<PartyContactMechPurpose partyId="CP0137" contactMechId="CCM037" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="BILLING_LOCATION" />
+<PartyContactMechPurpose partyId="CP0137" contactMechId="CCM037" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="SHIPPING_LOCATION" />
+<PartyContactMechPurpose partyId="CP0137" contactMechId="CCM037" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="GENERAL_LOCATION" />
+<PostalAddress contactMechId="CCM037" countryGeoId="IND" stateProvinceGeoId="IN-PB"  address1="" address2="" toName="" postalCode="" city="" />
+
+<Party partyId="CP0136"  partyTypeId= "PARTY_GROUP" statusId="PARTY_ENABLED"/>
+<ContactMech contactMechId="CCM036"  contactMechTypeId="POSTAL_ADDRESS" />
+<PartyContactMech partyId="CP0136" contactMechId="CCM036" fromDate="2019-04-17 00:00:00.0" allowSolicitation="Y" />
+<PartyContactMechPurpose partyId="CP0136" contactMechId="CCM036" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="BILLING_LOCATION" />
+<PartyContactMechPurpose partyId="CP0136" contactMechId="CCM036" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="SHIPPING_LOCATION" />
+<PartyContactMechPurpose partyId="CP0136" contactMechId="CCM036" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="GENERAL_LOCATION" />
+<PostalAddress contactMechId="CCM036" countryGeoId="IND" stateProvinceGeoId="IN-HR"  address1="" address2="" toName="" postalCode="" city="" />
+
+<Party partyId="CP0135"  partyTypeId= "PARTY_GROUP" statusId="PARTY_ENABLED"/>
+<ContactMech contactMechId="CCM035"  contactMechTypeId="POSTAL_ADDRESS" />
+<PartyContactMech partyId="CP0135" contactMechId="CCM035" fromDate="2019-04-17 00:00:00.0" allowSolicitation="Y" />
+<PartyContactMechPurpose partyId="CP0135" contactMechId="CCM035" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="BILLING_LOCATION" />
+<PartyContactMechPurpose partyId="CP0135" contactMechId="CCM035" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="SHIPPING_LOCATION" />
+<PartyContactMechPurpose partyId="CP0135" contactMechId="CCM035" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="GENERAL_LOCATION" />
+<PostalAddress contactMechId="CCM035" countryGeoId="IND" stateProvinceGeoId="IN-PB"  address1="" address2="" toName="" postalCode="" city="" />
+
+<Party partyId="CP0134"  partyTypeId= "PARTY_GROUP" statusId="PARTY_ENABLED"/>
+<ContactMech contactMechId="CCM034"  contactMechTypeId="POSTAL_ADDRESS" />
+<PartyContactMech partyId="CP0134" contactMechId="CCM034" fromDate="2019-04-17 00:00:00.0" allowSolicitation="Y" />
+<PartyContactMechPurpose partyId="CP0134" contactMechId="CCM034" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="BILLING_LOCATION" />
+<PartyContactMechPurpose partyId="CP0134" contactMechId="CCM034" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="SHIPPING_LOCATION" />
+<PartyContactMechPurpose partyId="CP0134" contactMechId="CCM034" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="GENERAL_LOCATION" />
+<PostalAddress contactMechId="CCM034" countryGeoId="IND" stateProvinceGeoId="IN-PB"  address1="" address2="" toName="" postalCode="" city="" />
+
+<Party partyId="CP0133"  partyTypeId= "PARTY_GROUP" statusId="PARTY_ENABLED"/>
+<ContactMech contactMechId="CCM033"  contactMechTypeId="POSTAL_ADDRESS" />
+<PartyContactMech partyId="CP0133" contactMechId="CCM033" fromDate="2019-04-17 00:00:00.0" allowSolicitation="Y" />
+<PartyContactMechPurpose partyId="CP0133" contactMechId="CCM033" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="BILLING_LOCATION" />
+<PartyContactMechPurpose partyId="CP0133" contactMechId="CCM033" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="SHIPPING_LOCATION" />
+<PartyContactMechPurpose partyId="CP0133" contactMechId="CCM033" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="GENERAL_LOCATION" />
+<PostalAddress contactMechId="CCM033" countryGeoId="IND" stateProvinceGeoId="IN-PB"  address1="" address2="" toName="" postalCode="" city="" />
+
+<Party partyId="CP0132"  partyTypeId= "PARTY_GROUP" statusId="PARTY_ENABLED"/>
+<ContactMech contactMechId="CCM032"  contactMechTypeId="POSTAL_ADDRESS" />
+<PartyContactMech partyId="CP0132" contactMechId="CCM032" fromDate="2019-04-17 00:00:00.0" allowSolicitation="Y" />
+<PartyContactMechPurpose partyId="CP0132" contactMechId="CCM032" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="BILLING_LOCATION" />
+<PartyContactMechPurpose partyId="CP0132" contactMechId="CCM032" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="SHIPPING_LOCATION" />
+<PartyContactMechPurpose partyId="CP0132" contactMechId="CCM032" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="GENERAL_LOCATION" />
+<PostalAddress contactMechId="CCM032" countryGeoId="IND" stateProvinceGeoId="IN-UP"  address1="" address2="" toName="" postalCode="" city="" />
+
+<Party partyId="CP0131"  partyTypeId= "PARTY_GROUP" statusId="PARTY_ENABLED"/>
+<ContactMech contactMechId="CCM031"  contactMechTypeId="POSTAL_ADDRESS" />
+<PartyContactMech partyId="CP0131" contactMechId="CCM031" fromDate="2019-04-17 00:00:00.0" allowSolicitation="Y" />
+<PartyContactMechPurpose partyId="CP0131" contactMechId="CCM031" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="BILLING_LOCATION" />
+<PartyContactMechPurpose partyId="CP0131" contactMechId="CCM031" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="SHIPPING_LOCATION" />
+<PartyContactMechPurpose partyId="CP0131" contactMechId="CCM031" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="GENERAL_LOCATION" />
+<PostalAddress contactMechId="CCM031" countryGeoId="IND" stateProvinceGeoId="IN-RJ"  address1="" address2="" toName="" postalCode="" city="" />
+
+<Party partyId="CP0130"  partyTypeId= "PARTY_GROUP" statusId="PARTY_ENABLED"/>
+<ContactMech contactMechId="CCM030"  contactMechTypeId="POSTAL_ADDRESS" />
+<PartyContactMech partyId="CP0130" contactMechId="CCM030" fromDate="2019-04-17 00:00:00.0" allowSolicitation="Y" />
+<PartyContactMechPurpose partyId="CP0130" contactMechId="CCM030" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="BILLING_LOCATION" />
+<PartyContactMechPurpose partyId="CP0130" contactMechId="CCM030" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="SHIPPING_LOCATION" />
+<PartyContactMechPurpose partyId="CP0130" contactMechId="CCM030" fromDate="2019-04-17 00:00:00.0" contactMechPurposeTypeId="GENERAL_LOCATION" />
+<PostalAddress contactMechId="CCM030" countryGeoId="IND" stateProvinceGeoId="IN-RJ"  address1="" address2="" toName="" postalCode="" city="" />
+
+<PartyGroup partyId="CP0066" groupName="A.R. Grow Enterprises, Bhopal"/>
+<PartyGroup partyId="CP0067" groupName="Advance Dr RK Shukla"/>
+<PartyGroup partyId="CP0068" groupName="AGRAWAL JAIVIK KRISHI SEWA KENDRA,GUNA"/>
+<PartyGroup partyId="CP0069" groupName="AGRO BUSINESS AGRI CLINIC INNOVT SRIG RJ"/>
+<PartyGroup partyId="CP0070" groupName="AJAY TRADERS, FARIDKOT"/>
+<PartyGroup partyId="CP0071" groupName="AMAR ENTERPRISES, RAMPURA"/>
+<PartyGroup partyId="CP0072" groupName="Andata Organic, Saharanpu, UP"/>
+<PartyGroup partyId="CP0073" groupName="ANSHPREET TRADING CO, Bhatinda PB"/>
+<PartyGroup partyId="CP0074" groupName="ARUN ENTERPRISES JAITSAR RJ"/>
+<PartyGroup partyId="CP0075" groupName="Aryavart Trading Co., Loharu Haryana"/>
+<PartyGroup partyId="CP0076" groupName="Bhalla Pesticides, Smalsar"/>
+<PartyGroup partyId="CP0077" groupName="BHARAT SALES CORPORATION,RANIA,SIRSA"/>
+<PartyGroup partyId="CP0078" groupName="BRAR PESTICIDES, SHRI MUKTSAR SAHIB"/>
+<PartyGroup partyId="CP0079" groupName="CSC E-Governance Services India Limited,"/>
+<PartyGroup partyId="CP0080" groupName="DEVINDRA KHETI SEWA CENTRE, BHIKHI PB"/>
+<PartyGroup partyId="CP0081" groupName="Divya Pashu Aahar &amp; Khad Jagadhari (H.R)"/>
+<PartyGroup partyId="CP0082" groupName="Divya Yog Mandir, Gaushala Farm"/>
+<PartyGroup partyId="CP0083" groupName="GALHOTRA PESTICIDES &amp; FERT GURUHARSAI PB"/>
+<PartyGroup partyId="CP0084" groupName="GIANA TRADING COMPANY, RAMAN-MANDI PJ"/>
+<PartyGroup partyId="CP0085" groupName="Gill Trading Company,sirsa"/>
+<PartyGroup partyId="CP0086" groupName="GOYAL FERTILIZER AGENCY AMROHA S/D UP"/>
+<PartyGroup partyId="CP0087" groupName="GURU KRIPA TRADERS KHAIR ALGR UP"/>
+<PartyGroup partyId="CP0088" groupName="Jain Brothers, SADIQ"/>
+<PartyGroup partyId="CP0089" groupName="Jaldharti KSK,Chandur Bazar,Amrawati (MH"/>
+<PartyGroup partyId="CP0090" groupName="JK Enterprises,Jhalera Una HP"/>
+<PartyGroup partyId="CP0091" groupName="JOTIRAM SATPAUL, SANGAT MANDI PB"/>
+<PartyGroup partyId="CP0092" groupName="KANSAL TRADING CO. SARDULGRH PB"/>
+<PartyGroup partyId="CP0093" groupName="KASHMIRI LAL MOHAN LAL, BHUCHHA PB"/>
+<PartyGroup partyId="CP0094" groupName="Kherumal Agyaram, Rohru Shimla HP"/>
+<PartyGroup partyId="CP0095" groupName="KISAN KHAD BEEJ BHANDAR--SHAHPUR,UK"/>
+<PartyGroup partyId="CP0096" groupName="KISSAN PESTICIDES SIRSA"/>
+<PartyGroup partyId="CP0097" groupName="KUKAR TRADING CO. Arni Wala"/>
+<PartyGroup partyId="CP0098" groupName="Lachhman Dass Naresh Kumar, Dabwali"/>
+<PartyGroup partyId="CP0099" groupName="LAKHMI CHAND KHANDSARI &amp; SONS SHAHJHP UP"/>
+<PartyGroup partyId="CP0100" groupName="Lohan PKSK,Pilukhera,Safido Jind (HR)"/>
+<PartyGroup partyId="CP0101" groupName="Luxmi Beej Bhandar,Ladwa,Kurukshetra (HR"/>
+<PartyGroup partyId="CP0102" groupName="LUXMI KHAD BHANDAR, DIVIYAPUR JALALBD UP"/>
+<PartyGroup partyId="CP0103" groupName="M/S MOSARAM SHIVRAM DAS"/>
+<PartyGroup partyId="CP0104" groupName="M/S PK PESTICIDES MOGA"/>
+<PartyGroup partyId="CP0105" groupName="Maa Vaishno Traders,Warud,Amravati (MH)"/>
+<PartyGroup partyId="CP0106" groupName="MAHESHWARI FERTILIZER STORE, DIWAI"/>
+<PartyGroup partyId="CP0107" groupName="MALWA TRADING CO.  SINGO PJ"/>
+<PartyGroup partyId="CP0108" groupName="Modern Seed Company Cheeka,Kaithal"/>
+<PartyGroup partyId="CP0109" groupName="Mr. Sanjeev Tomar"/>
+<PartyGroup partyId="CP0110" groupName="New Garg Seeds Store, Talwandi, PB"/>
+<PartyGroup partyId="CP0111" groupName="New Kisan Seed Store.Tohana"/>
+<PartyGroup partyId="CP0112" groupName="NISHANT SALES CORPORATION, KOTAKPURA"/>
+<PartyGroup partyId="CP0113" groupName="PAREEK PESTICIDE STORE, SURATGARH"/>
+<PartyGroup partyId="CP0114" groupName="Patanjali Bio Research Institute WB"/>
+<PartyGroup partyId="CP0115" groupName="Patanjali Kisan Sewa Kendra, Bijnore, UP"/>
+<PartyGroup partyId="CP0116" groupName="Patanjali Yogpeeth, Teliwala,Haridwar"/>
+<PartyGroup partyId="CP0117" groupName="PBRI  Branch KARNATAKA"/>
+<PartyGroup partyId="CP0118" groupName="PBRI CHHATISHGARH"/>
+<PartyGroup partyId="CP0119" groupName="PBRI HR"/>
+<PartyGroup partyId="CP0120" groupName="PBRI KERALA"/>
+<PartyGroup partyId="CP0121" groupName="PBRI Pvt. Ltd  BIHAR"/>
+<PartyGroup partyId="CP0122" groupName="PBRI Pvt. ltd. Branch MP"/>
+<PartyGroup partyId="CP0123" groupName="PBRI Pvt. Ltd. ODISHA"/>
+<PartyGroup partyId="CP0124" groupName="PBRI Pvt. Ltd. UP"/>
+<PartyGroup partyId="CP0125" groupName="PBRI Pvt.Ltd. Branch Bihar"/>
+<PartyGroup partyId="CP0126" groupName="PBRI RAJ BRANCH"/>
+<PartyGroup partyId="CP0127" groupName="PBRI SOIL SOLUTION PVT. LTD."/>
+<PartyGroup partyId="CP0128" groupName="Pbri Tamilnadu"/>
+<PartyGroup partyId="CP0129" groupName="PBRI Telanagana Branch"/>
+<PartyGroup partyId="CP0130" groupName="PKSK,Phalodi,Jodhpur (Raj)"/>
+<PartyGroup partyId="CP0131" groupName="Pooja Traders,Bilara Jodhpur, Rajasthan"/>
+<PartyGroup partyId="CP0132" groupName="Prakash Khad Bhandar, Bisauli, UP"/>
+<PartyGroup partyId="CP0133" groupName="PREM TRADERS, MALLAWALA PJ"/>
+<PartyGroup partyId="CP0134" groupName="PUNJAB SEED STORE, BHATINDA"/>
+<PartyGroup partyId="CP0135" groupName="R L TRADING CO. GIDDERBAHA PB"/>
+<PartyGroup partyId="CP0136" groupName="R.S.Trading Co.,Kurukshetra, HARYANA"/>
+<PartyGroup partyId="CP0137" groupName="Rajdeep Tyagi,"/>
+<PartyGroup partyId="CP0138" groupName="RAJIV AGRO CHEMICALS, FAZILKA PUNJAB"/>
+<PartyGroup partyId="CP0139" groupName="RANA TRADING COMPANY, ATARI PJ"/>
+<PartyGroup partyId="CP0140" groupName="Rathi Khad Bhandar Sampla,Rothak Haryana"/>
+<PartyGroup partyId="CP0141" groupName="Roop Singh Hukam Singh,S/D mainpuri UP"/>
+<PartyGroup partyId="CP0142" groupName="Roshanlal &amp; Sons Mandi Killianwali PJ"/>
+<PartyGroup partyId="CP0143" groupName="SAHARA TRADERS, MALOUT PUNJAB"/>
+<PartyGroup partyId="CP0144" groupName="SAINI SEEDS &amp; PESTICIDES, BHAGWANPUR"/>
+<PartyGroup partyId="CP0145" groupName="Samridh Kisaan Sewa Kendra, Bilaspur HR"/>
+<PartyGroup partyId="CP0146" groupName="Setia Beej Bhandar, Ellenabad, Sirsa, Ha"/>
+<PartyGroup partyId="CP0147" groupName="SHARMA &amp; CO KHAD BHANDAR, JAHANER PB"/>
+<PartyGroup partyId="CP0148" groupName="Shiv Khad Beej And Davaai Agency"/>
+<PartyGroup partyId="CP0149" groupName="SHRI BALAJI PESTICIDES BHATIWALA"/>
+<PartyGroup partyId="CP0150" groupName="Shri Chand Raj Kumar, Bhatinda"/>
+<PartyGroup partyId="CP0151" groupName="Sidhu PKSK Gohana,Haryana"/>
+<PartyGroup partyId="CP0152" groupName="Sidhwali Traders Moradabad UP"/>
+<PartyGroup partyId="CP0153" groupName="SINGLA FERTILIZERS, MANSA PUNJAB"/>
+<PartyGroup partyId="CP0154" groupName="SURI ENTERPRISES, Salon"/>
+<PartyGroup partyId="CP0155" groupName="Swami Beej Bhandar Ratia HR"/>
+<PartyGroup partyId="CP0156" groupName="UTTAM KISAN BAZAR, KOTKAPURA, Faridkot"/>
+<PartyGroup partyId="CP0157" groupName="VADERA FERTILIZERS"/>
+<PartyGroup partyId="CP0158" groupName="Yoga Naturopathy P.T. &amp; Res.Cent.Yoggram"/>
+<PartyGroup partyId="CP0159" groupName="ZIMIDARA AGRO SERVICE, GUNNO PB"/>
+<PartyGroup partyId="CP0160" groupName="Zimidara Pesticides, Abohar PB"/>
+
+</entity-engine-xml>

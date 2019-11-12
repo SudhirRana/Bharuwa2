@@ -1,0 +1,567 @@
+BOM Name,OfbizCode,Item To Produce,Qty,UOM,Type,Raw Mat./By Product,itemQty,Unit,Ofbiz Unit,FromDate
+PSB 1 Ltr 2019 modified,PB0001,Patanjali PSB 1 LTR,84, BOX,PB0050,Empty Bottle 1 Liter,1008,Pcs.,UQC_pcs,2019-04-29 17:34:53
+ ,,,,,PB0055,Empty CV Box 1 Liter,84,Pcs.,UQC_pcs,2019-04-29 17:34:53
+ ,,,,,PB0070,Label for Patanjali PSB 1 Ltr,1008,Pcs.,UQC_pcs,2019-04-29 17:34:53
+ ,,,,,PB0092,PSB Culture broth,1008,Ltr.,UQC_ltr,2019-04-29 17:34:53
+ ,,,,,PB0094,Parafin Liquid,5.04,Ltr.,UQC_ltr,2019-04-29 17:34:53
+ ,,,,,PB0095,Tape Roll PBRI Printed,4,Pcs.,UQC_pcs,2019-04-29 17:34:53
+ ,,,,,PB0096,Tape Cello,2,Pcs.,UQC_pcs,2019-04-29 17:34:53
+ ,,,,,PB0102,CARBOXY METHYL CELLULOSE (CMC),20.16,Kgs.,UQC_kgs,2019-04-29 17:34:53
+ ,,,,,PB0126,Poly Vinyl Pyrrolidone (PVP),30.24,Kgs.,UQC_kgs,2019-04-29 17:34:53
+ ,,,,,PB0129,Glycerol,10.08,Ltr.,UQC_ltr,2019-04-29 17:34:53
+ ,,,,,PB0132,Sodium Cloride (Nacl),5.04,Kgs.,UQC_kgs,2019-04-29 17:34:53
+ ,,,,,PB0525,Potassium Chloride (KCL),5.04,Kgs.,UQC_kgs,2019-04-29 17:34:53
+PSB/1708/02,PB0001,Patanjali PSB 1 LTR,84, BOX,PB0050,Empty Bottle 1 Liter,1008,Pcs.,UQC_pcs,2019-04-29 17:34:53
+ ,,,,,PB0055,Empty CV Box 1 Liter,84,Pcs.,UQC_pcs,2019-04-29 17:34:53
+ ,,,,,PB0061,"Index for 1.00,0.500,0.250 Liter",1008,Pcs.,UQC_pcs,2019-04-29 17:34:53
+ ,,,,,PB0070,Label for Patanjali PSB 1 Ltr,1008,Pcs.,UQC_pcs,2019-04-29 17:34:53
+ ,,,,,PB0092,PSB Culture broth,604.8,Ltr.,UQC_ltr,2019-04-29 17:34:53
+ ,,,,,PB0093,Dilution Media Broth,403.2,Ltr.,UQC_ltr,2019-04-29 17:34:53
+ ,,,,,PB0094,Parafin Liquid,5.04,Ltr.,UQC_ltr,2019-04-29 17:34:53
+ ,,,,,PB0095,Tape Roll PBRI Printed,4,Pcs.,UQC_pcs,2019-04-29 17:34:53
+ ,,,,,PB0096,Tape Cello,2,Pcs.,UQC_pcs,2019-04-29 17:34:53
+Patanjali Jaivik Khad For:1 (April 2018),PB0002,Patanjali Jaivik Khad 40 Kg,25,Pcs.,PB0025,Rock Phosphate 30%,100,Kgs.,UQC_kgs,2019-04-29 17:34:53
+ ,,,,,PB0029,Neem Cake,50,Kgs.,UQC_kgs,2019-04-29 17:34:53
+ ,,,,,PB0047,Empty Bag for Patanjali Jaivik Khad 40Kg,25,Pcs.,UQC_pcs,2019-04-29 17:34:53
+ ,,,,,PB0085,Premix Nutrient Powder,30,Kgs.,UQC_kgs,2019-04-29 17:34:53
+ ,,,,,PB0086,Food Park Compost,750,Kgs.,UQC_kgs,2019-04-29 17:34:53
+ ,,,,,PB0087,Cow Urine Ark Distillate,5,Ltr.,UQC_ltr,2019-04-29 17:34:53
+ ,,,,,PB0088,Premix Nutrient Liquid,5,Ltr.,UQC_ltr,2019-04-29 17:34:53
+ ,,,,,PB0092,PSB Culture broth,0.1,Ltr.,UQC_ltr,2019-04-29 17:34:53
+ ,,,,,PB0097,Azoto Culture Broth,0.1,Ltr.,UQC_ltr,2019-04-29 17:34:53
+ ,,,,,PB0098,Rhizobium Culture Broth,0.1,Ltr.,UQC_ltr,2019-04-29 17:34:53
+ ,,,,,PB0101,"Thread Roll for PROM, JAIVIK & POSHAK",0.25,Pcs.,UQC_pcs,2019-04-29 17:34:53
+ ,,,,,PB0106,KMB Culture Broth,0.1,Ltr.,UQC_ltr,2019-04-29 17:34:53
+ ,,,,,PB0107,Pseudo Culture Broth,0.1,Ltr.,UQC_ltr,2019-04-29 17:34:53
+Patanjali Jaivik Khad PBRI,PB0002,Patanjali Jaivik Khad 40 Kg,25,Pcs.,PB0025,Rock Phosphate 30%,100,Kgs.,UQC_kgs,2019-04-29 17:34:53
+ ,,,,,PB0047,Empty Bag for Patanjali Jaivik Khad 40Kg,25,Pcs.,UQC_pcs,2019-04-29 17:34:53
+ ,,,,,PB0085,Premix Nutrient Powder,30,Kgs.,UQC_kgs,2019-04-29 17:34:53
+ ,,,,,PB0086,Food Park Compost,800,Kgs.,UQC_kgs,2019-04-29 17:34:53
+ ,,,,,PB0087,Cow Urine Ark Distillate,5,Ltr.,UQC_ltr,2019-04-29 17:34:53
+ ,,,,,PB0088,Premix Nutrient Liquid,5,Ltr.,UQC_ltr,2019-04-29 17:34:53
+ ,,,,,PB0092,PSB Culture broth,10,Ltr.,UQC_ltr,2019-04-29 17:34:53
+ ,,,,,PB0097,Azoto Culture Broth,10,Ltr.,UQC_ltr,2019-04-29 17:34:53
+ ,,,,,PB0098,Rhizobium Culture Broth,10,Ltr.,UQC_ltr,2019-04-29 17:34:53
+ ,,,,,PB0101,"Thread Roll for PROM, JAIVIK & POSHAK",0.25,Pcs.,UQC_pcs,2019-04-29 17:34:53
+ ,,,,,PB0106,KMB Culture Broth,10,Ltr.,UQC_ltr,2019-04-29 17:34:53
+ ,,,,,PB0107,Pseudo Culture Broth,10,Ltr.,UQC_ltr,2019-04-29 17:34:53
+Jaivik PROM,PB0003,Patanjali PROM 50 Kg,1000,Kgs.,PB0025,Rock Phosphate 30%,400,Kgs.,UQC_kgs,2019-04-29 17:34:53
+ ,,,,,PB0026,Bentonite Clay Powder,140,Kgs.,UQC_kgs,2019-04-29 17:34:53
+ ,,,,,PB0027,Gypsum Powder,50,Kgs.,UQC_kgs,2019-04-29 17:34:53
+ ,,,,,PB0028,Lignite Powder,30,Kgs.,UQC_kgs,2019-04-29 17:34:53
+ ,,,,,PB0048,Empty Bag for Patanjali PROM 50Kg,20,Pcs.,UQC_pcs,2019-04-29 17:34:53
+ ,,,,,PB0086,Food Park Compost,350,Kgs.,UQC_kgs,2019-04-29 17:34:53
+ ,,,,,PB0101,"Thread Roll for PROM, JAIVIK & POSHAK",0.2,Pcs.,UQC_pcs,2019-04-29 17:34:53
+ ,,,,,PB0879,Jaivik Premix Powder F2,30,Kgs.,UQC_kgs,2019-04-29 17:34:53
+PROM 13.7.17 Indore,PB0003,Patanjali PROM 50 Kg,1000,Pcs.,PB0085,Premix Nutrient Powder,30,Kgs.,UQC_kgs,2019-04-29 17:34:53
+ ,,,,,PB0090,PROM Granule,1000,Kgs.,UQC_kgs,2019-04-29 17:34:53
+ ,,,,,PB0091,BOPP Bag 50kg,20,Pcs.,UQC_pcs,2019-04-29 17:34:53
+PROM 13.7.17 Maharashtra,PB0003,Patanjali PROM 50 Kg,1000,Kgs.,PB0085,Premix Nutrient Powder,30,Kgs.,UQC_kgs,2019-04-29 17:34:53
+ ,,,,,PB0090,PROM Granule,1000,Kgs.,UQC_kgs,2019-04-29 17:34:53
+ ,,,,,PB0091,BOPP Bag 50kg,20,Pcs.,UQC_pcs,2019-04-29 17:34:53
+PROM Akola,PB0003,Patanjali PROM 50 Kg,21000,Kgs.,PB0090,PROM Granule,21000,Kgs.,UQC_kgs,2019-04-29 17:34:53
+ ,,,,,PB0091,BOPP Bag 50kg,420,Pcs.,UQC_pcs,2019-04-29 17:34:53
+PROM B.No. 01-07-17,PB0003,Patanjali PROM 50 Kg,500,Pcs.,PB0025,Rock Phosphate 30%,9000,Kgs.,UQC_kgs,2019-04-29 17:34:53
+ ,,,,,PB0026,Bentonite Clay Powder,3750,Kgs.,UQC_kgs,2019-04-29 17:34:53
+ ,,,,,PB0027,Gypsum Powder,1250,Kgs.,UQC_kgs,2019-04-29 17:34:53
+ ,,,,,PB0085,Premix Nutrient Powder,750,Kgs.,UQC_kgs,2019-04-29 17:34:53
+ ,,,,,PB0086,Food Park Compost,8750,Kgs.,UQC_kgs,2019-04-29 17:34:53
+ ,,,,,PB0087,Cow Urine Ark Distillate,250,Ltr.,UQC_klr,2019-04-29 17:34:53
+ ,,,,,PB0088,Premix Nutrient Liquid,125,Ltr.,UQC_klr,2019-04-29 17:34:53
+ ,,,,,PB0089,Moisture Maintained by Water,1125,Ltr.,UQC_klr,2019-04-29 17:34:53
+ ,,,,,PB0101,"Thread Roll for PROM, JAIVIK & POSHAK",5,Pcs.,UQC_pcs,2019-04-29 17:34:53
+PROM PBRI,PB0003,Patanjali PROM 50 Kg,1000,Kgs.,PB0025,Rock Phosphate 30%,400,Kgs.,UQC_kgs,2019-04-29 17:34:53
+ ,,,,,PB0026,Bentonite Clay Powder,150,Kgs.,UQC_kgs,2019-04-29 17:34:53
+ ,,,,,PB0027,Gypsum Powder,50,Kgs.,UQC_kgs,2019-04-29 17:34:53
+ ,,,,,PB0048,Empty Bag for Patanjali PROM 50Kg,20,Pcs.,UQC_pcs,2019-04-29 17:34:53
+ ,,,,,PB0085,Premix Nutrient Powder,30,Kgs.,UQC_kgs,2019-04-29 17:34:53
+ ,,,,,PB0086,Food Park Compost,375,Kgs.,UQC_kgs,2019-04-29 17:34:53
+ ,,,,,PB0087,Cow Urine Ark Distillate,10,Ltr.,UQC_klr,2019-04-29 17:34:53
+ ,,,,,PB0088,Premix Nutrient Liquid,5,Ltr.,UQC_klr,2019-04-29 17:34:53
+ ,,,,,PB0101,"Thread Roll for PROM, JAIVIK & POSHAK",0.2,Pcs.,UQC_pcs,2019-04-29 17:34:53
+PROM sf,PB0003,Patanjali PROM 50 Kg,1000,Kgs.,PB0048,Empty Bag for Patanjali PROM 50Kg,20,Pcs.,UQC_pcs,2019-04-29 17:34:53
+ ,,,,,PB0101,"Thread Roll for PROM, JAIVIK & POSHAK",0.2,Pcs.,UQC_pcs,2019-04-29 17:34:53
+ ,,,,,PB0122,Prom Sf,1000,Kgs.,UQC_kgs,2019-04-29 17:34:53
+Poshak 5 Kg,PB0004,Patanjali Poshak 05 Kg,200,Pcs.,PB0026,Bentonite Clay Powder,250,Kgs.,UQC_kgs,2019-04-29 17:34:53
+ ,,,,,PB0031,Bentonite Clay Granule,500,Kgs.,UQC_kgs,2019-04-29 17:34:53
+ ,,,,,PB0040,Super Pottasium Humate,42,Kgs.,UQC_kgs,2019-04-29 17:34:53
+ ,,,,,PB0041,Sea Weed Powder,10,Kgs.,UQC_kgs,2019-04-29 17:34:53
+ ,,,,,PB0049,Empty Bag for Patanjali Poshak 5Kg,200,Pcs.,UQC_pcs,2019-04-29 17:34:53
+ ,,,,,PB0086,Food Park Compost,100,Kgs.,UQC_kgs,2019-04-29 17:34:53
+ ,,,,,PB0101,"Thread Roll for PROM, JAIVIK & POSHAK",2,Pcs.,UQC_pcs,2019-04-29 17:34:53
+ ,,,,,PB0114,Root Technical for Poshak,1,Kgs.,UQC_kgs,2019-04-29 17:34:53
+ ,,,,,PB0115,Soil Technical for Poshak,50,Kgs.,UQC_kgs,2019-04-29 17:34:53
+ ,,,,,PB0116,Empty OuterBag for Patanjali Poshak 50Kg,20,Pcs.,UQC_pcs,2019-04-29 17:34:53
+ ,,,,,PB0124,VAM Spore Technical (1Lac IP/gm),100,Gms.,UQC_kgs,2019-04-29 17:34:53
+ ,,,,,PB0125,Biogas Sludge Fine Powder,100,Kgs.,UQC_kgs,2019-04-29 17:34:53
+Poshak 5 Kg New,PB0004,Patanjali Poshak 05 Kg,200,Pcs.,PB0026,Bentonite Clay Powder,50,Kgs.,UQC_kgs,2019-04-29 17:34:53
+ ,,,,,PB0031,Bentonite Clay Granule,500,Kgs.,UQC_kgs,2019-04-29 17:34:53
+ ,,,,,PB0040,Super Pottasium Humate,42,Kgs.,UQC_kgs,2019-04-29 17:34:53
+ ,,,,,PB0041,Sea Weed Powder,10,Kgs.,UQC_kgs,2019-04-29 17:34:53
+ ,,,,,PB0049,Empty Bag for Patanjali Poshak 5Kg,200,Pcs.,UQC_pcs,2019-04-29 17:34:53
+ ,,,,,PB0086,Food Park Compost,100,Kgs.,UQC_kgs,2019-04-29 17:34:53
+ ,,,,,PB0101,"Thread Roll for PROM, JAIVIK & POSHAK",2,Pcs.,UQC_pcs,2019-04-29 17:34:53
+ ,,,,,PB0114,Root Technical for Poshak,1,Kgs.,UQC_kgs,2019-04-29 17:34:53
+ ,,,,,PB0115,Soil Technical for Poshak,50,Kgs.,UQC_kgs,2019-04-29 17:34:53
+ ,,,,,PB0116,Empty OuterBag for Patanjali Poshak 50Kg,20,Pcs.,UQC_pcs,2019-04-29 17:34:53
+ ,,,,,PB0124,VAM Spore Technical (1Lac IP/gm),1000,Gms.,UQC_kgs,2019-04-29 17:34:53
+ ,,,,,PB0125,Biogas Sludge Fine Powder,100,Kgs.,UQC_kgs,2019-04-29 17:34:53
+ ,,,,,PB0147,Active Silicon Coarser (150 Mesh),199,Kgs.,UQC_kgs,2019-04-29 17:34:53
+Poshak 5 Kg NOV-18,PB0004,Patanjali Poshak 05 Kg,200,Pcs.,PB0026,Bentonite Clay Powder,250,Kgs.,UQC_kgs,2019-04-29 17:34:53
+ ,,,,,PB0031,Bentonite Clay Granule,500,Kgs.,UQC_kgs,2019-04-29 17:34:53
+ ,,,,,PB0040,Super Pottasium Humate,42,Kgs.,UQC_kgs,2019-04-29 17:34:53
+ ,,,,,PB0041,Sea Weed Powder,10,Kgs.,UQC_kgs,2019-04-29 17:34:53
+ ,,,,,PB0049,Empty Bag for Patanjali Poshak 5Kg,200,Pcs.,UQC_pcs,2019-04-29 17:34:53
+ ,,,,,PB0086,Food Park Compost,100,Kgs.,UQC_kgs,2019-04-29 17:34:53
+ ,,,,,PB0101,"Thread Roll for PROM, JAIVIK & POSHAK",2,Pcs.,UQC_pcs,2019-04-29 17:34:53
+ ,,,,,PB0115,Soil Technical for Poshak,50,Kgs.,UQC_kgs,2019-04-29 17:34:53
+ ,,,,,PB0116,Empty OuterBag for Patanjali Poshak 50Kg,20,Pcs.,UQC_pcs,2019-04-29 17:34:53
+ ,,,,,PB0124,VAM Spore Technical (1Lac IP/gm),1000,Gms.,UQC_kgs,2019-04-29 17:34:53
+ ,,,,,PB0125,Biogas Sludge Fine Powder,100,Kgs.,UQC_kgs,2019-04-29 17:34:53
+Poshak 5 Kg SF,PB0004,Patanjali Poshak 05 Kg,200,Pcs.,PB0049,Empty Bag for Patanjali Poshak 5Kg,200,Pcs.,UQC_pcs,2019-04-29 17:34:53
+ ,,,,,PB0101,"Thread Roll for PROM, JAIVIK & POSHAK",2,Pcs.,UQC_pcs,2019-04-29 17:34:53
+ ,,,,,PB0116,Empty OuterBag for Patanjali Poshak 50Kg,20,Pcs.,UQC_pcs,2019-04-29 17:34:53
+ ,,,,,PB0121,Poshak SF,1000,Kgs.,UQC_kgs,2019-04-29 17:34:53
+Neem Gold 1500ppm 5ltr (2018),PB0005,Patanjali Neem Gold 5Ltr,100, BOX,PB0051,Empty Bottle 5 Liter,200,Pcs.,UQC_pcs,2019-04-29 17:34:53
+ ,,,,,PB0056,Empty CV Box 5 Liter,100,Pcs.,UQC_pcs,2019-04-29 17:34:53
+ ,,,,,PB0063,Label for Patanjali Neem Gold 05 Ltr,200,Pcs.,UQC_pcs,2019-04-29 17:34:53
+ ,,,,,PB0095,Tape Roll PBRI Printed,5,Pcs.,UQC_pcs,2019-04-29 17:34:53
+ ,,,,,PB0096,Tape Cello,3,Pcs.,UQC_pcs,2019-04-29 17:34:53
+ ,,,,,PB0099,Neem Technical Liquid 1500 PPM,1000,Ltr.,UQC_klr,2019-04-29 17:34:53
+ ,,,,,PB0300,Leaflet for Patanjali Neem Gold 1500ppm,200,Pcs.,UQC_pcs,2019-04-29 17:34:53
+NG/1708/03 (5Ltr),PB0005,Patanjali Neem Gold 5Ltr,200, BOX,PB0051,Empty Bottle 5 Liter,200,Pcs.,UQC_pcs,2019-04-29 17:34:53
+ ,,,,,PB0056,Empty CV Box 5 Liter,100,Pcs.,UQC_pcs,2019-04-29 17:34:53
+ ,,,,,PB0063,Label for Patanjali Neem Gold 05 Ltr,200,Pcs.,UQC_pcs,2019-04-29 17:34:53
+ ,,,,,PB0095,Tape Roll PBRI Printed,4,Pcs.,UQC_pcs,2019-04-29 17:34:53
+ ,,,,,PB0096,Tape Cello,2,Pcs.,UQC_pcs,2019-04-29 17:34:53
+ ,,,,,PB0099,Neem Technical Liquid 1500 PPM,1000,Ltr.,UQC_klr,2019-04-29 17:34:53
+Neem Gold 1500ppm 1ltr (2018),PB0006,Patanjali Neem Gold 1Ltr,84, BOX,PB0050,Empty Bottle 1 Liter,1008,Pcs.,UQC_pcs,2019-04-29 17:34:53
+ ,,,,,PB0055,Empty CV Box 1 Liter,84,Pcs.,UQC_pcs,2019-04-29 17:34:53
+ ,,,,,PB0061,"Index for 1.00,0.500,0.250 Liter",1008,Pcs.,UQC_pcs,2019-04-29 17:34:53
+ ,,,,,PB0064,Label for Patanjali Neem Gold 01 Ltr,1008,Pcs.,UQC_pcs,2019-04-29 17:34:53
+ ,,,,,PB0095,Tape Roll PBRI Printed,5,Pcs.,UQC_pcs,2019-04-29 17:34:53
+ ,,,,,PB0096,Tape Cello,3,Pcs.,UQC_pcs,2019-04-29 17:34:53
+ ,,,,,PB0099,Neem Technical Liquid 1500 PPM,1008,Ltr.,UQC_klr,2019-04-29 17:34:53
+ ,,,,,PB0100,"Dose Cap for Neem Gold 0.25, 0.5, 1 Ltr",1008,Pcs.,UQC_pcs,2019-04-29 17:34:53
+ ,,,,,PB0300,Leaflet for Patanjali Neem Gold 1500ppm,1008,Pcs.,UQC_pcs,2019-04-29 17:34:53
+NG/1708/04   1ltr,PB0006,Patanjali Neem Gold 1Ltr,86, BOX,PB0050,Empty Bottle 1 Liter,1032,Pcs.,UQC_pcs,2019-04-29 17:34:53
+ ,,,,,PB0055,Empty CV Box 1 Liter,86,Pcs.,UQC_pcs,2019-04-29 17:34:53
+ ,,,,,PB0061,"Index for 1.00,0.500,0.250 Liter",1032,Pcs.,UQC_pcs,2019-04-29 17:34:53
+ ,,,,,PB0064,Label for Patanjali Neem Gold 01 Ltr,1032,Pcs.,UQC_pcs,2019-04-29 17:34:53
+ ,,,,,PB0095,Tape Roll PBRI Printed,5,Pcs.,UQC_pcs,2019-04-29 17:34:53
+ ,,,,,PB0096,Tape Cello,3,Pcs.,UQC_pcs,2019-04-29 17:34:53
+ ,,,,,PB0099,Neem Technical Liquid 1500 PPM,1032,Ltr.,UQC_klr,2019-04-29 17:34:53
+ ,,,,,PB0100,"Dose Cap for Neem Gold 0.25, 0.5, 1 Ltr",1032,Pcs.,UQC_pcs,2019-04-29 17:34:53
+NG/1708/05 (1Ltr),PB0006,Patanjali Neem Gold 1Ltr,84, BOX,PB0050,Empty Bottle 1 Liter,1005,Pcs.,UQC_pcs,2019-04-29 17:34:53
+ ,,,,,PB0055,Empty CV Box 1 Liter,84,Pcs.,UQC_pcs,2019-04-29 17:34:53
+ ,,,,,PB0061,"Index for 1.00,0.500,0.250 Liter",1005,Pcs.,UQC_pcs,2019-04-29 17:34:53
+ ,,,,,PB0064,Label for Patanjali Neem Gold 01 Ltr,1005,Pcs.,UQC_pcs,2019-04-29 17:34:53
+ ,,,,,PB0095,Tape Roll PBRI Printed,5,Pcs.,UQC_pcs,2019-04-29 17:34:53
+ ,,,,,PB0096,Tape Cello,3,Pcs.,UQC_pcs,2019-04-29 17:34:53
+ ,,,,,PB0099,Neem Technical Liquid 1500 PPM,1005,Ltr.,UQC_klr,2019-04-29 17:34:53
+ ,,,,,PB0100,"Dose Cap for Neem Gold 0.25, 0.5, 1 Ltr",1005,Pcs.,UQC_pcs,2019-04-29 17:34:53
+NG/1708/07 (1Ltr),PB0006,Patanjali Neem Gold 1Ltr,84, BOX,PB0050,Empty Bottle 1 Liter,1008,Pcs.,UQC_pcs,2019-04-29 17:34:53
+ ,,,,,PB0055,Empty CV Box 1 Liter,84,Pcs.,UQC_pcs,2019-04-29 17:34:53
+ ,,,,,PB0061,"Index for 1.00,0.500,0.250 Liter",1008,Pcs.,UQC_pcs,2019-04-29 17:34:53
+ ,,,,,PB0064,Label for Patanjali Neem Gold 01 Ltr,1008,Pcs.,UQC_pcs,2019-04-29 17:34:53
+ ,,,,,PB0095,Tape Roll PBRI Printed,5,Pcs.,UQC_pcs,2019-04-29 17:34:53
+ ,,,,,PB0096,Tape Cello,3,Pcs.,UQC_pcs,2019-04-29 17:34:53
+ ,,,,,PB0099,Neem Technical Liquid 1500 PPM,1008,Ltr.,UQC_klr,2019-04-29 17:34:53
+ ,,,,,PB0100,"Dose Cap for Neem Gold 0.25, 0.5, 1 Ltr",1008,Pcs.,UQC_pcs,2019-04-29 17:34:53
+NG/1804/08  (0.5 ltr),PB0007,Patanjali Neem Gold 0.5Ltr,20, BOX,PB0052,Empty Bottle 0.5 Liter,400,Pcs.,UQC_pcs,2019-04-29 17:34:53
+ ,,,,,PB0057,Empty CV Box 0.5 Liter,20,Pcs.,UQC_pcs,2019-04-29 17:34:53
+ ,,,,,PB0061,"Index for 1.00,0.500,0.250 Liter",400,Pcs.,UQC_pcs,2019-04-29 17:34:53
+ ,,,,,PB0065,Label for Patanjali Neem Gold 0.500 Ltr,400,Pcs.,UQC_pcs,2019-04-29 17:34:53
+ ,,,,,PB0095,Tape Roll PBRI Printed,2,Pcs.,UQC_pcs,2019-04-29 17:34:53
+ ,,,,,PB0096,Tape Cello,5,Pcs.,UQC_pcs,2019-04-29 17:34:53
+ ,,,,,PB0099,Neem Technical Liquid 1500 PPM,200,Ltr.,UQC_klr,2019-04-29 17:34:53
+ ,,,,,PB0100,"Dose Cap for Neem Gold 0.25, 0.5, 1 Ltr",400,Pcs.,UQC_pcs,2019-04-29 17:34:53
+Neem Gold 1500ppm 250ML (2019),PB0008,Patanjali Neem Gold 0.25Ltr,100, BOX,PB0053,Empty Bottle 0.25 Liter,1000,Pcs.,UQC_pcs,2019-04-29 17:34:53
+ ,,,,,PB0058,Empty CV Box 0.250 Liter,100,Pcs.,UQC_pcs,2019-04-29 17:34:53
+ ,,,,,PB0061,"Index for 1.00,0.500,0.250 Liter",1000,Pcs.,UQC_pcs,2019-04-29 17:34:53
+ ,,,,,PB0066,Label for Patanjali Neem Gold 0.250 Ltr,1000,Pcs.,UQC_pcs,2019-04-29 17:34:53
+ ,,,,,PB0095,Tape Roll PBRI Printed,5,Pcs.,UQC_pcs,2019-04-29 17:34:53
+ ,,,,,PB0096,Tape Cello,3,Pcs.,UQC_pcs,2019-04-29 17:34:53
+ ,,,,,PB0099,Neem Technical Liquid 1500 PPM,1000,Ltr.,UQC_klr,2019-04-29 17:34:53
+ ,,,,,PB0100,"Dose Cap for Neem Gold 0.25, 0.5, 1 Ltr",1000,Pcs.,UQC_pcs,2019-04-29 17:34:53
+ ,,,,,PB0300,Leaflet for Patanjali Neem Gold 1500ppm,1000,Pcs.,UQC_pcs,2019-04-29 17:34:53
+NG/1708/06  (0.25Ltr),PB0008,Patanjali Neem Gold 0.25Ltr,21, BOX,PB0053,Empty Bottle 0.25 Liter,840,Pcs.,UQC_pcs,2019-04-29 17:34:53
+ ,,,,,PB0058,Empty CV Box 0.250 Liter,21,Pcs.,UQC_pcs,2019-04-29 17:34:53
+ ,,,,,PB0061,"Index for 1.00,0.500,0.250 Liter",840,Pcs.,UQC_pcs,2019-04-29 17:34:53
+ ,,,,,PB0066,Label for Patanjali Neem Gold 0.250 Ltr,840,Pcs.,UQC_pcs,2019-04-29 17:34:53
+ ,,,,,PB0095,Tape Roll PBRI Printed,2,Pcs.,UQC_pcs,2019-04-29 17:34:53
+ ,,,,,PB0096,Tape Cello,5,Pcs.,UQC_pcs,2019-04-29 17:34:53
+ ,,,,,PB0099,Neem Technical Liquid 1500 PPM,210,Ltr.,UQC_klr,2019-04-29 17:34:53
+ ,,,,,PB0100,"Dose Cap for Neem Gold 0.25, 0.5, 1 Ltr",840,Pcs.,UQC_pcs,2019-04-29 17:34:53
+PSB 500 ml,PB0009,Patanjali PSB 0.5 LTR,100, BOX,PB0052,Empty Bottle 0.5 Liter,1000,Pcs.,UQC_pcs,2019-04-29 17:34:53
+ ,,,,,PB0057,Empty CV Box 0.5 Liter,100,Pcs.,UQC_pcs,2019-04-29 17:34:53
+ ,,,,,PB0061,"Index for 1.00,0.500,0.250 Liter",1000,Pcs.,UQC_pcs,2019-04-29 17:34:53
+ ,,,,,PB0071,Label for Patanjali PSB 0.5 Ltr,1000,Pcs.,UQC_pcs,2019-04-29 17:34:53
+ ,,,,,PB0092,PSB Culture broth,600,Ltr.,UQC_klr,2019-04-29 17:34:53
+ ,,,,,PB0093,Dilution Media Broth,400,Ltr.,UQC_klr,2019-04-29 17:34:53
+ ,,,,,PB0094,Parafin Liquid,5,Ltr.,UQC_klr,2019-04-29 17:34:53
+ ,,,,,PB0095,Tape Roll PBRI Printed,5,Pcs.,UQC_pcs,2019-04-29 17:34:53
+ ,,,,,PB0096,Tape Cello,3,Pcs.,UQC_pcs,2019-04-29 17:34:53
+Patanjali PSB 250ml (2018),PB0010,Patanjali PSB 0.25 LTR,100, BOX,PB0053,Empty Bottle 0.25 Liter,4000,Pcs.,UQC_pcs,2019-04-29 17:34:53
+ ,,,,,PB0058,Empty CV Box 0.250 Liter,100,Pcs.,UQC_pcs,2019-04-29 17:34:53
+ ,,,,,PB0061,"Index for 1.00,0.500,0.250 Liter",4000,Pcs.,UQC_pcs,2019-04-29 17:34:53
+ ,,,,,PB0072,Label for Patanjali PSB .25 Ltr,4000,Pcs.,UQC_pcs,2019-04-29 17:34:53
+ ,,,,,PB0092,PSB Culture broth,600,Ltr.,UQC_klr,2019-04-29 17:34:53
+ ,,,,,PB0093,Dilution Media Broth,400,Ltr.,UQC_klr,2019-04-29 17:34:53
+ ,,,,,PB0094,Parafin Liquid,10,Ltr.,UQC_klr,2019-04-29 17:34:53
+ ,,,,,PB0095,Tape Roll PBRI Printed,4.2,Pcs.,UQC_pcs,2019-04-29 17:34:53
+ ,,,,,PB0096,Tape Cello,2.2,Pcs.,UQC_pcs,2019-04-29 17:34:53
+AZT/1708/01,PB0011,Patanjali Azoto 1 LTR,84, BOX,PB0050,Empty Bottle 1 Liter,1008,Pcs.,UQC_pcs,2019-04-29 17:34:53
+ ,,,,,PB0055,Empty CV Box 1 Liter,84,Pcs.,UQC_pcs,2019-04-29 17:34:53
+ ,,,,,PB0061,"Index for 1.00,0.500,0.250 Liter",1008,Pcs.,UQC_pcs,2019-04-29 17:34:53
+ ,,,,,PB0073,Label for Patanjali Azoto 1 Ltr,1008,Pcs.,UQC_pcs,2019-04-29 17:34:53
+ ,,,,,PB0093,Dilution Media Broth,403.2,Ltr.,UQC_klr,2019-04-29 17:34:53
+ ,,,,,PB0094,Parafin Liquid,5.04,Ltr.,UQC_klr,2019-04-29 17:34:53
+ ,,,,,PB0095,Tape Roll PBRI Printed,4,Pcs.,UQC_pcs,2019-04-29 17:34:53
+ ,,,,,PB0096,Tape Cello,2,Pcs.,UQC_pcs,2019-04-29 17:34:53
+ ,,,,,PB0097,Azoto Culture Broth,604.8,Ltr.,UQC_klr,2019-04-29 17:34:53
+AZT 500 ml,PB0012,Patanjali Azoto 0.5 LTR,100, BOX,PB0052,Empty Bottle 0.5 Liter,1000,Pcs.,UQC_pcs,2019-04-29 17:34:53
+ ,,,,,PB0057,Empty CV Box 0.5 Liter,100,Pcs.,UQC_pcs,2019-04-29 17:34:53
+ ,,,,,PB0061,"Index for 1.00,0.500,0.250 Liter",1000,Pcs.,UQC_pcs,2019-04-29 17:34:53
+ ,,,,,PB0074,Label for Patanjali Azoto  0.5 Ltr,1000,Pcs.,UQC_pcs,2019-04-29 17:34:53
+ ,,,,,PB0093,Dilution Media Broth,400,Ltr.,UQC_klr,2019-04-29 17:34:53
+ ,,,,,PB0094,Parafin Liquid,5,Ltr.,UQC_klr,2019-04-29 17:34:53
+ ,,,,,PB0095,Tape Roll PBRI Printed,5,Pcs.,UQC_pcs,2019-04-29 17:34:53
+ ,,,,,PB0096,Tape Cello,3,Pcs.,UQC_pcs,2019-04-29 17:34:53
+ ,,,,,PB0097,Azoto Culture Broth,600,Ltr.,UQC_klr,2019-04-29 17:34:53
+Patanjali Azoto 250ml (2018),PB0013,Patanjali Azoto 0.25 LTR,100, BOX,PB0053,Empty Bottle 0.25 Liter,4000,Pcs.,UQC_pcs,2019-04-29 17:34:53
+ ,,,,,PB0058,Empty CV Box 0.250 Liter,100,Pcs.,UQC_pcs,2019-04-29 17:34:53
+ ,,,,,PB0061,"Index for 1.00,0.500,0.250 Liter",4000,Pcs.,UQC_pcs,2019-04-29 17:34:53
+ ,,,,,PB0075,Label for Patanjali Azoto 0.25 Ltr,4000,Pcs.,UQC_pcs,2019-04-29 17:34:53
+ ,,,,,PB0093,Dilution Media Broth,400,Ltr.,UQC_klr,2019-04-29 17:34:53
+ ,,,,,PB0094,Parafin Liquid,10,Ltr.,UQC_klr,2019-04-29 17:34:53
+ ,,,,,PB0095,Tape Roll PBRI Printed,4.2,Pcs.,UQC_pcs,2019-04-29 17:34:53
+ ,,,,,PB0096,Tape Cello,2.2,Pcs.,UQC_pcs,2019-04-29 17:34:53
+ ,,,,,PB0097,Azoto Culture Broth,600,Ltr.,UQC_klr,2019-04-29 17:34:53
+RHZ/1708/01,PB0014,Patanjali Rhizo 1 LTR,84, BOX,PB0050,Empty Bottle 1 Liter,1008,Pcs.,UQC_pcs,2019-04-29 17:34:53
+ ,,,,,PB0055,Empty CV Box 1 Liter,84,Pcs.,UQC_pcs,2019-04-29 17:34:53
+ ,,,,,PB0061,"Index for 1.00,0.500,0.250 Liter",1008,Pcs.,UQC_pcs,2019-04-29 17:34:53
+ ,,,,,PB0076,Label for Patanjali Rhizobium 1  Ltr,1008,Pcs.,UQC_pcs,2019-04-29 17:34:53
+ ,,,,,PB0093,Dilution Media Broth,403.2,Ltr.,UQC_klr,2019-04-29 17:34:53
+ ,,,,,PB0094,Parafin Liquid,5.04,Ltr.,UQC_klr,2019-04-29 17:34:53
+ ,,,,,PB0095,Tape Roll PBRI Printed,4,Pcs.,UQC_pcs,2019-04-29 17:34:53
+ ,,,,,PB0096,Tape Cello,2,Pcs.,UQC_pcs,2019-04-29 17:34:53
+ ,,,,,PB0098,Rhizobium Culture Broth,604.8,Ltr.,UQC_klr,2019-04-29 17:34:53
+RHZ 500 ml,PB0015,Patanjali Rhizo 0.5 LTR,100, BOX,PB0052,Empty Bottle 0.5 Liter,1000,Pcs.,UQC_pcs,2019-04-29 17:34:53
+ ,,,,,PB0057,Empty CV Box 0.5 Liter,100,Pcs.,UQC_pcs,2019-04-29 17:34:53
+ ,,,,,PB0061,"Index for 1.00,0.500,0.250 Liter",1000,Pcs.,UQC_pcs,2019-04-29 17:34:53
+ ,,,,,PB0077,Label for Patanjali Rhizobium  0.5 Ltr,1000,Pcs.,UQC_pcs,2019-04-29 17:34:53
+ ,,,,,PB0093,Dilution Media Broth,400,Ltr.,UQC_klr,2019-04-29 17:34:53
+ ,,,,,PB0094,Parafin Liquid,5,Ltr.,UQC_klr,2019-04-29 17:34:53
+ ,,,,,PB0095,Tape Roll PBRI Printed,5,Pcs.,UQC_pcs,2019-04-29 17:34:53
+ ,,,,,PB0096,Tape Cello,3,Pcs.,UQC_pcs,2019-04-29 17:34:53
+ ,,,,,PB0098,Rhizobium Culture Broth,600,Ltr.,UQC_klr,2019-04-29 17:34:53
+Patanjali Rhizo 250ml (2018),PB0016,Patanjali Rhizo 0.25 LTR,100, BOX,PB0053,Empty Bottle 0.25 Liter,4000,Pcs.,UQC_pcs,2019-04-29 17:34:53
+ ,,,,,PB0058,Empty CV Box 0.250 Liter,100,Pcs.,UQC_pcs,2019-04-29 17:34:53
+ ,,,,,PB0061,"Index for 1.00,0.500,0.250 Liter",4000,Pcs.,UQC_pcs,2019-04-29 17:34:53
+ ,,,,,PB0078,Label for Patanjali Rhizobium 0.25 Ltr,4000,Pcs.,UQC_pcs,2019-04-29 17:34:53
+ ,,,,,PB0093,Dilution Media Broth,400,Ltr.,UQC_klr,2019-04-29 17:34:53
+ ,,,,,PB0094,Parafin Liquid,10,Ltr.,UQC_klr,2019-04-29 17:34:53
+ ,,,,,PB0095,Tape Roll PBRI Printed,4.2,Pcs.,UQC_pcs,2019-04-29 17:34:53
+ ,,,,,PB0096,Tape Cello,2.2,Pcs.,UQC_pcs,2019-04-29 17:34:53
+ ,,,,,PB0098,Rhizobium Culture Broth,600,Ltr.,UQC_klr,2019-04-29 17:34:53
+Bio Potash 1 LTR,PB0017,Patanjali Bio Potash 1 LTR,84, BOX,PB0050,Empty Bottle 1 Liter,1008,Pcs.,UQC_pcs,2019-04-29 17:34:53
+ ,,,,,PB0055,Empty CV Box 1 Liter,84,Pcs.,UQC_pcs,2019-04-29 17:34:53
+ ,,,,,PB0061,"Index for 1.00,0.500,0.250 Liter",1008,Pcs.,UQC_pcs,2019-04-29 17:34:53
+ ,,,,,PB0067,Label for Patanjali Bio Potash  1 Ltr,1008,Pcs.,UQC_pcs,2019-04-29 17:34:53
+ ,,,,,PB0093,Dilution Media Broth,403.2,Ltr.,UQC_klr,2019-04-29 17:34:53
+ ,,,,,PB0094,Parafin Liquid,5.04,Ltr.,UQC_klr,2019-04-29 17:34:53
+ ,,,,,PB0095,Tape Roll PBRI Printed,5,Pcs.,UQC_pcs,2019-04-29 17:34:53
+ ,,,,,PB0096,Tape Cello,3,Pcs.,UQC_pcs,2019-04-29 17:34:53
+ ,,,,,PB0106,KMB Culture Broth,604.8,Ltr.,UQC_klr,2019-04-29 17:34:53
+Bio Potash 1 LTR,PB0017,Patanjali Bio Potash 1 LTR,84, BOX,PB0050,Empty Bottle 1 Liter,1008,Pcs.,UQC_pcs,2019-04-29 17:34:53
+ ,,,,,PB0055,Empty CV Box 1 Liter,84,Pcs.,UQC_pcs,2019-04-29 17:34:53
+ ,,,,,PB0061,"Index for 1.00,0.500,0.250 Liter",1008,Pcs.,UQC_pcs,2019-04-29 17:34:53
+ ,,,,,PB0067,Label for Patanjali Bio Potash  1 Ltr,1008,Pcs.,UQC_pcs,2019-04-29 17:34:53
+ ,,,,,PB0093,Dilution Media Broth,403.2,Ltr.,UQC_klr,2019-04-29 17:34:53
+ ,,,,,PB0094,Parafin Liquid,5.04,Ltr.,UQC_klr,2019-04-29 17:34:53
+ ,,,,,PB0095,Tape Roll PBRI Printed,5,Pcs.,UQC_pcs,2019-04-29 17:34:53
+ ,,,,,PB0096,Tape Cello,3,Pcs.,UQC_pcs,2019-04-29 17:34:53
+ ,,,,,PB0106,KMB Culture Broth,604.8,Ltr.,UQC_klr,2019-04-29 17:34:53
+Tricho 01 Kg,PB0019,Patanjali Tricho 1 Kg,107, BOX,PB0043,Talcum Powder,1284,Kgs.,UQC_kgs,2019-04-29 17:34:53
+ ,,,,,PB0060,Empty CV Box 1 Kg,107,Pcs.,UQC_pcs,2019-04-29 17:34:53
+ ,,,,,PB0079,Mono Carton for Patanjali Trico 1 kg,1284,Pcs.,UQC_pcs,2019-04-29 17:34:53
+ ,,,,,PB0095,Tape Roll PBRI Printed,5,Pcs.,UQC_pcs,2019-04-29 17:34:53
+ ,,,,,PB0096,Tape Cello,3,Pcs.,UQC_pcs,2019-04-29 17:34:53
+ ,,,,,PB0102,CARBOXY METHYL CELLULOSE (CMC),12.84,Kgs.,UQC_kgs,2019-04-29 17:34:53
+ ,,,,,PB0109,Premix Nutrient Liquid CHT,6.42,Ltr.,UQC_klr,2019-04-29 17:34:53
+ ,,,,,PB0112,Trichoderma Culture Broth,64,Ltr.,UQC_klr,2019-04-29 17:34:53
+ ,,,,,PB0113,Trichoderma Culture Powder,24,Pcs.,UQC_pcs,2019-04-29 17:34:53
+Tricho 01 Kg (2018),PB0019,Patanjali Tricho 1 Kg,84, BOX,PB0043,Talcum Powder,1008,Kgs.,UQC_kgs,2019-04-29 17:34:53
+ ,,,,,PB0060,Empty CV Box 1 Kg,84,Pcs.,UQC_pcs,2019-04-29 17:34:53
+ ,,,,,PB0079,Mono Carton for Patanjali Trico 1 kg,1008,Pcs.,UQC_pcs,2019-04-29 17:34:53
+ ,,,,,PB0083,Poly bag for bio Pesticide 1 kg,6,Kgs.,UQC_kgs,2019-04-29 17:34:53
+ ,,,,,PB0095,Tape Roll PBRI Printed,3.96,Pcs.,UQC_pcs,2019-04-29 17:34:53
+ ,,,,,PB0096,Tape Cello,2.36,Pcs.,UQC_pcs,2019-04-29 17:34:53
+ ,,,,,PB0102,CARBOXY METHYL CELLULOSE (CMC),10.08,Kgs.,UQC_kgs,2019-04-29 17:34:53
+ ,,,,,PB0112,Trichoderma Culture Broth,50.24,Ltr.,UQC_klr,2019-04-29 17:34:53
+ ,,,,,PB0113,Trichoderma Culture Powder,18.84,Pcs.,UQC_pcs,2019-04-29 17:34:53
+Suraksha Tricho 01 Kg,PB0020,Patanjali Suraksha 1 Kg,107, BOX,PB0043,Talcum Powder,1284,Kgs.,UQC_kgs,2019-04-29 17:34:53
+ ,,,,,PB0060,Empty CV Box 1 Kg,107,Pcs.,UQC_pcs,2019-04-29 17:34:53
+ ,,,,,PB0080,Mono Carton for Patanjali Suraksha  1 kg,1284,Pcs.,UQC_pcs,2019-04-29 17:34:53
+ ,,,,,PB0095,Tape Roll PBRI Printed,5,Pcs.,UQC_pcs,2019-04-29 17:34:53
+ ,,,,,PB0096,Tape Cello,3,Pcs.,UQC_pcs,2019-04-29 17:34:53
+ ,,,,,PB0102,CARBOXY METHYL CELLULOSE (CMC),12.84,Kgs.,UQC_kgs,2019-04-29 17:34:53
+ ,,,,,PB0109,Premix Nutrient Liquid CHT,6.42,Ltr.,UQC_klr,2019-04-29 17:34:53
+ ,,,,,PB0112,Trichoderma Culture Broth,64,Ltr.,UQC_klr,2019-04-29 17:34:53
+ ,,,,,PB0113,Trichoderma Culture Powder,24,Pcs.,UQC_pcs,2019-04-29 17:34:53
+Fluorescens 01 Kg,PB0021,Patanjali Fluorescens 1 Kg,107, BOX,PB0043,Talcum Powder,1284,Kgs.,UQC_kgs,2019-04-29 17:34:53
+ ,,,,,PB0060,Empty CV Box 1 Kg,107,Pcs.,UQC_pcs,2019-04-29 17:34:53
+ ,,,,,PB0081,Mono Carton for Patanjali Fluoresce 1 kg,1284,Pcs.,UQC_pcs,2019-04-29 17:34:53
+ ,,,,,PB0083,Poly bag for bio Pesticide 1 kg,2.5,Kgs.,UQC_kgs,2019-04-29 17:34:53
+ ,,,,,PB0095,Tape Roll PBRI Printed,5,Pcs.,UQC_pcs,2019-04-29 17:34:53
+ ,,,,,PB0096,Tape Cello,3,Pcs.,UQC_pcs,2019-04-29 17:34:53
+ ,,,,,PB0102,CARBOXY METHYL CELLULOSE (CMC),12.84,Kgs.,UQC_kgs,2019-04-29 17:34:53
+ ,,,,,PB0107,Pseudo Culture Broth,128.4,Ltr.,UQC_klr,2019-04-29 17:34:53
+ ,,,,,PB0109,Premix Nutrient Liquid CHT,6.42,Ltr.,UQC_klr,2019-04-29 17:34:53
+Nemakill 01 Kg,PB0022,Patanjali Nemakill 1 Kg,107, BOX,PB0043,Talcum Powder,1284,Kgs.,UQC_kgs,2019-04-29 17:34:53
+ ,,,,,PB0060,Empty CV Box 1 Kg,107,Pcs.,UQC_pcs,2019-04-29 17:34:53
+ ,,,,,PB0082,Mono Carton for Patanjali Nemakil 1 kg,1284,Pcs.,UQC_pcs,2019-04-29 17:34:53
+ ,,,,,PB0095,Tape Roll PBRI Printed,5,Pcs.,UQC_pcs,2019-04-29 17:34:53
+ ,,,,,PB0096,Tape Cello,3,Pcs.,UQC_pcs,2019-04-29 17:34:53
+ ,,,,,PB0102,CARBOXY METHYL CELLULOSE (CMC),12.84,Kgs.,UQC_kgs,2019-04-29 17:34:53
+ ,,,,,PB0109,Premix Nutrient Liquid CHT,6.42,Ltr.,UQC_klr,2019-04-29 17:34:53
+ ,,,,,PB0110,Verticillium Culture Broth,64,Ltr.,UQC_klr,2019-04-29 17:34:53
+ ,,,,,PB0111,Verticillium Culture Powder,24,Pcs.,UQC_pcs,2019-04-29 17:34:53
+Premix Powder Mixer,PB0085,Premix Nutrient Powder,30,Kgs.,PB0033,Ferrous Sulphate 19%,3,Kgs.,UQC_kgs,2019-04-29 17:34:53
+ ,,,,,PB0034,Manganese Sulphate 30.50%,1,Kgs.,UQC_kgs,2019-04-29 17:34:53
+ ,,,,,PB0035,Maganisium Sulphate 9.60%,2.5,Kgs.,UQC_kgs,2019-04-29 17:34:53
+ ,,,,,PB0036,Zinc Sulphate 33%,8,Kgs.,UQC_kgs,2019-04-29 17:34:53
+ ,,,,,PB0037,Borax Penta 15%,0.8,Kgs.,UQC_kgs,2019-04-29 17:34:53
+ ,,,,,PB0038,Copper Sulphate,0.1,Kgs.,UQC_kgs,2019-04-29 17:34:53
+ ,,,,,PB0039,Fulvic Powder,0.3,Kgs.,UQC_kgs,2019-04-29 17:34:53
+ ,,,,,PB0040,Super Pottasium Humate,3,Kgs.,UQC_kgs,2019-04-29 17:34:53
+ ,,,,,PB0041,Sea Weed Powder,1,Kgs.,UQC_kgs,2019-04-29 17:34:53
+ ,,,,,PB0042,Sulphur Powder 90%,2,Kgs.,UQC_kgs,2019-04-29 17:34:53
+ ,,,,,PB0086,Food Park Compost,8.3,Kgs.,UQC_kgs,2019-04-29 17:34:53
+Premix Powder Mixer Modified 01,PB0085,Premix Nutrient Powder,25,Kgs.,PB0033,Ferrous Sulphate 19%,3,Kgs.,UQC_kgs,2019-04-29 17:34:53
+ ,,,,,PB0034,Manganese Sulphate 30.50%,1,Kgs.,UQC_kgs,2019-04-29 17:34:53
+ ,,,,,PB0035,Maganisium Sulphate 9.60%,2.5,Kgs.,UQC_kgs,2019-04-29 17:34:53
+ ,,,,,PB0036,Zinc Sulphate 33%,4,Kgs.,UQC_kgs,2019-04-29 17:34:53
+ ,,,,,PB0037,Borax Penta 15%,0,Kgs.,UQC_kgs,2019-04-29 17:34:53
+ ,,,,,PB0038,Copper Sulphate,0.1,Kgs.,UQC_kgs,2019-04-29 17:34:53
+ ,,,,,PB0039,Fulvic Powder,0.3,Kgs.,UQC_kgs,2019-04-29 17:34:53
+ ,,,,,PB0040,Super Pottasium Humate,3,Kgs.,UQC_kgs,2019-04-29 17:34:53
+ ,,,,,PB0041,Sea Weed Powder,1,Kgs.,UQC_kgs,2019-04-29 17:34:53
+ ,,,,,PB0042,Sulphur Powder 90%,2,Kgs.,UQC_kgs,2019-04-29 17:34:53
+ ,,,,,PB0086,Food Park Compost,8.3,Kgs.,UQC_kgs,2019-04-29 17:34:53
+Compost Converter,PB0086,Food Park Compost,1000,Kgs.,PB0207,"City Compost, Organic Manure",100,Kgs.,UQC_kgs,2019-04-29 17:34:53
+PSB Culture Broth,PB0092,PSB Culture broth,1000,Ltr.,PB0130,Water,983.68,Ltr.,UQC_klr,2019-04-29 17:34:53
+ ,,,,,PB0132,Sodium Cloride (Nacl),0.2,Kgs.,UQC_kgs,2019-04-29 17:34:53
+ ,,,,,PB0134,Yeast Extract Powder-R,1,Kgs.,UQC_kgs,2019-04-29 17:34:53
+ ,,,,,PB0135,Dextrose (Mono),10,Kgs.,UQC_kgs,2019-04-29 17:34:53
+ ,,,,,PB0136,Tri-Calcium Phosphate,5,Kgs.,UQC_kgs,2019-04-29 17:34:53
+ ,,,,,PB0138,Ammonium Sulfate,0.5,Kgs.,UQC_kgs,2019-04-29 17:34:53
+ ,,,,,PB0170,Ferrous Sulphate LR,0.01,Kgs.,UQC_kgs,2019-04-29 17:34:53
+ ,,,,,PB0175,Manganese Sulphate LR,0.01,Gms.,UQC_gms,2019-04-29 17:34:53
+ ,,,,,PB0176,Maganisium Sulphate LR,0.1,Kgs.,UQC_kgs,2019-04-29 17:34:53
+Dilution Broth,PB0093,Dilution Media Broth,1000,Ltr.,PB0102,CARBOXY METHYL CELLULOSE (CMC),1,Kgs.,UQC_kgs,2019-04-29 17:34:53
+ ,,,,,PB0126,Poly Vinyl Pyrrolidone (PVP),5,Kgs.,UQC_kgs,2019-04-29 17:34:53
+ ,,,,,PB0127,Gum Acacia Powder,1,Kgs.,UQC_kgs,2019-04-29 17:34:53
+ ,,,,,PB0128,Sodium Lauryl Sulfate (SLS),1,Kgs.,UQC_kgs,2019-04-29 17:34:53
+ ,,,,,PB0129,Glycerol,2.5,Ltr.,UQC_klr,2019-04-29 17:34:53
+ ,,,,,PB0130,Water,989.5,Ltr.,UQC_klr,2019-04-29 17:34:53
+Azotobactor Culture Broth,PB0097,Azoto Culture Broth,1000,Ltr.,PB0130,Water,975.9,Ltr.,UQC_klr,2019-04-29 17:34:53
+ ,,,,,PB0132,Sodium Cloride (Nacl),0.5,Kgs.,UQC_kgs,2019-04-29 17:34:53
+ ,,,,,PB0133,Di-Potassium Hydrogen Ortho-Phosphate,1,Kgs.,UQC_kgs,2019-04-29 17:34:53
+ ,,,,,PB0153,Sucrose,20,Kgs.,UQC_kgs,2019-04-29 17:34:53
+ ,,,,,PB0170,Ferrous Sulphate LR,0.1,Kgs.,UQC_kgs,2019-04-29 17:34:53
+ ,,,,,PB0176,Maganisium Sulphate LR,0.5,Kgs.,UQC_kgs,2019-04-29 17:34:53
+ ,,,,,PB0177,Calcium Carbonate LR,2,Kgs.,UQC_kgs,2019-04-29 17:34:53
+Rhizobium  Culture Broth,PB0098,Rhizobium Culture Broth,1000,Ltr.,PB0130,Water,987.7,Ltr.,UQC_klr,2019-04-29 17:34:53
+ ,,,,,PB0131,D-Manitol,10,Kgs.,UQC_kgs,2019-04-29 17:34:53
+ ,,,,,PB0132,Sodium Cloride (Nacl),0.1,Kgs.,UQC_kgs,2019-04-29 17:34:53
+ ,,,,,PB0133,Di-Potassium Hydrogen Ortho-Phosphate,0.5,Kgs.,UQC_kgs,2019-04-29 17:34:53
+ ,,,,,PB0134,Yeast Extract Powder-R,1.5,Kgs.,UQC_kgs,2019-04-29 17:34:53
+ ,,,,,PB0176,Maganisium Sulphate LR,0.2,Kgs.,UQC_kgs,2019-04-29 17:34:53
+Bio NPK 1 LTR,PB0104,Patanjali Bio NPK 1 LTR,84, BOX,PB0050,Empty Bottle 1 Liter,1008,Pcs.,UQC_pcs,2019-04-29 17:34:53
+ ,,,,,PB0055,Empty CV Box 1 Liter,84,Pcs.,UQC_pcs,2019-04-29 17:34:53
+ ,,,,,PB0061,"Index for 1.00,0.500,0.250 Liter",1008,Pcs.,UQC_pcs,2019-04-29 17:34:53
+ ,,,,,PB0092,PSB Culture broth,100,Ltr.,UQC_klr,2019-04-29 17:34:53
+ ,,,,,PB0093,Dilution Media Broth,500,Ltr.,UQC_klr,2019-04-29 17:34:53
+ ,,,,,PB0094,Parafin Liquid,5.04,Ltr.,UQC_klr,2019-04-29 17:34:53
+ ,,,,,PB0095,Tape Roll PBRI Printed,5,Pcs.,UQC_pcs,2019-04-29 17:34:53
+ ,,,,,PB0096,Tape Cello,3,Pcs.,UQC_pcs,2019-04-29 17:34:53
+ ,,,,,PB0097,Azoto Culture Broth,200,Ltr.,UQC_klr,2019-04-29 17:34:53
+ ,,,,,PB0106,KMB Culture Broth,100,Ltr.,UQC_klr,2019-04-29 17:34:53
+ ,,,,,PB0107,Pseudo Culture Broth,100,Ltr.,UQC_klr,2019-04-29 17:34:53
+ ,,,,,PB0108,Label for Patanjali Bio NPK 1 Ltr,1008,Pcs.,UQC_pcs,2019-04-29 17:34:53
+ ,,,,,PB0109,Premix Nutrient Liquid CHT,10,Ltr.,UQC_klr,2019-04-29 17:34:53
+KMB Culture Broth,PB0106,KMB Culture Broth,1000,Ltr.,PB0130,Water,972,Ltr.,UQC_klr,2019-04-29 17:34:53
+ ,,,,,PB0134,Yeast Extract Powder-R,3,Kgs.,UQC_kgs,2019-04-29 17:34:53
+ ,,,,,PB0135,Dextrose (Mono),20,Kgs.,UQC_kgs,2019-04-29 17:34:53
+ ,,,,,PB0177,Calcium Carbonate LR,5,Kgs.,UQC_kgs,2019-04-29 17:34:53
+Pseudomonas Culture Broth,PB0107,Pseudo Culture Broth,1000,Ltr.,PB0130,Water,987,Ltr.,UQC_klr,2019-04-29 17:34:53
+ ,,,,,PB0132,Sodium Cloride (Nacl),5,Kgs.,UQC_kgs,2019-04-29 17:34:53
+ ,,,,,PB0139,Pepton R,5,Kgs.,UQC_kgs,2019-04-29 17:34:53
+ ,,,,,PB0140,Veg-Be-extract Powder,3,Kgs.,UQC_kgs,2019-04-29 17:34:53
+Verticillium Culture Broth,PB0110,Verticillium Culture Broth,100,Ltr.,PB0093,Dilution Media Broth,100,Ltr.,UQC_klr,2019-04-29 17:34:53
+Tricho Culture Broth (2018),PB0112,Trichoderma Culture Broth,1000,Ltr.,PB0130,Water,983.5,Ltr.,UQC_klr,2019-04-29 17:34:53
+ ,,,,,PB0133,Di-Potassium Hydrogen Ortho-Phosphate,1,Kgs.,UQC_kgs,2019-04-29 17:34:53
+ ,,,,,PB0135,Dextrose (Mono),10,Kgs.,UQC_kgs,2019-04-29 17:34:53
+ ,,,,,PB0139,Pepton R,5,Kgs.,UQC_kgs,2019-04-29 17:34:53
+ ,,,,,PB0176,Maganisium Sulphate LR,0.5,Kgs.,UQC_kgs,2019-04-29 17:34:53
+Trico Culture Broth,PB0112,Trichoderma Culture Broth,100,Ltr.,PB0093,Dilution Media Broth,100,Ltr.,UQC_klr,2019-04-29 17:34:53
+Rose Bengal Culture Broth,PB0141,Rose Bengal Culture Broth,1000,Ltr.,PB0130,Water,983.5,Ltr.,UQC_klr,2019-04-29 17:34:53
+ ,,,,,PB0133,Di-Potassium Hydrogen Ortho-Phosphate,1,Kgs.,UQC_kgs,2019-04-29 17:34:53
+ ,,,,,PB0135,Dextrose (Mono),10,Kgs.,UQC_kgs,2019-04-29 17:34:53
+ ,,,,,PB0139,Pepton R,5,Kgs.,UQC_kgs,2019-04-29 17:34:53
+ ,,,,,PB0176,Maganisium Sulphate LR,0.5,Kgs.,UQC_kgs,2019-04-29 17:34:53
+Azospirillum Culture Broth,PB0142,Azospirillum Culture Broth,1000,Ltr.,PB0045,Potassium Hydroxide,4,Kgs.,UQC_kgs,2019-04-29 17:34:53
+ ,,,,,PB0130,Water,990.31,Ltr.,UQC_klr,2019-04-29 17:34:53
+ ,,,,,PB0132,Sodium Cloride (Nacl),0.02,Kgs.,UQC_kgs,2019-04-29 17:34:53
+ ,,,,,PB0133,Di-Potassium Hydrogen Ortho-Phosphate,0.5,Kgs.,UQC_kgs,2019-04-29 17:34:53
+ ,,,,,PB0143,D-Malic Acid,5,Kgs.,UQC_kgs,2019-04-29 17:34:53
+ ,,,,,PB0144,Calcium Cloride,0.01,Kgs.,UQC_kgs,2019-04-29 17:34:53
+ ,,,,,PB0145,Sodium Molybdate,0,Kgs.,UQC_kgs,2019-04-29 17:34:53
+ ,,,,,PB0170,Ferrous Sulphate LR,0.05,Kgs.,UQC_kgs,2019-04-29 17:34:53
+ ,,,,,PB0175,Manganese Sulphate LR,0.01,Gms.,UQC_gms,2019-04-29 17:34:53
+ ,,,,,PB0176,Maganisium Sulphate LR,0.1,Kgs.,UQC_kgs,2019-04-29 17:34:53
+Bio Culture Broth,PB0427,Bio Culture,1000,Ltr.,PB0092,PSB Culture broth,100,Ltr.,UQC_klr,2019-04-29 17:34:53
+ ,,,,,PB0097,Azoto Culture Broth,100,Ltr.,UQC_klr,2019-04-29 17:34:53
+ ,,,,,PB0106,KMB Culture Broth,100,Ltr.,UQC_klr,2019-04-29 17:34:53
+ ,,,,,PB0107,Pseudo Culture Broth,100,Ltr.,UQC_klr,2019-04-29 17:34:53
+ ,,,,,PB0110,Verticillium Culture Broth,100,Ltr.,UQC_klr,2019-04-29 17:34:53
+ ,,,,,PB0112,Trichoderma Culture Broth,100,Ltr.,UQC_klr,2019-04-29 17:34:53
+ ,,,,,PB0523,ZSB Culture broth,100,Ltr.,UQC_klr,2019-04-29 17:34:53
+ ,,,,,PB0534,Metarhizium Culture Broth,100,Ltr.,UQC_klr,2019-04-29 17:34:53
+ ,,,,,PB0535,Beauveria Culture Broth,100,Ltr.,UQC_klr,2019-04-29 17:34:53
+Tricho 500 gm (2018),PB0492,Patanjali Tricho 500 Gm,2000,Pcs.,PB0043,Talcum Powder,1000,Kgs.,UQC_kgs,2019-04-29 17:34:53
+ ,,,,,PB0060,Empty CV Box 1 Kg,100,Pcs.,UQC_pcs,2019-04-29 17:34:53
+ ,,,,,PB0079,Mono Carton for Patanjali Trico 1 kg,1000,Pcs.,UQC_pcs,2019-04-29 17:34:53
+ ,,,,,PB0083,Poly bag for bio Pesticide 1 kg,6,Kgs.,UQC_kgs,2019-04-29 17:34:53
+ ,,,,,PB0095,Tape Roll PBRI Printed,3.96,Pcs.,UQC_pcs,2019-04-29 17:34:53
+ ,,,,,PB0096,Tape Cello,2.36,Pcs.,UQC_pcs,2019-04-29 17:34:53
+ ,,,,,PB0102,CARBOXY METHYL CELLULOSE (CMC),10,Kgs.,UQC_kgs,2019-04-29 17:34:53
+ ,,,,,PB0112,Trichoderma Culture Broth,50,Ltr.,UQC_klr,2019-04-29 17:34:53
+ ,,,,,PB0113,Trichoderma Culture Powder,18,Pcs.,UQC_pcs,2019-04-29 17:34:53
+Fluorescens 500 gm 2018,PB0493,Patanjali Fluorescens 500 Gm,2000,Pcs.,PB0043,Talcum Powder,1000,Kgs.,UQC_kgs,2019-04-29 17:34:53
+ ,,,,,PB0060,Empty CV Box 1 Kg,100,Pcs.,UQC_pcs,2019-04-29 17:34:53
+ ,,,,,PB0081,Mono Carton for Patanjali Fluoresce 1 kg,1000,Pcs.,UQC_pcs,2019-04-29 17:34:53
+ ,,,,,PB0083,Poly bag for bio Pesticide 1 kg,2.5,Kgs.,UQC_kgs,2019-04-29 17:34:53
+ ,,,,,PB0095,Tape Roll PBRI Printed,5,Pcs.,UQC_pcs,2019-04-29 17:34:53
+ ,,,,,PB0096,Tape Cello,3,Pcs.,UQC_pcs,2019-04-29 17:34:53
+ ,,,,,PB0102,CARBOXY METHYL CELLULOSE (CMC),10,Kgs.,UQC_kgs,2019-04-29 17:34:53
+ ,,,,,PB0107,Pseudo Culture Broth,100,Ltr.,UQC_klr,2019-04-29 17:34:53
+Patanjali ZSB 1 Ltr,PB0522,Patanjali ZSB 1 LTR,84, BOX,PB0050,Empty Bottle 1 Liter,1008,Pcs.,UQC_pcs,2019-04-29 17:34:53
+ ,,,,,PB0055,Empty CV Box 1 Liter,84,Pcs.,UQC_pcs,2019-04-29 17:34:53
+ ,,,,,PB0061,"Index for 1.00,0.500,0.250 Liter",1008,Pcs.,UQC_pcs,2019-04-29 17:34:53
+ ,,,,,PB0093,Dilution Media Broth,403.2,Ltr.,UQC_klr,2019-04-29 17:34:53
+ ,,,,,PB0094,Parafin Liquid,5.04,Ltr.,UQC_klr,2019-04-29 17:34:53
+ ,,,,,PB0095,Tape Roll PBRI Printed,4,Pcs.,UQC_pcs,2019-04-29 17:34:53
+ ,,,,,PB0096,Tape Cello,2,Pcs.,UQC_pcs,2019-04-29 17:34:53
+ ,,,,,PB0523,ZSB Culture broth,604.8,Ltr.,UQC_klr,2019-04-29 17:34:53
+ ,,,,,PB0524,Label for Patanjali ZSB 0.25 Ltr,1008,Pcs.,UQC_pcs,2019-04-29 17:34:53
+ZSB Culture Broth,PB0523,ZSB Culture broth,1000,Ltr.,PB0130,Water,987,Ltr.,UQC_klr,2019-04-29 17:34:53
+ ,,,,,PB0132,Sodium Cloride (Nacl),5,Kgs.,UQC_kgs,2019-04-29 17:34:53
+ ,,,,,PB0139,Pepton R,5,Kgs.,UQC_kgs,2019-04-29 17:34:53
+ ,,,,,PB0140,Veg-Be-extract Powder,3,Kgs.,UQC_kgs,2019-04-29 17:34:53
+Metarhizium Culture Broth,PB0534,Metarhizium Culture Broth,1000,Ltr.,PB0130,Water,983.5,Ltr.,UQC_klr,2019-04-29 17:34:53
+ ,,,,,PB0133,Di-Potassium Hydrogen Ortho-Phosphate,1,Kgs.,UQC_kgs,2019-04-29 17:34:53
+ ,,,,,PB0135,Dextrose (Mono),10,Kgs.,UQC_kgs,2019-04-29 17:34:53
+ ,,,,,PB0139,Pepton R,5,Kgs.,UQC_kgs,2019-04-29 17:34:53
+ ,,,,,PB0176,Maganisium Sulphate LR,0.5,Kgs.,UQC_kgs,2019-04-29 17:34:53
+Beauveria Culture Broth,PB0535,Beauveria Culture Broth,1000,Ltr.,PB0130,Water,983.5,Ltr.,UQC_klr,2019-04-29 17:34:53
+ ,,,,,PB0133,Di-Potassium Hydrogen Ortho-Phosphate,1,Kgs.,UQC_kgs,2019-04-29 17:34:53
+ ,,,,,PB0135,Dextrose (Mono),10,Kgs.,UQC_kgs,2019-04-29 17:34:53
+ ,,,,,PB0139,Pepton R,5,Kgs.,UQC_kgs,2019-04-29 17:34:53
+ ,,,,,PB0176,Maganisium Sulphate LR,0.5,Kgs.,UQC_kgs,2019-04-29 17:34:53
+NR1,PB0726,NR1,600,Pcs.,PB0096,Tape Cello,2,Pcs.,UQC_pcs,2019-04-29 17:34:53
+ ,,,,,PB0130,Water,85.5,Ltr.,UQC_klr,2019-04-29 17:34:53
+ ,,,,,PB0525,Potassium Chloride (KCL),13.41,Kgs.,UQC_kgs,2019-04-29 17:34:53
+ ,,,,,PB0681,Hdpe Round Bottle 200ml,600,Pcs.,UQC_pcs,2019-04-29 17:34:53
+NR2,PB0727,NR2,100,Pcs.,PB0096,Tape Cello,1,Pcs.,UQC_pcs,2019-04-29 17:34:53
+ ,,,,,PB0651,Nessler Reagant,2.5,Ltr.,UQC_klr,2019-04-29 17:34:53
+ ,,,,,PB0694,30 Ml Eye Drop Bottle Complete Set,100,Pcs.,UQC_pcs,2019-04-29 17:34:53
+PR1,PB0728,PR1,600,Pcs.,PB0130,Water,90,Ltr.,UQC_klr,2019-04-29 17:34:53
+ ,,,,,PB0215,HCl Commercial,0.18,Ltr.,UQC_klr,2019-04-29 17:34:53
+ ,,,,,PB0639,Ammonium Fluoride NH4F,100.8,Gms.,UQC_kgs,2019-04-29 17:34:53
+ ,,,,,PB0681,Hdpe Round Bottle 200ml,600,Pcs.,UQC_pcs,2019-04-29 17:34:53
+P2A,PB0729,P2A,1000,Pcs.,PB0130,Water,93.25,Ltr.,UQC_klr,2019-04-29 17:34:53
+ ,,,,,PB0640,Ammonium Molybdate,600,Gms.,UQC_kgs,2019-04-29 17:34:53
+ ,,,,,PB0641,Potassium An Mony Tartarate,14.8,Gms.,UQC_kgs,2019-04-29 17:34:53
+ ,,,,,PB0642,Sulphuric Acid,6.75,Ltr.,UQC_klr,2019-04-29 17:34:53
+ ,,,,,PB0681,Hdpe Round Bottle 200ml,1000,Pcs.,UQC_pcs,2019-04-29 17:34:53
+Sita Kit 25 Tests (for 100 Pcs),PB0730,Sita Kit (25 Set of Soil Test Kit),100,Pcs.,PB0685,Funnels Plastic 50 mm,500,Pcs.,UQC_pcs,2019-04-29 17:34:53
+ ,,,,,PB1027,PH Reagent for Soil Test Kit,2.5,Ltr.,UQC_klr,2019-04-29 17:34:53
+ ,,,,,PB0703,Bag for Soil Test Kit (with print),100,Pcs.,UQC_pcs,2019-04-29 17:34:53
+ ,,,,,PB1122,Mrida Pareekshan Report Book (PBRI),100,Pcs.,UQC_pcs,2019-04-29 17:34:53
+ ,,,,,PB0726,NR1,100,Pcs.,UQC_klr,2019-04-29 17:34:53
+ ,,,,,PB0727,NR2,100,Pcs.,UQC_klr,2019-04-29 17:34:53
+ ,,,,,PB0728,PR1,100,Pcs.,UQC_klr,2019-04-29 17:34:53
+ ,,,,,PB0729,P2A,100,Pcs.,UQC_klr,2019-04-29 17:34:53
+ ,,,,,PB0731,P2B,100,Pcs.,UQC_pcs,2019-04-29 17:34:53
+ ,,,,,PB0732,KR1,100,Pcs.,UQC_klr,2019-04-29 17:34:53
+ ,,,,,PB0733,KR3,100,Pcs.,UQC_pcs,2019-04-29 17:34:53
+ ,,,,,PB0690,Sieve,100,Pcs.,UQC_pcs,2019-04-29 17:34:53
+ ,,,,,PB0736,M Solution,100,Pcs.,UQC_pcs,2019-04-29 17:34:53
+ ,,,,,PB0155,PBRI Product Booklet/Brochure,100,Pcs.,UQC_pcs,2019-04-29 17:34:53
+ ,,,,,PB0684,Glove Latex Exramination,100,Pair,UQC_prs,2019-04-29 17:34:53
+ ,,,,,PB0734,Distill Water (Filled Bottle),25,Ltr.,UQC_klr,2019-04-29 17:34:53
+ ,,,,,PB0693,Test Tube Stand (12 Tube),100,Pcs.,UQC_pcs,2019-04-29 17:34:53
+ ,,,,,PB0701,Measuring Spatula 2 Gm,100,Pcs.,UQC_pcs,2019-04-29 17:34:53
+ ,,,,,PB0738,Pet Preform,500,Pcs.,UQC_kgs,2019-04-29 17:34:53
+ ,,,,,PB0682,Pet Bottle 25ml With Cap,300,Pcs.,UQC_pcs,2019-04-29 17:34:53
+ ,,,,,PB0689,Test Tube 7 Ml,800,Pcs.,UQC_pcs,2019-04-29 17:34:53
+ ,,,,,PB0687,Measuring Cylinder 25 Ml,100,Pcs.,UQC_pcs,2019-04-29 17:34:53
+ ,,,,,PB0695,Filter Paper 12.5 Cm Routine Quality,133, BOX,UQC_box,2019-04-29 17:34:53
+ ,,,,,PB0686,Dropper 3 Ml,200,Pcs.,UQC_pcs,2019-04-29 17:34:53
+ ,,,,,PB0735,O Solution,100,Pcs.,UQC_pcs,2019-04-29 17:34:53
+P2B,PB0731,P2B,100,Pcs.,PB0096,Tape Cello,0.25,Pcs.,UQC_pcs,2019-04-29 17:34:53
+ ,,,,,PB0643,Ascorbic Acid LR Grade,300,Gms.,UQC_kgs,2019-04-29 17:34:53
+ ,,,,,PB0683,Pet Balm Jar 10gm With Cap,100,Pcs.,UQC_pcs,2019-04-29 17:34:53
+KR1,PB0732,KR1,600,Pcs.,PB0096,Tape Cello,2,Pcs.,UQC_pcs,2019-04-29 17:34:53
+ ,,,,,PB0130,Water,85,Ltr.,UQC_klr,2019-04-29 17:34:53
+ ,,,,,PB0637,Ammonium Acetate,6.93,Kgs.,UQC_kgs,2019-04-29 17:34:53
+ ,,,,,PB0681,Hdpe Round Bottle 200ml,600,Pcs.,UQC_pcs,2019-04-29 17:34:53
+KR3,PB0733,KR3,100,Pcs.,PB0096,Tape Cello,0.25,Pcs.,UQC_pcs,2019-04-29 17:34:53
+ ,,,,,PB0638,Sodium Cobal Nitrite,300,Gms.,UQC_kgs,2019-04-29 17:34:53
+ ,,,,,PB0683,Pet Balm Jar 10gm With Cap,100,Pcs.,UQC_pcs,2019-04-29 17:34:53
+Distill Water Bottle,PB0734,Distill Water (Filled Bottle),100,Ltr.,PB0096,Tape Cello,2,Pcs.,UQC_pcs,2019-04-29 17:34:53
+ ,,,,,PB0130,Water,100,Ltr.,UQC_klr,2019-04-29 17:34:53
+ ,,,,,PB0680,Reagant Bottle 250ml (T.G) With Cap,400,Pcs.,UQC_pcs,2019-04-29 17:34:53
+O Solution,PB0735,O Solution,400,Pcs.,PB0130,Water,100,Ltr.,UQC_klr,2019-04-29 17:34:53
+ ,,,,,PB0652,Sodium Hydroxide NaOH,2,Kgs.,UQC_kgs,2019-04-29 17:34:53
+ ,,,,,PB0680,Reagant Bottle 250ml (T.G) With Cap,400,Pcs.,UQC_pcs,2019-04-29 17:34:53
+M Solution,PB0736,M Solution,400,Pcs.,PB0130,Water,100,Ltr.,UQC_klr,2019-04-29 17:34:53
+ ,,,,,PB0133,Di-Potassium Hydrogen Ortho-Phosphate,1,Kgs.,UQC_kgs,2019-04-29 17:34:53
+ ,,,,,PB0152,Tetrasodium Pyrophosphate,4500,Gms.,UQC_kgs,2019-04-29 17:34:53
+ ,,,,,PB0680,Reagant Bottle 250ml (T.G) With Cap,400,Pcs.,UQC_pcs,2019-04-29 17:34:53
+ ,,,,,PB0737,Ethylene Diamine Tetraacetic Acid (EDTA),3720,Gms.,UQC_gms,2019-04-29 17:34:53
+PANCHAGAVYA PREMIX,PB0879,Jaivik Premix Powder F2,1000,Kgs.,PB0518,Organic Manur & Bio Fertilizers,1000,Kgs.,UQC_kgs,2019-04-29 17:34:53
+Jaivik PROM 40 kg,PB0914,Patanjali Jaivik PROM 40 Kg,1000,Kgs.,PB0025,Rock Phosphate 30%,400,Kgs.,UQC_kgs,2019-04-29 17:34:53
+ ,,,,,PB0026,Bentonite Clay Powder,140,Kgs.,UQC_kgs,2019-04-29 17:34:53
+ ,,,,,PB0027,Gypsum Powder,50,Kgs.,UQC_kgs,2019-04-29 17:34:53
+ ,,,,,PB0028,Lignite Powder,30,Kgs.,UQC_kgs,2019-04-29 17:34:53
+ ,,,,,PB0085,Premix Nutrient Powder,30,Kgs.,UQC_kgs,2019-04-29 17:34:53
+ ,,,,,PB0086,Food Park Compost,350,Kgs.,UQC_kgs,2019-04-29 17:34:53
+ ,,,,,PB0088,Premix Nutrient Liquid,5,Ltr.,UQC_klr,2019-04-29 17:34:53
+ ,,,,,PB0101,"Thread Roll for PROM, JAIVIK & POSHAK",0.2,Pcs.,UQC_pcs,2019-04-29 17:34:53
+ ,,,,,PB0881,Empty Bag for Patanjali Jaivik PROM 40Kg,25,Pcs.,UQC_pcs,2019-04-29 17:34:53
+Reagent,PB1026,Reagent Indicator Powder Mixture,6,Gms.,PB0645,Thymol Blue,1.5,Gms.,UQC_gms,2019-04-29 17:34:53
+ ,,,,,PB0646,Methyl Red,1.5,Gms.,UQC_gms,2019-04-29 17:34:53
+ ,,,,,PB0647,Phenolpthalin Ind.,0.6,Ltr.,UQC_klr,2019-04-29 17:34:53
+ ,,,,,PB0648,Boromothymol Blue AR,1.5,Gms.,UQC_gms,2019-04-29 17:34:53
+pH reagent for soil test kit,PB1027,PH Reagent for Soil Test Kit,10,Ltr.,PB0130,Water,6,Ltr.,UQC_klr,2019-04-29 17:34:53
+ ,,,,,PB0649,Ethanol,4,Ltr.,UQC_klr,2019-04-29 17:34:53
+ ,,,,,PB0652,Sodium Hydroxide NaOH,0.2,Gms.,UQC_kgs,2019-04-29 17:34:53
+ ,,,,,PB0694,30 Ml Eye Drop Bottle Complete Set,400,Pcs.,UQC_pcs,2019-04-29 17:34:53
+ ,,,,,PB1026,Reagent Indicator Powder Mixture,6,Gms.,UQC_gms,2019-04-29 17:34:53
+product kit,PB1077,PRODUCT KIT,100,Pcs.,PB0002,Patanjali Jaivik Khad 40 Kg,2.5,Pcs.,UQC_pcs,2019-04-29 17:34:53
+ ,,,,,PB0003,Patanjali PROM 50 Kg,2,Pcs.,UQC_pcs,2019-04-29 17:34:53
+ ,,,,,PB0004,Patanjali Poshak 05 Kg,20,Pcs.,UQC_pcs,2019-04-29 17:34:53
+ ,,,,,PB0008,Patanjali Neem Gold 0.25Ltr,100,Pcs.,UQC_box,2019-04-29 17:34:53
+ ,,,,,PB0009,Patanjali PSB 0.5 LTR,100,Pcs.,UQC_box,2019-04-29 17:34:53
+ ,,,,,PB0012,Patanjali Azoto 0.5 LTR,100,Pcs.,UQC_box,2019-04-29 17:34:53
+ ,,,,,PB0016,Patanjali Rhizo 0.25 LTR,100,Pcs.,UQC_box,2019-04-29 17:34:53
+ ,,,,,PB0018,Patanjali Bio Potash 0.5 LTR,100,Pcs.,UQC_box,2019-04-29 17:34:53
+ ,,,,,PB0167,Neem Oil,25,Ltr.,UQC_klr,2019-04-29 17:34:53
+ ,,,,,PB0492,Patanjali Tricho 500 Gm,100,Pcs.,UQC_pcs,2019-04-29 17:34:53
+ ,,,,,PB0493,Patanjali Fluorescens 500 Gm,100,Pcs.,UQC_pcs,2019-04-29 17:34:53
+Decoposer,PB1140,Decomposer,1000,Ltr.,PB0135,Dextrose (Mono),20,Kgs.,UQC_kgs,2019-04-29 17:34:53
+ ,,,,,PB0139,Pepton R,10,Kgs.,UQC_kgs,2019-04-29 17:34:53

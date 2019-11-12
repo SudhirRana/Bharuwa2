@@ -1,0 +1,57 @@
+productId|productTypeId|isVirtual|isVariant|internalName|productName|brandName|productGroup(category)|quantityIncluded|MainUnit(quantityUomId)|altQuantityIncluded|AltUnit(altQuantityUomId)|ConversionFactor
+PB1231|FINDIG_GOOD|N|N|Test Tube Stand (12 Tube)|Test Tube Stand (12 Tube)||consumable_items|1|UQC_pcs|1|UQC_pcs|1
+PB1232|FINDIG_GOOD|N|N|Socket Modular Box|Socket Modular Box||consumable_items|1|UQC_set|1|UQC_set|1
+PB1233|FINDIG_GOOD|N|N|Printed Pen|Printed Pen||publicity_material|1|UQC_pcs|1|UQC_pcs|1
+PB1234|FINDIG_GOOD|N|N|Printed Keyring|Printed Keyring||publicity_material|1|UQC_pcs|1|UQC_pcs|1
+PB1235|FINDIG_GOOD|N|N|Box File|Box File||consumable_items|1|UQC_pcs|1|UQC_pcs|1
+PB1236|FINDIG_GOOD|N|N|Cello Tape 1/2"|Cello Tape 1/2"||consumable_items|1|UQC_pcs|1|UQC_pcs|1
+PB1237|FINDIG_GOOD|N|N|Tape Dispenser 1" & 1/2"|Tape Dispenser 1" & 1/2"||consumable_items|1|UQC_pcs|1|UQC_pcs|1
+PB1238|FINDIG_GOOD|N|N|Paper A4 Size 75 GSM|Paper A4 Size 75 GSM||consumable_items|1|UQC_pac|1|UQC_pac|1
+PB1239|FINDIG_GOOD|N|N|Spring File Cobra - 5000|Spring File Cobra - 5000||consumable_items|1|UQC_pcs|1|UQC_pcs|1
+PB1240|FINDIG_GOOD|N|N|Sink Waste Pipe|Sink Waste Pipe||consumable_items|1|UQC_pcs|1|UQC_pcs|1
+PB1241|FINDIG_GOOD|N|N|6" Nipple 1/2"|6" Nipple 1/2"||consumable_items|1|UQC_pcs|1|UQC_pcs|1
+PB1242|FINDIG_GOOD|N|N|Elbow 1/2"|Elbow 1/2"||consumable_items|1|UQC_pcs|1|UQC_pcs|1
+PB1243|FINDIG_GOOD|N|N|2 Way MCB Box|2 Way MCB Box||consumable_items|1|UQC_pcs|1|UQC_pcs|1
+PB1244|FINDIG_GOOD|N|N|4 Way MCB Box|4 Way MCB Box||consumable_items|1|UQC_pcs|1|UQC_pcs|1
+PB1245|FINDIG_GOOD|N|N|12 Way MCB Box|12 Way MCB Box||consumable_items|1|UQC_pcs|1|UQC_pcs|1
+PB1246|FINDIG_GOOD|N|N|Socket 16 Amp Modular Box|Socket 16 Amp Modular Box||consumable_items|1|UQC_set|1|UQC_set|1
+PB1247|FINDIG_GOOD|N|N|One Way Lab Water Tap|One Way Lab Water Tap||consumable_items|1|UQC_pcs|1|UQC_pcs|1
+PB1248|FINDIG_GOOD|N|N|Two Way Lab Water Tap|Two Way Lab Water Tap||consumable_items|1|UQC_pcs|1|UQC_pcs|1
+PB1249|FINDIG_GOOD|N|N|Penta Modular Board 4X6|Penta Modular Board 4X6||consumable_items|1|UQC_pcs|1|UQC_pcs|1
+PB1250|FINDIG_GOOD|N|N|Penta Modular Board ( 12 Module)|Penta Modular Board ( 12 Module)||consumable_items|1|UQC_pcs|1|UQC_pcs|1
+PB1251|FINDIG_GOOD|N|N|Rechargable Torch Big|Rechargable Torch Big||consumable_items|1|UQC_pcs|1|UQC_pcs|1
+PB1252|FINDIG_GOOD|N|N|Matrix Simado GFX11|Matrix Simado GFX11||consumable_items|1|UQC_pcs|1|UQC_pcs|1
+PB1253|FINDIG_GOOD|N|N|Cutter Big|Cutter Big||consumable_items|1|UQC_pcs|1|UQC_pcs|1
+PB1254|FINDIG_GOOD|N|N|Cutter Small|Cutter Small||consumable_items|1|UQC_pcs|1|UQC_pcs|1
+PB1255|FINDIG_GOOD|N|N|Scissor Big|Scissor Big||consumable_items|1|UQC_pcs|1|UQC_pcs|1
+PB1256|FINDIG_GOOD|N|N|Scissor Small|Scissor Small||consumable_items|1|UQC_pcs|1|UQC_pcs|1
+PB1257|FINDIG_GOOD|N|N|Room Freshner|Room Freshner||consumable_items|1|UQC_pcs|1|UQC_pcs|1
+PB1258|FINDIG_GOOD|N|N|AA Cell 1.5V|AA Cell 1.5V||consumable_items|1|UQC_pcs|1|UQC_pcs|1
+PB1259|FINDIG_GOOD|N|N|AAA Cell 1.5V|AAA Cell 1.5V||consumable_items|1|UQC_pcs|1|UQC_pcs|1
+PB1260|FINDIG_GOOD|N|N|SS Sink Coupling|SS Sink Coupling||consumable_items|1|UQC_pcs|1|UQC_pcs|1
+PB1261|FINDIG_GOOD|N|N|CAT DEO CI4 15W40|CAT DEO CI4 15W40||consumable_items|1|UQC_klr|1|UQC_klr|1
+PB1262|FINDIG_GOOD|N|N|Aloevera Juice|Aloevera Juice||raw_material|1|UQC_oth|1|UQC_oth|1
+PB1263|FINDIG_GOOD|N|N|Sharbat|Sharbat||raw_material|1|UQC_oth|1|UQC_oth|1
+PB1264|FINDIG_GOOD|N|N|Beverage|Beverage||raw_material|1|UQC_oth|1|UQC_oth|1
+PB1265|FINDIG_GOOD|N|N|Lemon Squash|Lemon Squash||raw_material|1|UQC_oth|1|UQC_oth|1
+PB1266|FINDIG_GOOD|N|N|Measuring Cylinder 10 Ml|Measuring Cylinder 10 Ml||soil_test_kit|1|UQC_pcs|1|UQC_pcs|1
+PB1267|FINDIG_GOOD|N|N|Filter Paper 9.5 Cm Routine Quality|Filter Paper 9.5 Cm Routine Quality||soil_test_kit|1|UQC_box|1|UQC_box|1
+PB1268|FINDIG_GOOD|N|N|Reagant Tube (Pet 30 Ml)|Reagant Tube (Pet 30 Ml)||soil_test_kit|1|UQC_pcs|1|UQC_pcs|1
+PB1269|FINDIG_GOOD|N|N|pH Bottle 30ml|pH Bottle 30ml||soil_test_kit|1|UQC_pcs|1|UQC_pcs|1
+PB1270|FINDIG_GOOD|N|N|Pet Bottle 10ml|Pet Bottle 10ml||soil_test_kit|1|UQC_pcs|1|UQC_pcs|1
+PB1271|FINDIG_GOOD|N|N|Reagant Bottle 200ml (T.G) With Cap|Reagant Bottle 200ml (T.G) With Cap||soil_test_kit|1|UQC_pcs|1|UQC_pcs|1
+PB1272|FINDIG_GOOD|N|N|Reagant Bottle 500ml (T.G) With Cap|Reagant Bottle 500ml (T.G) With Cap||soil_test_kit|1|UQC_pcs|1|UQC_pcs|1
+PB1273|FINDIG_GOOD|N|N|Soil Mixture Bottle|Soil Mixture Bottle||soil_test_kit|1|UQC_pcs|1|UQC_pcs|1
+PB1274|FINDIG_GOOD|N|N|Reagant Bottle (Pet 10 gm)|Reagant Bottle (Pet 10 gm)||soil_test_kit|1|UQC_pcs|1|UQC_pcs|1
+PB1275|FINDIG_GOOD|N|N|Door Mat Green|Door Mat Green||consumable_items|1|UQC_sqf|1|UQC_sqf|1
+PB1276|FINDIG_GOOD|N|N|Sodium Di-Hydrogen Ortho-Phosphate Dihyd|Sodium Di-Hydrogen Ortho-Phosphate Dihyd||raw_material|1|UQC_kgs|1|UQC_kgs|1
+PB1277|FINDIG_GOOD|N|N|Hose - 8N8093|Hose - 8N8093||consumable_items|1|UQC_pcs|1|UQC_pcs|1
+PB1278|FINDIG_GOOD|N|N|Hose - 7L7160|Hose - 7L7160||consumable_items|1|UQC_pcs|1|UQC_pcs|1
+PB1279|FINDIG_GOOD|N|N|Clamp Hose - 5P3860|Clamp Hose - 5P3860||consumable_items|1|UQC_pcs|1|UQC_pcs|1
+PB1280|FINDIG_GOOD|N|N|Clamp - 4J8536|Clamp - 4J8536||consumable_items|1|UQC_pcs|1|UQC_pcs|1
+PB1281|FINDIG_GOOD|N|N|Seal O Ring 5P7530|Seal O Ring 5P7530||consumable_items|1|UQC_pcs|1|UQC_pcs|1
+PB1282|FINDIG_GOOD|N|N|Seal Integra - 1986068|Seal Integra - 1986068||consumable_items|1|UQC_pcs|1|UQC_pcs|1
+PB1283|FINDIG_GOOD|N|N|Seal O Ring 1123540|Seal O Ring 1123540||consumable_items|1|UQC_pcs|1|UQC_pcs|1
+PB1284|FINDIG_GOOD|N|N|Sealing Machine 12"|Sealing Machine 12"||consumable_items|1|UQC_pcs|1|UQC_pcs|1
+PB1285|FINDIG_GOOD|N|N|Bag Closer Sewing Machine - Single Needl|Bag Closer Sewing Machine - Single Needl||assets|1|UQC_pcs|1|UQC_pcs|1
+PB1286|FINDIG_GOOD|N|N|Motot of Bag Closer Machine|Motot of Bag Closer Machine||consumable_items|1|UQC_pcs|1|UQC_pcs|1

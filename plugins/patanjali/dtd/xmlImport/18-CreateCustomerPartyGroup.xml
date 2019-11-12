@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity-engine-xml>
+<PartyGroup partyId="CP0001" groupName="Consolidated Costomer Account" groupNameLocal="Sundry Debtors" />
+<PartyGroup partyId="CP0002" groupName="Patanjali Bio Research Guj" groupNameLocal="Sundry Debtors" />
+<PartyGroup partyId="CP0003" groupName="Patanjali Bio Research MH" groupNameLocal="Sundry Debtors" />
+<PartyGroup partyId="CP0004" groupName="A.N. Traders" groupNameLocal="Sundry Debtors" />
+<PartyGroup partyId="CP0005" groupName="Himalic Herbo Health Care Pvt. Ltd." groupNameLocal="Sundry Debtors" />
+<PartyGroup partyId="CP0006" groupName="N.S. Traders" groupNameLocal="Sundry Debtors" />
+<PartyGroup partyId="CP0007" groupName="Vadic Kanya Gurukulam, Haridwar" groupNameLocal="Sundry Debtors" />
+<PartyGroup partyId="CP0008" groupName="JADIBUTI KRISHI PRIVATE LIMITED, Faridabad" groupNameLocal="Sundry Debtors" />
+<PartyGroup partyId="CP0009" groupName="Yuganukal Krishi Pvt. Ltd. Padartha" groupNameLocal="Sundry Debtors" />
+<PartyGroup partyId="CP0010" groupName="Shri Ram Krishna AAdarsh Gaushala, HR" groupNameLocal="Sundry Debtors" />
+<PartyGroup partyId="CP0011" groupName="Patanjali Bio Research Patna" groupNameLocal="Sundry Debtors" />
+<PartyGroup partyId="CP0012" groupName="Bhatia Agri Clinic" groupNameLocal="Sundry Debtors" />
+<PartyGroup partyId="CP0013" groupName="Kisan Sewa Kendra, Sultanpur" groupNameLocal="Sundry Debtors" />
+<PartyGroup partyId="CP0014" groupName="Kisan Fertilizers Aliganj, Etha UP" groupNameLocal="Sundry Debtors" />
+<PartyGroup partyId="CP0015" groupName="Agro Junction &amp; One Stop Shop" groupNameLocal="Sundry Debtors" />
+<PartyGroup partyId="CP0016" groupName="Patanjali Yogpeeth Trust, Assam" groupNameLocal="Sundry Debtors" />
+<PartyGroup partyId="CP0017" groupName="Patnjali Food And Harbal park, Nagpur" groupNameLocal="Sundry Debtors" />
+<PartyGroup partyId="CP0018" groupName="Dr. P. Satyanarayava" groupNameLocal="Sundry Debtors" />
+<PartyGroup partyId="CP0019" groupName="Shree Ganesh Traders, Bidar, KTK" groupNameLocal="Sundry Debtors" />
+<PartyGroup partyId="CP0020" groupName="Vinod Kumar" groupNameLocal="Sundry Debtors" />
+<PartyGroup partyId="CP0021" groupName="Sant Kutir, Yogpeeth" groupNameLocal="Sundry Debtors" />
+<PartyGroup partyId="CP0022" groupName="Group Of Small Farmer Himalayan Region" groupNameLocal="Sundry Debtors" />
+<PartyGroup partyId="CP0023" groupName="Indoflora Agro Bio Tech S/D Sharanpu" groupNameLocal="Sundry Debtors" />
+<PartyGroup partyId="CP0024" groupName="Pankaj Beej Bhandar, Gothra" groupNameLocal="Sundry Debtors" />
+<PartyGroup partyId="CP0025" groupName="Komal Paarsad HP" groupNameLocal="Sundry Debtors" />
+<PartyGroup partyId="CP0026" groupName="Ambica Krishi Sewa Kendra, Sarangpur" groupNameLocal="Sundry Debtors" />
+<PartyGroup partyId="CP0027" groupName="Jai Bholenath Enterprices, Manali" groupNameLocal="Sundry Debtors" />
+<!-- <PartyGroup partyId="CP0028" groupName="JADIBUTI KRISHI PRIVATE LIMITED" groupNameLocal="Sundry Debtors" /> -->
+<PartyGroup partyId="CP0029" groupName="Patanjali Yogpeeth Phase-1 Haridwar" groupNameLocal="Sundry Debtors" />
+<PartyGroup partyId="CP0030" groupName="Laxmi Sales Corporetion Nigdu" groupNameLocal="Sundry Debtors" />
+<PartyGroup partyId="CP0031" groupName="Mehla Trading Co. Labkari" groupNameLocal="Sundry Debtors" />
+<PartyGroup partyId="CP0032" groupName="Chauhan Beej Bhandar, Vikasnagar" groupNameLocal="Sundry Debtors" />
+<PartyGroup partyId="CP0033" groupName="Aditya Treadars, GUna" groupNameLocal="Sundry Debtors" />
+<PartyGroup partyId="CP0034" groupName="Rahul General Store Kotkhai HP" groupNameLocal="Sundry Debtors" />
+<PartyGroup partyId="CP0035" groupName="Mahalaxmi Traders, Tunga" groupNameLocal="Sundry Debtors" />
+<PartyGroup partyId="CP0036" groupName="Verma Furniture Industries, Theog, shiml" groupNameLocal="Sundry Debtors" />
+<PartyGroup partyId="CP0037" groupName="A.M. Garower, Arogyam Kendera, Tikkar" groupNameLocal="Sundry Debtors" />
+<PartyGroup partyId="CP0038" groupName="Sunil Kumar Sandeep Kumar, Sirsa" groupNameLocal="Sundry Debtors" />
+<PartyGroup partyId="CP0039" groupName="Mr. Nimai Charan Jeena C/O PFSP" groupNameLocal="Sundry Debtors" />
+<PartyGroup partyId="CP0040" groupName="Ms. Minnie Kalha C/O PFSP" groupNameLocal="Sundry Debtors" />
+<PartyGroup partyId="CP0041" groupName="Anushka Agro Agency,Tasgaon,Sangli MH" groupNameLocal="Sundry Debtors" />
+<PartyGroup partyId="CP0042" groupName="Agri Junction, Maharajaganj" groupNameLocal="Sundry Debtors" />
+<PartyGroup partyId="CP0043" groupName="Kisan Beej Company, Barwala, Hisar" groupNameLocal="Sundry Debtors" />
+<PartyGroup partyId="CP0044" groupName="Praksah Khad Bhandar, Bisauli, UP" groupNameLocal="Sundry Debtors" />
+<PartyGroup partyId="CP0045" groupName="ASA Nand Shiv Kumar, Karnal" groupNameLocal="Sundry Debtors" />
+<PartyGroup partyId="CP0046" groupName="Dahiya Khad Beej Bhandar, Beri, Jhajjar" groupNameLocal="Sundry Debtors" />
+<PartyGroup partyId="CP0047" groupName="J Rami Reddy Telengana" groupNameLocal="Sundry Debtors" />
+<PartyGroup partyId="CP0048" groupName="C/o Vinayak Bharamba," groupNameLocal="Sundry Debtors" />
+<PartyGroup partyId="CP0049" groupName="Pankaj Chauhan" groupNameLocal="Sundry Debtors" />
+<PartyGroup partyId="CP0050" groupName="Ramesh Kholi New Delhi" groupNameLocal="Sundry Debtors" />
+<PartyGroup partyId="CP0051" groupName="M/S Sangeet Kaur" groupNameLocal="Sundry Debtors" />
+<PartyGroup partyId="CP0052" groupName="Patanjali Farmer Samridhi Programme" groupNameLocal="Sundry Debtors" />
+</entity-engine-xml>
