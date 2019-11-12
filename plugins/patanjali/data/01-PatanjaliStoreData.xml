@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Licensed to the Apache Software Foundation (ASF) under one
+or more contributor license agreements.  See the NOTICE file
+distributed with this work for additional information
+regarding copyright ownership.  The ASF licenses this file
+to you under the Apache License, Version 2.0 (the
+"License"); you may not use this file except in compliance
+with the License.  You may obtain a copy of the License at
+
+http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+
+<entity-engine-xml>
+    
+    <Party partyId="admin" partyTypeId="PARTY_GROUP"/>
+    <UserLogin userLoginId="admin" partyId="admin"/>
+    <Party partyId="patanjali" partyTypeId="PARTY_GROUP"/>
+    <PartyGroup partyId="patanjali" groupName="Patanjali Bio Research Institute (Pvt.) Ltd"/>
+    <PartyRole partyId="patanjali" roleTypeId="BILL_FROM_VENDOR"/>
+    <PartyRole partyId="patanjali" roleTypeId="BILL_TO_CUSTOMER"/>
+    <PartyRole partyId="patanjali" roleTypeId="INTERNAL_ORGANIZATIO"/>
+    <!-- <PartyRole partyId="patanjali" roleTypeId="_NA_"/> -->
+    <GeoPoint dataSourceId="GEOPT_GOOGLE" elevation="314.000000" elevationUomId="LEN_m" geoPointId="9003" information="A GeoPoint for party patanjali" latitude="29.90677" longitude="77.99912"/>
+    <PartyGeoPoint partyId="patanjali" geoPointId="9003" fromDate="2009-01-09 00:00:00.000"/>
+    <ContactMech contactMechId="9000" contactMechTypeId="POSTAL_ADDRESS"/>
+    <PartyContactMech partyId="patanjali" contactMechId="9000" fromDate="2000-01-01 00:00:00.000" allowSolicitation="Y"/>
+    <!-- PostalAddress contactMechId="9000" toName="Patanjali Yogpeeth" address1="Maharshi Dayanand Gram, Delhi-Haridwar National Highway" city="Haridwar" postalCode="249405" countryGeoId="IND" stateProvinceGeoId="IN-UT" geoPointId="9000" / -->
+    <PostalAddress contactMechId="9000" toName="Patanjali Bio Research Institute" address1="Food and Herbal Park, Village - Padartha, Laksar Road" city="Haridwar" postalCode="249404" countryGeoId="IND" stateProvinceGeoId="IN-UT" geoPointId="9003" />
+   
+    <!-- ContactMech contactMechId="9001" contactMechTypeId="EMAIL_ADDRESS" infoString="divyayoga@divyayoga.com"/-->
+    <ContactMech contactMechId="9001" contactMechTypeId="EMAIL_ADDRESS" infoString="info@patanjalibio.com"/>
+    <PartyContactMech partyId="patanjali" contactMechId="9001" fromDate="2000-01-01 00:00:00.000" allowSolicitation="Y"/>
+    <PartyContactMechPurpose contactMechPurposeTypeId="PRIMARY_EMAIL" partyId="patanjali" contactMechId="9001" fromDate="2003-01-01 00:00:00.000"/>
+    
+    <ContactMech contactMechId="9001A" contactMechTypeId="EMAIL_ADDRESS" infoString="accounts@patanjalibio.com"/>
+    <PartyContactMech partyId="patanjali" contactMechId="9001A" fromDate="2000-01-01 00:00:00.000" allowSolicitation="Y"/>
+    <PartyContactMechPurpose contactMechPurposeTypeId="PRIMARY_EMAIL" partyId="patanjali" contactMechId="9001A" fromDate="2003-01-01 00:00:00.000"/>
+    
+    <ContactMech contactMechId="9001O" contactMechTypeId="EMAIL_ADDRESS" infoString="operations@patanjalibio.com"/>
+    <PartyContactMech partyId="patanjali" contactMechId="9001O" fromDate="2000-01-01 00:00:00.000" allowSolicitation="Y"/>
+    <PartyContactMechPurpose contactMechPurposeTypeId="PRIMARY_EMAIL" partyId="patanjali" contactMechId="9001O" fromDate="2003-01-01 00:00:00.000"/>
+    
+    
+<!--     <ContactMech contactMechId="9002" contactMechTypeId="EMAIL_ADDRESS" infoString="ofbizsupport@example.com"/> -->
+<!--     <PartyContactMech partyId="patanjali" contactMechId="9002" fromDate="2003-01-01 00:00:00.0" allowSolicitation="Y"/> -->
+<!--     <PartyContactMechPurpose contactMechPurposeTypeId="SUPPORT_EMAIL" partyId="patanjali" contactMechId="9002" fromDate="2003-01-01 00:00:00.0"/> -->
+    
+    <PartyContactMechPurpose partyId="patanjali" contactMechId="9000" contactMechPurposeTypeId="BILLING_LOCATION" fromDate="2000-01-01 00:00:00.000"/>
+    <PartyContactMechPurpose partyId="patanjali" contactMechId="9000" contactMechPurposeTypeId="GENERAL_LOCATION" fromDate="2000-01-01 00:00:00.000"/>
+    <PartyContactMechPurpose partyId="patanjali" contactMechId="9000" contactMechPurposeTypeId="PAYMENT_LOCATION" fromDate="2000-01-01 00:00:00.000"/>
+    
+    <ContactMech contactMechId="9002" contactMechTypeId="TELECOM_NUMBER"/>
+	<PartyContactMech partyId="patanjali" contactMechId="9002" fromDate="2001-05-13 12:00:00.0"/>
+	<TelecomNumber contactMechId="9002" countryCode="91" areaCode="" contactNumber="8755904985"/>
+	<PartyContactMechPurpose partyId="patanjali" contactMechId="9002" contactMechPurposeTypeId="FAX_NUMBER" fromDate="2001-05-13 12:00:00.0"/>
+	<PartyContactMechPurpose partyId="patanjali" contactMechId="9002" contactMechPurposeTypeId="PRIMARY_PHONE" fromDate="2001-05-13 12:00:00.0"/>
+	<PartyContactMechPurpose partyId="patanjali" contactMechId="9002" contactMechPurposeTypeId="PHONE_MOBILE" fromDate="2001-05-13 12:00:00.0"/>
+	
+	<PartyIdentification partyId="patanjali" partyIdentificationTypeId="GST" idValue="05AAFCP9461Q1ZO" />
+	<PartyIdentification partyId="patanjali" partyIdentificationTypeId="CIN" idValue="U73100UR2011PTC033443" />
+       <!-- Customer data  -->
+   <!--  <Party partyId="9001" partyTypeId="PARTY_GROUP"/>
+    <PartyGroup partyId="9001" groupName="PAWAN ORGANIC STORES (PATANJALI AK)"/>
+    <PartyRole partyId="9001" roleTypeId="BILL_FROM_VENDOR"/>
+    <PartyRole partyId="9001" roleTypeId="BILL_TO_CUSTOMER"/>
+    <PartyRole partyId="9001" roleTypeId="CUSTOMER"/>
+    <PartyRole partyId="9001" roleTypeId="INTERNAL_ORGANIZATIO"/>
+    
+    <ContactMech contactMechId="pos0001" contactMechTypeId="POSTAL_ADDRESS"/>
+    <PartyContactMech partyId="9001" contactMechId="pos0001" fromDate="2000-01-01 00:00:00.000" allowSolicitation="Y"/>
+    <PostalAddress contactMechId="pos0001" toName="PAWAN ORGANIC STORES (PATANJALI AK)" address1="#694, JLPL" city="Mohali" postalCode="160041" countryGeoId="IND" stateProvinceGeoId="IN-TN" geoPointId=""/>
+    <PartyContactMechPurpose partyId="9001" contactMechId="pos0001" contactMechPurposeTypeId="BILLING_LOCATION" fromDate="2000-01-01 00:00:00.000"/>
+    <PartyContactMechPurpose partyId="9001" contactMechId="pos0001" contactMechPurposeTypeId="GENERAL_LOCATION" fromDate="2000-01-01 00:00:00.000"/>
+    <PartyContactMechPurpose partyId="9001" contactMechId="pos0001" contactMechPurposeTypeId="PAYMENT_LOCATION" fromDate="2000-01-01 00:00:00.000"/>
+    <PartyContactMechPurpose partyId="9001" contactMechId="pos0001" contactMechPurposeTypeId="SHIPPING_LOCATION" fromDate="2000-01-01 00:00:00.000"/>
+   
+    <ContactMech contactMechId="pos0002" contactMechTypeId="EMAIL_ADDRESS" infoString="contact@viithiisys.com"/>
+    <PartyContactMech partyId="9001" contactMechId="pos0002" fromDate="2000-01-01 00:00:00.000" allowSolicitation="Y"/>
+    <PartyContactMechPurpose contactMechPurposeTypeId="PRIMARY_EMAIL" partyId="9001" contactMechId="pos0002" fromDate="2003-01-01 00:00:00.000"/>
+    
+       Customer data 
+    <Party partyId="9002" partyTypeId="PARTY_GROUP"/>
+    <PartyGroup partyId="9002" groupName="Viithiisys Technologies"/>
+    <PartyRole partyId="9002" roleTypeId="BILL_FROM_VENDOR"/>
+    <PartyRole partyId="9002" roleTypeId="BILL_TO_CUSTOMER"/>
+    <PartyRole partyId="9002" roleTypeId="INTERNAL_ORGANIZATIO"/>
+    <PartyRole partyId="9002" roleTypeId="CUSTOMER"/>
+    
+    <ContactMech contactMechId="v0001" contactMechTypeId="POSTAL_ADDRESS"/>
+    <PartyContactMech partyId="9002" contactMechId="v0001" fromDate="2000-01-01 00:00:00.000" allowSolicitation="Y"/>
+    <PostalAddress contactMechId="v0001" toName="Viithiisys Punjab Office" address1="#694, JLPL" city="Mohali" postalCode="140307" countryGeoId="IND" stateProvinceGeoId="IN-PB" geoPointId=""/>
+    <PartyContactMechPurpose partyId="9002" contactMechId="v0001" contactMechPurposeTypeId="BILLING_LOCATION" fromDate="2000-01-01 00:00:00.000"/>
+    <PartyContactMechPurpose partyId="9002" contactMechId="v0001" contactMechPurposeTypeId="GENERAL_LOCATION" fromDate="2000-01-01 00:00:00.000"/>
+    <PartyContactMechPurpose partyId="9002" contactMechId="v0001" contactMechPurposeTypeId="PAYMENT_LOCATION" fromDate="2000-01-01 00:00:00.000"/>
+    <PartyContactMechPurpose partyId="9002" contactMechId="v0001" contactMechPurposeTypeId="SHIPPING_LOCATION" fromDate="2000-01-01 00:00:00.000"/>
+   
+    <ContactMech contactMechId="v0002" contactMechTypeId="EMAIL_ADDRESS" infoString="contact@viithiisys.com"/>
+    <PartyContactMech partyId="9002" contactMechId="v0002" fromDate="2000-01-01 00:00:00.000" allowSolicitation="Y"/>
+    <PartyContactMechPurpose contactMechPurposeTypeId="PRIMARY_EMAIL" partyId="9002" contactMechId="v0002" fromDate="2003-01-01 00:00:00.000"/>
+     -->
+    <Party partyId="IND_DOR" partyTypeId="PARTY_GROUP"/>
+    <PartyGroup partyId="IND_DOR" groupName="India - Department of Revenue" />
+    <PartyRole partyId="IND_DOR" roleTypeId="TAX_AUTHORITY"/>
+    <ContactMech contactMechId="inddor01" contactMechTypeId="POSTAL_ADDRESS"/>
+    <PartyContactMech partyId="IND_DOR" contactMechId="inddor01" fromDate="2000-01-01 00:00:00.000" allowSolicitation="Y"/>
+    <PostalAddress contactMechId="inddor01" toName="Department of Revenue" address1="#134,North Block" city="New Delhi" postalCode="110001" countryGeoId="IND" stateProvinceGeoId="IN-DL" geoPointId=""/>
+    <PartyContactMechPurpose partyId="IND_DOR" contactMechId="inddor01" contactMechPurposeTypeId="BILLING_LOCATION" fromDate="2000-01-01 00:00:00.000"/>
+    <PartyContactMechPurpose partyId="IND_DOR" contactMechId="inddor01" contactMechPurposeTypeId="GENERAL_LOCATION" fromDate="2000-01-01 00:00:00.000"/>
+    <PartyContactMechPurpose partyId="IND_DOR" contactMechId="inddor01" contactMechPurposeTypeId="PAYMENT_LOCATION" fromDate="2000-01-01 00:00:00.000"/>
+    <TaxAuthority taxAuthGeoId="IND" taxAuthPartyId="IND_DOR" taxIdFormatPattern="\d{2}\-\d{7}|\d{3}\-\d{2}\-\d{4}" includeTaxInPrice="N"/>
+	
+	<Facility defaultDaysToShip="25" defaultInventoryItemTypeId="NON_SERIAL_INV_ITEM" defaultWeightUomId="WT_g" description="Warehouse exclusively for Patanjali" facilityId="PATANJALI_WAREHOUSE" facilityLevel="0" facilityName="Patanjali Store Warehouse" facilityTypeId="WAREHOUSE" ownerPartyId="patanjali"/>
+	<FacilityContactMech facilityId="PATANJALI_WAREHOUSE" contactMechId="9000" fromDate="2000-01-01 00:00:00.000" allowSolicitation="Y"/>
+	<FacilityContactMechPurpose contactMechId="9000" contactMechPurposeTypeId="SHIPPING_LOCATION" facilityId="PATANJALI_WAREHOUSE" fromDate="2019-05-07 19:48:43.139"/>
+	<FacilityContactMechPurpose contactMechId="9000" contactMechPurposeTypeId="SHIP_ORIG_LOCATION" facilityId="PATANJALI_WAREHOUSE" fromDate="2019-05-07 19:48:53.922"/>
+	<FacilityContactMechPurpose contactMechId="9000" contactMechPurposeTypeId="PRIMARY_LOCATION" facilityId="PATANJALI_WAREHOUSE" fromDate="2019-05-07 19:48:59.548"/>
+  	<FacilityContactMech facilityId="PATANJALI_WAREHOUSE" contactMechId="9001" fromDate="2000-01-01 00:00:00.000" allowSolicitation="Y"/>
+   
+  
+	<ProductStore productStoreId="PATANJALI_STORE" storeName="Patanjali Bio Research Institute (Pvt.) Ltd" companyName="Patanjali" title="" subtitle="Patanjali E-Commerce" payToPartyId="patanjali" daysToCancelNonPay="30" manualAuthIsCapture="N" prorateShipping="Y" prorateTaxes="Y" viewCartOnAdd="Y" autoSaveCart="N" autoApproveReviews="N" isDemoStore="N" isImmediatelyFulfilled="N" inventoryFacilityId="PATANJALI_WAREHOUSE" oneInventoryFacility="Y" checkInventory="N" reserveInventory="Y" reserveOrderEnumId="INVRO_FIFO_REC" requireInventory="N" balanceResOnOrderCreation="N" orderNumberPrefix="" defaultLocaleString="en_GB" defaultCurrencyUomId="INR" defaultSalesChannelEnumId="WEB_SALES_CHANNEL" allowPassword="Y" explodeOrderItems="N" checkGcBalance="N" retryFailedAuths="Y" headerApprovedStatus="ORDER_APPROVED" itemApprovedStatus="ITEM_APPROVED" digitalItemApprovedStatus="ITEM_APPROVED" headerDeclinedStatus="ORDER_REJECTED" itemDeclinedStatus="ITEM_REJECTED" headerCancelStatus="ORDER_CANCELLED" itemCancelStatus="ITEM_CANCELLED" authDeclinedMessage="Your payment has not been authorised, this could be due to an incorrect CV2 code, billing address or insufficient funds." authFraudMessage="Your order has been rejected and your account has been disabled due to fraud." authErrorMessage="Problem connecting to payment processor; we will continue to retry and notify you by email." visualThemeId="PATANJALI" storeCreditAccountEnumId="FIN_ACCOUNT" usePrimaryEmailUsername="Y" requireCustomerRole="N" autoInvoiceDigitalItems="Y" reqShipAddrForDigItems="Y" showCheckoutGiftOptions="Y" selectPaymentTypePerItem="N" showPricesWithVatTax="N" showTaxIsExempt="N" 
+	vatTaxAuthGeoId="IND" vatTaxAuthPartyId="IND_DOR" enableAutoSuggestionList="N" enableDigProdUpload="N" prodSearchExcludeVariants="Y" autoOrderCcTryExp="N" autoOrderCcTryOtherCards="N" autoOrderCcTryLaterNsf="N" storeCreditValidDays="90" autoApproveInvoice="Y" autoApproveOrder="Y" shipIfCaptureFails="Y" setOwnerUponIssuance="N" reqReturnInventoryReceive="N" addToCartRemoveIncompat="Y" addToCartReplaceUpsell="Y" splitPayPrefPerShpGrp="N" showOutOfStockProducts="Y"/>
+    <WebSite webSiteId="PATANJALI_SHOP" siteName="Patanjali eCommerce site" httpHost="" httpsHost="" productStoreId="PATANJALI_STORE"/>
+    <ProductStorePaymentSetting productStoreId="PATANJALI_STORE" paymentMethodTypeId="EXT_OFFLINE" paymentServiceTypeEnumId="PRDS_PAY_EXTERNAL"/>
+    <GlJournal organizationPartyId="patanjali" glJournalId="ERROR_JOURNAL" glJournalName="Suspense transactions"/>
+    <PartyAcctgPreference partyId="patanjali" fiscalYearStartMonth="" fiscalYearStartDay="" taxFormId="US_IRS_1120" cogsMethodId="COGS_AVG_COST" baseCurrencyUomId="INR" invoiceSequenceEnumId="INVSQ_ENF_SEQ" invoiceIdPrefix="HRD" lastInvoiceNumber="" lastInvoiceRestartDate="" useInvoiceIdForReturns="" quoteSequenceEnumId="INVSQ_ENF_SEQ" quoteIdPrefix="PQ" lastQuoteNumber="" orderSequenceEnumId="INVSQ_ENF_SEQ" orderIdPrefix="PBRI" lastOrderNumber="" refundPaymentMethodId="" errorGlJournalId="ERROR_JOURNAL" />
+    <ProdCatalog prodCatalogId="PATANJALI_CATALOG" catalogName="PATANJALI CATALOG" useQuickAdd="N" viewAllowPermReqd="N" purchaseAllowPermReqd="N" />
+    <ProductStoreCatalog productStoreId="PATANJALI_STORE" prodCatalogId="PATANJALI_CATALOG" fromDate="2001-05-13 02:30:00.0" sequenceNum="1"/>    
+	<ProductStoreGroup productStoreGroupId="PATANJALI_STORE_GRP" productStoreGroupName="Patanjali Store Group" description="Patanjali Store Group" />
+	<PartyRole partyId="patanjali" roleTypeId="CARRIER"/>
+	<ShipmentMethodType description="Standard" shipmentMethodTypeId="STANDARD"/>
+    <ShipmentMethodType description="Express" shipmentMethodTypeId="EXPRESS"/>
+    <ShipmentMethodType description="Ground" shipmentMethodTypeId="GROUND"/>
+    <ShipmentMethodType description="Air" shipmentMethodTypeId="AIR"/>
+    <ShipmentMethodType description="Guaranteed Next Day" shipmentMethodTypeId="NEXT_DAY"/>
+    <ShipmentMethodType description="Local Delivery" shipmentMethodTypeId="LOCAL_DELIVERY"/>
+    <ShipmentMethodType description="No Shipping" shipmentMethodTypeId="NO_SHIPPING"/>
+
+	<CarrierShipmentMethod partyId="patanjali" roleTypeId="CARRIER" shipmentMethodTypeId="LOCAL_DELIVERY" sequenceNumber="1"/>
+	<CarrierShipmentMethod partyId="patanjali" roleTypeId="CARRIER" shipmentMethodTypeId="NO_SHIPPING" sequenceNumber="1"/>
+	
+	<Party partyId="_NA_" partyTypeId="PARTY_GROUP"/>
+	<PartyRole partyId="_NA_" roleTypeId="CARRIER"/>
+	<CarrierShipmentMethod partyId="_NA_" roleTypeId="CARRIER" shipmentMethodTypeId="STANDARD" sequenceNumber="1"/>
+	<ProductStoreShipmentMeth allowCompanyAddr="Y" allowUspsAddr="Y" createdStamp="2019-04-22 12:16:26.052" createdTxStamp="2019-04-22 12:16:25.958" includeNoChargeItems="Y" lastUpdatedStamp="2019-04-22 12:16:26.052" lastUpdatedTxStamp="2019-04-22 12:16:25.958" maxTotal="10000.00" minTotal="0.00" partyId="_NA_" productStoreId="PATANJALI_STORE" productStoreShipMethId="10000" requireCompanyAddr="N" requireUspsAddr="N" roleTypeId="CARRIER" shipmentMethodTypeId="STANDARD"/>     
+    <ShipmentCostEstimate carrierPartyId="patanjali" carrierRoleTypeId="CARRIER" createdStamp="2019-04-22 11:45:44.183" createdTxStamp="2019-04-22 11:45:43.968" lastUpdatedStamp="2019-04-22 11:45:44.183" lastUpdatedTxStamp="2019-04-22 11:45:43.968" orderFlatPrice="0.00" orderItemFlatPrice="0.00" orderPricePercent="0.000000" productStoreId="PATANJALI_STORE" productStoreShipMethId="10000" shipmentCostEstimateId="10000" shipmentMethodTypeId="NO_SHIPPING"/>   
+    <ProductCategory productCategoryId="PTNJLI_BROWSE_ROOT" productCategoryTypeId="CATALOG_CATEGORY" categoryName="Browse Root" description="Browse Root"/>
+    <ProductCategory productCategoryId="PTNJLI_ALL_PRODUCTS" productCategoryTypeId="CATALOG_CATEGORY" categoryName="All Products" description="All Products"/>
+    <ProductCategory productCategoryId="PTNJLI_PROMOTIONS" productCategoryTypeId="CATALOG_CATEGORY" categoryName="Promotional Products" description="Promotional Products"/>
+    <ProductCategory productCategoryId="PTNJLI_SEARCH" productCategoryTypeId="CATALOG_CATEGORY" categoryName="Default Search" description="Default Search"/>
+    <ProductCategory productCategoryId="PTNJLI_NEW_ARRIVAL" productCategoryTypeId="CATALOG_CATEGORY" categoryName="New Arrival" description="New Arrival"/>
+    <ProductCategory productCategoryId="PTNJLI_MOST_POPULAR" productCategoryTypeId="CATALOG_CATEGORY" categoryName="Most Popular" description="Most Popular"/>
+    <ProductCategory productCategoryId="PTNJLI_SALE" productCategoryTypeId="CATALOG_CATEGORY" categoryName="Sale Product" description="Sale Product"/>
+    
+     <ProdCatalogCategory prodCatalogId="PATANJALI_CATALOG" productCategoryId="PTNJLI_BROWSE_ROOT" fromDate="2001-05-13 12:00:00.0"
+        sequenceNum="1" prodCatalogCategoryTypeId="PCCT_BROWSE_ROOT"/>
+    <ProdCatalogCategory prodCatalogId="PATANJALI_CATALOG" productCategoryId="PTNJLI_ALL_PRODUCTS" fromDate="2009-08-13 14:00:00.0" 
+    	sequenceNum="2" prodCatalogCategoryTypeId="PCCT_VIEW_ALLW"/>
+	<ProdCatalogCategory prodCatalogId="PATANJALI_CATALOG" productCategoryId="PTNJLI_ALL_PRODUCTS" fromDate="2009-08-13 14:00:00.0"
+		sequenceNum="3" prodCatalogCategoryTypeId="PCCT_PURCH_ALLW"/>
+	<ProdCatalogCategory prodCatalogId="PATANJALI_CATALOG" productCategoryId="PTNJLI_PROMOTIONS" fromDate="2001-05-13 12:00:00.0"
+        sequenceNum="4" prodCatalogCategoryTypeId="PCCT_PROMOTIONS"/>
+    <ProdCatalogCategory prodCatalogId="PATANJALI_CATALOG" productCategoryId="PTNJLI_NEW_ARRIVAL" fromDate="2001-05-13 12:00:00.0"
+        sequenceNum="5" prodCatalogCategoryTypeId="PCCT_WHATS_NEW"/>
+    <ProdCatalogCategory prodCatalogId="PATANJALI_CATALOG" productCategoryId="PTNJLI_MOST_POPULAR" fromDate="2001-05-13 12:00:00.0"
+        sequenceNum="6" prodCatalogCategoryTypeId="PCCT_MOST_POPULAR"/>    	
+    <ProdCatalogCategory prodCatalogId="PATANJALI_CATALOG" productCategoryId="PTNJLI_SEARCH" fromDate="2001-05-13 12:00:00.0"
+        sequenceNum="7" prodCatalogCategoryTypeId="PCCT_SEARCH"/>
+        
+	<ProductCategory productCategoryId="TAX_SLAB_0" categoryName="Nil (No Tax)" productCategoryTypeId="TAX_CATEGORY"/>
+	<ProductCategory productCategoryId="TAX_SLAB_5" categoryName="GST [5% Tax]" productCategoryTypeId="TAX_CATEGORY"/>
+	<ProductCategory productCategoryId="TAX_SLAB_12" categoryName="GST [12% Tax]" productCategoryTypeId="TAX_CATEGORY"/>
+ 	<ProductCategory productCategoryId="TAX_SLAB_18" categoryName="GST [18% Tax]" productCategoryTypeId="TAX_CATEGORY"/>
+ 	<ProductCategory productCategoryId="TAX_SLAB_28" categoryName="GST [28% Tax]" productCategoryTypeId="TAX_CATEGORY"/>
+
+<!-- Tax Authorities and their GL Account mapping for whole India country -->
+ 	<TaxAuthorityCategory taxAuthGeoId="IND" taxAuthPartyId="IND_DOR" productCategoryId="TAX_SLAB_0"/>
+ 	<TaxAuthorityCategory taxAuthGeoId="IND" taxAuthPartyId="IND_DOR" productCategoryId="TAX_SLAB_5"/>
+ 	<TaxAuthorityRateProduct taxAuthorityRateSeqId="TAX_SLAB_5" taxAuthGeoId="IND" taxAuthPartyId="IND_DOR" taxAuthorityRateTypeId="SALES_TAX" productStoreId=""
+ 	productCategoryId="TAX_SLAB_5"  minItemPrice="0.00" minPurchase="0.00" taxShipping="N" taxPercentage="5.00" taxPromotions="N" 
+ 	fromDate="2001-05-13 00:00:00.001" thruDate="" description="GST [5% Tax Slab]"/>
+ 	<TaxAuthorityCategory taxAuthGeoId="IND" taxAuthPartyId="IND_DOR" productCategoryId="TAX_SLAB_12"/>
+ 	<TaxAuthorityRateProduct taxAuthorityRateSeqId="TAX_SLAB_12" taxAuthGeoId="IND" taxAuthPartyId="IND_DOR" taxAuthorityRateTypeId="SALES_TAX" productStoreId=""
+ 	productCategoryId="TAX_SLAB_12"  minItemPrice="0.00" minPurchase="0.00" taxShipping="N" taxPercentage="12.00" taxPromotions="N" 
+ 	fromDate="2001-05-13 00:00:00.001" thruDate="" description="GST [12% Tax Slab]"/>
+ 	<TaxAuthorityCategory taxAuthGeoId="IND" taxAuthPartyId="IND_DOR" productCategoryId="TAX_SLAB_18"/>
+ 	<TaxAuthorityRateProduct taxAuthorityRateSeqId="TAX_SLAB_18" taxAuthGeoId="IND" taxAuthPartyId="IND_DOR" taxAuthorityRateTypeId="SALES_TAX" productStoreId=""
+ 	productCategoryId="TAX_SLAB_18"  minItemPrice="0.00" minPurchase="0.00" taxShipping="N" taxPercentage="18.00" taxPromotions="N" 
+ 	fromDate="2001-05-13 00:00:00.001" thruDate="" description="GST [18% Tax Slab]"/>
+ 	<TaxAuthorityCategory taxAuthGeoId="IND" taxAuthPartyId="IND_DOR" productCategoryId="TAX_SLAB_28"/>
+ 	<TaxAuthorityRateProduct taxAuthorityRateSeqId="TAX_SLAB_28" taxAuthGeoId="IND" taxAuthPartyId="IND_DOR" taxAuthorityRateTypeId="SALES_TAX" productStoreId=""
+ 	productCategoryId="TAX_SLAB_28"  minItemPrice="0.00" minPurchase="0.00" taxShipping="N" taxPercentage="28.00" taxPromotions="N" 
+ 	fromDate="2001-05-13 00:00:00.001" thruDate="" description="GST [28% Tax Slab]"/>
+ 	
+ 	
+ 	<!--  Liabilities End-->
+ 	
+ 	
+ 	<!-- Assets Start -->
+ 	
+ 	<!-- END Default mapping between account types and account ids -->
+ 	
+ 	
+ 	
+	<PartyTaxAuthInfo partyId="patanjali" taxAuthGeoId="IND" taxAuthPartyId="IND_DOR" fromDate="2001-05-13 00:00:00.000" partyTaxId="05AAFCP9461Q1ZO" isExempt="N"/>
+	
+	<Party partyId="IND_IGST" partyTypeId="PARTY_GROUP"/>
+    <PartyGroup partyId="IND_IGST" groupName="IGST - IGST Tax"/>
+    <PartyRole partyId="IND_IGST" roleTypeId="TAX_AUTHORITY"/>
+    <TaxAuthority taxAuthGeoId="IND" taxAuthPartyId="IND_IGST" taxIdFormatPattern="\d{2}\-\d{7}|\d{3}\-\d{2}\-\d{4}" includeTaxInPrice="N"/>	
+	
+	<Party partyId="IND_CGST" partyTypeId="PARTY_GROUP"/>
+    <PartyGroup partyId="IND_CGST" groupName="CGST - CGST Tax"/>
+    <PartyRole partyId="IND_CGST" roleTypeId="TAX_AUTHORITY"/>
+    <TaxAuthority taxAuthGeoId="IND" taxAuthPartyId="IND_CGST" taxIdFormatPattern="\d{2}\-\d{7}|\d{3}\-\d{2}\-\d{4}" includeTaxInPrice="N"/>
+    
+	<Party partyId="IND_SGST" partyTypeId="PARTY_GROUP"/>
+    <PartyGroup partyId="IND_SGST" groupName="SGST - SGST Tax"/>
+    <PartyRole partyId="IND_SGST" roleTypeId="TAX_AUTHORITY"/>
+    <TaxAuthority taxAuthGeoId="IND" taxAuthPartyId="IND_SGST" taxIdFormatPattern="\d{2}\-\d{7}|\d{3}\-\d{2}\-\d{4}" includeTaxInPrice="N"/>
+    
+	<Party partyId="IND_UGST" partyTypeId="PARTY_GROUP"/>
+    <PartyGroup partyId="IND_UGST" groupName="UGST - UGST Tax"/>
+    <PartyRole partyId="IND_UGST" roleTypeId="TAX_AUTHORITY"/>
+    <TaxAuthority taxAuthGeoId="IND" taxAuthPartyId="IND_UGST" taxIdFormatPattern="\d{2}\-\d{7}|\d{3}\-\d{2}\-\d{4}" includeTaxInPrice="N"/>
+    
+    
+    
+    <TaxAuthorityAssocType taxAuthorityAssocTypeId="GST_INHER" description="Add GST Inheritance"/>
+    <TaxAuthorityAssoc taxAuthGeoId="IND" taxAuthPartyId="IND_DOR" toTaxAuthGeoId="IND" toTaxAuthPartyId="IND_IGST" taxAuthorityAssocTypeId="GST_INHER" fromDate="2001-05-13 00:00:00.001"/>
+    <TaxAuthorityAssoc taxAuthGeoId="IND" taxAuthPartyId="IND_DOR" toTaxAuthGeoId="IND" toTaxAuthPartyId="IND_CGST" taxAuthorityAssocTypeId="GST_INHER" fromDate="2001-05-13 00:00:00.001"/>
+    <TaxAuthorityAssoc taxAuthGeoId="IND" taxAuthPartyId="IND_DOR" toTaxAuthGeoId="IND" toTaxAuthPartyId="IND_SGST" taxAuthorityAssocTypeId="GST_INHER" fromDate="2001-05-13 00:00:00.001"/>
+    <TaxAuthorityAssoc taxAuthGeoId="IND" taxAuthPartyId="IND_DOR" toTaxAuthGeoId="IND" toTaxAuthPartyId="IND_UGST" taxAuthorityAssocTypeId="GST_INHER" fromDate="2001-05-13 00:00:00.001"/> 
+<!-- 
+    <TaxAuthorityAssoc taxAuthGeoId="_NA_" taxAuthPartyId="_NA_" toTaxAuthGeoId="IND" toTaxAuthPartyId="IND_IGST" taxAuthorityAssocTypeId="GST_INHER" fromDate="2001-05-13 00:00:00.001"/>
+    <TaxAuthorityAssoc taxAuthGeoId="_NA_" taxAuthPartyId="_NA_" toTaxAuthGeoId="IND" toTaxAuthPartyId="IND_CGST" taxAuthorityAssocTypeId="GST_INHER" fromDate="2001-05-13 00:00:00.001"/>
+    <TaxAuthorityAssoc taxAuthGeoId="_NA_" taxAuthPartyId="_NA_" toTaxAuthGeoId="IND" toTaxAuthPartyId="IND_SGST" taxAuthorityAssocTypeId="GST_INHER" fromDate="2001-05-13 00:00:00.001"/>
+    <TaxAuthorityAssoc taxAuthGeoId="_NA_" taxAuthPartyId="_NA_" toTaxAuthGeoId="IND" toTaxAuthPartyId="IND_UGST" taxAuthorityAssocTypeId="GST_INHER" fromDate="2001-05-13 00:00:00.001"/>        	
+ -->               	
+
+	
+    <InvoiceItemType description="Invoice Tax(Sales)" hasTable="N" invoiceItemTypeId="INV_SALES_TAX" parentTypeId="SINVOICE_HEAD_ADJ"/>
+    <InvoiceItemType description="Invoice Item Tax(Sales)" hasTable="N" invoiceItemTypeId="ITM_SALES_TAX" parentTypeId="SINVOICE_ITM_ADJ"/>
+    <InvoiceItemType description="Invoice Tax(Purchase)" hasTable="N" invoiceItemTypeId="PINV_SALES_TAX" parentTypeId="PINVOICE_ADJ"/>
+    <InvoiceItemType description="Invoice Item Tax(Purchase)" hasTable="N" invoiceItemTypeId="PITM_SALES_TAX" parentTypeId="PINVOICE_ITM_ADJ"/>
+    <InvoiceItemType description="Return Tax" hasTable="N" invoiceItemTypeId="CRT_SALES_TAX_ADJ" parentTypeId="CRETURN_ADJ"/>
+    <InvoiceItemType description="Return Tax" hasTable="N" invoiceItemTypeId="SRT_SALES_TAX_ADJ" parentTypeId="SRETURN_ADJ"/>
+    
+    <Enumeration description="Sales Invoice Tax" enumCode="INV_SALES_TAX" enumId="INV_SALES_TAX" sequenceId="01" enumTypeId="TAXABLE_INV_ITM_TY"/>
+    <Enumeration description="Sales Invoice Line Item Tax" enumCode="ITM_SALES_TAX" enumId="ITM_SALES_TAX" sequenceId="02" enumTypeId="TAXABLE_INV_ITM_TY"/>
+    <Enumeration description="Purchase Invoice Tax" enumCode="PINV_SALES_TAX" enumId="PINV_SALES_TAX" sequenceId="03" enumTypeId="TAXABLE_INV_ITM_TY"/>
+    <Enumeration description="Purchase Invoice Line Item Tax" enumCode="PITM_SALES_TAX" enumId="PITM_SALES_TAX" sequenceId="04" enumTypeId="TAXABLE_INV_ITM_TY"/>
+    <Enumeration description="Customer Return Tax Adjustment" enumCode="CRT_SALES_TAX_ADJ" enumId="CRT_SALES_TAX_ADJ" sequenceId="05" enumTypeId="TAXABLE_INV_ITM_TY"/>
+ 	
+ 	<ProductCategory productCategoryId="bio_fertilizer" productCategoryTypeId="CATALOG_CATEGORY" categoryName="Bio Fertilizer" description="Bio Fertilizer" categoryImageUrl="" />
+   	<ProductCategoryRollup productCategoryId="bio_fertilizer" parentProductCategoryId="PTNJLI_BROWSE_ROOT" fromDate="2001-05-13 12:00:00.0" sequenceNum="1"/>
+
+<ProductCategory productCategoryId="organic_manure" productCategoryTypeId="CATALOG_CATEGORY" categoryName="Organic Manure" description="Organic Manure" categoryImageUrl="" />
+   	<ProductCategoryRollup productCategoryId="organic_manure" parentProductCategoryId="PTNJLI_BROWSE_ROOT" fromDate="2001-05-13 12:00:00.0" sequenceNum="2"/>
+
+<ProductCategory productCategoryId="bio_pesticide" productCategoryTypeId="CATALOG_CATEGORY" categoryName="Bio Pesticide" description="Bio Pesticide" categoryImageUrl="" />
+   	<ProductCategoryRollup productCategoryId="bio_pesticide" parentProductCategoryId="PTNJLI_BROWSE_ROOT" fromDate="2001-05-13 12:00:00.0" sequenceNum="3"/>
+
+<ProductCategory productCategoryId="raw_material" productCategoryTypeId="CATALOG_CATEGORY" categoryName="Raw Material" description="Raw Material" categoryImageUrl="" />
+   	<ProductCategoryRollup productCategoryId="raw_material" parentProductCategoryId="PTNJLI_BROWSE_ROOT" fromDate="2001-05-13 12:00:00.0" sequenceNum="4"/>
+
+<ProductCategory productCategoryId="packing_material" productCategoryTypeId="CATALOG_CATEGORY" categoryName="Packing Material" description="Packing Material" categoryImageUrl="" />
+   	<ProductCategoryRollup productCategoryId="packing_material" parentProductCategoryId="PTNJLI_BROWSE_ROOT" fromDate="2001-05-13 12:00:00.0" sequenceNum="5"/>
+
+<ProductCategory productCategoryId="semi_finish_product" productCategoryTypeId="CATALOG_CATEGORY" categoryName="Semi Finish Product" description="Semi Finish Product" categoryImageUrl="" />
+   	<ProductCategoryRollup productCategoryId="semi_finish_product" parentProductCategoryId="PTNJLI_BROWSE_ROOT" fromDate="2001-05-13 12:00:00.0" sequenceNum="6"/>
+
+<ProductCategory productCategoryId="general" productCategoryTypeId="CATALOG_CATEGORY" categoryName="General" description="General" categoryImageUrl="" />
+   	<ProductCategoryRollup productCategoryId="general" parentProductCategoryId="PTNJLI_BROWSE_ROOT" fromDate="2001-05-13 12:00:00.0" sequenceNum="7"/>
+
+<ProductCategory productCategoryId="it_services" productCategoryTypeId="CATALOG_CATEGORY" categoryName="IT Services" description="IT Services" categoryImageUrl="" />
+   	<ProductCategoryRollup productCategoryId="it_services" parentProductCategoryId="PTNJLI_BROWSE_ROOT" fromDate="2001-05-13 12:00:00.0" sequenceNum="8"/>
+
+<ProductCategory productCategoryId="rtn_dmgd_material" productCategoryTypeId="CATALOG_CATEGORY" categoryName="Returned / Damaged Material" description="Returned / Damaged Material" categoryImageUrl="" />
+   	<ProductCategoryRollup productCategoryId="rtn_dmgd_material" parentProductCategoryId="PTNJLI_BROWSE_ROOT" fromDate="2001-05-13 12:00:00.0" sequenceNum="9"/>
+
+<ProductCategory productCategoryId="assets" productCategoryTypeId="CATALOG_CATEGORY" categoryName="Assets" description="Assets" categoryImageUrl="" />
+   	<ProductCategoryRollup productCategoryId="assets" parentProductCategoryId="PTNJLI_BROWSE_ROOT" fromDate="2001-05-13 12:00:00.0" sequenceNum="10"/>
+
+<ProductCategory productCategoryId="consumable_items" productCategoryTypeId="CATALOG_CATEGORY" categoryName="Consumable Items" description="Consumable Items" categoryImageUrl="" />
+   	<ProductCategoryRollup productCategoryId="consumable_items" parentProductCategoryId="PTNJLI_BROWSE_ROOT" fromDate="2001-05-13 12:00:00.0" sequenceNum="11"/>
+
+<ProductCategory productCategoryId="publicity_material" productCategoryTypeId="CATALOG_CATEGORY" categoryName="Publicity Material" description="Publicity Material" categoryImageUrl="" />
+   	<ProductCategoryRollup productCategoryId="publicity_material" parentProductCategoryId="PTNJLI_BROWSE_ROOT" fromDate="2001-05-13 12:00:00.0" sequenceNum="12"/>
+
+<ProductCategory productCategoryId="lab_chemicals" productCategoryTypeId="CATALOG_CATEGORY" categoryName="Lab Chemicals" description="Lab Chemicals" categoryImageUrl="" />
+   	<ProductCategoryRollup productCategoryId="lab_chemicals" parentProductCategoryId="PTNJLI_BROWSE_ROOT" fromDate="2001-05-13 12:00:00.0" sequenceNum="13"/>
+
+<ProductCategory productCategoryId="service_charge" productCategoryTypeId="CATALOG_CATEGORY" categoryName="Service Charge" description="Service Charge" categoryImageUrl="" />
+   	<ProductCategoryRollup productCategoryId="service_charge" parentProductCategoryId="PTNJLI_BROWSE_ROOT" fromDate="2001-05-13 12:00:00.0" sequenceNum="14"/>
+
+<ProductCategory productCategoryId="soil_test_kit" productCategoryTypeId="CATALOG_CATEGORY" categoryName="Soil Test Kit" description="Soil Test Kit" categoryImageUrl="" />
+   	<ProductCategoryRollup productCategoryId="soil_test_kit" parentProductCategoryId="PTNJLI_BROWSE_ROOT" fromDate="2001-05-13 12:00:00.0" sequenceNum="15"/>
+ 	
+<ProductCategory productCategoryId="other" productCategoryTypeId="CATALOG_CATEGORY" categoryName="--None--" description="--None--" categoryImageUrl="" />
+	<ProductCategoryRollup productCategoryId="other" parentProductCategoryId="PTNJLI_BROWSE_ROOT" fromDate="2001-05-13 12:00:00.0" sequenceNum="15"/>
+ <ProductCategory productCategoryId="organic_fertilizer" productCategoryTypeId="CATALOG_CATEGORY" categoryName="Organic Fertilizer" description="Organic Fertilizer" categoryImageUrl="" />
+	<ProductCategoryRollup productCategoryId="organic_fertilizer" parentProductCategoryId="PTNJLI_BROWSE_ROOT" fromDate="2001-05-13 12:00:00.0" sequenceNum="16"/>
+ 	
+    <!-- Some Sample Time Periods, two Years with Quarters -->
+    <CustomTimePeriod organizationPartyId="patanjali" customTimePeriodId="6010" periodTypeId="FISCAL_YEAR" fromDate="2019-04-01 00:00:00.000" thruDate="2020-04-01 23:59:59.000" isClosed="N" periodNum="1" periodName="19-20"/>
+    <CustomTimePeriod organizationPartyId="patanjali" customTimePeriodId="6011" periodTypeId="FISCAL_MONTH" fromDate="2019-04-01 00:00:00.000" thruDate="2019-05-01 23:59:59.000" isClosed="N" periodNum="2" periodName="2019/M1" parentPeriodId="6010"/>
+    <CustomTimePeriod organizationPartyId="patanjali" customTimePeriodId="6012" periodTypeId="FISCAL_MONTH" fromDate="2019-05-01 00:00:00.000" thruDate="2019-06-01 23:59:59.000" isClosed="N" periodNum="3" periodName="2019/M2" parentPeriodId="6010"/>
+    <CustomTimePeriod organizationPartyId="patanjali" customTimePeriodId="6013" periodTypeId="FISCAL_MONTH" fromDate="2019-06-01 00:00:00.000" thruDate="2019-07-01 23:59:59.000" isClosed="N" periodNum="4" periodName="2019/M3" parentPeriodId="6010"/>
+    <CustomTimePeriod organizationPartyId="patanjali" customTimePeriodId="6014" periodTypeId="FISCAL_MONTH" fromDate="2019-07-01 00:00:00.000" thruDate="2019-08-01 23:59:59.000" isClosed="N" periodNum="5" periodName="2019/M4" parentPeriodId="6010"/>
+    <CustomTimePeriod organizationPartyId="patanjali" customTimePeriodId="6015" periodTypeId="FISCAL_QUARTER" fromDate="2019-04-01 00:00:00.000" thruDate="2019-08-01 23:59:59.000" isClosed="N" periodNum="6" periodName="2019/Q1" parentPeriodId="6010"/>
+   	
+<!--    <AcctgTrans acctgTransId="P10001" acctgTransTypeId="PERIOD_CLOSING" createdByUserLogin="admin" glFiscalTypeId="ACTUAL" isPosted="Y" lastModifiedByUserLogin="admin" postedDate="2019-03-31 00:00:10.001" transactionDate="2019-03-31 00:00:10.001"/> -->
+
+<!-- <AcctgTransEntry acctgTransEntrySeqId="P10000" acctgTransEntryTypeId="_NA_" acctgTransId="P10001" amount="0" currencyUomId="INR" debitCreditFlag="C" glAccountId="C419046" glAccountTypeId="CURRENT_ASSET" organizationPartyId="patanjali" origAmount="0" reconcileStatusId="AES_NOT_RECONCILED"/> -->
+
+<!-- <AcctgTrans acctgTransId="P10002" acctgTransTypeId="PERIOD_CLOSING" createdByUserLogin="admin" glFiscalTypeId="ACTUAL" isPosted="Y" lastModifiedByUserLogin="admin" postedDate="2019-03-31 00:00:10.001" transactionDate="2019-03-31 00:00:10.001"/> -->
+
+<!-- <AcctgTransEntry acctgTransEntrySeqId="P10000" acctgTransEntryTypeId="_NA_" acctgTransId="P10002" amount="660" currencyUomId="INR" debitCreditFlag="C" glAccountId="C419044" glAccountTypeId="CURRENT_ASSET" organizationPartyId="patanjali" origAmount="660" reconcileStatusId="AES_NOT_RECONCILED"/> -->
+
+</entity-engine-xml>

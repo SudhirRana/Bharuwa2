@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+ 
+<data-files xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="http://ofbiz.apache.org/dtds/datafiles.xsd">
+    <data-file name="CreateParty" separator-style="delimited" type-code="text" delimiter="," text-delimiter="&quot;"  description="this takes the party data from datafile csv"  start-line="1">
+        <record name="Party" limit="many">
+            <field name="partyId" type="String"  ignored="false"/>
+            <field name="partyTypeId" type="String" />
+            <field name="statusId" type="String" />
+        </record>
+    </data-file>
+    <data-file name="CreatePartyGroup" separator-style="delimited" type-code="UTF-8" delimiter="," text-delimiter="&quot;"  description="this takes the party group data from datafile csv" start-line="1">
+        <record name="PartyGroup" limit="many">
+            <field name="partyId" type="String" ignored="false"/>
+            <field name="groupName" type="String" ignored="false"/>
+            <field name="groupNameLocal" type="String" ignored="false"/>
+        </record>
+    </data-file>
+    <data-file name="CreateContactMech" separator-style="delimited" type-code="text" delimiter="," text-delimiter="&quot;"  description="this takes the party  Contact Mech data from datafile csv"  start-line="1">
+        <record name="ContactMech" limit="many">
+            <field name="contactMechId" type="String"  ignored="false"/>
+            <field name="contactMechTypeId" type="String"/>
+        </record>
+    </data-file>
+    
+    <data-file name="CreatePartyContactMech" separator-style="delimited" type-code="text" delimiter="," text-delimiter="&quot;"  description="this takes the party  Contact Mech data from datafile csv"  start-line="1">
+        <record name="PartyContactMech" limit="many">
+        	<field name="partyId" type="String" ignored="false"/>
+            <field name="contactMechId" type="String"  ignored="false"/>
+            <field name="fromDate" type="Timestamp" />
+            <field name="allowSolicitation" type="String" expression="true" default-value="Y" />
+        </record>
+    </data-file>
+    
+    <data-file name="CreatePostalAddress" separator-style="delimited" type-code="text" delimiter="," text-delimiter="&quot;"  description="this takes the party  Contact Mech data from datafile csv"  start-line="1">
+        <record name="PostalAddress" limit="many">
+        	<field name="contactMechId" type="String" ignored="false"/>
+            <field name="countryGeoId" type="String"  ignored="false"/>
+            <field name="stateProvinceGeoId" type="String" />
+            <field name="address1" type="String"  ignored="false"/>
+            <field name="address2" type="String" />
+            <field name="toName" type="String" />
+            <field name="postalCode" type="String" />
+            <field name="city" type="String" />
+        </record>
+    </data-file>
+    
+    <data-file name="CreatePartyContactMechPurpose" separator-style="delimited" type-code="text" delimiter="," text-delimiter="&quot;"  description="this takes the party  Contact Mech data from datafile csv"  start-line="1">
+        <record name="PartyContactMechPurpose" limit="many">
+        	<field name="partyId" type="String" ignored="false"/>
+            <field name="contactMechId" type="String"  ignored="false"/>
+            <field name="fromDate" type="Timestamp" />
+            <field name="contactMechPurposeTypeId" type="String" />
+        </record>
+    </data-file>
+    <!-- <data-file name="partyEmailContactMechPurpose" separator-style="delimited" type-code="text" delimiter="," text-delimiter="&quot;"  description="this takes the party  Contact Mech data from datafile csv"  start-line="1">
+        <record name="PartyContactMechPurpose" limit="many">
+        	<field name="partyId" type="String" ignored="false"/>
+            <field name="contactMechId" type="String"  ignored="false"/>
+            <field name="fromDate" type="Timestamp" />
+            <field name="contactMechPurposeTypeId" type="String" expression="true" default-value="PRIMARY_EMAIL" />
+        </record>
+    </data-file> -->
+     <data-file name="CreateEmailContactMech" separator-style="delimited" type-code="text" delimiter="," text-delimiter="&quot;"  description="this takes the party  Contact Mech data from datafile csv"  start-line="1">
+        <record name="ContactMech" limit="many">
+            <field name="contactMechId" type="String"  ignored="false"/>
+            <field name="infoString" type="String" ignored="false"/>
+            <field name="contactMechTypeId" type="String" expression="true" default-value="EMAIL_ADDRESS"/>
+        </record>
+    </data-file>
+    <data-file name="CreatePartyTelecomNumber" separator-style="delimited" type-code="text" delimiter="," text-delimiter="&quot;"  description="this takes the party  Contact Mech data from datafile csv"  start-line="1">
+        <record name="TelecomNumber" limit="many">
+            <field name="contactMechId" type="String"  ignored="false"/>
+            <field name="contactNumber" type="String" />
+            <field name="countryCode" type="String" />
+            <field name="areaCode" type="String" />
+        </record>
+    </data-file>
+    
+    <data-file name="CreatePartyStatus" separator-style="delimited" type-code="text" delimiter="," text-delimiter="&quot;"  description="this takes the party  Contact Mech data from datafile csv"  start-line="1">
+        <record name="PartyStatus" limit="many">
+        	<field name="partyId" type="String" ignored="false"/>
+            <field name="statusDate" type="Timestamp" />
+            <field name="statusId" type="String" />
+        </record>
+    </data-file>
+    
+    <data-file name="CreatePartyRole" separator-style="delimited" type-code="text" delimiter="," text-delimiter="&quot;"  description="this takes the party  Contact Mech data from datafile csv"  start-line="1">
+        <record name="PartyRole" limit="many">
+        	<field name="partyId" type="String" ignored="false"/>
+            <field name="roleTypeId" type="String" />
+        </record>
+    </data-file>
+    
+    <data-file name="CreatePartyIdentification" separator-style="delimited" type-code="text" delimiter="," text-delimiter="&quot;"  description="this takes the party  Contact Mech data from datafile csv"  start-line="1">
+        <record name="PartyIdentification" limit="many">
+        	<field name="partyId" type="String" ignored="false"/>
+            <field name="partyIdentificationTypeId" type="String" ignored="false"/>
+            <field name="idValue" type="String" />
+        </record>
+    </data-file>
+</data-files>

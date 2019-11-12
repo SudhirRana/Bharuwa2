@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Licensed to the Apache Software Foundation (ASF) under one
+or more contributor license agreements.  See the NOTICE file
+distributed with this work for additional information
+regarding copyright ownership.  The ASF licenses this file
+to you under the Apache License, Version 2.0 (the
+"License"); you may not use this file except in compliance
+with the License.  You may obtain a copy of the License at
+
+http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+        xmlns="http://ofbiz.apache.org/Widget-Form" xsi:schemaLocation="http://ofbiz.apache.org/Widget-Form http://ofbiz.apache.org/dtds/widget-form.xsd">
+
+    <form name="ListGlAccountOrganization" list-name="listIt" target="" title="" type="list" view-size="50"
+        odd-row-style="alternate-row" header-row-style="header-row-2" default-table-style="basic-table hover-bar" paginate-target="ListGlAccountOrganization">
+        <actions>
+            <entity-condition entity-name="GlAccountOrganizationAndClass">
+                <condition-expr field-name="organizationPartyId" from-field="organizationPartyId"/>
+                <order-by field-name="accountCode"/>
+            </entity-condition>
+        </actions>
+        <field name="accountCode" title="${uiLabelMap.CommonCode}" widget-style="buttontext">
+            <hyperlink description="${accountCode}" target="GlAccountNavigate" also-hidden="false">
+                <parameter param-name="glAccountId"/>
+            </hyperlink>
+        </field>
+        <field name="accountName" entry-name="glAccountId"><display-entity entity-name="GlAccount" key-field-name="glAccountId" description="${accountName}"/></field>
+        <field name="parentGlAccountId">
+            <display-entity entity-name="GlAccount" description="${accountName}" key-field-name="glAccountId">
+                <sub-hyperlink target="GlAccountNavigate" description="[${parentGlAccountId}]" use-when="parentGlAccountId!=null">
+                    <parameter param-name="glAccountId"/>
+                </sub-hyperlink>
+            </display-entity>
+        </field>
+        <field name="glAccountTypeId"><display-entity entity-name="GlAccountType"/></field>
+        <field name="glAccountClassId"><display-entity entity-name="GlAccountClass"/></field>
+        <field name="glResourceTypeId"><display-entity entity-name="GlResourceType"/></field>
+        <field name="glXbrlClassId"><display-entity entity-name="GlXbrlClass"/></field>
+
+        <field name="description"><display/></field>
+        <field name="productId"><display-entity entity-name="Product"/></field>
+        <field name="externalId"><display/></field>
+    </form>
+    
+    <form name="GenerateGstr2Reports" type="single" target="ExportGstr2Report.csv" title="" >
+        <field name="organizationPartyId"><hidden value="${parameters.organizationPartyId}"/></field>
+        <field position="1" name="reportType">
+	        <drop-down allow-empty="false" current="selected">
+	            <option key="b2b" description="b2b"/>
+	            <option key="b2bur" description="b2bur"/>
+	            <option key="imps" description="imps"/>
+	            <option key="impg" description="impg"/>
+	            <option key="cdnr" description="cdnr"/>
+	            <option key="cdnur" description="cdnur"/>
+	            <option key="cdnura" description="cdnura"/>
+	            <option key="at" description="at"/>
+	            <option key="atadj" description="atadj"/>
+	            <option key="exemp" description="exemp"/>
+	            <option key="itcr" description="itcr"/>
+	            <option key="hsnsum" description="hsnsum"/>
+	        </drop-down>
+        </field>        
+        <field name="startDate"><date-time/></field>
+        <field name="endDate"><date-time/></field>
+        <field name="submitButton" title="${uiLabelMap.CommonSubmit}"><submit button-type="button"/></field>
+    </form>
+       
+    <form name="GenerateGstr1Reports" type="single" target="ExportGstInvoiceCsv.csv" title="" >
+        <field name="organizationPartyId"><hidden value="${parameters.organizationPartyId}"/></field>
+        <field position="1" name="reportType">
+	        <drop-down allow-empty="false" current="selected">
+	            <option key="b2b" description="b2b"/>
+	            <option key="b2ba" description="b2ba"/>
+	            <option key="b2cl" description="b2cl"/>
+	            <option key="b2cla" description="b2cla"/>
+	            <option key="b2cs" description="b2cs"/>
+	            <option key="b2csa" description="b2csa"/>
+	            <option key="cdnr" description="cdnr"/>
+	            <option key="cdnra" description="cdnra"/>
+	            <option key="cdnur" description="cdnur"/>
+	            <option key="cdnura" description="cdnura"/>
+	            <option key="exp" description="exp"/>
+	            <option key="expa" description="expa"/>
+	            <option key="at" description="at"/>
+	            <option key="ata" description="ata"/>
+	            <option key="atadj" description="atadj"/>
+	            <option key="atadja" description="atadja"/>
+	            <option key="exemp" description="exemp"/>
+	            <option key="hsn" description="hsn"/>
+	            <option key="docs" description="docs"/>
+	        </drop-down>
+        </field>        
+        <field name="startDate"><date-time/></field>
+        <field name="endDate"><date-time/></field>
+        <field name="submitButton" title="${uiLabelMap.CommonSubmit}"><submit button-type="button"/></field>
+    </form>
+
+    <form name="gstr1b2b" list-name="allReportWithHeader" target="" title="" type="list" view-size="99999">
+        <field name="partyGstn" title="GSTIN/UIN of Recipient"><display/></field>
+        <field name="partyName" title="Receiver Name"><display/></field>
+        <field name="invoiceId" title="Invoice Number"><display/></field>
+        <field name="invoiceDate" title="Invoice date"><display/></field>
+        <field name="invoiceAmount" title="Invoice Value"><display/></field>
+        <field name="shipToGeoId" title="Place Of Supply"><display/></field>
+        <field name="reverseCharges" title="Reverse Charge"><display/></field>
+        <field name="appTaxRatePer" title="Applicable % of Tax Rate"><display/></field>
+        <field name="invoiceType" title="Invoice Type"><display/></field>
+        <field name="ecomGSTN" title="E-Commerce GSTIN"><display/></field>
+        <field name="taxRate" title="Rate"><display/></field>
+        <field name="taxAmount" title="Taxable Value"><display/></field>
+        <field name="cessAmount" title="Cess Amount"><display/></field>
+    </form>
+    <form name="gstr1b2ba" list-name="allReportWithHeader" target="" title="" type="list" view-size="99999">
+        <!-- <field name="partyGstn" title="GSTIN/UIN of Recipient"><display/></field> -->
+        <field name="partyName" title="Receiver Name"><display/></field>
+		<field name="orgInvoiceId" title="Original Invoice Number"><display/></field>
+        <field name="orgInvoiceDate" title="Original Invoice date"><display/></field>        
+        <field name="invoiceId" title="Revised Invoice Number"><display/></field>
+        <field name="invoiceDate" title="Revised Invoice date"><display/></field>
+        <field name="invoiceAmount" title="Invoice Value"><display/></field>
+        <field name="shipToGeoId" title="Place Of Supply"><display/></field>
+        <field name="reverseCharges" title="Reverse Charge"><display/></field>
+        <field name="appTaxRatePer" title="Applicable % of Tax Rate"><display/></field>
+        <field name="invoiceType" title="Invoice Type"><display/></field>
+        <field name="ecomGSTN" title="E-Commerce GSTIN"><display/></field>
+        <field name="taxRate" title="Rate"><display/></field>
+        <field name="taxAmount" title="Taxable Value"><display/></field>
+        <field name="cessAmount" title="Cess Amount"><display/></field>
+    </form>    
+    <form name="gstr1b2cl" list-name="allReportWithHeader" target="" title="" type="list" view-size="99999">
+        <field name="invoiceId" title="Invoice Number"><display/></field>
+        <field name="invoiceDate" title="Invoice date"><display/></field>
+        <field name="invoiceAmount" title="Invoice Value"><display/></field>
+        <field name="shipToGeoId" title="Place Of Supply"><display/></field>
+        <field name="appTaxRatePer" title="Applicable % of Tax Rate"><display/></field>
+        <field name="taxRate" title="Rate"><display/></field>
+        <field name="taxAmount" title="Taxable Value"><display/></field>
+        <field name="cessAmount" title="Cess Amount"><display/></field>
+        <field name="ecomGSTN" title="E-Commerce GSTIN"><display/></field>
+        <field name="saleBondedWH" title="Sale from Bonded WH"><display/></field>
+    </form>    
+    <form name="gstr1b2cla" list-name="allReportWithHeader" target="" title="" type="list" view-size="99999">
+    	<field name="orgInvoiceDate" title="Original Invoice date"><display/></field>
+        <field name="orgShipToGeoId" title="Original Place Of Supply"><display/></field>
+        <field name="invoiceId" title="Revised Invoice Number"><display/></field>
+        <field name="invoiceDate" title="Revised Invoice date"><display/></field>
+        <field name="invoiceAmount" title="Invoice Value"><display/></field>
+        <field name="appTaxRatePer" title="Applicable % of Tax Rate"><display/></field>
+        <field name="taxRate" title="Rate"><display/></field>
+        <field name="taxAmount" title="Taxable Value"><display/></field>
+        <field name="cessAmount" title="Cess Amount"><display/></field>
+        <field name="ecomGSTN" title="E-Commerce GSTIN"><display/></field>
+        <field name="saleBondedWH" title="Sale from Bonded WH"><display/></field>
+    </form> 
+    <form name="gstr1b2cs" list-name="allReportWithHeader" target="" title="" type="list" view-size="99999">
+        <field name="type" title="Type"><display/></field>
+        <!-- <field name="invoiceId" title="Invoice Number"><display/></field> -->
+        <field name="shipToGeoId" title="Place Of Supply"><display/></field>
+        <field name="appTaxRatePer" title="Applicable % of Tax Rate"><display/></field>
+        <field name="taxRate" title="Rate"><display/></field>
+        <field name="taxAmount" title="Taxable Value"><display/></field>
+        <field name="cessAmount" title="Cess Amount"><display/></field>
+        <field name="ecomGSTN" title="E-Commerce GSTIN"><display/></field>
+    </form>  
+    <form name="gstr1b2csa" list-name="allReportWithHeader" target="" title="" type="list" view-size="99999">
+        <!-- <field name="invoiceId" title="Invoice Number"><display/></field> -->
+        <field name="orgFinancialYear" title="Financial Year"><display/></field>
+        <field name="orgMonth" title="Original Month"><display/></field>
+        <field name="shipToGeoId" title="Place Of Supply"><display/></field>
+        <field name="type" title="Type"><display/></field>
+        <field name="appTaxRatePer" title="Applicable % of Tax Rate"><display/></field>
+        <field name="taxRate" title="Rate"><display/></field>
+        <field name="taxAmount" title="Taxable Value"><display/></field>
+        <field name="cessAmount" title="Cess Amount"><display/></field>
+        <field name="ecomGSTN" title="E-Commerce GSTIN"><display/></field>
+    </form>
+    <form name="gstr1cdnr" list-name="allReportWithHeader" target="" title="" type="list" view-size="99999">
+        <field name="partyGstn" title="GSTIN/UIN of Recipient"><display/></field>
+        <field name="partyName" title="Receiver Name"><display/></field>
+        <field name="receiptId" title="Invoice/Advance Receipt Number"><display/></field>
+        <field name="receiptDate" title="Invoice/Advance Receipt date"><display/></field>
+        <field name="voucherNo" title="Note/Refund Voucher Number"><display/></field>
+        <field name="voucherDate" title="Note/Refund Voucher date"><display/></field>
+        <field name="documentType" title="Document Type"><display/></field>
+        <field name="shipToGeoId" title="Place Of Supply"><display/></field>
+		<field name="refundAmount" title="Note Refund Voucher Value"><display/></field>
+        <field name="appTaxRatePer" title="Applicable % of Tax Rate"><display/></field>
+        <field name="invoiceType" title="Invoice Type"><display/></field>
+        <field name="taxRate" title="Rate"><display/></field>
+        <field name="taxAmount" title="Taxable Value"><display/></field>
+        <field name="cessAmount" title="Cess Amount"><display/></field>
+        <field name="preGST" title="Pre GST"><display/></field>
+    </form>    
+    
+    <form name="gstr2b2b" list-name="allReportWithHeader" target="" title="" type="list" view-size="99999">
+        <field name="partyGstn" title="GSTIN/UIN of Recipient"><display/></field>
+        <field name="invoiceId" title="Invoice Number"><display/></field>
+        <field name="invoiceDate" title="Invoice date"><display/></field>
+        <field name="invoiceAmount" title="Invoice Value"><display/></field>
+        <field name="shipToGeoId" title="Place Of Supply"><display/></field>
+        <field name="reverseCharges" title="Reverse Charge"><display/></field>
+        <field name="invoiceType" title="Invoice Type"><display/></field>
+        <field name="taxRate" title="Rate"><display/></field>
+        <field name="taxAmount" title="Taxable Value"><display/></field>
+		<field name="integratedTaxPaid" title="Integrated Tax Paid"><display/></field>
+		<field name="centralTaxPaid" title="Central Tax Paid"><display/></field>
+		<field name="stateUTTax" title="State/UT Tax"><display/></field>        
+        <field name="cessAmount" title="Cess Paid"><display/></field>
+		<field name="eligibilityItc" title="Eligibility For ITC"><display/></field>
+		<field name="availItcIntegratedTax" title="Availed ITC Integrated Tax"><display/></field>
+		<field name="availItcCentralTax" title="Availed ITC Central Tax"><display/></field>
+		<field name="availItcStateTax" title="Availed ITC State/UT Tax"><display/></field>
+		<field name="availItcCess" title="Availed ITC Cess"><display/></field>
+        
+    </form>   
+    
+    <form name="gstr2b2bur" list-name="allReportWithHeader" target="" title="" type="list" view-size="99999">
+        <field name="supplierName" title="Supplier Name"><display/></field>
+        <field name="invoiceId" title="Invoice Number"><display/></field>
+        <field name="invoiceDate" title="Invoice date"><display/></field>
+        <field name="invoiceAmount" title="Invoice Value"><display/></field>
+        <field name="shipToGeoId" title="Place Of Supply"><display/></field>
+        <field name="supplyType" title="Supply Type"><display/></field>
+        <field name="taxRate" title="Rate"><display/></field>
+        <field name="taxAmount" title="Taxable Value"><display/></field>
+		<field name="integratedTaxPaid" title="Integrated Tax Paid"><display/></field>
+		<field name="centralTaxPaid" title="Central Tax Paid"><display/></field>
+		<field name="stateUTTax" title="State/UT Tax"><display/></field>        
+        <field name="cessAmount" title="Cess Paid"><display/></field>
+		<field name="eligibilityItc" title="Eligibility For ITC"><display/></field>
+		<field name="availItcIntegratedTax" title="Availed ITC Integrated Tax"><display/></field>
+		<field name="availItcCentralTax" title="Availed ITC Central Tax"><display/></field>
+		<field name="availItcStateTax" title="Availed ITC State/UT Tax"><display/></field>
+		<field name="availItcCess" title="Availed ITC Cess"><display/></field>
+        
+    </form>      
+    
+
+    <form name="GenerateGstr3BReport" type="single" target="ExportGstr3BReport.csv" title="" >
+        <field name="organizationPartyId"><hidden value="${parameters.organizationPartyId}"/></field>
+        <field position="1" name="reportType">
+	        <drop-down allow-empty="false" current="selected">
+	            <option key="gst3b" description="gst3b"/>
+	        </drop-down>
+        </field>        
+        <field name="startDate"><date-time/></field>
+        <field name="endDate"><date-time/></field>
+        <field name="submitButton" title="${uiLabelMap.CommonSubmit}"><submit button-type="button"/></field>
+    </form> 
+            
+    
+    <form name="ImportInvoice" type="upload" target="ImportInvoice" title="" >
+        <field name="organizationPartyId"><hidden value="patanjali"/></field>
+        <field name="uploadedFile"><file/></field>
+        <field name="submitButton" title="${uiLabelMap.CommonUpload}"><submit button-type="button"/></field>
+    </form>
+
+    <form name="ImportTransactions" type="upload" target="ImportTransactions" title="" >
+        <field name="organizationPartyId"><hidden value="patanjali"/></field>
+        <field name="uploadedFile"><file/></field>
+        <field name="submitButton" title="${uiLabelMap.CommonUpload}"><submit button-type="button"/></field>
+    </form>
+    
+    <form name="ImportSupplierProducts" type="upload" target="ImportSupplierProducts" title="" >
+        <field name="uploadedFile" ><file/></field>
+        <field name="submitButton" title="${uiLabelMap.CommonUpload}" tooltip="use csv file with given fields:- (Particulars,OfbizPartyCode,Item Details,OfbizProductCode,supplierProductId,minimumOrderQuantity,unitPrice,FromDate). Note:- date format '2019-04-01 00:00:00'"><submit button-type="button"/></field>
+    </form>
+    
+    <form name="ImportBOMData" type="upload" target="ImportBOMData" title="" >
+        <field name="uploadedFile" ><file/></field>
+        <field name="submitButton" title="${uiLabelMap.CommonUpload}" tooltip="Maximum bom item assocaited with main item"><submit button-type="button"/></field>
+    </form>
+    
+    <form name="EmployeesTimeSheet" type="upload" target="uploadEmployeesTimeSheet" title="" >
+        <field name="uploadedFile" ><file/></field>
+        <field name="submitButton" title="${uiLabelMap.CommonUpload}" tooltip="Please not enter duplicate record, only 1st one allow to store. Columns are:- OfbizPartyCode,W.Days,OvertimeW.Hours,FromDate,Comments. If you want any correction in values, do it manaully in timeEntry and invoiceItem entity"><submit button-type="button"/></field>
+    </form>
+    
+    <form name="EmployeeFixedSalaryStructure" type="upload" target="uploadEmployeeFixedSalaryStructure" title="" >
+        <field name="uploadedFile" ><file/></field>
+        <field name="submitButton" title="${uiLabelMap.CommonUpload}" tooltip="Please not enter duplicate record. Columns are:- OfbizPartyCode,W.Days,FromDate,comments"><submit button-type="button"/></field>
+    </form>
+    
+    <form name="CalculateEmployeesTime" type="upload" target="calculateEmployeesTime" title="" >
+        <field name="uploadedFile" ><file/></field>
+        <field name="submitButton" title="${uiLabelMap.CommonUpload}" tooltip="Please not enter duplicate record. Required Columns are:- USERID, CHECKTIME"><submit button-type="button"/></field>
+    </form>
+    
+    
+    
+</forms>

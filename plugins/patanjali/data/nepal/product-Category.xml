@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity-engine-xml>
+	<Uom abbreviation="CLD" description="CLD" uomId="UQC_cld" uomTypeId="UQC_MEASURE"/>
+	<Uom abbreviation="FT" description="FT" uomId="UQC_ft" uomTypeId="UQC_MEASURE"/>
+	<Uom abbreviation="JAR" description="JAR" uomId="UQC_jar" uomTypeId="UQC_MEASURE"/>
+	<Uom abbreviation="PAD" description="PAD" uomId="UQC_pad" uomTypeId="UQC_MEASURE"/>
+	<Uom abbreviation="PKT" description="PKT" uomId="UQC_pkt" uomTypeId="UQC_MEASURE"/>
+	<Uom abbreviation="TIN" description="TIN" uomId="UQC_tin" uomTypeId="UQC_MEASURE"/>
+	<ProductCategory productCategoryId="BEARING_FITTINGS" productCategoryTypeId="CATALOG_CATEGORY" categoryName="BEARING &amp; FITTINGS" description="BEARING &amp; FITTINGS" categoryImageUrl="" />   	
+	<ProductCategoryRollup productCategoryId="BEARING_FITTINGS" parentProductCategoryId="PTNJLI_BROWSE_ROOT" fromDate="2001-05-13 12:00:00.0" sequenceNum="1"/>
+	<ProductCategory productCategoryId="COMPUTER_ACCESSORIES" productCategoryTypeId="CATALOG_CATEGORY" categoryName="COMPUTER &amp; ACCESSORIES" description="COMPUTER &amp; ACCESSORIES" categoryImageUrl="" />   	
+	<ProductCategoryRollup productCategoryId="COMPUTER_ACCESSORIES" parentProductCategoryId="PTNJLI_BROWSE_ROOT" fromDate="2001-05-13 12:00:00.0" sequenceNum="2"/>
+	<ProductCategory productCategoryId="CONSUMABLES" productCategoryTypeId="CATALOG_CATEGORY" categoryName="CONSUMABLES" description="CONSUMABLES" categoryImageUrl="" />   	
+	<ProductCategoryRollup productCategoryId="CONSUMABLES" parentProductCategoryId="PTNJLI_BROWSE_ROOT" fromDate="2001-05-13 12:00:00.0" sequenceNum="3"/>
+	<ProductCategory productCategoryId="ELECTRICAL_FITTINGS" productCategoryTypeId="CATALOG_CATEGORY" categoryName="ELECTRICAL &amp; FITTINGS" description="ELECTRICAL &amp; FITTINGS" categoryImageUrl="" />   	
+	<ProductCategoryRollup productCategoryId="ELECTRICAL_FITTINGS" parentProductCategoryId="PTNJLI_BROWSE_ROOT" fromDate="2001-05-13 12:00:00.0" sequenceNum="4"/>
+	<ProductCategory productCategoryId="FINISHED_GOOD" productCategoryTypeId="CATALOG_CATEGORY" categoryName="FINISHED GOOD" description="FINISHED GOOD" categoryImageUrl="" />   	
+	<ProductCategoryRollup productCategoryId="FINISHED_GOOD" parentProductCategoryId="PTNJLI_BROWSE_ROOT" fromDate="2001-05-13 12:00:00.0" sequenceNum="5"/>
+	<ProductCategory productCategoryId="FUEL_OIL" productCategoryTypeId="CATALOG_CATEGORY" categoryName="FUEL &amp; OIL" description="FUEL &amp; OIL" categoryImageUrl="" />   	
+	<ProductCategoryRollup productCategoryId="FUEL_OIL" parentProductCategoryId="PTNJLI_BROWSE_ROOT" fromDate="2001-05-13 12:00:00.0" sequenceNum="6"/>
+	<ProductCategory productCategoryId="FURNITURE_FIXTURE" productCategoryTypeId="CATALOG_CATEGORY" categoryName="FURNITURE &amp; FIXTURE" description="FURNITURE &amp; FIXTURE" categoryImageUrl="" />   	
+	<ProductCategoryRollup productCategoryId="FURNITURE_FIXTURE" parentProductCategoryId="PTNJLI_BROWSE_ROOT" fromDate="2001-05-13 12:00:00.0" sequenceNum="7"/>
+	<ProductCategory productCategoryId="HOME_APPLIANCES" productCategoryTypeId="CATALOG_CATEGORY" categoryName="HOME APPLIANCES" description="HOME APPLIANCES" categoryImageUrl="" />   	
+	<ProductCategoryRollup productCategoryId="HOME_APPLIANCES" parentProductCategoryId="PTNJLI_BROWSE_ROOT" fromDate="2001-05-13 12:00:00.0" sequenceNum="8"/>
+	<ProductCategory productCategoryId="MACHINERY_FITTINGS" productCategoryTypeId="CATALOG_CATEGORY" categoryName="MACHINERY &amp; FITTINGS" description="MACHINERY &amp; FITTINGS" categoryImageUrl="" />   	
+	<ProductCategoryRollup productCategoryId="MACHINERY_FITTINGS" parentProductCategoryId="PTNJLI_BROWSE_ROOT" fromDate="2001-05-13 12:00:00.0" sequenceNum="9"/>
+	
+	<ProductCategory productCategoryId="MEDICINE" productCategoryTypeId="CATALOG_CATEGORY" categoryName="MEDICINE" description="MEDICINE" categoryImageUrl="" />   	
+	<ProductCategoryRollup productCategoryId="MEDICINE" parentProductCategoryId="PTNJLI_BROWSE_ROOT" fromDate="2001-05-13 12:00:00.0" sequenceNum="10"/>
+	<ProductCategory productCategoryId="NGPL_SEMI_FG" productCategoryTypeId="CATALOG_CATEGORY" categoryName="NGPL SEMI FINISHED GOODS" description="NGPL SEMI FINISHED GOODS" categoryImageUrl="" />   	
+	<ProductCategoryRollup productCategoryId="NGPL_SEMI_FG" parentProductCategoryId="PTNJLI_BROWSE_ROOT" fromDate="2001-05-13 12:00:00.0" sequenceNum="11"/>
+	<ProductCategory productCategoryId="PACKAGING_MATERIAL" productCategoryTypeId="CATALOG_CATEGORY" categoryName="PACKAGING MATERIAL" description="PACKAGING MATERIAL" categoryImageUrl="" />   	
+	<ProductCategoryRollup productCategoryId="PACKAGING_MATERIAL" parentProductCategoryId="PTNJLI_BROWSE_ROOT" fromDate="2001-05-13 12:00:00.0" sequenceNum="12"/>
+	<ProductCategory productCategoryId="PIPE_FITTINGS" productCategoryTypeId="CATALOG_CATEGORY" categoryName="PIPE &amp; FITTINGS" description="PIPE &amp; FITTINGS" categoryImageUrl="" />   	
+	<ProductCategoryRollup productCategoryId="PIPE_FITTINGS" parentProductCategoryId="PTNJLI_BROWSE_ROOT" fromDate="2001-05-13 12:00:00.0" sequenceNum="13"/>
+	<ProductCategory productCategoryId="PLANT_MACHINERY" productCategoryTypeId="CATALOG_CATEGORY" categoryName="PLANT &amp; MACHINERY" description="PLANT &amp; MACHINERY" categoryImageUrl="" />   	
+	<ProductCategoryRollup productCategoryId="PLANT_MACHINERY" parentProductCategoryId="PTNJLI_BROWSE_ROOT" fromDate="2001-05-13 12:00:00.0" sequenceNum="14"/>
+	<ProductCategory productCategoryId="PRINTING_STATIONERY" productCategoryTypeId="CATALOG_CATEGORY" categoryName="PRINTING &amp; STATIONERY" description="PRINTING &amp; STATIONERY" categoryImageUrl="" />   	
+	<ProductCategoryRollup productCategoryId="PRINTING_STATIONERY" parentProductCategoryId="PTNJLI_BROWSE_ROOT" fromDate="2001-05-13 12:00:00.0" sequenceNum="15"/>
+	<ProductCategory productCategoryId="RAW_MATERIAL" productCategoryTypeId="CATALOG_CATEGORY" categoryName="RAW MATERIAL" description="RAW MATERIAL" categoryImageUrl="" />   	
+	<ProductCategoryRollup productCategoryId="RAW_MATERIAL" parentProductCategoryId="PTNJLI_BROWSE_ROOT" fromDate="2001-05-13 12:00:00.0" sequenceNum="16"/>
+	<ProductCategory productCategoryId="SCRAP" productCategoryTypeId="CATALOG_CATEGORY" categoryName="SCRAP" description="SCRAP" categoryImageUrl="" />   	
+	<ProductCategoryRollup productCategoryId="SCRAP" parentProductCategoryId="PTNJLI_BROWSE_ROOT" fromDate="2001-05-13 12:00:00.0" sequenceNum="17"/>
+	<ProductCategory productCategoryId="SPARES" productCategoryTypeId="CATALOG_CATEGORY" categoryName="SPARES" description="SPARES" categoryImageUrl="" />   	
+	<ProductCategoryRollup productCategoryId="SPARES" parentProductCategoryId="PTNJLI_BROWSE_ROOT" fromDate="2001-05-13 12:00:00.0" sequenceNum="18"/>
+	<ProductCategory productCategoryId="TOOLS_MACHINERY" productCategoryTypeId="CATALOG_CATEGORY" categoryName="TOOLS &amp; MACHINERY" description="TOOLS &amp; MACHINERY" categoryImageUrl="" />   	
+	<ProductCategoryRollup productCategoryId="TOOLS_MACHINERY" parentProductCategoryId="PTNJLI_BROWSE_ROOT" fromDate="2001-05-13 12:00:00.0" sequenceNum="19"/>
+	<ProductCategory productCategoryId="WIRE_FITTINGS" productCategoryTypeId="CATALOG_CATEGORY" categoryName="WIRE &amp; FITTINGS" description="WIRE &amp; FITTINGS" categoryImageUrl="" />   	
+	<ProductCategoryRollup productCategoryId="WIRE_FITTINGS" parentProductCategoryId="PTNJLI_BROWSE_ROOT" fromDate="2001-05-13 12:00:00.0" sequenceNum="20"/>
+</entity-engine-xml>

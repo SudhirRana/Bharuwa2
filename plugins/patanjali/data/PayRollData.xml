@@ -1,0 +1,37 @@
+<entity-engine-xml>
+	<BenefitType benefitTypeId="HRA" description="House Rent Allowance" hasTable="N" employerPaidPercentage="35" /> 
+	<BenefitType benefitTypeId="CA" description="Conveyance Allowance" hasTable="N" />
+	<BenefitType benefitTypeId="CCA" description="City Compensatory Allowance" hasTable="N" employerPaidPercentage="10"/>
+	<BenefitType benefitTypeId="MA" description="Medical Allowance" hasTable="N" />
+	<BenefitType benefitTypeId="DA" description="Dearness Allowance" hasTable="N" employerPaidPercentage="4" /> 
+	<BenefitType benefitTypeId="SA" description="Special Allowance" hasTable="N" />
+	<BenefitType benefitTypeId="BONUS" description="BONUS/Incentive" hasTable="N" /> 
+	<BenefitType benefitTypeId="REIMB" description="Reimboursement" hasTable="N" /> 
+	
+	<DeductionType deductionTypeId="PF" description="Ee PF contribution" />
+	<DeductionType deductionTypeId="MESS" description="Mess/ Bus Service Deduction(Food Recovery)" />
+	<DeductionType deductionTypeId="ESI" description="Employees State Insurance" />
+	<DeductionType deductionTypeId="ADV_DED" description="Advance Deduction" />
+	<DeductionType deductionTypeId="TDS" description="Income Tax(Tax Deducted at Source)" />
+	
+	<InvoiceItemType description="Payrol" hasTable="N" invoiceItemTypeId="PAYROL"/>
+	<InvoiceItemType description="Earnings and Hours" hasTable="N" invoiceItemTypeId="PAYROL_EARN_HOURS" parentTypeId="PAYROL"/>
+	<InvoiceItemType description="Deductions from Gross" hasTable="N" invoiceItemTypeId="PAYROL_DD_FROM_GROSS" parentTypeId="PAYROL"/>
+	<InvoiceItemType description="Taxes" hasTable="N" invoiceItemTypeId="PAYROL_TAXES" parentTypeId="PAYROL"/>
+	<InvoiceItemType description="Salary" hasTable="N" invoiceItemTypeId="PAYROL_SALARY" parentTypeId="PAYROL_EARN_HOURS"/>
+	<InvoiceItemType description="Bonus" hasTable="N" invoiceItemTypeId="PAYROL_BONUS" parentTypeId="PAYROL_EARN_HOURS"/>
+	<InvoiceItemType description="House Rent Allowance" hasTable="N" invoiceItemTypeId="PAYROL_HRA" parentTypeId="PAYROL_EARN_HOURS"/>
+	<InvoiceItemType description="Conveyance Allowance" hasTable="N" invoiceItemTypeId="PAYROL_CA" parentTypeId="PAYROL_EARN_HOURS"/>
+	<InvoiceItemType description="City Compensatory Allowance" hasTable="N" invoiceItemTypeId="PAYROL_CCA" parentTypeId="PAYROL_EARN_HOURS"/>
+	<InvoiceItemType description="Medical Allowance" hasTable="N" invoiceItemTypeId="PAYROL_MA" parentTypeId="PAYROL_EARN_HOURS"/>
+	<InvoiceItemType description="Dearness Allowance" hasTable="N" invoiceItemTypeId="PAYROL_DA" parentTypeId="PAYROL_EARN_HOURS"/>
+	<InvoiceItemType description="Special Allowance" hasTable="N" invoiceItemTypeId="PAYROL_SA" parentTypeId="PAYROL_EARN_HOURS"/>
+	<InvoiceItemType description="Reimboursement" hasTable="N" invoiceItemTypeId="PAYROL_REIMB" parentTypeId="PAYROL_EARN_HOURS"/>
+	<InvoiceItemType description="Overtime Pay" hasTable="N" invoiceItemTypeId="PAYROL_OVERTIME_PAY" parentTypeId="PAYROL_EARN_HOURS"/>
+	
+	<InvoiceItemType description="PF contribution" hasTable="N" invoiceItemTypeId="PAYROL_DD_PF" parentTypeId="PAYROL_DD_FROM_GROSS"/>
+	<InvoiceItemType description="Mess/ Bus Service Deduction" hasTable="N" invoiceItemTypeId="PAYROL_DD_MESS" parentTypeId="PAYROL_DD_FROM_GROSS"/>
+	<InvoiceItemType description="Employees State Insurance" hasTable="N" invoiceItemTypeId="PAYROL_DD_ESI" parentTypeId="PAYROL_DD_FROM_GROSS"/>
+	<InvoiceItemType description="Advance Deduction" hasTable="N" invoiceItemTypeId="PAYROL_DD_ADV_DED" parentTypeId="PAYROL_DD_FROM_GROSS"/>
+	<InvoiceItemType description="Income Tax(Tax Deducted at Source)" hasTable="N" invoiceItemTypeId="PAYROL_TDS" parentTypeId="PAYROL_TAXES"/> 
+</entity-engine-xml>

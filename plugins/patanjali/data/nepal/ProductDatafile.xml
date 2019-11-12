@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+ 
+<data-files xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="http://ofbiz.apache.org/dtds/datafiles.xsd">
+	<data-file name="createProduct" separator-style="delimited" type-code="text" delimiter="|" text-delimiter="&quot;"  description="this takes the product data from product csv file" start-line="1">
+	    <record name="Product" limit="many">
+	        <field name="productId" ignored="false" type="String"/>
+	        <field name="productTypeId" type="String"/>
+	        <field name="isVirtual" type="String"/>
+	        <field name="isVariant" type="String"/>
+	        <field name="internalName" ignored="false" type="String"/>
+	        <field name="productName" ignored="false" type="String"/>
+<!-- 	        <field name="brandName"  type="String"/> -->
+			<field name="primaryProductCategoryId" type="String"/>
+			<field name="comments"  type="String"/>
+	        <field name="quantityIncluded" type="String"/>
+	        <field name="quantityUomId" type="String"/>
+	        <field name="altQuantityIncluded" type="String"/>
+	        <field name="altQuantityUomId" type="String" />
+	        <field name="conversionFactor" type="String"/>
+	    </record>
+	</data-file>
+	
+	<data-file name="createProductHSNnumber" separator-style="delimited" type-code="text" delimiter="," text-delimiter="&quot;"  description="this takes the product data from product csv file" start-line="1">
+	    <record name="GoodIdentification" limit="many">
+	        <field name="productId" ignored="false" type="String"/>
+	        <field name="goodIdentificationTypeId" type="String"/>
+	        <field name="idValue" type="String"/>
+	    </record>
+	</data-file>
+	
+	<data-file name="CreatePCM" separator-style="delimited" type-code="text" delimiter="," text-delimiter="&quot;"  description="this takes the product and category data from datafile csv for product category member"  start-line="1">
+        <record name="ProductCategoryMember" limit="many">
+        	<field name="productId" type="String" ignored="false"/>
+            <field name="productCategoryId" type="String"  ignored="false"/>
+            <field name="fromDate" type="Timestamp" />
+        </record>
+    </data-file>
+</data-files>

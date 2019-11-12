@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Licensed to the Apache Software Foundation (ASF) under one
+or more contributor license agreements.  See the NOTICE file
+distributed with this work for additional information
+regarding copyright ownership.  The ASF licenses this file
+to you under the Apache License, Version 2.0 (the
+"License"); you may not use this file except in compliance
+with the License.  You may obtain a copy of the License at
+
+http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+
+<screens xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns="http://ofbiz.apache.org/Widget-Screen" xsi:schemaLocation="http://ofbiz.apache.org/Widget-Screen http://ofbiz.apache.org/dtds/widget-screen.xsd">
+
+    <screen name="main.old">
+        <section>
+            <actions>
+                <set field="headerItem" value="main"/><!-- this highlights the selected menu-item with name "main" -->
+            </actions>
+            <widgets>
+                <decorator-screen name="AccountsCommonDecorator" location="${parameters.mainDecoratorLocation}">
+                    <decorator-section name="body">
+                    </decorator-section>
+                </decorator-screen>
+            </widgets>
+        </section>
+    </screen>
+    
+    <screen name="main">
+        <section>
+            <actions>
+                <set field="titleProperty" value="CommonImportExport"/>
+                 <set field="organizationPartyId" value="patanjali"/>
+                
+                <entity-one entity-name="PartyGroup" value-field="partyGroup">
+                    <field-map field-name="partyId" value="patanjali"/>
+                </entity-one>
+                
+            </actions>
+            <widgets>
+                <decorator-screen name="AccountsCommonDecorator" location="${parameters.mainDecoratorLocation}">
+                    <decorator-section name="body">
+                        <screenlet title="${uiLabelMap.AccountingInvoice} ${uiLabelMap.CommonImportExport}  ${uiLabelMap.CommonFor}: ${partyGroup.groupName} [${organizationPartyId}]">
+                            <container style="lefthalf">
+                                <label style="h2">1. Import Sales/Purchase Invoices</label>
+                                <include-form name="ImportInvoice" location="component://accounts/widget/GlSetupForms.xml"/>
+                                <label style="h2">2. Import Transactions (Payment/Receipt/General/Contra/Opening Balance)</label>
+                                <include-form name="ImportTransactions" location="component://accounts/widget/GlSetupForms.xml"/>
+                                <label style="h2">3. Import Supplier Product</label>
+                                <include-form name="ImportSupplierProducts" location="component://accounts/widget/GlSetupForms.xml"/>
+                                <label style="h2">4. Import BOM data</label>
+                                <include-form name="ImportBOMData" location="component://accounts/widget/GlSetupForms.xml"/>
+                                <label style="h2">5. Calculate and Upload Employees Time from CSV</label>
+                                <include-form name="CalculateEmployeesTime" location="component://accounts/widget/GlSetupForms.xml"/>
+                                <label style="h2">6. Upload Employee Timesheet data</label>
+                                <include-form name="EmployeesTimeSheet" location="component://accounts/widget/GlSetupForms.xml"/>
+                                <label style="h2">7. Upload Employee Fixed Salary Structure</label>
+                                <include-form name="EmployeeFixedSalaryStructure" location="component://accounts/widget/GlSetupForms.xml"/>
+                            </container>
+                            <container style="righthalf">
+                                <label style="h2">1. Generate GSTR1 Reports</label>
+                                <include-form name="GenerateGstr1Reports" location="component://accounts/widget/GlSetupForms.xml"/>
+                                <label style="h2">2. Generate GSTR2 Reports</label>
+                                <include-form name="GenerateGstr2Reports" location="component://accounts/widget/GlSetupForms.xml"/>
+								<label style="h2">3. Generate GSTR3B Report</label>
+                                <include-form name="GenerateGstr3BReport" location="component://accounts/widget/GlSetupForms.xml"/>                                
+                            </container>
+                         </screenlet>
+                    </decorator-section>
+                </decorator-screen>
+            </widgets>
+        </section>
+    </screen>
+    <screen name="ExportGstInvoiceCsv">
+        <section>
+            <actions>
+                <property-map resource="CommonUiLabels" map-name="uiLabelMap" global="true"/>
+                <property-map resource="AccountingUiLabels" map-name="uiLabelMap" global="true"/>
+                <!-- <set field="organizationPartyId" from-field="parameters.organizationPartyId"/>  -->
+                 <set field="organizationPartyId" value="patanjali"/>
+            </actions>
+            <widgets>
+				<section>
+					<condition>
+                        <if-compare field="parameters.reportType" operator="equals" value="b2b"/>
+                    </condition>
+					<actions>
+						<script location="component://accounts/webapp/accounts/WEB-INF/actions/ExportGstReports.groovy"/>
+                    </actions>
+ 					<widgets>
+                		<include-form name="gstr1b2b" location="component://accounts/widget/GlSetupForms.xml"/>           
+            		</widgets>
+                </section>
+				<section>
+                    <condition>
+                        <if-compare field="parameters.reportType" operator="equals" value="b2ba"/>
+                    </condition>
+					<actions>
+						<script location="component://accounts/webapp/accounts/WEB-INF/actions/ExportGstReports.groovy"/>
+                    </actions>
+ 					<widgets>
+                		<include-form name="gstr1b2ba" location="component://accounts/widget/GlSetupForms.xml"/>           
+            		</widgets>
+                </section>                
+                <section>
+                    <condition>
+                        <if-compare field="parameters.reportType" operator="equals" value="b2cl"/>
+                    </condition>
+					<actions>
+						<script location="component://accounts/webapp/accounts/WEB-INF/actions/ExportGstReports.groovy"/>
+                    </actions>
+ 					<widgets>
+                		<include-form name="gstr1b2cl" location="component://accounts/widget/GlSetupForms.xml"/>           
+            		</widgets>
+                </section>
+                <section>
+                    <condition>
+                        <if-compare field="parameters.reportType" operator="equals" value="b2cla"/>
+                    </condition>
+					<actions>
+						<script location="component://accounts/webapp/accounts/WEB-INF/actions/ExportGstReports.groovy"/>
+                    </actions>
+ 					<widgets>
+                		<include-form name="gstr1b2cla" location="component://accounts/widget/GlSetupForms.xml"/>           
+            		</widgets>
+                </section> 
+                <section>
+                    <condition>
+                        <if-compare field="parameters.reportType" operator="equals" value="b2cs"/>
+                    </condition>
+					<actions>
+						<script location="component://accounts/webapp/accounts/WEB-INF/actions/ExportGstReports.groovy"/>
+                    </actions>
+ 					<widgets>
+                		<include-form name="gstr1b2cs" location="component://accounts/widget/GlSetupForms.xml"/>           
+            		</widgets>
+                </section> 
+                <section>
+                    <condition>
+                        <if-compare field="parameters.reportType" operator="equals" value="b2csa"/>
+                    </condition>
+					<actions>
+						<script location="component://accounts/webapp/accounts/WEB-INF/actions/ExportGstReports.groovy"/>
+                    </actions>
+ 					<widgets>
+                		<include-form name="gstr1b2csa" location="component://accounts/widget/GlSetupForms.xml"/>           
+            		</widgets>
+                </section> 
+                <section>
+                    <condition>
+                        <if-compare field="parameters.reportType" operator="equals" value="cdnr"/>
+                    </condition>
+					<actions>
+						<script location="component://accounts/webapp/accounts/WEB-INF/actions/ExportTransactionEntries.groovy"/>
+                    </actions>
+ 					<widgets>
+                		<include-form name="gstr1cdnr" location="component://accounts/widget/GlSetupForms.xml"/>           
+            		</widgets>
+                </section>                
+                           
+            </widgets>
+        </section>
+    </screen>
+    
+    <screen name="ExportGstr2Report">
+        <section>
+            <actions>
+                <property-map resource="CommonUiLabels" map-name="uiLabelMap" global="true"/>
+                <property-map resource="AccountingUiLabels" map-name="uiLabelMap" global="true"/>
+                <!-- <set field="organizationPartyId" from-field="parameters.organizationPartyId"/>  -->
+                 <set field="organizationPartyId" value="patanjali"/>
+            </actions>
+            <widgets>
+				<section>
+					<condition>
+                        <if-compare field="parameters.reportType" operator="equals" value="b2b"/>
+                    </condition>
+					<actions>
+						<script location="component://accounts/webapp/accounts/WEB-INF/actions/ExportGstr2Reports.groovy"/>
+                    </actions>
+ 					<widgets>
+                		<include-form name="gstr2b2b" location="component://accounts/widget/GlSetupForms.xml"/>           
+            		</widgets>
+                </section>
+				<section>
+                    <condition>
+                        <if-compare field="parameters.reportType" operator="equals" value="b2bur"/>
+                    </condition>
+					<actions>
+						<script location="component://accounts/webapp/accounts/WEB-INF/actions/ExportGstr2Reports.groovy"/>
+                    </actions>
+ 					<widgets>
+                		<include-form name="gstr2b2bur" location="component://accounts/widget/GlSetupForms.xml"/>           
+            		</widgets>
+                </section>
+                <section>
+                    <condition>
+                        <if-compare field="parameters.reportType" operator="equals" value="cdnr"/>
+                    </condition>
+					<actions>
+						<script location="component://accounts/webapp/accounts/WEB-INF/actions/ExportGstr2Reports.groovy"/>
+                    </actions>
+ 					<widgets>
+                		<include-form name="gstr2cdnr" location="component://accounts/widget/GlSetupForms.xml"/>           
+            		</widgets>
+                </section> 
+                <section>
+                    <condition>
+                        <if-compare field="parameters.reportType" operator="equals" value="cdnur"/>
+                    </condition>
+					<actions>
+						<script location="component://accounts/webapp/accounts/WEB-INF/actions/ExportGstr2Reports.groovy"/>
+                    </actions>
+ 					<widgets>
+                		<include-form name="gstr2cdnur" location="component://accounts/widget/GlSetupForms.xml"/>           
+            		</widgets>
+                </section>                               
+                           
+            </widgets>
+        </section>
+    </screen>
+        
+    <screen name="ListGlAccountOrganization">
+        <section>
+            <actions>
+                <property-map resource="AccountingUiLabels" map-name="uiLabelMap" global="true"/>
+                <set field="titleProperty" value="AccountingChartOfAcctsMenu"/>
+                <set field="tabButtonItem" value="ListGlAccountOrganization"/>
+                <set field="labelTitleProperty" from-field="uiLabelMap.AccountingChartOfAcctsMenu"/>
+            </actions>
+            <widgets>
+                <decorator-screen name="CommonGlSetupDecorator" location="${parameters.commonGlSetupDecoratorLocation}">
+                    <decorator-section name="body">
+                        <screenlet id="GlAccountOrganizationPanel" title="${uiLabelMap.AccountingChartOfAcctsMenu}" collapsible="true">
+                            <include-form name="AssignGlAccount" location="component://accounting/widget/GlSetupForms.xml"/>
+                        </screenlet>
+                        <link text="${uiLabelMap.AccountingExportAsCsv}" style="button" target="ListGlAccountOrgCsv.csv">
+                            <parameter param-name="organizationPartyId"/>
+                        </link>
+                        <link text="${uiLabelMap.AccountingExportAsPdf}" style="button" target="ListGlAccountOrgPdf.pdf" target-window="_BLANK">
+                            <parameter param-name="organizationPartyId"/>
+                        </link>
+                        <include-form name="ListGlAccountOrganization" location="component://accounting/widget/GlSetupForms.xml"/>
+                    </decorator-section>
+                </decorator-screen>
+            </widgets>
+        </section>
+    </screen>
+</screens>

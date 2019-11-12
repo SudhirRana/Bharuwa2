@@ -1,0 +1,1073 @@
+<entity-engine-xml>
+<GlAccount accountCode="C945021" accountName="Advance- Alok Kumar" glAccountClassId="CURRENT_ASSET" glAccountId="C945021" glAccountTypeId="CURRENT_ASSET"  parentGlAccountId="P110000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945022" accountName="Advance Main Kumar ( Driver)" glAccountClassId="CURRENT_ASSET" glAccountId="C945022" glAccountTypeId="CURRENT_ASSET"  parentGlAccountId="P110000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945023" accountName="Advance-AMRENDRA KUMAR" glAccountClassId="CURRENT_ASSET" glAccountId="C945023" glAccountTypeId="CURRENT_ASSET"  parentGlAccountId="P110000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945024" accountName="Travel Advance- Paramveer Yadav" glAccountClassId="CURRENT_ASSET" glAccountId="C945024" glAccountTypeId="CURRENT_ASSET"  parentGlAccountId="P110000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945025" accountName="Advance Deepak Kumar Sharma" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945025" glAccountTypeId="ACCOUNTS_PAYABLE"  parentGlAccountId="P200001" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945026" accountName="Advance Dr RK Shukla" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945026" glAccountTypeId="ACCOUNTS_PAYABLE"  parentGlAccountId="P200001" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945027" accountName="Advance- K Prabhakar Rao" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945027" glAccountTypeId="ACCOUNTS_PAYABLE"  parentGlAccountId="P200001" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945028" accountName="Advance Rambabu L" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945028" glAccountTypeId="ACCOUNTS_PAYABLE"  parentGlAccountId="P200001" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945029" accountName="Advance Ramesh Kasani" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945029" glAccountTypeId="ACCOUNTS_PAYABLE"  parentGlAccountId="P200001" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945030" accountName="Advance Santosh Kumar (kerala)" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945030" glAccountTypeId="ACCOUNTS_PAYABLE"  parentGlAccountId="P200001" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945031" accountName="SRI SAI GANESH SEED &amp; PESTI. Kurnool AP" glAccountClassId="CURRENT_ASSET" glAccountId="C945031" glAccountTypeId="ACCOUNTS_RECEIVABLE"  parentGlAccountId="P110019" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945032" accountName="PNB Autosweep A/c.1496....7296" glAccountClassId="CASH_EQUIVALENT" glAccountId="C945032" glAccountTypeId="CURRENT_ASSET"  parentGlAccountId="P110001" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945033" accountName="Pnb Auto Sweep A/c. 1496....7311" glAccountClassId="CASH_EQUIVALENT" glAccountId="C945033" glAccountTypeId="CURRENT_ASSET"  parentGlAccountId="P110001" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945034" accountName="PNB Autosweep A/c. 1496..7320" glAccountClassId="CASH_EQUIVALENT" glAccountId="C945034" glAccountTypeId="CURRENT_ASSET"  parentGlAccountId="P110001" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945035" accountName="Krishi Khad Bhandar Fatuha Bihar" glAccountClassId="CURRENT_ASSET" glAccountId="C945035" glAccountTypeId="ACCOUNTS_RECEIVABLE"  parentGlAccountId="P110019" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945036" accountName="Branch Andhra Pradesh" glAccountClassId="CURRENT_ASSET" glAccountId="C945036" glAccountTypeId="CURRENT_ASSET"  parentGlAccountId="P100000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945037" accountName="Patanjali Food &amp; Herbal Park Andhra Sant" glAccountClassId="CURRENT_ASSET" glAccountId="C945037" glAccountTypeId="CURRENT_ASSET"  parentGlAccountId="P100000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945038" accountName="Branch- Bharuwa Solutions Pvt.Ltd." glAccountClassId="CURRENT_ASSET" glAccountId="C945038" glAccountTypeId="CURRENT_ASSET"  parentGlAccountId="P100000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945039" accountName="Branch Karnal Haryana" glAccountClassId="CURRENT_ASSET" glAccountId="C945039" glAccountTypeId="CURRENT_ASSET"  parentGlAccountId="P100000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945040" accountName="Branch- PBRI Tamil Nadu" glAccountClassId="CURRENT_ASSET" glAccountId="C945040" glAccountTypeId="CURRENT_ASSET"  parentGlAccountId="P100000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945041" accountName="Branch Raipur Chhattisgarh" glAccountClassId="CURRENT_ASSET" glAccountId="C945041" glAccountTypeId="CURRENT_ASSET"  parentGlAccountId="P100000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945042" accountName="Branch Telangana" glAccountClassId="CURRENT_ASSET" glAccountId="C945042" glAccountTypeId="CURRENT_ASSET"  parentGlAccountId="P100000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945043" accountName="Branch- West Bangal" glAccountClassId="CURRENT_ASSET" glAccountId="C945043" glAccountTypeId="CURRENT_ASSET"  parentGlAccountId="P100000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945044" accountName="PBRI Branch Jharkhand" glAccountClassId="CURRENT_ASSET" glAccountId="C945044" glAccountTypeId="CURRENT_ASSET"  parentGlAccountId="P100000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945045" accountName="PBRI Pvt. Ltd Branch Kerala" glAccountClassId="CURRENT_ASSET" glAccountId="C945045" glAccountTypeId="CURRENT_ASSET"  parentGlAccountId="P100000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945046" accountName="PBRI Pvt. Ltd. Branch Araria Bihar" glAccountClassId="CURRENT_ASSET" glAccountId="C945046" glAccountTypeId="CURRENT_ASSET"  parentGlAccountId="P100000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945047" accountName="PBRI Pvt. Ltd. Branch Indore MP" glAccountClassId="CURRENT_ASSET" glAccountId="C945047" glAccountTypeId="CURRENT_ASSET"  parentGlAccountId="P100000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945048" accountName="PBRI Pvt. Ltd. Branch Odisha" glAccountClassId="CURRENT_ASSET" glAccountId="C945048" glAccountTypeId="CURRENT_ASSET"  parentGlAccountId="P100000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945049" accountName="Laptops" glAccountClassId="LONGTERM_ASSET" glAccountId="C945049" glAccountTypeId="FIXED_ASSET"  parentGlAccountId="P120000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945050" accountName="Mobile App Development" glAccountClassId="LONGTERM_ASSET" glAccountId="C945050" glAccountTypeId="FIXED_ASSET"  parentGlAccountId="P120000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945051" accountName="Rajdeep Tyagi" glAccountClassId="REVENUE" glAccountId="C945051" glAccountTypeId=""  parentGlAccountId="400000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945052" accountName="Bus Charges" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945052" glAccountTypeId="ACCOUNTS_RECEIVABLE"  parentGlAccountId="600000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945053" accountName="Training &amp; Recruitment" glAccountClassId="EXPENSE" glAccountId="C945053" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P500000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945054" accountName="Commission to SD" glAccountClassId="EXPENSE" glAccountId="C945054" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P500000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945055" accountName="EPF Damages &amp; Interest" glAccountClassId="EXPENSE" glAccountId="C945055" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P500000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945056" accountName="Fees for Increasing Authorize Share Capt" glAccountClassId="EXPENSE" glAccountId="C945056" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P500000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945057" accountName="Lease Rent of Plot Khasra No.170" glAccountClassId="EXPENSE" glAccountId="C945057" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P500000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945058" accountName="Previous Year Insurance  Exp." glAccountClassId="EXPENSE" glAccountId="C945058" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P500000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945059" accountName="Reimbursement Expenses to Driver" glAccountClassId="EXPENSE" glAccountId="C945059" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P500000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945060" accountName="Agri Business Centre, Mahemdavad" glAccountClassId="CURRENT_ASSET" glAccountId="C945060" glAccountTypeId="ACCOUNTS_RECEIVABLE"  parentGlAccountId="P110019" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945061" accountName="AGRI BUSINESS CENTRE, TARAPUR, ANAND,GUJ" glAccountClassId="CURRENT_ASSET" glAccountId="C945061" glAccountTypeId="ACCOUNTS_RECEIVABLE"  parentGlAccountId="P110019" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945062" accountName="AGRO SERVICE CENTRE, JESAR" glAccountClassId="CURRENT_ASSET" glAccountId="C945062" glAccountTypeId="ACCOUNTS_RECEIVABLE"  parentGlAccountId="P110019" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945063" accountName="Akshar Agro Agency,Navsari Guj." glAccountClassId="CURRENT_ASSET" glAccountId="C945063" glAccountTypeId="ACCOUNTS_RECEIVABLE"  parentGlAccountId="P110019" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945064" accountName="Arjun Agro Agency.Bhavnagar Gujarat" glAccountClassId="CURRENT_ASSET" glAccountId="C945064" glAccountTypeId="ACCOUNTS_RECEIVABLE"  parentGlAccountId="P110019" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945065" accountName="GIRIRAJ AGRO CENTRE,SURAT,GUJRAT" glAccountClassId="CURRENT_ASSET" glAccountId="C945065" glAccountTypeId="ACCOUNTS_RECEIVABLE"  parentGlAccountId="P110019" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945066" accountName="Jalaram Organic Ferti &amp; Pesti,Baruch GJ" glAccountClassId="CURRENT_ASSET" glAccountId="C945066" glAccountTypeId="ACCOUNTS_RECEIVABLE"  parentGlAccountId="P110019" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945067" accountName="JAY JALARAM DISTRIBUTOR CHIKLI GJ" glAccountClassId="CURRENT_ASSET" glAccountId="C945067" glAccountTypeId="ACCOUNTS_RECEIVABLE"  parentGlAccountId="P110019" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945068" accountName="NARMADA AGRO, Rajpipla" glAccountClassId="CURRENT_ASSET" glAccountId="C945068" glAccountTypeId="ACCOUNTS_RECEIVABLE"  parentGlAccountId="P110019" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945069" accountName="SHREE CHAMUNDA PKSK KUTCH GJ" glAccountClassId="CURRENT_ASSET" glAccountId="C945069" glAccountTypeId="ACCOUNTS_RECEIVABLE"  parentGlAccountId="P110019" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945070" accountName="Shri Jabreshwar Trading Co. guj." glAccountClassId="CURRENT_ASSET" glAccountId="C945070" glAccountTypeId="ACCOUNTS_RECEIVABLE"  parentGlAccountId="P110019" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945071" accountName="BHARAT SALES CORPORATION,RANIA,SIRSA" glAccountClassId="CURRENT_ASSET" glAccountId="C945071" glAccountTypeId="ACCOUNTS_RECEIVABLE"  parentGlAccountId="P110019" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945072" accountName="GULATI AGRO SALES, KURUKSHETRA HR" glAccountClassId="CURRENT_ASSET" glAccountId="C945072" glAccountTypeId="ACCOUNTS_RECEIVABLE"  parentGlAccountId="P110019" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945073" accountName="R.S.Trading Co.,Kurukshetra, HARYANA" glAccountClassId="CURRENT_ASSET" glAccountId="C945073" glAccountTypeId="ACCOUNTS_RECEIVABLE"  parentGlAccountId="P110019" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945074" accountName="Rathi Khad Bhandar Sampla,Rothak Haryana" glAccountClassId="CURRENT_ASSET" glAccountId="C945074" glAccountTypeId="ACCOUNTS_RECEIVABLE"  parentGlAccountId="P110019" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945075" accountName="Kherumal Agyaram, Rohru Shimla HP" glAccountClassId="CURRENT_ASSET" glAccountId="C945075" glAccountTypeId="ACCOUNTS_RECEIVABLE"  parentGlAccountId="P110019" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945076" accountName="Kissan,organic Cent.sunder Nagar MandiHP" glAccountClassId="CURRENT_ASSET" glAccountId="C945076" glAccountTypeId="ACCOUNTS_RECEIVABLE"  parentGlAccountId="P110019" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945077" accountName="SHANKAR KRISHI KENDRA, GUMLA JH" glAccountClassId="CURRENT_ASSET" glAccountId="C945077" glAccountTypeId="ACCOUNTS_RECEIVABLE"  parentGlAccountId="P110019" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945078" accountName="AMRUT AGRO AGENCIES, BELGUM" glAccountClassId="CURRENT_ASSET" glAccountId="C945078" glAccountTypeId="ACCOUNTS_RECEIVABLE"  parentGlAccountId="P110019" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945079" accountName="Krishna Trading Company,Hubli,Dharwad (K" glAccountClassId="CURRENT_ASSET" glAccountId="C945079" glAccountTypeId="ACCOUNTS_RECEIVABLE"  parentGlAccountId="P110019" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945080" accountName="Mahalaxmi Fertilizers Desairatti,belagav" glAccountClassId="CURRENT_ASSET" glAccountId="C945080" glAccountTypeId="ACCOUNTS_RECEIVABLE"  parentGlAccountId="P110019" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945081" accountName="VIJAY M BHANDI, DEMO" glAccountClassId="CURRENT_ASSET" glAccountId="C945081" glAccountTypeId="ACCOUNTS_RECEIVABLE"  parentGlAccountId="P110019" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945082" accountName="Mekkattil Agro Care Pattikad Thrisur KL" glAccountClassId="CURRENT_ASSET" glAccountId="C945082" glAccountTypeId="ACCOUNTS_RECEIVABLE"  parentGlAccountId="P110019" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945083" accountName="Lab Equipment" glAccountClassId="LONGTERM_ASSET" glAccountId="C945083" glAccountTypeId="FIXED_ASSET"  parentGlAccountId="P120000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945084" accountName="Advance - Achreya Pankaj Dubey" glAccountClassId="CURRENT_ASSET" glAccountId="C945084" glAccountTypeId="CURRENT_ASSET"  parentGlAccountId="P100000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945085" accountName="Advance- Robin Kumar" glAccountClassId="CURRENT_ASSET" glAccountId="C945085" glAccountTypeId="CURRENT_ASSET"  parentGlAccountId="P100000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945086" accountName="Salary Advance Parmver Yadav" glAccountClassId="CURRENT_ASSET" glAccountId="C945086" glAccountTypeId="CURRENT_ASSET"  parentGlAccountId="P100000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945087" accountName="Adarsh KVK, Multai, Betul, MP" glAccountClassId="CURRENT_ASSET" glAccountId="C945087" glAccountTypeId="ACCOUNTS_RECEIVABLE"  parentGlAccountId="P110019" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945088" accountName="Dhakad Traders,sonkutch,dewas MP" glAccountClassId="CURRENT_ASSET" glAccountId="C945088" glAccountTypeId="ACCOUNTS_RECEIVABLE"  parentGlAccountId="P110019" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945089" accountName="A.R. Grow Enterprises, Bhopal" glAccountClassId="CURRENT_ASSET" glAccountId="C945089" glAccountTypeId="ACCOUNTS_RECEIVABLE"  parentGlAccountId="P110019" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945090" accountName="AGRAWAL JAIVIK KRISHI SEWA KENDRA,GUNA" glAccountClassId="CURRENT_ASSET" glAccountId="C945090" glAccountTypeId="ACCOUNTS_RECEIVABLE"  parentGlAccountId="P110019" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945091" accountName="Bansal &amp; Company Ujjain,MP" glAccountClassId="CURRENT_ASSET" glAccountId="C945091" glAccountTypeId="ACCOUNTS_RECEIVABLE"  parentGlAccountId="P110019" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945092" accountName="Dharmendra Jain &amp; Sons, Shivpuri MP" glAccountClassId="CURRENT_ASSET" glAccountId="C945092" glAccountTypeId="ACCOUNTS_RECEIVABLE"  parentGlAccountId="P110019" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945093" accountName="GETANSH KRISHI KENDRA BARGHAT,MP" glAccountClassId="CURRENT_ASSET" glAccountId="C945093" glAccountTypeId="ACCOUNTS_RECEIVABLE"  parentGlAccountId="P110019" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945094" accountName="Janta Agro Agency,kamlaganj Shivpuri Mp" glAccountClassId="CURRENT_ASSET" glAccountId="C945094" glAccountTypeId="ACCOUNTS_RECEIVABLE"  parentGlAccountId="P110019" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945095" accountName="KRISHI BHAVAN SEHORE MP" glAccountClassId="CURRENT_ASSET" glAccountId="C945095" glAccountTypeId="ACCOUNTS_RECEIVABLE"  parentGlAccountId="P110019" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945096" accountName="PITALIA SEEDS &amp; FERTILIZERS VIDISHA MP" glAccountClassId="CURRENT_ASSET" glAccountId="C945096" glAccountTypeId="ACCOUNTS_RECEIVABLE"  parentGlAccountId="P110019" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945097" accountName="Shri Krishna Agency GanjBasoda VidishaMP" glAccountClassId="CURRENT_ASSET" glAccountId="C945097" glAccountTypeId="ACCOUNTS_RECEIVABLE"  parentGlAccountId="P110019" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945098" accountName="Aastha K.S.Kendra Guamgaon Hingna MH" glAccountClassId="CURRENT_ASSET" glAccountId="C945098" glAccountTypeId="ACCOUNTS_RECEIVABLE"  parentGlAccountId="P110019" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945099" accountName="ANNAPURNA KRISHI SEVA KENDRA,Sawantwadi" glAccountClassId="CURRENT_ASSET" glAccountId="C945099" glAccountTypeId="ACCOUNTS_RECEIVABLE"  parentGlAccountId="P110019" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945100" accountName="Rajdeep Agro Agency Yavatmal, MH" glAccountClassId="CURRENT_ASSET" glAccountId="C945100" glAccountTypeId="ACCOUNTS_RECEIVABLE"  parentGlAccountId="P110019" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945101" accountName="RUTURAJ KRUSHI SEVA KENDRA, AKKALKOT,MH" glAccountClassId="CURRENT_ASSET" glAccountId="C945101" glAccountTypeId="ACCOUNTS_RECEIVABLE"  parentGlAccountId="P110019" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945102" accountName="Anushka Agro Agency Tasgaon Sangli MH" glAccountClassId="CURRENT_ASSET" glAccountId="C945102" glAccountTypeId="ACCOUNTS_RECEIVABLE"  parentGlAccountId="P110019" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945103" accountName="HARIOM JAIVIK KISAN SEWA KENDRA, ALIPUR" glAccountClassId="CURRENT_ASSET" glAccountId="C945103" glAccountTypeId="ACCOUNTS_RECEIVABLE"  parentGlAccountId="P110019" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945104" accountName="Krushna Agro,Koparde" glAccountClassId="CURRENT_ASSET" glAccountId="C945104" glAccountTypeId="ACCOUNTS_RECEIVABLE"  parentGlAccountId="P110019" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945105" accountName="Krushnai Organic Shoppy,Satara" glAccountClassId="CURRENT_ASSET" glAccountId="C945105" glAccountTypeId="ACCOUNTS_RECEIVABLE"  parentGlAccountId="P110019" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945106" accountName="LUXMI KRISHI UDYOG AHMEDNAGAR MH" glAccountClassId="CURRENT_ASSET" glAccountId="C945106" glAccountTypeId="ACCOUNTS_RECEIVABLE"  parentGlAccountId="P110019" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945107" accountName="Mauli Krishi Sewa Kendra Buldhana MH" glAccountClassId="CURRENT_ASSET" glAccountId="C945107" glAccountTypeId="ACCOUNTS_RECEIVABLE"  parentGlAccountId="P110019" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945108" accountName="PATANJALI KISAN SEWA KENDR PARATWAD MH" glAccountClassId="CURRENT_ASSET" glAccountId="C945108" glAccountTypeId="ACCOUNTS_RECEIVABLE"  parentGlAccountId="P110019" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945109" accountName="PATANJALI KISAN SEWA KENDRA BARWAH MH" glAccountClassId="CURRENT_ASSET" glAccountId="C945109" glAccountTypeId="ACCOUNTS_RECEIVABLE"  parentGlAccountId="P110019" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945110" accountName="PKSK Anjangaon Amravati parvawada MH" glAccountClassId="CURRENT_ASSET" glAccountId="C945110" glAccountTypeId="ACCOUNTS_RECEIVABLE"  parentGlAccountId="P110019" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945111" accountName="Preet Sangam Krishi Sewa Kendra,Nashik" glAccountClassId="CURRENT_ASSET" glAccountId="C945111" glAccountTypeId="ACCOUNTS_RECEIVABLE"  parentGlAccountId="P110019" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945112" accountName="PRITISANGAM AGRO SERVICES, Nashik" glAccountClassId="CURRENT_ASSET" glAccountId="C945112" glAccountTypeId="ACCOUNTS_RECEIVABLE"  parentGlAccountId="P110019" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945113" accountName="SAMARTH AGRO AGENCIES, Ambawade, MH" glAccountClassId="CURRENT_ASSET" glAccountId="C945113" glAccountTypeId="ACCOUNTS_RECEIVABLE"  parentGlAccountId="P110019" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945114" accountName="SANJEEVI KISAN SEWA KENDRA ANJANGAON MH" glAccountClassId="CURRENT_ASSET" glAccountId="C945114" glAccountTypeId="ACCOUNTS_RECEIVABLE"  parentGlAccountId="P110019" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945115" accountName="SANT ZHOLEBABA KRUSI SK BULDHANA MEHAK" glAccountClassId="CURRENT_ASSET" glAccountId="C945115" glAccountTypeId="ACCOUNTS_RECEIVABLE"  parentGlAccountId="P110019" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945116" accountName="Shaunak Krushi Kendra Arni,Yawtmal MH" glAccountClassId="CURRENT_ASSET" glAccountId="C945116" glAccountTypeId="ACCOUNTS_RECEIVABLE"  parentGlAccountId="P110019" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945117" accountName="Shree Swami Samarth Agro Agency Jalna MH" glAccountClassId="CURRENT_ASSET" glAccountId="C945117" glAccountTypeId="ACCOUNTS_RECEIVABLE"  parentGlAccountId="P110019" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945118" accountName="THORAT PATANJALI KRUSHI SEWA KENDRA" glAccountClassId="CURRENT_ASSET" glAccountId="C945118" glAccountTypeId="ACCOUNTS_RECEIVABLE"  parentGlAccountId="P110019" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945119" accountName="UNNATI AGRO AGENCIES,NAGPUR	MH" glAccountClassId="CURRENT_ASSET" glAccountId="C945119" glAccountTypeId="ACCOUNTS_RECEIVABLE"  parentGlAccountId="P110019" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945120" accountName="Swati Services" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945120" glAccountTypeId="ACCOUNTS_PAYABLE"  parentGlAccountId="P200001" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945121" accountName="SWATI SERVICES (uk)" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945121" glAccountTypeId="ACCOUNTS_PAYABLE"  parentGlAccountId="P200001" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945122" accountName="Brickwork Rating India Pvt. Ltd" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945122" glAccountTypeId="ACCOUNTS_PAYABLE"  parentGlAccountId="P200001" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945123" accountName="Mahesh Pareek And Associates" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945123" glAccountTypeId="ACCOUNTS_PAYABLE"  parentGlAccountId="P200001" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945124" accountName="Shrikant V. Nandapurkar" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945124" glAccountTypeId="ACCOUNTS_PAYABLE"  parentGlAccountId="P200001" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945125" accountName="Singhal Sunil And Associates" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945125" glAccountTypeId="ACCOUNTS_PAYABLE"  parentGlAccountId="P200001" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945126" accountName="Profit &amp; Loss" glAccountClassId="DEBIT" glAccountId="C945126" glAccountTypeId="PROFIT_LOSS_ACCOUNT"  parentGlAccountId="850000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945127" accountName="Azad Traders,Bulhowal,Hoshiarpur PB" glAccountClassId="CURRENT_ASSET" glAccountId="C945127" glAccountTypeId="ACCOUNTS_RECEIVABLE"  parentGlAccountId="P110019" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945128" accountName="PAPPU KHAD STORE,FARIDKOT,PUNJAB" glAccountClassId="CURRENT_ASSET" glAccountId="C945128" glAccountTypeId="ACCOUNTS_RECEIVABLE"  parentGlAccountId="P110019" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945129" accountName="Aawal Kisan Sewa Centre, Sangrur PJ" glAccountClassId="CURRENT_ASSET" glAccountId="C945129" glAccountTypeId="ACCOUNTS_RECEIVABLE"  parentGlAccountId="P110019" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945130" accountName="ANAND SEEDS FARM, NAWASAHAR PJ" glAccountClassId="CURRENT_ASSET" glAccountId="C945130" glAccountTypeId="ACCOUNTS_RECEIVABLE"  parentGlAccountId="P110019" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945131" accountName="ANSHPREET TRADING CO, Bhatinda PB" glAccountClassId="CURRENT_ASSET" glAccountId="C945131" glAccountTypeId="ACCOUNTS_RECEIVABLE"  parentGlAccountId="P110019" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945132" accountName="Brar Fertilizers, Sarwar Fazilka Punjab" glAccountClassId="CURRENT_ASSET" glAccountId="C945132" glAccountTypeId="ACCOUNTS_RECEIVABLE"  parentGlAccountId="P110019" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945133" accountName="BRAR PESTICIDES, SHRI MUKTSAR SAHIB" glAccountClassId="CURRENT_ASSET" glAccountId="C945133" glAccountTypeId="ACCOUNTS_RECEIVABLE"  parentGlAccountId="P110019" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945134" accountName="DEVINDRA KHETI SEWA CENTRE, BHIKHI PB" glAccountClassId="CURRENT_ASSET" glAccountId="C945134" glAccountTypeId="ACCOUNTS_RECEIVABLE"  parentGlAccountId="P110019" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945135" accountName="GALHOTRA PESTICIDES &amp; FERT GURUHARSAI PB" glAccountClassId="CURRENT_ASSET" glAccountId="C945135" glAccountTypeId="ACCOUNTS_RECEIVABLE"  parentGlAccountId="P110019" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945136" accountName="GIANA TRADING COMPANY, RAMAN-MANDI PJ" glAccountClassId="CURRENT_ASSET" glAccountId="C945136" glAccountTypeId="ACCOUNTS_RECEIVABLE"  parentGlAccountId="P110019" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945137" accountName="JAI MAA JAGDAMBEY SEED STORE KOTKAPUR PJ" glAccountClassId="CURRENT_ASSET" glAccountId="C945137" glAccountTypeId="ACCOUNTS_RECEIVABLE"  parentGlAccountId="P110019" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945138" accountName="JOTIRAM SATPAUL, SANGAT MANDI PB" glAccountClassId="CURRENT_ASSET" glAccountId="C945138" glAccountTypeId="ACCOUNTS_RECEIVABLE"  parentGlAccountId="P110019" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945139" accountName="KANSAL TRADING CO. SARDULGRH PB" glAccountClassId="CURRENT_ASSET" glAccountId="C945139" glAccountTypeId="ACCOUNTS_RECEIVABLE"  parentGlAccountId="P110019" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945140" accountName="KASHMIRI LAL MOHAN LAL, BHUCHHA PB" glAccountClassId="CURRENT_ASSET" glAccountId="C945140" glAccountTypeId="ACCOUNTS_RECEIVABLE"  parentGlAccountId="P110019" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945141" accountName="KUKAR TRADING CO. Arni Wala" glAccountClassId="CURRENT_ASSET" glAccountId="C945141" glAccountTypeId="ACCOUNTS_RECEIVABLE"  parentGlAccountId="P110019" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945142" accountName="M/s Brar &amp; Company, Sarwar Fazilka Pj" glAccountClassId="CURRENT_ASSET" glAccountId="C945142" glAccountTypeId="ACCOUNTS_RECEIVABLE"  parentGlAccountId="P110019" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945143" accountName="MALWA TRADING CO.  SINGO PJ" glAccountClassId="CURRENT_ASSET" glAccountId="C945143" glAccountTypeId="ACCOUNTS_RECEIVABLE"  parentGlAccountId="P110019" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945144" accountName="New Garg Seeds Store, Talwandi, PB" glAccountClassId="CURRENT_ASSET" glAccountId="C945144" glAccountTypeId="ACCOUNTS_RECEIVABLE"  parentGlAccountId="P110019" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945145" accountName="PREM TRADERS, MALLAWALA PJ" glAccountClassId="CURRENT_ASSET" glAccountId="C945145" glAccountTypeId="ACCOUNTS_RECEIVABLE"  parentGlAccountId="P110019" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945146" accountName="R L TRADING CO. GIDDERBAHA PB" glAccountClassId="CURRENT_ASSET" glAccountId="C945146" glAccountTypeId="ACCOUNTS_RECEIVABLE"  parentGlAccountId="P110019" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945147" accountName="RAJESH FERTILIZERS,SHRI MUKTSAR Punjab" glAccountClassId="CURRENT_ASSET" glAccountId="C945147" glAccountTypeId="ACCOUNTS_RECEIVABLE"  parentGlAccountId="P110019" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945148" accountName="RAJIV AGRO CHEMICALS, FAZILKA PUNJAB" glAccountClassId="CURRENT_ASSET" glAccountId="C945148" glAccountTypeId="ACCOUNTS_RECEIVABLE"  parentGlAccountId="P110019" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945149" accountName="RANA TRADING COMPANY, ATARI PJ" glAccountClassId="CURRENT_ASSET" glAccountId="C945149" glAccountTypeId="ACCOUNTS_RECEIVABLE"  parentGlAccountId="P110019" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945150" accountName="Roshanlal &amp; Sons Mandi Killianwali PJ" glAccountClassId="CURRENT_ASSET" glAccountId="C945150" glAccountTypeId="ACCOUNTS_RECEIVABLE"  parentGlAccountId="P110019" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945151" accountName="SAHARA TRADERS, MALOUT PUNJAB" glAccountClassId="CURRENT_ASSET" glAccountId="C945151" glAccountTypeId="ACCOUNTS_RECEIVABLE"  parentGlAccountId="P110019" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945152" accountName="SHARMA &amp; CO KHAD BHANDAR, JAHANER PB" glAccountClassId="CURRENT_ASSET" glAccountId="C945152" glAccountTypeId="ACCOUNTS_RECEIVABLE"  parentGlAccountId="P110019" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945153" accountName="Shri Chand Raj Kumar, Bhatinda" glAccountClassId="CURRENT_ASSET" glAccountId="C945153" glAccountTypeId="ACCOUNTS_RECEIVABLE"  parentGlAccountId="P110019" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945154" accountName="SHUBHAM FERTILIZERS, FIROZPUR" glAccountClassId="CURRENT_ASSET" glAccountId="C945154" glAccountTypeId="ACCOUNTS_RECEIVABLE"  parentGlAccountId="P110019" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945155" accountName="SINGLA FERTILIZERS, MANSA PUNJAB" glAccountClassId="CURRENT_ASSET" glAccountId="C945155" glAccountTypeId="ACCOUNTS_RECEIVABLE"  parentGlAccountId="P110019" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945156" accountName="Singla Traders, Longowal Sangrur PJ" glAccountClassId="CURRENT_ASSET" glAccountId="C945156" glAccountTypeId="ACCOUNTS_RECEIVABLE"  parentGlAccountId="P110019" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945157" accountName="UTTAM KISAN BAZAR, KOTKAPURA, Faridkot" glAccountClassId="CURRENT_ASSET" glAccountId="C945157" glAccountTypeId="ACCOUNTS_RECEIVABLE"  parentGlAccountId="P110019" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945158" accountName="ZIMIDARA AGRO SERVICE, GUNNO PB" glAccountClassId="CURRENT_ASSET" glAccountId="C945158" glAccountTypeId="ACCOUNTS_RECEIVABLE"  parentGlAccountId="P110019" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945159" accountName="Zimidara Pesticides, Abohar PB" glAccountClassId="CURRENT_ASSET" glAccountId="C945159" glAccountTypeId="ACCOUNTS_RECEIVABLE"  parentGlAccountId="P110019" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945160" accountName="Purchase" glAccountClassId="EXPENSE" glAccountId="C945160" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P500000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945161" accountName="AGRO BUSINESS AGRI CLINIC INNOVT SRIG RJ" glAccountClassId="CURRENT_ASSET" glAccountId="C945161" glAccountTypeId="ACCOUNTS_RECEIVABLE"  parentGlAccountId="P110019" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945162" accountName="Angera Agency Rohat Pali Raj.	" glAccountClassId="CURRENT_ASSET" glAccountId="C945162" glAccountTypeId="ACCOUNTS_RECEIVABLE"  parentGlAccountId="P110019" glResourceTypeId="MONEY"/>"
+<GlAccount accountCode="C945163" accountName="ARUN ENTERPRISES JAITSAR RJ" glAccountClassId="CURRENT_ASSET" glAccountId="C945163" glAccountTypeId="ACCOUNTS_RECEIVABLE"  parentGlAccountId="P110019" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945164" accountName="ASHOK KUMAR KISHAN LAL Udaipur RJ		" glAccountClassId="CURRENT_ASSET" glAccountId="C945164" glAccountTypeId="ACCOUNTS_RECEIVABLE"  parentGlAccountId="P110019" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945165" accountName="JAKHAR TRADING COMPANY SRIGANGA Raj." glAccountClassId="CURRENT_ASSET" glAccountId="C945165" glAccountTypeId="ACCOUNTS_RECEIVABLE"  parentGlAccountId="P110019" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945166" accountName="Manoj Agro Agencies Shhapura Rajasthan" glAccountClassId="CURRENT_ASSET" glAccountId="C945166" glAccountTypeId="ACCOUNTS_RECEIVABLE"  parentGlAccountId="P110019" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945167" accountName="NEW SAHARA BEEJ BHANDAR, TIJARA RJ" glAccountClassId="CURRENT_ASSET" glAccountId="C945167" glAccountTypeId="ACCOUNTS_RECEIVABLE"  parentGlAccountId="P110019" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945168" accountName="PAREEK AGENCY, NAGOUR RJ1" glAccountClassId="CURRENT_ASSET" glAccountId="C945168" glAccountTypeId="ACCOUNTS_RECEIVABLE"  parentGlAccountId="P110019" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945169" accountName="RATH KHAD BEEJ BHANDAR SODAWAS RJ" glAccountClassId="CURRENT_ASSET" glAccountId="C945169" glAccountTypeId="ACCOUNTS_RECEIVABLE"  parentGlAccountId="P110019" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945170" accountName="Salary Abhishek Deshmukh" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945170" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945171" accountName="Salary Abul Kalam Azad" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945171" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945172" accountName="Salary Achinta Biswas" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945172" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945173" accountName="Salary Alok Kumar Chhotary" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945173" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945174" accountName="Salary Alok Kumar Mishra" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945174" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945175" accountName="Salary Amarkant Dubey" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945175" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945176" accountName="Salary Amrendra Kumar" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945176" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945177" accountName="Salary Anirudh Malik" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945177" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945178" accountName="Salary Ankit Kumar (raj)" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945178" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945179" accountName="Salary Apresh Singh" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945179" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945180" accountName="Salary Ashish Kumar" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945180" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945181" accountName="Salary Avnish Sharma" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945181" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945182" accountName="Salary Balamurugan Sankar" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945182" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945183" accountName="Salary Balashaheb Vilasrao" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945183" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945184" accountName="Salary Balveer Singh" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945184" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945185" accountName="Salary Bharat Bhari" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945185" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945186" accountName="Salary Bharat Singh Bhari" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945186" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945187" accountName="Salary Bivekananand Saha" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945187" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945188" accountName="Salary Buddha Prakash" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945188" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945189" accountName="Salary Chandan Kumar" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945189" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945190" accountName="Salary Deepak Kumar Sharma" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945190" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945191" accountName="Salary Dibyendu Kumar Mitra" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945191" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945192" accountName="Salary Ganesh Ravindra Pachpatil" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945192" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945193" accountName="Salary Gaurav Gupta" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945193" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945194" accountName="Salary Gurmeet Singh" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945194" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945195" accountName="Salary Gursewak Singh" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945195" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945196" accountName="Salary Gurujit Singh" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945196" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945197" accountName="Salary Hardev Kumar" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945197" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945198" accountName="Salary Harpreet Singh" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945198" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945199" accountName="Salary Hemant Saraswat" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945199" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945200" accountName="Salary Isha Sharma" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945200" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945201" accountName="Salary Jaswinder Singh Nijjer" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945201" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945202" accountName="Salary Jaydeep P Khatri" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945202" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945203" accountName="Salary Jayeshbhai Ashokbhai" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945203" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945204" accountName="Salary K.Prabhakar Rao" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945204" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945205" accountName="Salary Kalpesh Kumar Suthar" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945205" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945206" accountName="Salary Kuldeep" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945206" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945207" accountName="Salary Mahendra Pal" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945207" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945208" accountName="Salary Makit Singh" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945208" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945209" accountName="Salary Manoj Kumar" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945209" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945210" accountName="Salary Mayur J Modhvadiya" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945210" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945211" accountName="Salary Monu Saroha" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945211" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945212" accountName="Salary Mummidi Katraju" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945212" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945213" accountName="Salary Naib Singh" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945213" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945214" accountName="Salary Palvinder Singh" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945214" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945215" accountName="Salary Parveen Kumar" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945215" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945216" accountName="Salary Pittala Satish" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945216" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945217" accountName="Salary Pragat Singh" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945217" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945218" accountName="Salary Prince Sisodia" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945218" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945219" accountName="Salary Punit Verma" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945219" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945220" accountName="Salary Pushpendra Awasthi" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945220" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945221" accountName="Salary Rajesh V" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945221" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945222" accountName="Salary Rambabu L" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945222" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945223" accountName="Salary Ramesh Kasani" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945223" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945224" accountName="Salary Rameshbhai Hirabhai" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945224" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945225" accountName="Salary Ratneshwar Pandey" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945225" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945226" accountName="Salary Ravindra Pachpatil" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945226" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945227" accountName="Salary Reshab Kumar" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945227" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945228" accountName="Salary Roop Kishor Sharma" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945228" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945229" accountName="Salary Sachin Balkishor Giri" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945229" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945230" accountName="Salary Sanda Kumaraswamy" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945230" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945231" accountName="Salary Satish K Littiyedath" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945231" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945232" accountName="Salary Shishir Pandey" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945232" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945233" accountName="Salary Sneh Mishra" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945233" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945234" accountName="Salary Sohan Lal" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945234" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945235" accountName="Salary Subhash Sharma" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945235" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945236" accountName="Salary Sunil Kumar" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945236" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945237" accountName="Salary Sunil Tomar" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945237" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945238" accountName="Salary Tarsem Singh" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945238" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945239" accountName="Salary Tota Arjun Rao" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945239" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945240" accountName="Salary Umesh Khicher" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945240" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945241" accountName="Salary Uppari Balaramundu" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945241" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945242" accountName="Salary Vijay Kumar" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945242" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945243" accountName="Salary Vijay M Bhandi" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945243" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945244" accountName="Salary Vishal R Odedra" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945244" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945245" accountName="Salary Vivek Kumar" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945245" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945246" accountName="Salary Yogendra Singh (M)" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945246" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945247" accountName="Sec. MEKKATTIL TRADING CO  Thrissur KL" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945247" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200004" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945248" accountName="Sec.BALAJI TRADERS,ONGOLE,ANDHRA PRADESH" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945248" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200004" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945249" accountName="Sec.SRI LAKSHMI TRADERS,Guntur,A.P." glAccountClassId="CURRENT_LIABILITY" glAccountId="C945249" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200004" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945250" accountName="Sec.Sri New Ganesh Enterprises Yemign AP" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945250" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200004" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945251" accountName="Sec. PRIYANSHU KHAD BHANDAR Patna Bihar" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945251" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200004" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945252" accountName="Sec.Rahul Agrotech Bihar" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945252" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200004" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945253" accountName="Sec.SINGH IS KING ENTERPRISE PATNA Bihar" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945253" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200004" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945254" accountName="Sec. Vijay Enterprizes" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945254" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200005" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945255" accountName="Sec.Bhanu Krishi Sewa Kendra SonarpalCG" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945255" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200004" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945256" accountName="Sec.KRISHI VIKAS KENDRA,DURG CG" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945256" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200004" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945257" accountName="Sec. New Sahara Beej Bhandar Tizara" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945257" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945258" accountName="Sec.Kamlesh Kumar Arun Kumar &amp; Company" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945258" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945259" accountName="Sec.Khetiwari Beej Bhandar" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945259" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945260" accountName="Sec.Navdurga Krishi Sewa Kendra" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945260" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945261" accountName="Sec. Agri Business Centre Mehemdavad GJ" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945261" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200004" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945262" accountName="SEC. AGRI BUSINESS CENTRE TARAPUR GJ" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945262" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200004" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945263" accountName="Sec. Agro Service Center Jeser,bhavnagar" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945263" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200004" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945264" accountName="SEC. AGRO SERVICE CENTRE DAHOD GJ" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945264" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200004" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945265" accountName="SEC. GHANSHYAM AGRO SERVICES KHEDA GJ" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945265" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200004" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945266" accountName="Sec. Somnath Agro Agency,kamraj,surat" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945266" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200004" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945267" accountName="SEC. UMIYA AGRO AGENCIES BHUJ GJ" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945267" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200004" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945268" accountName="Sec.GIRIRAJ AGRO CENTRE,SURAT,GUJRAT" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945268" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200004" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945269" accountName="Sec.Jalaram Org. Ferti &amp; Pesti Baruch GJ" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945269" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200004" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945270" accountName="Sec.JAY JALARAM DISTRIBUTOR CHIKLI GJ" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945270" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200004" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945271" accountName="Sec.Kisan Sewa Kendra Rajpila,Narvada Gu" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945271" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200004" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945272" accountName="Sec.SHREENATH AGRO CENTRE,SURAT" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945272" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200004" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945273" accountName="Sec. Chaudhary Enterprises , Hisar, HR" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945273" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200004" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945274" accountName="Sec. M K FERTILIZERS HANSI HISSAR HR" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945274" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200004" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945275" accountName="Sec.BHARAT SALES CORPORATION,RANIA,SIRSA" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945275" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200004" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945276" accountName="Sec.GULATI AGRO SALES,KURUKSHETRA,HARYAN" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945276" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200004" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945277" accountName="Sec.SHANKAR FERTILIZERS, DHAND HR" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945277" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200004" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945278" accountName="Sec. Kherumal Agyaram Rohru, Shimla HP" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945278" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200004" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945279" accountName="Sec.SHANKAR KRISHI KENDRA, GUMLA JH" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945279" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200004" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945280" accountName="Sec Manu Traders Siddhamanhalli Bellari" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945280" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200004" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945281" accountName="SEC. AMRUT AGRO AGENCIES BELAGAVI KARNTK" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945281" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200004" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945282" accountName="Sec. S P Agri Clinic Chikkaballapura KR" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945282" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200004" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945283" accountName="Sec.UDAYA SAI AGRI CLINIC KURUGODU KR" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945283" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200004" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945284" accountName="Sec. Aastha K.S.Kendra Guamgaon Hingna M" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945284" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200004" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945285" accountName="Sec.ANNAPURNA KRISHI SEVA KENDRA,Sawant" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945285" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200004" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945286" accountName="Sec. Anushka Agro Agency Tasgaon MH" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945286" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200004" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945287" accountName="SEC. LUXMI KRISHI UDYOG AHMEDNAGAR MH" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945287" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200004" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945288" accountName="Sec. Mauli Krushi Sewa Kendra Barsitakli" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945288" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200004" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945289" accountName="Sec. Parab Agro Services Sindhudurg MH" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945289" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200004" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945290" accountName="SEC. PATANJALI KISAN SEWA KD PARATWAD MH" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945290" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200004" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945291" accountName="Sec. Preetisangam Agro Services Nasik MH" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945291" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200004" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945292" accountName="Sec.HARIOM JAIVIK KISAN SEWA KENDRA,WARD" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945292" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200004" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945293" accountName="Sec.JALDHARTI KISAN KRUSHI SEWA KENDRA," glAccountClassId="CURRENT_LIABILITY" glAccountId="C945293" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200004" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945294" accountName="Sec.Mohadi Agro Agencies,mohadi,bhandara" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945294" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200004" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945295" accountName="Sec.Preeti Sangam Krushi Sewa Kendra Nas" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945295" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200004" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945296" accountName="Sec.SHIVKRUPA KRISHI KENDRA Chandrapr MH" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945296" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200004" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945297" accountName="Sec.Shree Swami Samarth Agr Agnc JalnaMH" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945297" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200004" glResourceTypeId="MONEY"/>
+"<GlAccount accountCode="C945298" accountName="Sec.UNNATI AGRO AGENCIES,NAGPUR	MH" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945298" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200004" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945299" accountName="Sec.We Farmers Krushan Balaram Nilanga,l" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945299" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200004" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945300" accountName="THE VIDARBHA CO-OPERATIVE MARKETING FEDR" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945300" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200004" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945301" accountName="RAMGULAM HUKAMCHAND RHALI SAGAR MP" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945301" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200004" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945302" accountName="SEC. A R GROW ENTERPRISES BHOPAL MP" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945302" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200004" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945303" accountName="Sec. Dharmendra Jain &amp; Sons Karea Shivpu" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945303" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200004" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945304" accountName="SEC. DIWAKAR TRADING COMPANY SEHORE MP" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945304" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200004" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945305" accountName="SEC. KRISHAK SEWA KENDRA, DATIA MP" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945305" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200004" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945306" accountName="SEC. KRISHI BHAVAN SEHORE MP" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945306" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200004" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945307" accountName="SEC. NIDHI AGRO AGENCY GWALIOR MP" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945307" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200004" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945308" accountName="Sec. Rajendra Traders Shivpuri MP" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945308" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200004" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945309" accountName="Sec. Shree Fertilizers Dhar MP" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945309" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200004" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945310" accountName="SEC. VARDHMAN AGENCY, SAGAR MP" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945310" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200004" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945311" accountName="Sec.AGRAWAL JAIVIK KRISHI SEWA KENDRA,GU" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945311" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200004" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945312" accountName="Sec. Rathore Trading Co. Kalahandi Odisa" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945312" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200004" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945313" accountName="Sec,PAPPU KHAD STOR, SADIQ PB" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945313" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200004" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945314" accountName="Sec. Aawal Kisan Sewa Centre Sangrur PJ" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945314" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200004" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945315" accountName="Sec. Brar Fertlizers Sarwar Fazilka FPJ" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945315" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200004" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945316" accountName="Sec. Goyal Traders Hosiarpur Punjab" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945316" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200004" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945317" accountName="Sec. JOTIRAM SATPAUL, Sangat Mandi PB" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945317" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200004" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945318" accountName="Sec. KASHMIRI LAL MOHAN LAL BATHINDA PJ" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945318" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200004" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945319" accountName="Sec. MALWA TRADING CO. SINGO PUNJAB" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945319" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200004" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945320" accountName="Sec. NEW GARG SEED STORE,TALWANDI, PJ" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945320" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200004" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945321" accountName="Sec. NISHANT SALES CORP. Kotkapura PJ" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945321" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200004" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945322" accountName="Sec. P K PESTICIDES,MOGA PUNJAB" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945322" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200004" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945323" accountName="SEC. SAHARA TRADERS, MALOUT PUNJAB" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945323" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200004" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945324" accountName="Sec. Singla Traders, Longowal Sangrur PJ" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945324" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200004" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945325" accountName="Sec.ANAND SEEDS FARM,NAWANSHAHR PUNJAB" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945325" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200004" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945326" accountName="Sec.Brar Pesticides,Muktsar Punjab" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945326" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200004" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945327" accountName="Sec.Devindra Kheti Sewa Centre Bhikhi PJ" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945327" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200004" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945328" accountName="SEC.JAI MAA JAGDAMBEY SEED STR KOTKA PJ" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945328" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200004" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945329" accountName="Sec.JAYPEE ENTERPRISES,MOGA,PUNJAB" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945329" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200004" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945330" accountName="Sec.KUKKAR TRADING CO.FAZILKA PUNJAB" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945330" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200004" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945331" accountName="Sec.M/S KANSAL TRADING CO.MANSA	PUNJAB" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945331" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200004" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945332" accountName="Sec.NEW KISSAN AGRO AGENCY,PATIALA PB" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945332" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200004" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945333" accountName="Sec.NEW PUNJAB SEED STORE,HOSIYARPUR" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945333" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200004" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945334" accountName="Sec.PREM TRADERS,FIROZPUR,PUNJAB" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945334" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200004" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945335" accountName="Sec.RAJESH FERTILIZERS,SHRI MUKTSARS" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945335" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200004" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945336" accountName="Sec.Shivchand Rajkumar, Goniana Mandi PJ" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945336" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200004" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945337" accountName="Sec.SINGLA FERTILIZERS,MANSA PUNJAB" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945337" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200004" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945338" accountName="Sec.Subham Fertlizer,ferozepur Cantt PB" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945338" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200004" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945339" accountName="Sec.ZIMIDARA AGRO SERVICE, GUNNO PB" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945339" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200004" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945340" accountName="SEC. AGRO BUSINESS AGRI CLINIC INNOVT RJ" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945340" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200004" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945341" accountName="SEC. ARUN ENTERPRISES JAITSAR RJ" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945341" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200004" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945342" accountName="SEC. BALAJI AGRO AGENCY JHAJHU BIKANR RJ" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945342" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200004" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945343" accountName="Sec. Bhadu Kirshi Agency Khivsar RJ" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945343" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200004" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945344" accountName="SEC. BRAHMANI KHAD BEJ BHNDR HANUMANG RJ" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945344" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200004" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945345" accountName="Sec. Jain Seeds &amp; Pesticides Jaipur Rj." glAccountClassId="CURRENT_LIABILITY" glAccountId="C945345" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200004" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945346" accountName="SEC. JAKHAR TRADING COMPANY SRIGANGA RJ" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945346" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200004" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945347" accountName="Sec. Jan Sewa Sales Corp. Hanumangarh RJ" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945347" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200004" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945348" accountName="SEC. KISAN SEWA SAHKARI SAMITI ANOPGR RJ" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945348" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200004" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945349" accountName="Sec. PAREEK AGENCY NAGOUR RJ" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945349" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200004" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945350" accountName="Sec. Shree Ram Pesticides Hanumangar,RAJ" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945350" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200004" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945351" accountName="SEC. VADERA FERTILIZERS, SRIGANGANAGR RJ" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945351" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200004" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945352" accountName="Sec.MANOJ AGRO AGENCIES,JAIPUR,RAJ" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945352" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200004" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945353" accountName="Sec.OM PESTICIDES FERTILIZERS GOLA Raj." glAccountClassId="CURRENT_LIABILITY" glAccountId="C945353" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200004" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945354" accountName="SEC.SHRI GANPATI PESTICIDES SILWANI RJ" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945354" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200004" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945355" accountName="Sec.SHRI NAKODA K.S.K KISHANGAD AJMER RJ" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945355" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200004" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945356" accountName="Sec.Shri Nakoda Krishi Sewa Kendra,Ajmer" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945356" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200004" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945357" accountName="Sec. International Ferti Ag. Coimbatr TN" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945357" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200004" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945358" accountName="Sec.KAVYA AGRI CLINIC Villupuram TN" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945358" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200004" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945359" accountName="Sec.Senthil Murugan Agro S. Udumalpet TN" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945359" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200004" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945360" accountName="Sec.KEDARESWARA SEED &amp; PESTI NANDIPET TL" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945360" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200004" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945361" accountName="Sec,SAI KHAD EVAM BEEJ BHANDAR,BADAUN UP" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945361" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200004" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945362" accountName="Sec. Maa Gayatri Krishak SK Kashirmng UP" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945362" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200004" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945363" accountName="SEC. ONE STOP SHOP AGRI JN VARANASI UP" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945363" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200004" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945364" accountName="Sec.RATHORE TRADERS,KASHGANJ UP" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945364" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200004" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945365" accountName="Sec.V-Andata Organic,Lakhnauti SRE. UP" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945365" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200004" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945366" accountName="Sec MAA KALI FERTILIZERS EGRA W.Midnapor" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945366" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200004" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945367" accountName="Sec. ANANDINATH DAS, RAMIA WB" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945367" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200004" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945368" accountName="Sec. Bapari Agricultural Ferti CoachB WB" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945368" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200004" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945369" accountName="Sec. Bishnu Fertilizers, Alipur Sadar WB" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945369" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200004" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945370" accountName="Sec. Jana Fertilizers South24Pargna WB" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945370" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200004" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945371" accountName="SEC. JHARNA SEEDS SOUTH 24 PARGANA WB" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945371" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200004" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945372" accountName="Sec. Maa Kali Krishi Bhandar South24P WB" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945372" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200004" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945373" accountName="SEC. MAITY FERTILIZERS E-MEDNAPORE WB" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945373" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200004" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945374" accountName="Sec. Mandal Fertilizers, Birbhum WB" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945374" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200004" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945375" accountName="Sec. Nirmalendu Halder, Raidighi WB" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945375" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200004" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945376" accountName="Sec. Radha Rani Krishi Bhdr South24P WB" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945376" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200004" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945377" accountName="SEC. SUBHENDU MONDAL SOUTH24PARGNA WB" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945377" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200004" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945378" accountName="SEC. TUSHAR KANTI HALDER SOUTH24PRGN WB" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945378" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200004" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945379" accountName="Sec.Belpukur Krishi Bhandar Rangafala WB" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945379" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200004" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945380" accountName="Sec.JANAPRIYA KRISHI BHANDAR SIRAKOLE WB" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945380" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200004" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945381" accountName="Sec.LAXMI NARAYAN SAR BHANDR DEULPOTA WB" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945381" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200004" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945382" accountName="Sec.NAG FERTILIZERS BIRBHUM WB" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945382" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200004" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945383" accountName="Sec.NAMKHANA KRISHI BIPANI, WEST BANGAL" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945383" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200004" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945384" accountName="Sec.NASKAR FERTILIZER, KALYANPUR WB" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945384" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200004" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945385" accountName="Sec.SHRI KRISHNA KRISHI BHANDAR KULPI WB" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945385" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200004" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945386" accountName="Sec.BIHARI ENTERPRISE,COACH BEHAR WB" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945386" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200004" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945387" accountName="Sec.NANDI TRADERS,WEST MEDNIPORWEST BANG" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945387" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200004" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945388" accountName="Sec.SURENDRA KRISHI BHAWAN,SOUTH 24WEST" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945388" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200004" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945389" accountName="Stock" glAccountClassId="CURRENT_ASSET" glAccountId="C945389" glAccountTypeId="CURRENT_ASSET"  parentGlAccountId="P100000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945390" accountName="Bihar Agro Industries" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945390" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945391" accountName="Classic Stickers &amp; Printers Pvt Ltd" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945391" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945392" accountName="Livpurere Pvt. Ltd." glAccountClassId="CURRENT_LIABILITY" glAccountId="C945392" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945393" accountName="Orchid Corporate Services India Pvt Ltd" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945393" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945394" accountName="Patanjali Agro India Pvt. Ltd" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945394" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945395" accountName="PBRI Telanagana Branch" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945395" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945396" accountName="Pokharna Phosphates &amp; Nitrates" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945396" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945397" accountName="Reckers Automation India Pvt Ltd" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945397" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945398" accountName="Sar Agrochemicals &amp; Fertilizers Pvt. Ltd" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945398" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945399" accountName="Star Crane &amp; Towing Service" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945399" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945400" accountName="Uttam Electric Store" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945400" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945401" accountName="Ambika Scientific Industries	" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945401" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945402" accountName="Beej Sheetal Research Pvt. Ltd" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945402" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945403" accountName="BELLSTONE HI-TECH INTERNATIONAL" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945403" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945404" accountName="Birla Aircon" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945404" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945405" accountName="Divya Packmaf Pvt Ltd" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945405" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945406" accountName="Eknaam Printers &amp; Packers" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945406" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945407" accountName="Excel Pack Pvt Ltd (Unit 1)" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945407" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945408" accountName="Excelsior Engineers Pvt Ltd" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945408" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945409" accountName="Global Translation Services" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945409" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945410" accountName="H. B. Khanduja" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945410" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945411" accountName="Hindu Electric Press" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945411" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945412" accountName="Khanduja Furniture" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945412" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945413" accountName="Komal Elektro Sales" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945413" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945414" accountName="Krishna Services (DTDC)" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945414" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945415" accountName="Krishna Surgicals &amp; Medicals" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945415" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945416" accountName="Maharaj Computer Services HRD" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945416" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945417" accountName="Mittal Refrectories		" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945417" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200000" glResourceTypeId="MONEY"/>"
+<GlAccount accountCode="C945418" accountName="Monica Trading And General Suppliers" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945418" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945419" accountName="Mr. Jasprit Singh C/O Chauhan Graphics" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945419" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945420" accountName="P.K.Hand Made Paper Industry" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945420" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945421" accountName="PBRI  Branch KARNATAKA" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945421" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945422" accountName="Prakriti Eco Products &amp; Services" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945422" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945423" accountName="Pratham Graphics Media" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945423" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945424" accountName="Sabri Wood Supplier" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945424" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945425" accountName="Saga Agrochem Pvt. Ltd." glAccountClassId="CURRENT_LIABILITY" glAccountId="C945425" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945426" accountName="TATA Aig General Insurance Co. Ltd." glAccountClassId="CURRENT_LIABILITY" glAccountId="C945426" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945427" accountName="Team Solution India" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945427" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945428" accountName="Thermkare Engineers" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945428" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945429" accountName="Uniteck Scientific &amp; Electronic Industry" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945429" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945430" accountName="Vermillion Communication Pvt Ltd." glAccountClassId="CURRENT_LIABILITY" glAccountId="C945430" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945431" accountName="Viithiisys technologies div of ibaazLtd." glAccountClassId="CURRENT_LIABILITY" glAccountId="C945431" glAccountTypeId="CURRENT_LIABILITY"  parentGlAccountId="P200000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945432" accountName="PBRI RAJ BRANCH" glAccountClassId="CURRENT_ASSET" glAccountId="C945432" glAccountTypeId="CURRENT_ASSET"  parentGlAccountId="P100000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945433" accountName="AJAY TRADERS, FARIDKOT" glAccountClassId="CURRENT_ASSET" glAccountId="C945433" glAccountTypeId="CURRENT_ASSET"  parentGlAccountId="P100000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945434" accountName="AMAR ENTERPRISES, RAMPURA" glAccountClassId="CURRENT_ASSET" glAccountId="C945434" glAccountTypeId="CURRENT_ASSET"  parentGlAccountId="P100000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945435" accountName="Andata Organic, Saharanpu, UP" glAccountClassId="CURRENT_ASSET" glAccountId="C945435" glAccountTypeId="CURRENT_ASSET"  parentGlAccountId="P100000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945436" accountName="Bhai Rajiv Swadeshi Kissan Sewa Kendra," glAccountClassId="CURRENT_ASSET" glAccountId="C945436" glAccountTypeId="CURRENT_ASSET"  parentGlAccountId="P100000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945437" accountName="Bhalla Pesticides, Smalsar" glAccountClassId="CURRENT_ASSET" glAccountId="C945437" glAccountTypeId="CURRENT_ASSET"  parentGlAccountId="P100000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945438" accountName="CSC E-Governance Services India Limited," glAccountClassId="CURRENT_ASSET" glAccountId="C945438" glAccountTypeId="CURRENT_ASSET"  parentGlAccountId="P100000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945439" accountName="Divya Yog Mandir, Gaushala Farm" glAccountClassId="CURRENT_ASSET" glAccountId="C945439" glAccountTypeId="CURRENT_ASSET"  parentGlAccountId="P100000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945440" accountName="Jain Brothers, SADIQ" glAccountClassId="CURRENT_ASSET" glAccountId="C945440" glAccountTypeId="CURRENT_ASSET"  parentGlAccountId="P100000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945441" accountName="JAYPEE ENTERPRISES, MOGA" glAccountClassId="CURRENT_ASSET" glAccountId="C945441" glAccountTypeId="CURRENT_ASSET"  parentGlAccountId="P100000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945442" accountName="Kamlesh Kumar Arun Kumar  &amp; Co. Siswa Ba" glAccountClassId="CURRENT_ASSET" glAccountId="C945442" glAccountTypeId="CURRENT_ASSET"  parentGlAccountId="P100000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945443" accountName="KISSAN PESTICIDES SIRSA" glAccountClassId="CURRENT_ASSET" glAccountId="C945443" glAccountTypeId="CURRENT_ASSET"  parentGlAccountId="P100000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945444" accountName="M/S PK PESTICIDES MOGA" glAccountClassId="CURRENT_ASSET" glAccountId="C945444" glAccountTypeId="CURRENT_ASSET"  parentGlAccountId="P100000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945445" accountName="NISHANT SALES CORPORATION, KOTAKPURA" glAccountClassId="CURRENT_ASSET" glAccountId="C945445" glAccountTypeId="CURRENT_ASSET"  parentGlAccountId="P100000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945446" accountName="PAREEK PESTICIDE STORE, SURATGARH" glAccountClassId="CURRENT_ASSET" glAccountId="C945446" glAccountTypeId="CURRENT_ASSET"  parentGlAccountId="P100000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945447" accountName="Patanjali Bio Research Institute WB" glAccountClassId="CURRENT_ASSET" glAccountId="C945447" glAccountTypeId="CURRENT_ASSET"  parentGlAccountId="P100000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945448" accountName="PBRI CHHATISHGARH" glAccountClassId="CURRENT_ASSET" glAccountId="C945448" glAccountTypeId="CURRENT_ASSET"  parentGlAccountId="P100000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945449" accountName="PBRI HR" glAccountClassId="CURRENT_ASSET" glAccountId="C945449" glAccountTypeId="CURRENT_ASSET"  parentGlAccountId="P100000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945450" accountName="PBRI KERALA" glAccountClassId="CURRENT_ASSET" glAccountId="C945450" glAccountTypeId="CURRENT_ASSET"  parentGlAccountId="P100000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945451" accountName="PBRI Punjab Branch" glAccountClassId="CURRENT_ASSET" glAccountId="C945451" glAccountTypeId="CURRENT_ASSET"  parentGlAccountId="P100000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945452" accountName="PBRI Pvt. Ltd  BIHAR" glAccountClassId="CURRENT_ASSET" glAccountId="C945452" glAccountTypeId="CURRENT_ASSET"  parentGlAccountId="P100000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945453" accountName="PBRI Pvt. ltd. Branch MP" glAccountClassId="CURRENT_ASSET" glAccountId="C945453" glAccountTypeId="CURRENT_ASSET"  parentGlAccountId="P100000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945454" accountName="PBRI Pvt. Ltd. ODISHA" glAccountClassId="CURRENT_ASSET" glAccountId="C945454" glAccountTypeId="CURRENT_ASSET"  parentGlAccountId="P100000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945455" accountName="PBRI Pvt. Ltd. UP" glAccountClassId="CURRENT_ASSET" glAccountId="C945455" glAccountTypeId="CURRENT_ASSET"  parentGlAccountId="P100000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945456" accountName="PBRI Pvt.Ltd. Branch Bihar" glAccountClassId="CURRENT_ASSET" glAccountId="C945456" glAccountTypeId="CURRENT_ASSET"  parentGlAccountId="P100000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945457" accountName="PBRI SOIL SOLUTION PVT. LTD." glAccountClassId="CURRENT_ASSET" glAccountId="C945457" glAccountTypeId="CURRENT_ASSET"  parentGlAccountId="P100000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945458" accountName="Pbri Tamilnadu" glAccountClassId="CURRENT_ASSET" glAccountId="C945458" glAccountTypeId="CURRENT_ASSET"  parentGlAccountId="P100000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945459" accountName="PREM TRADERS, Firozpur" glAccountClassId="CURRENT_ASSET" glAccountId="C945459" glAccountTypeId="CURRENT_ASSET"  parentGlAccountId="P100000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945460" accountName="PUNJAB SEED STORE, BHATINDA" glAccountClassId="CURRENT_ASSET" glAccountId="C945460" glAccountTypeId="CURRENT_ASSET"  parentGlAccountId="P100000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945461" accountName="SAINI SEEDS &amp; PESTICIDES, BHAGWANPUR" glAccountClassId="CURRENT_ASSET" glAccountId="C945461" glAccountTypeId="CURRENT_ASSET"  parentGlAccountId="P100000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945462" accountName="SEHYOG KRISHI UDHYOG, JALANDHAR" glAccountClassId="CURRENT_ASSET" glAccountId="C945462" glAccountTypeId="CURRENT_ASSET"  parentGlAccountId="P100000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945463" accountName="SHIVCHAND RAJKUMAR, Bhatinda" glAccountClassId="CURRENT_ASSET" glAccountId="C945463" glAccountTypeId="CURRENT_ASSET"  parentGlAccountId="P100000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945464" accountName="SHRI BALAJI PESTICIDES BHATIWALA" glAccountClassId="CURRENT_ASSET" glAccountId="C945464" glAccountTypeId="CURRENT_ASSET"  parentGlAccountId="P100000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945465" accountName="Singla Trader, Longowal" glAccountClassId="CURRENT_ASSET" glAccountId="C945465" glAccountTypeId="CURRENT_ASSET"  parentGlAccountId="P100000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945466" accountName="SURI ENTERPRISES, Salon" glAccountClassId="CURRENT_ASSET" glAccountId="C945466" glAccountTypeId="CURRENT_ASSET"  parentGlAccountId="P100000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945467" accountName="Umya Agro Agences, Gita MArket, Bhuj" glAccountClassId="CURRENT_ASSET" glAccountId="C945467" glAccountTypeId="CURRENT_ASSET"  parentGlAccountId="P100000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945468" accountName="VADERA FERTILIZERS" glAccountClassId="CURRENT_ASSET" glAccountId="C945468" glAccountTypeId="CURRENT_ASSET"  parentGlAccountId="P100000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945469" accountName="Vijay Enterprises" glAccountClassId="CURRENT_ASSET" glAccountId="C945469" glAccountTypeId="CURRENT_ASSET"  parentGlAccountId="P100000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945470" accountName="Agri Business Center Ajarpura S/D Gujrat" glAccountClassId="CURRENT_ASSET" glAccountId="C945470" glAccountTypeId="ACCOUNTS_RECEIVABLE"  parentGlAccountId="P110019" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945471" accountName="Shree Fertilizers Dhar S/D MP" glAccountClassId="CURRENT_ASSET" glAccountId="C945471" glAccountTypeId="ACCOUNTS_RECEIVABLE"  parentGlAccountId="P110019" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945472" accountName="Athaarva Agro C&amp;F Agent Distributers" glAccountClassId="CURRENT_LIABILITY" glAccountId="C945472" glAccountTypeId="ACCOUNTS_PAYABLE"  parentGlAccountId="P200001" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945473" accountName="Advance- Abhishek A Deshmukh" glAccountClassId="CURRENT_ASSET" glAccountId="C945473" glAccountTypeId="CURRENT_ASSET"  parentGlAccountId="P110000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945474" accountName="TA DA Abhinav Giri" glAccountClassId="CURRENT_ASSET" glAccountId="C945474" glAccountTypeId="CURRENT_ASSET"  parentGlAccountId="P110000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945475" accountName="TA DA Abhishek Deshmukh" glAccountClassId="CURRENT_ASSET" glAccountId="C945475" glAccountTypeId="CURRENT_ASSET"  parentGlAccountId="P110000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945476" accountName="TA DA Alok Mishra" glAccountClassId="CURRENT_ASSET" glAccountId="C945476" glAccountTypeId="CURRENT_ASSET"  parentGlAccountId="P110000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945477" accountName="TA DA Amrkant Dubey" glAccountClassId="CURRENT_ASSET" glAccountId="C945477" glAccountTypeId="CURRENT_ASSET"  parentGlAccountId="P110000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945478" accountName="TA DA Ankit ,Suratgarh" glAccountClassId="CURRENT_ASSET" glAccountId="C945478" glAccountTypeId="CURRENT_ASSET"  parentGlAccountId="P110000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945479" accountName="TA DA Apresh Singh" glAccountClassId="CURRENT_ASSET" glAccountId="C945479" glAccountTypeId="CURRENT_ASSET"  parentGlAccountId="P110000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945480" accountName="TA DA Buddha Prakash" glAccountClassId="CURRENT_ASSET" glAccountId="C945480" glAccountTypeId="CURRENT_ASSET"  parentGlAccountId="P110000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945481" accountName="Ta Da Ganesh Pachpatil" glAccountClassId="CURRENT_ASSET" glAccountId="C945481" glAccountTypeId="CURRENT_ASSET"  parentGlAccountId="P110000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945482" accountName="TA DA Gurmeet Singh" glAccountClassId="CURRENT_ASSET" glAccountId="C945482" glAccountTypeId="CURRENT_ASSET"  parentGlAccountId="P110000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945483" accountName="Ta Da Hardev Kumar" glAccountClassId="CURRENT_ASSET" glAccountId="C945483" glAccountTypeId="CURRENT_ASSET"  parentGlAccountId="P110000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945484" accountName="TA DA Jayeshbhai Sarvaiya" glAccountClassId="CURRENT_ASSET" glAccountId="C945484" glAccountTypeId="CURRENT_ASSET"  parentGlAccountId="P110000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945485" accountName="TA Da Kuldeep" glAccountClassId="CURRENT_ASSET" glAccountId="C945485" glAccountTypeId="CURRENT_ASSET"  parentGlAccountId="P110000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945486" accountName="Ta Da Kulfeep PB" glAccountClassId="CURRENT_ASSET" glAccountId="C945486" glAccountTypeId="CURRENT_ASSET"  parentGlAccountId="P110000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945487" accountName="TA DA MER Ramesh" glAccountClassId="CURRENT_ASSET" glAccountId="C945487" glAccountTypeId="CURRENT_ASSET"  parentGlAccountId="P110000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945488" accountName="TA DA Mohender Pal UP" glAccountClassId="CURRENT_ASSET" glAccountId="C945488" glAccountTypeId="CURRENT_ASSET"  parentGlAccountId="P110000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945489" accountName="TA DA Monu Saroha" glAccountClassId="CURRENT_ASSET" glAccountId="C945489" glAccountTypeId="CURRENT_ASSET"  parentGlAccountId="P110000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945490" accountName="Ta Da Mummidi Katraju" glAccountClassId="CURRENT_ASSET" glAccountId="C945490" glAccountTypeId="CURRENT_ASSET"  parentGlAccountId="P110000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945491" accountName="Ta Da Naib Singh" glAccountClassId="CURRENT_ASSET" glAccountId="C945491" glAccountTypeId="CURRENT_ASSET"  parentGlAccountId="P110000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945492" accountName="Ta Da Pargat Singh" glAccountClassId="CURRENT_ASSET" glAccountId="C945492" glAccountTypeId="CURRENT_ASSET"  parentGlAccountId="P110000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945493" accountName="TA DA Puneet Verma" glAccountClassId="CURRENT_ASSET" glAccountId="C945493" glAccountTypeId="CURRENT_ASSET"  parentGlAccountId="P110000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945494" accountName="TA DA Rajesh V" glAccountClassId="CURRENT_ASSET" glAccountId="C945494" glAccountTypeId="CURRENT_ASSET"  parentGlAccountId="P110000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945495" accountName="Ta- Da Ratneshwar Pandey" glAccountClassId="CURRENT_ASSET" glAccountId="C945495" glAccountTypeId="CURRENT_ASSET"  parentGlAccountId="P110000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945496" accountName="TA DA Rjesh V" glAccountClassId="CURRENT_ASSET" glAccountId="C945496" glAccountTypeId="CURRENT_ASSET"  parentGlAccountId="P110000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945497" accountName="TA DA Roop Kishor" glAccountClassId="CURRENT_ASSET" glAccountId="C945497" glAccountTypeId="CURRENT_ASSET"  parentGlAccountId="P110000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945498" accountName="Ta Da Santosh Kumar TN&amp;KL" glAccountClassId="CURRENT_ASSET" glAccountId="C945498" glAccountTypeId="CURRENT_ASSET"  parentGlAccountId="P110000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945499" accountName="TA DA Vijay M BHandi" glAccountClassId="CURRENT_ASSET" glAccountId="C945499" glAccountTypeId="CURRENT_ASSET"  parentGlAccountId="P110000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945500" accountName="TA-DA Abul Kalam Azad Bapari" glAccountClassId="CURRENT_ASSET" glAccountId="C945500" glAccountTypeId="CURRENT_ASSET"  parentGlAccountId="P110000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945501" accountName="TA-DA Achinta Biswas" glAccountClassId="CURRENT_ASSET" glAccountId="C945501" glAccountTypeId="CURRENT_ASSET"  parentGlAccountId="P110000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945502" accountName="TA-DA Ajay Singh Bishnoi" glAccountClassId="CURRENT_ASSET" glAccountId="C945502" glAccountTypeId="CURRENT_ASSET"  parentGlAccountId="P110000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945503" accountName="TA-DA Anirudh Malik" glAccountClassId="CURRENT_ASSET" glAccountId="C945503" glAccountTypeId="CURRENT_ASSET"  parentGlAccountId="P110000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945504" accountName="TA-DA Ankit Gupta" glAccountClassId="CURRENT_ASSET" glAccountId="C945504" glAccountTypeId="CURRENT_ASSET"  parentGlAccountId="P110000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945505" accountName="TA-DA Ashish Kumar Singh" glAccountClassId="CURRENT_ASSET" glAccountId="C945505" glAccountTypeId="CURRENT_ASSET"  parentGlAccountId="P110000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945506" accountName="TA-DA Bharat Singh Bhari" glAccountClassId="CURRENT_ASSET" glAccountId="C945506" glAccountTypeId="CURRENT_ASSET"  parentGlAccountId="P110000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945507" accountName="TA-DA Buddha Prakash" glAccountClassId="CURRENT_ASSET" glAccountId="C945507" glAccountTypeId="CURRENT_ASSET"  parentGlAccountId="P110000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945508" accountName="TA-DA CA Nitin Agarwal" glAccountClassId="CURRENT_ASSET" glAccountId="C945508" glAccountTypeId="CURRENT_ASSET"  parentGlAccountId="P110000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945509" accountName="TA-DA Chandan Kumar" glAccountClassId="CURRENT_ASSET" glAccountId="C945509" glAccountTypeId="CURRENT_ASSET"  parentGlAccountId="P110000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945510" accountName="TA-DA Deepak Kumar Sharma" glAccountClassId="CURRENT_ASSET" glAccountId="C945510" glAccountTypeId="CURRENT_ASSET"  parentGlAccountId="P110000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945511" accountName="TA-DA Dibyendu Kumar Mitra" glAccountClassId="CURRENT_ASSET" glAccountId="C945511" glAccountTypeId="CURRENT_ASSET"  parentGlAccountId="P110000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945512" accountName="TA-DA Gurjeet Singh" glAccountClassId="CURRENT_ASSET" glAccountId="C945512" glAccountTypeId="CURRENT_ASSET"  parentGlAccountId="P110000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945513" accountName="TA-DA Harpreet Singh" glAccountClassId="CURRENT_ASSET" glAccountId="C945513" glAccountTypeId="CURRENT_ASSET"  parentGlAccountId="P110000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945514" accountName="TA-DA Hemant Saraswat" glAccountClassId="CURRENT_ASSET" glAccountId="C945514" glAccountTypeId="CURRENT_ASSET"  parentGlAccountId="P110000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945515" accountName="TA-DA Jaswinder Singh nijja" glAccountClassId="CURRENT_ASSET" glAccountId="C945515" glAccountTypeId="CURRENT_ASSET"  parentGlAccountId="P110000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945516" accountName="TA-DA K.Ramesh" glAccountClassId="CURRENT_ASSET" glAccountId="C945516" glAccountTypeId="CURRENT_ASSET"  parentGlAccountId="P110000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945517" accountName="TA-DA L. Rambabu" glAccountClassId="CURRENT_ASSET" glAccountId="C945517" glAccountTypeId="CURRENT_ASSET"  parentGlAccountId="P110000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945518" accountName="TA-DA Malkit Singh" glAccountClassId="CURRENT_ASSET" glAccountId="C945518" glAccountTypeId="CURRENT_ASSET"  parentGlAccountId="P110000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945519" accountName="TA-DA Manoj Kumar" glAccountClassId="CURRENT_ASSET" glAccountId="C945519" glAccountTypeId="CURRENT_ASSET"  parentGlAccountId="P110000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945520" accountName="TA-DA Pankaj Singh" glAccountClassId="CURRENT_ASSET" glAccountId="C945520" glAccountTypeId="CURRENT_ASSET"  parentGlAccountId="P110000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945521" accountName="TA-DA Pragat Singh" glAccountClassId="CURRENT_ASSET" glAccountId="C945521" glAccountTypeId="CURRENT_ASSET"  parentGlAccountId="P110000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945522" accountName="TA-DA Prince Sisodia" glAccountClassId="CURRENT_ASSET" glAccountId="C945522" glAccountTypeId="CURRENT_ASSET"  parentGlAccountId="P110000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945523" accountName="Ta-da Shishr Panday" glAccountClassId="CURRENT_ASSET" glAccountId="C945523" glAccountTypeId="CURRENT_ASSET"  parentGlAccountId="P110000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945524" accountName="TA-DA Sohan Lal" glAccountClassId="CURRENT_ASSET" glAccountId="C945524" glAccountTypeId="CURRENT_ASSET"  parentGlAccountId="P110000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945525" accountName="TA-DA Subhash Sharma" glAccountClassId="CURRENT_ASSET" glAccountId="C945525" glAccountTypeId="CURRENT_ASSET"  parentGlAccountId="P110000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945526" accountName="TA-DA Sunil Kumar, Punjab" glAccountClassId="CURRENT_ASSET" glAccountId="C945526" glAccountTypeId="CURRENT_ASSET"  parentGlAccountId="P110000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945527" accountName="TA-DA Tarseem Singh" glAccountClassId="CURRENT_ASSET" glAccountId="C945527" glAccountTypeId="CURRENT_ASSET"  parentGlAccountId="P110000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945528" accountName="TA-DA Vivek Kumar" glAccountClassId="CURRENT_ASSET" glAccountId="C945528" glAccountTypeId="CURRENT_ASSET"  parentGlAccountId="P110000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945529" accountName="Thirupathi Agro, Krishnagiri TN" glAccountClassId="CURRENT_ASSET" glAccountId="C945529" glAccountTypeId="ACCOUNTS_RECEIVABLE"  parentGlAccountId="P110019" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945530" accountName="Sri Manikanta Traders,khammam Telangana" glAccountClassId="CURRENT_ASSET" glAccountId="C945530" glAccountTypeId="ACCOUNTS_RECEIVABLE"  parentGlAccountId="P110019" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945531" accountName="SRI VENKATESHWAR FERTI PESTI &amp; KOTHUR TL" glAccountClassId="CURRENT_ASSET" glAccountId="C945531" glAccountTypeId="ACCOUNTS_RECEIVABLE"  parentGlAccountId="P110019" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945532" accountName="GURU KRIPA TRADERS KHAIR ALGR UP" glAccountClassId="CURRENT_ASSET" glAccountId="C945532" glAccountTypeId="ACCOUNTS_RECEIVABLE"  parentGlAccountId="P110019" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945533" accountName="Jain Krishi Seva Kendra, Bilsi Badaun UP" glAccountClassId="CURRENT_ASSET" glAccountId="C945533" glAccountTypeId="ACCOUNTS_RECEIVABLE"  parentGlAccountId="P110019" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945534" accountName="Kisan Fertlizers Aliganj Etha UP" glAccountClassId="CURRENT_ASSET" glAccountId="C945534" glAccountTypeId="ACCOUNTS_RECEIVABLE"  parentGlAccountId="P110019" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945535" accountName="LAKHMI CHAND KHANDSARI &amp; SONS SHAHJHP UP" glAccountClassId="CURRENT_ASSET" glAccountId="C945535" glAccountTypeId="ACCOUNTS_RECEIVABLE"  parentGlAccountId="P110019" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945536" accountName="LUXMI KHAD BHANDAR, DIVIYAPUR JALALBD UP" glAccountClassId="CURRENT_ASSET" glAccountId="C945536" glAccountTypeId="ACCOUNTS_RECEIVABLE"  parentGlAccountId="P110019" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945537" accountName="M/S MOSARAM SHIVRAM DAS" glAccountClassId="CURRENT_ASSET" glAccountId="C945537" glAccountTypeId="ACCOUNTS_RECEIVABLE"  parentGlAccountId="P110019" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945538" accountName="MAA AMBAY KHAD BHANDAR SIDHPURA UP" glAccountClassId="CURRENT_ASSET" glAccountId="C945538" glAccountTypeId="ACCOUNTS_RECEIVABLE"  parentGlAccountId="P110019" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945539" accountName="Maa Gayatri Krishak SK Kashirmng UP" glAccountClassId="CURRENT_ASSET" glAccountId="C945539" glAccountTypeId="ACCOUNTS_RECEIVABLE"  parentGlAccountId="P110019" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945540" accountName="MAHESHWARI FERTILIZER STORE, DIWAI" glAccountClassId="CURRENT_ASSET" glAccountId="C945540" glAccountTypeId="ACCOUNTS_RECEIVABLE"  parentGlAccountId="P110019" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945541" accountName="Om Krishi Sewa Kendra, Marhara ETAH UP" glAccountClassId="CURRENT_ASSET" glAccountId="C945541" glAccountTypeId="ACCOUNTS_RECEIVABLE"  parentGlAccountId="P110019" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945542" accountName="One Stop Shop Agri Junction,varaasi Up" glAccountClassId="CURRENT_ASSET" glAccountId="C945542" glAccountTypeId="ACCOUNTS_RECEIVABLE"  parentGlAccountId="P110019" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945543" accountName="Patanjali Kisan Sewa Kendra Chandpur UP" glAccountClassId="CURRENT_ASSET" glAccountId="C945543" glAccountTypeId="ACCOUNTS_RECEIVABLE"  parentGlAccountId="P110019" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945544" accountName="Prakash Khad Bhandar, Bisauli, UP" glAccountClassId="CURRENT_ASSET" glAccountId="C945544" glAccountTypeId="ACCOUNTS_RECEIVABLE"  parentGlAccountId="P110019" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945545" accountName="Rathor Traders Ganjdund-wara,kasganj UP" glAccountClassId="CURRENT_ASSET" glAccountId="C945545" glAccountTypeId="ACCOUNTS_RECEIVABLE"  parentGlAccountId="P110019" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945546" accountName="SINGH KHAD &amp; BEEJ BIKRI KENDRA TUNDLA UP" glAccountClassId="CURRENT_ASSET" glAccountId="C945546" glAccountTypeId="ACCOUNTS_RECEIVABLE"  parentGlAccountId="P110019" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945547" accountName="TIRUPATI TRADING COMPANY L KHERI UP" glAccountClassId="CURRENT_ASSET" glAccountId="C945547" glAccountTypeId="ACCOUNTS_RECEIVABLE"  parentGlAccountId="P110019" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945548" accountName="Vaishno Khad Bhandar,Binawar, Budaun UP" glAccountClassId="CURRENT_ASSET" glAccountId="C945548" glAccountTypeId="ACCOUNTS_RECEIVABLE"  parentGlAccountId="P110019" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945549" accountName="V-Andata Organic,Lakhnauti SRE. UP" glAccountClassId="CURRENT_ASSET" glAccountId="C945549" glAccountTypeId="ACCOUNTS_RECEIVABLE"  parentGlAccountId="P110019" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945550" accountName="Agro Pesticides &amp; Seed Deharadun UK" glAccountClassId="CURRENT_ASSET" glAccountId="C945550" glAccountTypeId="ACCOUNTS_RECEIVABLE"  parentGlAccountId="P110019" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945551" accountName="KISAN KHAD BEEJ BHANDAR--SHAHPUR,UK" glAccountClassId="CURRENT_ASSET" glAccountId="C945551" glAccountTypeId="ACCOUNTS_RECEIVABLE"  parentGlAccountId="P110019" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945552" accountName="Tractor" glAccountClassId="LONGTERM_ASSET" glAccountId="C945552" glAccountTypeId="FIXED_ASSET"  parentGlAccountId="170000" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945553" accountName="JANAPRIYA KRISHI BHANDAR SIRAKOLE WB" glAccountClassId="CURRENT_ASSET" glAccountId="C945553" glAccountTypeId="ACCOUNTS_RECEIVABLE"  parentGlAccountId="P110019" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945554" accountName="NANDI TRADERS GOVINDANAGAR W.MIDNAPOR WB" glAccountClassId="CURRENT_ASSET" glAccountId="C945554" glAccountTypeId="ACCOUNTS_RECEIVABLE"  parentGlAccountId="P110019" glResourceTypeId="MONEY"/>
+<GlAccount accountCode="C945555" accountName="SAI AGRO (DEB DULAL GHOSH) JALPAIGURI WB" glAccountClassId="CURRENT_ASSET" glAccountId="C945555" glAccountTypeId="ACCOUNTS_RECEIVABLE"  parentGlAccountId="P110019" glResourceTypeId="MONEY"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945021" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945022" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945023" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945024" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945025" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945026" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945027" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945028" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945029" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945030" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945031" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945032" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945033" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945034" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945035" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945036" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945037" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945038" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945039" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945040" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945041" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945042" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945043" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945044" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945045" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945046" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945047" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945048" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945049" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945050" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945051" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945052" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945053" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945054" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945055" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945056" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945057" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945058" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945059" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945060" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945061" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945062" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945063" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945064" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945065" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945066" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945067" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945068" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945069" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945070" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945071" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945072" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945073" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945074" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945075" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945076" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945077" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945078" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945079" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945080" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945081" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945082" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945083" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945084" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945085" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945086" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945087" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945088" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945089" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945090" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945091" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945092" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945093" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945094" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945095" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945096" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945097" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945098" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945099" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945100" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945101" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945102" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945103" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945104" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945105" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945106" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945107" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945108" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945109" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945110" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945111" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945112" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945113" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945114" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945115" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945116" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945117" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945118" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945119" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945120" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945121" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945122" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945123" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945124" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945125" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945126" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945127" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945128" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945129" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945130" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945131" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945132" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945133" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945134" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945135" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945136" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945137" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945138" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945139" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945140" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945141" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945142" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945143" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945144" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945145" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945146" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945147" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945148" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945149" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945150" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945151" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945152" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945153" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945154" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945155" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945156" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945157" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945158" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945159" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945160" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945161" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945162" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945163" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945164" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945165" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945166" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945167" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945168" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945169" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945170" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945171" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945172" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945173" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945174" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945175" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945176" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945177" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945178" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945179" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945180" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945181" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945182" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945183" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945184" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945185" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945186" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945187" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945188" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945189" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945190" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945191" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945192" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945193" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945194" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945195" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945196" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945197" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945198" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945199" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945200" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945201" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945202" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945203" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945204" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945205" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945206" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945207" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945208" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945209" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945210" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945211" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945212" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945213" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945214" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945215" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945216" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945217" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945218" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945219" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945220" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945221" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945222" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945223" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945224" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945225" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945226" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945227" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945228" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945229" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945230" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945231" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945232" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945233" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945234" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945235" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945236" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945237" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945238" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945239" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945240" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945241" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945242" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945243" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945244" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945245" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945246" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945247" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945248" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945249" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945250" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945251" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945252" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945253" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945254" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945255" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945256" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945257" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945258" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945259" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945260" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945261" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945262" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945263" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945264" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945265" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945266" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945267" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945268" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945269" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945270" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945271" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945272" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945273" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945274" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945275" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945276" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945277" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945278" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945279" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945280" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945281" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945282" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945283" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945284" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945285" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945286" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945287" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945288" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945289" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945290" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945291" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945292" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945293" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945294" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945295" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945296" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945297" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945298" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945299" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945300" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945301" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945302" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945303" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945304" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945305" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945306" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945307" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945308" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945309" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945310" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945311" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945312" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945313" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945314" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945315" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945316" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945317" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945318" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945319" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945320" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945321" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945322" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945323" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945324" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945325" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945326" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945327" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945328" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945329" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945330" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945331" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945332" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945333" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945334" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945335" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945336" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945337" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945338" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945339" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945340" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945341" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945342" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945343" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945344" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945345" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945346" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945347" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945348" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945349" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945350" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945351" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945352" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945353" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945354" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945355" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945356" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945357" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945358" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945359" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945360" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945361" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945362" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945363" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945364" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945365" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945366" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945367" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945368" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945369" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945370" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945371" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945372" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945373" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945374" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945375" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945376" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945377" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945378" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945379" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945380" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945381" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945382" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945383" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945384" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945385" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945386" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945387" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945388" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945389" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945390" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945391" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945392" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945393" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945394" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945395" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945396" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945397" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945398" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945399" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945400" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945401" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945402" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945403" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945404" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945405" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945406" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945407" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945408" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945409" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945410" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945411" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945412" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945413" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945414" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945415" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945416" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945417" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945418" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945419" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945420" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945421" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945422" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945423" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945424" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945425" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945426" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945427" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945428" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945429" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945430" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945431" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945432" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945433" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945434" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945435" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945436" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945437" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945438" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945439" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945440" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945441" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945442" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945443" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945444" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945445" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945446" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945447" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945448" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945449" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945450" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945451" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945452" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945453" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945454" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945455" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945456" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945457" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945458" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945459" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945460" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945461" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945462" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945463" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945464" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945465" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945466" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945467" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945468" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945469" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945470" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945471" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945472" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945473" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945474" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945475" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945476" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945477" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945478" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945479" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945480" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945481" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945482" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945483" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945484" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945485" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945486" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945487" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945488" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945489" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945490" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945491" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945492" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945493" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945494" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945495" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945496" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945497" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945498" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945499" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945500" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945501" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945502" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945503" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945504" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945505" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945506" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945507" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945508" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945509" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945510" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945511" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945512" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945513" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945514" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945515" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945516" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945517" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945518" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945519" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945520" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945521" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945522" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945523" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945524" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945525" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945526" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945527" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945528" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945529" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945530" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945531" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945532" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945533" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945534" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945535" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945536" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945537" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945538" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945539" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945540" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945541" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945542" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945543" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945544" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945545" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945546" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945547" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945548" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945549" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945550" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945551" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945552" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945553" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945554" fromDate="2019-01-01 00:00:00.0"/>
+<GlAccountOrganization organizationPartyId="patanjali" glAccountId="C945555" fromDate="2019-01-01 00:00:00.0"/>
+
+</entity-engine-xml>

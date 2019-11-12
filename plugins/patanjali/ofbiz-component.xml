@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Licensed to the Apache Software Foundation (ASF) under one
+or more contributor license agreements.  See the NOTICE file
+distributed with this work for additional information
+regarding copyright ownership.  The ASF licenses this file
+to you under the Apache License, Version 2.0 (the
+"License"); you may not use this file except in compliance
+with the License.  You may obtain a copy of the License at
+
+http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+
+<ofbiz-component name="patanjali"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="http://ofbiz.apache.org/dtds/ofbiz-component.xsd">
+    <!-- define resource loaders; most common is to use the component resource loader -->
+    <resource-loader name="main" type="component"/>
+
+    <!-- place the config directory on the classpath to access configuration files -->
+    <classpath type="dir" location="config"/>
+    <classpath type="dir" location="dtd"/>
+
+    <!-- entity resources: model(s), eca(s), group, and data definitions -->
+    <entity-resource type="model" reader-name="main" loader="main" location="entitydef/entitymodel.xml"/>
+    <!-- <entity-resource type="eca" reader-name="main" loader="main" location="entitydef/eecas.xml"/> -->
+<!--     <entity-resource type="data" reader-name="seed" loader="main" location="data/PatanjaliStoreSecurityPermissionSeedData.xml"/> 
+     <entity-resource type="data" reader-name="demo" loader="main" location="data/PatanjaliStoreSecurityGroupDemoData.xml"/> -->
+	
+	
+	<entity-resource type="data" reader-name="seed" loader="main" location="data/EnumUomData.xml"/>
+	<entity-resource type="data" reader-name="ext" loader="main" location="data/PatanjaliGLAccounts.xml"/>
+	<entity-resource type="data" reader-name="ext" loader="main" location="data/newGlAccount.xml"/>
+	<entity-resource type="data" reader-name="ext" loader="main" location="data/01-PatanjaliStoreData.xml"/>
+	<entity-resource type="data" reader-name="ext" loader="main" location="dtd/xmlImport/00-Product.xml"/>
+	<entity-resource type="data" reader-name="ext" loader="main" location="dtd/xmlImport/00-2-Sample-ProductSeperatedByPipeSymbol.xml"/>
+	<entity-resource type="data" reader-name="ext" loader="main" location="dtd/xmlImport/newProduct.xml"/>
+	<entity-resource type="data" reader-name="ext" loader="main" location="dtd/xmlImport/descriptionChangeProduct.xml"/>
+	<entity-resource type="data" reader-name="ext" loader="main" location="data/03-ProductCategoryMember.xml"/>
+	<entity-resource type="data" reader-name="ext" loader="main" location="dtd/xmlImport/01-CreateSupplierParty.xml"/>
+	<entity-resource type="data" reader-name="ext" loader="main" location="dtd/xmlImport/02-CreateSupplierPartyGroup.xml"/>
+	<entity-resource type="data" reader-name="ext" loader="main" location="dtd/xmlImport/03-CreateSupplierPostalContactMech.xml"/>
+	<entity-resource type="data" reader-name="ext" loader="main" location="dtd/xmlImport/04-CreateSupplierPostalContactMechAssoc.xml"/>
+	<entity-resource type="data" reader-name="ext" loader="main" location="dtd/xmlImport/05-CreateSupplierPostalAddress.xml"/>
+	<entity-resource type="data" reader-name="ext" loader="main" location="dtd/xmlImport/06-CreateSupplierPostalContactMechPurpose.xml"/>
+	<entity-resource type="data" reader-name="ext" loader="main" location="dtd/xmlImport/07-CreateSupplierEmailAddressContactMech.xml"/>
+	<entity-resource type="data" reader-name="ext" loader="main" location="dtd/xmlImport/08-CreateSupplierEmailContactMechAssoc.xml"/>
+	<entity-resource type="data" reader-name="ext" loader="main" location="dtd/xmlImport/09-CreateSupplierEmailContactMechPurpose.xml"/>
+	<entity-resource type="data" reader-name="ext" loader="main" location="dtd/xmlImport/10-CreateSupplierTelecomContactMech.xml"/>
+	<entity-resource type="data" reader-name="ext" loader="main" location="dtd/xmlImport/11-CreateSupplierTelecomContactMechAssoc.xml"/>
+	<entity-resource type="data" reader-name="ext" loader="main" location="dtd/xmlImport/12-CreateSupplierTelecomNumber.xml"/>
+	<entity-resource type="data" reader-name="ext" loader="main" location="dtd/xmlImport/13-CreateSupplierTelecomContactMechPurpose.xml"/>
+	<entity-resource type="data" reader-name="ext" loader="main" location="dtd/xmlImport/14-CreateSupplierPartyStatus.xml"/>
+	<entity-resource type="data" reader-name="ext" loader="main" location="dtd/xmlImport/15-CreateSupplierPartyRole.xml"/>
+	<entity-resource type="data" reader-name="ext" loader="main" location="dtd/xmlImport/16-PartyIdentification.xml"/>
+	
+	<entity-resource type="data" reader-name="ext" loader="main" location="dtd/xmlImport/17-CreateCustomerParty.xml"/>
+	<entity-resource type="data" reader-name="ext" loader="main" location="dtd/xmlImport/18-CreateCustomerPartyGroup.xml"/>
+	<entity-resource type="data" reader-name="ext" loader="main" location="dtd/xmlImport/19-CreateCustomerPostalContactMech.xml"/>
+	<entity-resource type="data" reader-name="ext" loader="main" location="dtd/xmlImport/20-CreateCustomerPostalContactMechAssoc.xml"/>
+	<entity-resource type="data" reader-name="ext" loader="main" location="dtd/xmlImport/20-1-CreateCustomerPostalContactMechPurpose.xml"/>
+	<entity-resource type="data" reader-name="ext" loader="main" location="dtd/xmlImport/21-CreateCustomerPostalAddress.xml"/>
+	<entity-resource type="data" reader-name="ext" loader="main" location="dtd/xmlImport/22-CustomerEmailData.xml"/>
+	<entity-resource type="data" reader-name="ext" loader="main" location="dtd/xmlImport/23-CreateCustomerTelecomContactMech.xml"/>
+	<entity-resource type="data" reader-name="ext" loader="main" location="dtd/xmlImport/24-CreateCustomerTelecomContactMechAssoc.xml"/>
+	<entity-resource type="data" reader-name="ext" loader="main" location="dtd/xmlImport/25-CreateCustomerTelecomNumber.xml"/>
+	<entity-resource type="data" reader-name="ext" loader="main" location="dtd/xmlImport/26-CreateCustomerTelecomContactMechPurpose.xml"/>
+	<entity-resource type="data" reader-name="ext" loader="main" location="dtd/xmlImport/27-CreateCustomerPartyRole.xml"/>
+	<entity-resource type="data" reader-name="ext" loader="main" location="dtd/xmlImport/28-customerPartyIdentification.xml"/>
+	<entity-resource type="data" reader-name="ext" loader="main" location="dtd/xmlImport/29-CreateCustomerPartyStatus.xml"/>
+	
+	<entity-resource type="data" reader-name="ext" loader="main" location="dtd/xmlImport/30-Sample-HsnCodeAllProduct.xml"/>
+	<entity-resource type="data" reader-name="ext" loader="main" location="dtd/xmlImport/31-Sample-PCMAllProduct.xml"/>
+	<entity-resource type="data" reader-name="ext" loader="main" location="dtd/xmlImport/newCustomerSupplierData.xml"/>
+	<entity-resource type="data" reader-name="ext" loader="main" location="data/PartyGLAccounts.xml"/>
+	<entity-resource type="data" reader-name="ext" loader="main" location="data/GlAccountOrganizationPartyAndOtherAssoc.xml" />
+	<entity-resource type="data" reader-name="ext" loader="main" location="data/PayRollData.xml" />
+	
+	<!-- <entity-resource type="data" reader-name="ext" loader="main" location="dtd/xmlImport/Invoice.xml"/> -->
+	
+	
+    <!-- service resources: model(s), eca(s) and group definitions -->
+    <service-resource type="model" loader="main" location="servicedef/services.xml"/>
+    <!--
+    <service-resource type="eca" loader="main" location="servicedef/secas.xml"/>
+    <service-resource type="group" loader="main" location="servicedef/groups.xml"/>
+    -->
+
+    <test-suite loader="main" location="testdef/PatanjaliStoreTests.xml"/>
+
+    <!-- web applications; will be mounted when using the embedded container -->
+    <webapp name="PatanjaliWeb"
+        title="PatanjaliStore"
+        server="default-server"
+        location="webapp/PatanjaliWeb"
+        base-permission="OFBTOOLS,PATANJALI"
+        mount-point="/PatanjaliWeb"/>
+</ofbiz-component>

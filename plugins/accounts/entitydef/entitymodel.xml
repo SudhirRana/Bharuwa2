@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Licensed to the Apache Software Foundation (ASF) under one
+or more contributor license agreements.  See the NOTICE file
+distributed with this work for additional information
+regarding copyright ownership.  The ASF licenses this file
+to you under the Apache License, Version 2.0 (the
+"License"); you may not use this file except in compliance
+with the License.  You may obtain a copy of the License at
+
+http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+
+<entitymodel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="http://ofbiz.apache.org/dtds/entitymodel.xsd">
+    <!-- ========================================================= -->
+    <!-- ======================== Defaults ======================= -->
+    <!-- ========================================================= -->
+    <title>Entity of Accounts Component</title>
+    <description>None</description>
+    <copyright></copyright>
+    <version></version>
+ 
+  	
+  	
+ 
+ 
+ 
+    <view-entity entity-name="InvoiceGstExport" package-name="org.apache.ofbiz.accounting.reports">
+        <member-entity entity-alias="INV" entity-name="Invoice"/>
+        <member-entity entity-alias="ITM" entity-name="InvoiceItem"/>
+        <member-entity entity-alias="PFR" entity-name="PartyIdentification"/>
+        <member-entity entity-alias="PGR" entity-name="PartyGroup"/>
+        <alias entity-alias="INV" name="invoiceId" />
+        <alias entity-alias="INV" name="invoiceDate"/>
+        <alias entity-alias="INV" name="invoiceTypeId"/>
+        <alias entity-alias="INV" name="description"/>
+        <alias entity-alias="INV" name="partyIdFrom"/>
+        <alias entity-alias="PFR" name="partyGstn" field="idValue"/>
+        <alias entity-alias="PGR" name="partyName" field="groupName"/>
+        <alias entity-alias="INV" name="partyId"/>
+        <alias entity-alias="INV" name="currencyUomId"/>
+        <alias entity-alias="INV" name="referenceNumber"/>
+        <alias entity-alias="ITM" name="invoiceItemSeqId"/>
+        <alias entity-alias="ITM" name="invoiceItemTypeId"/>
+        <alias entity-alias="ITM" name="itemDescription" field="description"/>
+        <alias entity-alias="ITM" name="productId"/>
+        <alias entity-alias="ITM" name="quantity"/>
+        <alias entity-alias="ITM" name="amount"/>
+        <alias entity-alias="ITM" name="taxAuth" field="taxAuthPartyId"/>
+ 		<alias entity-alias="ITM" name="taxAuthGeo" field="taxAuthGeoId"/>
+ 		<alias entity-alias="ITM" name="taxAuthRate" field="taxAuthorityRateSeqId"/>
+        <view-link entity-alias="INV" rel-entity-alias="ITM" rel-optional="true">
+            <key-map field-name="invoiceId"/>
+        </view-link>
+        <view-link entity-alias="INV" rel-entity-alias="PFR" rel-optional="true">
+            <key-map field-name="partyId" rel-field-name="partyId"/>
+            <entity-condition>
+                <condition-expr entity-alias="PFR" field-name="partyIdentificationTypeId" value="GST"/>
+            </entity-condition>
+        </view-link>
+        <view-link entity-alias="INV" rel-entity-alias="PGR" rel-optional="true">
+            <key-map field-name="partyId"/>
+        </view-link>
+        
+    </view-entity>
+    
+    
+    <view-entity entity-name="TransactionEntriesExport" package-name="org.apache.ofbiz.accounting.reports">
+		<member-entity entity-alias="ATR" entity-name="AcctgTrans"/>       
+        <member-entity entity-alias="INV" entity-name="Invoice"/>
+        <member-entity entity-alias="PFR" entity-name="PartyIdentification"/>
+        <member-entity entity-alias="PGR" entity-name="PartyGroup"/>
+        <alias entity-alias="ATR" name="acctgTransId"/>
+        <alias entity-alias="ATR" name="acctgTransTypeId"/>
+        <alias entity-alias="ATR" name="partyId"/>
+        <alias entity-alias="ATR" name="transactionDate"/>
+        <alias entity-alias="ATR" name="acctgTransTypeId"/>
+        <alias entity-alias="ATR" name="invoiceId" />
+        <alias entity-alias="ATR" name="debitCreditFlag" />
+        <alias entity-alias="ATR" name="origAmount" />
+        <alias entity-alias="ATR" name="amount" />
+        <alias entity-alias="INV" name="description"/>
+        <alias entity-alias="INV" name="partyIdFrom"/>
+        <alias entity-alias="INV" name="referenceNumber"/>
+        <alias entity-alias="PFR" name="partyGstn" field="idValue"/>
+        <alias entity-alias="PGR" name="partyName" field="groupName"/>
+        
+        <view-link entity-alias="ATR" rel-entity-alias="INV" rel-optional="true">
+            <key-map field-name="invoiceId"/>
+        </view-link>
+        <view-link entity-alias="ATR" rel-entity-alias="PFR" rel-optional="true">
+            <key-map field-name="partyId" rel-field-name="partyId"/>
+            <entity-condition>
+                <condition-expr entity-alias="PFR" field-name="partyIdentificationTypeId" value="GST"/>
+            </entity-condition>
+        </view-link>
+        <view-link entity-alias="ATR" rel-entity-alias="PGR" rel-optional="true">
+            <key-map field-name="partyId"/>
+        </view-link>
+    </view-entity>    
+ 
+ 
+</entitymodel>

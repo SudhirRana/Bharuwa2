@@ -1,0 +1,12 @@
+
+<service-eca xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="http://ofbiz.apache.org/dtds/service-eca.xsd">
+
+    <eca service="createInvoice" event="global-commit-post-run" run-on-error="false">
+        <action service="roundingOffInvoice" mode="sync"/>
+    </eca>
+    <eca service="updateInvoice" event="global-commit-post-run" run-on-error="false">
+        <action service="roundingOffInvoice" mode="sync"/>
+    </eca>
+
+</service-eca>    

@@ -1,0 +1,381 @@
+<entity-engine-xml>
+
+ <PartyGlAccount partyId="PRT0001" glAccountId="C928701" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0002" glAccountId="C928702" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0003" glAccountId="C928703" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0004" glAccountId="C928704" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0005" glAccountId="C928705" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0006" glAccountId="C928706" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0007" glAccountId="C928707" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0008" glAccountId="C928708" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0009" glAccountId="C928709" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0010" glAccountId="C928710" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0011" glAccountId="C928711" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0012" glAccountId="C928712" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0013" glAccountId="C928713" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0014" glAccountId="C928714" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0015" glAccountId="C928715" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0016" glAccountId="C928716" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0017" glAccountId="C928717" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0018" glAccountId="C928718" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0019" glAccountId="C928719" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0020" glAccountId="C928720" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0021" glAccountId="C928721" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0022" glAccountId="C928722" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0023" glAccountId="C928723" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0024" glAccountId="C928724" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0025" glAccountId="C928725" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0026" glAccountId="C928726" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0027" glAccountId="C928727" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0028" glAccountId="C928728" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0029" glAccountId="C928729" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0030" glAccountId="C928730" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0031" glAccountId="C928731" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0032" glAccountId="C928732" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0033" glAccountId="C928733" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0034" glAccountId="C928734" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0035" glAccountId="C928735" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0036" glAccountId="C928736" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0037" glAccountId="C928737" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0038" glAccountId="C928738" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0039" glAccountId="C928739" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0040" glAccountId="C928740" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0041" glAccountId="C928741" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0042" glAccountId="C928742" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0043" glAccountId="C928743" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0044" glAccountId="C928744" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0045" glAccountId="C928745" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0046" glAccountId="C928746" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0047" glAccountId="C928747" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0048" glAccountId="C928748" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0049" glAccountId="C928749" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0050" glAccountId="C928750" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0051" glAccountId="C928751" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0052" glAccountId="C928752" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0053" glAccountId="C928753" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0054" glAccountId="C928754" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0055" glAccountId="C928755" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0056" glAccountId="C928756" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0057" glAccountId="C928757" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0058" glAccountId="C928758" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0059" glAccountId="C928759" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0060" glAccountId="C928760" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0061" glAccountId="C928761" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0062" glAccountId="C928762" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0063" glAccountId="C928763" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0064" glAccountId="C928764" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0065" glAccountId="C928765" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0066" glAccountId="C928766" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0067" glAccountId="C928767" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0068" glAccountId="C928768" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0069" glAccountId="C928769" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0070" glAccountId="C928770" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0071" glAccountId="C928771" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0072" glAccountId="C928772" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0073" glAccountId="C928773" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0074" glAccountId="C928774" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0075" glAccountId="C928775" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0076" glAccountId="C928776" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0077" glAccountId="C928777" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0078" glAccountId="C928778" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0079" glAccountId="C928779" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0080" glAccountId="C928780" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0081" glAccountId="C928781" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0082" glAccountId="C928782" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0083" glAccountId="C928783" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0084" glAccountId="C928784" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0085" glAccountId="C928785" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0086" glAccountId="C928786" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0087" glAccountId="C928787" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0088" glAccountId="C928788" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0089" glAccountId="C928789" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0090" glAccountId="C928790" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0091" glAccountId="C928791" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0092" glAccountId="C928792" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0093" glAccountId="C928793" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0094" glAccountId="C928794" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0095" glAccountId="C928795" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0096" glAccountId="C928796" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0097" glAccountId="C928797" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0098" glAccountId="C928798" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0099" glAccountId="C928799" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0100" glAccountId="C928800" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0101" glAccountId="C928801" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0102" glAccountId="C928802" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0103" glAccountId="C928803" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0104" glAccountId="C928804" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0105" glAccountId="C928805" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0106" glAccountId="C928806" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0107" glAccountId="C928807" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0108" glAccountId="C928808" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0109" glAccountId="C928809" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0110" glAccountId="C928810" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0111" glAccountId="C928811" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0112" glAccountId="C928812" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0113" glAccountId="C928813" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0114" glAccountId="C928814" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0115" glAccountId="C928815" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0116" glAccountId="C928816" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0117" glAccountId="C928817" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0118" glAccountId="C928818" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0119" glAccountId="C928819" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0120" glAccountId="C928820" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0121" glAccountId="C928821" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0122" glAccountId="C928822" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0123" glAccountId="C928823" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0124" glAccountId="C928824" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0125" glAccountId="C928825" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0126" glAccountId="C928826" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0127" glAccountId="C928827" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0128" glAccountId="C928828" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0129" glAccountId="C928829" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0130" glAccountId="C928830" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0131" glAccountId="C928831" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0132" glAccountId="C928832" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0133" glAccountId="C928833" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0134" glAccountId="C928834" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0135" glAccountId="C928835" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0136" glAccountId="C928836" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0137" glAccountId="C928837" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0138" glAccountId="C928838" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0139" glAccountId="C928839" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0140" glAccountId="C928840" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0141" glAccountId="C928841" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0142" glAccountId="C928842" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0143" glAccountId="C928843" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0144" glAccountId="C928844" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0145" glAccountId="C928845" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0146" glAccountId="C928846" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0147" glAccountId="C928847" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0148" glAccountId="C928848" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0149" glAccountId="C928849" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0150" glAccountId="C928850" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0151" glAccountId="C928851" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0152" glAccountId="C928852" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0153" glAccountId="C928853" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0154" glAccountId="C928854" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0155" glAccountId="C928855" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0156" glAccountId="C928856" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0157" glAccountId="C928857" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0158" glAccountId="C928858" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0159" glAccountId="C928859" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0160" glAccountId="C928860" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0161" glAccountId="C928861" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0162" glAccountId="C928862" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0163" glAccountId="C928863" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0164" glAccountId="C928864" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0165" glAccountId="C928865" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0166" glAccountId="C928866" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0167" glAccountId="C928867" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0168" glAccountId="C928868" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0169" glAccountId="C928869" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0170" glAccountId="C928870" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0171" glAccountId="C928871" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0172" glAccountId="C928872" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0173" glAccountId="C928873" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0174" glAccountId="C928874" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0175" glAccountId="C928875" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0176" glAccountId="C928876" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0177" glAccountId="C928877" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0178" glAccountId="C928878" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0179" glAccountId="C928879" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0180" glAccountId="C928880" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0181" glAccountId="C928881" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0182" glAccountId="C928882" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0183" glAccountId="C928883" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0184" glAccountId="C928884" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0185" glAccountId="C928885" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0186" glAccountId="C928886" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0187" glAccountId="C928887" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0188" glAccountId="C928888" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0189" glAccountId="C928889" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0190" glAccountId="C928890" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0191" glAccountId="C928891" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0192" glAccountId="C928892" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0193" glAccountId="C928893" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0194" glAccountId="C928894" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0195" glAccountId="C928895" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0196" glAccountId="C928896" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0197" glAccountId="C928897" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0198" glAccountId="C928898" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0199" glAccountId="C928899" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0200" glAccountId="C928900" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0201" glAccountId="C928901" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0202" glAccountId="C928902" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0203" glAccountId="C928903" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0204" glAccountId="C928904" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0205" glAccountId="C928905" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0206" glAccountId="C928906" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0207" glAccountId="C928907" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0208" glAccountId="C928908" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0209" glAccountId="C928909" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0210" glAccountId="C928910" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0211" glAccountId="C928911" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0212" glAccountId="C928912" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0213" glAccountId="C928913" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0214" glAccountId="C928914" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0215" glAccountId="C928915" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0216" glAccountId="C928916" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0217" glAccountId="C928917" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0218" glAccountId="C928918" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0219" glAccountId="C928919" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0220" glAccountId="C928920" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0221" glAccountId="C928921" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0222" glAccountId="C928922" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0223" glAccountId="C928923" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0224" glAccountId="C928924" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0225" glAccountId="C928925" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0226" glAccountId="C928926" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0227" glAccountId="C928927" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0228" glAccountId="C928928" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0229" glAccountId="C928929" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0230" glAccountId="C928930" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0231" glAccountId="C928931" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0232" glAccountId="C928932" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0233" glAccountId="C928933" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0234" glAccountId="C928934" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0235" glAccountId="C928935" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0236" glAccountId="C928936" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0237" glAccountId="C928937" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0238" glAccountId="C928938" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0239" glAccountId="C928939" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0240" glAccountId="C928940" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0241" glAccountId="C928941" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0242" glAccountId="C928942" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0243" glAccountId="C928943" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0244" glAccountId="C928944" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0245" glAccountId="C928945" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0246" glAccountId="C928946" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0247" glAccountId="C928947" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0248" glAccountId="C928948" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0249" glAccountId="C928949" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0250" glAccountId="C928950" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0251" glAccountId="C928951" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0252" glAccountId="C928952" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0253" glAccountId="C928953" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0254" glAccountId="C928954" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0255" glAccountId="C928955" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0256" glAccountId="C928956" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0257" glAccountId="C928957" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0258" glAccountId="C928958" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0259" glAccountId="C928959" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0260" glAccountId="C928960" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0261" glAccountId="C928961" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0262" glAccountId="C928962" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0263" glAccountId="C928963" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0264" glAccountId="C928964" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0265" glAccountId="C928965" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0266" glAccountId="C928966" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0267" glAccountId="C928967" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0268" glAccountId="C928968" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0269" glAccountId="C928969" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0270" glAccountId="C928970" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0271" glAccountId="C928971" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0272" glAccountId="C928972" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0273" glAccountId="C928973" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0274" glAccountId="C928974" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0275" glAccountId="C928975" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0279" glAccountId="C928976" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0280" glAccountId="C928977" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0276" glAccountId="C928978" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0278" glAccountId="C928979" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0277" glAccountId="C928980" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0281" glAccountId="C926001" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="PRT0282" glAccountId="C927508" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ 
+  <PartyGlAccount partyId="CP0001" glAccountId="C413001" roleTypeId="CUSTOMER" glAccountTypeId="ACCOUNTS_RECEIVABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="CP0002" glAccountId="C413002" roleTypeId="CUSTOMER" glAccountTypeId="ACCOUNTS_RECEIVABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="CP0003" glAccountId="C413003" roleTypeId="CUSTOMER" glAccountTypeId="ACCOUNTS_RECEIVABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="CP0004" glAccountId="C413004" roleTypeId="CUSTOMER" glAccountTypeId="ACCOUNTS_RECEIVABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="CP0005" glAccountId="C413005" roleTypeId="CUSTOMER" glAccountTypeId="ACCOUNTS_RECEIVABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="CP0006" glAccountId="C413006" roleTypeId="CUSTOMER" glAccountTypeId="ACCOUNTS_RECEIVABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="CP0007" glAccountId="C413007" roleTypeId="CUSTOMER" glAccountTypeId="ACCOUNTS_RECEIVABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="CP0008" glAccountId="C413008" roleTypeId="CUSTOMER" glAccountTypeId="ACCOUNTS_RECEIVABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="CP0009" glAccountId="C413009" roleTypeId="CUSTOMER" glAccountTypeId="ACCOUNTS_RECEIVABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="CP0010" glAccountId="C413010" roleTypeId="CUSTOMER" glAccountTypeId="ACCOUNTS_RECEIVABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="CP0011" glAccountId="C413011" roleTypeId="CUSTOMER" glAccountTypeId="ACCOUNTS_RECEIVABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="CP0012" glAccountId="C413012" roleTypeId="CUSTOMER" glAccountTypeId="ACCOUNTS_RECEIVABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="CP0013" glAccountId="C413013" roleTypeId="CUSTOMER" glAccountTypeId="ACCOUNTS_RECEIVABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="CP0014" glAccountId="C413014" roleTypeId="CUSTOMER" glAccountTypeId="ACCOUNTS_RECEIVABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="CP0015" glAccountId="C413015" roleTypeId="CUSTOMER" glAccountTypeId="ACCOUNTS_RECEIVABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="CP0016" glAccountId="C413016" roleTypeId="CUSTOMER" glAccountTypeId="ACCOUNTS_RECEIVABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="CP0017" glAccountId="C413017" roleTypeId="CUSTOMER" glAccountTypeId="ACCOUNTS_RECEIVABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="CP0018" glAccountId="C413018" roleTypeId="CUSTOMER" glAccountTypeId="ACCOUNTS_RECEIVABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="CP0019" glAccountId="C413019" roleTypeId="CUSTOMER" glAccountTypeId="ACCOUNTS_RECEIVABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="CP0020" glAccountId="C413020" roleTypeId="CUSTOMER" glAccountTypeId="ACCOUNTS_RECEIVABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="CP0021" glAccountId="C413021" roleTypeId="CUSTOMER" glAccountTypeId="ACCOUNTS_RECEIVABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="CP0022" glAccountId="C413022" roleTypeId="CUSTOMER" glAccountTypeId="ACCOUNTS_RECEIVABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="CP0023" glAccountId="C413023" roleTypeId="CUSTOMER" glAccountTypeId="ACCOUNTS_RECEIVABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="CP0024" glAccountId="C413024" roleTypeId="CUSTOMER" glAccountTypeId="ACCOUNTS_RECEIVABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="CP0025" glAccountId="C413025" roleTypeId="CUSTOMER" glAccountTypeId="ACCOUNTS_RECEIVABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="CP0026" glAccountId="C413026" roleTypeId="CUSTOMER" glAccountTypeId="ACCOUNTS_RECEIVABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="CP0027" glAccountId="C413027" roleTypeId="CUSTOMER" glAccountTypeId="ACCOUNTS_RECEIVABLE" organizationPartyId="patanjali"  />
+<!--  <PartyGlAccount partyId="CP0028" glAccountId="C413028" roleTypeId="CUSTOMER" glAccountTypeId="ACCOUNTS_RECEIVABLE" organizationPartyId="patanjali"  /> -->
+ <PartyGlAccount partyId="CP0029" glAccountId="C413029" roleTypeId="CUSTOMER" glAccountTypeId="ACCOUNTS_RECEIVABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="CP0030" glAccountId="C413030" roleTypeId="CUSTOMER" glAccountTypeId="ACCOUNTS_RECEIVABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="CP0031" glAccountId="C413031" roleTypeId="CUSTOMER" glAccountTypeId="ACCOUNTS_RECEIVABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="CP0032" glAccountId="C413032" roleTypeId="CUSTOMER" glAccountTypeId="ACCOUNTS_RECEIVABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="CP0033" glAccountId="C413033" roleTypeId="CUSTOMER" glAccountTypeId="ACCOUNTS_RECEIVABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="CP0034" glAccountId="C413034" roleTypeId="CUSTOMER" glAccountTypeId="ACCOUNTS_RECEIVABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="CP0035" glAccountId="C413035" roleTypeId="CUSTOMER" glAccountTypeId="ACCOUNTS_RECEIVABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="CP0036" glAccountId="C413036" roleTypeId="CUSTOMER" glAccountTypeId="ACCOUNTS_RECEIVABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="CP0037" glAccountId="C413037" roleTypeId="CUSTOMER" glAccountTypeId="ACCOUNTS_RECEIVABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="CP0038" glAccountId="C413038" roleTypeId="CUSTOMER" glAccountTypeId="ACCOUNTS_RECEIVABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="CP0039" glAccountId="C413039" roleTypeId="CUSTOMER" glAccountTypeId="ACCOUNTS_RECEIVABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="CP0040" glAccountId="C413040" roleTypeId="CUSTOMER" glAccountTypeId="ACCOUNTS_RECEIVABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="CP0041" glAccountId="C413041" roleTypeId="CUSTOMER" glAccountTypeId="ACCOUNTS_RECEIVABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="CP0042" glAccountId="C413042" roleTypeId="CUSTOMER" glAccountTypeId="ACCOUNTS_RECEIVABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="CP0043" glAccountId="C413043" roleTypeId="CUSTOMER" glAccountTypeId="ACCOUNTS_RECEIVABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="CP0044" glAccountId="C413044" roleTypeId="CUSTOMER" glAccountTypeId="ACCOUNTS_RECEIVABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="CP0045" glAccountId="C413045" roleTypeId="CUSTOMER" glAccountTypeId="ACCOUNTS_RECEIVABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="CP0046" glAccountId="C413046" roleTypeId="CUSTOMER" glAccountTypeId="ACCOUNTS_RECEIVABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="CP0047" glAccountId="C413047" roleTypeId="CUSTOMER" glAccountTypeId="ACCOUNTS_RECEIVABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="CP0048" glAccountId="C413048" roleTypeId="CUSTOMER" glAccountTypeId="ACCOUNTS_RECEIVABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="CP0049" glAccountId="C413049" roleTypeId="CUSTOMER" glAccountTypeId="ACCOUNTS_RECEIVABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="CP0050" glAccountId="C413050" roleTypeId="CUSTOMER" glAccountTypeId="ACCOUNTS_RECEIVABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="CP0051" glAccountId="C413051" roleTypeId="CUSTOMER" glAccountTypeId="ACCOUNTS_RECEIVABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="CP0052" glAccountId="C413052" roleTypeId="CUSTOMER" glAccountTypeId="ACCOUNTS_RECEIVABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="CP0056" glAccountId="C413053" roleTypeId="CUSTOMER" glAccountTypeId="ACCOUNTS_RECEIVABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="CP0059" glAccountId="C419118" roleTypeId="CUSTOMER" glAccountTypeId="ACCOUNTS_RECEIVABLE" organizationPartyId="patanjali"  />
+ <PartyGlAccount partyId="CP0053" glAccountId="C921005" roleTypeId="CUSTOMER" glAccountTypeId="ACCOUNTS_RECEIVABLE" organizationPartyId="patanjali"  />
+<!--  <PartyGlAccount partyId="CP0054" glAccountId="C928947" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  /> -->
+ <PartyGlAccount partyId="CP0055" glAccountId="P110020" roleTypeId="CUSTOMER" glAccountTypeId="CURRENT_ASSET" organizationPartyId="patanjali"  />
+<!--  <PartyGlAccount partyId="CP0057" glAccountId="C928739" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  /> -->
+<!--  <PartyGlAccount partyId="CP0058" glAccountId="C928911" roleTypeId="SUPPLIER" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  /> -->
+ 
+	<!-- <AcctgTrans acctgTransId="P10000" acctgTransTypeId="INCOMING_PAYMENT" glFiscalTypeId="ACTUAL" isPosted="Y" postedDate="2019-03-31 00:00:00.001" transactionDate="2019-03-31 00:00:00.001"/>
+
+<AcctgTransEntry acctgTransEntrySeqId="P00001" acctgTransEntryTypeId="_NA_" acctgTransId="P10000" amount="9000"  currencyUomId="INR" debitCreditFlag="D" glAccountId="111100" organizationPartyId="patanjali" reconcileStatusId="AES_NOT_RECONCILED"/>
+
+<AcctgTransEntry acctgTransEntrySeqId="P00002" acctgTransEntryTypeId="_NA_" acctgTransId="P10000" amount="9000"  currencyUomId="INR" debitCreditFlag="C" glAccountId="C921005" organizationPartyId="patanjali" reconcileStatusId="AES_RECONCILED"  glAccountTypeId="ACCREC_UNAPPLIED" />
+
+
+
+<AcctgTrans acctgTransId="PC419043" acctgTransTypeId="OUTGOING_PAYMENT" glFiscalTypeId="ACTUAL" isPosted="Y" postedDate="2019-03-31 00:00:00.001" transactionDate="2019-03-31 00:00:00.001"/>
+
+<AcctgTransEntry acctgTransEntrySeqId="00001" acctgTransEntryTypeId="_NA_" acctgTransId="PC419043" amount="16885"  currencyUomId="INR" debitCreditFlag="D" glAccountId="C419043" organizationPartyId="patanjali" reconcileStatusId="AES_NOT_RECONCILED"/>
+
+
+<AcctgTransEntry acctgTransEntrySeqId="00002" acctgTransEntryTypeId="_NA_" acctgTransId="PC419043" amount="16885"  currencyUomId="INR" debitCreditFlag="C" glAccountId="111100" organizationPartyId="patanjali" reconcileStatusId="AES_NOT_RECONCILED" />
+
+
+<AcctgTrans acctgTransId="PC419046" acctgTransTypeId="OUTGOING_PAYMENT" glFiscalTypeId="ACTUAL" isPosted="N" postedDate="" transactionDate="2019-03-31 00:00:00.001"/>
+
+<AcctgTransEntry acctgTransEntrySeqId="00001" acctgTransEntryTypeId="_NA_" acctgTransId="PC419046" amount="276"  currencyUomId="INR" debitCreditFlag="D" glAccountId="C419046" organizationPartyId="patanjali" reconcileStatusId="AES_NOT_RECONCILED"/>
+ -->
+ 
+ <Party partyId="E10000" partyTypeId="PERSON" statusId="PARTY_ENABLED"/>
+ <Person firstName="Anuj" lastName="Trivedi" partyId="E10000"/>
+ <PartyRole partyId="E10000" roleTypeId="_NA_" />
+ <PartyRole partyId="E10000" roleTypeId="EMPLOYEE" />
+ <PartyGlAccount partyId="E10000" glAccountId="C952300" roleTypeId="EMPLOYEE" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <Employment fromDate="2019-06-01 19:03:05.0" partyIdFrom="patanjali" partyIdTo="E10000" roleTypeIdFrom="INTERNAL_ORGANIZATIO" roleTypeIdTo="EMPLOYEE"/>
+ 
+ <Party partyId="E10001" partyTypeId="PERSON" statusId="PARTY_ENABLED"/>
+ <Person firstName="Raghwendra" lastName="Singh" partyId="E10001"/>
+ <PartyRole partyId="E10001" roleTypeId="_NA_" />
+ <PartyRole partyId="E10001" roleTypeId="EMPLOYEE" />
+ <PartyGlAccount partyId="E10001" glAccountId="C952301" roleTypeId="EMPLOYEE" glAccountTypeId="ACCOUNTS_PAYABLE" organizationPartyId="patanjali"  />
+ <Employment fromDate="2019-06-01 19:03:05.0" partyIdFrom="patanjali" partyIdTo="E10001" roleTypeIdFrom="INTERNAL_ORGANIZATIO" roleTypeIdTo="EMPLOYEE"/>
+ 
+ </entity-engine-xml>

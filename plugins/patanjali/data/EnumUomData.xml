@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity-engine-xml>
+    <UomType description="Unit Quantity Code" hasTable="N" uomTypeId="UQC_MEASURE"/>
+   	<Uom abbreviation="BAG" description="BAG-BAGS" uomId="UQC_bag" uomTypeId="UQC_MEASURE"/>
+   	<Uom abbreviation="BAL" description="BAL-BALE" uomId="UQC_bal" uomTypeId="UQC_MEASURE"/>     
+   	<Uom abbreviation="BDL" description="BDL-BUNDLES" uomId="UQC_bdl" uomTypeId="UQC_MEASURE"/>
+   	<Uom abbreviation="BKL" description="BKL-BUCKLES" uomId="UQC_bkl" uomTypeId="UQC_MEASURE"/>
+   	<Uom abbreviation="BOU" description="BOU-BILLION OF UNITS" uomId="UQC_bou" uomTypeId="UQC_MEASURE"/>
+  	<Uom abbreviation="BOX" description="BOX-BOX" uomId="UQC_box" uomTypeId="UQC_MEASURE"/>
+   	<Uom abbreviation="BTL" description="BTL-BOTTLES" uomId="UQC_btl" uomTypeId="UQC_MEASURE"/>
+	<Uom abbreviation="BUN" description="BUN-BUNCHES" uomId="UQC_bun" uomTypeId="UQC_MEASURE"/>
+	<Uom abbreviation="CAN" description="CAN-CANS" uomId="UQC_can" uomTypeId="UQC_MEASURE"/>
+	<Uom abbreviation="CBM" description="CBM-CUBIC METERS" uomId="UQC_cbm" uomTypeId="UQC_MEASURE"/>
+	<Uom abbreviation="CCM" description="CCM-CUBIC CENTIMETERS" uomId="UQC_ccm" uomTypeId="UQC_MEASURE"/>
+	<Uom abbreviation="CMS" description="CMS-CENTIMETERS" uomId="UQC_cms" uomTypeId="UQC_MEASURE"/>
+	<Uom abbreviation="CTN" description="CTN-CARTONS" uomId="UQC_ctn" uomTypeId="UQC_MEASURE"/>
+	<Uom abbreviation="DOZ" description="DOZ-DOZENS" uomId="UQC_doz" uomTypeId="UQC_MEASURE"/>
+	<Uom abbreviation="DRM" description="DRM-DRUMS" uomId="UQC_drm" uomTypeId="UQC_MEASURE"/>
+	<Uom abbreviation="GGK" description="GGK-GREAT GROSS" uomId="UQC_ggk" uomTypeId="UQC_MEASURE"/>
+	<Uom abbreviation="GMS" description="GMS-GRAMMES" uomId="UQC_gms" uomTypeId="UQC_MEASURE"/>
+	<Uom abbreviation="GRS" description="GRS-GROSS" uomId="UQC_grs" uomTypeId="UQC_MEASURE"/>
+	<Uom abbreviation="GYD" description="GYD-GROSS YARDS" uomId="UQC_gyd" uomTypeId="UQC_MEASURE"/>
+	<Uom abbreviation="KGS" description="KGS-KILOGRAMS" uomId="UQC_kgs" uomTypeId="UQC_MEASURE"/>
+<!-- 	<Uom abbreviation="LTR" description="KLR-KILOLITRE" uomId="UQC_klr" uomTypeId="UQC_MEASURE"/> -->
+	<Uom abbreviation="LTR" description="LTR-LITRE" uomId="UQC_ltr" uomTypeId="UQC_MEASURE"/>
+	<Uom abbreviation="KME" description="KME-KILOMETRE" uomId="UQC_kme" uomTypeId="UQC_MEASURE"/>
+	<Uom abbreviation="MLT" description="MLT-MILILITRE" uomId="UQC_mlt" uomTypeId="UQC_MEASURE"/>
+	<Uom abbreviation="MTR" description="MTR-METERS" uomId="UQC_mtr" uomTypeId="UQC_MEASURE"/>
+	<Uom abbreviation="MTS" description="MTS-METRIC TON" uomId="UQC_mts" uomTypeId="UQC_MEASURE"/>
+	<Uom abbreviation="NOS" description="NOS-NUMBERS" uomId="UQC_nos" uomTypeId="UQC_MEASURE"/>
+	<Uom abbreviation="PAC" description="PAC-PACKS" uomId="UQC_pac" uomTypeId="UQC_MEASURE"/>
+	<Uom abbreviation="PCS" description="PCS-PIECES" uomId="UQC_pcs" uomTypeId="UQC_MEASURE"/>
+	<Uom abbreviation="PRS" description="PRS-PAIRS" uomId="UQC_prs" uomTypeId="UQC_MEASURE"/>
+	<Uom abbreviation="QTL" description="QTL-QUINTAL" uomId="UQC_qtl" uomTypeId="UQC_MEASURE"/>
+	<Uom abbreviation="ROL" description="ROL-ROLLS" uomId="UQC_rol" uomTypeId="UQC_MEASURE"/>
+	<Uom abbreviation="SET" description="SET-SETS" uomId="UQC_set" uomTypeId="UQC_MEASURE"/>
+	<Uom abbreviation="SQF" description="SQF-SQUARE FEET" uomId="UQC_sqf" uomTypeId="UQC_MEASURE"/>
+	<Uom abbreviation="SQM" description="SQM-SQUARE METERS" uomId="UQC_sqm" uomTypeId="UQC_MEASURE"/>
+	<Uom abbreviation="SQY" description="SQY-SQUARE YARDS" uomId="UQC_sqy" uomTypeId="UQC_MEASURE"/>
+	<Uom abbreviation="TBS" description="TBS-TABLETS" uomId="UQC_tbs" uomTypeId="UQC_MEASURE"/>
+	<Uom abbreviation="TGM" description="TGM-TEN GROSS" uomId="UQC_tgm" uomTypeId="UQC_MEASURE"/>
+	<Uom abbreviation="THD" description="THD-THOUSANDS" uomId="UQC_thd" uomTypeId="UQC_MEASURE"/>
+	<Uom abbreviation="TON" description="TON-TONNES" uomId="UQC_ton" uomTypeId="UQC_MEASURE"/>
+	<Uom abbreviation="TUB" description="TUB-TUBES" uomId="UQC_tub" uomTypeId="UQC_MEASURE"/>
+	<Uom abbreviation="UGS" description="UGS-US GALLONS" uomId="UQC_ugs" uomTypeId="UQC_MEASURE"/>
+	<Uom abbreviation="UNT" description="UNT-UNITS" uomId="UQC_unt" uomTypeId="UQC_MEASURE"/>
+	<Uom abbreviation="YDS" description="YDS-YARDS" uomId="UQC_yds" uomTypeId="UQC_MEASURE"/>
+	<Uom abbreviation="OTH" description="OTH-OTHERS" uomId="UQC_oth" uomTypeId="UQC_MEASURE"/>
+	
+	<EnumerationType description="Export Type" enumTypeId="EXPORT_TYPE" hasTable="N" />
+	<Enumeration description="With Payment Duty" enumCode="WPAY" enumId="EXT_WPAY" enumTypeId="EXPORT_TYPE" sequenceId="01"/>
+	<Enumeration description="Without Payment Duty" enumCode="WOPAY" enumId="EXT_WOPAY" enumTypeId="EXPORT_TYPE" sequenceId="02"/> 
+	
+	<EnumerationType description="Note Type" enumTypeId="NOTE_TYPE" hasTable="N" />
+	<Enumeration description="Credit Note" enumCode="C" enumId="NTE_C" enumTypeId="NOTE_TYPE" sequenceId="01"/>
+	<Enumeration description="Debit Note" enumCode="D" enumId="NTE_D" enumTypeId="NOTE_TYPE" sequenceId="02"/> 
+	
+	<EnumerationType description="Sales Type" enumTypeId="SALES_TYPE" hasTable="N" />
+	<Enumeration description="E-Commerce" enumCode="E" enumId="SLS_E" enumTypeId="SALES_TYPE" sequenceId="01"/>
+	<Enumeration description="Other than E-Commerce" enumCode="OE" enumId="SLS_OE" enumTypeId="SALES_TYPE" sequenceId="02"/> 
+	
+	<Geo geoId="IN-JK" geoName="01-Jammu and Kashmir" wellKnownText="Jammu and Kashmir" />
+	<Geo geoId="IN-HP" geoName="02-Himachal Pradesh" wellKnownText="Himachal Pradesh" />
+	<Geo geoId="IN-PB" geoName="03-Punjab" wellKnownText="Punjab" />
+	<Geo geoId="IN-CH" geoName="04-Chandigarh" wellKnownText="Chandigarh" />
+	<Geo geoId="IN-UT" geoName="05-Uttarakhand" wellKnownText="Uttarakhand" />
+	<Geo geoId="IN-HR" geoName="06-Haryana" wellKnownText="Haryana" />
+	<Geo geoId="IN-DL" geoName="07-Delhi" wellKnownText="Delhi" />
+	<Geo geoId="IN-RJ" geoName="08-Rajasthan" wellKnownText="Rajasthan" />
+	<Geo geoId="IN-UP" geoName="09-Uttar Pradesh" wellKnownText="Uttar Pradesh" />
+	<Geo geoId="IN-BR" geoName="10-Bihar" wellKnownText="Bihar" />
+	<Geo geoId="IN-SK" geoName="11-Sikkim" wellKnownText="Sikkim" />
+	<Geo geoId="IN-AR" geoName="12-Arunachal Pradesh" wellKnownText="Arunachal Pradesh" />
+	<Geo geoId="IN-NL" geoName="13-Nagaland" wellKnownText="Nagaland" />
+	<Geo geoId="IN-MN" geoName="14-Manipur" wellKnownText="Manipur" />
+	<Geo geoId="IN-MZ" geoName="15-Mizoram" wellKnownText="Mizoram" />
+	<Geo geoId="IN-TR" geoName="16-Tripura" wellKnownText="Tripura" />
+	<Geo geoId="IN-ML" geoName="17-Meghalaya" wellKnownText="Meghalaya" />
+	<Geo geoId="IN-AS" geoName="18-Assam" wellKnownText="Assam" />
+	<Geo geoId="IN-WB" geoName="19-West Bengal" wellKnownText="West Bengal" />
+	<Geo geoId="IN-JH" geoName="20-Jharkhand" wellKnownText="Jharkhand" />
+	<Geo geoId="IN-OR" geoName="21-Odisha" wellKnownText="Odisha" />
+	<Geo geoId="IN-CT" geoName="22-Chhattisgarh" wellKnownText="Chhattisgarh" />
+	<Geo geoId="IN-MP" geoName="23-Madhya Pradesh" wellKnownText="Madhya Pradesh" />
+	<Geo geoId="IN-GJ" geoName="24-Gujarat" wellKnownText="Gujarat" />
+	<Geo geoId="IN-DD" geoName="25-Daman and Diu" wellKnownText="Daman and Diu" />
+	<Geo geoId="IN-DN" geoName="26-Dadra and Nagar Haveli" wellKnownText="Dadra and Nagar Haveli" />
+	<Geo geoId="IN-MH" geoName="27-Maharashtra" wellKnownText="Maharashtra" />
+	<Geo geoId="IN-KA" geoName="28-Karnataka" wellKnownText="Karnataka" />
+	<Geo geoId="IN-GA" geoName="29-Goa" wellKnownText="Goa" />
+	<Geo geoId="IN-LD" geoName="30-Lakshadweep" wellKnownText="Lakshadweep" />
+	<Geo geoId="IN-KL" geoName="31-Kerala" wellKnownText="Kerala" />
+	<Geo geoId="IN-TN" geoName="32-Tamil Nadu" wellKnownText="Tamil Nadu" />
+	<Geo geoId="IN-PY" geoName="33-Puducherry" wellKnownText="Puducherry" />
+	<Geo geoId="IN-AN" geoName="34-Andaman and Nicobar Islands" wellKnownText="Andaman and Nicobar Islands" />
+	<Geo geoId="IN-TG" geoName="35-Telangana" wellKnownText="Telangana" />
+	<Geo geoId="IN-AP" geoName="36-Andhra Pradesh" wellKnownText="Andhra Pradesh" />
+	<Geo geoId="IN-OT" geoName="97-Other Territory" wellKnownText="Other Territory" abbreviation="OT" geoCode="OT" geoTypeId="TERRITORY"/>
+	
+	
+	<InvoiceType description="Regular" hasTable="N" invoiceTypeId="REG_INVOICE" parentTypeId="SALES_INVOICE"/>
+ 	<InvoiceType description="SEZ supplies with payment" hasTable="N" invoiceTypeId="SEZSWP_INVOICE" parentTypeId="SALES_INVOICE"/>
+ 	<InvoiceType description="SEZ supplies without payment" hasTable="N" invoiceTypeId="SEZSWOP_INVOICE" parentTypeId="SALES_INVOICE"/>
+	<InvoiceType description="Deemed Exp" hasTable="N" invoiceTypeId="DMDEXP_INVOICE" parentTypeId="SALES_INVOICE"/>
+ 	<InvoiceType description="Sale from Bonded WH" hasTable="N" invoiceTypeId="SFBWH_INVOICE" parentTypeId="SALES_INVOICE"/>
+	 
+ 	<EnumerationType description="Reason For Issuing Note/Document" enumTypeId="RFIN_TYPE" hasTable="N" />
+	<Enumeration description="01-Sales Return" enumCode="SLSRTN" enumId="RFIN_SLSRTN" enumTypeId="RFIN_TYPE" sequenceId="01"/>
+	<Enumeration description="02-Post Sale Discount" enumCode="PSTSLSDIS" enumId="RFIN_PSTSLSDIS" enumTypeId="RFIN_TYPE" sequenceId="02"/>
+	<Enumeration description="03-Deficiency in services" enumCode="DFCNSRVS" enumId="RFIN_DFCNSRVS" enumTypeId="RFIN_TYPE" sequenceId="03"/>
+	<Enumeration description="04-Correction in Invoice" enumCode="CRCNINV" enumId="RFIN_CRCNINV" enumTypeId="RFIN_TYPE" sequenceId="04"/>
+	<Enumeration description="05-Change in POS" enumCode="CHGPOS" enumId="RFIN_CHGPOS" enumTypeId="RFIN_TYPE" sequenceId="05"/>
+	<Enumeration description="06-Finalization of Provisional assessment" enumCode="FINPROASSMT" enumId="RFIN_FINPROASSMT" enumTypeId="RFIN_TYPE" sequenceId="06"/>
+	<Enumeration description="07-Others" enumCode="OTH" enumId="RFIN_OTH" enumTypeId="RFIN_TYPE" sequenceId="07"/>
+	
+	<EnumerationType description="Nature of Document" enumTypeId="NOD_TYPE" hasTable="N" />
+	<Enumeration description="Invoices for outward supply" enumCode="IFOS" enumId="NOD_IFOS" enumTypeId="NOD_TYPE" sequenceId="01"/>
+	<Enumeration description="Invoices for inward supply from unregistered person" enumCode="IFIS" enumId="NOD_IFIS" enumTypeId="NOD_TYPE" sequenceId="02"/>
+	<Enumeration description="Revised Invoice" enumCode="REVINV" enumId="NOD_REVINV" enumTypeId="NOD_TYPE" sequenceId="03"/>
+	<Enumeration description="Debit Note" enumCode="DEBNOT" enumId="NOD_DEBNOT" enumTypeId="NOD_TYPE" sequenceId="04"/>
+	<Enumeration description="Credit Note" enumCode="CRENOT" enumId="NOD_CRENOT" enumTypeId="NOD_TYPE" sequenceId="05"/>
+	<Enumeration description="Receipt Voucher" enumCode="RECVOU" enumId="NOD_RECVOU" enumTypeId="NOD_TYPE" sequenceId="06"/>
+	<Enumeration description="Payment Voucher" enumCode="PAYVOU" enumId="NOD_PAYVOU" enumTypeId="NOD_TYPE" sequenceId="07"/>
+	<Enumeration description="Refund Voucher" enumCode="REFVOU" enumId="NOD_REFVOU" enumTypeId="NOD_TYPE" sequenceId="08"/>
+	<Enumeration description="Delivery Challan for job work" enumCode="DCFJOBWRK" enumId="NOD_DCFJOBWRK" enumTypeId="NOD_TYPE" sequenceId="09"/>
+	<Enumeration description="Delivery Challan for supply on approval" enumCode="DCFSUPOAPP" enumId="NOD_DCFSUPOAPP" enumTypeId="NOD_TYPE" sequenceId="10"/>
+	<Enumeration description="Delivery Challan in case of liquid gas" enumCode="DCICOLIQGAS" enumId="NOD_DCICOLIQGAS" enumTypeId="NOD_TYPE" sequenceId="11"/>
+	<Enumeration description="Delivery Challan in case other than by way of supply (excluding at S no. 9 to 11)" enumCode="DCOTH" enumId="NOD_DCOTH" enumTypeId="NOD_TYPE" sequenceId="12"/>
+	
+	<EnumerationType description="UR Type (Type of  supply to Unregistered Taxpayers)" enumTypeId="UR_TYPE" hasTable="N" />
+	<Enumeration description="Export with payment" enumCode="EXPWP" enumId="UR_EXPWP" enumTypeId="UR_TYPE" sequenceId="01"/>
+	<Enumeration description="Export without payment" enumCode="EXPWP" enumId="UR_EXPWOP" enumTypeId="UR_TYPE" sequenceId="02"/>
+	<Enumeration description="B2CL supplies to consumers" enumCode="B2CL" enumId="UR_B2CL" enumTypeId="UR_TYPE" sequenceId="03"/>
+	
+	<EnumerationType description="Supply Type" enumTypeId="SUP_TYPE" hasTable="N" />
+	<Enumeration description="Inter State" enumCode="INTER" enumId="SUP_INTER" enumTypeId="SUP_TYPE" sequenceId="01"/>
+	<Enumeration description="Intra State" enumCode="INTRA" enumId="SUP_INTRA" enumTypeId="SUP_TYPE" sequenceId="02"/>
+	
+	<PartyIdentificationType partyIdentificationTypeId="TIN" description="TIN number"/>
+	<PartyIdentificationType partyIdentificationTypeId="PAN" description="PAN (Permanent account number)"/>
+	<PartyIdentificationType partyIdentificationTypeId="GST" description="GST number"/>
+	<PartyIdentificationType partyIdentificationTypeId="CST" description="CST number"/>
+	<PartyIdentificationType partyIdentificationTypeId="CIN" description="CIN number"/>
+	<RoleType description="Registered" hasTable="N" parentTypeId="PERSON_ROLE" roleTypeId="REGISTERED"/>
+	<RoleType description="Un-Registered" hasTable="N" parentTypeId="PERSON_ROLE" roleTypeId="UNREGISTERED"/>
+	
+	<Uom abbreviation="CLD" description="CLD" uomId="UQC_cld" uomTypeId="UQC_MEASURE"/>
+	<Uom abbreviation="FT" description="FT" uomId="UQC_ft" uomTypeId="UQC_MEASURE"/>
+	<Uom abbreviation="JAR" description="JAR" uomId="UQC_jar" uomTypeId="UQC_MEASURE"/>
+	<Uom abbreviation="PAD" description="PAD" uomId="UQC_pad" uomTypeId="UQC_MEASURE"/>
+	<Uom abbreviation="Packet" description="Packet" uomId="UQC_pkt" uomTypeId="UQC_MEASURE"/>
+	<Uom abbreviation="TIN" description="TIN" uomId="UQC_tin" uomTypeId="UQC_MEASURE"/>
+	<Uom abbreviation="KIT" description="Kit" uomId="UQC_kit" uomTypeId="UQC_MEASURE"/>
+</entity-engine-xml>
