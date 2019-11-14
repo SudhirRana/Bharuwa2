@@ -19,9 +19,9 @@ under the License.
 <div id="footer-offset"></div>
 <div id="footer">
     <span>${nowTimestamp?datetime?string.short} - <a href="<@ofbizUrl>ListTimezones</@ofbizUrl>">${timeZone.getDisplayName(timeZone.useDaylightTime(), Static["java.util.TimeZone"].LONG, locale)}</a></span>
-    <span>${uiLabelMap.CommonCopyright} (c) 2001-${nowTimestamp?string("yyyy")} 
-        <a href="http://bharuwasolution.com/" target="_blank">Bharuwa Solutions Pvt. Ltd., New Delhi</a>. ${uiLabelMap.CommonPoweredBy}
-        <a href="http://bharuwasolution.com/" target="_blank">Bharuwa Solutions</a>
+    <span>${uiLabelMap.CommonPoweredBy}
+        <a href="http://bharuwasolution.com/" target="_blank">Bharuwa Solutions Pvt. Ltd., New Delhi</a>.
+       <#--  <a href="http://bharuwasolution.com/" target="_blank">Bharuwa Solutions</a>   -->
     </span>
 </div>
 </div>
